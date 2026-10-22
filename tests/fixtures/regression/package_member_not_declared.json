@@ -1,0 +1,13 @@
+{
+  "case_id": "package_member_not_declared",
+  "case": {
+    "declared_members": ["docs/a.md", "docs/b.md"],
+    "manifest_scope": ["docs/a.md", "docs/b.md"]
+  },
+  "positive": {
+    "members": ["docs/a.md", "docs/b.md"]
+  },
+  "negative": {
+    "members": ["docs/a.md", "docs/b.md", "docs/c.md"]
+  }
+}

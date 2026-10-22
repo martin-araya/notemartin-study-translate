@@ -1,0 +1,8 @@
+{
+  "case_id": "bt-true-negative-obvious",
+  "category": "true_match",
+  "source_text": "Click OK to confirm.",
+  "translated_text": "Haz clic en Aceptar para confirmar.",
+  "expected_outcome": "agree_match",
+  "expected_should_be_caught": false
+}

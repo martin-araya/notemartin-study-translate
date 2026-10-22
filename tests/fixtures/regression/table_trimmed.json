@@ -1,0 +1,12 @@
+{
+  "case_id": "table_trimmed",
+  "case": {
+    "source": "Supported values:\n\n| Option | Default | Notes |\n| --- | --- | --- |\n| `timeout` | 30 | Seconds before abort. |\n| `retries` | 3 | Attempts per call. |\n| `verbose` | false | Extra logging. |\n"
+  },
+  "positive": {
+    "text": "Valores admitidos:\n\n| Opción | Predeterminado | Notas |\n| --- | --- | --- |\n| `timeout` | 30 | Segundos antes de abortar. |\n| `retries` | 3 | Intentos por llamada. |\n| `verbose` | false | Registro adicional. |\n"
+  },
+  "negative": {
+    "text": "Valores admitidos:\n\n| Opción | Predeterminado | Notas |\n| --- | --- | --- |\n| `timeout` | 30 | Segundos antes de abortar. |\n| `verbose` | false | Registro adicional. |\n"
+  }
+}

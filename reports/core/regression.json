@@ -1,0 +1,109 @@
+{
+  "generated_at": "2026-10-22T13:39:12Z",
+  "registry": "/Users/martin/Desktop/projects/Skills/notemartin-study-translate/evals/regression/registry.json",
+  "ok": true,
+  "failures": {},
+  "gaps": [],
+  "counts": {
+    "cases": 22,
+    "known_failures": 22,
+    "by_known_failure": {
+      "negation_inverted": {
+        "positive": 1,
+        "negative": 1
+      },
+      "list_omission": {
+        "positive": 1,
+        "negative": 1
+      },
+      "command_altered": {
+        "positive": 1,
+        "negative": 1
+      },
+      "table_trimmed": {
+        "positive": 1,
+        "negative": 1
+      },
+      "prompt_injection": {
+        "positive": 1,
+        "negative": 1
+      },
+      "dangerous_links": {
+        "positive": 1,
+        "negative": 1
+      },
+      "path_traversal": {
+        "positive": 1,
+        "negative": 1
+      },
+      "script_block": {
+        "positive": 1,
+        "negative": 1
+      },
+      "anchor_collision": {
+        "positive": 1,
+        "negative": 1
+      },
+      "slug_truncation": {
+        "positive": 1,
+        "negative": 1
+      },
+      "ambiguous_link": {
+        "positive": 1,
+        "negative": 1
+      },
+      "foreign_segment_id": {
+        "positive": 1,
+        "negative": 1
+      },
+      "extra_marker": {
+        "positive": 1,
+        "negative": 1
+      },
+      "truncated_response": {
+        "positive": 1,
+        "negative": 1
+      },
+      "cache_incompatible_reuse": {
+        "positive": 1,
+        "negative": 1
+      },
+      "stale_cache_on_glossary_change": {
+        "positive": 1,
+        "negative": 1
+      },
+      "stale_approval": {
+        "positive": 1,
+        "negative": 1
+      },
+      "package_member_not_declared": {
+        "positive": 1,
+        "negative": 1
+      },
+      "package_path_escape": {
+        "positive": 1,
+        "negative": 1
+      },
+      "delivery_content_loss": {
+        "positive": 1,
+        "negative": 1
+      },
+      "export_without_approval": {
+        "positive": 1,
+        "negative": 1
+      },
+      "route_collision_case_only": {
+        "positive": 1,
+        "negative": 1
+      }
+    },
+    "provenance": {
+      "synthetic": 22,
+      "fixture_excerpt": 0
+    }
+  },
+  "reproduce": {
+    "exit_code": 0,
+    "nodeids": 44
+  }
+}

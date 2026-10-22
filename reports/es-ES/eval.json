@@ -1,0 +1,68 @@
+{
+  "variant": "es-ES",
+  "corpus": "tests/fixtures/es-es",
+  "generated_at": "2026-10-20T14:11:27Z",
+  "evaluation_kind": "assisted",
+  "reviewer_status": "assisted_only_pending_human",
+  "human_reviewer": null,
+  "disclaimer": "Revisión asistida; sin firma nativa. La fase 109 exige un firmante antes de marcar la fila como estable.",
+  "returncodes": {
+    "inventory": 0,
+    "prepare": 0,
+    "detect_language": 0,
+    "packetize": 0
+  },
+  "metrics": {
+    "total_segments": 53,
+    "by_language": {
+      "en": 3,
+      "es": 26,
+      "empty": 18,
+      "other": 3,
+      "unknown": 3
+    },
+    "by_disposition": {
+      "translatable": 6,
+      "already_target": 26,
+      "no_text": 18,
+      "too_short": 2,
+      "unknown": 1
+    },
+    "inventory": {
+      "total_files": 4,
+      "total_bytes": 26937
+    }
+  },
+  "packets": [
+    {
+      "packet_id": "pack-33d416f2",
+      "source_language": "mixed",
+      "sha256_short": "43352f09b443f1c5",
+      "total_chars": 34
+    },
+    {
+      "packet_id": "pack-9779fcf2",
+      "source_language": "mixed",
+      "sha256_short": "de8587069b2640f3",
+      "total_chars": 134
+    },
+    {
+      "packet_id": "pack-cb990ba6",
+      "source_language": "mixed",
+      "sha256_short": "38b094068d359d2f",
+      "total_chars": 132
+    },
+    {
+      "packet_id": "pack-9a2b5bb3",
+      "source_language": "mixed",
+      "sha256_short": "7fbab5e526dce87b",
+      "total_chars": 214
+    }
+  ],
+  "locale": {
+    "variant": "es-ES",
+    "voseo": false,
+    "vosotros": true,
+    "neutralize_colloquialisms": false
+  }
+}

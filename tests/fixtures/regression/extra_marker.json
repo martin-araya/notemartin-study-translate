@@ -1,0 +1,12 @@
+{
+  "case_id": "extra_marker",
+  "case": {
+    "expected_markers": ["§L0§", "§L1§"]
+  },
+  "positive": {
+    "text": "Configure §L0§ antes de iniciar el servicio §L1§"
+  },
+  "negative": {
+    "text": "Configure §L0§ y §L2§ en lugar del marcador original"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "run_id": "run-beta-001",
+  "created_at": "2026-10-20T19:00:00Z",
+  "last_segment_id": null,
+  "files_state": {},
+  "glossary_snapshot": {
+    "version": 3,
+    "hash": "be1502643c0aa6c87ef338a184d525b10e6dbaee750fc58fd9784a2a2e60c3ad",
+    "frozen": true,
+    "approved_at": "2026-10-20T22:15:32Z"
+  },
+  "profile_snapshot": {
+    "hash": "fbdc465424c133518b30e8fc5467ed78702be296fb9addded86a6e1977d0cc04"
+  },
+  "parser": {
+    "name": "markdown-it-py",
+    "version": "3.0.0"
+  },
+  "prompt_version": "1.0.0",
+  "phase": "glossary_v3_frozen",
+  "artifacts": {
+    "inventory": "inventory.json",
+    "classified": "classified.json",
+    "segments": "segments.json",
+    "segments_classified": "segments_classified.json",
+    "snapshots": "snapshots.json",
+    "packets": "packets.json",
+    "glossary_draft": "glossary_draft.json",
+    "glossary_decisions": "glossary-decisions.json",
+    "glossary": "glossary.json",
+    "manifest": "manifest.json"
+  },
+  "counts": {
+    "source_files": 2748,
+    "markdown_files": 2682,
+    "resources": 66,
+    "segments": 70972,
+    "segments_by_disposition": {
+      "translatable": 43641,
+      "unknown": 2929,
+      "mixed_or_code": 2270,
+      "code_skip": 12368,
+      "no_text": 5654,
+      "too_short": 2813,
+      "already_target": 1297
+    },
+    "packets": 6604,
+    "packet_overflow": 191,
+    "documents_with_packets": 2440,
+    "glossary_version": 3,
+    "glossary_entries": 146
+  },
+  "completed_steps": [
+    "inventory",
+    "prepare",
+    "detect_language",
+    "build_packets",
+    "extract_terms",
+    "glossary_v3_frozen"
+  ],
+  "pending_steps": [
+    "translation",
+    "assemble",
+    "anchors",
+    "rewrite_references",
+    "copy_resources",
+    "validate",
+    "review",
+    "approve",
+    "export"
+  ]
+}

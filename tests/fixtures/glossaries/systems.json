@@ -1,0 +1,107 @@
+{
+  "version": 1,
+  "frozen": false,
+  "allowed_languages": ["es"],
+  "entries": [
+    {
+      "id": "g-4001",
+      "source_term": "thread",
+      "domain": "systems",
+      "sense": "Hilo de ejecución dentro de un proceso que comparte memoria con otros hilos",
+      "preferred": {"lang": "es", "term": "hilo"},
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-sys-1",
+          "segment_id": "seg-s001-a",
+          "before": "Each ",
+          "after": " shares memory with its sibling threads.",
+          "note": "Contexto de programación concurrente"
+        }
+      ],
+      "justification": "'Hilo' es la traducción estándar en sistemas operativos y programación.",
+      "decided_by": "example-agent",
+      "decided_at": "2026-10-20T00:00:00Z"
+    },
+    {
+      "id": "g-4002",
+      "source_term": "lock",
+      "domain": "systems",
+      "sense": "Mecanismo de sincronización que restringe el acceso concurrente a un recurso",
+      "preferred": {"lang": "es", "term": "bloqueo"},
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-sys-1",
+          "segment_id": "seg-s002-a",
+          "before": "Acquire the ",
+          "after": " before reading the shared variable.",
+          "note": "Uso de un mutex o lock"
+        }
+      ],
+      "justification": "'Bloqueo' es la traducción natural. La forma 'lock' se evita salvo en identificadores de API concretos.",
+      "decided_by": "example-agent",
+      "decided_at": "2026-10-20T00:00:00Z"
+    },
+    {
+      "id": "g-4003",
+      "source_term": "process",
+      "domain": "systems",
+      "sense": "Instancia de un programa en ejecución con su propio espacio de memoria",
+      "preferred": {"lang": "es", "term": "proceso"},
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-sys-1",
+          "segment_id": "seg-s003-a",
+          "before": "Spawn a child ",
+          "after": " to handle the request asynchronously.",
+          "note": "Fork o creación de proceso"
+        }
+      ],
+      "justification": "'Proceso' es la traducción estándar en sistemas operativos.",
+      "decided_by": "example-agent",
+      "decided_at": "2026-10-20T00:00:00Z"
+    },
+    {
+      "id": "g-4004",
+      "source_term": "mutex",
+      "domain": "systems",
+      "sense": "Tipo específico de lock que garantiza exclusión mutua entre hilos",
+      "preferred": {"lang": "es", "term": "mutex"},
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-sys-1",
+          "segment_id": "seg-s004-a",
+          "before": "Acquire the ",
+          "after": " before updating the shared counter.",
+          "note": "Uso en Pthreads o std::mutex"
+        }
+      ],
+      "justification": "'Mutex' es un término técnico aceptado por la documentación POSIX y C++11. La forma 'cerrojo' introduce ambigüedad.",
+      "decided_by": "example-agent",
+      "decided_at": "2026-10-20T00:00:00Z"
+    },
+    {
+      "id": "g-4005",
+      "source_term": "deadlock",
+      "domain": "systems",
+      "sense": "Situación en la que dos o más hilos esperan un recurso que el otro retiene",
+      "preferred": {"lang": "es", "term": "interbloqueo"},
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-sys-1",
+          "segment_id": "seg-s005-a",
+          "before": "Detect and recover from ",
+          "after": " using a watchdog timer.",
+          "note": "Detección de deadlocks en sistemas concurrentes"
+        }
+      ],
+      "justification": "'Interbloqueo' es la traducción adoptada por la RAE y la documentación técnica en español.",
+      "decided_by": "example-agent",
+      "decided_at": "2026-10-20T00:00:00Z"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "frozen": false,
+  "allowed_languages": ["es"],
+  "entries": [
+    {
+      "id": "g-c001",
+      "source_term": "state",
+      "domain": "frontend",
+      "sense": "Estado visible de un componente de interfaz",
+      "preferred": {"lang": "es", "term": "estado"},
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-conflict-1",
+          "segment_id": "seg-c001-a",
+          "before": "Component ",
+          "after": " is updated.",
+          "note": "Uso en frontend"
+        }
+      ],
+      "justification": "Estado mutable del componente UI",
+      "decided_by": "example-agent",
+      "decided_at": "2026-10-20T00:00:00Z"
+    },
+    {
+      "id": "g-c002",
+      "source_term": "state",
+      "domain": "database",
+      "sense": "Información persistente de una fila",
+      "preferred": {"lang": "es", "term": "estado"},
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-conflict-1",
+          "segment_id": "seg-c002-a",
+          "before": "UPDATE row ",
+          "after": " SET name='x';",
+          "note": "Uso en base de datos"
+        }
+      ],
+      "justification": "Estado persistente de una fila",
+      "decided_by": "example-agent",
+      "decided_at": "2026-10-20T00:00:00Z"
+    }
+  ]
+}

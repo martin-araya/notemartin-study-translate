@@ -1,0 +1,12 @@
+{
+  "case_id": "negation_inverted",
+  "case": {
+    "source": "You must not enable this flag in production environments.\n\nYou must enable verbose logging when debugging is required.\n"
+  },
+  "positive": {
+    "text": "No debe habilitar esta opción en entornos de producción.\n\nDebe habilitar el registro detallado cuando se necesite depurar.\n"
+  },
+  "negative": {
+    "text": "Debe habilitar esta opción en entornos de producción.\n\nDebe habilitar el registro detallado cuando se necesite depurar.\n"
+  }
+}

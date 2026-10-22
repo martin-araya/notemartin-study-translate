@@ -1,0 +1,37 @@
+{
+  "profile_id": "plain-markdown-local",
+  "version": "1.0.0",
+  "kind": "local_adapter",
+  "activation": "explicit",
+  "canonical": "notion-manual",
+  "justification": "El corpus de prueba incluye recursos con espacios y mayúsculas y rutas percent-encoded que el editor local del usuario no resuelve de forma estable. La adaptación normaliza solo rutas y nombres de archivo; no cambia la traducción.",
+  "real_app_evidence": false,
+  "default_rules": [],
+  "rules": [
+    {
+      "rule_id": "relative-resource-paths",
+      "description": "Reescribe el destino de enlaces e imágenes para que sea una ruta relativa POSIX sin prefijo `./` y con separadores normalizados.",
+      "rationale": "El destino local resuelve rutas relativas al documento; los separadores heredados de Windows y los prefijos ./ se abren igual en todos los editores. Dos exclusiones deliberadas: la codificación porcentual se conserva porque un espacio literal rompería el enlace Markdown, y los destinos que empiezan por / son rutas de la raíz del sitio de origen, deuda de entrada que esta regla no toca.",
+      "lossiness": "none",
+      "reversible": true,
+      "scope": "resource_paths"
+    },
+    {
+      "rule_id": "ascii-resource-names",
+      "description": "Renombra los recursos a minúsculas ASCII separadas por guiones y actualiza las referencias en la prosa.",
+      "rationale": "Los nombres con espacios, tildes y mayúsculas se rompen en algunos enlaces generados a mano; el slug ASCII evita el problema sin alterar los bytes del recurso.",
+      "lossiness": "none",
+      "reversible": true,
+      "scope": "resource_names"
+    }
+  ],
+  "limitations": [
+    "El adaptador es interno: no se ha probado en una aplicación de escritorio real, así que real_app_evidence es false.",
+    "Renombrar recursos rompe cualquier enlace externo al corpus que use la ruta antigua; la adaptación solo actualiza las referencias internas.",
+    "La normalización de rutas no corrige enlaces ya rotos en la fuente: eso sigue siendo deuda de entrada del núcleo."
+  ],
+  "cases": [
+    "tests/fixtures/delivery/canonical/ con un recurso con espacios y mayúsculas",
+    "tests/fixtures/delivery/canonical/ con destinos percent-encoded"
+  ]
+}

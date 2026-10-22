@@ -1,0 +1,1020 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://notemartin-study-translate.local/schemas/profile.schema.json",
+  "x-schema-version": "1.1.0",
+  "title": "Perfil de traducción",
+  "description": "Declara idioma destino, dialecto Markdown, exclusiones y políticas operativas. La disyunción de las tres raíces del espacio de trabajo se verifica en la implementación tras resolver symlinks, no en el propio esquema: JSON Schema 2020-12 no permite comparar dos propiedades del mismo documento.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "target_language",
+    "source_language",
+    "markdown_dialect",
+    "slug_algorithm",
+    "code_preservation",
+    "frontmatter_policy",
+    "bilingual_policy",
+    "punctuation_preference",
+    "review_mode",
+    "paths",
+    "exclusions",
+    "context_budget",
+    "model_metadata"
+  ],
+  "properties": {
+    "target_language": {
+      "description": "Idioma destino en formato BCP-47. Por defecto es.",
+      "type": "string",
+      "pattern": "^[a-zA-Z]{2,3}(-[a-zA-Z0-9]{2,8})*$"
+    },
+    "source_language": {
+      "description": "Idioma de origen declarado o detectado. 'auto' indica detección por documento.",
+      "type": "string",
+      "anyOf": [
+        {
+          "pattern": "^[a-zA-Z]{2,3}(-[a-zA-Z0-9]{2,8})*$"
+        },
+        {
+          "const": "auto"
+        }
+      ]
+    },
+    "markdown_dialect": {
+      "description": "Dialecto Markdown aceptado por el parser.",
+      "type": "string",
+      "enum": [
+        "commonmark",
+        "commonmark+gfm"
+      ]
+    },
+    "slug_algorithm": {
+      "description": "Algoritmo usado para reescribir fragmentos de encabezados traducidos.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name",
+        "version"
+      ],
+      "properties": {
+        "name": {
+          "type": "string",
+          "enum": [
+            "github",
+            "gitiles",
+            "commonmark-default"
+          ]
+        },
+        "version": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "code_preservation": {
+      "description": "Política de preservación de código.",
+      "type": "string",
+      "enum": [
+        "strict",
+        "strict-with-annotations"
+      ]
+    },
+    "frontmatter_policy": {
+      "description": "Tratamiento del frontmatter.",
+      "type": "string",
+      "enum": [
+        "preserve",
+        "translate-allowlist"
+      ]
+    },
+    "frontmatter_allowed_fields": {
+      "description": "Lista obligatoria cuando frontmatter_policy es translate-allowlist.",
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1
+    },
+    "frontmatter_corpus_ref": {
+      "description": "Caso de evals/cases/ que declara el corpus que justifica traducir el frontmatter. Obligatorio con frontmatter_policy: translate-allowlist.",
+      "type": "string",
+      "minLength": 1
+    },
+    "frontmatter_justification": {
+      "description": "Por qué ese corpus exige traducir el frontmatter.",
+      "type": "string",
+      "minLength": 20
+    },
+    "bilingual_policy": {
+      "description": "Política de mantenimiento del término original junto a la traducción.",
+      "type": "string",
+      "enum": [
+        "none",
+        "first-mention-per-document",
+        "first-mention-per-corpus"
+      ]
+    },
+    "punctuation_preference": {
+      "description": "Preferencia de puntuación en la prosa española. No modifica código, URLs, literales, fórmulas o YAML.",
+      "type": "string",
+      "enum": [
+        "es-comma-period",
+        "es-comma-semicolon"
+      ]
+    },
+    "review_mode": {
+      "description": "Modo de revisión. assisted usa rúbrica automatizada. assisted-and-human-sample añade muestra humana.",
+      "type": "string",
+      "enum": [
+        "assisted",
+        "assisted-and-human-sample"
+      ]
+    },
+    "paths": {
+      "description": "Raíces absolutas del espacio de trabajo. Las tres rutas deben ser distintas entre sí tras resolver symlinks; esta comprobación la aplica la implementación.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "source_root",
+        "work_root",
+        "output_root"
+      ],
+      "properties": {
+        "source_root": {
+          "type": "string",
+          "minLength": 1
+        },
+        "work_root": {
+          "type": "string",
+          "minLength": 1
+        },
+        "output_root": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "exclusions": {
+      "description": "Archivos o rutas excluidos del alcance. Cada exclusión requiere motivo y aprobador.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "path",
+          "reason",
+          "approved_by"
+        ],
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 1
+          },
+          "reason": {
+            "type": "string",
+            "minLength": 1
+          },
+          "approved_by": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "context_budget": {
+      "description": "Presupuesto de contexto en tokens o caracteres. Debe ser entero positivo.",
+      "type": "integer",
+      "minimum": 1
+    },
+    "model_metadata": {
+      "description": "Identidad conocida del proveedor y modelo. Valores desconocidos se registran como 'unknown'.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "provider",
+        "model",
+        "prompt_version"
+      ],
+      "properties": {
+        "provider": {
+          "type": "string"
+        },
+        "model": {
+          "type": "string"
+        },
+        "prompt_version": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "mdx": {
+      "description": "Política de activación de la extensión MDX. Por defecto desactivada. Encenderla exige corpus_ref y justification (criterio 1 de G-EXT).",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "enabled"
+      ],
+      "properties": {
+        "enabled": {
+          "type": "boolean"
+        },
+        "corpus_ref": {
+          "description": "Caso de evals/cases/ que declara el corpus que justifica activar este módulo.",
+          "type": "string",
+          "minLength": 1
+        },
+        "justification": {
+          "description": "Por qué ese corpus activa este módulo. Una activación sin motivo es un defecto, no una configuración.",
+          "type": "string",
+          "minLength": 20
+        },
+        "contract_path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "attributes": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "enabled": {
+                "const": true
+              }
+            },
+            "required": [
+              "enabled"
+            ]
+          },
+          "then": {
+            "required": [
+              "corpus_ref",
+              "justification"
+            ]
+          }
+        }
+      ]
+    },
+    "html": {
+      "description": "Política de activación de la extensión HTML embebido. Por defecto desactivada. Encenderla exige corpus_ref y justification (criterio 1 de G-EXT).",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "enabled"
+      ],
+      "properties": {
+        "enabled": {
+          "type": "boolean"
+        },
+        "corpus_ref": {
+          "description": "Caso de evals/cases/ que declara el corpus que justifica activar este módulo.",
+          "type": "string",
+          "minLength": 1
+        },
+        "justification": {
+          "description": "Por qué ese corpus activa este módulo. Una activación sin motivo es un defecto, no una configuración.",
+          "type": "string",
+          "minLength": 20
+        },
+        "contract_path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "attributes": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "enabled": {
+                "const": true
+              }
+            },
+            "required": [
+              "enabled"
+            ]
+          },
+          "then": {
+            "required": [
+              "corpus_ref",
+              "justification"
+            ]
+          }
+        }
+      ]
+    },
+    "admonitions": {
+      "description": "Política de activación de la extensión admonitions. Por defecto desactivada. Encenderla exige corpus_ref y justification (criterio 1 de G-EXT).",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "enabled"
+      ],
+      "properties": {
+        "enabled": {
+          "type": "boolean"
+        },
+        "corpus_ref": {
+          "description": "Caso de evals/cases/ que declara el corpus que justifica activar este módulo.",
+          "type": "string",
+          "minLength": 1
+        },
+        "justification": {
+          "description": "Por qué ese corpus activa este módulo. Una activación sin motivo es un defecto, no una configuración.",
+          "type": "string",
+          "minLength": 20
+        },
+        "types": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "note",
+              "tip",
+              "info",
+              "warning",
+              "caution"
+            ]
+          }
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "enabled": {
+                "const": true
+              }
+            },
+            "required": [
+              "enabled"
+            ]
+          },
+          "then": {
+            "required": [
+              "corpus_ref",
+              "justification"
+            ]
+          }
+        }
+      ]
+    },
+    "definition_lists": {
+      "description": "Política de activación de definition lists. Por defecto desactivada. Encenderla exige corpus_ref y justification (criterio 1 de G-EXT).",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "enabled"
+      ],
+      "properties": {
+        "enabled": {
+          "type": "boolean"
+        },
+        "corpus_ref": {
+          "description": "Caso de evals/cases/ que declara el corpus que justifica activar este módulo.",
+          "type": "string",
+          "minLength": 1
+        },
+        "justification": {
+          "description": "Por qué ese corpus activa este módulo. Una activación sin motivo es un defecto, no una configuración.",
+          "type": "string",
+          "minLength": 20
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "enabled": {
+                "const": true
+              }
+            },
+            "required": [
+              "enabled"
+            ]
+          },
+          "then": {
+            "required": [
+              "corpus_ref",
+              "justification"
+            ]
+          }
+        }
+      ]
+    },
+    "directives": {
+      "description": "Política de activación de directivas Sphinx/Numpydoc. Por defecto desactivada. Encenderla exige corpus_ref y justification (criterio 1 de G-EXT).",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "enabled"
+      ],
+      "properties": {
+        "enabled": {
+          "type": "boolean"
+        },
+        "corpus_ref": {
+          "description": "Caso de evals/cases/ que declara el corpus que justifica activar este módulo.",
+          "type": "string",
+          "minLength": 1
+        },
+        "justification": {
+          "description": "Por qué ese corpus activa este módulo. Una activación sin motivo es un defecto, no una configuración.",
+          "type": "string",
+          "minLength": 20
+        },
+        "names": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "param",
+              "type",
+              "returns",
+              "rtype",
+              "raises"
+            ]
+          }
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "enabled": {
+                "const": true
+              }
+            },
+            "required": [
+              "enabled"
+            ]
+          },
+          "then": {
+            "required": [
+              "corpus_ref",
+              "justification"
+            ]
+          }
+        }
+      ]
+    },
+    "mermaid": {
+      "description": "Política de activación del adaptador Mermaid. Por defecto desactivada (etiquetas no se traducen).",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "enabled",
+        "labels"
+      ],
+      "properties": {
+        "enabled": {
+          "type": "boolean"
+        },
+        "corpus_ref": {
+          "description": "Caso de evals/cases/ que declara el corpus que justifica activar este módulo.",
+          "type": "string",
+          "minLength": 1
+        },
+        "justification": {
+          "description": "Por qué ese corpus activa este módulo. Una activación sin motivo es un defecto, no una configuración.",
+          "type": "string",
+          "minLength": 20
+        },
+        "labels": {
+          "type": "string",
+          "enum": [
+            "allow",
+            "deny"
+          ]
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "labels": {
+                "const": "allow"
+              }
+            },
+            "required": [
+              "labels"
+            ]
+          },
+          "then": {
+            "required": [
+              "corpus_ref",
+              "justification"
+            ]
+          }
+        }
+      ]
+    },
+    "wikilinks": {
+      "description": "Política de activación de wikilinks estilo Obsidian. Por defecto desactivada. Encenderla exige corpus_ref y justification (criterio 1 de G-EXT).",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "enabled"
+      ],
+      "properties": {
+        "enabled": {
+          "type": "boolean"
+        },
+        "corpus_ref": {
+          "description": "Caso de evals/cases/ que declara el corpus que justifica activar este módulo.",
+          "type": "string",
+          "minLength": 1
+        },
+        "justification": {
+          "description": "Por qué ese corpus activa este módulo. Una activación sin motivo es un defecto, no una configuración.",
+          "type": "string",
+          "minLength": 20
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "enabled": {
+                "const": true
+              }
+            },
+            "required": [
+              "enabled"
+            ]
+          },
+          "then": {
+            "required": [
+              "corpus_ref",
+              "justification"
+            ]
+          }
+        }
+      ]
+    },
+    "mixed_profile": {
+      "description": "Política de corpus multilingüe por segmento (fase 104 del roadmap). Por defecto desactivada. Encenderla exige corpus_ref y justification (criterio 1 de G-EXT).",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "enabled"
+      ],
+      "properties": {
+        "enabled": {
+          "type": "boolean"
+        },
+        "corpus_ref": {
+          "description": "Caso de evals/cases/ que declara el corpus que justifica activar este módulo.",
+          "type": "string",
+          "minLength": 1
+        },
+        "justification": {
+          "description": "Por qué ese corpus activa este módulo. Una activación sin motivo es un defecto, no una configuración.",
+          "type": "string",
+          "minLength": 20
+        },
+        "allowed_source_languages": {
+          "description": "Lista de idiomas permitidos como origen. Por defecto ['en', 'fr'].",
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z]{2,3}(-[a-zA-Z0-9]{2,8})?$"
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "default_handling": {
+          "description": "Comportamiento por defecto para regiones no identificadas como origen.",
+          "type": "string",
+          "enum": [
+            "translatable",
+            "already_target",
+            "code_skip"
+          ]
+        },
+        "forbid_double_translation": {
+          "description": "Si true, no se vuelve a traducir un segmento ya marcado como idioma destino.",
+          "type": "boolean"
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "enabled": {
+                "const": true
+              }
+            },
+            "required": [
+              "enabled"
+            ]
+          },
+          "then": {
+            "required": [
+              "corpus_ref",
+              "justification"
+            ]
+          }
+        }
+      ]
+    },
+    "source_language_policy": {
+      "description": "Ruta al documento de política lingüística del idioma de origen (fase 102 del roadmap).",
+      "type": "string",
+      "minLength": 1
+    },
+    "citations_policy": {
+      "description": "Ruta al documento de política de citas (fase 105 del roadmap).",
+      "type": "string",
+      "minLength": 1
+    },
+    "reviewer_status": {
+      "description": "Estado de revisión humana del par. assisted_only_pending_human impide el marcado con ✅ de la fase 103 hasta que se designe un nativo.",
+      "type": "string",
+      "enum": [
+        "human_approved",
+        "assisted_only_pending_human",
+        "not_applicable"
+      ]
+    },
+    "locale": {
+      "description": "Variante regional del español de destino (fase 106 del roadmap). Omitir para usar la variante núcleo 'es'. Declararlo exige corpus_ref y justification: elegir una variante regional cambia la traducción.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "variant",
+        "corpus_ref",
+        "justification"
+      ],
+      "properties": {
+        "variant": {
+          "description": "BCP-47 de la variante regional. Soportadas actualmente: es, es-ES, es-MX, es-AR.",
+          "type": "string",
+          "enum": [
+            "es",
+            "es-ES",
+            "es-MX",
+            "es-AR"
+          ]
+        },
+        "corpus_ref": {
+          "description": "Caso de evals/cases/ que declara el corpus que justifica la variante regional.",
+          "type": "string",
+          "minLength": 1
+        },
+        "justification": {
+          "description": "Por qué ese corpus exige esa variante. Una localización sin corpus es una preferencia, no una política.",
+          "type": "string",
+          "minLength": 20
+        },
+        "voseo": {
+          "description": "Permitir o forzar voseo. Sólo es-AR activa el voseo por defecto.",
+          "type": "boolean"
+        },
+        "vosotros": {
+          "description": "Usar vosotros en segunda persona del plural. Solo es-ES lo permite por defecto.",
+          "type": "boolean"
+        },
+        "neutralize_colloquialisms": {
+          "description": "Si true, los coloquialismos enumerados se sustituyen por equivalentes neutros donde existan. False por defecto preserva los marcadores regionales.",
+          "type": "boolean"
+        }
+      }
+    },
+    "rtl": {
+      "description": "Política de texto bidireccional (fase 108 del roadmap). Omitir para contenido LTR exclusivo. Encenderla exige corpus_ref y justification (criterio 1 de G-EXT).",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "enabled"
+      ],
+      "properties": {
+        "enabled": {
+          "type": "boolean"
+        },
+        "corpus_ref": {
+          "description": "Caso de evals/cases/ que declara el corpus que justifica activar este módulo.",
+          "type": "string",
+          "minLength": 1
+        },
+        "justification": {
+          "description": "Por qué ese corpus activa este módulo. Una activación sin motivo es un defecto, no una configuración.",
+          "type": "string",
+          "minLength": 20
+        },
+        "source_text_direction": {
+          "type": "string",
+          "enum": [
+            "ltr",
+            "rtl",
+            "mixed"
+          ]
+        },
+        "preserve_digits": {
+          "description": "Si true, los numerales del texto se conservan tal cual están (no se cambian ASCII↔árabe).",
+          "type": "boolean"
+        },
+        "add_bidi_controls": {
+          "description": "Si true, el script puede añadir RLM/LRM para preservar el orden lógico en el destino. Por defecto false.",
+          "type": "boolean"
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "enabled": {
+                "const": true
+              }
+            },
+            "required": [
+              "enabled"
+            ]
+          },
+          "then": {
+            "required": [
+              "corpus_ref",
+              "justification"
+            ]
+          }
+        }
+      ]
+    },
+    "delivery": {
+      "description": "Política de entrega local (fase 134 del roadmap). Omitir o enabled:false deja la entrega canónica sin adaptar, que es el valor por defecto del núcleo.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "enabled"
+      ],
+      "properties": {
+        "enabled": {
+          "description": "Activar el adaptador de destino. Exige justification con un corpus concreto.",
+          "type": "boolean"
+        },
+        "corpus_ref": {
+          "description": "Caso de evals/cases/ que declara el corpus que justifica activar la entrega en un destino.",
+          "type": "string",
+          "minLength": 1
+        },
+        "justification": {
+          "description": "Por qué ese corpus activa la adaptación. Una adaptación sin motivo es una copia con pasos extra.",
+          "type": "string",
+          "minLength": 20
+        },
+        "destination_id": {
+          "description": "Perfil de entrega a aplicar. Debe existir en reports/delivery_matrix.json.",
+          "type": "string",
+          "enum": [
+            "notion-manual",
+            "plain-markdown-local"
+          ]
+        },
+        "profile_ref": {
+          "description": "Ruta del perfil de entrega declarativo.",
+          "type": "string",
+          "minLength": 1
+        },
+        "adaptation_rules": {
+          "description": "Reglas del perfil que se activan. Vacío significa copia byte a byte del árbol canónico.",
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "zip": {
+          "description": "Paquete ZIP autocontenido (fase 135). Desactivado por defecto.",
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "enabled"
+          ],
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "top_level_dir": {
+              "description": "Directorio único que envuelve a todos los miembros. Vacío significa el run_id.",
+              "type": "string"
+            }
+          }
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "enabled": {
+                "const": true
+              }
+            },
+            "required": [
+              "enabled"
+            ]
+          },
+          "then": {
+            "required": [
+              "corpus_ref",
+              "justification"
+            ]
+          }
+        }
+      ]
+    },
+    "terminology": {
+      "description": "Activación de perfiles terminológicos por dominio (fases 091-100). Por defecto desactivada. Encenderla exige corpus_ref, justification y un perfil declarado.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "enabled"
+      ],
+      "properties": {
+        "enabled": {
+          "type": "boolean"
+        },
+        "corpus_ref": {
+          "description": "Caso de evals/cases/ que declara el corpus que justifica activar perfiles terminológicos.",
+          "type": "string",
+          "minLength": 1
+        },
+        "justification": {
+          "description": "Por qué ese corpus activa esos dominios. Un perfil sin corpus es de laboratorio.",
+          "type": "string",
+          "minLength": 20
+        },
+        "profile_ref": {
+          "description": "Perfil terminológico a aplicar, conforme a schemas/term_profile.schema.json.",
+          "type": "string",
+          "minLength": 1
+        },
+        "enabled_domains": {
+          "description": "Dominios que se activan. Deben existir en el perfil referenciado.",
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "database",
+              "network",
+              "frontend",
+              "systems",
+              "ml_ai"
+            ]
+          }
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "enabled": {
+                "const": true
+              }
+            },
+            "required": [
+              "enabled"
+            ]
+          },
+          "then": {
+            "required": [
+              "corpus_ref",
+              "justification",
+              "profile_ref"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "allOf": [
+    {
+      "description": "Si frontmatter_policy es translate-allowlist, debe existir frontmatter_allowed_fields no vacío y declarar el corpus que justifica traducir frontmatter (criterio 1 de G-EXT).",
+      "if": {
+        "properties": {
+          "frontmatter_policy": {
+            "const": "translate-allowlist"
+          }
+        },
+        "required": [
+          "frontmatter_policy"
+        ]
+      },
+      "then": {
+        "required": [
+          "frontmatter_allowed_fields",
+          "frontmatter_corpus_ref",
+          "frontmatter_justification"
+        ]
+      }
+    },
+    {
+      "description": "Si mdx está activado y contract_path está presente, debe ser una ruta no vacía.",
+      "if": {
+        "properties": {
+          "mdx": {
+            "properties": {
+              "enabled": {
+                "const": true
+              },
+              "contract_path": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "enabled",
+              "contract_path"
+            ]
+          }
+        },
+        "required": [
+          "mdx"
+        ]
+      },
+      "then": {
+        "properties": {
+          "mdx": {
+            "required": [
+              "contract_path"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "description": "Si html está activado y contract_path está presente, debe ser una ruta no vacía.",
+      "if": {
+        "properties": {
+          "html": {
+            "properties": {
+              "enabled": {
+                "const": true
+              },
+              "contract_path": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "enabled",
+              "contract_path"
+            ]
+          }
+        },
+        "required": [
+          "html"
+        ]
+      },
+      "then": {
+        "properties": {
+          "html": {
+            "required": [
+              "contract_path"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "description": "Si delivery está activado, debe declarar destino y perfil. La adaptación nunca se activa por omisión.",
+      "if": {
+        "properties": {
+          "delivery": {
+            "properties": {
+              "enabled": {
+                "const": true
+              }
+            },
+            "required": [
+              "enabled"
+            ]
+          }
+        },
+        "required": [
+          "delivery"
+        ]
+      },
+      "then": {
+        "properties": {
+          "delivery": {
+            "required": [
+              "destination_id",
+              "profile_ref"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "generated_at": "2026-10-20T16:33:41Z",
+  "verified_systems": [
+    "macos-darwin",
+    "linux-cpython"
+  ],
+  "design_only_systems": [
+    "windows-cpython"
+  ],
+  "rows": [
+    {
+      "system_id": "macos-darwin",
+      "label": "macOS sobre Darwin",
+      "requirement": "python >= 3.9, coreutils de POSIX, fcntl",
+      "status": "verified",
+      "evidence": {
+        "generated_at": "2026-10-20T16:26:19Z",
+        "python_version": "3.9.6",
+        "python_implementation": "cpython",
+        "os_name": "posix",
+        "platform": "darwin",
+        "filesystem_encoding": "utf-8",
+        "filesystem_errors": "surrogateescape",
+        "default_newline": "'\\n'",
+        "hash_algorithms": [
+          "blake2b",
+          "sha256"
+        ],
+        "fcntl": {
+          "available": true,
+          "detail": "flock exclusivo y liberación verificados"
+        },
+        "atomic_replace": {
+          "available": true,
+          "detail": "temporal"
+        },
+        "case_insensitive_fs": {
+          "sensitive": false,
+          "detail": "nombres que solo difieren en mayúsculas se solapan"
+        },
+        "unicode_names": {
+          "available": true,
+          "detail": "3 nombres no ASCII creados y leídos"
+        },
+        "long_names": {
+          "available": true,
+          "detail": "componente de 203 bytes"
+        },
+        "zoneinfo": {
+          "available": true,
+          "detail": "ZoneInfo('Europe/Madrid') resuelto"
+        }
+      },
+      "executed_at": "2026-10-20T16:26:19Z",
+      "source": "local"
+    },
+    {
+      "system_id": "linux-cpython",
+      "label": "Linux con CPython",
+      "requirement": "python >= 3.9, coreutils de POSIX, fcntl",
+      "status": "verified",
+      "evidence": {
+        "generated_at": "2026-10-20T16:09:48Z",
+        "python_version": "3.12.15",
+        "python_implementation": "cpython",
+        "os_name": "posix",
+        "platform": "linux",
+        "filesystem_encoding": "utf-8",
+        "filesystem_errors": "surrogateescape",
+        "default_newline": "'\\n'",
+        "hash_algorithms": [
+          "blake2b",
+          "sha256"
+        ],
+        "fcntl": {
+          "available": true,
+          "detail": "flock exclusivo y liberación verificados"
+        },
+        "atomic_replace": {
+          "available": true,
+          "detail": "temporal"
+        },
+        "case_insensitive_fs": {
+          "sensitive": true,
+          "detail": "el sistema conserva ambos nombres"
+        },
+        "unicode_names": {
+          "available": true,
+          "detail": "3 nombres no ASCII creados y leídos"
+        },
+        "long_names": {
+          "available": true,
+          "detail": "componente de 203 bytes"
+        },
+        "zoneinfo": {
+          "available": true,
+          "detail": "ZoneInfo('Europe/Madrid') resuelto"
+        },
+        "suite": {
+          "command": "python -m pytest tests/ -q --no-header -p no:cacheprovider",
+          "environment": "docker python:3.12-slim, deps de requirements.txt",
+          "passed": 936,
+          "failed": 0,
+          "skipped": 0,
+          "note": "En macOS se omiten 2 pruebas que requieren un sistema de archivos sensible a mayúsculas; en Linux se ejecutan."
+        }
+      },
+      "executed_at": "2026-10-20T16:09:48Z",
+      "source": "external"
+    },
+    {
+      "system_id": "windows-cpython",
+      "label": "Windows con CPython",
+      "requirement": "python >= 3.9; sin fcntl (usa el fallback threading.Lock)",
+      "status": "design_only",
+      "evidence": null,
+      "executed_at": null,
+      "source": null,
+      "reason": "no hay informe de ejecución en este sistema"
+    }
+  ],
+  "claim": "verified significa que la suite se ejecutó en ese sistema. design_only significa que el paquete está diseñado para él y no se ha comprobado."
+}

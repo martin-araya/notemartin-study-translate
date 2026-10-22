@@ -1,0 +1,4689 @@
+{
+  "version": 1,
+  "frozen": false,
+  "allowed_languages": [
+    "es"
+  ],
+  "entries": [
+    {
+      "id": "g-f1ed",
+      "source_term": "Next",
+      "domain": "nextjs",
+      "sense": "identifier observado en dominio nextjs (4138 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "Next"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-e158d4a9",
+          "segment_id": "seg-d42e33b2",
+          "before": "The `create-next-app` CLI allow you to create a new Next.js ",
+          "after": "/next.js/tree/canary/examples) from a public GitHub reposito",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-e158d4a9",
+          "segment_id": "seg-d42e33b2",
+          "before": "The `create-next-app` CLI allow you to create a new Next.js ",
+          "after": "/next.js/tree/canary/examples) from a public GitHub reposito",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-e158d4a9",
+          "segment_id": "seg-4fc2e748",
+          "before": "**ESLint**: The traditional and most popular JavaScript lint",
+          "after": ", modern linter and formatter that combines the functionalit",
+          "note": "identifier en dominio nextjs"
+        }
+      ],
+      "justification": "Término con 4138 ocurrencias en el dominio nextjs; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-b4b4",
+      "source_term": "Angular",
+      "domain": "angular",
+      "sense": "identifier observado en dominio angular (2370 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "Angular"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-bca7c9b4",
+          "segment_id": "seg-c1ac337f",
+          "before": "An injectable service that produces an animation sequence pr",
+          "after": "rAnimationsModule` or `NoopAnimationsModule`.\nDeprecation wa",
+          "note": "identifier en dominio angular"
+        },
+        {
+          "document_id": "doc-06129067",
+          "segment_id": "seg-c831739c",
+          "before": "Each time an animation is triggered in Angular, the parent a",
+          "after": " animation to run, the parent animation must query each of t",
+          "note": "identifier en dominio angular"
+        },
+        {
+          "document_id": "doc-06129067",
+          "segment_id": "seg-c831739c",
+          "before": "Each time an animation is triggered in Angular, the parent a",
+          "after": " animation to run, the parent animation must query each of t",
+          "note": "identifier en dominio angular"
+        }
+      ],
+      "justification": "Término con 2370 ocurrencias en el dominio angular; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-54c9",
+      "source_term": "TypeScript",
+      "domain": "nextjs",
+      "sense": "identifier observado en dominio nextjs (1940 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "TypeScript"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-5146108d",
+          "segment_id": "seg-861e9e80",
+          "before": "`` next typegen `` generates TypeScript definitions for your",
+          "after": "tocomplete and CI type-checking of route usage.\nPreviously, ",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-bac2e680",
+          "segment_id": "seg-8128f578",
+          "before": "[`next/font`](/docs/app/api-reference/components/font) autom",
+          "after": "ork requests for improved privacy and performance.\nIt includ",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-bac2e680",
+          "segment_id": "seg-e23bab17",
+          "before": "To use a Google font, import it from `next/font/google` as a",
+          "after": "fonts) for the best performance and flexibility.\nTypeScript\n",
+          "note": "identifier en dominio nextjs"
+        }
+      ],
+      "justification": "Término con 1940 ocurrencias en el dominio nextjs; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-49cd",
+      "source_term": "API",
+      "domain": "angular",
+      "sense": "acronym observado en dominio angular (1936 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "API"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-51940b09",
+          "segment_id": "seg-f388d230",
+          "before": "[API](#api) <a id=\"api\"></a>",
+          "after": "[API](#api) <a id=\"api\"></a>",
+          "note": "acronym en dominio angular"
+        },
+        {
+          "document_id": "doc-cc60c945",
+          "segment_id": "seg-e61f4a40",
+          "before": "[API](#api) <a id=\"api\"></a>",
+          "after": "[API](#api) <a id=\"api\"></a>",
+          "note": "acronym en dominio angular"
+        },
+        {
+          "document_id": "doc-1e32976a",
+          "segment_id": "seg-a0e44621",
+          "before": "[API](#api) <a id=\"api\"></a>",
+          "after": "[API](#api) <a id=\"api\"></a>",
+          "note": "acronym en dominio angular"
+        }
+      ],
+      "justification": "Término con 1936 ocurrencias en el dominio angular; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-e86c",
+      "source_term": "This",
+      "domain": "nextjs",
+      "sense": "identifier observado en dominio nextjs (1877 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "This"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-5146108d",
+          "segment_id": "seg-578b5906",
+          "before": "`` next info `` prints relevant details about the current sy",
+          "after": "s://github.com/vercel/next.js/issues). This information incl",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-5146108d",
+          "segment_id": "seg-ec1bfd00",
+          "before": "Warning\nThis option is deprecated and will be removed in Nex",
+          "after": " to ESLint CLI.\n`` next lint `` runs ESLint for all files in",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-5146108d",
+          "segment_id": "seg-861e9e80",
+          "before": "`` next typegen `` generates TypeScript definitions for your",
+          "after": "tocomplete and CI type-checking of route usage.\nPreviously, ",
+          "note": "identifier en dominio nextjs"
+        }
+      ],
+      "justification": "Término con 1877 ocurrencias en el dominio nextjs; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-67f5",
+      "source_term": "This",
+      "domain": "angular",
+      "sense": "identifier observado en dominio angular (1389 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "This"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-3f2cf568",
+          "segment_id": "seg-3f4c447c",
+          "before": "For example, the string \"1s 100ms ease-out\" specifies a dura",
+          "after": "\nwhich decelerates near the end of the duration.\n@param\nstyl",
+          "note": "identifier en dominio angular"
+        },
+        {
+          "document_id": "doc-b3141365",
+          "segment_id": "seg-5fcdb090",
+          "before": "A set of CSS styles associated with this state, created usin",
+          "after": "n the element once the state has been reached.\n@param\noption",
+          "note": "identifier en dominio angular"
+        },
+        {
+          "document_id": "doc-185f48f5",
+          "segment_id": "seg-a5854e86",
+          "before": "When an area of the template is set to have animations disab",
+          "after": " that you can disable all animations for an app\nby placing a",
+          "note": "identifier en dominio angular"
+        }
+      ],
+      "justification": "Término con 1389 ocurrencias en el dominio angular; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-0a7f",
+      "source_term": "API",
+      "domain": "nextjs",
+      "sense": "acronym observado en dominio nextjs (1328 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "API"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-b563dbcf",
+          "segment_id": "seg-e4c4b699",
+          "before": "[App Router](/docs/15/app)\n[API Reference](/docs/15/app/api-",
+          "after": "r](/docs/15/app)\n[API Reference](/docs/15/app/api-reference)",
+          "note": "acronym en dominio nextjs"
+        },
+        {
+          "document_id": "doc-bac2e680",
+          "segment_id": "seg-fc062f04",
+          "before": "View the [Font API Reference](/docs/app/api-reference/compon",
+          "after": "ocs/app/api-reference/components/font) for more information.",
+          "note": "acronym en dominio nextjs"
+        },
+        {
+          "document_id": "doc-bac2e680",
+          "segment_id": "seg-5cf5bcc9",
+          "before": "View the [Font API Reference](/docs/app/api-reference/compon",
+          "after": "ocs/app/api-reference/components/font) for more information.",
+          "note": "acronym en dominio nextjs"
+        }
+      ],
+      "justification": "Término con 1328 ocurrencias en el dominio nextjs; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-423c",
+      "source_term": "Good",
+      "domain": "nextjs",
+      "sense": "identifier observado en dominio nextjs (1065 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "Good"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-5146108d",
+          "segment_id": "seg-c39ce713",
+          "before": "Good to know\nRunning `next` without a command is an alias fo",
+          "after": "ing `next` without a command is an alias for `` next dev ``.",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-5146108d",
+          "segment_id": "seg-cdadf829",
+          "before": "Good to know\n`` next typegen `` loads your Next.js config (`",
+          "after": "ild phase. Ensure any required environment variables and dep",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-5146108d",
+          "segment_id": "seg-96aff384",
+          "before": "Good to know\n`PORT` cannot be set in `.env` as booting up th",
+          "after": "he HTTP server happens before any other code is initialized.",
+          "note": "identifier en dominio nextjs"
+        }
+      ],
+      "justification": "Término con 1065 ocurrencias en el dominio nextjs; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-69d7",
+      "source_term": "Server",
+      "domain": "nextjs",
+      "sense": "identifier observado en dominio nextjs (1060 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "Server"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-0f913fb2",
+          "segment_id": "seg-36e753c0",
+          "before": "[Mutations with Server Actions](#mutations-with-server-actio",
+          "after": "h-server-actions) <a id=\"mutations-with-server-actions\"></a>",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-0f913fb2",
+          "segment_id": "seg-fa5e5c88",
+          "before": "See the [Server Actions](/docs/app/getting-started/updating-",
+          "after": "/app/api-reference/components/font)\n[NextImage Component](/d",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-6fadaaef",
+          "segment_id": "seg-b12ebd30",
+          "before": "Warning\n`onLoad` does not yet work with Server Components an",
+          "after": "eforeInteractive` – consider using `onReady` instead.\nSome t",
+          "note": "identifier en dominio nextjs"
+        }
+      ],
+      "justification": "Término con 1060 ocurrencias en el dominio nextjs; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-5947",
+      "source_term": "Router",
+      "domain": "nextjs",
+      "sense": "identifier observado en dominio nextjs (1008 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "Router"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-b563dbcf",
+          "segment_id": "seg-e4c4b699",
+          "before": "[App Router](/docs/15/app)\n[API Reference](/docs/15/app/api-",
+          "after": "r](/docs/15/app)\n[API Reference](/docs/15/app/api-reference)",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-21d90d6f",
+          "segment_id": "seg-aade14e8",
+          "before": "[App Router](/docs/15/app)\n[API Reference](/docs/15/app/api-",
+          "after": "r](/docs/15/app)\n[API Reference](/docs/15/app/api-reference)",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-6fadaaef",
+          "segment_id": "seg-973ec2b1",
+          "before": "Warning\nThe `worker` strategy is not yet stable and does not",
+          "after": "trategy are off-loaded to a web worker in order to free up t",
+          "note": "identifier en dominio nextjs"
+        }
+      ],
+      "justification": "Término con 1008 ocurrencias en el dominio nextjs; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-3f79",
+      "source_term": "When",
+      "domain": "nextjs",
+      "sense": "identifier observado en dominio nextjs (852 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "When"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-5146108d",
+          "segment_id": "seg-a7f9e9fb",
+          "before": "When deploying Next.js behind a downstream proxy (e.g. a loa",
+          "after": " server with [keep-alive timeouts](https://nodejs.org/api/ht",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-bac2e680",
+          "segment_id": "seg-3e7f98cd",
+          "before": "When a font function is called on a page of your site, it is",
+          "after": "eloaded on the related routes based on the type of file wher",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-0f913fb2",
+          "segment_id": "seg-0892ff93",
+          "before": "When `action` is a string, the `<Form>` component supports t",
+          "after": "string, the `<Form>` component supports the following props:",
+          "note": "identifier en dominio nextjs"
+        }
+      ],
+      "justification": "Término con 852 ocurrencias en el dominio nextjs; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-cc9e",
+      "source_term": "Components",
+      "domain": "nextjs",
+      "sense": "identifier observado en dominio nextjs (843 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "Components"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-62b8a02d",
+          "segment_id": "seg-1a465d62",
+          "before": "Good to know\nUsing props like `onLoad`, which accept a funct",
+          "after": "nt) to serialize the provided function.\nAlternatively, you c",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-62b8a02d",
+          "segment_id": "seg-2f459b9b",
+          "before": "The callback function will be called with one argument, the ",
+          "after": "to know\nUsing props like `onLoad`, which accept a function, ",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-62b8a02d",
+          "segment_id": "seg-c24480d8",
+          "before": "Good to know\nUsing props like `onError`, which accept a func",
+          "after": "eference/rsc/use-client) to serialize the provided function.",
+          "note": "identifier en dominio nextjs"
+        }
+      ],
+      "justification": "Término con 843 ocurrencias en el dominio nextjs; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-f570",
+      "source_term": "React",
+      "domain": "nextjs",
+      "sense": "identifier observado en dominio nextjs (839 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "React"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-e158d4a9",
+          "segment_id": "seg-4fc2e748",
+          "before": "**ESLint**: The traditional and most popular JavaScript lint",
+          "after": ", modern linter and formatter that combines the functionalit",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-62b8a02d",
+          "segment_id": "seg-5fc21c67",
+          "before": "This also avoid calling React `useState()` so it can lead to",
+          "after": "eholder) prop because the placeholder will never be removed.",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-37235d13",
+          "segment_id": "seg-c0794545",
+          "before": "`<Link>` is a React component that extends the HTML `<a>` el",
+          "after": "prefetching) and client-side navigation between routes. It i",
+          "note": "identifier en dominio nextjs"
+        }
+      ],
+      "justification": "Término con 839 ocurrencias en el dominio nextjs; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-95df",
+      "source_term": "Reference",
+      "domain": "nextjs",
+      "sense": "identifier observado en dominio nextjs (809 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "Reference"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-e158d4a9",
+          "segment_id": "seg-515d00af",
+          "before": "[Reference](#reference) <a id=\"reference\"></a>",
+          "after": "[Reference](#reference) <a id=\"reference\"></a>",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-b563dbcf",
+          "segment_id": "seg-e4c4b699",
+          "before": "[App Router](/docs/15/app)\n[API Reference](/docs/15/app/api-",
+          "after": "r](/docs/15/app)\n[API Reference](/docs/15/app/api-reference)",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-5146108d",
+          "segment_id": "seg-64124d6d",
+          "before": "[Reference](#reference) <a id=\"reference\"></a>",
+          "after": "[Reference](#reference) <a id=\"reference\"></a>",
+          "note": "identifier en dominio nextjs"
+        }
+      ],
+      "justification": "Término con 809 ocurrencias en el dominio nextjs; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-ba95",
+      "source_term": "AI",
+      "domain": "oracle",
+      "sense": "acronym observado en dominio oracle (793 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "AI"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-1b1ddbc2",
+          "segment_id": "seg-198903eb",
+          "before": "1 What's New for Oracle AI Vector Search",
+          "after": "1 What's New for Oracle AI Vector Search",
+          "note": "acronym en dominio oracle"
+        },
+        {
+          "document_id": "doc-5e1b6ef4",
+          "segment_id": "seg-678dda82",
+          "before": "Página única de prefacio que presenta el documento **Oracle®",
+          "after": "mo referencia para consultar datos semánticos y de negocio m",
+          "note": "acronym en dominio oracle"
+        },
+        {
+          "document_id": "doc-5e1b6ef4",
+          "segment_id": "seg-678dda82",
+          "before": "Página única de prefacio que presenta el documento **Oracle®",
+          "after": "mo referencia para consultar datos semánticos y de negocio m",
+          "note": "acronym en dominio oracle"
+        }
+      ],
+      "justification": "Término con 793 ocurrencias en el dominio oracle; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-73cc",
+      "source_term": "Last",
+      "domain": "nextjs",
+      "sense": "identifier observado en dominio nextjs (766 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "Last"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-5146108d",
+          "segment_id": "seg-2ec65fa3",
+          "before": "Last updated September 23, 2025\n[Previouscreate-next-app](/d",
+          "after": "ext-app)\n[NextEdge Runtime](/docs/15/app/api-reference/edge)",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-bac2e680",
+          "segment_id": "seg-20612509",
+          "before": "Last updated August 6, 2025\n[PreviousComponents](/docs/15/ap",
+          "after": "tForm Component](/docs/15/app/api-reference/components/form)",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-0f913fb2",
+          "segment_id": "seg-fa5e5c88",
+          "before": "See the [Server Actions](/docs/app/getting-started/updating-",
+          "after": "/app/api-reference/components/font)\n[NextImage Component](/d",
+          "note": "identifier en dominio nextjs"
+        }
+      ],
+      "justification": "Término con 766 ocurrencias en el dominio nextjs; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-25c0",
+      "source_term": "When",
+      "domain": "angular",
+      "sense": "identifier observado en dominio angular (750 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "When"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-3f2cf568",
+          "segment_id": "seg-3f4c447c",
+          "before": "For example, the string \"1s 100ms ease-out\" specifies a dura",
+          "after": "\nwhich decelerates near the end of the duration.\n@param\nstyl",
+          "note": "identifier en dominio angular"
+        },
+        {
+          "document_id": "doc-576cf5b4",
+          "segment_id": "seg-001eb128",
+          "before": "Grouped animations are useful when a series of styles must b",
+          "after": "\nWhen called within a [`sequence()`](/api/animations/sequenc",
+          "note": "identifier en dominio angular"
+        },
+        {
+          "document_id": "doc-523158e6",
+          "segment_id": "seg-bed2dfa0",
+          "before": "When you pass an array of steps to a\n[`transition()`](/api/a",
+          "after": "to the  [`group()`](/api/animations/group) call, which runs ",
+          "note": "identifier en dominio angular"
+        }
+      ],
+      "justification": "Término con 750 ocurrencias en el dominio angular; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-ef21",
+      "source_term": "Oracle",
+      "domain": "oracle",
+      "sense": "identifier observado en dominio oracle (695 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "Oracle"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-1b1ddbc2",
+          "segment_id": "seg-198903eb",
+          "before": "1 What's New for Oracle AI Vector Search",
+          "after": "1 What's New for Oracle AI Vector Search",
+          "note": "identifier en dominio oracle"
+        },
+        {
+          "document_id": "doc-1b1ddbc2",
+          "segment_id": "seg-4b2e5b14",
+          "before": "Página con la información de copyright, atribuciones, marcas",
+          "after": "s y restricciones legales habituales de los manuales Oracle.",
+          "note": "identifier en dominio oracle"
+        },
+        {
+          "document_id": "doc-5e1b6ef4",
+          "segment_id": "seg-678dda82",
+          "before": "Página única de prefacio que presenta el documento **Oracle®",
+          "after": "mo referencia para consultar datos semánticos y de negocio m",
+          "note": "identifier en dominio oracle"
+        }
+      ],
+      "justification": "Término con 695 ocurrencias en el dominio oracle; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-ef37",
+      "source_term": "Suspense",
+      "domain": "nextjs",
+      "sense": "identifier observado en dominio nextjs (668 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "Suspense"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-3462f1ac",
+          "segment_id": "seg-ca1296ba",
+          "before": "Check your route for any of these conditions, and if you are",
+          "after": "cs/app/api-reference/file-conventions/loading) or [`` <Suspe",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-3462f1ac",
+          "segment_id": "seg-ca1296ba",
+          "before": "Check your route for any of these conditions, and if you are",
+          "after": "cs/app/api-reference/file-conventions/loading) or [`` <Suspe",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-3edc4975",
+          "segment_id": "seg-650cdf8a",
+          "before": "The special file `loading.js` helps you create meaningful Lo",
+          "after": " this convention, you can show an [instant loading state](#i",
+          "note": "identifier en dominio nextjs"
+        }
+      ],
+      "justification": "Término con 668 ocurrencias en el dominio nextjs; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-cb1b",
+      "source_term": "URL",
+      "domain": "nextjs",
+      "sense": "acronym observado en dominio nextjs (667 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "URL"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-e158d4a9",
+          "segment_id": "seg-3f296f10",
+          "before": "To create a new app using any public GitHub example, use the",
+          "after": "le` option with the GitHub repo's URL. For example:\nTerminal",
+          "note": "acronym en dominio nextjs"
+        },
+        {
+          "document_id": "doc-0f913fb2",
+          "segment_id": "seg-c190c308",
+          "before": "The `<Form>` component extends the HTML `<form>` element to ",
+          "after": "tching) of [loading UI](/docs/app/api-reference/file-convent",
+          "note": "acronym en dominio nextjs"
+        },
+        {
+          "document_id": "doc-0f913fb2",
+          "segment_id": "seg-d2986806",
+          "before": "When the user updates the query input field and submits the ",
+          "after": "?query=abc`.\nGood to know\nIf you pass an empty string `\"\"` t",
+          "note": "acronym en dominio nextjs"
+        }
+      ],
+      "justification": "Término con 667 ocurrencias en el dominio nextjs; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-a653",
+      "source_term": "CSS",
+      "domain": "nextjs",
+      "sense": "acronym observado en dominio nextjs (648 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "CSS"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-bac2e680",
+          "segment_id": "seg-8128f578",
+          "before": "[`next/font`](/docs/app/api-reference/components/font) autom",
+          "after": "ork requests for improved privacy and performance.\nIt includ",
+          "note": "acronym en dominio nextjs"
+        },
+        {
+          "document_id": "doc-bac2e680",
+          "segment_id": "seg-2a9c3d3e",
+          "before": "The font [`style`](https://developer.mozilla.org/docs/Web/CS",
+          "after": "g/docs/Web/CSS/font-style) with the following possibilities:",
+          "note": "acronym en dominio nextjs"
+        },
+        {
+          "document_id": "doc-bac2e680",
+          "segment_id": "seg-ac2785a7",
+          "before": "The font [`display`](https://developer.mozilla.org/docs/Web/",
+          "after": "illa.org/docs/Web/CSS/@font-face/font-display#values) of `'a",
+          "note": "acronym en dominio nextjs"
+        }
+      ],
+      "justification": "Término con 648 ocurrencias en el dominio nextjs; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-23fc",
+      "source_term": "Vector",
+      "domain": "oracle",
+      "sense": "identifier observado en dominio oracle (642 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "Vector"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-1b1ddbc2",
+          "segment_id": "seg-198903eb",
+          "before": "1 What's New for Oracle AI Vector Search",
+          "after": "1 What's New for Oracle AI Vector Search",
+          "note": "identifier en dominio oracle"
+        },
+        {
+          "document_id": "doc-1b1ddbc2",
+          "segment_id": "seg-875374aa",
+          "before": "4 Generate Vector Embeddings",
+          "after": "4 Generate Vector Embeddings",
+          "note": "identifier en dominio oracle"
+        },
+        {
+          "document_id": "doc-1b1ddbc2",
+          "segment_id": "seg-1deb2719",
+          "before": "5 Store Vector Embeddings",
+          "after": "5 Store Vector Embeddings",
+          "note": "identifier en dominio oracle"
+        }
+      ],
+      "justification": "Término con 642 ocurrencias en el dominio oracle; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-0663",
+      "source_term": "Client",
+      "domain": "nextjs",
+      "sense": "identifier observado en dominio nextjs (632 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "Client"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-62b8a02d",
+          "segment_id": "seg-1a465d62",
+          "before": "Good to know\nUsing props like `onLoad`, which accept a funct",
+          "after": "nt) to serialize the provided function.\nAlternatively, you c",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-62b8a02d",
+          "segment_id": "seg-2f459b9b",
+          "before": "The callback function will be called with one argument, the ",
+          "after": "to know\nUsing props like `onLoad`, which accept a function, ",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-62b8a02d",
+          "segment_id": "seg-c24480d8",
+          "before": "Good to know\nUsing props like `onError`, which accept a func",
+          "after": "eference/rsc/use-client) to serialize the provided function.",
+          "note": "identifier en dominio nextjs"
+        }
+      ],
+      "justification": "Término con 632 ocurrencias en el dominio nextjs; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-d758",
+      "source_term": "URL",
+      "domain": "angular",
+      "sense": "acronym observado en dominio angular (625 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "URL"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-9e538d41",
+          "segment_id": "seg-c770cb39",
+          "before": "A predefined DI token for the base href\nto be used with the ",
+          "after": " URL prefix that should be preserved when generating\nand rec",
+          "note": "acronym en dominio angular"
+        },
+        {
+          "document_id": "doc-0e38ceda",
+          "segment_id": "seg-4c3a351e",
+          "before": "A [`LocationStrategy`](/api/common/LocationStrategy) used to",
+          "after": " in the\n[hash fragment](https://en.wikipedia.org/wiki/Unifor",
+          "note": "acronym en dominio angular"
+        },
+        {
+          "document_id": "doc-0e38ceda",
+          "segment_id": "seg-8b4d7263",
+          "before": "A [`LocationStrategy`](/api/common/LocationStrategy) used to",
+          "after": " in the\n[hash fragment](https://en.wikipedia.org/wiki/Unifor",
+          "note": "acronym en dominio angular"
+        }
+      ],
+      "justification": "Término con 625 ocurrencias en el dominio angular; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-af4a",
+      "source_term": "HNSW",
+      "domain": "oracle",
+      "sense": "acronym observado en dominio oracle (618 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "HNSW"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-f7e7438c",
+          "segment_id": "seg-9a635f2a",
+          "before": "Primera release update documentada para Oracle AI Database 2",
+          "after": "nformación sobre planes del optimizador** para índices HNSW ",
+          "note": "acronym en dominio oracle"
+        },
+        {
+          "document_id": "doc-f7e7438c",
+          "segment_id": "seg-56523dae",
+          "before": "Release de mayor envergadura funcional: introduce **Hybrid V",
+          "after": "ECTOR`, **soporte para Ollama** como proveedor REST local, i",
+          "note": "acronym en dominio oracle"
+        },
+        {
+          "document_id": "doc-f7e7438c",
+          "segment_id": "seg-56523dae",
+          "before": "Release de mayor envergadura funcional: introduce **Hybrid V",
+          "after": "ECTOR`, **soporte para Ollama** como proveedor REST local, i",
+          "note": "acronym en dominio oracle"
+        }
+      ],
+      "justification": "Término con 618 ocurrencias en el dominio oracle; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-5149",
+      "source_term": "Component",
+      "domain": "nextjs",
+      "sense": "identifier observado en dominio nextjs (617 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "Component"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-bac2e680",
+          "segment_id": "seg-20612509",
+          "before": "Last updated August 6, 2025\n[PreviousComponents](/docs/15/ap",
+          "after": "tForm Component](/docs/15/app/api-reference/components/form)",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-0f913fb2",
+          "segment_id": "seg-fa5e5c88",
+          "before": "See the [Server Actions](/docs/app/getting-started/updating-",
+          "after": "/app/api-reference/components/font)\n[NextImage Component](/d",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-62b8a02d",
+          "segment_id": "seg-5eaad06f",
+          "before": "Image Component",
+          "after": "Image Component",
+          "note": "identifier en dominio nextjs"
+        }
+      ],
+      "justification": "Término con 617 ocurrencias en el dominio nextjs; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-3e6c",
+      "source_term": "void",
+      "domain": "angular",
+      "sense": "code_reference observado en dominio angular (593 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "void"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-b3029fc2",
+          "segment_id": "seg-cfaf7f96",
+          "before": "Initializes the animation.\n@returns\n`void`",
+          "after": "Initializes the animation.\n@returns\n`void`",
+          "note": "code_reference en dominio angular"
+        },
+        {
+          "document_id": "doc-b3029fc2",
+          "segment_id": "seg-cf67c065",
+          "before": "Runs the animation, invoking the `onStart()` callback.\n@retu",
+          "after": "nimation, invoking the `onStart()` callback.\n@returns\n`void`",
+          "note": "code_reference en dominio angular"
+        },
+        {
+          "document_id": "doc-b3029fc2",
+          "segment_id": "seg-ec2af6ae",
+          "before": "Pauses the animation.\n@returns\n`void`",
+          "after": "Pauses the animation.\n@returns\n`void`",
+          "note": "code_reference en dominio angular"
+        }
+      ],
+      "justification": "Término con 593 ocurrencias en el dominio angular; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-dc66",
+      "source_term": "Cache",
+      "domain": "nextjs",
+      "sense": "identifier observado en dominio nextjs (509 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "Cache"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-62b8a02d",
+          "segment_id": "seg-7e3ef35d",
+          "before": "`minimumCacheTTL` allows you to configure the Time to Live (",
+          "after": " [Static Image Import](/docs/app/getting-started/images#loca",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-62b8a02d",
+          "segment_id": "seg-e0d25c5c",
+          "before": "The expiration (or rather Max Age) of the optimized image is",
+          "after": "eader, whichever is larger.\nIf you need to change the cachin",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-62b8a02d",
+          "segment_id": "seg-e0d25c5c",
+          "before": "The expiration (or rather Max Age) of the optimized image is",
+          "after": "eader, whichever is larger.\nIf you need to change the cachin",
+          "note": "identifier en dominio nextjs"
+        }
+      ],
+      "justification": "Término con 509 ocurrencias en el dominio nextjs; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-79a4",
+      "source_term": "string",
+      "domain": "angular",
+      "sense": "code_reference observado en dominio angular (505 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "string"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-31215ef7",
+          "segment_id": "seg-d1b7203f",
+          "before": "`boolean`\n@param\nprop\n`string`\n@returns\n`boolean`",
+          "after": "`boolean`\n@param\nprop\n`string`\n@returns\n`boolean`",
+          "note": "code_reference en dominio angular"
+        },
+        {
+          "document_id": "doc-31215ef7",
+          "segment_id": "seg-778b38f1",
+          "before": "`any[]`\n@param\nelement\n`any`\n@param\nselector\n`string`\n@param",
+          "after": "am\nselector\n`string`\n@param\nmulti\n`boolean`\n@returns\n`any[]`",
+          "note": "code_reference en dominio angular"
+        },
+        {
+          "document_id": "doc-31215ef7",
+          "segment_id": "seg-9e1686de",
+          "before": "`string`\n@param\nelement\n`any`\n@param\nprop\n`string`\n@param\nde",
+          "after": "aram\ndefaultValue\n`` string | undefined ``\n@returns\n`string`",
+          "note": "code_reference en dominio angular"
+        }
+      ],
+      "justification": "Término con 505 ocurrencias en el dominio angular; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-5a9f",
+      "source_term": "Pages",
+      "domain": "nextjs",
+      "sense": "identifier observado en dominio nextjs (499 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "Pages"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-051c5fce",
+          "segment_id": "seg-8e227b7d",
+          "before": "Cache keys are opaque identifiers. Preserve the entire key w",
+          "after": "include the response kind and a SHA-256 hash of the source r",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-051c5fce",
+          "segment_id": "seg-8e227b7d",
+          "before": "Cache keys are opaque identifiers. Preserve the entire key w",
+          "after": "include the response kind and a SHA-256 hash of the source r",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-feece981",
+          "segment_id": "seg-291cb5f5",
+          "before": "[allowedDevOriginsUse \\`allowedDevOrigins\\` to configure add",
+          "after": "fig/next-config-js/allowedDevOrigins)\n[appDirEnable the App ",
+          "note": "identifier en dominio nextjs"
+        }
+      ],
+      "justification": "Término con 499 ocurrencias en el dominio nextjs; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-b5a8",
+      "source_term": "DOM",
+      "domain": "angular",
+      "sense": "acronym observado en dominio angular (492 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "DOM"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-133a77b5",
+          "segment_id": "seg-f020bf75",
+          "before": "Creates an [`AnimationPlayer`](/api/animations/AnimationPlay",
+          "after": "`\nmethod that created this factory and attaches the new play",
+          "note": "acronym en dominio angular"
+        },
+        {
+          "document_id": "doc-133a77b5",
+          "segment_id": "seg-f020bf75",
+          "before": "Creates an [`AnimationPlayer`](/api/animations/AnimationPlay",
+          "after": "`\nmethod that created this factory and attaches the new play",
+          "note": "acronym en dominio angular"
+        },
+        {
+          "document_id": "doc-adba920f",
+          "segment_id": "seg-684d3a99",
+          "before": "Be careful about entering end leaving elements as their tran",
+          "after": "h a trigger enters the DOM its `:enter` transition always\n g",
+          "note": "acronym en dominio angular"
+        }
+      ],
+      "justification": "Término con 492 ocurrencias en el dominio angular; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-7b64",
+      "source_term": "Learn",
+      "domain": "nextjs",
+      "sense": "identifier observado en dominio nextjs (491 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "Learn"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-5146108d",
+          "segment_id": "seg-9c28deb6",
+          "before": "Learn more about [Telemetry](/telemetry).",
+          "after": "Learn more about [Telemetry](/telemetry).",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-bac2e680",
+          "segment_id": "seg-d36f5e79",
+          "before": "🎥 Watch\nLearn more about using `next/font` → [YouTube (6 min",
+          "after": "e (6 minutes)](https://www.youtube.com/watch?v=L8_98i_bMMA).",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-62b8a02d",
+          "segment_id": "seg-3c0f5c39",
+          "before": "If you want to display a different image for mobile and desk",
+          "after": "earn/HTML/Multimedia_and_embedding/Responsive_images#art_dir",
+          "note": "identifier en dominio nextjs"
+        }
+      ],
+      "justification": "Término con 491 ocurrencias en el dominio nextjs; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-e5b2",
+      "source_term": "@returns",
+      "domain": "angular",
+      "sense": "code_reference observado en dominio angular (465 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "@returns"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-31215ef7",
+          "segment_id": "seg-9e1686de",
+          "before": "`string`\n@param\nelement\n`any`\n@param\nprop\n`string`\n@param\nde",
+          "after": "aram\ndefaultValue\n`` string | undefined ``\n@returns\n`string`",
+          "note": "code_reference en dominio angular"
+        },
+        {
+          "document_id": "doc-31215ef7",
+          "segment_id": "seg-bb04efbe",
+          "before": "`any`\n@param\nelement\n`any`\n@param\nkeyframes\n`` Map<string, s",
+          "after": "g\n`` string | null | undefined ``\n@param\npreviousPlayers\n`` ",
+          "note": "code_reference en dominio angular"
+        },
+        {
+          "document_id": "doc-c3c3cd3b",
+          "segment_id": "seg-a543a1fa",
+          "before": "`string`\n@param\nelement\n`any`\n@param\nprop\n`string`\n@param\nde",
+          "after": "aram\ndefaultValue\n`` string | undefined ``\n@returns\n`string`",
+          "note": "code_reference en dominio angular"
+        }
+      ],
+      "justification": "Término con 465 ocurrencias en el dominio angular; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-51a9",
+      "source_term": "HTML",
+      "domain": "nextjs",
+      "sense": "acronym observado en dominio nextjs (454 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "HTML"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-bac2e680",
+          "segment_id": "seg-3b984881",
+          "before": "`next/font` integrates seamlessly with [Tailwind CSS](https:",
+          "after": "t#css-variables).\nIn the example below, we use the `Inter` a",
+          "note": "acronym en dominio nextjs"
+        },
+        {
+          "document_id": "doc-bac2e680",
+          "segment_id": "seg-a598c66d",
+          "before": "Returns a read-only CSS `className` for the loaded font to b",
+          "after": "ssName` for the loaded font to be passed to an HTML element.",
+          "note": "acronym en dominio nextjs"
+        },
+        {
+          "document_id": "doc-bac2e680",
+          "segment_id": "seg-b43b313b",
+          "before": "Returns a read-only CSS `style` object for the loaded font t",
+          "after": "ntFamily` to access the font family name and fallback fonts.",
+          "note": "acronym en dominio nextjs"
+        }
+      ],
+      "justification": "Término con 454 ocurrencias en el dominio nextjs; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-11c2",
+      "source_term": "Route",
+      "domain": "nextjs",
+      "sense": "identifier observado en dominio nextjs (430 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "Route"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-9c33b1b8",
+          "segment_id": "seg-4b131f9a",
+          "before": "[Cross-Origin Resource Sharing (CORS)](https://developer.moz",
+          "after": "ich sites can access your resources. You can set the `Access",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-b2aed7a5",
+          "segment_id": "seg-3b65d6ba",
+          "before": "Dependencies used inside [Server Components](/docs/app/getti",
+          "after": "rence/file-conventions/route) will automatically be bundled ",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-2316691d",
+          "segment_id": "seg-65843293",
+          "before": "[Route-Aware Type Helpers](#route-aware-type-helpers) <a id=",
+          "after": "te-aware-type-helpers) <a id=\"route-aware-type-helpers\"></a>",
+          "note": "identifier en dominio nextjs"
+        }
+      ],
+      "justification": "Término con 430 ocurrencias en el dominio nextjs; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-6af6",
+      "source_term": "UI",
+      "domain": "nextjs",
+      "sense": "acronym observado en dominio nextjs (430 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "UI"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-0f913fb2",
+          "segment_id": "seg-c190c308",
+          "before": "The `<Form>` component extends the HTML `<form>` element to ",
+          "after": "tching) of [loading UI](/docs/app/api-reference/file-convent",
+          "note": "acronym en dominio nextjs"
+        },
+        {
+          "document_id": "doc-0f913fb2",
+          "segment_id": "seg-e82ae504",
+          "before": "When the `<Form>` becomes visible in the user's viewport, sh",
+          "after": "fetched. On submission, the form will immediately navigate t",
+          "note": "acronym en dominio nextjs"
+        },
+        {
+          "document_id": "doc-0f913fb2",
+          "segment_id": "seg-e82ae504",
+          "before": "When the `<Form>` becomes visible in the user's viewport, sh",
+          "after": "fetched. On submission, the form will immediately navigate t",
+          "note": "acronym en dominio nextjs"
+        }
+      ],
+      "justification": "Término con 430 ocurrencias en el dominio nextjs; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-f0b6",
+      "source_term": "Search",
+      "domain": "oracle",
+      "sense": "identifier observado en dominio oracle (395 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "Search"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-1b1ddbc2",
+          "segment_id": "seg-198903eb",
+          "before": "1 What's New for Oracle AI Vector Search",
+          "after": "1 What's New for Oracle AI Vector Search",
+          "note": "identifier en dominio oracle"
+        },
+        {
+          "document_id": "doc-1b1ddbc2",
+          "segment_id": "seg-593b1802",
+          "before": "12 Vector Search PL/SQL Packages",
+          "after": "12 Vector Search PL/SQL Packages",
+          "note": "identifier en dominio oracle"
+        },
+        {
+          "document_id": "doc-5e1b6ef4",
+          "segment_id": "seg-678dda82",
+          "before": "Página única de prefacio que presenta el documento **Oracle®",
+          "after": "mo referencia para consultar datos semánticos y de negocio m",
+          "note": "identifier en dominio oracle"
+        }
+      ],
+      "justification": "Término con 395 ocurrencias en el dominio oracle; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-e087",
+      "source_term": "VECTOR",
+      "domain": "oracle",
+      "sense": "acronym observado en dominio oracle (383 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "VECTOR"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-f7e7438c",
+          "segment_id": "seg-40d301a4",
+          "before": "Release centrada en **vectores en external tables**, **sopor",
+          "after": " **PL/SQL JACCARD**, **vectores en tablas distribuidas**, y ",
+          "note": "acronym en dominio oracle"
+        },
+        {
+          "document_id": "doc-f7e7438c",
+          "segment_id": "seg-d059fc66",
+          "before": "Release Update 23.8 incorpora el tipo VECTOR como dato de en",
+          "after": "lustering, feature extraction), soporte para **modelos Image",
+          "note": "acronym en dominio oracle"
+        },
+        {
+          "document_id": "doc-5359a85d",
+          "segment_id": "seg-760ad517",
+          "before": "VECTOR Data Type",
+          "after": "VECTOR Data Type",
+          "note": "acronym en dominio oracle"
+        }
+      ],
+      "justification": "Término con 383 ocurrencias en el dominio oracle; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-e4b6",
+      "source_term": "Description",
+      "domain": "angular",
+      "sense": "identifier observado en dominio angular (367 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "Description"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-5aca0edf",
+          "segment_id": "seg-0580b278",
+          "before": "[Description](#description) <a id=\"description\"></a>",
+          "after": "[Description](#description) <a id=\"description\"></a>",
+          "note": "identifier en dominio angular"
+        },
+        {
+          "document_id": "doc-d99aa634",
+          "segment_id": "seg-5820eae1",
+          "before": "[Description](#description) <a id=\"description\"></a>",
+          "after": "[Description](#description) <a id=\"description\"></a>",
+          "note": "identifier en dominio angular"
+        },
+        {
+          "document_id": "doc-2f504812",
+          "segment_id": "seg-1770d19b",
+          "before": "[Description](#description) <a id=\"description\"></a>",
+          "after": "[Description](#description) <a id=\"description\"></a>",
+          "note": "identifier en dominio angular"
+        }
+      ],
+      "justification": "Término con 367 ocurrencias en el dominio angular; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-ebf5",
+      "source_term": "Reference",
+      "domain": "angular",
+      "sense": "identifier observado en dominio angular (355 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "Reference"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-d99aa634",
+          "segment_id": "seg-ecb563e6",
+          "before": "[Reference](#Reference)",
+          "after": "[Reference](#Reference)",
+          "note": "identifier en dominio angular"
+        },
+        {
+          "document_id": "doc-d99aa634",
+          "segment_id": "seg-ecb563e6",
+          "before": "[Reference](#Reference)",
+          "after": "[Reference](#Reference)",
+          "note": "identifier en dominio angular"
+        },
+        {
+          "document_id": "doc-27ee142c",
+          "segment_id": "seg-4db10090",
+          "before": "The `aria-current` type. It can be used in navigation trees ",
+          "after": "docs/Web/Accessibility/ARIA/Reference/Attributes/aria-curren",
+          "note": "identifier en dominio angular"
+        }
+      ],
+      "justification": "Término con 355 ocurrencias en el dominio angular; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-bdca",
+      "source_term": "Turbopack",
+      "domain": "nextjs",
+      "sense": "identifier observado en dominio nextjs (354 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "Turbopack"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-feece981",
+          "segment_id": "seg-291cb5f5",
+          "before": "[allowedDevOriginsUse \\`allowedDevOrigins\\` to configure add",
+          "after": "fig/next-config-js/allowedDevOrigins)\n[appDirEnable the App ",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-feece981",
+          "segment_id": "seg-291cb5f5",
+          "before": "[allowedDevOriginsUse \\`allowedDevOrigins\\` to configure add",
+          "after": "fig/next-config-js/allowedDevOrigins)\n[appDirEnable the App ",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-42f695b4",
+          "segment_id": "seg-024607a0",
+          "before": "The `turbopack` option lets you customize [Turbopack](/docs/",
+          "after": "d change how modules are resolved.\nTypeScript\nnext.config.ts",
+          "note": "identifier en dominio nextjs"
+        }
+      ],
+      "justification": "Término con 354 ocurrencias en el dominio nextjs; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-cf52",
+      "source_term": "This",
+      "domain": "oracle",
+      "sense": "identifier observado en dominio oracle (353 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "This"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-749b9d1f",
+          "segment_id": "seg-bfaaf7be",
+          "before": "Query Data With Similarity and Hybrid\nSearches\nUse Oracle AI",
+          "after": "e similarity with relational searches.\n• Perform Exact Simil",
+          "note": "identifier en dominio oracle"
+        },
+        {
+          "document_id": "doc-749b9d1f",
+          "segment_id": "seg-bfaaf7be",
+          "before": "Query Data With Similarity and Hybrid\nSearches\nUse Oracle AI",
+          "after": "e similarity with relational searches.\n• Perform Exact Simil",
+          "note": "identifier en dominio oracle"
+        },
+        {
+          "document_id": "doc-749b9d1f",
+          "segment_id": "seg-bfaaf7be",
+          "before": "Query Data With Similarity and Hybrid\nSearches\nUse Oracle AI",
+          "after": "e similarity with relational searches.\n• Perform Exact Simil",
+          "note": "identifier en dominio oracle"
+        }
+      ],
+      "justification": "Término con 353 ocurrencias en el dominio oracle; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-b93e",
+      "source_term": "Usage",
+      "domain": "angular",
+      "sense": "identifier observado en dominio angular (347 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "Usage"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-bca7c9b4",
+          "segment_id": "seg-ac72b3c5",
+          "before": "[Usage Notes](#usage-notes) <a id=\"usage-notes\"></a>",
+          "after": "[Usage Notes](#usage-notes) <a id=\"usage-notes\"></a>",
+          "note": "identifier en dominio angular"
+        },
+        {
+          "document_id": "doc-3f2cf568",
+          "segment_id": "seg-f9e39a22",
+          "before": "[Usage Notes](#usage-notes) <a id=\"usage-notes\"></a>",
+          "after": "[Usage Notes](#usage-notes) <a id=\"usage-notes\"></a>",
+          "note": "identifier en dominio angular"
+        },
+        {
+          "document_id": "doc-06129067",
+          "segment_id": "seg-dd4e97ed",
+          "before": "[Usage Notes](#usage-notes) <a id=\"usage-notes\"></a>",
+          "after": "[Usage Notes](#usage-notes) <a id=\"usage-notes\"></a>",
+          "note": "identifier en dominio angular"
+        }
+      ],
+      "justification": "Término con 347 ocurrencias en el dominio angular; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-1031",
+      "source_term": "JavaScript",
+      "domain": "nextjs",
+      "sense": "identifier observado en dominio nextjs (344 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "JavaScript"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-e158d4a9",
+          "segment_id": "seg-4fc2e748",
+          "before": "**ESLint**: The traditional and most popular JavaScript lint",
+          "after": ", modern linter and formatter that combines the functionalit",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-37235d13",
+          "segment_id": "seg-b2db8e48",
+          "before": "When linking to [dynamic segments](/docs/app/api-reference/f",
+          "after": "n](https://developer.mozilla.org/docs/Web/JavaScript/Referen",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-37235d13",
+          "segment_id": "seg-c238daf8",
+          "before": "The default scrolling behavior of `<Link>` in Next.js **is t",
+          "after": "avigation. When you navigate to a new [Page](/docs/app/api-r",
+          "note": "identifier en dominio nextjs"
+        }
+      ],
+      "justification": "Término con 344 ocurrencias en el dominio nextjs; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-8f43",
+      "source_term": "HTTP",
+      "domain": "angular",
+      "sense": "acronym observado en dominio angular (342 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "HTTP"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-24d67589",
+          "segment_id": "seg-43f75c95",
+          "before": "HTTP\\_INTERCEPTORS",
+          "after": "HTTP\\_INTERCEPTORS",
+          "note": "acronym en dominio angular"
+        },
+        {
+          "document_id": "doc-488b7ae3",
+          "segment_id": "seg-af306152",
+          "before": "If your application uses different HTTP origins to make API ",
+          "after": " client, the [`HTTP_TRANSFER_CACHE_ORIGIN_MAP`](/api/common/",
+          "note": "acronym en dominio angular"
+        },
+        {
+          "document_id": "doc-488b7ae3",
+          "segment_id": "seg-4e6fd87d",
+          "before": "If your application uses different HTTP origins to make API ",
+          "after": " client, the [`HTTP_TRANSFER_CACHE_ORIGIN_MAP`](/api/common/",
+          "note": "acronym en dominio angular"
+        }
+      ],
+      "justification": "Término con 342 ocurrencias en el dominio angular; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-8991",
+      "source_term": "IVF",
+      "domain": "oracle",
+      "sense": "acronym observado en dominio oracle (340 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "IVF"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-f7e7438c",
+          "segment_id": "seg-9a635f2a",
+          "before": "Primera release update documentada para Oracle AI Database 2",
+          "after": "nformación sobre planes del optimizador** para índices HNSW ",
+          "note": "acronym en dominio oracle"
+        },
+        {
+          "document_id": "doc-f7e7438c",
+          "segment_id": "seg-56523dae",
+          "before": "Release de mayor envergadura funcional: introduce **Hybrid V",
+          "after": "ECTOR`, **soporte para Ollama** como proveedor REST local, i",
+          "note": "acronym en dominio oracle"
+        },
+        {
+          "document_id": "doc-f7e7438c",
+          "segment_id": "seg-0325aa94",
+          "before": "Release Update 23.9 introduce **online rebuild** automático ",
+          "after": "F/HNSW globales, **SPARSE HNSW Indexes**, creación de **HVI ",
+          "note": "acronym en dominio oracle"
+        }
+      ],
+      "justification": "Término con 340 ocurrencias en el dominio oracle; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-493f",
+      "source_term": "NUMBER",
+      "domain": "oracle",
+      "sense": "acronym observado en dominio oracle (340 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "NUMBER"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-749b9d1f",
+          "segment_id": "seg-b3c6099b",
+          "before": "IVF Indexes in the Optimizer Plan\nIf the IVF index is used b",
+          "after": "tions tables accessed as well as corresponding indexes.\nThe ",
+          "note": "acronym en dominio oracle"
+        },
+        {
+          "document_id": "doc-749b9d1f",
+          "segment_id": "seg-b3c6099b",
+          "before": "IVF Indexes in the Optimizer Plan\nIf the IVF index is used b",
+          "after": "tions tables accessed as well as corresponding indexes.\nThe ",
+          "note": "acronym en dominio oracle"
+        },
+        {
+          "document_id": "doc-749b9d1f",
+          "segment_id": "seg-a166e9ba",
+          "before": "IVF Indexes in the Optimizer Plan\nIf the IVF index is used b",
+          "after": "tions tables accessed as well as corresponding indexes.\nThe ",
+          "note": "acronym en dominio oracle"
+        }
+      ],
+      "justification": "Término con 340 ocurrencias en el dominio oracle; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-04ec",
+      "source_term": "next.config.js",
+      "domain": "nextjs",
+      "sense": "code_reference observado en dominio nextjs (327 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "next.config.js"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-62b8a02d",
+          "segment_id": "seg-1a465d62",
+          "before": "Good to know\nUsing props like `onLoad`, which accept a funct",
+          "after": "nt) to serialize the provided function.\nAlternatively, you c",
+          "note": "code_reference en dominio nextjs"
+        },
+        {
+          "document_id": "doc-62b8a02d",
+          "segment_id": "seg-5f105a2a",
+          "before": "If you’ve configured [qualities](#qualities) in `next.config",
+          "after": "nal image is already low quality, setting a high quality val",
+          "note": "code_reference en dominio nextjs"
+        },
+        {
+          "document_id": "doc-62b8a02d",
+          "segment_id": "seg-1996f43e",
+          "before": "Since Next.js 12.3.0, this prop can be assigned to all image",
+          "after": ".config.js` with the following configuration:\nnext.config.js",
+          "note": "code_reference en dominio nextjs"
+        }
+      ],
+      "justification": "Término con 327 ocurrencias en el dominio nextjs; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-dab9",
+      "source_term": "Version",
+      "domain": "nextjs",
+      "sense": "identifier observado en dominio nextjs (325 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "Version"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-bac2e680",
+          "segment_id": "seg-c7bc9624",
+          "before": "[Version Changes](#version-changes) <a id=\"version-changes\">",
+          "after": "sion Changes](#version-changes) <a id=\"version-changes\"></a>",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-62b8a02d",
+          "segment_id": "seg-f44161c2",
+          "before": "[Version History](#version-history) <a id=\"version-history\">",
+          "after": "sion History](#version-history) <a id=\"version-history\"></a>",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-37235d13",
+          "segment_id": "seg-b4c4d27b",
+          "before": "[Version history](#version-history) <a id=\"version-history\">",
+          "after": "sion history](#version-history) <a id=\"version-history\"></a>",
+          "note": "identifier en dominio nextjs"
+        }
+      ],
+      "justification": "Término con 325 ocurrencias en el dominio nextjs; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-b824",
+      "source_term": "HttpClient",
+      "domain": "angular",
+      "sense": "identifier observado en dominio angular (323 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "HttpClient"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-488b7ae3",
+          "segment_id": "seg-af306152",
+          "before": "If your application uses different HTTP origins to make API ",
+          "after": " client, the [`HTTP_TRANSFER_CACHE_ORIGIN_MAP`](/api/common/",
+          "note": "identifier en dominio angular"
+        },
+        {
+          "document_id": "doc-488b7ae3",
+          "segment_id": "seg-af306152",
+          "before": "If your application uses different HTTP origins to make API ",
+          "after": " client, the [`HTTP_TRANSFER_CACHE_ORIGIN_MAP`](/api/common/",
+          "note": "identifier en dominio angular"
+        },
+        {
+          "document_id": "doc-488b7ae3",
+          "segment_id": "seg-4e6fd87d",
+          "before": "If your application uses different HTTP origins to make API ",
+          "after": " client, the [`HTTP_TRANSFER_CACHE_ORIGIN_MAP`](/api/common/",
+          "note": "identifier en dominio angular"
+        }
+      ],
+      "justification": "Término con 323 ocurrencias en el dominio angular; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-40c1",
+      "source_term": "FormGroup",
+      "domain": "angular",
+      "sense": "identifier observado en dominio angular (316 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "FormGroup"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-4e1aca5c",
+          "segment_id": "seg-060aa0b6",
+          "before": "This is the base class for [`FormControl`](/api/forms/FormCo",
+          "after": "i/forms/FormGroup), and [`FormArray`](/api/forms/FormArray).",
+          "note": "identifier en dominio angular"
+        },
+        {
+          "document_id": "doc-4e1aca5c",
+          "segment_id": "seg-060aa0b6",
+          "before": "This is the base class for [`FormControl`](/api/forms/FormCo",
+          "after": "i/forms/FormGroup), and [`FormArray`](/api/forms/FormArray).",
+          "note": "identifier en dominio angular"
+        },
+        {
+          "document_id": "doc-4e1aca5c",
+          "segment_id": "seg-f18383fe",
+          "before": "A multicasting observable that emits an event every time the",
+          "after": "hanges.\n**Note**: On value change, the emit happens right af",
+          "note": "identifier en dominio angular"
+        }
+      ],
+      "justification": "Término con 316 ocurrencias en el dominio angular; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-a9f8",
+      "source_term": "MDN",
+      "domain": "angular",
+      "sense": "acronym observado en dominio angular (315 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "MDN"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-94df40b8",
+          "segment_id": "seg-2ef079cf",
+          "before": "The **`HTMLElement.accessKey`** property sets the keystroke ",
+          "after": "://developer.mozilla.org/docs/Web/API/HTMLElement/accessKey)",
+          "note": "acronym en dominio angular"
+        },
+        {
+          "document_id": "doc-94df40b8",
+          "segment_id": "seg-0952cd65",
+          "before": "The **`HTMLElement.accessKeyLabel`** read-only property retu",
+          "after": "rwise it returns an empty string.\n[MDN Reference](https://de",
+          "note": "acronym en dominio angular"
+        },
+        {
+          "document_id": "doc-94df40b8",
+          "segment_id": "seg-0d07dde6",
+          "before": "The **`autocapitalize`** property of the HTMLElement interfa",
+          "after": "ble on all HTML elements, though it doesn't affect all of th",
+          "note": "acronym en dominio angular"
+        }
+      ],
+      "justification": "Término con 315 ocurrencias en el dominio angular; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-35dc",
+      "source_term": "Element",
+      "domain": "angular",
+      "sense": "identifier observado en dominio angular (313 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "Element"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-b7bb52ac",
+          "segment_id": "seg-c861eded",
+          "before": "Element that can be moved inside a CdkDropList container.",
+          "after": "Element that can be moved inside a CdkDropList container.",
+          "note": "identifier en dominio angular"
+        },
+        {
+          "document_id": "doc-94e8ed6c",
+          "segment_id": "seg-d5457c0b",
+          "before": "Element that will be used as a template for the placeholder ",
+          "after": "ceholder is displayed in place of the element being dragged.",
+          "note": "identifier en dominio angular"
+        },
+        {
+          "document_id": "doc-2577a6ae",
+          "segment_id": "seg-c2f3c2ac",
+          "before": "Element that will be used as a template for the preview\nof a",
+          "after": "plate for the preview\nof a CdkDrag when it is being dragged.",
+          "note": "identifier en dominio angular"
+        }
+      ],
+      "justification": "Término con 313 ocurrencias en el dominio angular; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-e0d1",
+      "source_term": "With",
+      "domain": "nextjs",
+      "sense": "identifier observado en dominio nextjs (303 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "With"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-e158d4a9",
+          "segment_id": "seg-5b5c87c9",
+          "before": "[With the default template](#with-the-default-template) <a i",
+          "after": "the-default-template) <a id=\"with-the-default-template\"></a>",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-e158d4a9",
+          "segment_id": "seg-553c15c9",
+          "before": "[With an official Next.js example](#with-an-official-nextjs-",
+          "after": "nextjs-example) <a id=\"with-an-official-nextjs-example\"></a>",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-e158d4a9",
+          "segment_id": "seg-d00937b0",
+          "before": "[With any public GitHub example](#with-any-public-github-exa",
+          "after": "-github-example) <a id=\"with-any-public-github-example\"></a>",
+          "note": "identifier en dominio nextjs"
+        }
+      ],
+      "justification": "Término con 303 ocurrencias en el dominio nextjs; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-9af8",
+      "source_term": "JSON",
+      "domain": "oracle",
+      "sense": "acronym observado en dominio oracle (300 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "JSON"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-f7e7438c",
+          "segment_id": "seg-d059fc66",
+          "before": "Release Update 23.8 incorpora el tipo VECTOR como dato de en",
+          "after": "lustering, feature extraction), soporte para **modelos Image",
+          "note": "acronym en dominio oracle"
+        },
+        {
+          "document_id": "doc-932029ac",
+          "segment_id": "seg-73339410",
+          "before": "El capítulo se organiza en cuatro bloques. El primero, \"Abou",
+          "after": " pipeline de transformación (texto plano → chunks → tokens →",
+          "note": "acronym en dominio oracle"
+        },
+        {
+          "document_id": "doc-932029ac",
+          "segment_id": "seg-eedea1b1",
+          "before": "Para invocaciones a REST providers externos, ambos paquetes ",
+          "after": "s parámetros JSON. La diferencia es que `DBMS_VECTOR_CHAIN` ",
+          "note": "acronym en dominio oracle"
+        }
+      ],
+      "justification": "Término con 300 ocurrencias en el dominio oracle; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-efbe",
+      "source_term": "Configuration",
+      "domain": "nextjs",
+      "sense": "identifier observado en dominio nextjs (298 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "Configuration"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-62b8a02d",
+          "segment_id": "seg-ed2b743a",
+          "before": "[Configuration options](#configuration-options) <a id=\"confi",
+          "after": "](#configuration-options) <a id=\"configuration-options\"></a>",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-9e9b9c75",
+          "segment_id": "seg-b7878f67",
+          "before": "[App Router](/docs/15/app)\n[API Reference](/docs/15/app/api-",
+          "after": "eference)\n[Configuration](/docs/15/app/api-reference/config)",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-82562843",
+          "segment_id": "seg-89e22430",
+          "before": "Configuration",
+          "after": "Configuration",
+          "note": "identifier en dominio nextjs"
+        }
+      ],
+      "justification": "Término con 298 ocurrencias en el dominio nextjs; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-192f",
+      "source_term": "Router",
+      "domain": "angular",
+      "sense": "identifier observado en dominio angular (298 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "Router"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-df0c7afb",
+          "segment_id": "seg-268a71ef",
+          "before": "It's better to use the `Router.navigate()` service to trigge",
+          "after": "ract with or create normalized URLs outside of\nrouting.\n[`Lo",
+          "note": "identifier en dominio angular"
+        },
+        {
+          "document_id": "doc-5f6da319",
+          "segment_id": "seg-1568dad2",
+          "before": "Enables the [`Location`](/api/common/Location) service to re",
+          "after": "cationStrategy`](/api/common/HashLocationStrategy) and [`Pat",
+          "note": "identifier en dominio angular"
+        },
+        {
+          "document_id": "doc-a4b33745",
+          "segment_id": "seg-b3cfaf6f",
+          "before": "This class should not be used directly by an application dev",
+          "after": "pi/common/PlatformLocation) encapsulates all calls to DOM AP",
+          "note": "identifier en dominio angular"
+        }
+      ],
+      "justification": "Término con 298 ocurrencias en el dominio angular; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-1911",
+      "source_term": "Database",
+      "domain": "oracle",
+      "sense": "identifier observado en dominio oracle (297 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "Database"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-5e1b6ef4",
+          "segment_id": "seg-678dda82",
+          "before": "Página única de prefacio que presenta el documento **Oracle®",
+          "after": "mo referencia para consultar datos semánticos y de negocio m",
+          "note": "identifier en dominio oracle"
+        },
+        {
+          "document_id": "doc-f7e7438c",
+          "segment_id": "seg-0cc835b6",
+          "before": "Bloque principal del capítulo. Enumera, mediante una tabla `",
+          "after": "or Search** introducidas en **Oracle AI Database 26ai** desd",
+          "note": "identifier en dominio oracle"
+        },
+        {
+          "document_id": "doc-f7e7438c",
+          "segment_id": "seg-0cc835b6",
+          "before": "Bloque principal del capítulo. Enumera, mediante una tabla `",
+          "after": "or Search** introducidas en **Oracle AI Database 26ai** desd",
+          "note": "identifier en dominio oracle"
+        }
+      ],
+      "justification": "Término con 297 ocurrencias en el dominio oracle; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-3ae7",
+      "source_term": "CSS",
+      "domain": "angular",
+      "sense": "acronym observado en dominio angular (291 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "CSS"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-d99aa634",
+          "segment_id": "seg-619d3d24",
+          "before": "Associates a named animation state with a set of CSS styles.",
+          "after": "h a set of CSS styles.\nSee [`state()`](api/animations/state)",
+          "note": "acronym en dominio angular"
+        },
+        {
+          "document_id": "doc-d99aa634",
+          "segment_id": "seg-7872426d",
+          "before": "Contains a set of CSS property-value pairs into a named styl",
+          "after": "s into a named style.\nSee [`style()`](/api/animations/style)",
+          "note": "acronym en dominio angular"
+        },
+        {
+          "document_id": "doc-eba43353",
+          "segment_id": "seg-8c7979da",
+          "before": "The CSS selector for this query.",
+          "after": "The CSS selector for this query.",
+          "note": "acronym en dominio angular"
+        }
+      ],
+      "justification": "Término con 291 ocurrencias en el dominio angular; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-d7b6",
+      "source_term": "Idea",
+      "domain": "oracle",
+      "sense": "identifier observado en dominio oracle (280 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "Idea"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-1b1ddbc2",
+          "segment_id": "seg-7ad20a2e",
+          "before": "Idea central",
+          "after": "Idea central",
+          "note": "identifier en dominio oracle"
+        },
+        {
+          "document_id": "doc-1b1ddbc2",
+          "segment_id": "seg-e9cae82a",
+          "before": "Idea central",
+          "after": "Idea central",
+          "note": "identifier en dominio oracle"
+        },
+        {
+          "document_id": "doc-1b1ddbc2",
+          "segment_id": "seg-256b1e2e",
+          "before": "Idea central",
+          "after": "Idea central",
+          "note": "identifier en dominio oracle"
+        }
+      ],
+      "justification": "Término con 280 ocurrencias en el dominio oracle; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-010b",
+      "source_term": "Terminal",
+      "domain": "nextjs",
+      "sense": "identifier observado en dominio nextjs (276 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "Terminal"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-e158d4a9",
+          "segment_id": "seg-d42e33b2",
+          "before": "The `create-next-app` CLI allow you to create a new Next.js ",
+          "after": "/next.js/tree/canary/examples) from a public GitHub reposito",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-e158d4a9",
+          "segment_id": "seg-05882930",
+          "before": "To create a new app using the default template, run the foll",
+          "after": "mplate, run the following command in your terminal:\nTerminal",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-e158d4a9",
+          "segment_id": "seg-c9c7be17",
+          "before": "You will then be asked the following prompts:\nTerminal",
+          "after": "You will then be asked the following prompts:\nTerminal",
+          "note": "identifier en dominio nextjs"
+        }
+      ],
+      "justification": "Término con 276 ocurrencias en el dominio nextjs; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-7099",
+      "source_term": "app",
+      "domain": "nextjs",
+      "sense": "code_reference observado en dominio nextjs (275 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "app"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-f61f6a68",
+          "segment_id": "seg-39f3be35",
+          "before": "Good to know\nThis option is **no longer** needed as of Next.",
+          "after": "pp)) enables support for [layouts](/docs/app/api-reference/f",
+          "note": "code_reference en dominio nextjs"
+        },
+        {
+          "document_id": "doc-f61f6a68",
+          "segment_id": "seg-39f3be35",
+          "before": "Good to know\nThis option is **no longer** needed as of Next.",
+          "after": "pp)) enables support for [layouts](/docs/app/api-reference/f",
+          "note": "code_reference en dominio nextjs"
+        },
+        {
+          "document_id": "doc-f61f6a68",
+          "segment_id": "seg-39f3be35",
+          "before": "Good to know\nThis option is **no longer** needed as of Next.",
+          "after": "pp)) enables support for [layouts](/docs/app/api-reference/f",
+          "note": "code_reference en dominio nextjs"
+        }
+      ],
+      "justification": "Término con 275 ocurrencias en el dominio nextjs; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-a8ac",
+      "source_term": "CLI",
+      "domain": "angular",
+      "sense": "acronym observado en dominio angular (272 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "CLI"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-c7b04a53",
+          "segment_id": "seg-2ceef124",
+          "before": "Exports all the basic Angular directives and pipes,\nsuch as ",
+          "after": "pi/common/DecimalPipe), and so on.\nRe-exported by `BrowserMo",
+          "note": "acronym en dominio angular"
+        },
+        {
+          "document_id": "doc-88b4bbc3",
+          "segment_id": "seg-2d118e1a",
+          "before": "Re-exported by `BrowserModule`, which is included automatica",
+          "after": ". Eagerly injects\n[`ApplicationRef`](/api/core/ApplicationRe",
+          "note": "acronym en dominio angular"
+        },
+        {
+          "document_id": "doc-5a9377e7",
+          "segment_id": "seg-de56a9fa",
+          "before": "Disable Angular's development mode, which turns off assertio",
+          "after": "verifies that a change detection pass\ndoes not result in add",
+          "note": "acronym en dominio angular"
+        }
+      ],
+      "justification": "Término con 272 ocurrencias en el dominio angular; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-a325",
+      "source_term": "Link",
+      "domain": "nextjs",
+      "sense": "identifier observado en dominio nextjs (271 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "Link"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-21d90d6f",
+          "segment_id": "seg-41834a9f",
+          "before": "[FontOptimizing loading web fonts with the built-in \\`next/f",
+          "after": " how to use the \\`\\<Form\\>\\` component to handle form submis",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-37235d13",
+          "segment_id": "seg-25239284",
+          "before": "Link Component",
+          "after": "Link Component",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-37235d13",
+          "segment_id": "seg-c0794545",
+          "before": "`<Link>` is a React component that extends the HTML `<a>` el",
+          "after": "prefetching) and client-side navigation between routes. It i",
+          "note": "identifier en dominio nextjs"
+        }
+      ],
+      "justification": "Término con 271 ocurrencias en el dominio nextjs; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-e8a1",
+      "source_term": "HTML",
+      "domain": "angular",
+      "sense": "acronym observado en dominio angular (267 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "HTML"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-6b64d8bb",
+          "segment_id": "seg-a8965f07",
+          "before": "A set of CSS styles or HTML styles associated with an animat",
+          "after": "h an animation state.\nThe value can be any of the following:",
+          "note": "acronym en dominio angular"
+        },
+        {
+          "document_id": "doc-1acb9e4c",
+          "segment_id": "seg-1a9c5ae0",
+          "before": "A widget within a toolbar.\nThe `ngToolbarWidget` directive s",
+          "after": "ithin an `ngToolbar` or `ngToolbarWidgetGroup`. It enables\nk",
+          "note": "acronym en dominio angular"
+        },
+        {
+          "document_id": "doc-f5b9cc7e",
+          "segment_id": "seg-9e8faa32",
+          "before": "Adds and removes CSS classes on an HTML element.",
+          "after": "Adds and removes CSS classes on an HTML element.",
+          "note": "acronym en dominio angular"
+        }
+      ],
+      "justification": "Término con 267 ocurrencias en el dominio angular; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-5fbc",
+      "source_term": "next build",
+      "domain": "nextjs",
+      "sense": "code_reference observado en dominio nextjs (267 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "next build"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-5146108d",
+          "segment_id": "seg-45f04446",
+          "before": "[`` next build `` options](#next-build-options) <a id=\"next-",
+          "after": "ptions](#next-build-options) <a id=\"next-build-options\"></a>",
+          "note": "code_reference en dominio nextjs"
+        },
+        {
+          "document_id": "doc-5146108d",
+          "segment_id": "seg-2cd5d9fd",
+          "before": "`` next build `` creates an optimized production build of yo",
+          "after": "displays information about each route. For example:\nTerminal",
+          "note": "code_reference en dominio nextjs"
+        },
+        {
+          "document_id": "doc-5146108d",
+          "segment_id": "seg-61567b69",
+          "before": "Both of these values are [**compressed with gzip**](/docs/ap",
+          "after": "green, yellow, or red. Aim for green for performant applicat",
+          "note": "code_reference en dominio nextjs"
+        }
+      ],
+      "justification": "Término con 267 ocurrencias en el dominio nextjs; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-64cf",
+      "source_term": "HTTP",
+      "domain": "nextjs",
+      "sense": "acronym observado en dominio nextjs (262 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "HTTP"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-5146108d",
+          "segment_id": "seg-96aff384",
+          "before": "Good to know\n`PORT` cannot be set in `.env` as booting up th",
+          "after": "he HTTP server happens before any other code is initialized.",
+          "note": "acronym en dominio nextjs"
+        },
+        {
+          "document_id": "doc-5146108d",
+          "segment_id": "seg-a7f9e9fb",
+          "before": "When deploying Next.js behind a downstream proxy (e.g. a loa",
+          "after": " server with [keep-alive timeouts](https://nodejs.org/api/ht",
+          "note": "acronym en dominio nextjs"
+        },
+        {
+          "document_id": "doc-62b8a02d",
+          "segment_id": "seg-eda5fa8e",
+          "before": "A [Data URL](https://developer.mozilla.org/docs/Web/HTTP/Bas",
+          "after": "sfully loads. Can be automatically set or used with the [`pl",
+          "note": "acronym en dominio nextjs"
+        }
+      ],
+      "justification": "Término con 262 ocurrencias en el dominio nextjs; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-bffe",
+      "source_term": "Image",
+      "domain": "nextjs",
+      "sense": "identifier observado en dominio nextjs (262 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "Image"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-62b8a02d",
+          "segment_id": "seg-5eaad06f",
+          "before": "Image Component",
+          "after": "Image Component",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-62b8a02d",
+          "segment_id": "seg-71fcde27",
+          "before": "The Next.js Image component extends the HTML `<img>` element",
+          "after": "<img>` element for automatic image optimization.\napp/page.js",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-62b8a02d",
+          "segment_id": "seg-62d2aaff",
+          "before": "Good to know\nFor security reasons, the Image Optimization AP",
+          "after": "he `src` image.\nIf the `src` image requires authentication, ",
+          "note": "identifier en dominio nextjs"
+        }
+      ],
+      "justification": "Término con 262 ocurrencias en el dominio nextjs; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-5e6d",
+      "source_term": "Detalles",
+      "domain": "oracle",
+      "sense": "identifier observado en dominio oracle (259 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "Detalles"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-1b1ddbc2",
+          "segment_id": "seg-90e3ced3",
+          "before": "Detalles clave",
+          "after": "Detalles clave",
+          "note": "identifier en dominio oracle"
+        },
+        {
+          "document_id": "doc-1b1ddbc2",
+          "segment_id": "seg-24592c6b",
+          "before": "Detalles clave — entradas del TOC (con paginación interna de",
+          "after": "clave — entradas del TOC (con paginación interna del manual)",
+          "note": "identifier en dominio oracle"
+        },
+        {
+          "document_id": "doc-1b1ddbc2",
+          "segment_id": "seg-acc47809",
+          "before": "Detalles clave",
+          "after": "Detalles clave",
+          "note": "identifier en dominio oracle"
+        }
+      ],
+      "justification": "Término con 259 ocurrencias en el dominio oracle; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-93fc",
+      "source_term": "Promise",
+      "domain": "angular",
+      "sense": "identifier observado en dominio angular (254 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "Promise"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-1b6881b4",
+          "segment_id": "seg-d28301a2",
+          "before": "Gets a `Promise` for the [`TestElement`](/api/cdk/testing/Te",
+          "after": "st element of the component.\n@returns\n`Promise<TestElement>`",
+          "note": "identifier en dominio angular"
+        },
+        {
+          "document_id": "doc-1b6881b4",
+          "segment_id": "seg-d28301a2",
+          "before": "Gets a `Promise` for the [`TestElement`](/api/cdk/testing/Te",
+          "after": "st element of the component.\n@returns\n`Promise<TestElement>`",
+          "note": "identifier en dominio angular"
+        },
+        {
+          "document_id": "doc-1b6881b4",
+          "segment_id": "seg-f51d767d",
+          "before": "Flushes change detection and async tasks in the Angular zone",
+          "after": " may be some edge\ncases where it is needed to fully flush an",
+          "note": "identifier en dominio angular"
+        }
+      ],
+      "justification": "Término con 254 ocurrencias en el dominio angular; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-07d1",
+      "source_term": "Observable",
+      "domain": "angular",
+      "sense": "identifier observado en dominio angular (249 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "Observable"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-33991fd3",
+          "segment_id": "seg-3099bf90",
+          "before": "Unwraps a value from an asynchronous primitive.\nThe `async` ",
+          "after": "has\nemitted. When a new value is emitted, the `async` pipe m",
+          "note": "identifier en dominio angular"
+        },
+        {
+          "document_id": "doc-33991fd3",
+          "segment_id": "seg-3099bf90",
+          "before": "Unwraps a value from an asynchronous primitive.\nThe `async` ",
+          "after": "has\nemitted. When a new value is emitted, the `async` pipe m",
+          "note": "identifier en dominio angular"
+        },
+        {
+          "document_id": "doc-33991fd3",
+          "segment_id": "seg-9d4ba69b",
+          "before": "It's also possible to use `async` with Observables. The exam",
+          "after": "ervable continuously updates the view with the current time.",
+          "note": "identifier en dominio angular"
+        }
+      ],
+      "justification": "Término con 249 ocurrencias en el dominio angular; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-9e42",
+      "source_term": "Static",
+      "domain": "nextjs",
+      "sense": "identifier observado en dominio nextjs (247 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "Static"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-62b8a02d",
+          "segment_id": "seg-7e3ef35d",
+          "before": "`minimumCacheTTL` allows you to configure the Time to Live (",
+          "after": " [Static Image Import](/docs/app/getting-started/images#loca",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-3462f1ac",
+          "segment_id": "seg-24751b25",
+          "before": "If you expect a route to be static and the indicator has mar",
+          "after": "can confirm if a route is [static](/docs/app/getting-started",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-9c33b1b8",
+          "segment_id": "seg-46d68b74",
+          "before": "Next.js sets the `Cache-Control` header of `` public, max-ag",
+          "after": "ese immutable files contain a SHA-hash in the file name, so ",
+          "note": "identifier en dominio nextjs"
+        }
+      ],
+      "justification": "Término con 247 ocurrencias en el dominio nextjs; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-0bb4",
+      "source_term": "<Suspense>",
+      "domain": "nextjs",
+      "sense": "code_reference observado en dominio nextjs (244 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "<Suspense>"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-3edc4975",
+          "segment_id": "seg-ca8ddfc1",
+          "before": "In the same folder, `loading.js` will be nested inside `layo",
+          "after": "a `<Suspense>` boundary.\n![loading.js overview](/_next/image",
+          "note": "code_reference en dominio nextjs"
+        },
+        {
+          "document_id": "doc-3edc4975",
+          "segment_id": "seg-c49d9555",
+          "before": "In addition to `loading.js`, you can also manually create Su",
+          "after": "with [Suspense](https://react.dev/reference/react/Suspense).",
+          "note": "code_reference en dominio nextjs"
+        },
+        {
+          "document_id": "doc-f4caf7e1",
+          "segment_id": "seg-b136080a",
+          "before": "In the example above, the `<Posts>` component is wrapped in ",
+          "after": "s the fallback will be shown while the promise is being reso",
+          "note": "code_reference en dominio nextjs"
+        }
+      ],
+      "justification": "Término con 244 ocurrencias en el dominio nextjs; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-1b4b",
+      "source_term": "NgModule",
+      "domain": "angular",
+      "sense": "identifier observado en dominio angular (244 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "NgModule"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-c7b04a53",
+          "segment_id": "seg-4b8540a5",
+          "before": "NgModule\nstable\n[*code*](https://github.com/angular/angular/",
+          "after": "ular/blob/main/packages/common/src/common_module.ts#L24-L28)",
+          "note": "identifier en dominio angular"
+        },
+        {
+          "document_id": "doc-c304fe77",
+          "segment_id": "seg-7eade182",
+          "before": "Customized NgModule reference",
+          "after": "Customized NgModule reference",
+          "note": "identifier en dominio angular"
+        },
+        {
+          "document_id": "doc-c3be8776",
+          "segment_id": "seg-8448fc72",
+          "before": "NgModule\ndeprecated\nsince v22.1\n[*code*](https://github.com/",
+          "after": "ular/blob/main/packages/common/http/src/module.ts#L118-L121)",
+          "note": "identifier en dominio angular"
+        }
+      ],
+      "justification": "Término con 244 ocurrencias en el dominio angular; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-b2e1",
+      "source_term": "any",
+      "domain": "angular",
+      "sense": "code_reference observado en dominio angular (240 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "any"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-133a77b5",
+          "segment_id": "seg-f020bf75",
+          "before": "Creates an [`AnimationPlayer`](/api/animations/AnimationPlay",
+          "after": "`\nmethod that created this factory and attaches the new play",
+          "note": "code_reference en dominio angular"
+        },
+        {
+          "document_id": "doc-31215ef7",
+          "segment_id": "seg-01a460ee",
+          "before": "`boolean`\n@param\nelm1\n`any`\n@param\nelm2\n`any`\n@returns\n`bool",
+          "after": "lean`\n@param\nelm1\n`any`\n@param\nelm2\n`any`\n@returns\n`boolean`",
+          "note": "code_reference en dominio angular"
+        },
+        {
+          "document_id": "doc-31215ef7",
+          "segment_id": "seg-01a460ee",
+          "before": "`boolean`\n@param\nelm1\n`any`\n@param\nelm2\n`any`\n@returns\n`bool",
+          "after": "lean`\n@param\nelm1\n`any`\n@param\nelm2\n`any`\n@returns\n`boolean`",
+          "note": "code_reference en dominio angular"
+        }
+      ],
+      "justification": "Término con 240 ocurrencias en el dominio angular; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-8923",
+      "source_term": "SQL",
+      "domain": "oracle",
+      "sense": "acronym observado en dominio oracle (238 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "SQL"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-1b1ddbc2",
+          "segment_id": "seg-7a278e0b",
+          "before": "7 Use SQL Functions for Vector Operations",
+          "after": "7 Use SQL Functions for Vector Operations",
+          "note": "acronym en dominio oracle"
+        },
+        {
+          "document_id": "doc-1b1ddbc2",
+          "segment_id": "seg-593b1802",
+          "before": "12 Vector Search PL/SQL Packages",
+          "after": "12 Vector Search PL/SQL Packages",
+          "note": "acronym en dominio oracle"
+        },
+        {
+          "document_id": "doc-f7e7438c",
+          "segment_id": "seg-40d301a4",
+          "before": "Release centrada en **vectores en external tables**, **sopor",
+          "after": " **PL/SQL JACCARD**, **vectores en tablas distribuidas**, y ",
+          "note": "acronym en dominio oracle"
+        }
+      ],
+      "justification": "Término con 238 ocurrencias en el dominio oracle; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-c168",
+      "source_term": "Using",
+      "domain": "nextjs",
+      "sense": "identifier observado en dominio nextjs (233 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "Using"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-5146108d",
+          "segment_id": "seg-65d79475",
+          "before": "[Using HTTPS during development](#using-https-during-develop",
+          "after": "ing-development) <a id=\"using-https-during-development\"></a>",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-bac2e680",
+          "segment_id": "seg-85a72db9",
+          "before": "[Using Multiple Fonts](#using-multiple-fonts) <a id=\"using-m",
+          "after": "ts](#using-multiple-fonts) <a id=\"using-multiple-fonts\"></a>",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-bac2e680",
+          "segment_id": "seg-f4778249",
+          "before": "[Using a font definitions file](#using-a-font-definitions-fi",
+          "after": "definitions-file) <a id=\"using-a-font-definitions-file\"></a>",
+          "note": "identifier en dominio nextjs"
+        }
+      ],
+      "justification": "Término con 233 ocurrencias en el dominio nextjs; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-46f9",
+      "source_term": "Then",
+      "domain": "nextjs",
+      "sense": "identifier observado en dominio nextjs (229 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "Then"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-bac2e680",
+          "segment_id": "seg-3b984881",
+          "before": "`next/font` integrates seamlessly with [Tailwind CSS](https:",
+          "after": "t#css-variables).\nIn the example below, we use the `Inter` a",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-bac2e680",
+          "segment_id": "seg-01cbe21b",
+          "before": "Every time you call the `localFont` or Google font function,",
+          "after": " need to use the same font in multiple places, you should lo",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-0f913fb2",
+          "segment_id": "seg-c89aceee",
+          "before": "Then, update the search form page to use the `SearchButton` ",
+          "after": "o use the `SearchButton` component:\nTypeScript\n/app/page.tsx",
+          "note": "identifier en dominio nextjs"
+        }
+      ],
+      "justification": "Término con 229 ocurrencias en el dominio nextjs; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-e6e0",
+      "source_term": "Reports",
+      "domain": "angular",
+      "sense": "identifier observado en dominio angular (225 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "Reports"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-b3029fc2",
+          "segment_id": "seg-ddf6cd57",
+          "before": "Reports whether the animation has started.\n@returns\n`boolean",
+          "after": "boolean`\nTrue if the animation has started, false otherwise.",
+          "note": "identifier en dominio angular"
+        },
+        {
+          "document_id": "doc-b3029fc2",
+          "segment_id": "seg-83b12ff6",
+          "before": "Reports the current position of the animation.\n@returns\n`num",
+          "after": "onal value, representing the progress through the animation.",
+          "note": "identifier en dominio angular"
+        },
+        {
+          "document_id": "doc-df0c7afb",
+          "segment_id": "seg-9dc43ace",
+          "before": "Reports the current state of the location history.\n@returns\n",
+          "after": "s\n`unknown`\nThe current value of the `history.state` object.",
+          "note": "identifier en dominio angular"
+        }
+      ],
+      "justification": "Término con 225 ocurrencias en el dominio angular; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-53f0",
+      "source_term": "Notes",
+      "domain": "angular",
+      "sense": "identifier observado en dominio angular (221 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "Notes"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-bca7c9b4",
+          "segment_id": "seg-ac72b3c5",
+          "before": "[Usage Notes](#usage-notes) <a id=\"usage-notes\"></a>",
+          "after": "[Usage Notes](#usage-notes) <a id=\"usage-notes\"></a>",
+          "note": "identifier en dominio angular"
+        },
+        {
+          "document_id": "doc-3f2cf568",
+          "segment_id": "seg-f9e39a22",
+          "before": "[Usage Notes](#usage-notes) <a id=\"usage-notes\"></a>",
+          "after": "[Usage Notes](#usage-notes) <a id=\"usage-notes\"></a>",
+          "note": "identifier en dominio angular"
+        },
+        {
+          "document_id": "doc-06129067",
+          "segment_id": "seg-dd4e97ed",
+          "before": "[Usage Notes](#usage-notes) <a id=\"usage-notes\"></a>",
+          "after": "[Usage Notes](#usage-notes) <a id=\"usage-notes\"></a>",
+          "note": "identifier en dominio angular"
+        }
+      ],
+      "justification": "Término con 221 ocurrencias en el dominio angular; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-1322",
+      "source_term": "Class",
+      "domain": "angular",
+      "sense": "identifier observado en dominio angular (220 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "Class"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-bca7c9b4",
+          "segment_id": "seg-9c7ba411",
+          "before": "Class\ndeprecated\nsince v20.2\n[*code*](https://github.com/ang",
+          "after": "b/main/packages/animations/src/animation_builder.ts#L75-L84)",
+          "note": "identifier en dominio angular"
+        },
+        {
+          "document_id": "doc-133a77b5",
+          "segment_id": "seg-7290030a",
+          "before": "Class\ndeprecated\nsince v20.2\n[*code*](https://github.com/ang",
+          "after": "/main/packages/animations/src/animation_builder.ts#L95-L106)",
+          "note": "identifier en dominio angular"
+        },
+        {
+          "document_id": "doc-ce3c0c3d",
+          "segment_id": "seg-a19a2b8f",
+          "before": "Class\ndeprecated\nsince v20.2\n[*code*](https://github.com/ang",
+          "after": "ckages/animations/src/players/animation_player.ts#L124-L214)",
+          "note": "identifier en dominio angular"
+        }
+      ],
+      "justification": "Término con 220 ocurrencias en el dominio angular; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-6ffb",
+      "source_term": "REST",
+      "domain": "oracle",
+      "sense": "acronym observado en dominio oracle (220 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "REST"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-f7e7438c",
+          "segment_id": "seg-56523dae",
+          "before": "Release de mayor envergadura funcional: introduce **Hybrid V",
+          "after": "ECTOR`, **soporte para Ollama** como proveedor REST local, i",
+          "note": "acronym en dominio oracle"
+        },
+        {
+          "document_id": "doc-932029ac",
+          "segment_id": "seg-daee3522",
+          "before": "Este capítulo presenta el conjunto completo de utilidades qu",
+          "after": "e datos no estructurados. La decisión de arquitectura más im",
+          "note": "acronym en dominio oracle"
+        },
+        {
+          "document_id": "doc-932029ac",
+          "segment_id": "seg-73339410",
+          "before": "El capítulo se organiza en cuatro bloques. El primero, \"Abou",
+          "after": " pipeline de transformación (texto plano → chunks → tokens →",
+          "note": "acronym en dominio oracle"
+        }
+      ],
+      "justification": "Término con 220 ocurrencias en el dominio oracle; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-2127",
+      "source_term": "History",
+      "domain": "nextjs",
+      "sense": "identifier observado en dominio nextjs (218 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "History"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-62b8a02d",
+          "segment_id": "seg-f44161c2",
+          "before": "[Version History](#version-history) <a id=\"version-history\">",
+          "after": "sion History](#version-history) <a id=\"version-history\"></a>",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-6fadaaef",
+          "segment_id": "seg-a251f40c",
+          "before": "[Version History](#version-history) <a id=\"version-history\">",
+          "after": "sion History](#version-history) <a id=\"version-history\"></a>",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-3462f1ac",
+          "segment_id": "seg-04c8b7e9",
+          "before": "[Version History](#version-history) <a id=\"version-history\">",
+          "after": "sion History](#version-history) <a id=\"version-history\"></a>",
+          "note": "identifier en dominio nextjs"
+        }
+      ],
+      "justification": "Término con 218 ocurrencias en el dominio nextjs; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-7a0e",
+      "source_term": "IN",
+      "domain": "oracle",
+      "sense": "acronym observado en dominio oracle (218 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "IN"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-749b9d1f",
+          "segment_id": "seg-c2756869",
+          "before": "| 0 | SELECT STATEMENT | |\n|* 1 | COUNT STOPKEY | |\n| 2 | VI",
+          "after": "_CHUNKS |\n| 5 | VECTOR INDEX HNSW SCAN IN-FILTER| DOCS_HNSW_",
+          "note": "acronym en dominio oracle"
+        },
+        {
+          "document_id": "doc-749b9d1f",
+          "segment_id": "seg-4ecb41ea",
+          "before": "| 0 | SELECT STATEMENT | |\n|* 1 | COUNT STOPKEY | |\n| 2 | VI",
+          "after": "DOCS_HNSW_IDX3 |\n| 5 | VIEW | VW_HIF_B919B0A0 |\n|* 6 | TABLE",
+          "note": "acronym en dominio oracle"
+        },
+        {
+          "document_id": "doc-749b9d1f",
+          "segment_id": "seg-eb869c96",
+          "before": "| 0 | SELECT STATEMENT | |\n|* 1 | COUNT STOPKEY | |\n| 2 | VI",
+          "after": "_CHUNKS |\n| 5 | VECTOR INDEX HNSW SCAN IN-FILTER| DOCS_HNSW_",
+          "note": "acronym en dominio oracle"
+        }
+      ],
+      "justification": "Término con 218 ocurrencias en el dominio oracle; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-51f8",
+      "source_term": "Node",
+      "domain": "nextjs",
+      "sense": "identifier observado en dominio nextjs (218 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "Node"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-5146108d",
+          "segment_id": "seg-578b5906",
+          "before": "`` next info `` prints relevant details about the current sy",
+          "after": "s://github.com/vercel/next.js/issues). This information incl",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-5146108d",
+          "segment_id": "seg-a7f9e9fb",
+          "before": "When deploying Next.js behind a downstream proxy (e.g. a loa",
+          "after": " server with [keep-alive timeouts](https://nodejs.org/api/ht",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-5146108d",
+          "segment_id": "seg-a7f9e9fb",
+          "before": "When deploying Next.js behind a downstream proxy (e.g. a loa",
+          "after": " server with [keep-alive timeouts](https://nodejs.org/api/ht",
+          "note": "identifier en dominio nextjs"
+        }
+      ],
+      "justification": "Término con 218 ocurrencias en el dominio nextjs; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-0208",
+      "source_term": "Text",
+      "domain": "oracle",
+      "sense": "identifier observado en dominio oracle (218 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "Text"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-67866c44",
+          "segment_id": "seg-c775fdad",
+          "before": "Text Processing Views",
+          "after": "Text Processing Views",
+          "note": "identifier en dominio oracle"
+        },
+        {
+          "document_id": "doc-932029ac",
+          "segment_id": "seg-3ed64c23",
+          "before": "Las **funciones SQL** clave del capítulo son `VECTOR_CHUNKS`",
+          "after": "ctoriza texto o imagen con un modelo ONNX local) y `VECTOR_D",
+          "note": "identifier en dominio oracle"
+        },
+        {
+          "document_id": "doc-932029ac",
+          "segment_id": "seg-49c0e21a",
+          "before": "Finalmente, es importante entender que los embeddings no son",
+          "after": " search (combinando búsqueda de vectores con Oracle Text par",
+          "note": "identifier en dominio oracle"
+        }
+      ],
+      "justification": "Término con 218 ocurrencias en el dominio oracle; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-9f64",
+      "source_term": "However",
+      "domain": "nextjs",
+      "sense": "identifier observado en dominio nextjs (217 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "However"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-62b8a02d",
+          "segment_id": "seg-89fda3ea",
+          "before": "Warning\nDeprecated since Next.js 14 in favor of strict [`rem",
+          "after": "us users. Only use `domains` if you own all the content serv",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-37235d13",
+          "segment_id": "seg-83c3f145",
+          "before": "**Defaults to `true`.** The default scrolling behavior of `<",
+          "after": "ndle back and forwards navigation. When you navigate to a ne",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-37235d13",
+          "segment_id": "seg-c238daf8",
+          "before": "The default scrolling behavior of `<Link>` in Next.js **is t",
+          "after": "avigation. When you navigate to a new [Page](/docs/app/api-r",
+          "note": "identifier en dominio nextjs"
+        }
+      ],
+      "justification": "Término con 217 ocurrencias en el dominio nextjs; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-1084",
+      "source_term": "src",
+      "domain": "nextjs",
+      "sense": "code_reference observado en dominio nextjs (208 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "src"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-bac2e680",
+          "segment_id": "seg-471ac477",
+          "before": "[`src`](#src) <a id=\"src\"></a>",
+          "after": "[`src`](#src) <a id=\"src\"></a>",
+          "note": "code_reference en dominio nextjs"
+        },
+        {
+          "document_id": "doc-bac2e680",
+          "segment_id": "seg-1ec4e43b",
+          "before": "Import `next/font/local` and specify the `src` of your local",
+          "after": "efonts) for the best performance and flexibility.\nTypeScript",
+          "note": "code_reference en dominio nextjs"
+        },
+        {
+          "document_id": "doc-bac2e680",
+          "segment_id": "seg-ebff65d0",
+          "before": "If you want to use multiple files for a single font family, ",
+          "after": "tiple files for a single font family, `src` can be an array:",
+          "note": "code_reference en dominio nextjs"
+        }
+      ],
+      "justification": "Término con 208 ocurrencias en el dominio nextjs; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-29ca",
+      "source_term": "Route",
+      "domain": "angular",
+      "sense": "identifier observado en dominio angular (207 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "Route"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-b126cd3d",
+          "segment_id": "seg-150d0ace",
+          "before": "`` Route | null ``",
+          "after": "`` Route | null ``",
+          "note": "identifier en dominio angular"
+        },
+        {
+          "document_id": "doc-163bcf9d",
+          "segment_id": "seg-8ebb00b7",
+          "before": "The query parameters shared by all the routes\n@param\nfragmen",
+          "after": "a`\nThe static and resolved data of this route\n@param\noutlet\n",
+          "note": "identifier en dominio angular"
+        },
+        {
+          "document_id": "doc-163bcf9d",
+          "segment_id": "seg-c2ffad52",
+          "before": "`` Route | null ``",
+          "after": "`` Route | null ``",
+          "note": "identifier en dominio angular"
+        }
+      ],
+      "justification": "Término con 207 ocurrencias en el dominio angular; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-985b",
+      "source_term": "Create",
+      "domain": "nextjs",
+      "sense": "identifier observado en dominio nextjs (205 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "Create"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-37235d13",
+          "segment_id": "seg-b65ff03a",
+          "before": "Create a form component that uses the context:\nTypeScript\nap",
+          "after": "nt that uses the context:\nTypeScript\napp/components/form.tsx",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-37235d13",
+          "segment_id": "seg-5b390f66",
+          "before": "Create a custom Link component that blocks navigation:\nTypeS",
+          "after": "blocks navigation:\nTypeScript\napp/components/custom-link.tsx",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-37235d13",
+          "segment_id": "seg-a5bd92b0",
+          "before": "Create a navigation component:\nTypeScript\napp/components/nav",
+          "after": "te a navigation component:\nTypeScript\napp/components/nav.tsx",
+          "note": "identifier en dominio nextjs"
+        }
+      ],
+      "justification": "Término con 205 ocurrencias en el dominio nextjs; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-f05b",
+      "source_term": "Description",
+      "domain": "oracle",
+      "sense": "identifier observado en dominio oracle (200 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "Description"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-f7e7438c",
+          "segment_id": "seg-0cc835b6",
+          "before": "Bloque principal del capítulo. Enumera, mediante una tabla `",
+          "after": "or Search** introducidas en **Oracle AI Database 26ai** desd",
+          "note": "identifier en dominio oracle"
+        },
+        {
+          "document_id": "doc-f7e7438c",
+          "segment_id": "seg-1f815f4a",
+          "before": "Tabla de novedades (Feature / Description)",
+          "after": "Tabla de novedades (Feature / Description)",
+          "note": "identifier en dominio oracle"
+        },
+        {
+          "document_id": "doc-f7e7438c",
+          "segment_id": "seg-863e08c9",
+          "before": "Tabla de novedades (Feature / Description)",
+          "after": "Tabla de novedades (Feature / Description)",
+          "note": "identifier en dominio oracle"
+        }
+      ],
+      "justification": "Término con 200 ocurrencias en el dominio oracle; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-ea51",
+      "source_term": "getStaticProps",
+      "domain": "nextjs",
+      "sense": "code_reference observado en dominio nextjs (198 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "getStaticProps"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-be58eb29",
+          "segment_id": "seg-0dbac9f4",
+          "before": "Good to know\nthe `query` field in `exportPathMap` cannot be ",
+          "after": "pplication/rendering/automatic-static-optimization) or [`get",
+          "note": "code_reference en dominio nextjs"
+        },
+        {
+          "document_id": "doc-52d02116",
+          "segment_id": "seg-c4b03bbd",
+          "before": "Good to know\nThe new model in the `app` directory favors gra",
+          "after": "g model of `getServerSideProps` and `getStaticProps` at the ",
+          "note": "code_reference en dominio nextjs"
+        },
+        {
+          "document_id": "doc-e176cbe8",
+          "segment_id": "seg-fa35863b",
+          "before": "The `pages` directory uses `getServerSideProps` and `getStat",
+          "after": "a fetching functions are replaced with a [simpler API](/docs",
+          "note": "code_reference en dominio nextjs"
+        }
+      ],
+      "justification": "Término con 198 ocurrencias en el dominio nextjs; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-44a5",
+      "source_term": "April",
+      "domain": "nextjs",
+      "sense": "identifier observado en dominio nextjs (192 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "April"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-d3359b26",
+          "segment_id": "seg-2f313f27",
+          "before": "Last updated April 22, 2025\n[PreviousCaching](/docs/15/app/g",
+          "after": "ecurity Policy](/docs/15/app/guides/content-security-policy)",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-383238c4",
+          "segment_id": "seg-052a77f9",
+          "before": "The returned `app` can then be used to let Next.js handle re",
+          "after": "/guides/css-in-js)\n[NextData Security](/docs/15/app/guides/d",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-cfb37f29",
+          "segment_id": "seg-08b59044",
+          "before": "Last updated April 15, 2025\n[PreviousMemory Usage](/docs/15/",
+          "after": " Router](/docs/15/app/guides/migrating/app-router-migration)",
+          "note": "identifier en dominio nextjs"
+        }
+      ],
+      "justification": "Término con 192 ocurrencias en el dominio nextjs; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-5f84",
+      "source_term": "Functions",
+      "domain": "nextjs",
+      "sense": "identifier observado en dominio nextjs (191 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "Functions"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-62b8a02d",
+          "segment_id": "seg-b6105b2f",
+          "before": "[Functions](#functions) <a id=\"functions\"></a>",
+          "after": "[Functions](#functions) <a id=\"functions\"></a>",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-ee8156ac",
+          "segment_id": "seg-bba4386d",
+          "before": "[Using Server Functions in a Client Component](#using-server",
+          "after": "t) <a id=\"using-server-functions-in-a-client-component\"></a>",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-ee8156ac",
+          "segment_id": "seg-bfd0519d",
+          "before": "To use Server Functions in Client Components you need to cre",
+          "after": "ve at the top of the file. These Server Functions can then b",
+          "note": "identifier en dominio nextjs"
+        }
+      ],
+      "justification": "Término con 191 ocurrencias en el dominio nextjs; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-4035",
+      "source_term": "Proxy",
+      "domain": "nextjs",
+      "sense": "identifier observado en dominio nextjs (191 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "Proxy"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-603f3650",
+          "segment_id": "seg-788dc7e6",
+          "before": "[Prefetching links in Proxy](#prefetching-links-in-proxy) <a",
+          "after": "hing-links-in-proxy) <a id=\"prefetching-links-in-proxy\"></a>",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-603f3650",
+          "segment_id": "seg-4e614cd5",
+          "before": "It's common to use [Proxy](/docs/app/api-reference/file-conv",
+          "after": "ser to a different page. In order for the `` <Link /> `` com",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-603f3650",
+          "segment_id": "seg-4e614cd5",
+          "before": "It's common to use [Proxy](/docs/app/api-reference/file-conv",
+          "after": "ser to a different page. In order for the `` <Link /> `` com",
+          "note": "identifier en dominio nextjs"
+        }
+      ],
+      "justification": "Término con 191 ocurrencias en el dominio nextjs; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-e504",
+      "source_term": "FormControl",
+      "domain": "angular",
+      "sense": "identifier observado en dominio angular (189 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "FormControl"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-4e1aca5c",
+          "segment_id": "seg-060aa0b6",
+          "before": "This is the base class for [`FormControl`](/api/forms/FormCo",
+          "after": "i/forms/FormGroup), and [`FormArray`](/api/forms/FormArray).",
+          "note": "identifier en dominio angular"
+        },
+        {
+          "document_id": "doc-4e1aca5c",
+          "segment_id": "seg-060aa0b6",
+          "before": "This is the base class for [`FormControl`](/api/forms/FormCo",
+          "after": "i/forms/FormGroup), and [`FormArray`](/api/forms/FormArray).",
+          "note": "identifier en dominio angular"
+        },
+        {
+          "document_id": "doc-4e1aca5c",
+          "segment_id": "seg-f18383fe",
+          "before": "A multicasting observable that emits an event every time the",
+          "after": "hanges.\n**Note**: On value change, the emit happens right af",
+          "note": "identifier en dominio angular"
+        }
+      ],
+      "justification": "Término con 189 ocurrencias en el dominio angular; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-e96f",
+      "source_term": "These",
+      "domain": "nextjs",
+      "sense": "identifier observado en dominio nextjs (188 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "These"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-62b8a02d",
+          "segment_id": "seg-cdd8c430",
+          "before": "`deviceSizes` allows you to specify a list of device width b",
+          "after": "(#sizes) prop to ensure the correct image is served for the ",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-62b8a02d",
+          "segment_id": "seg-57efe735",
+          "before": "`imageSizes` allows you to specify a list of image widths. T",
+          "after": "orm the full array of sizes used to generate image [srcset](",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-6fadaaef",
+          "segment_id": "seg-190ed2d6",
+          "before": "Warning\n`onError` does not yet work with Server Components a",
+          "after": "oreInteractive` loading strategy.\nSometimes it is helpful to",
+          "note": "identifier en dominio nextjs"
+        }
+      ],
+      "justification": "Término con 188 ocurrencias en el dominio nextjs; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-f79f",
+      "source_term": "Type",
+      "domain": "angular",
+      "sense": "identifier observado en dominio angular (188 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "Type"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-bfd28aa8",
+          "segment_id": "seg-eb1648aa",
+          "before": "Type Alias\n[*code*](https://github.com/angular/components/bl",
+          "after": "ts/blob/main/src/cdk/drag-drop/directives/config.ts#L16-L16)",
+          "note": "identifier en dominio angular"
+        },
+        {
+          "document_id": "doc-4000ebb2",
+          "segment_id": "seg-e1f5aab4",
+          "before": "Type Alias\n[*code*](https://github.com/angular/components/bl",
+          "after": "/components/blob/main/src/cdk/drag-drop/drag-ref.ts#L64-L69)",
+          "note": "identifier en dominio angular"
+        },
+        {
+          "document_id": "doc-32e48afb",
+          "segment_id": "seg-3b59cbe5",
+          "before": "Type Alias\n[*code*](https://github.com/angular/components/bl",
+          "after": "ts/blob/main/src/cdk/drag-drop/directives/config.ts#L13-L13)",
+          "note": "identifier en dominio angular"
+        }
+      ],
+      "justification": "Término con 188 ocurrencias en el dominio angular; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-e58c",
+      "source_term": "Using",
+      "domain": "oracle",
+      "sense": "identifier observado en dominio oracle (186 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "Using"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-5359a85d",
+          "segment_id": "seg-5c4b7b6d",
+          "before": "Para más detalles, ver *Create Tables Using the VECTOR Data ",
+          "after": "es, ver *Create Tables Using the VECTOR Data Type* (cap. 5).",
+          "note": "identifier en dominio oracle"
+        },
+        {
+          "document_id": "doc-67866c44",
+          "segment_id": "seg-a2f7f64b",
+          "before": "SQL Quick Start Using a Vector Embedding Model Uploaded into",
+          "after": "rt Using a Vector Embedding Model Uploaded into the Database",
+          "note": "identifier en dominio oracle"
+        },
+        {
+          "document_id": "doc-67866c44",
+          "segment_id": "seg-5462b578",
+          "before": "SQL Quick Start Using a FLOAT32 Vector Generator",
+          "after": "SQL Quick Start Using a FLOAT32 Vector Generator",
+          "note": "identifier en dominio oracle"
+        }
+      ],
+      "justification": "Término con 186 ocurrencias en el dominio oracle; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-ac55",
+      "source_term": "Options",
+      "domain": "nextjs",
+      "sense": "identifier observado en dominio nextjs (185 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "Options"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-e158d4a9",
+          "segment_id": "seg-47bdce6c",
+          "before": "[Linter Options](#linter-options) <a id=\"linter-options\"></a",
+          "after": "Linter Options](#linter-options) <a id=\"linter-options\"></a>",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-5146108d",
+          "segment_id": "seg-0abed927",
+          "before": "[`` next typegen `` Options](#next-typegen-options) <a id=\"n",
+          "after": "ns](#next-typegen-options) <a id=\"next-typegen-options\"></a>",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-515cf567",
+          "segment_id": "seg-102fafb0",
+          "before": "[Options](#options) <a id=\"options\"></a>",
+          "after": "[Options](#options) <a id=\"options\"></a>",
+          "note": "identifier en dominio nextjs"
+        }
+      ],
+      "justification": "Término con 185 ocurrencias en el dominio nextjs; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-6706",
+      "source_term": "US",
+      "domain": "nextjs",
+      "sense": "acronym observado en dominio nextjs (185 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "US"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-5146108d",
+          "segment_id": "seg-0907e02a",
+          "before": "For certain use cases like webhooks or authentication, you c",
+          "after": "a secure environment on `localhost`. Next.js can generate a ",
+          "note": "acronym en dominio nextjs"
+        },
+        {
+          "document_id": "doc-62b8a02d",
+          "segment_id": "seg-ea7e9322",
+          "before": "The `width` and `height` properties represent the [intrinsic",
+          "after": "n pixels. This property is used to infer the correct **aspec",
+          "note": "acronym en dominio nextjs"
+        },
+        {
+          "document_id": "doc-62b8a02d",
+          "segment_id": "seg-412593af",
+          "before": "`contentDispositionType` allows you to configure the [`Conte",
+          "after": "nt-Disposition#as_a_response_header_for_the_main_body) heade",
+          "note": "acronym en dominio nextjs"
+        }
+      ],
+      "justification": "Término con 185 ocurrencias en el dominio nextjs; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-0920",
+      "source_term": "Google",
+      "domain": "nextjs",
+      "sense": "identifier observado en dominio nextjs (184 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "Google"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-bac2e680",
+          "segment_id": "seg-8128f578",
+          "before": "[`next/font`](/docs/app/api-reference/components/font) autom",
+          "after": "ork requests for improved privacy and performance.\nIt includ",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-bac2e680",
+          "segment_id": "seg-8128f578",
+          "before": "[`next/font`](/docs/app/api-reference/components/font) autom",
+          "after": "ork requests for improved privacy and performance.\nIt includ",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-bac2e680",
+          "segment_id": "seg-8d2fe6df",
+          "before": "You can find a list of all subsets on the Google Fonts page ",
+          "after": " list of all subsets on the Google Fonts page for your font.",
+          "note": "identifier en dominio nextjs"
+        }
+      ],
+      "justification": "Término con 184 ocurrencias en el dominio nextjs; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-8fcb",
+      "source_term": "Signal",
+      "domain": "angular",
+      "sense": "identifier observado en dominio angular (184 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "Signal"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-4d2dc45d",
+          "segment_id": "seg-4e53a2e3",
+          "before": "Signal of the response headers, when available.",
+          "after": "Signal of the response headers, when available.",
+          "note": "identifier en dominio angular"
+        },
+        {
+          "document_id": "doc-4d2dc45d",
+          "segment_id": "seg-5f8b6778",
+          "before": "Signal of the response status code, when available.",
+          "after": "Signal of the response status code, when available.",
+          "note": "identifier en dominio angular"
+        },
+        {
+          "document_id": "doc-4d2dc45d",
+          "segment_id": "seg-3738434b",
+          "before": "Signal of the latest progress update, if the request was mad",
+          "after": "te, if the request was made with `` reportProgress: true ``.",
+          "note": "identifier en dominio angular"
+        }
+      ],
+      "justification": "Término con 184 ocurrencias en el dominio angular; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-54d6",
+      "source_term": "Middleware",
+      "domain": "nextjs",
+      "sense": "identifier observado en dominio nextjs (182 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "Middleware"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-37235d13",
+          "segment_id": "seg-f4716dd6",
+          "before": "[Prefetching links in Middleware](#prefetching-links-in-midd",
+          "after": "-in-middleware) <a id=\"prefetching-links-in-middleware\"></a>",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-37235d13",
+          "segment_id": "seg-03420487",
+          "before": "It's common to use [Middleware](/docs/app/api-reference/file",
+          "after": "ting the user to a different page. In order for the `` <Link",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-37235d13",
+          "segment_id": "seg-03420487",
+          "before": "It's common to use [Middleware](/docs/app/api-reference/file",
+          "after": "ting the user to a different page. In order for the `` <Link",
+          "note": "identifier en dominio nextjs"
+        }
+      ],
+      "justification": "Término con 182 ocurrencias en el dominio nextjs; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-352d",
+      "source_term": "ONNX",
+      "domain": "oracle",
+      "sense": "acronym observado en dominio oracle (182 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "ONNX"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-1b1ddbc2",
+          "segment_id": "seg-05e800ad",
+          "before": "A — Python Classes to Convert Pretrained Models to ONNX Mode",
+          "after": "ses to Convert Pretrained Models to ONNX Models (Deprecated)",
+          "note": "acronym en dominio oracle"
+        },
+        {
+          "document_id": "doc-f7e7438c",
+          "segment_id": "seg-d059fc66",
+          "before": "Release Update 23.8 incorpora el tipo VECTOR como dato de en",
+          "after": "lustering, feature extraction), soporte para **modelos Image",
+          "note": "acronym en dominio oracle"
+        },
+        {
+          "document_id": "doc-5359a85d",
+          "segment_id": "seg-b1cae792",
+          "before": "Oracle AI Database implementa un **runtime ONNX directamente",
+          "after": "rmite generar embeddings con SQL, sin mover los datos fuera.",
+          "note": "acronym en dominio oracle"
+        }
+      ],
+      "justification": "Término con 182 ocurrencias en el dominio oracle; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-3ec2",
+      "source_term": "TestBed",
+      "domain": "angular",
+      "sense": "identifier observado en dominio angular (181 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "TestBed"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-cce381d9",
+          "segment_id": "seg-cf90d852",
+          "before": "Covers all fixtures supported by `TestBed`.",
+          "after": "Covers all fixtures supported by `TestBed`.",
+          "note": "identifier en dominio angular"
+        },
+        {
+          "document_id": "doc-c927f8ce",
+          "segment_id": "seg-695de913",
+          "before": "A `HarnessEnvironment` implementation for Angular's Testbed.",
+          "after": "A `HarnessEnvironment` implementation for Angular's Testbed.",
+          "note": "identifier en dominio angular"
+        },
+        {
+          "document_id": "doc-edd9db69",
+          "segment_id": "seg-792b85df",
+          "before": "Provides change detection without ZoneJS for the application",
+          "after": "ault in Angular v21+. Ensure [`provideZoneChangeDetection`](",
+          "note": "identifier en dominio angular"
+        }
+      ],
+      "justification": "Término con 181 ocurrencias en el dominio angular; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-d603",
+      "source_term": "Indexes",
+      "domain": "oracle",
+      "sense": "identifier observado en dominio oracle (180 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "Indexes"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-1b1ddbc2",
+          "segment_id": "seg-ac06e0b6",
+          "before": "6 Create Vector Indexes and Hybrid Vector Indexes",
+          "after": "6 Create Vector Indexes and Hybrid Vector Indexes",
+          "note": "identifier en dominio oracle"
+        },
+        {
+          "document_id": "doc-1b1ddbc2",
+          "segment_id": "seg-ac06e0b6",
+          "before": "6 Create Vector Indexes and Hybrid Vector Indexes",
+          "after": "6 Create Vector Indexes and Hybrid Vector Indexes",
+          "note": "identifier en dominio oracle"
+        },
+        {
+          "document_id": "doc-f7e7438c",
+          "segment_id": "seg-56523dae",
+          "before": "Release de mayor envergadura funcional: introduce **Hybrid V",
+          "after": "ECTOR`, **soporte para Ollama** como proveedor REST local, i",
+          "note": "identifier en dominio oracle"
+        }
+      ],
+      "justification": "Término con 180 ocurrencias en el dominio oracle; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-de77",
+      "source_term": "NOTE",
+      "domain": "angular",
+      "sense": "acronym observado en dominio angular (180 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "NOTE"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-6ec29c91",
+          "segment_id": "seg-5db9b55b",
+          "before": "The date expression: a `Date` object,  a number\n(millisecond",
+          "after": "s://www.w3.org/TR/NOTE-datetime)).\n@param\nformat\n`` string |",
+          "note": "acronym en dominio angular"
+        },
+        {
+          "document_id": "doc-6ec29c91",
+          "segment_id": "seg-5db9b55b",
+          "before": "The date expression: a `Date` object,  a number\n(millisecond",
+          "after": "s://www.w3.org/TR/NOTE-datetime)).\n@param\nformat\n`` string |",
+          "note": "acronym en dominio angular"
+        },
+        {
+          "document_id": "doc-f7a84599",
+          "segment_id": "seg-d533656e",
+          "before": "The date to format, as a Date, or a number (milliseconds sin",
+          "after": "\n@param\nformat\n`string`\nThe date-time components to include.",
+          "note": "acronym en dominio angular"
+        }
+      ],
+      "justification": "Término con 180 ocurrencias en el dominio angular; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-5070",
+      "source_term": "Page",
+      "domain": "nextjs",
+      "sense": "identifier observado en dominio nextjs (180 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "Page"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-37235d13",
+          "segment_id": "seg-83c3f145",
+          "before": "**Defaults to `true`.** The default scrolling behavior of `<",
+          "after": "ndle back and forwards navigation. When you navigate to a ne",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-37235d13",
+          "segment_id": "seg-83c3f145",
+          "before": "**Defaults to `true`.** The default scrolling behavior of `<",
+          "after": "ndle back and forwards navigation. When you navigate to a ne",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-37235d13",
+          "segment_id": "seg-83c3f145",
+          "before": "**Defaults to `true`.** The default scrolling behavior of `<",
+          "after": "ndle back and forwards navigation. When you navigate to a ne",
+          "note": "identifier en dominio nextjs"
+        }
+      ],
+      "justification": "Término con 180 ocurrencias en el dominio nextjs; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-4637",
+      "source_term": "Step",
+      "domain": "nextjs",
+      "sense": "identifier observado en dominio nextjs (180 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "Step"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-df6f8564",
+          "segment_id": "seg-bad4dcfd",
+          "before": "[Step 1: Create a Route Handler](#step-1-create-a-route-hand",
+          "after": "-a-route-handler) <a id=\"step-1-create-a-route-handler\"></a>",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-df6f8564",
+          "segment_id": "seg-b0e22300",
+          "before": "[Step 2: Access the Route Handler from your Headless CMS](#s",
+          "after": "step-2-access-the-route-handler-from-your-headless-cms\"></a>",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-df6f8564",
+          "segment_id": "seg-58abe1bc",
+          "before": "[Step 3: Preview the Draft Content](#step-3-preview-the-draf",
+          "after": "draft-content) <a id=\"step-3-preview-the-draft-content\"></a>",
+          "note": "identifier en dominio nextjs"
+        }
+      ],
+      "justification": "Término con 180 ocurrencias en el dominio nextjs; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-ff43",
+      "source_term": "Actions",
+      "domain": "nextjs",
+      "sense": "identifier observado en dominio nextjs (179 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "Actions"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-0f913fb2",
+          "segment_id": "seg-36e753c0",
+          "before": "[Mutations with Server Actions](#mutations-with-server-actio",
+          "after": "h-server-actions) <a id=\"mutations-with-server-actions\"></a>",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-0f913fb2",
+          "segment_id": "seg-fa5e5c88",
+          "before": "See the [Server Actions](/docs/app/getting-started/updating-",
+          "after": "/app/api-reference/components/font)\n[NextImage Component](/d",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-feece981",
+          "segment_id": "seg-291cb5f5",
+          "before": "[allowedDevOriginsUse \\`allowedDevOrigins\\` to configure add",
+          "after": "fig/next-config-js/allowedDevOrigins)\n[appDirEnable the App ",
+          "note": "identifier en dominio nextjs"
+        }
+      ],
+      "justification": "Término con 179 ocurrencias en el dominio nextjs; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-0a2d",
+      "source_term": "Handlers",
+      "domain": "nextjs",
+      "sense": "identifier observado en dominio nextjs (179 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "Handlers"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-9c33b1b8",
+          "segment_id": "seg-4b131f9a",
+          "before": "[Cross-Origin Resource Sharing (CORS)](https://developer.moz",
+          "after": "ich sites can access your resources. You can set the `Access",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-051c5fce",
+          "segment_id": "seg-8e227b7d",
+          "before": "Cache keys are opaque identifiers. Preserve the entire key w",
+          "after": "include the response kind and a SHA-256 hash of the source r",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-b2aed7a5",
+          "segment_id": "seg-3b65d6ba",
+          "before": "Dependencies used inside [Server Components](/docs/app/getti",
+          "after": "rence/file-conventions/route) will automatically be bundled ",
+          "note": "identifier en dominio nextjs"
+        }
+      ],
+      "justification": "Término con 179 ocurrencias en el dominio nextjs; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-4bed",
+      "source_term": "use cache",
+      "domain": "nextjs",
+      "sense": "code_reference observado en dominio nextjs (179 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "use cache"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-3be0f7cc",
+          "segment_id": "seg-86078006",
+          "before": "The `cacheComponents` flag is an experimental feature in Nex",
+          "after": "pre-renders unless they are explicitly cached. This can be u",
+          "note": "code_reference en dominio nextjs"
+        },
+        {
+          "document_id": "doc-3be0f7cc",
+          "segment_id": "seg-86078006",
+          "before": "The `cacheComponents` flag is an experimental feature in Nex",
+          "after": "pre-renders unless they are explicitly cached. This can be u",
+          "note": "code_reference en dominio nextjs"
+        },
+        {
+          "document_id": "doc-347b9503",
+          "segment_id": "seg-a34ad82a",
+          "before": "The `cacheLife` option allows you to define **custom cache p",
+          "after": "fe) function inside components or functions, and within the ",
+          "note": "code_reference en dominio nextjs"
+        }
+      ],
+      "justification": "Término con 179 ocurrencias en el dominio nextjs; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-25ce",
+      "source_term": "next dev",
+      "domain": "nextjs",
+      "sense": "code_reference observado en dominio nextjs (178 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "next dev"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-5146108d",
+          "segment_id": "seg-c39ce713",
+          "before": "Good to know\nRunning `next` without a command is an alias fo",
+          "after": "ing `next` without a command is an alias for `` next dev ``.",
+          "note": "code_reference en dominio nextjs"
+        },
+        {
+          "document_id": "doc-5146108d",
+          "segment_id": "seg-46221349",
+          "before": "[`` next dev `` options](#next-dev-options) <a id=\"next-dev-",
+          "after": "`` options](#next-dev-options) <a id=\"next-dev-options\"></a>",
+          "note": "code_reference en dominio nextjs"
+        },
+        {
+          "document_id": "doc-5146108d",
+          "segment_id": "seg-2c0ba172",
+          "before": "`` next dev `` starts the application in development mode wi",
+          "after": "following options are available when running `` next dev ``:",
+          "note": "code_reference en dominio nextjs"
+        }
+      ],
+      "justification": "Término con 178 ocurrencias en el dominio nextjs; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-e194",
+      "source_term": "Routes",
+      "domain": "nextjs",
+      "sense": "identifier observado en dominio nextjs (177 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "Routes"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-73f3abb9",
+          "segment_id": "seg-ac2a3265",
+          "before": "The `default.js` file is used to render a fallback within [P",
+          "after": "ext.js cannot recover a [slot's](/docs/app/api-reference/fil",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-73f3abb9",
+          "segment_id": "seg-ac2a3265",
+          "before": "The `default.js` file is used to render a fallback within [P",
+          "after": "ext.js cannot recover a [slot's](/docs/app/api-reference/fil",
+          "note": "identifier en dominio nextjs"
+        },
+        {
+          "document_id": "doc-73f3abb9",
+          "segment_id": "seg-ac2a3265",
+          "before": "The `default.js` file is used to render a fallback within [P",
+          "after": "ext.js cannot recover a [slot's](/docs/app/api-reference/fil",
+          "note": "identifier en dominio nextjs"
+        }
+      ],
+      "justification": "Término con 177 ocurrencias en el dominio nextjs; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-ed79",
+      "source_term": "UI",
+      "domain": "angular",
+      "sense": "acronym observado en dominio angular (175 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "UI"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-18fe0f88",
+          "segment_id": "seg-4d1abecb",
+          "before": "The `@boundary` block encapsulates its content and catches a",
+          "after": "cles of its child views. If an error is caught, the framewor",
+          "note": "acronym en dominio angular"
+        },
+        {
+          "document_id": "doc-f84992f5",
+          "segment_id": "seg-af2b29d4",
+          "before": "Decorator that marks a class as an Angular component and pro",
+          "after": "ed,\ninstantiated, and used at runtime.\nComponents are the mo",
+          "note": "acronym en dominio angular"
+        },
+        {
+          "document_id": "doc-08a187c2",
+          "segment_id": "seg-d41cbc97",
+          "before": "An injectable service for executing work inside or outside o",
+          "after": "ce when starting a work consisting of\none or more asynchrono",
+          "note": "acronym en dominio angular"
+        }
+      ],
+      "justification": "Término con 175 ocurrencias en el dominio angular; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-9560",
+      "source_term": "BY",
+      "domain": "oracle",
+      "sense": "acronym observado en dominio oracle (173 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "BY"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-932029ac",
+          "segment_id": "seg-2aaa5edf",
+          "before": "Los ejemplos se agrupan en tres grandes áreas: (1) **Generat",
+          "after": "form Chunking With Embedding** — pipelines que parten un doc",
+          "note": "acronym en dominio oracle"
+        },
+        {
+          "document_id": "doc-932029ac",
+          "segment_id": "seg-b0568b4b",
+          "before": "La primera estrategia, \"Convert Text to Chunks With personal",
+          "after": "os parámetros de chunking (BY, MAX, OVERLAP, SPLIT, NORMALIZ",
+          "note": "acronym en dominio oracle"
+        },
+        {
+          "document_id": "doc-932029ac",
+          "segment_id": "seg-82941d33",
+          "before": "Los parámetros clave son: `BY` (unidad de medida: `chars`, `",
+          "after": "(solapamiento entre chunks consecutivos para conservar conte",
+          "note": "acronym en dominio oracle"
+        }
+      ],
+      "justification": "Término con 173 ocurrencias en el dominio oracle; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-81e2",
+      "source_term": "pages",
+      "domain": "nextjs",
+      "sense": "code_reference observado en dominio nextjs (173 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "pages"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-be58eb29",
+          "segment_id": "seg-b3126719",
+          "before": "Warning\nUsing `exportPathMap` is deprecated and is overridde",
+          "after": "st updated June 16, 2025\n[PreviousexpireTime](/docs/15/app/a",
+          "note": "code_reference en dominio nextjs"
+        },
+        {
+          "document_id": "doc-e3faaea3",
+          "segment_id": "seg-46fd9fb9",
+          "before": "Good to know\nSince Next.js 13.5.1, Strict Mode is `true` by ",
+          "after": "es`. You can still disable Strict Mode by setting `` reactSt",
+          "note": "code_reference en dominio nextjs"
+        },
+        {
+          "document_id": "doc-515ac4a7",
+          "segment_id": "seg-a9d82eb1",
+          "before": "The `mdx-components.js|tsx` file is **required** to use [`@n",
+          "after": "ditionally, you can use it to [customize styles](/docs/app/g",
+          "note": "code_reference en dominio nextjs"
+        }
+      ],
+      "justification": "Término con 173 ocurrencias en el dominio nextjs; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-1124",
+      "source_term": "JavaScript",
+      "domain": "angular",
+      "sense": "identifier observado en dominio angular (171 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "JavaScript"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-6ec29c91",
+          "segment_id": "seg-d2b3bffb",
+          "before": "These examples transform a date into various formats,\nassumi",
+          "after": "5, hour: 21, minute: 43, second: 11,\ngiven in the local time",
+          "note": "identifier en dominio angular"
+        },
+        {
+          "document_id": "doc-ae2a5f1c",
+          "segment_id": "seg-ea8f9a71",
+          "before": "Specifies a custom [`TrackByFunction`](/api/core/TrackByFunc",
+          "after": "tion`](/api/core/TrackByFunction) is not provided, [`NgForOf",
+          "note": "identifier en dominio angular"
+        },
+        {
+          "document_id": "doc-97c549fc",
+          "segment_id": "seg-59b28fec",
+          "before": "Specifies a custom [`TrackByFunction`](/api/core/TrackByFunc",
+          "after": "tion`](/api/core/TrackByFunction) is not provided, [`NgForOf",
+          "note": "identifier en dominio angular"
+        }
+      ],
+      "justification": "Término con 171 ocurrencias en el dominio angular; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    },
+    {
+      "id": "g-6a0d",
+      "source_term": "MDX",
+      "domain": "nextjs",
+      "sense": "acronym observado en dominio nextjs (170 ocurrencias)",
+      "preferred": {
+        "lang": "es",
+        "term": "MDX"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-feece981",
+          "segment_id": "seg-291cb5f5",
+          "before": "[allowedDevOriginsUse \\`allowedDevOrigins\\` to configure add",
+          "after": "fig/next-config-js/allowedDevOrigins)\n[appDirEnable the App ",
+          "note": "acronym en dominio nextjs"
+        },
+        {
+          "document_id": "doc-d54f0aef",
+          "segment_id": "seg-bfa0e27d",
+          "before": "For experimental use with `@next/mdx`. Compiles MDX files us",
+          "after": "mpiles MDX files using the new Rust compiler.\nnext.config.js",
+          "note": "acronym en dominio nextjs"
+        },
+        {
+          "document_id": "doc-515ac4a7",
+          "segment_id": "seg-a9d82eb1",
+          "before": "The `mdx-components.js|tsx` file is **required** to use [`@n",
+          "after": "ditionally, you can use it to [customize styles](/docs/app/g",
+          "note": "acronym en dominio nextjs"
+        }
+      ],
+      "justification": "Término con 170 ocurrencias en el dominio nextjs; se propone equivalente inicial pendiente de revisión humana.",
+      "decided_by": "extract_terms.py",
+      "decided_at": "2026-10-20T19:37:43Z"
+    }
+  ]
+}

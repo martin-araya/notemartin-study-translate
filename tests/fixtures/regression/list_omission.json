@@ -1,0 +1,12 @@
+{
+  "case_id": "list_omission",
+  "case": {
+    "source": "Before upgrading, complete these steps:\n\n- Back up the database.\n- Stop the application.\n- Verify disk space.\n\nThen start the new version.\n"
+  },
+  "positive": {
+    "text": "Antes de actualizar, complete estos pasos:\n\n- Haga una copia de seguridad de la base de datos.\n- Detenga la aplicación.\n- Verifique el espacio en disco.\n\nDespués inicie la versión nueva.\n"
+  },
+  "negative": {
+    "text": "Antes de actualizar, complete estos pasos:\n\n- Haga una copia de seguridad de la base de datos.\n- Detenga la aplicación.\n\nDespués inicie la versión nueva.\n"
+  }
+}

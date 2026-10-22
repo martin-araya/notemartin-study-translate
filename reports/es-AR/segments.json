@@ -1,0 +1,1458 @@
+{
+  "source_root": "/Users/martin/Desktop/projects/Skills/notemartin-study-translate/tests/fixtures/es-ar",
+  "generated_at": "2026-10-20T01:54:44Z",
+  "files": [
+    {
+      "document_id": "doc-9a0e94db",
+      "path": "web-css.md",
+      "source_hash": "9a0e94dbfdeff775b0fd4bd5830b04c0ca8f40f0f1da2cfd5bf5f96650b1194a",
+      "source_size": 1290,
+      "segments": [
+        {
+          "segment_id": "seg-09fb23f3",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 0,
+            "end": 29
+          },
+          "line_range": {
+            "start": 0,
+            "end": 1
+          },
+          "heading_path": [],
+          "translatable_text": "Estilos en CSS (Argentina)",
+          "anchor": null,
+          "protected_literals": []
+        },
+        {
+          "segment_id": "seg-1801b57d",
+          "structural_type": "blockquote",
+          "byte_range": {
+            "start": 30,
+            "end": 162
+          },
+          "line_range": {
+            "start": 2,
+            "end": 6
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Estilos en CSS (Argentina)",
+              "byte_range": {
+                "start": 0,
+                "end": 29
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": []
+        },
+        {
+          "segment_id": "seg-ce0d26ef",
+          "structural_type": "code_fenced",
+          "byte_range": {
+            "start": 163,
+            "end": 224
+          },
+          "line_range": {
+            "start": 7,
+            "end": 13
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Estilos en CSS (Argentina)",
+              "byte_range": {
+                "start": 0,
+                "end": 29
+              }
+            }
+          ],
+          "language": "yaml",
+          "translatable_text": "",
+          "protected_literals": [
+            {
+              "type": "code_fenced",
+              "byte_range": {
+                "start": 163,
+                "end": 224
+              },
+              "language": "yaml",
+              "value": "```yaml\n---\ntitle: Estilos en CSS (AR)\nlocale: es-AR\n---\n```\n"
+            }
+          ]
+        },
+        {
+          "segment_id": "seg-d377f6a2",
+          "structural_type": "paragraph",
+          "byte_range": {
+            "start": 225,
+            "end": 426
+          },
+          "line_range": {
+            "start": 14,
+            "end": 18
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Estilos en CSS (Argentina)",
+              "byte_range": {
+                "start": 0,
+                "end": 29
+              }
+            }
+          ],
+          "translatable_text": "Las hojas de estilo en cascada (CSS) te permiten controlar la\npresentación de tus documentos HTML. Mediante reglas de\nselectores y propiedades, podés definir colores, fuentes y\ndiseños responsivos.",
+          "protected_literals": []
+        },
+        {
+          "segment_id": "seg-a4b891bd",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 427,
+            "end": 450
+          },
+          "line_range": {
+            "start": 19,
+            "end": 20
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Estilos en CSS (Argentina)",
+              "byte_range": {
+                "start": 0,
+                "end": 29
+              }
+            }
+          ],
+          "translatable_text": "Selectores básicos",
+          "anchor": null,
+          "protected_literals": []
+        },
+        {
+          "segment_id": "seg-3503f5aa",
+          "structural_type": "table",
+          "byte_range": {
+            "start": 451,
+            "end": 801
+          },
+          "line_range": {
+            "start": 21,
+            "end": 27
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Estilos en CSS (Argentina)",
+              "byte_range": {
+                "start": 0,
+                "end": 29
+              }
+            },
+            {
+              "level": 2,
+              "text": "Selectores básicos",
+              "byte_range": {
+                "start": 427,
+                "end": 450
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": []
+        },
+        {
+          "segment_id": "seg-2b2440fa",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 802,
+            "end": 820
+          },
+          "line_range": {
+            "start": 28,
+            "end": 29
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Estilos en CSS (Argentina)",
+              "byte_range": {
+                "start": 0,
+                "end": 29
+              }
+            },
+            {
+              "level": 2,
+              "text": "Selectores básicos",
+              "byte_range": {
+                "start": 427,
+                "end": 450
+              }
+            }
+          ],
+          "translatable_text": "Caja y diseño",
+          "anchor": null,
+          "protected_literals": []
+        },
+        {
+          "segment_id": "seg-58e8c60e",
+          "structural_type": "code_fenced",
+          "byte_range": {
+            "start": 821,
+            "end": 920
+          },
+          "line_range": {
+            "start": 30,
+            "end": 38
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Estilos en CSS (Argentina)",
+              "byte_range": {
+                "start": 0,
+                "end": 29
+              }
+            },
+            {
+              "level": 2,
+              "text": "Caja y diseño",
+              "byte_range": {
+                "start": 802,
+                "end": 820
+              }
+            }
+          ],
+          "language": "css",
+          "translatable_text": "",
+          "protected_literals": [
+            {
+              "type": "code_fenced",
+              "byte_range": {
+                "start": 821,
+                "end": 920
+              },
+              "language": "css",
+              "value": "```css\n.caja {\n  width: 80%;\n  margin: 0 auto;\n  padding: 1rem;\n  background-color: #f4f4f4;\n}\n```\n"
+            }
+          ]
+        },
+        {
+          "segment_id": "seg-4bdd34a1",
+          "structural_type": "blockquote",
+          "byte_range": {
+            "start": 921,
+            "end": 1016
+          },
+          "line_range": {
+            "start": 39,
+            "end": 41
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Estilos en CSS (Argentina)",
+              "byte_range": {
+                "start": 0,
+                "end": 29
+              }
+            },
+            {
+              "level": 2,
+              "text": "Caja y diseño",
+              "byte_range": {
+                "start": 802,
+                "end": 820
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": []
+        },
+        {
+          "segment_id": "seg-a7dac8de",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 1017,
+            "end": 1043
+          },
+          "line_range": {
+            "start": 42,
+            "end": 43
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Estilos en CSS (Argentina)",
+              "byte_range": {
+                "start": 0,
+                "end": 29
+              }
+            },
+            {
+              "level": 2,
+              "text": "Caja y diseño",
+              "byte_range": {
+                "start": 802,
+                "end": 820
+              }
+            }
+          ],
+          "translatable_text": "Comentarios regionales",
+          "anchor": null,
+          "protected_literals": []
+        },
+        {
+          "segment_id": "seg-cdad514a",
+          "structural_type": "blockquote",
+          "byte_range": {
+            "start": 1044,
+            "end": 1290
+          },
+          "line_range": {
+            "start": 44,
+            "end": 49
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Estilos en CSS (Argentina)",
+              "byte_range": {
+                "start": 0,
+                "end": 29
+              }
+            },
+            {
+              "level": 2,
+              "text": "Comentarios regionales",
+              "byte_range": {
+                "start": 1017,
+                "end": 1043
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": []
+        }
+      ]
+    },
+    {
+      "document_id": "doc-b8b4b2d2",
+      "path": "web-html.md",
+      "source_hash": "b8b4b2d2e25c4de8d5feefb216519b9c6dd39c5fa8bda8db4df5cecc2086e48c",
+      "source_size": 1517,
+      "segments": [
+        {
+          "segment_id": "seg-5ed10e2d",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 0,
+            "end": 30
+          },
+          "line_range": {
+            "start": 0,
+            "end": 1
+          },
+          "heading_path": [],
+          "translatable_text": "Referencia HTML (Argentina)",
+          "anchor": null,
+          "protected_literals": []
+        },
+        {
+          "segment_id": "seg-e601b01c",
+          "structural_type": "blockquote",
+          "byte_range": {
+            "start": 31,
+            "end": 133
+          },
+          "line_range": {
+            "start": 2,
+            "end": 6
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Referencia HTML (Argentina)",
+              "byte_range": {
+                "start": 0,
+                "end": 30
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": []
+        },
+        {
+          "segment_id": "seg-6ba435b9",
+          "structural_type": "code_fenced",
+          "byte_range": {
+            "start": 134,
+            "end": 196
+          },
+          "line_range": {
+            "start": 7,
+            "end": 13
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Referencia HTML (Argentina)",
+              "byte_range": {
+                "start": 0,
+                "end": 30
+              }
+            }
+          ],
+          "language": "yaml",
+          "translatable_text": "",
+          "protected_literals": [
+            {
+              "type": "code_fenced",
+              "byte_range": {
+                "start": 134,
+                "end": 196
+              },
+              "language": "yaml",
+              "value": "```yaml\n---\ntitle: Referencia HTML (AR)\nlocale: es-AR\n---\n```\n"
+            }
+          ]
+        },
+        {
+          "segment_id": "seg-a9e9684f",
+          "structural_type": "paragraph",
+          "byte_range": {
+            "start": 197,
+            "end": 362
+          },
+          "line_range": {
+            "start": 14,
+            "end": 17
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Referencia HTML (Argentina)",
+              "byte_range": {
+                "start": 0,
+                "end": 30
+              }
+            }
+          ],
+          "translatable_text": "HTML define la estructura semántica de tu página web. Cada\nelemento tiene un propósito concreto: encabezados, párrafos,\nlistas, enlaces, imágenes, formularios.",
+          "protected_literals": []
+        },
+        {
+          "segment_id": "seg-592864bd",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 363,
+            "end": 387
+          },
+          "line_range": {
+            "start": 18,
+            "end": 19
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Referencia HTML (Argentina)",
+              "byte_range": {
+                "start": 0,
+                "end": 30
+              }
+            }
+          ],
+          "translatable_text": "Elementos esenciales",
+          "anchor": null,
+          "protected_literals": []
+        },
+        {
+          "segment_id": "seg-2a171912",
+          "structural_type": "table",
+          "byte_range": {
+            "start": 388,
+            "end": 745
+          },
+          "line_range": {
+            "start": 20,
+            "end": 26
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Referencia HTML (Argentina)",
+              "byte_range": {
+                "start": 0,
+                "end": 30
+              }
+            },
+            {
+              "level": 2,
+              "text": "Elementos esenciales",
+              "byte_range": {
+                "start": 363,
+                "end": 387
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": []
+        },
+        {
+          "segment_id": "seg-657665bd",
+          "structural_type": "blockquote",
+          "byte_range": {
+            "start": 746,
+            "end": 882
+          },
+          "line_range": {
+            "start": 27,
+            "end": 30
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Referencia HTML (Argentina)",
+              "byte_range": {
+                "start": 0,
+                "end": 30
+              }
+            },
+            {
+              "level": 2,
+              "text": "Elementos esenciales",
+              "byte_range": {
+                "start": 363,
+                "end": 387
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": []
+        },
+        {
+          "segment_id": "seg-08243f26",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 883,
+            "end": 898
+          },
+          "line_range": {
+            "start": 31,
+            "end": 32
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Referencia HTML (Argentina)",
+              "byte_range": {
+                "start": 0,
+                "end": 30
+              }
+            },
+            {
+              "level": 2,
+              "text": "Elementos esenciales",
+              "byte_range": {
+                "start": 363,
+                "end": 387
+              }
+            }
+          ],
+          "translatable_text": "Formularios",
+          "anchor": null,
+          "protected_literals": []
+        },
+        {
+          "segment_id": "seg-b5b58ebd",
+          "structural_type": "code_fenced",
+          "byte_range": {
+            "start": 899,
+            "end": 1195
+          },
+          "line_range": {
+            "start": 33,
+            "end": 42
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Referencia HTML (Argentina)",
+              "byte_range": {
+                "start": 0,
+                "end": 30
+              }
+            },
+            {
+              "level": 2,
+              "text": "Formularios",
+              "byte_range": {
+                "start": 883,
+                "end": 898
+              }
+            }
+          ],
+          "language": "html",
+          "translatable_text": "",
+          "protected_literals": [
+            {
+              "type": "code_fenced",
+              "byte_range": {
+                "start": 899,
+                "end": 1195
+              },
+              "language": "html",
+              "value": "```html\n<form action=\"/login\" method=\"post\">\n  <label for=\"user\">Usuario</label>\n  <input id=\"user\" name=\"user\" type=\"text\" required />\n  <label for=\"pass\">Contraseña</label>\n  <input id=\"pass\" name=\"pass\" type=\"password\" required />\n  <button type=\"submit\">Iniciar sesión</button>\n</form>\n```\n"
+            }
+          ]
+        },
+        {
+          "segment_id": "seg-0d114637",
+          "structural_type": "paragraph",
+          "byte_range": {
+            "start": 1196,
+            "end": 1286
+          },
+          "line_range": {
+            "start": 43,
+            "end": 45
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Referencia HTML (Argentina)",
+              "byte_range": {
+                "start": 0,
+                "end": 30
+              }
+            },
+            {
+              "level": 2,
+              "text": "Formularios",
+              "byte_range": {
+                "start": 883,
+                "end": 898
+              }
+            }
+          ],
+          "translatable_text": "Los nombres de los campos (`user`, `pass`) son literales\ntécnicos; **no los traduzcas**.",
+          "protected_literals": [
+            {
+              "type": "code_inline",
+              "byte_range": {
+                "start": 1224,
+                "end": 1228
+              },
+              "value": "user"
+            }
+          ]
+        },
+        {
+          "segment_id": "seg-8b7122ee",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 1287,
+            "end": 1310
+          },
+          "line_range": {
+            "start": 46,
+            "end": 47
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Referencia HTML (Argentina)",
+              "byte_range": {
+                "start": 0,
+                "end": 30
+              }
+            },
+            {
+              "level": 2,
+              "text": "Formularios",
+              "byte_range": {
+                "start": 883,
+                "end": 898
+              }
+            }
+          ],
+          "translatable_text": "Comentario regional",
+          "anchor": null,
+          "protected_literals": []
+        },
+        {
+          "segment_id": "seg-0c92e1a4",
+          "structural_type": "blockquote",
+          "byte_range": {
+            "start": 1311,
+            "end": 1517
+          },
+          "line_range": {
+            "start": 48,
+            "end": 53
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Referencia HTML (Argentina)",
+              "byte_range": {
+                "start": 0,
+                "end": 30
+              }
+            },
+            {
+              "level": 2,
+              "text": "Comentario regional",
+              "byte_range": {
+                "start": 1287,
+                "end": 1310
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": []
+        }
+      ]
+    },
+    {
+      "document_id": "doc-61e59a19",
+      "path": "web-index.md",
+      "source_hash": "61e59a1964465aa566ab7c83ed7673af5dcb39dd8098944b269d39a16e33b36d",
+      "source_size": 2348,
+      "segments": [
+        {
+          "segment_id": "seg-a619513f",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 0,
+            "end": 51
+          },
+          "line_range": {
+            "start": 0,
+            "end": 1
+          },
+          "heading_path": [],
+          "translatable_text": "Tecnología web para desarrolladores (Argentina)",
+          "anchor": null,
+          "protected_literals": []
+        },
+        {
+          "segment_id": "seg-d23b1292",
+          "structural_type": "blockquote",
+          "byte_range": {
+            "start": 52,
+            "end": 289
+          },
+          "line_range": {
+            "start": 2,
+            "end": 8
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Tecnología web para desarrolladores (Argentina)",
+              "byte_range": {
+                "start": 0,
+                "end": 51
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": []
+        },
+        {
+          "segment_id": "seg-21c4768b",
+          "structural_type": "code_fenced",
+          "byte_range": {
+            "start": 290,
+            "end": 400
+          },
+          "line_range": {
+            "start": 9,
+            "end": 17
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Tecnología web para desarrolladores (Argentina)",
+              "byte_range": {
+                "start": 0,
+                "end": 51
+              }
+            }
+          ],
+          "language": "yaml",
+          "translatable_text": "",
+          "protected_literals": [
+            {
+              "type": "code_fenced",
+              "byte_range": {
+                "start": 290,
+                "end": 400
+              },
+              "language": "yaml",
+              "value": "```yaml\n---\ntitle: Tecnología web para desarrolladores (AR)\nshort-title: Web\nslug: Web\nlocale: es-AR\n---\n```\n"
+            }
+          ]
+        },
+        {
+          "segment_id": "seg-804223be",
+          "structural_type": "paragraph",
+          "byte_range": {
+            "start": 401,
+            "end": 621
+          },
+          "line_range": {
+            "start": 18,
+            "end": 22
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Tecnología web para desarrolladores (Argentina)",
+              "byte_range": {
+                "start": 0,
+                "end": 51
+              }
+            }
+          ],
+          "translatable_text": "La web abierta te ofrece oportunidades únicas como\ndesarrollador. Para aprovecharlas al máximo, es necesario que\nsepás cómo usarlas. A continuación vas a encontrar enlaces a\nla documentación sobre tecnología web.",
+          "protected_literals": []
+        },
+        {
+          "segment_id": "seg-2c35d8ee",
+          "structural_type": "blockquote",
+          "byte_range": {
+            "start": 622,
+            "end": 816
+          },
+          "line_range": {
+            "start": 23,
+            "end": 27
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Tecnología web para desarrolladores (Argentina)",
+              "byte_range": {
+                "start": 0,
+                "end": 51
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": []
+        },
+        {
+          "segment_id": "seg-f3567fa6",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 817,
+            "end": 860
+          },
+          "line_range": {
+            "start": 28,
+            "end": 29
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Tecnología web para desarrolladores (Argentina)",
+              "byte_range": {
+                "start": 0,
+                "end": 51
+              }
+            }
+          ],
+          "translatable_text": "Documentación para desarrolladores web",
+          "anchor": null,
+          "protected_literals": []
+        },
+        {
+          "segment_id": "seg-1cbfbbcc",
+          "structural_type": "list_item",
+          "byte_range": {
+            "start": 861,
+            "end": 1839
+          },
+          "line_range": {
+            "start": 30,
+            "end": 52
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Tecnología web para desarrolladores (Argentina)",
+              "byte_range": {
+                "start": 0,
+                "end": 51
+              }
+            },
+            {
+              "level": 2,
+              "text": "Documentación para desarrolladores web",
+              "byte_range": {
+                "start": 817,
+                "end": 860
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": []
+        },
+        {
+          "segment_id": "seg-97caba1b",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 1839,
+            "end": 1859
+          },
+          "line_range": {
+            "start": 52,
+            "end": 53
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Tecnología web para desarrolladores (Argentina)",
+              "byte_range": {
+                "start": 0,
+                "end": 51
+              }
+            },
+            {
+              "level": 2,
+              "text": "Documentación para desarrolladores web",
+              "byte_range": {
+                "start": 817,
+                "end": 860
+              }
+            }
+          ],
+          "translatable_text": "Cómo contribuir",
+          "anchor": null,
+          "protected_literals": []
+        },
+        {
+          "segment_id": "seg-621dc94e",
+          "structural_type": "paragraph",
+          "byte_range": {
+            "start": 1860,
+            "end": 2016
+          },
+          "line_range": {
+            "start": 54,
+            "end": 57
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Tecnología web para desarrolladores (Argentina)",
+              "byte_range": {
+                "start": 0,
+                "end": 51
+              }
+            },
+            {
+              "level": 2,
+              "text": "Cómo contribuir",
+              "byte_range": {
+                "start": 1839,
+                "end": 1859
+              }
+            }
+          ],
+          "translatable_text": "Si detectaste un error o querés proponer cambios, consultá la\nguía de contribución. Toda corrección pasa por una revisión\nmanual antes de publicarse.",
+          "protected_literals": []
+        },
+        {
+          "segment_id": "seg-6c96bdba",
+          "structural_type": "blockquote",
+          "byte_range": {
+            "start": 2017,
+            "end": 2144
+          },
+          "line_range": {
+            "start": 58,
+            "end": 61
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Tecnología web para desarrolladores (Argentina)",
+              "byte_range": {
+                "start": 0,
+                "end": 51
+              }
+            },
+            {
+              "level": 2,
+              "text": "Cómo contribuir",
+              "byte_range": {
+                "start": 1839,
+                "end": 1859
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": []
+        },
+        {
+          "segment_id": "seg-55552115",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 2145,
+            "end": 2168
+          },
+          "line_range": {
+            "start": 62,
+            "end": 63
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Tecnología web para desarrolladores (Argentina)",
+              "byte_range": {
+                "start": 0,
+                "end": 51
+              }
+            },
+            {
+              "level": 2,
+              "text": "Cómo contribuir",
+              "byte_range": {
+                "start": 1839,
+                "end": 1859
+              }
+            }
+          ],
+          "translatable_text": "Comentario regional",
+          "anchor": null,
+          "protected_literals": []
+        },
+        {
+          "segment_id": "seg-60199837",
+          "structural_type": "blockquote",
+          "byte_range": {
+            "start": 2169,
+            "end": 2348
+          },
+          "line_range": {
+            "start": 64,
+            "end": 68
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Tecnología web para desarrolladores (Argentina)",
+              "byte_range": {
+                "start": 0,
+                "end": 51
+              }
+            },
+            {
+              "level": 2,
+              "text": "Comentario regional",
+              "byte_range": {
+                "start": 2145,
+                "end": 2168
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": []
+        }
+      ]
+    },
+    {
+      "document_id": "doc-cd70e7fb",
+      "path": "web-javascript.md",
+      "source_hash": "cd70e7fb661da1777f32a9a1414326a43ce94709738f269c8e6c3e27f31515d1",
+      "source_size": 1111,
+      "segments": [
+        {
+          "segment_id": "seg-b7be7d9f",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 0,
+            "end": 33
+          },
+          "line_range": {
+            "start": 0,
+            "end": 1
+          },
+          "heading_path": [],
+          "translatable_text": "JavaScript básico (Argentina)",
+          "anchor": null,
+          "protected_literals": []
+        },
+        {
+          "segment_id": "seg-423993cc",
+          "structural_type": "blockquote",
+          "byte_range": {
+            "start": 34,
+            "end": 132
+          },
+          "line_range": {
+            "start": 2,
+            "end": 5
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "JavaScript básico (Argentina)",
+              "byte_range": {
+                "start": 0,
+                "end": 33
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": []
+        },
+        {
+          "segment_id": "seg-cca23cd9",
+          "structural_type": "code_fenced",
+          "byte_range": {
+            "start": 133,
+            "end": 198
+          },
+          "line_range": {
+            "start": 6,
+            "end": 12
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "JavaScript básico (Argentina)",
+              "byte_range": {
+                "start": 0,
+                "end": 33
+              }
+            }
+          ],
+          "language": "yaml",
+          "translatable_text": "",
+          "protected_literals": [
+            {
+              "type": "code_fenced",
+              "byte_range": {
+                "start": 133,
+                "end": 198
+              },
+              "language": "yaml",
+              "value": "```yaml\n---\ntitle: JavaScript básico (AR)\nlocale: es-AR\n---\n```\n"
+            }
+          ]
+        },
+        {
+          "segment_id": "seg-e15b5e75",
+          "structural_type": "paragraph",
+          "byte_range": {
+            "start": 199,
+            "end": 374
+          },
+          "line_range": {
+            "start": 13,
+            "end": 16
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "JavaScript básico (Argentina)",
+              "byte_range": {
+                "start": 0,
+                "end": 33
+              }
+            }
+          ],
+          "translatable_text": "JavaScript te permite ejecutar lógica compleja dentro del\nnavegador. Mediante variables, funciones y eventos, podés\nmanipular el DOM y responder a las acciones del usuario.",
+          "protected_literals": []
+        },
+        {
+          "segment_id": "seg-b2db61e2",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 375,
+            "end": 396
+          },
+          "line_range": {
+            "start": 17,
+            "end": 18
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "JavaScript básico (Argentina)",
+              "byte_range": {
+                "start": 0,
+                "end": 33
+              }
+            }
+          ],
+          "translatable_text": "Tipos y variables",
+          "anchor": null,
+          "protected_literals": []
+        },
+        {
+          "segment_id": "seg-65382ff8",
+          "structural_type": "table",
+          "byte_range": {
+            "start": 397,
+            "end": 546
+          },
+          "line_range": {
+            "start": 19,
+            "end": 24
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "JavaScript básico (Argentina)",
+              "byte_range": {
+                "start": 0,
+                "end": 33
+              }
+            },
+            {
+              "level": 2,
+              "text": "Tipos y variables",
+              "byte_range": {
+                "start": 375,
+                "end": 396
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": []
+        },
+        {
+          "segment_id": "seg-bf25b018",
+          "structural_type": "code_fenced",
+          "byte_range": {
+            "start": 547,
+            "end": 613
+          },
+          "line_range": {
+            "start": 25,
+            "end": 29
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "JavaScript básico (Argentina)",
+              "byte_range": {
+                "start": 0,
+                "end": 33
+              }
+            },
+            {
+              "level": 2,
+              "text": "Tipos y variables",
+              "byte_range": {
+                "start": 375,
+                "end": 396
+              }
+            }
+          ],
+          "language": "js",
+          "translatable_text": "",
+          "protected_literals": [
+            {
+              "type": "code_fenced",
+              "byte_range": {
+                "start": 547,
+                "end": 613
+              },
+              "language": "js",
+              "value": "```js\nconst saludo = \"Hola\";\nconsole.log(`${saludo}, mundo`);\n```\n"
+            }
+          ]
+        },
+        {
+          "segment_id": "seg-abb400b2",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 614,
+            "end": 636
+          },
+          "line_range": {
+            "start": 30,
+            "end": 31
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "JavaScript básico (Argentina)",
+              "byte_range": {
+                "start": 0,
+                "end": 33
+              }
+            },
+            {
+              "level": 2,
+              "text": "Tipos y variables",
+              "byte_range": {
+                "start": 375,
+                "end": 396
+              }
+            }
+          ],
+          "translatable_text": "Funciones y `this`",
+          "anchor": null,
+          "protected_literals": [
+            {
+              "type": "code_inline",
+              "byte_range": {
+                "start": 630,
+                "end": 634
+              },
+              "value": "this"
+            }
+          ]
+        },
+        {
+          "segment_id": "seg-9ba48860",
+          "structural_type": "paragraph",
+          "byte_range": {
+            "start": 637,
+            "end": 750
+          },
+          "line_range": {
+            "start": 32,
+            "end": 34
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "JavaScript básico (Argentina)",
+              "byte_range": {
+                "start": 0,
+                "end": 33
+              }
+            },
+            {
+              "level": 2,
+              "text": "Funciones y `this`",
+              "byte_range": {
+                "start": 614,
+                "end": 636
+              }
+            }
+          ],
+          "translatable_text": "Las funciones flecha **no** enlazan su propio `this`. Usá\nfunciones tradicionales cuando necesites el contexto.",
+          "protected_literals": [
+            {
+              "type": "code_inline",
+              "byte_range": {
+                "start": 684,
+                "end": 688
+              },
+              "value": "this"
+            }
+          ]
+        },
+        {
+          "segment_id": "seg-a6261706",
+          "structural_type": "blockquote",
+          "byte_range": {
+            "start": 751,
+            "end": 897
+          },
+          "line_range": {
+            "start": 35,
+            "end": 39
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "JavaScript básico (Argentina)",
+              "byte_range": {
+                "start": 0,
+                "end": 33
+              }
+            },
+            {
+              "level": 2,
+              "text": "Funciones y `this`",
+              "byte_range": {
+                "start": 614,
+                "end": 636
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": []
+        },
+        {
+          "segment_id": "seg-555299f2",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 898,
+            "end": 921
+          },
+          "line_range": {
+            "start": 40,
+            "end": 41
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "JavaScript básico (Argentina)",
+              "byte_range": {
+                "start": 0,
+                "end": 33
+              }
+            },
+            {
+              "level": 2,
+              "text": "Funciones y `this`",
+              "byte_range": {
+                "start": 614,
+                "end": 636
+              }
+            }
+          ],
+          "translatable_text": "Comentario regional",
+          "anchor": null,
+          "protected_literals": []
+        },
+        {
+          "segment_id": "seg-e17dd8eb",
+          "structural_type": "blockquote",
+          "byte_range": {
+            "start": 922,
+            "end": 1111
+          },
+          "line_range": {
+            "start": 42,
+            "end": 46
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "JavaScript básico (Argentina)",
+              "byte_range": {
+                "start": 0,
+                "end": 33
+              }
+            },
+            {
+              "level": 2,
+              "text": "Comentario regional",
+              "byte_range": {
+                "start": 898,
+                "end": 921
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": []
+        }
+      ]
+    }
+  ]
+}

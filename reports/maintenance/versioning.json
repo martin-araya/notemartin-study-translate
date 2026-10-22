@@ -1,0 +1,22 @@
+{
+  "generated_at": "2026-10-22T17:52:18Z",
+  "root": ".",
+  "contract": "release_contract.json",
+  "ok": true,
+  "failures": {},
+  "codes": {
+    "1": "changelog_entry",
+    "2": "schema_versions",
+    "3": "doc_versions",
+    "4": "breaking_change_migration",
+    "5": "contract_consistency",
+    "6": "requirements_pinned"
+  },
+  "counts": {
+    "skill_version": "0.4.0",
+    "schemas": 15,
+    "docs": 61,
+    "breaking_changes": 5,
+    "migrations": 2
+  }
+}

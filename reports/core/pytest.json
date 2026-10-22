@@ -1,0 +1,8 @@
+{
+  "command": "python3 -m pytest tests -q --no-header",
+  "exit_code": 0,
+  "passed": 1296,
+  "skipped": 2,
+  "summary_line": "1296 passed, 2 skipped in 137.87s (0:02:17)",
+  "note": "G-EXT criterio 3: regresión del núcleo intacta. La ejecuta el agente, no el gate."
+}

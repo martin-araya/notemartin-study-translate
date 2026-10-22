@@ -1,0 +1,35 @@
+{
+  "verified": true,
+  "reviewer": {
+    "kind": "human",
+    "name": "usuario-importador",
+    "declared_at": "2026-10-20T12:00:00Z"
+  },
+  "sample_documents": [
+    {
+      "path": "index.md",
+      "imported": true,
+      "destination_url": "https://example.invalid/pagina/index"
+    }
+  ],
+  "checks": [
+    {
+      "check_id": "internal_link_remote",
+      "remote_result": "pass",
+      "evidence": [
+        {
+          "kind": "user_report",
+          "ref": "el usuario pulsó el enlace y llegó al encabezado de destino",
+          "captured_at": "2026-10-20T11:55:00Z"
+        }
+      ]
+    }
+  ],
+  "matrix": [
+    {
+      "construction": "internal_link_remote",
+      "destination_id": "notion-manual",
+      "status": "pass"
+    }
+  ]
+}

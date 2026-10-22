@@ -1,0 +1,107 @@
+{
+  "version": 1,
+  "frozen": false,
+  "allowed_languages": ["es"],
+  "entries": [
+    {
+      "id": "g-1001",
+      "source_term": "schema",
+      "domain": "database",
+      "sense": "Definición estructural de tablas, columnas y relaciones en una base de datos relacional",
+      "preferred": {"lang": "es", "term": "esquema"},
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-db-1",
+          "segment_id": "seg-d001-a",
+          "before": "CREATE TABLE users (",
+          "after": " );",
+          "note": "Definición DDL de una tabla"
+        }
+      ],
+      "justification": "Traducción asentada en la documentación oficial de PostgreSQL y MySQL en español.",
+      "decided_by": "example-agent",
+      "decided_at": "2026-10-20T00:00:00Z"
+    },
+    {
+      "id": "g-1002",
+      "source_term": "instance",
+      "domain": "database",
+      "sense": "Instancia concreta de un servidor de base de datos con su estado y configuración propios",
+      "preferred": {"lang": "es", "term": "instancia"},
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-db-1",
+          "segment_id": "seg-d002-a",
+          "before": "Connect to the production ",
+          "after": " using the primary endpoint.",
+          "note": "Diferencia entre instance y database individual"
+        }
+      ],
+      "justification": "Diferencia clara con 'instance' en otros dominios (cloud, programación). Se traduce porque la palabra tiene equivalente natural.",
+      "decided_by": "example-agent",
+      "decided_at": "2026-10-20T00:00:00Z"
+    },
+    {
+      "id": "g-1003",
+      "source_term": "transaction",
+      "domain": "database",
+      "sense": "Unidad lógica de trabajo con propiedades ACID",
+      "preferred": {"lang": "es", "term": "transacción"},
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-db-1",
+          "segment_id": "seg-d003-a",
+          "before": "BEGIN; COMMIT;",
+          "after": "",
+          "note": "Sentencias SQL que delimitan una transacción"
+        }
+      ],
+      "justification": "Término técnico estándar en bases de datos. La traducción 'transacción' está plenamente adoptada.",
+      "decided_by": "example-agent",
+      "decided_at": "2026-10-20T00:00:00Z"
+    },
+    {
+      "id": "g-1004",
+      "source_term": "query",
+      "domain": "database",
+      "sense": "Sentencia que solicita datos a la base de datos",
+      "preferred": {"lang": "es", "term": "consulta"},
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-db-1",
+          "segment_id": "seg-d004-a",
+          "before": "Run a SELECT ",
+          "after": " against the users table.",
+          "note": "Sentencia SQL que pide datos"
+        }
+      ],
+      "justification": "'Consulta' es la traducción natural; 'query' se evita en español formal.",
+      "decided_by": "example-agent",
+      "decided_at": "2026-10-20T00:00:00Z"
+    },
+    {
+      "id": "g-1005",
+      "source_term": "connection pool",
+      "domain": "database",
+      "sense": "Conjunto de conexiones reutilizables a la base de datos",
+      "preferred": {"lang": "es", "term": "grupo de conexiones"},
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-db-1",
+          "segment_id": "seg-d005-a",
+          "before": "Configure the ",
+          "after": " with a maximum of 10 connections.",
+          "note": "Configuración típica de un pool"
+        }
+      ],
+      "justification": "'Connection pool' se traduce literalmente. Mantiene consistencia con la documentación de HikariCP y PgBouncer en español.",
+      "decided_by": "example-agent",
+      "decided_at": "2026-10-20T00:00:00Z"
+    }
+  ]
+}

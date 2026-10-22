@@ -1,0 +1,469 @@
+{
+  "generated_at": "2026-10-22T17:58:50Z",
+  "declaration_version": "1.0.0",
+  "ok": true,
+  "exit_code": 0,
+  "failures": {},
+  "checks": {
+    "1": "activacion_con_corpus",
+    "2": "contrato_y_politica_de_fallo",
+    "3": "casos_positivos_y_negativos",
+    "4": "regresion_del_nucleo",
+    "5": "desactivacion_sin_efectos",
+    "6": "consistencia_con_el_candidato"
+  },
+  "modules": [
+    "delivery",
+    "html",
+    "language",
+    "maintenance",
+    "markdown-extensions",
+    "mdx",
+    "review",
+    "scale",
+    "terminology"
+  ],
+  "tests_executed": true,
+  "detail": {
+    "activation": {
+      "mdx": {
+        "corpus_ref": "evals/cases/mdx.md",
+        "schema_enforced": true
+      },
+      "html": {
+        "corpus_ref": "evals/cases/html.md",
+        "schema_enforced": true
+      },
+      "markdown-extensions": {
+        "corpus_ref": "evals/cases/markdown-extensions.md",
+        "schema_enforced": true
+      },
+      "terminology": {
+        "corpus_ref": "evals/cases/terminology.md",
+        "schema_enforced": true
+      },
+      "language": {
+        "corpus_ref": "evals/cases/pilot-fr.md",
+        "schema_enforced": true
+      },
+      "scale": {
+        "corpus_ref": "evals/cases/scale.md"
+      },
+      "review": {
+        "corpus_ref": "evals/cases/review.md"
+      },
+      "delivery": {
+        "corpus_ref": "evals/cases/delivery.md",
+        "schema_enforced": true
+      },
+      "maintenance": {
+        "corpus_ref": "evals/cases/maintenance.md"
+      }
+    },
+    "contract": {
+      "mdx": {
+        "contract_paths": 3,
+        "entrypoint": "scripts/prepare.py",
+        "exit_codes": [
+          0,
+          2
+        ]
+      },
+      "html": {
+        "contract_paths": 3,
+        "entrypoint": "scripts/prepare.py",
+        "exit_codes": [
+          0,
+          2
+        ]
+      },
+      "markdown-extensions": {
+        "contract_paths": 9,
+        "entrypoint": "scripts/prepare.py",
+        "exit_codes": [
+          0,
+          2
+        ]
+      },
+      "terminology": {
+        "contract_paths": 4,
+        "entrypoint": "scripts/build_glossary.py",
+        "exit_codes": [
+          0,
+          1,
+          2
+        ]
+      },
+      "language": {
+        "contract_paths": 6,
+        "entrypoint": "scripts/detect_language.py",
+        "exit_codes": [
+          0,
+          2
+        ]
+      },
+      "scale": {
+        "contract_paths": 6,
+        "entrypoint": "scripts/gate_scale.py",
+        "exit_codes": [
+          0,
+          1
+        ]
+      },
+      "review": {
+        "contract_paths": 10,
+        "entrypoint": "scripts/gate_review.py",
+        "exit_codes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "delivery": {
+        "contract_paths": 4,
+        "entrypoint": "scripts/gate_delivery.py",
+        "exit_codes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "maintenance": {
+        "contract_paths": 9,
+        "entrypoint": "scripts/gate_extended.py",
+        "exit_codes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    },
+    "cases": {
+      "mdx": {
+        "declared": 10,
+        "matched_by_prefix": 10,
+        "undeclared": [],
+        "missing": [],
+        "evidence_tests": {
+          "activation_negative_test": {
+            "nodeid": "tests/test_optional_activation.py::test_encender_sin_corpus_se_rechaza[mdx]",
+            "exists": true,
+            "detail": "test_encender_sin_corpus_se_rechaza[mdx]"
+          },
+          "deactivation_test": {
+            "nodeid": "tests/test_optional_deactivation.py::test_desactivacion_deja_el_flujo_del_nucleo_identico[mdx]",
+            "exists": true,
+            "detail": "test_desactivacion_deja_el_flujo_del_nucleo_identico[mdx]"
+          }
+        }
+      },
+      "html": {
+        "declared": 11,
+        "matched_by_prefix": 11,
+        "undeclared": [],
+        "missing": [],
+        "evidence_tests": {
+          "activation_negative_test": {
+            "nodeid": "tests/test_optional_activation.py::test_encender_sin_corpus_se_rechaza[html]",
+            "exists": true,
+            "detail": "test_encender_sin_corpus_se_rechaza[html]"
+          },
+          "deactivation_test": {
+            "nodeid": "tests/test_optional_deactivation.py::test_desactivacion_deja_el_flujo_del_nucleo_identico[html]",
+            "exists": true,
+            "detail": "test_desactivacion_deja_el_flujo_del_nucleo_identico[html]"
+          }
+        }
+      },
+      "markdown-extensions": {
+        "declared": 11,
+        "matched_by_prefix": 11,
+        "undeclared": [],
+        "missing": [],
+        "evidence_tests": {
+          "activation_negative_test": {
+            "nodeid": "tests/test_optional_activation.py::test_encender_sin_corpus_se_rechaza[admonitions]",
+            "exists": true,
+            "detail": "test_encender_sin_corpus_se_rechaza[admonitions]"
+          },
+          "deactivation_test": {
+            "nodeid": "tests/test_optional_deactivation.py::test_desactivacion_deja_el_flujo_del_nucleo_identico[admonitions]",
+            "exists": true,
+            "detail": "test_desactivacion_deja_el_flujo_del_nucleo_identico[admonitions]"
+          }
+        }
+      },
+      "terminology": {
+        "declared": 10,
+        "matched_by_prefix": 10,
+        "undeclared": [],
+        "missing": [],
+        "evidence_tests": {
+          "activation_negative_test": {
+            "nodeid": "tests/test_optional_activation.py::test_encender_sin_corpus_se_rechaza[terminology]",
+            "exists": true,
+            "detail": "test_encender_sin_corpus_se_rechaza[terminology]"
+          },
+          "deactivation_test": {
+            "nodeid": "tests/test_optional_deactivation.py::test_desactivacion_deja_el_flujo_del_nucleo_identico[terminology]",
+            "exists": true,
+            "detail": "test_desactivacion_deja_el_flujo_del_nucleo_identico[terminology]"
+          }
+        }
+      },
+      "language": {
+        "declared": 11,
+        "matched_by_prefix": 11,
+        "undeclared": [],
+        "missing": [],
+        "evidence_tests": {
+          "activation_negative_test": {
+            "nodeid": "tests/test_optional_activation.py::test_declarar_una_variante_regional_exige_corpus",
+            "exists": true,
+            "detail": "test_declarar_una_variante_regional_exige_corpus"
+          },
+          "deactivation_test": {
+            "nodeid": "tests/test_optional_deactivation.py::test_desactivacion_mixed_profile",
+            "exists": true,
+            "detail": "test_desactivacion_mixed_profile"
+          }
+        }
+      },
+      "scale": {
+        "declared": 10,
+        "matched_by_prefix": 10,
+        "undeclared": [],
+        "missing": [],
+        "evidence_tests": {
+          "activation_negative_test": {
+            "nodeid": "tests/test_gate_optional.py::test_scale_no_acepta_activacion_sin_corpus",
+            "exists": true,
+            "detail": "test_scale_no_acepta_activacion_sin_corpus"
+          },
+          "deactivation_test": {
+            "nodeid": "tests/test_optional_deactivation.py::test_desactivacion_de_modulos_fuera_del_flujo[scale-entrypoints0]",
+            "exists": true,
+            "detail": "test_desactivacion_de_modulos_fuera_del_flujo[scale-entrypoints0]"
+          }
+        }
+      },
+      "review": {
+        "declared": 10,
+        "matched_by_prefix": 10,
+        "undeclared": [],
+        "missing": [],
+        "evidence_tests": {
+          "activation_negative_test": {
+            "nodeid": "tests/test_gate_optional.py::test_review_no_acepta_activacion_sin_corpus",
+            "exists": true,
+            "detail": "test_review_no_acepta_activacion_sin_corpus"
+          },
+          "deactivation_test": {
+            "nodeid": "tests/test_optional_deactivation.py::test_desactivacion_de_modulos_fuera_del_flujo[review-entrypoints1]",
+            "exists": true,
+            "detail": "test_desactivacion_de_modulos_fuera_del_flujo[review-entrypoints1]"
+          }
+        }
+      },
+      "delivery": {
+        "declared": 8,
+        "matched_by_prefix": 8,
+        "undeclared": [],
+        "missing": [],
+        "evidence_tests": {
+          "activation_negative_test": {
+            "nodeid": "tests/test_optional_activation.py::test_encender_sin_corpus_se_rechaza[delivery]",
+            "exists": true,
+            "detail": "test_encender_sin_corpus_se_rechaza[delivery]"
+          },
+          "deactivation_test": {
+            "nodeid": "tests/test_optional_deactivation.py::test_desactivacion_deja_el_flujo_del_nucleo_identico[delivery]",
+            "exists": true,
+            "detail": "test_desactivacion_deja_el_flujo_del_nucleo_identico[delivery]"
+          }
+        }
+      },
+      "maintenance": {
+        "declared": 11,
+        "matched_by_prefix": 11,
+        "undeclared": [],
+        "missing": [],
+        "evidence_tests": {
+          "activation_negative_test": {
+            "nodeid": "tests/test_gate_optional.py::test_maintenance_no_acepta_activacion_sin_corpus",
+            "exists": true,
+            "detail": "test_maintenance_no_acepta_activacion_sin_corpus"
+          },
+          "deactivation_test": {
+            "nodeid": "tests/test_optional_deactivation.py::test_desactivacion_de_modulos_fuera_del_flujo[maintenance-entrypoints2]",
+            "exists": true,
+            "detail": "test_desactivacion_de_modulos_fuera_del_flujo[maintenance-entrypoints2]"
+          }
+        }
+      }
+    },
+    "core": {
+      "core_suite_exit_code": 0,
+      "core_suite_source": "reports/core/pytest.json",
+      "undeclared_dependencies": [],
+      "declared_delegations": [
+        "scripts/prepare.py -> admonitions (detector)",
+        "scripts/prepare.py -> directives (detector)",
+        "scripts/prepare.py -> html_parser (detector)",
+        "scripts/prepare.py -> mdx_selector (detector)",
+        "scripts/prepare.py -> mermaid_adapter (detector)",
+        "scripts/regression_detectors.py -> compare_delivery (regression)",
+        "scripts/regression_detectors.py -> translation_cache (regression)",
+        "scripts/regression_detectors.py -> validate_zip_package (regression)"
+      ],
+      "unclassified_scripts": []
+    },
+    "deactivation": {
+      "mdx": {
+        "nodeid": "tests/test_optional_deactivation.py::test_desactivacion_deja_el_flujo_del_nucleo_identico[mdx]",
+        "status": "pass",
+        "exit_code": 0
+      },
+      "html": {
+        "nodeid": "tests/test_optional_deactivation.py::test_desactivacion_deja_el_flujo_del_nucleo_identico[html]",
+        "status": "pass",
+        "exit_code": 0
+      },
+      "markdown-extensions": {
+        "nodeid": "tests/test_optional_deactivation.py::test_desactivacion_deja_el_flujo_del_nucleo_identico[admonitions]",
+        "status": "pass",
+        "exit_code": 0
+      },
+      "terminology": {
+        "nodeid": "tests/test_optional_deactivation.py::test_desactivacion_deja_el_flujo_del_nucleo_identico[terminology]",
+        "status": "pass",
+        "exit_code": 0
+      },
+      "language": {
+        "nodeid": "tests/test_optional_deactivation.py::test_desactivacion_mixed_profile",
+        "status": "pass",
+        "exit_code": 0
+      },
+      "scale": {
+        "nodeid": "tests/test_optional_deactivation.py::test_desactivacion_de_modulos_fuera_del_flujo[scale-entrypoints0]",
+        "status": "pass",
+        "exit_code": 0
+      },
+      "review": {
+        "nodeid": "tests/test_optional_deactivation.py::test_desactivacion_de_modulos_fuera_del_flujo[review-entrypoints1]",
+        "status": "pass",
+        "exit_code": 0
+      },
+      "delivery": {
+        "nodeid": "tests/test_optional_deactivation.py::test_desactivacion_deja_el_flujo_del_nucleo_identico[delivery]",
+        "status": "pass",
+        "exit_code": 0
+      },
+      "maintenance": {
+        "nodeid": "tests/test_optional_deactivation.py::test_desactivacion_de_modulos_fuera_del_flujo[maintenance-entrypoints2]",
+        "status": "pass",
+        "exit_code": 0
+      }
+    },
+    "candidate": {
+      "status": "checked",
+      "candidate": "reports/maintenance/release_candidate.json",
+      "modules_in_candidate": [
+        "core",
+        "delivery",
+        "html",
+        "language",
+        "maintenance",
+        "markdown-extensions",
+        "mdx",
+        "review",
+        "scale",
+        "terminology"
+      ],
+      "not_required": [
+        "admonitions.enabled",
+        "definition_lists.enabled",
+        "delivery.enabled",
+        "directives.enabled",
+        "frontmatter traducible",
+        "gate_review.py --mode expanded",
+        "html.enabled",
+        "locale",
+        "mdx.enabled",
+        "mermaid labels",
+        "mixed_profile.enabled",
+        "rtl.enabled",
+        "run_concurrent.py",
+        "terminology.enabled",
+        "wikilinks.enabled"
+      ]
+    },
+    "module_test_runs": {
+      "mdx": {
+        "exit_code": 0,
+        "files": 10
+      },
+      "html": {
+        "exit_code": 0,
+        "files": 11
+      },
+      "markdown-extensions": {
+        "exit_code": 0,
+        "files": 11
+      },
+      "terminology": {
+        "exit_code": 0,
+        "files": 10
+      },
+      "language": {
+        "exit_code": 0,
+        "files": 11
+      },
+      "scale": {
+        "exit_code": 0,
+        "files": 10
+      },
+      "review": {
+        "exit_code": 0,
+        "files": 10
+      },
+      "delivery": {
+        "exit_code": 0,
+        "files": 8
+      },
+      "maintenance": {
+        "exit_code": 0,
+        "files": 11
+      }
+    }
+  },
+  "external_items_do_not_block_local_release": true,
+  "evidence_written": [
+    "optional/delivery.json",
+    "optional/html.json",
+    "optional/language.json",
+    "optional/maintenance.json",
+    "optional/markdown-extensions.json",
+    "optional/mdx.json",
+    "optional/review.json",
+    "optional/scale.json",
+    "optional/terminology.json"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "source_root": "/Users/martin/Desktop/projects/Skills/notemartin-study-translate/tests/fixtures/pilot-fr",
+  "generated_at": "2026-10-20T01:11:33Z",
+  "total_files": 6,
+  "total_bytes": 12759,
+  "files": [
+    {
+      "path": "01-prelude-et-licence.md",
+      "bytes": 1982,
+      "sha256": "06b2cead15159ee19d43d6b106ddf682d3d3b0355f48d7d866c4a28db9725100",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "02-fichiers-et-synchronisation.md",
+      "bytes": 2198,
+      "sha256": "f02b3b3f43bed1d335fd19b8d9cdf3202cff6c68caac66d4043ee1226e9b9b73",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "03-authentification.md",
+      "bytes": 2193,
+      "sha256": "5c64eaaf682e01d12885411905f23891f8f41451a0c50ad6b0e440ff6bcb6115",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "04-configuration-2fa.md",
+      "bytes": 2109,
+      "sha256": "0fcaf443713b06be05b03aa40ab81a0cc875ef1dab094f8bacd3eb21e1fb7dc0",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "05-client-bureau.md",
+      "bytes": 1948,
+      "sha256": "dfd907470cc074a3d290730bab9b868ada900c8c9250fe68de69034b866ad8da",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "06-preferences-utilisateur.md",
+      "bytes": 2329,
+      "sha256": "96c7001e89902612d1fee84d42fd90a419f0b298cc76abf3cd02eddbdd059aa2",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    }
+  ]
+}

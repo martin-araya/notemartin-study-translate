@@ -1,0 +1,110 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://notemartin-study-translate.local/schemas/release_contract.schema.json",
+  "x-schema-version": "1.0.0",
+  "title": "Contrato de versiones del release",
+  "description": "Declara qué se versiona en el proyecto y con qué reglas. Un cambio incompatible obliga a una versión mayor y a una migración explícita listada aquí (fase 142).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "skill_version",
+    "contracts",
+    "schemas",
+    "docs",
+    "breaking_changes",
+    "migrations",
+    "parser",
+    "prompt_version"
+  ],
+  "properties": {
+    "skill_version": {
+      "description": "Versión semver de la skill. Debe coincidir con la última entrada del CHANGELOG.",
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$"
+    },
+    "contracts": {
+      "description": "Contratos internos del proyecto (C-IN, C-PROFILE, C-GLOSSARY, C-SEGMENT, C-RUN, C-ANCHORS, C-OUT).",
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "version", "doc"],
+        "properties": {
+          "id": { "type": "string", "minLength": 1 },
+          "version": { "type": "string", "pattern": "^translate/v\\d+$" },
+          "doc": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
+    "schemas": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["path", "version"],
+        "properties": {
+          "path": { "type": "string", "pattern": "^schemas/[a-z_]+\\.schema\\.json$" },
+          "version": { "type": "string", "pattern": "^\\d+\\.\\d+\\.\\d+$" }
+        }
+      }
+    },
+    "docs": {
+      "description": "Referencias que llevan marca de versión en su encabezado.",
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["path", "version"],
+        "properties": {
+          "path": { "type": "string", "pattern": "^references/[a-z0-9_\\-/]+\\.md$" },
+          "version": { "type": "string", "pattern": "^\\d+\\.\\d+\\.\\d+$" }
+        }
+      }
+    },
+    "breaking_changes": {
+      "description": "Cambios incompatibles declarados. Cada uno necesita una migración existente.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "phase", "description", "migration"],
+        "properties": {
+          "id": { "type": "string", "minLength": 1 },
+          "phase": { "type": "integer", "minimum": 1, "maximum": 150 },
+          "description": { "type": "string", "minLength": 8 },
+          "migration": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
+    "migrations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["from", "to", "tool"],
+        "properties": {
+          "from": { "type": "string", "minLength": 1 },
+          "to": { "type": "string", "minLength": 1 },
+          "tool": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
+    "parser": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "pinned", "policy"],
+      "properties": {
+        "name": { "type": "string", "minLength": 1 },
+        "pinned": { "type": "string", "minLength": 1 },
+        "policy": { "type": "string", "minLength": 1 }
+      }
+    },
+    "prompt_version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$"
+    }
+  }
+}

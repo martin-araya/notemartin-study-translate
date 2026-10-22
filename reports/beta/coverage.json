@@ -1,0 +1,57 @@
+{
+  "generated_at": "2026-10-21",
+  "run_id": "run-7fbd5e24",
+  "source_root": "/Users/martin/Desktop/projects/notemartin-beta/source",
+  "files_total": 2748,
+  "files_markdown": 2682,
+  "files_resource": 66,
+  "total_bytes": 61055709,
+  "segments_total": 70972,
+  "segments_by_disposition": {
+    "translatable": 44293,
+    "code_skip": 19443,
+    "no_text": 5654,
+    "already_target": 1297,
+    "too_short": 285
+  },
+  "translatable_characters": 7506883,
+  "packets_total": 6604,
+  "packets_overflow": 191,
+  "documents_with_packets": 2440,
+  "translated_segments": 43,
+  "files_approved": 0,
+  "files_exported": 0,
+  "remote_status": "no_verificado",
+  "disposition_transitions": {
+    "mixed_or_code": {
+      "code_skip": 2166,
+      "too_short": 14,
+      "translatable": 90
+    },
+    "too_short": {
+      "code_skip": 2649,
+      "too_short": 164
+    },
+    "unknown": {
+      "translatable": 562,
+      "code_skip": 2260,
+      "too_short": 107
+    }
+  },
+  "translatable_segments": 44293,
+  "packets_translated": 7,
+  "documents_with_translations": 1,
+  "status": "en_progreso",
+  "note": "Estado medido 2026-10-21. G-BETA no marcado. Traduccion 43 de 44293 segmentos. Cuatro defectos de procedencia corregidos con prueba. Detalle en reports/beta/summary.md.",
+  "translated_characters": 5476,
+  "translation_ratio": 0.0007,
+  "files_translated": 1,
+  "files_in_state_prepared": 2681,
+  "manifest_integrity_ok": false,
+  "resources_copied": 66,
+  "resources_mismatches": 0,
+  "resources_missing": 0,
+  "anchors_collisions_cross_doc": 3110,
+  "export_promoted": false,
+  "export_blocked_reason": "validate.py falla: cobertura incompleta (2681 documentos prepared)"
+}

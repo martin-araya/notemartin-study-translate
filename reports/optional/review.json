@@ -1,0 +1,157 @@
+{
+  "module_id": "review",
+  "generated_at": "2026-10-22T17:58:50Z",
+  "gate": "scripts/gate_optional.py",
+  "gate_exit_code": 0,
+  "phases": {
+    "from": 121,
+    "to": 130
+  },
+  "activation": "dormant_by_default",
+  "default_enabled": false,
+  "activation_option": "gate_review.py --mode expanded",
+  "corpus_ref": "evals/cases/review.md",
+  "corpus_real": false,
+  "justification": "Las ocho herramientas del módulo están probadas sobre fixtures declarados, pero ninguna se ha ejecutado sobre el corpus piloto ni el Beta; el módulo exige --justification para encenderse.",
+  "criteria": {
+    "1_activacion_con_corpus": {
+      "passed": true,
+      "detail": {
+        "corpus_ref": "evals/cases/review.md"
+      }
+    },
+    "2_contrato_y_politica_de_fallo": {
+      "passed": true,
+      "detail": {
+        "contract_paths": 10,
+        "entrypoint": "scripts/gate_review.py",
+        "exit_codes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      }
+    },
+    "3_casos_positivos_y_negativos": {
+      "passed": true,
+      "detail": {
+        "declared": 10,
+        "matched_by_prefix": 10,
+        "undeclared": [],
+        "missing": [],
+        "evidence_tests": {
+          "activation_negative_test": {
+            "nodeid": "tests/test_gate_optional.py::test_review_no_acepta_activacion_sin_corpus",
+            "exists": true,
+            "detail": "test_review_no_acepta_activacion_sin_corpus"
+          },
+          "deactivation_test": {
+            "nodeid": "tests/test_optional_deactivation.py::test_desactivacion_de_modulos_fuera_del_flujo[review-entrypoints1]",
+            "exists": true,
+            "detail": "test_desactivacion_de_modulos_fuera_del_flujo[review-entrypoints1]"
+          }
+        }
+      },
+      "test_runs": {
+        "exit_code": 0,
+        "files": 10
+      }
+    },
+    "4_regresion_del_nucleo": {
+      "passed": true,
+      "core_suite_exit_code": 0,
+      "core_suite_source": "reports/core/pytest.json",
+      "undeclared_dependencies": []
+    },
+    "desactivacion_sin_efectos": {
+      "passed": true,
+      "detail": {
+        "nodeid": "tests/test_optional_deactivation.py::test_desactivacion_de_modulos_fuera_del_flujo[review-entrypoints1]",
+        "status": "pass",
+        "exit_code": 0
+      }
+    },
+    "consistencia_con_el_candidato": {
+      "passed": true,
+      "detail": {
+        "status": "checked",
+        "candidate": "reports/maintenance/release_candidate.json",
+        "modules_in_candidate": [
+          "core",
+          "delivery",
+          "html",
+          "language",
+          "maintenance",
+          "markdown-extensions",
+          "mdx",
+          "review",
+          "scale",
+          "terminology"
+        ],
+        "not_required": [
+          "admonitions.enabled",
+          "definition_lists.enabled",
+          "delivery.enabled",
+          "directives.enabled",
+          "frontmatter traducible",
+          "gate_review.py --mode expanded",
+          "html.enabled",
+          "locale",
+          "mdx.enabled",
+          "mermaid labels",
+          "mixed_profile.enabled",
+          "rtl.enabled",
+          "run_concurrent.py",
+          "terminology.enabled",
+          "wikilinks.enabled"
+        ]
+      }
+    }
+  },
+  "contract_paths": [
+    "references/bilingual-report.md",
+    "references/findings-priority.md",
+    "references/decision-protocol.md",
+    "references/approval-freshness.md",
+    "references/inconsistency-report.md",
+    "references/residual-language.md",
+    "references/back-translation-eval.md",
+    "references/report-accessibility.md",
+    "references/log-redaction.md",
+    "references/review-gate.md"
+  ],
+  "test_files": [
+    "tests/test_approval_freshness.py",
+    "tests/test_decision_schema.py",
+    "tests/test_detect_residual_language.py",
+    "tests/test_eval_back_translation.py",
+    "tests/test_gate_review.py",
+    "tests/test_group_inconsistencies.py",
+    "tests/test_log_redaction.py",
+    "tests/test_prioritize_findings.py",
+    "tests/test_render_bilingual.py",
+    "tests/test_report_accessibility.py"
+  ],
+  "limitations": [
+    "Ningún artefacto de este módulo existe en reports/: solo se ejecutó el detector de idioma residual, y su resultado fue negativo (273 falsos positivos).",
+    "Ningún manifiesto real tiene decisions[] ni approvals[], así que el modo expanded no se ha corrido sobre material real.",
+    "El módulo 129 (redacción de logs) no tiene check propio en el gate: el código 6 cubre accesibilidad de informes."
+  ],
+  "known_external_gaps": [
+    {
+      "id": "live_back_translation",
+      "reason": "La retrotraducción solo se ha ejecutado en modo seco.",
+      "owner": "usuario",
+      "procedure": "Ejecutar eval_back_translation.py en modo live con el proveedor autorizado.",
+      "blocking_scope": "human_signature"
+    }
+  ],
+  "core_delegations": [],
+  "failing_checks": {},
+  "note": "Este archivo lo escribe el gate que comprueba los cuatro criterios. No demuestra equivalencia semántica ni ejecución sobre el corpus real; dice lo que el gate midió."
+}

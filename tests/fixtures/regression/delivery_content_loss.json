@@ -1,0 +1,14 @@
+{
+  "case_id": "delivery_content_loss",
+  "case": {
+    "document": "docs/guia.md"
+  },
+  "positive": {
+    "canonical": "# Instalación\n\nConsulte la [guía](./guia.md) antes de continuar.\n\n```bash\nnpm install --save-dev vitest\n```\n",
+    "adapted": "# Instalación\n\nConsulte la [guía](guia.md) antes de continuar.\n\n```bash\nnpm install --save-dev vitest\n```\n"
+  },
+  "negative": {
+    "canonical": "# Instalación\n\nConsulte la [guía](./guia.md) antes de continuar.\n\n```bash\nnpm install --save-dev vitest\n```\n",
+    "adapted": "# Instalación\n\nConsulte la [guía](guia.md) antes de continuar.\n"
+  }
+}

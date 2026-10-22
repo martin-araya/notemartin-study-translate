@@ -1,0 +1,16 @@
+{
+  "generated_at": "2026-10-20T15:52:47Z",
+  "corpus": "tests/fixtures/pilot",
+  "pinned_parser": "3.0.0",
+  "promotion": "allowed",
+  "changed_ranges": [],
+  "changed_slugs": [],
+  "changed_counts": [],
+  "dependents_to_migrate": [],
+  "baseline_parser": "3.0.0",
+  "candidate_parser": "2.2.0",
+  "documents_compared": 9,
+  "alternate_installed": true,
+  "baseline_interpreter": "/Library/Developer/CommandLineTools/usr/bin/python3",
+  "candidate_interpreter": "/var/folders/hr/sbmrj9lj3_n56qv4b37q4y540000gn/T/kilo/nst-parser-alt/bin/python"
+}

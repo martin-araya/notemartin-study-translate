@@ -1,0 +1,29 @@
+{
+  "run_id": "run-7fbd5e24",
+  "measured_at": "2026-10-22",
+  "note": "Ninguna transicion se aplico: todas son simulaciones. El manifiesto queda en prepared x2606 y deterministic_pass x76.",
+  "gates": [
+    {
+      "argv": "$SK/scripts/advance_state.py",
+      "exit_code": 1,
+      "stderr_1ra_line": "error: avanzar a semantic_pass afirma que alguien leyo el documento; hacen falta --review"
+    },
+    {
+      "argv": "$SK/scripts/advance_state.py",
+      "exit_code": 1,
+      "stderr_1ra_line": "error: ningun archivo puede pasar a semantic_pass desde cualquier estado"
+    },
+    {
+      "argv": "$SK/scripts/advance_state.py",
+      "exit_code": 1,
+      "stderr_1ra_line": "error: avanzar a approved afirma que alguien leyo el documento; hacen falta --review"
+    },
+    {
+      "argv": "advance_state.py --to deterministic_pass",
+      "exit_code": 1,
+      "stderr_1ra_line": "error: ningun archivo puede pasar a deterministic_pass desde cualquier estado",
+      "expected_exit_code": 0,
+      "why_1": "Los 76 documentos ya estaban en deterministic_pass: la transicion se aplico antes en esta sesion con validate.py en verde como justificacion. No hay sucesor legal desde deterministic_pass, asi que 1 es la respuesta correcta. La simulacion con exit 0 quedo registrada antes de aplicar; se conserva aqui la lectura real."
+    }
+  ]
+}

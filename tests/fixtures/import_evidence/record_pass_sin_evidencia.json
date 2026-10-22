@@ -1,0 +1,23 @@
+{
+  "verified": true,
+  "reviewer": {
+    "kind": "human",
+    "name": "usuario-importador",
+    "declared_at": "2026-10-20T12:00:00Z"
+  },
+  "sample_documents": [
+    {
+      "path": "index.md",
+      "imported": true,
+      "destination_url": "https://example.invalid/pagina/index"
+    }
+  ],
+  "checks": [
+    {
+      "check_id": "internal_link_remote",
+      "remote_result": "pass",
+      "evidence": []
+    }
+  ],
+  "matrix": []
+}

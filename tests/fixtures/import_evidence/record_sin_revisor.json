@@ -1,0 +1,29 @@
+{
+  "verified": true,
+  "reviewer": {
+    "kind": null,
+    "name": null,
+    "declared_at": null
+  },
+  "sample_documents": [
+    {
+      "path": "index.md",
+      "imported": true,
+      "destination_url": "https://example.invalid/pagina/index"
+    }
+  ],
+  "checks": [
+    {
+      "check_id": "internal_link_remote",
+      "remote_result": "pass",
+      "evidence": [
+        {
+          "kind": "user_report",
+          "ref": "reporte sin firmante identificado",
+          "captured_at": "2026-10-20T11:55:00Z"
+        }
+      ]
+    }
+  ],
+  "matrix": []
+}

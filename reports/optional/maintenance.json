@@ -1,0 +1,166 @@
+{
+  "module_id": "maintenance",
+  "generated_at": "2026-10-22T17:58:50Z",
+  "gate": "scripts/gate_optional.py",
+  "gate_exit_code": 0,
+  "phases": {
+    "from": 141,
+    "to": 150
+  },
+  "activation": "opt_in",
+  "default_enabled": false,
+  "activation_option": "scripts/gate_extended.py, scripts/regression_gate.py",
+  "corpus_ref": "evals/cases/maintenance.md",
+  "corpus_real": false,
+  "justification": "El corpus permanente de regresión está declarado y se ejecuta con --reproduce; el gate extendido comprueba afirmaciones, no calidad de traducción.",
+  "criteria": {
+    "1_activacion_con_corpus": {
+      "passed": true,
+      "detail": {
+        "corpus_ref": "evals/cases/maintenance.md"
+      }
+    },
+    "2_contrato_y_politica_de_fallo": {
+      "passed": true,
+      "detail": {
+        "contract_paths": 9,
+        "entrypoint": "scripts/gate_extended.py",
+        "exit_codes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    },
+    "3_casos_positivos_y_negativos": {
+      "passed": true,
+      "detail": {
+        "declared": 11,
+        "matched_by_prefix": 11,
+        "undeclared": [],
+        "missing": [],
+        "evidence_tests": {
+          "activation_negative_test": {
+            "nodeid": "tests/test_gate_optional.py::test_maintenance_no_acepta_activacion_sin_corpus",
+            "exists": true,
+            "detail": "test_maintenance_no_acepta_activacion_sin_corpus"
+          },
+          "deactivation_test": {
+            "nodeid": "tests/test_optional_deactivation.py::test_desactivacion_de_modulos_fuera_del_flujo[maintenance-entrypoints2]",
+            "exists": true,
+            "detail": "test_desactivacion_de_modulos_fuera_del_flujo[maintenance-entrypoints2]"
+          }
+        }
+      },
+      "test_runs": {
+        "exit_code": 0,
+        "files": 11
+      }
+    },
+    "4_regresion_del_nucleo": {
+      "passed": true,
+      "core_suite_exit_code": 0,
+      "core_suite_source": "reports/core/pytest.json",
+      "undeclared_dependencies": []
+    },
+    "desactivacion_sin_efectos": {
+      "passed": true,
+      "detail": {
+        "nodeid": "tests/test_optional_deactivation.py::test_desactivacion_de_modulos_fuera_del_flujo[maintenance-entrypoints2]",
+        "status": "pass",
+        "exit_code": 0
+      }
+    },
+    "consistencia_con_el_candidato": {
+      "passed": true,
+      "detail": {
+        "status": "checked",
+        "candidate": "reports/maintenance/release_candidate.json",
+        "modules_in_candidate": [
+          "core",
+          "delivery",
+          "html",
+          "language",
+          "maintenance",
+          "markdown-extensions",
+          "mdx",
+          "review",
+          "scale",
+          "terminology"
+        ],
+        "not_required": [
+          "admonitions.enabled",
+          "definition_lists.enabled",
+          "delivery.enabled",
+          "directives.enabled",
+          "frontmatter traducible",
+          "gate_review.py --mode expanded",
+          "html.enabled",
+          "locale",
+          "mdx.enabled",
+          "mermaid labels",
+          "mixed_profile.enabled",
+          "rtl.enabled",
+          "run_concurrent.py",
+          "terminology.enabled",
+          "wikilinks.enabled"
+        ]
+      }
+    }
+  },
+  "contract_paths": [
+    "references/regression-corpus.md",
+    "references/versioning-policy.md",
+    "references/manifest-migration.md",
+    "references/parser-upgrade.md",
+    "references/model-variation.md",
+    "references/content-audit.md",
+    "references/portability.md",
+    "references/workdir-retention.md",
+    "references/release-gate.md"
+  ],
+  "test_files": [
+    "tests/test_audit_docs.py",
+    "tests/test_compare_parser.py",
+    "tests/test_manifest_migration.py",
+    "tests/test_model_variation.py",
+    "tests/test_portability.py",
+    "tests/test_purge_workdir.py",
+    "tests/test_regression_cases.py",
+    "tests/test_regression_registry.py",
+    "tests/test_release_candidate.py",
+    "tests/test_release_docs_0_4_0.py",
+    "tests/test_versioning_policy.py"
+  ],
+  "limitations": [
+    "Los 22 casos de regresión son sintéticos: sus hashes no corresponden a ningún artefacto real.",
+    "Windows queda en design_only y la variación entre modelos tiene una sola ejecución registrada.",
+    "Este módulo no es opcional en la práctica: sus herramientas comprueban el release y no se pueden apagar."
+  ],
+  "known_external_gaps": [
+    {
+      "id": "windows_execution",
+      "reason": "Windows queda en design_only: no hay máquina ni imagen para ejecutarlo.",
+      "owner": "equipo de mantenimiento",
+      "procedure": "Ejecutar la suite en Windows y adjuntar el informe de sonda.",
+      "blocking_scope": "platform_execution"
+    },
+    {
+      "id": "second_model_run",
+      "reason": "Solo hay una ejecución real registrada; la comparación entre modelos necesita dos.",
+      "owner": "usuario",
+      "procedure": "Traducir el piloto con otro modelo y registrarlo con scripts/record_model_run.py.",
+      "blocking_scope": "human_signature"
+    }
+  ],
+  "core_delegations": [],
+  "failing_checks": {},
+  "note": "Este archivo lo escribe el gate que comprueba los cuatro criterios. No demuestra equivalencia semántica ni ejecución sobre el corpus real; dice lo que el gate midió."
+}

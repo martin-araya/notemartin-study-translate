@@ -1,0 +1,10 @@
+{
+  "case_id": "dangerous_links",
+  "case": {},
+  "positive": {
+    "document": "See the [official guide](https://example.org/guide) for the full procedure.\n"
+  },
+  "negative": {
+    "document": "Click [here](javascript:alert('x')) to continue with the install.\n"
+  }
+}

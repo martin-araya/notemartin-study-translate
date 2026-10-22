@@ -1,0 +1,19 @@
+{
+  "case_id": "truncated_response",
+  "case": {
+    "expected_segments": ["seg-0001", "seg-0002", "seg-0003"]
+  },
+  "positive": {
+    "translations": {
+      "seg-0001": "Primera unidad traducida.",
+      "seg-0002": "Segunda unidad traducida.",
+      "seg-0003": "Tercera unidad traducida."
+    }
+  },
+  "negative": {
+    "translations": {
+      "seg-0001": "Primera unidad traducida.",
+      "seg-0002": "Segunda unidad traducida."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "case_id": "cache_incompatible_reuse",
+  "case": {
+    "entries": [
+      {
+        "segment_id": "seg-0001",
+        "source_hash": "a1b2c3d4",
+        "glossary_hash": "1111aaaa",
+        "locale_variant": "es",
+        "content": "El término conservado se mantiene literal."
+      }
+    ]
+  },
+  "positive": {
+    "probe": {
+      "segment_id": "seg-0001",
+      "source_hash": "a1b2c3d4",
+      "glossary_hash": "1111aaaa",
+      "locale_variant": "es"
+    }
+  },
+  "negative": {
+    "probe": {
+      "segment_id": "seg-0001",
+      "source_hash": "a1b2c3d4",
+      "glossary_hash": "9999bbbb",
+      "locale_variant": "es"
+    }
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "module_id": "markdown-extensions",
+  "generated_at": "2026-10-22T17:58:50Z",
+  "gate": "scripts/gate_optional.py",
+  "gate_exit_code": 0,
+  "phases": {
+    "from": 81,
+    "to": 90
+  },
+  "activation": "dormant_by_default",
+  "default_enabled": false,
+  "activation_option": "admonitions.enabled, definition_lists.enabled, directives.enabled, mermaid.labels, wikilinks.enabled, frontmatter_policy",
+  "corpus_ref": "evals/cases/markdown-extensions.md",
+  "corpus_real": false,
+  "justification": "Cada sub-módulo se activa contra su fixture declarado; la medición de evals/cases/markdown-extensions.md §1 concluye que ninguno aparece en los corpus autorizados, así que ninguno se activa sobre ellos.",
+  "criteria": {
+    "1_activacion_con_corpus": {
+      "passed": true,
+      "detail": {
+        "corpus_ref": "evals/cases/markdown-extensions.md",
+        "schema_enforced": true
+      }
+    },
+    "2_contrato_y_politica_de_fallo": {
+      "passed": true,
+      "detail": {
+        "contract_paths": 9,
+        "entrypoint": "scripts/prepare.py",
+        "exit_codes": [
+          0,
+          2
+        ]
+      }
+    },
+    "3_casos_positivos_y_negativos": {
+      "passed": true,
+      "detail": {
+        "declared": 11,
+        "matched_by_prefix": 11,
+        "undeclared": [],
+        "missing": [],
+        "evidence_tests": {
+          "activation_negative_test": {
+            "nodeid": "tests/test_optional_activation.py::test_encender_sin_corpus_se_rechaza[admonitions]",
+            "exists": true,
+            "detail": "test_encender_sin_corpus_se_rechaza[admonitions]"
+          },
+          "deactivation_test": {
+            "nodeid": "tests/test_optional_deactivation.py::test_desactivacion_deja_el_flujo_del_nucleo_identico[admonitions]",
+            "exists": true,
+            "detail": "test_desactivacion_deja_el_flujo_del_nucleo_identico[admonitions]"
+          }
+        }
+      },
+      "test_runs": {
+        "exit_code": 0,
+        "files": 11
+      }
+    },
+    "4_regresion_del_nucleo": {
+      "passed": true,
+      "core_suite_exit_code": 0,
+      "core_suite_source": "reports/core/pytest.json",
+      "undeclared_dependencies": []
+    },
+    "desactivacion_sin_efectos": {
+      "passed": true,
+      "detail": {
+        "nodeid": "tests/test_optional_deactivation.py::test_desactivacion_deja_el_flujo_del_nucleo_identico[admonitions]",
+        "status": "pass",
+        "exit_code": 0
+      }
+    },
+    "consistencia_con_el_candidato": {
+      "passed": true,
+      "detail": {
+        "status": "checked",
+        "candidate": "reports/maintenance/release_candidate.json",
+        "modules_in_candidate": [
+          "core",
+          "delivery",
+          "html",
+          "language",
+          "maintenance",
+          "markdown-extensions",
+          "mdx",
+          "review",
+          "scale",
+          "terminology"
+        ],
+        "not_required": [
+          "admonitions.enabled",
+          "definition_lists.enabled",
+          "delivery.enabled",
+          "directives.enabled",
+          "frontmatter traducible",
+          "gate_review.py --mode expanded",
+          "html.enabled",
+          "locale",
+          "mdx.enabled",
+          "mermaid labels",
+          "mixed_profile.enabled",
+          "rtl.enabled",
+          "run_concurrent.py",
+          "terminology.enabled",
+          "wikilinks.enabled"
+        ]
+      }
+    }
+  },
+  "contract_paths": [
+    "references/markdown-contract.md",
+    "references/footnotes.md",
+    "references/admonitions.md",
+    "references/definition-lists.md",
+    "references/directives.md",
+    "references/mermaid-labels.md",
+    "references/math.md",
+    "references/wikilinks.md",
+    "references/frontmatter.md"
+  ],
+  "test_files": [
+    "tests/test_admonitions.py",
+    "tests/test_content_gates.py",
+    "tests/test_definition_lists.py",
+    "tests/test_dialect_matrix.py",
+    "tests/test_directives.py",
+    "tests/test_extension_combinations.py",
+    "tests/test_footnotes.py",
+    "tests/test_frontmatter_translate.py",
+    "tests/test_math.py",
+    "tests/test_mermaid_labels.py",
+    "tests/test_wikilinks.py"
+  ],
+  "limitations": [
+    "Footnotes y matemáticas no tienen interruptor: el núcleo los trata siempre, y su contract dice que están siempre activos.",
+    "Todos los fixtures del lote son sintéticos.",
+    "El corpus piloto declara una admonition que en realidad es un atributo de Pandoc dentro de un fence: la medición de evals/cases/markdown-extensions.md §1 lo corrige."
+  ],
+  "known_external_gaps": [],
+  "core_delegations": [
+    {
+      "from_script": "scripts/prepare.py",
+      "imports": "admonitions",
+      "kind": "detector",
+      "why": "prepare.py necesita la lista de tipos de admonition admitidos para distinguir una construcción conocida de una no soportada. Importa la constante del módulo, no su CLI."
+    },
+    {
+      "from_script": "scripts/prepare.py",
+      "imports": "directives",
+      "kind": "detector",
+      "why": "prepare.py necesita la lista de directivas conocidas para emitir unsupported_directive en lugar de descartar el hallazgo. Importa el extractor puro."
+    },
+    {
+      "from_script": "scripts/prepare.py",
+      "imports": "mermaid_adapter",
+      "kind": "detector",
+      "why": "prepare.py necesita el detector de Mermaid malformado para poder bloquearlo cuando se traduce etiquetas. Importa el detector puro."
+    }
+  ],
+  "failing_checks": {},
+  "note": "Este archivo lo escribe el gate que comprueba los cuatro criterios. No demuestra equivalencia semántica ni ejecución sobre el corpus real; dice lo que el gate midió."
+}

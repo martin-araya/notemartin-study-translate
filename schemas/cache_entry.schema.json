@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://notemartin-study-translate.local/schemas/cache_entry.schema.json",
+  "x-schema-version": "1.0.0",
+  "title": "Entrada de caché de traducción",
+  "description": "Una entrada del caché contextual por segmento (fase 118 del roadmap). La clave compuesta por (source_hash, glossary_hash, locale_variant) impide la reutilización de un texto cuyo sentido o contexto ha cambiado.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "key",
+    "segment_id",
+    "source_hash",
+    "glossary_hash",
+    "locale_variant",
+    "content",
+    "created_at"
+  ],
+  "properties": {
+    "key": {
+      "description": "Identificador canónico de la entrada (SHA-256 corto del resto).",
+      "type": "string",
+      "minLength": 16,
+      "maxLength": 16
+    },
+    "segment_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_hash": {
+      "description": "SHA-256 del translatable_text original.",
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "glossary_hash": {
+      "description": "SHA-256 del glossary.json congelado al traducir.",
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "locale_variant": {
+      "description": "Variante BCP-47 del destino: 'es', 'es-ES', 'es-MX', 'es-AR'.",
+      "type": "string",
+      "minLength": 2
+    },
+    "content": {
+      "description": "Traducción propuesta. Nulo si la entrada está pendiente.",
+      "type": ["string", "null"]
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "packet_id": {
+      "description": "Identificador del paquete que contiene el segmento (opcional).",
+      "type": "string"
+    },
+    "anchors": {
+      "description": "Anclas del documento que usaba la traducción cuando se cacheó. La fase 119 invalida por anclas: sin este campo, reescribir un título no invalidaría nada. Lo escribe translation_cache.store() cuando quien traduce declara los anclajados.",
+      "type": ["array", "object", "null"],
+      "items": { "type": "string" }
+    }
+  }
+}

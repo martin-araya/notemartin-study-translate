@@ -1,0 +1,41 @@
+{
+  "case_id": "stale_approval",
+  "case": {
+    "manifest": {
+      "run_id": "run-0000beef",
+      "files": [
+        {
+          "path": "docs/guide/setup.md",
+          "source_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+        }
+      ],
+      "glossary_snapshot": {
+        "version": "1",
+        "hash": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+        "frozen": true
+      },
+      "profile_snapshot": {
+        "version": "1",
+        "hash": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+      }
+    }
+  },
+  "positive": {
+    "approval": {
+      "approval_id": "apr-0001",
+      "decision_id": "dec-0001",
+      "artifact": "docs/guide/setup.md",
+      "target_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "target_glossary_hash": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+    }
+  },
+  "negative": {
+    "approval": {
+      "approval_id": "apr-0001",
+      "decision_id": "dec-0001",
+      "artifact": "docs/guide/setup.md",
+      "target_hash": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+      "target_glossary_hash": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+    }
+  }
+}

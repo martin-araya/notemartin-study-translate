@@ -1,0 +1,90 @@
+{
+  "source_root": "/Users/martin/Desktop/projects/Skills/notemartin-study-translate/tests/fixtures/es-ar",
+  "context_budget": 8000,
+  "markers": "§§",
+  "mixed_profile": null,
+  "generated_at": "2026-10-20T01:54:45Z",
+  "total_packets": 4,
+  "validation_errors": [],
+  "packets": [
+    {
+      "packet_id": "pack-440de19c",
+      "document_id": "doc-9a0e94db",
+      "path": "web-css.md",
+      "owner": "pack-cf063b40",
+      "markers": "§§",
+      "segments": [
+        "seg-a7dac8de"
+      ],
+      "source_language": "mixed",
+      "non_emitible_context": [
+        "seg-4bdd34a1",
+        "seg-cdad514a"
+      ],
+      "total_chars": 22,
+      "translatable_text": "Comentarios regionales",
+      "translatable_text_with_markers": "Comentarios regionales",
+      "overflow": false
+    },
+    {
+      "packet_id": "pack-0cbff9ed",
+      "document_id": "doc-b8b4b2d2",
+      "path": "web-html.md",
+      "owner": "pack-23f1fea9",
+      "markers": "§§",
+      "segments": [
+        "seg-08243f26",
+        "seg-8b7122ee"
+      ],
+      "source_language": "mixed",
+      "non_emitible_context": [
+        "seg-657665bd",
+        "seg-b5b58ebd",
+        "seg-0d114637",
+        "seg-0c92e1a4"
+      ],
+      "total_chars": 30,
+      "translatable_text": "Formularios\n\nComentario regional",
+      "translatable_text_with_markers": "Formularios\n\nComentario regional",
+      "overflow": false
+    },
+    {
+      "packet_id": "pack-94d0b007",
+      "document_id": "doc-61e59a19",
+      "path": "web-index.md",
+      "owner": "pack-6ec08914",
+      "markers": "§§",
+      "segments": [
+        "seg-55552115"
+      ],
+      "source_language": "mixed",
+      "non_emitible_context": [
+        "seg-6c96bdba",
+        "seg-60199837"
+      ],
+      "total_chars": 19,
+      "translatable_text": "Comentario regional",
+      "translatable_text_with_markers": "Comentario regional",
+      "overflow": false
+    },
+    {
+      "packet_id": "pack-3e131374",
+      "document_id": "doc-cd70e7fb",
+      "path": "web-javascript.md",
+      "owner": "pack-b57bf304",
+      "markers": "§§",
+      "segments": [
+        "seg-555299f2"
+      ],
+      "source_language": "mixed",
+      "non_emitible_context": [
+        "seg-a6261706",
+        "seg-e17dd8eb"
+      ],
+      "total_chars": 19,
+      "translatable_text": "Comentario regional",
+      "translatable_text_with_markers": "Comentario regional",
+      "overflow": false
+    }
+  ]
+}

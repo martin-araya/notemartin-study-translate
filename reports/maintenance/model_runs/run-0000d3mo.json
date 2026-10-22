@@ -1,0 +1,106 @@
+{
+  "generated_at": "2026-10-20T15:54:19Z",
+  "run_id": "run-0000d3mo",
+  "run_dir": "/var/folders/hr/sbmrj9lj3_n56qv4b37q4y540000gn/T/kilo/model-baseline/run-0000d3mo",
+  "translations_root": "/var/folders/hr/sbmrj9lj3_n56qv4b37q4y540000gn/T/kilo/model-baseline/run-0000d3mo/translations",
+  "evidence_kind": "real_runs",
+  "synthetic": false,
+  "note": "Línea base real de la fase 145: 10 segmentos de prosa del piloto traducidos con el modelo activo de esta sesión (kilo / minimax-coding-plan/MiniMax-M3). El work_root con el texto traducido no se versiona: vive fuera del repositorio.",
+  "problems": [],
+  "skill_version": "0.2.0",
+  "manifest_version": "translate/v1",
+  "parser": {
+    "name": "markdown-it-py",
+    "version": "3.0.0"
+  },
+  "anchor_policy": {
+    "algorithm": "github-slug-v1",
+    "version": "v1"
+  },
+  "provider": "kilo",
+  "model": "minimax-coding-plan/MiniMax-M3",
+  "prompt_version": "1.0.0",
+  "glossary_hash": "6f1c4a9b7e2d3058c4ab91de6f2870531cc9ba4e5d820f7a1b3c6e9d05a2f48",
+  "profile_hash": "b93d7e05a1c68f24ed90b7a3c15e820d64f9b7c3a05e1d892f60b4c7a3e5d19",
+  "source_hashes": {
+    "typescriptlang_handbook_2_functions.md": "d3843be24c1d44601a312afb632988666ef831bb0bcf9d3391e69d20cb7fcd2e"
+  },
+  "segments": {
+    "seg-00000001": {
+      "sha256": "f4fd4b16b3cad190021027a161d810044216bd8c6cb28a356fc83a7257f55a0f",
+      "chars": 152,
+      "markers": 0,
+      "preview": "Las funciones son el bloque básico de construcción de cualquier aplicación, ya sean funciones locales, importadas de ot…",
+      "document_id": "doc-functions-0001"
+    },
+    "seg-00000002": {
+      "sha256": "6870bbc7c06810389e85e75e8bc6b0b7f84231d3ddf3428cf0761fe23f8e6a35",
+      "chars": 133,
+      "markers": 0,
+      "preview": "También son valores y, al igual que otros valores, TypeScript tiene muchas formas de describir cómo se pueden llamar a …",
+      "document_id": "doc-functions-0001"
+    },
+    "seg-00000003": {
+      "sha256": "efe9d71ead7ec80f208445c8a4a85a8fbc8f3d3ad44bd677bfb814981d63b329",
+      "chars": 52,
+      "markers": 0,
+      "preview": "Aprendamos a escribir tipos que describan funciones.",
+      "document_id": "doc-functions-0001"
+    },
+    "seg-00000004": {
+      "sha256": "cde70f643a43e00e8d77b509670836b9a6e4795ce3c991f957e9b23cf9f8c78a",
+      "chars": 89,
+      "markers": 0,
+      "preview": "La forma más sencilla de describir una función es con una *expresión de tipo de función*.",
+      "document_id": "doc-functions-0001"
+    },
+    "seg-00000005": {
+      "sha256": "d8e6d6595cb2ffde51126e6ca4cc7862d37942380a89db1afd1e67b58472e846",
+      "chars": 68,
+      "markers": 0,
+      "preview": "Estos tipos son sintácticamente similares a las funciones de flecha:",
+      "document_id": "doc-functions-0001"
+    },
+    "seg-00000006": {
+      "sha256": "a2e774c3e053285afd11e09dc458848c12ca4666d7991e7fb8b59bc679460a80",
+      "chars": 141,
+      "markers": 0,
+      "preview": "La sintaxis `` (a: string) => void `` significa «una función con un parámetro, llamado `a`, de tipo `string`, que no ti…",
+      "document_id": "doc-functions-0001"
+    },
+    "seg-00000007": {
+      "sha256": "d56dde53875561e119ca91666550e61ebe90b4e0fac313538286baab8f990801",
+      "chars": 117,
+      "markers": 0,
+      "preview": "Igual que en las declaraciones de función, si no se especifica el tipo de un parámetro, este es implícitamente `any`.",
+      "document_id": "doc-functions-0001"
+    },
+    "seg-00000008": {
+      "sha256": "940819c6a222ac5340261641be22d7b475fcbc56443669bb1530c1b0fa391f12",
+      "chars": 181,
+      "markers": 0,
+      "preview": "> Tenga en cuenta que el nombre del parámetro es **obligatorio**. El tipo de función `` (string) => void `` significa «…",
+      "document_id": "doc-functions-0001"
+    },
+    "seg-00000009": {
+      "sha256": "7e547cc40219c4ac071caee5811312fbe408a597bde4a287d2a38faed034c6f6",
+      "chars": 76,
+      "markers": 0,
+      "preview": "Por supuesto, podemos usar un alias de tipo para nombrar un tipo de función:",
+      "document_id": "doc-functions-0001"
+    },
+    "seg-0000000a": {
+      "sha256": "e44d1bc5c22d64ad74c008010ebd8b6c4a2e6bfa6950c6c1ef563f3cd159a82c",
+      "chars": 79,
+      "markers": 0,
+      "preview": "En JavaScript, las funciones pueden tener propiedades además de ser invocables.",
+      "document_id": "doc-functions-0001"
+    }
+  },
+  "counts": {
+    "segments": 10,
+    "documents": 1
+  },
+  "texts_stored": false,
+  "note_policy": "El texto completo no se copia a reports/: vive en translations_root. Este registro solo guarda hashes, longitudes y vistas previas truncadas."
+}

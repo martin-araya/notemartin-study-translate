@@ -1,0 +1,1583 @@
+{
+  "source_root": "/Users/martin/Desktop/projects/notemartin-beta-angular-common/source",
+  "generated_at": "2026-10-21T00:14:02Z",
+  "total_files": 175,
+  "total_bytes": 417855,
+  "files": [
+    {
+      "path": "angular/api/common/APP_BASE_HREF.md",
+      "bytes": 909,
+      "sha256": "9e538d41f0d837f7216615944b3a0dbb5e2219f99be163c0c0db074482bb0b73",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/AsyncPipe.md",
+      "bytes": 2886,
+      "sha256": "33991fd341ac88fc6779592b8506849c9796abcfaede951bac3295d4df9e7a4b",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/BrowserPlatformLocation.md",
+      "bytes": 1514,
+      "sha256": "4bff1eb650eab09e6606446dc8808c5d90f38c3161a0d5f4147934f294cc1096",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/CommonModule.md",
+      "bytes": 538,
+      "sha256": "c7b04a5335066c84d42452fb4b35944ad4ea738eaac4c3022d99b93673f40431",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/CurrencyPipe.md",
+      "bytes": 4618,
+      "sha256": "d0cd1364e122c3cc2f06c34a8ba998d7e39a430e00810782f542a496eedee2c6",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/DATE_PIPE_DEFAULT_OPTIONS.md",
+      "bytes": 1288,
+      "sha256": "42d53791de3a41c7e966ea3f5af64fae2edd6eb45f5d53d94be5b883cada983f",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/DATE_PIPE_DEFAULT_TIMEZONE.md",
+      "bytes": 639,
+      "sha256": "e49641e71ae48429b80c199d8e6d8756d7b9b2cfefe377206eaedc4f81107ba1",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/DOCUMENT.md",
+      "bytes": 418,
+      "sha256": "9f99ec5fe8867ff35d28fb1a28f19f66fae3a2cf1a3780838f5305f7fc8925e9",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/DatePipe.md",
+      "bytes": 22225,
+      "sha256": "6ec29c91c3538144793399ae6c45c11cf362242fd157c1e4932b2893a41dce33",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/DatePipeConfig.md",
+      "bytes": 512,
+      "sha256": "43380813ad4f18fdb786a04ee0cddc3a07a286c48f04cee13093d4eab780fd2f",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/DecimalPipe.md",
+      "bytes": 3473,
+      "sha256": "0a05cf8e911ff90a56123ee504fc1096eae1b3731c6b7126c1ba050f76de6f90",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/FormStyle.md",
+      "bytes": 560,
+      "sha256": "11751486d9ca38f2fe9d39921a33a0e056aa8aa9c722cfa542cc568abd42451a",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/FormatWidth.md",
+      "bytes": 918,
+      "sha256": "8a786c2634073973f249a372dd5fc78e01597e977cc5ae3058857ccc441ce5f7",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/HashLocationStrategy.md",
+      "bytes": 2717,
+      "sha256": "0e38cedabcdd1412a4a36507291fedc371db97f4d3982678540db67302ac8b56",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/I18nPluralPipe.md",
+      "bytes": 1757,
+      "sha256": "0e9e43b74638bbc4c1d291ecf7875f44f0ceedf76f6258d8202bd0b1c26b8f34",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/I18nSelectPipe.md",
+      "bytes": 1509,
+      "sha256": "1cc4ac5ae9348857add8dc47723a01f51df0f13c0cccc37dbd2d169b70627f92",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/IMAGE_CONFIG.md",
+      "bytes": 446,
+      "sha256": "4e54245226cbedf5091ec9170f00504e214e32b66cd3a0862df6faabff4b7ff8",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/IMAGE_LOADER.md",
+      "bytes": 351,
+      "sha256": "62867b42d1f4cfa07158d65ebfda8441711b301a192266910c9e26159896ce76",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/ImageConfig.md",
+      "bytes": 1005,
+      "sha256": "de5d8f714c416c1244e777bf070b3a5e083a0951755ebdc997717511d504deb0",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/ImageLoader.md",
+      "bytes": 468,
+      "sha256": "c944e67260eb00caf5498c49895bd8f9f9cdb2e13b2fa7ce6246ab1c29463c69",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/ImageLoaderConfig.md",
+      "bytes": 949,
+      "sha256": "f409fff6bc57b522b9b39be914e88bd15270af80904b48fea70e65fb5adfa867",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/ImagePlaceholderConfig.md",
+      "bytes": 381,
+      "sha256": "d4b5ed7af1462e813a0ec94cac259cb8e95134f5d5f91d93c43891a307627e3d",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/JsonPipe.md",
+      "bytes": 1305,
+      "sha256": "981608c6e3078d281911882b2df026dbbca6a639104fd957a3e60b01e7e14693",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/KeyValue.md",
+      "bytes": 362,
+      "sha256": "b11d382bcc40f6b956e3f3a61b994ee5236a00f3a79c1d92dcc1d2e6bf81686e",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/KeyValuePipe.md",
+      "bytes": 3335,
+      "sha256": "b81f571dafa8280f8460638ac9c244666be351fdbf763c285abde7ea628130aa",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/LOCATION_INITIALIZED.md",
+      "bytes": 321,
+      "sha256": "839f90157d62f02b3ddf2650574770121cf377d748d5806a670bd3fdf34c037c",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/Location.md",
+      "bytes": 6366,
+      "sha256": "df0c7afbcffcbceb506ddc798bc8f52956ad3fccf94bbe4b99f92d2b55d9679e",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/LocationChangeEvent.md",
+      "bytes": 534,
+      "sha256": "1fabc33d930a04595073313a1a6d00043fab2af720c5d5ded9ea9729a21ba1b5",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/LocationChangeListener.md",
+      "bytes": 362,
+      "sha256": "b98b5aced096583d1795ac5808fec51d8cc6747eeb73f3808cd3a50561dbad3a",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/LocationStrategy.md",
+      "bytes": 2071,
+      "sha256": "5f6da319b6b551143f8f0ad8ef89b550f16f567148f64bb651e401d81d4980e3",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/LowerCasePipe.md",
+      "bytes": 1470,
+      "sha256": "a7b6281ba0c8cad95350ae45691705520b3761039de345a62a2c3fae58b20fcc",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/NgClass.md",
+      "bytes": 1863,
+      "sha256": "f5b9cc7e77ed1eba710f914422ffd9a6e28955ad901ff41798bf8b7f2ea0c70b",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/NgComponentOutlet.md",
+      "bytes": 5684,
+      "sha256": "c304fe774862a7f731944773f28793328966a53c9b57f1e04fc16c0bccf42fbe",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/NgFor.md",
+      "bytes": 7730,
+      "sha256": "ae2a5f1c95e811443732e819856db8615a4e4aefeff302fa5111106bdc6cad38",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/NgForOf.md",
+      "bytes": 7734,
+      "sha256": "97c549fc3cd53770bacdb74cbf11d2fcf2f0008384816c539aeb72ccc464d000",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/NgForOfContext.md",
+      "bytes": 1492,
+      "sha256": "cc9e6c846db5ce91d6459187634abb82ef9df766fa814efbe65c7064bac65510",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/NgIf.md",
+      "bytes": 10389,
+      "sha256": "ec933672f7ea6902eb59e5342dbcde54c2a567e37df20bb66693e99ea8aeb20d",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/NgIfContext.md",
+      "bytes": 436,
+      "sha256": "eea436c9865a493a45814e9d99df432b913609e5a0e80b00e447409f155e65a3",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/NgLocaleLocalization.md",
+      "bytes": 549,
+      "sha256": "7ba9a9bcfa7a4e812a7cc9129e6d033ccfa5d7e2a3215b8a9f4acf1ca5e03ee4",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/NgLocalization.md",
+      "bytes": 368,
+      "sha256": "e773018a70469db8263b1199eb1227016aff9c3ef5c30a5eb3cf615b52db8792",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/NgOptimizedImage.md",
+      "bytes": 7062,
+      "sha256": "2e31004a002c80386f8eac1b1c5ebaacc7f350eb95d82e614f3dc2ddab1cef2a",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/NgPlural.md",
+      "bytes": 1843,
+      "sha256": "ab86236c9aed7679032148e81c5b42d495bfc1bd5a1208a21c4743c7e2955e2f",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/NgPluralCase.md",
+      "bytes": 1235,
+      "sha256": "3606f66779df8ec1c1cccf63a874652edaaf49e503d0d0e118d7768f25040f80",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/NgStyle.md",
+      "bytes": 2298,
+      "sha256": "262c04bca4e77c4a1079727eb7f972e323ff0ce37e7fd2c0dd138437c824d691",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/NgSwitch.md",
+      "bytes": 3455,
+      "sha256": "ac44158e6c306d9512ed7339fa6143b7fa0b6cdf8b50d46d687ca490761ea7cf",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/NgSwitchCase.md",
+      "bytes": 2266,
+      "sha256": "d41734f2ad6eceb4917c279192a3ab6bfbc75e64cf65512315082409251ca3ef",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/NgSwitchDefault.md",
+      "bytes": 1203,
+      "sha256": "9d7454cb516e1010091dde8c3c2c9e27b821afed1299a29563ce9758f9cda6c5",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/NgTemplateOutlet.md",
+      "bytes": 2951,
+      "sha256": "c62c65927830d070edf96381ae44e3565736d75dbd684218237ee36c300cb301",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/NoTrailingSlashPathLocationStrategy.md",
+      "bytes": 1479,
+      "sha256": "634f1a3c53d9fa990fa7a0790796a8ea8ba765be6ab241c145424377526aecb6",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/NumberFormatStyle.md",
+      "bytes": 547,
+      "sha256": "adaf4d99f3213bf3c7879cbd15a103187f51287fc5fe47859caf6d65d6a6b587",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/NumberSymbol.md",
+      "bytes": 1752,
+      "sha256": "02a4dd05b69cc3c5a68e7e4f9ece81160e749f9c80be6574cbae2094b1212dea",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/PRECONNECT_CHECK_BLOCKLIST.md",
+      "bytes": 983,
+      "sha256": "9e84c3220c5e19a14986c4624d0c1d3f4a2ae5c3cffe089541fb541454bdba47",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/PathLocationStrategy.md",
+      "bytes": 3783,
+      "sha256": "adeadf2e0f5a8ec7640c8436b0f691273ccaff72383d777b2448e2cdef7edcc6",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/PercentPipe.md",
+      "bytes": 2085,
+      "sha256": "601b9acff349677be32ced82cf93a07f9fd7a3dd457d00c2633e4177547e1cfb",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/PlatformLocation.md",
+      "bytes": 2881,
+      "sha256": "a4b33745000ae9f57bf1294b03085971eab8cdd5b07362b1d4ed744c497e61eb",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/PlatformNavigation.md",
+      "bytes": 2376,
+      "sha256": "294b25ff18a3847736fbcfd10ff21147f3b8f2b86cee8ff96ee76fa080b729c9",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/Plural.md",
+      "bytes": 539,
+      "sha256": "397b4f897ccad114ecad8fd6f3fedcd186a7a9270b18877b01b07ca0f8d6d203",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/PopStateEvent.md",
+      "bytes": 542,
+      "sha256": "6ca528ca5e45a6f1f33d1511b947648a6cf5a2a0ee8771a86f8e2de762a13d01",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/SlicePipe.md",
+      "bytes": 3603,
+      "sha256": "9ecb2555b8b92db3fe4882a6445446c74b749937ddf396b0ba514d9c0f2b0369",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/Time.md",
+      "bytes": 412,
+      "sha256": "48b675995d75735c17f2a92a11393cf12c474105ad630e27d1bbb394676438d7",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/TitleCasePipe.md",
+      "bytes": 2089,
+      "sha256": "8e76735fa4c96ffd4e9c4c880fe3aba91975a3119409676a2776ffd494719e70",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/TrailingSlashPathLocationStrategy.md",
+      "bytes": 1476,
+      "sha256": "7e1ea8d3102f93721fe77b84bc8d4b54fd7dc5765e41873b275460bf3d33fb8a",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/TranslationWidth.md",
+      "bytes": 765,
+      "sha256": "d76e8dc2c41bded2fb51a6148d4bd8a775441063f2e92541eec4a89fd011ba6c",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/UpperCasePipe.md",
+      "bytes": 810,
+      "sha256": "71b89843f8c1954adea9369cb05d20d673aa9de39eaa21b2fc0df361c90dc3dd",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/VERSION.md",
+      "bytes": 212,
+      "sha256": "ec364aaff834ace7e26c11ffc95fde4eed25c71124ed77e9c11c09fd5c476140",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/ViewportScroller.md",
+      "bytes": 1599,
+      "sha256": "95d29afa157fbbdce7954f3fb0dcb41f6dfb0eacb39fe94dc0cbe71396672571",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/WeekDay.md",
+      "bytes": 569,
+      "sha256": "e822d8d48a9c172ee6079779c03a96aa0dbb739c6780f8d4816a015992936c7e",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/XhrFactory.md",
+      "bytes": 328,
+      "sha256": "c41a26f3e1b1d961ea02ace7d486cfd95baca9ffa652621a3318d46f79097932",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/formatCurrency.md",
+      "bytes": 1424,
+      "sha256": "904406afbd275227ed639c7f9f18d97ab9064dc31760f0cd17803aa4042a514d",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/formatDate.md",
+      "bytes": 1108,
+      "sha256": "f7a845992b58a406b75ddbfb1f81e10799de7a4e136c26591162a53590cd64b4",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/formatNumber.md",
+      "bytes": 1041,
+      "sha256": "6a08948ee10ee1496705af230235f7ab9e23e4ac08a995d69ab0dd6a2da66026",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/formatPercent.md",
+      "bytes": 972,
+      "sha256": "e30b5cbfe440e2da9bfc31a05bf99dba76edc1e5575189d8bf5441bf2b8fec76",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/getCurrencySymbol.md",
+      "bytes": 1796,
+      "sha256": "b3f6f8bb48fb566017e6b27088b94c56b6056edcec9467034533781cad8ec8fb",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/getLocaleCurrencyCode.md",
+      "bytes": 1432,
+      "sha256": "871d398a29bceda402e53edf099a9be1baf613ca62c57c9eaba410646aa8eb55",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/getLocaleCurrencyName.md",
+      "bytes": 794,
+      "sha256": "9be544a2d30089006f88718bf92d7e843c3377b98b1d5505914c582a66fd6c96",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/getLocaleCurrencySymbol.md",
+      "bytes": 820,
+      "sha256": "29d8430d9c361ac5d57fe34deefdb358a7f4fc7704bf8d611f45031129e6b8c2",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/getLocaleDateFormat.md",
+      "bytes": 813,
+      "sha256": "a3599073c5294d48a3ed06b1570698d0f427b7322410a41e962045ae200cb1ce",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/getLocaleDateTimeFormat.md",
+      "bytes": 820,
+      "sha256": "9a98bf7723416abce68b9b7002dce9196d749418588508bc503b7eb2e7adfea8",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/getLocaleDayNames.md",
+      "bytes": 1041,
+      "sha256": "1b0e62b7fa6bd84cba3edc2ce21f3b3790706d8287bb609de11542ee38208798",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/getLocaleDayPeriods.md",
+      "bytes": 1014,
+      "sha256": "6ba984fd22d96e6964f2c8a428f45fa3af1bf952dc5f3a110c25f5922e44ac2d",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/getLocaleDirection.md",
+      "bytes": 1485,
+      "sha256": "f97b0e1cd8c778c5288c547b599cedf135579faca82a8fb0f949ab2ce770c439",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/getLocaleEraNames.md",
+      "bytes": 928,
+      "sha256": "0056942b96061334c0249c8a19ee26394662ce3b9b09f64f8b830f1ed851214a",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/getLocaleExtraDayPeriodRules.md",
+      "bytes": 1515,
+      "sha256": "f81c330d1a5614a749bc3b9e5d2ec28e263f473749542352ee12b9cebce1b252",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/getLocaleExtraDayPeriods.md",
+      "bytes": 1541,
+      "sha256": "f1b4db83a44111346fa08bdd6568c103e32a2d50cf4bcd478d94a5cf00e74bc3",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/getLocaleFirstDayOfWeek.md",
+      "bytes": 2056,
+      "sha256": "6cf58163afbb4b9ed653f9e32b0a737e8947cf80577058b7b62a40d9cc9e4907",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/getLocaleId.md",
+      "bytes": 826,
+      "sha256": "03c186944a4d79863870571fc1020a9c4a1b041d44629ab3d8691aca0ea610e5",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/getLocaleMonthNames.md",
+      "bytes": 1043,
+      "sha256": "d514231f48d3e038090ee623a0cbf09de31cf77bce42b6cd85ea70689f35aeca",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/getLocaleNumberFormat.md",
+      "bytes": 3226,
+      "sha256": "9c8e51a07ab47d4ae11fe7d025dd0ad9c5e6dce9cc7dd9df1c4cce83045f741a",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/getLocaleNumberSymbol.md",
+      "bytes": 899,
+      "sha256": "358c1923a3bca6191b5fa22ff31f803028367563366e0b209776016fbfe6fc29",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/getLocalePluralCase.md",
+      "bytes": 453,
+      "sha256": "9c6acca8f9db911c1a76f9a43d5f5105ce79b9866a188f47d6282e9fad99ea10",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/getLocaleTimeFormat.md",
+      "bytes": 813,
+      "sha256": "d018b047927ac2c3f0cb1c078daceba86341e8a13aefb2bcebe467b3a02c1789",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/getLocaleWeekEndRange.md",
+      "bytes": 1405,
+      "sha256": "0bcdfac65f45daf8ded4db9e5af3dc6d34c881dd0ad176145a0fdbacebdbe412",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/getNumberOfCurrencyDigits.md",
+      "bytes": 964,
+      "sha256": "c65e472d8a94499492c3fb9bb8c42ebb608655f503ccfa50c1dba51d66318665",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/http/FetchBackend.md",
+      "bytes": 755,
+      "sha256": "62ac6257fa9e80868d194129b02d42be3498f5854d9d0e169ec49b7cc4104411",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/http/HTTP_INTERCEPTORS.md",
+      "bytes": 410,
+      "sha256": "24d675893aa224b98f907646e0a441a2400df904f825cbd04d7c684836b5d2e4",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/http/HTTP_TRANSFER_CACHE_ORIGIN_MAP.md",
+      "bytes": 2022,
+      "sha256": "488b7ae36eee021885150cd50fdc328cc9373f4ba287370a3b583ab138876a9a",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/http/HttpBackend.md",
+      "bytes": 963,
+      "sha256": "94230a8c2e29ddcb6d2be3316c0ddd2b4b4be45223460a4e63a4e8d030a9e33f",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/http/HttpClient.md",
+      "bytes": 45206,
+      "sha256": "b16becd73acf4bd4d32d1f6ca3b4cd1c48fa1409c9c9cb8553019d83aeca08c5",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/http/HttpClientCommonOptions.md",
+      "bytes": 2354,
+      "sha256": "394d635aea749f7e007104c83a4e423bfd3207f54817a9664d30d7a570158b46",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/http/HttpClientJsonpModule.md",
+      "bytes": 644,
+      "sha256": "c3be87768c47c27220d50351e96b9d43fd6539f27edc327a722c8d2b315e5f96",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/http/HttpClientModule.md",
+      "bytes": 1380,
+      "sha256": "2ead11758621e900b9e8319a8dc3e0f1e818b2c2511d04f9721c83a956a29731",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/http/HttpClientXsrfModule.md",
+      "bytes": 1514,
+      "sha256": "007cc9764edff421e0f5f8e2203ffa5c1eb5fa73d000a9907235b20f5de8a496",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/http/HttpContext.md",
+      "bytes": 2665,
+      "sha256": "8c4333dade7c47502dc79a6711e2cfecdc0a0afdc20c7410d81abf08c6d9456e",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/http/HttpContextToken.md",
+      "bytes": 504,
+      "sha256": "0326e1c6190911f3579ee401ad09a7f33af029947874f06f8a471fb1b1de4d3f",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/http/HttpDownloadProgressEvent.md",
+      "bytes": 771,
+      "sha256": "5ae92c43307908b10d33c96aec815d428e3cfb79cd111a727cf31ad3b7f7ea2b",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/http/HttpErrorResponse.md",
+      "bytes": 3448,
+      "sha256": "b4eb49fbe98d2d7e40cde3a306b77cb30e6fd9e4fd875998290f11fa41389ced",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/http/HttpEvent.md",
+      "bytes": 588,
+      "sha256": "f4b4570566d463ca78d90730176ba1ffc8b19b907b665c1b377c21bff87b0b84",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/http/HttpEventType.md",
+      "bytes": 870,
+      "sha256": "a53b0d432eae093453cc09414f702d8202298fa8002bc7f407492a31a5071cb5",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/http/HttpFeature.md",
+      "bytes": 354,
+      "sha256": "1680c48661a5f80f2cc87b36a56703e25788f892c4707c815eb91071b828674c",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/http/HttpFeatureKind.md",
+      "bytes": 614,
+      "sha256": "bd42a980b36c4cb81e1dab6f63ff653f96f6a5ec8edd32465204dfab90664ef0",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/http/HttpHandler.md",
+      "bytes": 1232,
+      "sha256": "341e1405d73b995254821d853273153f89f73c3935fe28cd3d336ca39ff0f688",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/http/HttpHandlerFn.md",
+      "bytes": 1257,
+      "sha256": "503930cb82844b28ca226c218e8dd86cee6abbaeeda1ff122ae10a17f5ea3ea1",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/http/HttpHeaderResponse.md",
+      "bytes": 3199,
+      "sha256": "aec7b1b7cbb99a03cb7daa5004d7dd7b3678fb500ce90e12342ca0977731d3f2",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/http/HttpHeaders.md",
+      "bytes": 2557,
+      "sha256": "3f4ea87d9cc22f282f4b7c574469dfd3af0de7c24e0e899f703a6614e685825f",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/http/HttpInterceptor.md",
+      "bytes": 2129,
+      "sha256": "8af4c19891b06283c91d70a4eb1561d715bba3b471016149bfacb5e9505e7102",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/http/HttpInterceptorFn.md",
+      "bytes": 2264,
+      "sha256": "96caf57e0e375c63bb0c38fa57362485d4153767eff0bdef7c894a5d59dc93c4",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/http/HttpParameterCodec.md",
+      "bytes": 776,
+      "sha256": "6ea11ed9a28789f5e8a8788ce66bcb94a9b27a42bc9dd7920025a2edda797675",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/http/HttpParams.md",
+      "bytes": 2634,
+      "sha256": "aafc9c5ef68c85113deb9edeee2d45fe87cc5235423a9d168a46d281ce0f2e09",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/http/HttpParamsOptions.md",
+      "bytes": 824,
+      "sha256": "93fa9e9b6867bbf1a5bb78f240bfc1b1063d738fed7cd72276efbeb58316e4eb",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/http/HttpProgressEvent.md",
+      "bytes": 672,
+      "sha256": "37c7268083381c3e00f6e37fb00792c17093db080fce34a40463603639f3e6ae",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/http/HttpRequest.md",
+      "bytes": 7035,
+      "sha256": "1a5d33a01425bdf1dfa0d9854980193e833463ddc178cc682dfee330e7dedb60",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/http/HttpRequestOptions.md",
+      "bytes": 2147,
+      "sha256": "8b7877e8f96814a7dc340f9b3ceee0d4d9c7e8353cf2478d5a02b98ee2b503bc",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/http/HttpResourceFn.md",
+      "bytes": 7628,
+      "sha256": "af99ee910c69215b5ad0720423e2f535403e7832c6414d0679a1f38a35b7e72f",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/http/HttpResourceOptions.md",
+      "bytes": 1602,
+      "sha256": "98428643dd703a5d6a5b37f5524b930ce4ccf13a47ccbd727d009264b836ea64",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/http/HttpResourceRef.md",
+      "bytes": 2591,
+      "sha256": "4d2dc45d9dec846ae7dacc4ec125041511874a7be2c3009a434e1553b9d31c34",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/http/HttpResourceRequest.md",
+      "bytes": 4486,
+      "sha256": "694fe4a64f5fa587b575b027885fcd5f5f4e9409b44a686bb9cf2fe0ebabf11d",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/http/HttpResponse.md",
+      "bytes": 3538,
+      "sha256": "fffa7b9f50a438540911baa41b214e53756ac989018327848984fc2be6d3c71e",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/http/HttpResponseBase.md",
+      "bytes": 2844,
+      "sha256": "f26c5c692cc583edd095c2e8675689e70f8ea29b9f141318374833d6cbeea002",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/http/HttpSentEvent.md",
+      "bytes": 447,
+      "sha256": "367b5b0eb528eea73e42e0b88741f89c70b5faedc3af5c44a307f650bee51982",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/http/HttpStatusCode.md",
+      "bytes": 2855,
+      "sha256": "1879ae9ae0b4a34221e6e69e0a3de871153877ab8b051ae1a96d7f9cce116c2b",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/http/HttpTransferCacheOptions.md",
+      "bytes": 1929,
+      "sha256": "88f1912f46151cc2ebe7938718567573c5b9ec640df354fd2ba5d3ddc457b387",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/http/HttpUploadProgressEvent.md",
+      "bytes": 800,
+      "sha256": "818e5a18da5d4043183dcfdb21bde8765b070e82b0006fc3d798aa3347f75cdf",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/http/HttpUrlEncodingCodec.md",
+      "bytes": 1350,
+      "sha256": "99da4bbf2ddfc3f79e5fd8fa6ac4542f6eade71d80a0eecb85cb7b5d1cf6ca33",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/http/HttpUserEvent.md",
+      "bytes": 506,
+      "sha256": "3be7bab8bf765bee79361542784856a38ccd8dc9472198de6521641404d337e1",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/http/HttpXhrBackend.md",
+      "bytes": 654,
+      "sha256": "8ebf3acfd718b335f29e4e3891fde8ee5936873c3463764779f0ae412679a670",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/http/HttpXsrfTokenExtractor.md",
+      "bytes": 525,
+      "sha256": "ad716656c5a3677f3da784dce6cf6edd578f252018d497062ed8c61158812c9c",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/http/JsonpClientBackend.md",
+      "bytes": 992,
+      "sha256": "b76d35f5b4d5ebcfd7386a1eb68125d5ce43f3b6aade63a986efb46b7232f6b1",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/http/JsonpInterceptor.md",
+      "bytes": 1067,
+      "sha256": "2b503c22c6f5eb361aefe38b530a1d0942b04e27a89eea9a521bf3ce0a9afdf0",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/http/httpResource.md",
+      "bytes": 9741,
+      "sha256": "522397cb75b61c4963d6765eec5fdd6c1ce3d3a46f16bc354628929b2738cb84",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/http/provideHttpClient.md",
+      "bytes": 1532,
+      "sha256": "9e9cbf526516e972f24258c02526a1042923e84dbc2e84fa20c8b7db6cc0c7d5",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/http/testing/HttpClientTestingModule.md",
+      "bytes": 786,
+      "sha256": "8b1d65966b4911349355cc4b1f288f5f79bfe11461792ccc21dc1618d3a8943e",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/http/testing/HttpTestingController.md",
+      "bytes": 3695,
+      "sha256": "f48271247b001e5e76d00f6a3b0bbd978d05f0cf6a033e7e6f79848a51e84ca6",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/http/testing/RequestMatch.md",
+      "bytes": 394,
+      "sha256": "361feb461e1d5870bdae9ef0948dc2cf00411da39dd28bafcd5317bd30da76f6",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/http/testing/TestRequest.md",
+      "bytes": 2182,
+      "sha256": "5f4c6dca561ab2ce0fe79c88601b20dda7820aa282a082565912e6ca23e2bcc5",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/http/testing/provideHttpClientTesting.md",
+      "bytes": 290,
+      "sha256": "4e046349cd9ccee3f64e517b0aa95853e697f648ab487672a6a422e2c29ce4c4",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/http/withFetch.md",
+      "bytes": 1084,
+      "sha256": "c95609a8c96efc37bc3566c722800da4b16f1f52b53a1bdbd288aa51f02c3962",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/http/withInterceptors.md",
+      "bytes": 547,
+      "sha256": "411d9912cf706bfede559162be61d558917c6bda9c16dfd4a14e47ed69628bf0",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/http/withInterceptorsFromDi.md",
+      "bytes": 914,
+      "sha256": "2e9188f1278a29590945baaabf63cee1360f62390171e28dff7dceaf1d2d60b1",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/http/withJsonpSupport.md",
+      "bytes": 810,
+      "sha256": "1a908aaca5832e51606e0f315896847354a9d004f68c0a738be0d17d9c702fcd",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/http/withNoXsrfProtection.md",
+      "bytes": 739,
+      "sha256": "d63ec6352f7627d89666e489f53a8c23519c2c096a81c9a95174d1cf6d0c5b24",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/http/withRequestsMadeViaParent.md",
+      "bytes": 2066,
+      "sha256": "0c817e8f15f2e75906c815a0b04119e59d0aafff5507692c5b9502837683f50e",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/http/withXhr.md",
+      "bytes": 1047,
+      "sha256": "23b6bdc968507fcd9e444ddd5dc25a1552f075d7b012f8ea7fc23c28f47b9b52",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/http/withXsrfConfiguration.md",
+      "bytes": 990,
+      "sha256": "cfec0aa9603c73c9775acad01018848927d640d7b0671ec7aaa732762355bebb",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/isPlatformBrowser.md",
+      "bytes": 360,
+      "sha256": "63925f887060085e18ed4dc0df8331d1e16aa8f29be2694bf789973b6476073e",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/isPlatformServer.md",
+      "bytes": 357,
+      "sha256": "3b89b6f0a7dfa17feb68414c1033e00ac1cf5e3317ba84347d9948e7a5a7adc4",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/provideCloudflareLoader.md",
+      "bytes": 657,
+      "sha256": "57943c4f04ec31df59c7d11a0f0d18dc1a444465ab3e49f135cab707bf5f9b6e",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/provideCloudinaryLoader.md",
+      "bytes": 412,
+      "sha256": "6ba5b52b60e795b8bec21a523f4085d652ef57d23ac8b18cbcf16150c30bc534",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/provideImageKitLoader.md",
+      "bytes": 404,
+      "sha256": "65f298ec8146a2479c90fbb47530553f5ad0732441b4c170fc85c7d7aa651644",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/provideImgixLoader.md",
+      "bytes": 392,
+      "sha256": "cfae1fb9905ff596c59113a38dc2b6aeee88f13614427b2707784cc839f80ad7",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/provideNetlifyLoader.md",
+      "bytes": 588,
+      "sha256": "aae6a3e507033a2b7d05df0ce38bb3954abad8558f713e09d1d441bff607838e",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/registerLocaleData.md",
+      "bytes": 814,
+      "sha256": "81f80b45a7d6f6df9b041ae047fb3ae84ae88e2fe2307337a30d2ba91bed2bc1",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/testing/MOCK_PLATFORM_LOCATION_CONFIG.md",
+      "bytes": 370,
+      "sha256": "dfbff22fce5b89a6b0911b815c8871156cecd3b5ec83db2e5892d65965523346",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/testing/MockLocationStrategy.md",
+      "bytes": 1513,
+      "sha256": "81b94a4d57bdfd12157fc1b39f62c8c795b748ce651961b12a2248594321cef5",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/testing/MockPlatformLocation.md",
+      "bytes": 1508,
+      "sha256": "180e0b399aec4bc180be01cd66b5c2dbc4c3b732fd2676909680385e16cd0938",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/testing/MockPlatformLocationConfig.md",
+      "bytes": 419,
+      "sha256": "7d34bf6ab2b174eccc964ed88046ed845a6b2440fda291e538a7b78927169ed2",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/testing/SpyLocation.md",
+      "bytes": 1883,
+      "sha256": "7e38d7cb515d015f7a8e73413ddaf4485996c8d0265cd9cdfd26d4d5c941f21f",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/testing/provideLocationMocks.md",
+      "bytes": 489,
+      "sha256": "b5b4dfecd7889ed3688707443b8620ca14abb9abdd107321e1b2a6358a559b08",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/upgrade/$locationShim.md",
+      "bytes": 5697,
+      "sha256": "9a838703785ea9154bfe8ef65002138baeac417b74b544fe2b613ea44c4401b9",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/upgrade/$locationShimProvider.md",
+      "bytes": 1300,
+      "sha256": "0435d24fb3a33ae3f464eff1f6815f6b295d064f943846264bbe227b6b01f414",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/upgrade/AngularJSUrlCodec.md",
+      "bytes": 1657,
+      "sha256": "599dc851cda965f1e3bbb6656238001546bd376cd3a21723b78dc9c6c6bbf88f",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/upgrade/LOCATION_UPGRADE_CONFIGURATION.md",
+      "bytes": 386,
+      "sha256": "4e7cdaa53d2fd9c30c2483b77760c97149c0ca4d4a7c52b20b367938aeecf15c",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/upgrade/LocationUpgradeConfig.md",
+      "bytes": 1033,
+      "sha256": "5e02d7705c1891a3affe0e45f551e8940fff5538a2fbfa5d8ecc3848124de121",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/upgrade/LocationUpgradeModule.md",
+      "bytes": 559,
+      "sha256": "ad0fbed7c59673d37756ed6af4a1c77d02436cf427db5d1809e023184a8499ff",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/common/upgrade/UrlCodec.md",
+      "bytes": 2310,
+      "sha256": "42c40336f397bbfebb8a17c3bf28e2f9297ffa225c8f8b649f32b137cf34a9a9",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/index.md",
+      "bytes": 58504,
+      "sha256": "18c85057aea339802c2dcac6d945406787ccc0a26803f1aa304cdd5244ff5652",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    }
+  ]
+}

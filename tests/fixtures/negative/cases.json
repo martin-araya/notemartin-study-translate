@@ -1,0 +1,24 @@
+{
+  "cases": [
+    {
+      "path": "list_omitted.md",
+      "error_kind": "list_omission",
+      "expected_severity": "critical"
+    },
+    {
+      "path": "command_altered.md",
+      "error_kind": "command_altered",
+      "expected_severity": "critical"
+    },
+    {
+      "path": "negation_inverted.md",
+      "error_kind": "negation_inverted",
+      "expected_severity": "major"
+    },
+    {
+      "path": "table_trimmed.md",
+      "error_kind": "table_trimmed",
+      "expected_severity": "critical"
+    }
+  ]
+}

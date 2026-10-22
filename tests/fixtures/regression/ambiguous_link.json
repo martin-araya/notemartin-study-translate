@@ -1,0 +1,12 @@
+{
+  "case_id": "ambiguous_link",
+  "case": {},
+  "positive": {
+    "headings": ["Configuración", "Conclusión"],
+    "fragment": "#configuracion"
+  },
+  "negative": {
+    "headings": ["Configuración", "Configuracion"],
+    "fragment": "#configuracion"
+  }
+}

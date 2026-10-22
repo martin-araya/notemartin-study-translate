@@ -1,0 +1,11 @@
+import { Callout } from './components';
+
+<Callout type="info" title="Authentication required">
+All requests must include the API key in the `Authorization` header. Without it, the server returns 401.
+
+Use the `<Token />` component to render the key safely. The token expires after **30 minutes**.
+</Callout>
+
+## Next steps
+
+After authenticating, you can call the endpoint with the appropriate payload.

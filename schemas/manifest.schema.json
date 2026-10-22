@@ -1,0 +1,681 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://notemartin-study-translate.local/schemas/manifest.schema.json",
+  "x-schema-version": "1.4.0",
+  "title": "Manifiesto de ejecución",
+  "description": "Registra versiones, procedencia, estados y transiciones de cada archivo del alcance. Un archivo en estado blocked, failed o excluded no puede pasar directamente a exported; debe transitar por approved. JSON Schema 2020-12 no impone orden sobre state_history, por lo que la regla se aplica con un validador de implementación documentado en el propio esquema.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "run_id",
+    "created_at",
+    "manifest_version",
+    "skill_version",
+    "parser",
+    "anchor_policy",
+    "model_metadata",
+    "glossary_snapshot",
+    "profile_snapshot",
+    "inputs",
+    "files"
+  ],
+  "properties": {
+    "run_id": {
+      "description": "Identificador único de la ejecución con formato run-XXXXXXXX.",
+      "type": "string",
+      "pattern": "^run-[0-9a-f]{8}$"
+    },
+    "manifest_version": {
+      "description": "Versión del contrato de manifiesto (fase 143). Un manifiesto sin este campo es `translate/v0` y se migra con scripts/migrate_manifest.py. La migración nunca convierte una revisión antigua en una aprobación vigente.",
+      "type": "string",
+      "enum": ["translate/v1"]
+    },
+    "migrations": {
+      "description": "Migraciones aplicadas a este manifiesto, en orden. Una entrada registra el hash del manifiesto de origen para que la procedencia sea auditable.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["from", "to", "applied_at", "tool_version", "source_sha256", "reason"],
+        "properties": {
+          "from": { "type": "string", "minLength": 1 },
+          "to": { "type": "string", "minLength": 1 },
+          "applied_at": { "type": "string", "format": "date-time" },
+          "tool_version": { "type": "string", "minLength": 1 },
+          "source_sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+          "reason": { "type": "string", "minLength": 4 }
+        }
+      }
+    },
+    "coverage": {
+      "description": "Ledger de cobertura por estado, escrito por check_integrity.py. `integrated` cuenta los archivos traducidos o ya en destino; `integrity_ok` exige cero bloqueados, excluidos, inválidos y pendientes.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["total", "integrated", "blocked", "excluded", "invalid", "pending"],
+      "properties": {
+        "total": { "type": "integer", "minimum": 0 },
+        "integrated": { "type": "integer", "minimum": 0 },
+        "blocked": { "type": "integer", "minimum": 0 },
+        "excluded": { "type": "integer", "minimum": 0 },
+        "invalid": { "type": "integer", "minimum": 0 },
+        "pending": { "type": "integer", "minimum": 0 },
+        "integrated_ratio": { "type": "number", "minimum": 0, "maximum": 1 },
+        "blocked_ratio": { "type": "number", "minimum": 0, "maximum": 1 },
+        "excluded_ratio": { "type": "number", "minimum": 0, "maximum": 1 }
+      }
+    },
+    "integrity_ok": {
+      "description": "Resultado de la última comprobación de integridad. False significa que quedan archivos sin integrar y el manifiesto no puede promoverse.",
+      "type": "boolean"
+    },
+    "pilot_approved": {
+      "description": "Verdadero cuando el piloto fue aprobado por una persona concreta (fase 030).",
+      "type": "boolean"
+    },
+    "approved_by": {
+      "description": "Identificador de quien aprobó el piloto.",
+      "type": "string",
+      "minLength": 1
+    },
+    "approved_at": {
+      "description": "Momento de la aprobación del piloto.",
+      "type": "string",
+      "format": "date-time"
+    },
+    "provenance_baseline": {
+      "description": "Las cinco claves de procedencia congeladas en la aprobación. Si alguna cambia en una ejecución posterior, los archivos afectados se invalidan.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["files_source", "glossary_hash", "profile_hash", "parser_version", "prompt_version"],
+      "properties": {
+        "files_source": {
+          "type": "object",
+          "additionalProperties": { "type": "string" }
+        },
+        "glossary_hash": { "type": ["string", "null"] },
+        "profile_hash": { "type": ["string", "null"] },
+        "parser_version": { "type": ["string", "null"] },
+        "prompt_version": { "type": ["string", "null"] }
+      }
+    },
+    "created_at": {
+      "description": "Fecha ISO 8601 de creación del manifiesto.",
+      "type": "string",
+      "format": "date-time"
+    },
+    "skill_version": {
+      "description": "Versión semver de la skill.",
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$"
+    },
+    "parser": {
+      "description": "Parser Markdown empleado y su versión.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "version"],
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "version": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "anchor_policy": {
+      "description": "Algoritmo de reescritura de anclas y su versión.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["algorithm", "version"],
+      "properties": {
+        "algorithm": {
+          "type": "string",
+          "minLength": 1
+        },
+        "version": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "model_metadata": {
+      "description": "Identidad del proveedor y modelo. Valores desconocidos se registran como unknown.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["provider", "model", "prompt_version"],
+      "properties": {
+        "provider": {
+          "type": "string"
+        },
+        "model": {
+          "type": "string"
+        },
+        "prompt_version": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "glossary_snapshot": {
+      "description": "Instantánea del glosario congelado tras el piloto.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["version", "hash", "frozen"],
+      "properties": {
+        "version": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "hash": {
+          "description": "SHA-256 del archivo glossary.json.",
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "frozen": {
+          "type": "boolean"
+        }
+      }
+    },
+    "profile_snapshot": {
+      "description": "Instantánea del perfil activo.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["hash"],
+      "properties": {
+        "hash": {
+          "description": "SHA-256 del archivo profile.json.",
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        }
+      }
+    },
+    "inputs": {
+      "description": "Resumen del corpus recibido y métricas de inventario.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["source_root", "total_files", "total_bytes", "hashes_indexed"],
+      "properties": {
+        "source_root": {
+          "description": "Ruta absoluta del corpus de entrada.",
+          "type": "string",
+          "minLength": 1
+        },
+        "total_files": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "total_bytes": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "hashes_indexed": {
+          "description": "Indica si se registró hash por archivo.",
+          "type": "boolean"
+        }
+      }
+    },
+    "language_pair": {
+      "description": "Par de idioma de la ejecución. Añadido en la fase 101 del roadmap.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["source", "target"],
+      "properties": {
+        "source": {
+          "type": "string",
+          "minLength": 2
+        },
+        "target": {
+          "type": "string",
+          "minLength": 2
+        },
+        "evaluation_kind": {
+          "description": "assisted = revisión asistida por modelo; human_approved = firmada por nativo.",
+          "type": "string",
+          "enum": ["assisted", "human_approved", "experimental"]
+        },
+        "human_reviewer": {
+          "description": "Identificador declarado del revisor humano nativo en el idioma de origen. null mientras no exista.",
+          "type": ["string", "null"]
+        },
+        "reviewer_status": {
+          "description": "Estado de revisión. assisted_only_pending_human impide firmar con ✅ la fase 103.",
+          "type": "string",
+          "enum": ["human_approved", "assisted_only_pending_human", "not_applicable"]
+        }
+      }
+    },
+    "reviewers": {
+      "description": "Lista de firmantes humanos y asistidos por par. Añadido en la fase 109 del roadmap.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["pair", "name", "kind", "signed_at", "scope"],
+        "properties": {
+          "pair": {
+            "description": "Par cubierto por el firmante. Formato origen-destino[-variante].",
+            "type": "string",
+            "minLength": 2
+          },
+          "name": {
+            "description": "Identificador declarado del firmante (alias o nombre declarado por el usuario).",
+            "type": ["string", "null"]
+          },
+          "kind": {
+            "type": "string",
+            "enum": ["human", "assisted"]
+          },
+          "signed_at": {
+            "description": "Timestamp ISO 8601 de la firma. Si kind=assisted, es la fecha del registro de revisión asistida.",
+            "type": "string",
+            "format": "date-time"
+          },
+          "scope": {
+            "description": "Cobertura de la firma. 'global' si cubre todo el alcance; si no, lista de rutas.",
+            "type": ["string", "array"],
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "signature_hash": {
+            "description": "Hash SHA-256 de la firma o del visto bueno, si la firma es manuscrita fuera del script.",
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          },
+          "notes": {
+            "description": "Notas del firmante, opcionales.",
+            "type": "string"
+          },
+          "rejection_source": {
+            "description": "Marcado cuando la entrada representa un rechazo, no una aprobación.",
+            "type": "boolean"
+          }
+        }
+      }
+    },
+    "decisions": {
+      "description": "Decisiones humanas estructuradas (fase 123). Cada decisión captura autor declarado, alcance, motivo y hashes revisados. Una decisión sin reviewed_hashes válidos invalida su propia auditoría.",
+      "type": "array",
+      "items": { "$ref": "#/$defs/decision" }
+    },
+    "approvals": {
+      "description": "Aprobaciones con vigencia por hash (fase 124). Cada entrada aprueba un artefacto de la ejecución, vinculándose a una decision_id y un target_hash. Una edición posterior al target_hash invalida la aprobación (estado stale).",
+      "type": "array",
+      "items": { "$ref": "#/$defs/approval" }
+    },
+    "files": {
+      "description": "Estado por archivo del alcance. Cada archivo lleva un state_history ordenado que termina en current_state. Las transiciones legales las aplica el validador de implementación; este esquema solo exige estructura.",
+      "type": "array",
+      "items": { "$ref": "#/$defs/file_record" }
+    },
+    "delivery": {
+      "description": "Entrega local opcional (fases 131-140). Opcional: su ausencia significa entrega canónica sin adaptar, que es el valor por defecto del núcleo.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["destination_id", "canonical"],
+      "properties": {
+        "destination_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "canonical": {
+          "description": "Árbol canónico entregado, inmutable respecto de cualquier adaptación.",
+          "type": "string",
+          "minLength": 1
+        },
+        "adapted_tree": {
+          "description": "Árbol adaptado por un perfil de entrega. Ausente cuando no se adaptationó nada.",
+          "type": ["string", "null"]
+        },
+        "adaptation_rules": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "packages": {
+          "description": "Paquetes ZIP emitidos para esta ejecución.",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["package_id", "zip_sha256", "member_count", "remote_status"],
+            "properties": {
+              "package_id": { "type": "string", "minLength": 1 },
+              "zip_path": { "type": "string" },
+              "zip_sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+              "member_count": { "type": "integer", "minimum": 0 },
+              "package_manifest_ref": { "type": "string" },
+              "guide_path": {
+                "description": "Ruta de la guía de entrega, obligatoriamente fuera del árbol importable y del paquete.",
+                "type": "string"
+              },
+              "remote_status": {
+                "description": "Estado de la verificación remota de la evidencia aportada por el usuario.",
+                "type": "string",
+                "enum": ["no_verificado", "verificado_con_evidencia"]
+              }
+            }
+          }
+        },
+        "import_evidence_ref": {
+          "description": "Ruta del registro de evidencia de importación de muestra.",
+          "type": "string"
+        },
+        "degradation_report_ref": {
+          "description": "Ruta del informe de degradaciones entre adaptado y canónico.",
+          "type": "string"
+        }
+      }
+    }
+  },
+  "$defs": {
+    "file_record": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "path",
+        "source_hash",
+        "current_state",
+        "state_history",
+        "last_transition_at"
+      ],
+"properties": {
+        "path": {
+          "description": "Ruta relativa exacta dentro de source_root, sin normalizar.",
+          "type": "string",
+          "minLength": 1
+        },
+        "document_id": {
+          "description": "Identificador estable del documento, derivado de sus bytes por prepare.py. Es la clave con la que translations/<document_id>.json nombra su traducción.",
+          "type": "string",
+          "pattern": "^doc-[0-9a-f]{8}$"
+        },
+        "state": {
+          "description": "Último estado registrado por la herramienta que aprobó el piloto. Complementa a current_state; no lo sustituye.",
+          "type": "string",
+          "minLength": 1
+        },
+        "source_hash": {
+          "description": "SHA-256 de los bytes originales.",
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "current_state": {
+          "description": "Estado actual del archivo. Estados terminales para contabilización: blocked, failed, excluded, already_target.",
+          "type": "string",
+          "enum": [
+            "inventoried",
+            "prepared",
+            "translated",
+            "deterministic_pass",
+            "semantic_pass",
+            "approved",
+            "exported",
+            "blocked",
+            "failed",
+            "excluded",
+            "already_target"
+          ]
+        },
+        "state_history": {
+          "description": "Secuencia ordenada de transiciones. El primer elemento es inventoried y el último coincide con current_state. La regla de no transición directa blocked→exported se aplica con un validador externo; este esquema no impone orden.",
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/transition" }
+        },
+        "last_transition_at": {
+          "description": "Fecha ISO 8601 de la última transición; igual al timestamp del último elemento de state_history (verificable en implementación).",
+          "type": "string",
+          "format": "date-time"
+        },
+        "segment_count": {
+          "description": "Número de segmentos extraídos. Opcional.",
+          "type": "integer",
+          "minimum": 0
+        },
+        "output_sha256": {
+          "description": "SHA-256 de los bytes entregados en output_root. Lo escribe export.py al promover el archivo a `exported`; mientras el archivo no esté exportado, el campo no existe.",
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "requires_revalidation": {
+          "description": "Comprobaciones que deben repetirse antes de volver a aprobar o exportar (fase 143). Lo escribe la migración de manifiesto; no lo rellena el agente por su cuenta.",
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["hashes", "literals", "structure", "links", "semantic_pass", "export"]
+          }
+        },
+        "issues": {
+          "description": "Hallazgos abiertos sobre este archivo. severity limitado a error, warning, info.",
+          "type": "array",
+          "items": { "$ref": "#/$defs/issue" }
+        },
+        "notes": {
+          "description": "Notas operativas.",
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "transition": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["state", "timestamp", "reason"],
+      "properties": {
+        "state": {
+          "description": "Estado al que se transita.",
+          "type": "string",
+          "enum": [
+            "inventoried",
+            "prepared",
+            "translated",
+            "deterministic_pass",
+            "semantic_pass",
+            "approved",
+            "exported",
+            "blocked",
+            "failed",
+            "excluded",
+            "already_target"
+          ]
+        },
+        "timestamp": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "reason": {
+          "description": "Motivo textual de la transición.",
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "issue": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["severity", "message"],
+      "properties": {
+        "severity": {
+          "type": "string",
+          "enum": ["error", "warning", "info"]
+        },
+        "message": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "decision": {
+      "description": "Decisión humana estructurada registrada en el manifiesto (fase 123).",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["author", "role", "pair", "scope", "reason", "reviewed_hashes", "decided_at", "kind"],
+      "properties": {
+        "author": {
+          "description": "Identificador declarado (alias) del firmante o responsable de la decisión.",
+          "type": "string",
+          "minLength": 1
+        },
+        "role": {
+          "description": "Rol funcional del autor dentro de la decisión.",
+          "type": "string",
+          "enum": ["reviewer", "lead", "domain_expert", "owner"]
+        },
+        "pair": {
+          "description": "Par de idioma cubierto por la decisión (origen-destino). Cadena libre, mínimo origen y destino.",
+          "type": "string",
+          "pattern": "^[\\w\\-]+ ?(->|→) ?[\\w\\-]+$"
+        },
+        "scope": {
+          "description": "Cobertura efectiva: 'global' cubre todo el alcance; en otro caso lista de rutas relativas.",
+          "oneOf": [
+            {
+              "type": "string",
+              "const": "global"
+            },
+            {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          ]
+        },
+        "reason": {
+          "description": "Motivo textual de la decisión (mínimo 10 caracteres).",
+          "type": "string",
+          "minLength": 10
+        },
+        "reviewed_hashes": {
+          "description": "Hashes SHA-256 del contenido efectivamente revisado. Determinan la vigencia de la decisión (fase 124).",
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          }
+        },
+        "decided_at": {
+          "description": "Fecha ISO 8601 de la decisión.",
+          "type": "string",
+          "format": "date-time"
+        },
+        "kind": {
+          "description": "Tipo de decisión. defer exige references[] o referencia abierta a issue.",
+          "type": "string",
+          "enum": ["approve", "reject", "defer"]
+        },
+        "references": {
+          "description": "Identificadores de issues, approvals o archivos vinculados.",
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "decision_id": {
+          "description": "Identificador estable de la decisión. Lo asigna el registro (formato dec-XXXXXXXX).",
+          "type": "string",
+          "pattern": "^dec-[0-9a-f]{8}$"
+        },
+        "stale": {
+          "description": "True cuando la decisión dejó de ser vigente. Una migración de manifiesto lo pone a true siempre (fase 143).",
+          "type": "boolean"
+        },
+        "stale_reason": {
+          "description": "Motivo de la obsolescencia, incluido por la migración.",
+          "type": "string",
+          "minLength": 4
+        }
+      },
+      "allOf": [
+        {
+          "description": "Una decisión defer exige al menos una referencia.",
+          "if": {
+            "properties": { "kind": { "const": "defer" } }
+          },
+          "then": {
+            "required": ["references"],
+            "properties": {
+              "references": { "minItems": 1 }
+            }
+          }
+        }
+      ]
+    },
+    "approval": {
+      "description": "Vínculo entre una decision_id y un artefacto aprobado (fase 124). La vigencia depende de que el target_hash siga siendo el hash actual, y de los hashes dependientes que la propia aprobación declare: glosario congelado, mapa de anclas y perfil.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["decision_id", "target_hash", "approved_at", "artifact"],
+      "properties": {
+        "decision_id": {
+          "description": "Identificador de la decisión asociada.",
+          "type": "string",
+          "pattern": "^dec-[0-9a-f]{8}$"
+        },
+        "target_hash": {
+          "description": "SHA-256 del artefacto aprobado en el momento de la firma.",
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "target_glossary_hash": {
+          "description": "SHA-256 del glosario congelado en el momento de la firma. Si está, cambiar el glosario invalida la aprobación.",
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "target_anchor_hash": {
+          "description": "SHA-256 del mapa de anclas en el momento de la firma. Si está, reescribir títulos invalida la aprobación.",
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "target_profile_hash": {
+          "description": "SHA-256 del perfil en el momento de la firma. Si está, cambiar el perfil invalida la aprobación.",
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "approved_at": {
+          "description": "Fecha ISO 8601 de la aprobación.",
+          "type": "string",
+          "format": "date-time"
+        },
+        "artifact": {
+          "description": "Descripción del artefacto aprobado (ruta relativa o nombre lógico).",
+          "type": "string",
+          "minLength": 1
+        },
+        "approval_id": {
+          "description": "Identificador estable de la aprobación (formato app-XXXXXXXX).",
+          "type": "string",
+          "pattern": "^app-[0-9a-f]{8}$"
+        },
+        "status": {
+          "description": "Estado calculado. El validador de implementación lo actualiza; este esquema lo declara opcional.",
+          "type": "string",
+          "enum": ["valid", "stale", "superseded"]
+        },
+        "stale": {
+          "description": "True cuando la aprobación dejó de ser vigente. Una migración de manifiesto lo pone a true siempre (fase 143).",
+          "type": "boolean"
+        },
+        "superseded_by": {
+          "description": "Aprobación que sustituye a esta. La declara quien firma; scripts/approval_freshness.py no la infiere.",
+          "type": "string",
+          "pattern": "^app-[0-9a-f]{8}$"
+        },
+        "stale_reason": {
+          "description": "Motivo de la obsolescencia, incluido por la migración.",
+          "type": "string",
+          "minLength": 4
+        }
+      }
+    }
+  }
+}

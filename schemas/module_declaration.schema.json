@@ -1,0 +1,212 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://notemartin-study-translate.local/schemas/module_declaration.schema.json",
+  "x-schema-version": "1.0.0",
+  "title": "Declaración de módulos opcionales y su gate G-EXT",
+  "description": "Declara, para cada módulo opcional, lo que exige el checklist G-EXT del roadmap: activación explícita con corpus declarado, contrato versionado, casos positivos y negativos, política de fallo con código de salida, regresión del núcleo intacta y desactivación sin efectos. El gate ejecutable es scripts/gate_optional.py. Una declaración incompleta no habilita el módulo: solo describe lo que existe.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["declaration_version", "generated_by", "modules"],
+  "properties": {
+    "declaration_version": {
+      "description": "Versión de la propia declaración. Minor al añadir un módulo o un campo opcional; major al cambiar el sentido de un campo.",
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$"
+    },
+    "generated_by": {
+      "description": "Quién mantiene el archivo. Una persona, no el agente que traduce.",
+      "type": "string",
+      "minLength": 1
+    },
+    "core_suite_command": {
+      "description": "Comando cuya salida demuestra la regresión del núcleo intacta.",
+      "type": "string",
+      "minLength": 1
+    },
+    "modules": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/module" }
+    }
+  },
+  "$defs": {
+    "module": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "module_id",
+        "title",
+        "phases",
+        "activation",
+        "default_enabled",
+        "activation_option",
+        "enforcement",
+        "profile_keys",
+        "corpus_ref",
+        "justification",
+        "corpus_real",
+        "contract_paths",
+        "test_files",
+        "test_prefixes",
+        "activation_negative_test",
+        "deactivation_test",
+        "failure_policy",
+        "limitations",
+        "known_external_gaps"
+      ],
+      "properties": {
+        "module_id": {
+          "type": "string",
+          "enum": [
+            "mdx",
+            "html",
+            "markdown-extensions",
+            "terminology",
+            "language",
+            "scale",
+            "review",
+            "delivery",
+            "maintenance"
+          ]
+        },
+        "title": { "type": "string", "minLength": 1 },
+        "phases": {
+          "description": "Rango de fases del roadmap que cubre el módulo.",
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["from", "to"],
+          "properties": {
+            "from": { "type": "integer", "minimum": 1 },
+            "to": { "type": "integer", "minimum": 1 }
+          }
+        },
+        "activation": {
+          "description": "dormant_by_default exige corpus declarado para encenderlo. opt_in significa que el módulo se entrega pero no se usa en el corpus actual. core_required no es admisible para un módulo opcional.",
+          "type": "string",
+          "enum": ["dormant_by_default", "opt_in"]
+        },
+        "default_enabled": {
+          "description": "false en todo módulo opcional. true solo con la casilla del roadmap que lo autorice por escrito.",
+          "type": "boolean"
+        },
+        "activation_option": {
+          "description": "La opción de perfil o de línea de comandos que enciende el módulo.",
+          "type": "string",
+          "minLength": 1
+        },
+        "enforcement": {
+          "description": "schema: el perfil exige corpus_ref y justification. cli: la herramienta exige el argumento y sale con código propio.",
+          "type": "string",
+          "enum": ["schema", "cli"]
+        },
+        "profile_keys": {
+          "description": "Claves del esquema de perfil que pertenecen a este módulo. El gate comprueba que existan.",
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "corpus_ref": {
+          "description": "Caso de evals/cases que declara el corpus que justifica la activación, con su recuento y su hash.",
+          "type": "string",
+          "minLength": 1
+        },
+        "justification": {
+          "description": "Motivo concreto por el que ese corpus activa el módulo. Una activación sin motivo es un defecto, no una configuración.",
+          "type": "string",
+          "minLength": 20
+        },
+        "corpus_real": {
+          "description": "true solo si el corpus del caso es material real autorizado. false para fixtures sintéticos declarados como tales.",
+          "type": "boolean"
+        },
+        "contract_paths": {
+          "description": "Documentos que constituyen el contrato del módulo. Cada uno debe existir y llevar marca de versión.",
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string", "pattern": "^references/[a-z0-9\\-]+\\.md$" }
+        },
+        "test_files": {
+          "description": "Todos los ficheros de prueba del módulo. El gate exige que no quede ninguno fuera.",
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string", "pattern": "^tests/test_[a-z0-9_]+\\.py$" }
+        },
+        "test_prefixes": {
+          "description": "Prefijos de nombres de prueba que pertenecen a este módulo. Sirven para detectar pruebas huérfanas.",
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string", "pattern": "^test_[a-z0-9_]+$" }
+        },
+        "activation_negative_test": {
+          "description": "Nodeid de la prueba que demuestra que el módulo no se puede encender sin corpus declarado.",
+          "type": "string",
+          "minLength": 1
+        },
+        "deactivation_test": {
+          "description": "Nodeid de la prueba que demuestra que, apagado, el flujo del núcleo se reproduce byte a byte.",
+          "type": "string",
+          "minLength": 1
+        },
+        "failure_policy": {
+          "description": "Política de fallo existente en código, no solo en prosa.",
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["entrypoint", "exit_codes", "documented_in"],
+          "properties": {
+            "entrypoint": { "type": "string", "pattern": "^scripts/[a-z0-9_]+\\.py$" },
+            "exit_codes": {
+              "type": "array",
+              "minItems": 1,
+              "items": { "type": "integer", "minimum": 0 }
+            },
+            "documented_in": { "type": "string", "pattern": "^references/[a-z0-9\\-]+\\.md$" }
+          }
+        },
+        "limitations": {
+          "description": "Lo que el módulo no demuestra. Vacío solo es admisible si el módulo tiene corpus real y ejecución registrada.",
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "known_external_gaps": {
+          "description": "Huecos que dependen de una persona o de un sistema externo, con responsable y procedimiento. No bloquean el release local; bloquean la afirmación que describen.",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["id", "reason", "owner", "procedure", "blocking_scope"],
+            "properties": {
+              "id": { "type": "string", "minLength": 1 },
+              "reason": { "type": "string", "minLength": 10 },
+              "owner": { "type": "string", "minLength": 1 },
+              "procedure": { "type": "string", "minLength": 10 },
+              "blocking_scope": {
+                "type": "string",
+                "enum": [
+                  "remote_verification_claim",
+                  "human_signature",
+                  "corpus_execution",
+                  "platform_execution"
+                ]
+              }
+            }
+          }
+        },
+        "core_delegations": {
+          "description": "Herramientas de núcleo que importan de este módulo a propósito. Solo se admiten dos clases: `detector`, una librería pura sin CLI que el núcleo necesita para reconocer la construcción y bloquearla, y `regression`, un detector del corpus permanente que delega en producción y solo corre al pasar el gate de release. Una delegación desde el camino de traducción hacia un módulo con CLI no es admisible.",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["from_script", "imports", "kind", "why"],
+            "properties": {
+              "from_script": { "type": "string", "pattern": "^scripts/[a-z0-9_]+\\.py$" },
+              "imports": { "type": "string", "minLength": 1 },
+              "kind": { "type": "string", "enum": ["detector", "regression"] },
+              "why": { "type": "string", "minLength": 20 }
+            }
+          }
+        }
+      }
+    }
+  }
+}

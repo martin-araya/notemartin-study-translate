@@ -1,0 +1,10 @@
+{
+  "case_id": "package_path_escape",
+  "case": {},
+  "positive": {
+    "members": ["docs/a.md", "docs/img/logo.png"]
+  },
+  "negative": {
+    "members": ["docs/a.md", "../escape.md", "/etc/passwd"]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "case_id": "export_without_approval",
+  "case": {
+    "manifest": {
+      "run_id": "run-0000cafe",
+      "files": [
+        { "path": "docs/a.md", "current_state": "translated" },
+        { "path": "docs/b.md", "current_state": "approved" }
+      ]
+    }
+  },
+  "positive": {
+    "exported": ["docs/b.md"]
+  },
+  "negative": {
+    "exported": ["docs/a.md", "docs/b.md"]
+  }
+}

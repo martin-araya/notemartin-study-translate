@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "frozen": false,
+  "allowed_languages": ["es"],
+  "entries": [
+    {
+      "id": "g-5001",
+      "source_term": "training",
+      "domain": "ml_ai",
+      "sense": "Fase de ajuste de parámetros de un modelo a partir de datos",
+      "preferred": {"lang": "es", "term": "entrenamiento"},
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-ml-1",
+          "segment_id": "seg-m001-a",
+          "before": "The ",
+          "after": " process takes several hours on a GPU cluster.",
+          "note": "Fase del ciclo de vida de un modelo"
+        }
+      ],
+      "justification": "Traducción estándar en la documentación en español de TensorFlow, PyTorch y scikit-learn.",
+      "decided_by": "example-agent",
+      "decided_at": "2026-10-20T00:00:00Z"
+    },
+    {
+      "id": "g-5002",
+      "source_term": "inference",
+      "domain": "ml_ai",
+      "sense": "Fase de uso del modelo entrenado para producir predicciones",
+      "preferred": {"lang": "es", "term": "inferencia"},
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-ml-1",
+          "segment_id": "seg-m002-a",
+          "before": "Optimize the model for ",
+          "after": " latency in production.",
+          "note": "Diferencia con training"
+        }
+      ],
+      "justification": "'Inferencia' es la traducción natural. Evita confusión con 'inferencia lógica' al contextualizar.",
+      "decided_by": "example-agent",
+      "decided_at": "2026-10-20T00:00:00Z"
+    },
+    {
+      "id": "g-5003",
+      "source_term": "embedding",
+      "domain": "ml_ai",
+      "sense": "Representación vectorial densa de un dato en un espacio continuo",
+      "preferred": {"lang": "es", "term": "embedding"},
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-ml-1",
+          "segment_id": "seg-m003-a",
+          "before": "Generate an ",
+          "after": " for each text using a transformer.",
+          "note": "Embedding como identificador técnico"
+        }
+      ],
+      "justification": "Mismo razonamiento que 'terminology.md': 'embedding' es un identificador técnico. 'Incrustación' se evita fuera de contextos pedagógicos.",
+      "decided_by": "example-agent",
+      "decided_at": "2026-10-20T00:00:00Z"
+    },
+    {
+      "id": "g-5004",
+      "source_term": "gradient",
+      "domain": "ml_ai",
+      "sense": "Vector de derivadas parciales usado para actualizar los parámetros de un modelo",
+      "preferred": {"lang": "es", "term": "gradiente"},
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-ml-1",
+          "segment_id": "seg-m004-a",
+          "before": "Compute the ",
+          "after": " of the loss with respect to the weights.",
+          "note": "Cálculo del gradiente"
+        }
+      ],
+      "justification": "Traducción matemática estándar.",
+      "decided_by": "example-agent",
+      "decided_at": "2026-10-20T00:00:00Z"
+    },
+    {
+      "id": "g-5005",
+      "source_term": "fine-tuning",
+      "domain": "ml_ai",
+      "sense": "Ajuste adicional de un modelo pre-entrenado con datos específicos del dominio",
+      "preferred": {"lang": "es", "term": "ajuste fino"},
+      "allowed_variants": ["fine-tuning", "afinar el modelo"],
+      "preservation_policy": "translate-with-original-on-first-mention",
+      "context_examples": [
+        {
+          "document_id": "doc-ml-1",
+          "segment_id": "seg-m005-a",
+          "before": "Apply ",
+          "after": " on the labeled domain data.",
+          "note": "Ajuste posterior al preentrenamiento"
+        }
+      ],
+      "justification": "La traducción 'ajuste fino' es la más usada. La política `translate-with-original-on-first-mention` mantiene 'fine-tuning' en la primera mención para introducir el término antes de traducir.",
+      "decided_by": "example-agent",
+      "decided_at": "2026-10-20T00:00:00Z"
+    }
+  ]
+}

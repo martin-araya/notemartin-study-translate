@@ -1,0 +1,115 @@
+{
+  "generated_at": "2026-10-22T15:06:53Z",
+  "purpose": "Línea base antes de cerrar G-EXT en los nueve módulos opcionales (fase G-EXT). Registra el estado real del que parte el trabajo, no una expectativa.",
+  "environment": {
+    "system": "darwin",
+    "python": "3 del sistema",
+    "markdown_it_py": "3.0.0",
+    "jsonschema": "4.25.1",
+    "pytest": "8.4.2"
+  },
+  "core_suite": {
+    "command": "python3 -m pytest tests -q",
+    "passed": 1183,
+    "skipped": 2,
+    "failed": 0,
+    "exit_code": 0,
+    "detail": "reports/optional/baseline_pytest.txt"
+  },
+  "other_gates": {
+    "check_versioning": {
+      "command": "python3 scripts/check_versioning.py --root . --out reports/maintenance/versioning.json",
+      "exit_code": 0,
+      "detail": "skill 0.3.0, 13 esquemas, 59 referencias"
+    },
+    "audit_docs": {
+      "command": "python3 scripts/audit_docs.py --root . --out reports/maintenance/docs_audit.json",
+      "exit_code": 0,
+      "detail": "74 documentos, 59 referencias, 5 reglas, 0 hallazgos"
+    },
+    "regression_gate": {
+      "command": "python3 scripts/regression_gate.py --out reports/maintenance/regression.json --reproduce",
+      "exit_code": 0,
+      "detail": "22 casos, 22 fallos conocidos, sin huecos"
+    }
+  },
+  "open_defects_before_gate": [
+    {
+      "id": "D1",
+      "summary": "Dos scripts del núcleo importan de un módulo opcional.",
+      "evidence": [
+        "scripts/verify_already_target.py:41",
+        "scripts/regression_detectors.py:34"
+      ]
+    },
+    {
+      "id": "D2",
+      "summary": "classify_file recibe definitions_enabled, directives_enabled, mermaid_enabled y mermaid_labels y nunca los lee, aunque el esquema de perfil los valida.",
+      "evidence": [
+        "scripts/prepare.py:857",
+        "scripts/prepare.py:995",
+        "schemas/profile.schema.json:225"
+      ]
+    },
+    {
+      "id": "D3",
+      "summary": "El esquema de manifiesto prohíbe con additionalProperties false los target_*_hash que el módulo de revisión documenta, usa y prueba.",
+      "evidence": [
+        "schemas/manifest.schema.json:616",
+        "scripts/check_approval_freshness.py:27",
+        "references/approval-freshness.md:16"
+      ]
+    },
+    {
+      "id": "D4",
+      "summary": "term_provenance escribe provenance y el esquema de glosario lo prohíbe.",
+      "evidence": [
+        "scripts/term_provenance.py:53",
+        "schemas/glossary.schema.json:43"
+      ]
+    },
+    {
+      "id": "D5",
+      "summary": "gate_review --mode expanded no ejecuta basic_check.",
+      "evidence": ["scripts/gate_review.py:227"]
+    },
+    {
+      "id": "D6",
+      "summary": "activation es el literal active para los diez módulos y tres módulos declaran limitations vacías.",
+      "evidence": ["scripts/build_release_candidate.py:237"]
+    },
+    {
+      "id": "D7",
+      "summary": "El gate declarado de cada módulo ejecuta entre uno y tres de sus ficheros de prueba.",
+      "evidence": ["scripts/build_release_candidate.py:35"]
+    },
+    {
+      "id": "D8",
+      "summary": "Los gates MDX y HTML levantan el bloqueo entero sin validar contra el contrato que promete bloquear lo no listado.",
+      "evidence": [
+        "scripts/prepare.py:866",
+        "references/mdx-contract.md:72",
+        "references/html-contract.md:8"
+      ]
+    },
+    {
+      "id": "D9",
+      "summary": "El modo concurrente no propaga --content-dir y cuenta la partición entera como aprobada.",
+      "evidence": ["scripts/run_concurrent.py:145", "scripts/run_concurrent.py:175"]
+    },
+    {
+      "id": "D10",
+      "summary": "La invalidación transitiva por anclas lee un campo que el esquema prohíbe y que el almacén de caché nunca escribe.",
+      "evidence": [
+        "scripts/invalidate_cache.py:113",
+        "schemas/cache_entry.schema.json:8",
+        "scripts/translation_cache.py:77"
+      ]
+    }
+  ],
+  "not_measured_here": [
+    "G-BETA y G-CORE siguen en 0 de 4 y 0 de 5: 0,37 % de 44 784 segmentos traducidos (reports/core/ESTADO-G-CORE.md).",
+    "No hay ejecución real de ningún módulo opcional sobre el corpus grande; el corpus declarado es /Users/martin/Desktop/documentacion y no se ejecuta en este trabajo.",
+    "Ninguna comprobación remota: remote_status sigue en no_verificado."
+  ]
+}

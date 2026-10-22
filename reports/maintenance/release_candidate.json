@@ -1,0 +1,687 @@
+{
+  "generated_at": "2026-10-22T17:58:11Z",
+  "candidate_version": "0.4.0",
+  "skill_version": "0.4.0",
+  "modules": [
+    {
+      "module_id": "core",
+      "phases": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60
+      ],
+      "activation": "core_required",
+      "corpus_ref": null,
+      "gate": {
+        "kind": "pytest",
+        "target": "tests/",
+        "command": "python3 -m pytest tests/ -q --no-header --ignore=tests/test_release_candidate.py"
+      },
+      "exit_code": 0,
+      "ok": true,
+      "limitations": [
+        "Las pruebas cubren comportamiento local, no el corpus real."
+      ],
+      "gate_detail": ".................................................................... [ 67%]\n........................................................................ [ 73%]\n........................................................................ [ 78%]\n........................................................................ [ 84%]\n........................................................................ [ 90%]\n........................................................................ [ 95%]\n....................................................                     [100%]\n1274 passed, 2 skipped in 135.89s (0:02:15)\n"
+    },
+    {
+      "module_id": "mdx",
+      "phases": [
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70
+      ],
+      "activation": "dormant_by_default",
+      "corpus_ref": "evals/cases/mdx.md",
+      "gate": {
+        "kind": "pytest",
+        "target": "tests/test_mdx_*.py",
+        "command": "python3 -m pytest tests/test_mdx_assemble.py tests/test_mdx_attributes.py tests/test_mdx_contract.py tests/test_mdx_gate.py tests/test_mdx_parser.py tests/test_mdx_props.py tests/test_mdx_protect.py tests/test_mdx_review.py tests/test_mdx_selector.py tests/test_mdx_tabs.py -q",
+        "test_files": [
+          "tests/test_mdx_assemble.py",
+          "tests/test_mdx_attributes.py",
+          "tests/test_mdx_contract.py",
+          "tests/test_mdx_gate.py",
+          "tests/test_mdx_parser.py",
+          "tests/test_mdx_props.py",
+          "tests/test_mdx_protect.py",
+          "tests/test_mdx_review.py",
+          "tests/test_mdx_selector.py",
+          "tests/test_mdx_tabs.py"
+        ]
+      },
+      "exit_code": 0,
+      "ok": true,
+      "limitations": [
+        "La evidencia es de clasificación y contrato, no de traducción completa con el módulo activo.",
+        "La paridad de render en el destino no está comprobada.",
+        "Los fixtures de tests/fixtures/mdx/ son sintéticos; el corpus que justifica la activación es el piloto.",
+        "No existe ningún archivo .mdx real en el repositorio: el corpus usa componentes MDX dentro de .md.",
+        "No hay ningún archivo .mdx real: el corpus usa componentes MDX dentro de .md."
+      ],
+      "gate_detail": "...............................................................          [100%]\n63 passed in 0.60s\n"
+    },
+    {
+      "module_id": "html",
+      "phases": [
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80
+      ],
+      "activation": "dormant_by_default",
+      "corpus_ref": "evals/cases/html.md",
+      "gate": {
+        "kind": "pytest",
+        "target": "tests/test_html_*.py",
+        "command": "python3 -m pytest tests/test_html_assemble.py tests/test_html_attributes.py tests/test_html_classify.py tests/test_html_contract.py tests/test_html_gate.py tests/test_html_malformed.py tests/test_html_matrix.py tests/test_html_parser.py tests/test_html_release_gate.py tests/test_html_selector.py tests/test_html_tables.py -q",
+        "test_files": [
+          "tests/test_html_assemble.py",
+          "tests/test_html_attributes.py",
+          "tests/test_html_classify.py",
+          "tests/test_html_contract.py",
+          "tests/test_html_gate.py",
+          "tests/test_html_malformed.py",
+          "tests/test_html_matrix.py",
+          "tests/test_html_parser.py",
+          "tests/test_html_release_gate.py",
+          "tests/test_html_selector.py",
+          "tests/test_html_tables.py"
+        ]
+      },
+      "exit_code": 0,
+      "ok": true,
+      "limitations": [
+        "Conservar HTML no demuestra que el importador de destino lo soporte.",
+        "El corpus que lo activa es sintético o inexistente: evals/cases/html.md",
+        "El corpus que lo activa es sintético: los corpus autorizados contienen 0 etiquetas del contrato.",
+        "La paridad de render en el destino no está comprobada.",
+        "Los corpus autorizados contienen 0 etiquetas del contrato HTML: solo lo activan fixtures sintéticos.",
+        "reports/pilot/profile.json y reports/beta/profile.json activaron html.enabled sin corpus que lo justificara; se declara como activación inmotivada y no se corrigen porque su hash está anclado en el manifiesto del piloto."
+      ],
+      "gate_detail": "........................................................................ [ 91%]\n.......                                                                  [100%]\n79 passed in 3.37s\n"
+    },
+    {
+      "module_id": "markdown-extensions",
+      "phases": [
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90
+      ],
+      "activation": "dormant_by_default",
+      "corpus_ref": "evals/cases/markdown-extensions.md",
+      "gate": {
+        "kind": "pytest",
+        "target": "tests/test_*extensions*.py",
+        "command": "python3 -m pytest tests/test_admonitions.py tests/test_content_gates.py tests/test_definition_lists.py tests/test_dialect_matrix.py tests/test_directives.py tests/test_extension_combinations.py tests/test_footnotes.py tests/test_frontmatter_translate.py tests/test_math.py tests/test_mermaid_labels.py tests/test_wikilinks.py -q",
+        "test_files": [
+          "tests/test_admonitions.py",
+          "tests/test_content_gates.py",
+          "tests/test_definition_lists.py",
+          "tests/test_dialect_matrix.py",
+          "tests/test_directives.py",
+          "tests/test_extension_combinations.py",
+          "tests/test_footnotes.py",
+          "tests/test_frontmatter_translate.py",
+          "tests/test_math.py",
+          "tests/test_mermaid_labels.py",
+          "tests/test_wikilinks.py"
+        ]
+      },
+      "exit_code": 0,
+      "ok": true,
+      "limitations": [
+        "El corpus piloto declara una admonition que en realidad es un atributo de Pandoc dentro de un fence: la medición de evals/cases/markdown-extensions.md §1 lo corrige.",
+        "El corpus que lo activa es sintético o inexistente: evals/cases/markdown-extensions.md",
+        "Footnotes y matemáticas no tienen interruptor: el núcleo los trata siempre, y su contract dice que están siempre activos.",
+        "Footnotes y matemáticas no tienen interruptor: el núcleo los trata siempre.",
+        "Todos los fixtures del lote son sintéticos.",
+        "Todos los fixtures del lote son sintéticos: ningún corpus autorizado contiene estas construcciones."
+      ],
+      "gate_detail": "........................................................................ [ 83%]\n..............                                                           [100%]\n86 passed in 1.05s\n"
+    },
+    {
+      "module_id": "terminology",
+      "phases": [
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100
+      ],
+      "activation": "dormant_by_default",
+      "corpus_ref": "evals/cases/terminology.md",
+      "gate": {
+        "kind": "pytest",
+        "target": "tests/test_glossary_*.py + tests/test_term_*.py",
+        "command": "python3 -m pytest tests/test_glossary_database.py tests/test_glossary_frontend.py tests/test_glossary_ml_ai.py tests/test_glossary_network.py tests/test_glossary_systems.py tests/test_term_drift.py tests/test_term_precedence.py tests/test_term_profiles.py tests/test_term_provenance.py tests/test_term_report.py -q",
+        "test_files": [
+          "tests/test_glossary_database.py",
+          "tests/test_glossary_frontend.py",
+          "tests/test_glossary_ml_ai.py",
+          "tests/test_glossary_network.py",
+          "tests/test_glossary_systems.py",
+          "tests/test_term_drift.py",
+          "tests/test_term_precedence.py",
+          "tests/test_term_profiles.py",
+          "tests/test_term_provenance.py",
+          "tests/test_term_report.py"
+        ]
+      },
+      "exit_code": 0,
+      "ok": true,
+      "limitations": [
+        "El corpus que lo activa es sintético o inexistente: evals/cases/terminology.md",
+        "Los 11 términos pendientes del corpus Beta (reports/core/PREGUNTAS-PENDIENTES.md §1) no los cubre ninguna herramienta del módulo.",
+        "Los cinco perfiles de dominio son de laboratorio y no los activa ningún glosario real.",
+        "Los cinco perfiles de dominio son de laboratorio: llevan corpus_real false y no los activa ningún glosario real.",
+        "Los fixtures declaran decided_by example-agent, que no es una persona."
+      ],
+      "gate_detail": ".............................................................            [100%]\n61 passed in 0.15s\n"
+    },
+    {
+      "module_id": "language",
+      "phases": [
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110
+      ],
+      "activation": "dormant_by_default",
+      "corpus_ref": "evals/cases/pilot-fr.md",
+      "gate": {
+        "kind": "pytest",
+        "target": "tests/test_*policy*.py + tests/test_*language*.py",
+        "command": "python3 -m pytest tests/test_citations_policy.py tests/test_detect_language.py tests/test_eval_fr.py tests/test_language_matrix.py tests/test_locale_policy.py tests/test_mixed_profile.py tests/test_pilot_fr.py tests/test_regional_eval.py tests/test_reviewer_policy.py tests/test_rtl_policy.py tests/test_source_language_policy_fr.py -q",
+        "test_files": [
+          "tests/test_citations_policy.py",
+          "tests/test_detect_language.py",
+          "tests/test_eval_fr.py",
+          "tests/test_language_matrix.py",
+          "tests/test_locale_policy.py",
+          "tests/test_mixed_profile.py",
+          "tests/test_pilot_fr.py",
+          "tests/test_regional_eval.py",
+          "tests/test_reviewer_policy.py",
+          "tests/test_rtl_policy.py",
+          "tests/test_source_language_policy_fr.py"
+        ]
+      },
+      "exit_code": 0,
+      "ok": true,
+      "limitations": [
+        "El corpus del par es CC0 derivado, no un volcado de Nextcloud real.",
+        "El corpus que lo activa es sintético o inexistente: evals/cases/pilot-fr.md",
+        "El render RTL no está comprobado: solo se preservan los bytes Unicode.",
+        "Fases 103, 109 y 110 sin firma nativa de revisor: 1 par humano de 3 exigidos.",
+        "La revisión del par fr -> es es asistida: la fase 103 lleva el aviso hasta que un nativo en francés firme."
+      ],
+      "gate_detail": "........................................................................ [ 87%]\n..........                                                               [100%]\n82 passed in 7.98s\n"
+    },
+    {
+      "module_id": "scale",
+      "phases": [
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120
+      ],
+      "activation": "dormant_by_default",
+      "corpus_ref": "evals/cases/scale.md",
+      "gate": {
+        "kind": "pytest",
+        "target": "tests/test_*concurren*.py + tests/test_*cache*.py + tests/test_gate_scale.py",
+        "command": "python3 -m pytest tests/test_concurrency_policy.py tests/test_coordinator.py tests/test_gate_scale.py tests/test_invalidate_cache.py tests/test_measure_execution.py tests/test_reviewer_protocol.py tests/test_schedule_packets.py tests/test_serial_fallback.py tests/test_translation_cache.py tests/test_worker_protocol.py -q",
+        "test_files": [
+          "tests/test_concurrency_policy.py",
+          "tests/test_coordinator.py",
+          "tests/test_gate_scale.py",
+          "tests/test_invalidate_cache.py",
+          "tests/test_measure_execution.py",
+          "tests/test_reviewer_protocol.py",
+          "tests/test_schedule_packets.py",
+          "tests/test_serial_fallback.py",
+          "tests/test_translation_cache.py",
+          "tests/test_worker_protocol.py"
+        ]
+      },
+      "exit_code": 0,
+      "ok": true,
+      "limitations": [
+        "El backoff exponencial y la cola FIFO que describe concurrency-policy.md no están implementados.",
+        "El backoff exponencial y la cola FIFO que describe concurrency-policy.md no están implementados; el módulo solo pausa por señal y conserva candidatos ya escritos.",
+        "El corpus completo no se ha ejecutado: reports/execution_profile_full.json no existe.",
+        "El modo concurrente no se ha ejecutado sobre material real: gate_scale solo se ha probado con manifiestos sintéticos.",
+        "El muestreador de CI corre sobre 30 documentos, no sobre el corpus completo.",
+        "gate_scale.py solo se ha probado con manifiestos sintéticos, no sobre ejecuciones reales."
+      ],
+      "gate_detail": "........................................................................ [ 97%]\n..                                                                       [100%]\n74 passed in 6.65s\n"
+    },
+    {
+      "module_id": "review",
+      "phases": [
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130
+      ],
+      "activation": "dormant_by_default",
+      "corpus_ref": "evals/cases/review.md",
+      "gate": {
+        "kind": "pytest",
+        "target": "tests/test_*report*.py + tests/test_gate_review.py",
+        "command": "python3 -m pytest tests/test_approval_freshness.py tests/test_decision_schema.py tests/test_detect_residual_language.py tests/test_eval_back_translation.py tests/test_gate_review.py tests/test_group_inconsistencies.py tests/test_log_redaction.py tests/test_prioritize_findings.py tests/test_render_bilingual.py tests/test_report_accessibility.py -q",
+        "test_files": [
+          "tests/test_approval_freshness.py",
+          "tests/test_decision_schema.py",
+          "tests/test_detect_residual_language.py",
+          "tests/test_eval_back_translation.py",
+          "tests/test_gate_review.py",
+          "tests/test_group_inconsistencies.py",
+          "tests/test_log_redaction.py",
+          "tests/test_prioritize_findings.py",
+          "tests/test_render_bilingual.py",
+          "tests/test_report_accessibility.py"
+        ]
+      },
+      "exit_code": 0,
+      "ok": true,
+      "limitations": [
+        "El corpus que lo activa es sintético o inexistente: evals/cases/review.md",
+        "El módulo 129 (redacción de logs) no tiene check propio en el gate: el código 6 cubre accesibilidad de informes.",
+        "La retrotraducción de la fase 127 solo se ejecuta en modo seco.",
+        "Ningún artefacto de este módulo existe en reports/: solo se ejecutó el detector de idioma residual, con resultado negativo.",
+        "Ningún artefacto de este módulo existe en reports/: solo se ejecutó el detector de idioma residual, y su resultado fue negativo (273 falsos positivos).",
+        "Ningún manifiesto real tiene decisions[] ni approvals[], así que el modo expanded no se ha corrido sobre material real."
+      ],
+      "gate_detail": "..................................................................       [100%]\n66 passed in 1.45s\n"
+    },
+    {
+      "module_id": "delivery",
+      "phases": [
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140
+      ],
+      "activation": "dormant_by_default",
+      "corpus_ref": "evals/cases/delivery.md",
+      "gate": {
+        "kind": "pytest",
+        "target": "tests/test_*delivery*.py + tests/test_export_zip.py",
+        "command": "python3 -m pytest tests/test_adapt_delivery.py tests/test_compare_delivery.py tests/test_delivery_docs.py tests/test_delivery_guide.py tests/test_delivery_matrix.py tests/test_export_zip.py tests/test_gate_delivery.py tests/test_import_evidence.py -q",
+        "test_files": [
+          "tests/test_adapt_delivery.py",
+          "tests/test_compare_delivery.py",
+          "tests/test_delivery_docs.py",
+          "tests/test_delivery_guide.py",
+          "tests/test_delivery_matrix.py",
+          "tests/test_export_zip.py",
+          "tests/test_gate_delivery.py",
+          "tests/test_import_evidence.py"
+        ]
+      },
+      "exit_code": 0,
+      "ok": true,
+      "limitations": [
+        "El corpus que lo activa es sintético o inexistente: evals/cases/delivery.md",
+        "El segundo destino es un adaptador interno y declara real_app_evidence false.",
+        "Fase 139 sin destino de entrega real distinto del árbol canónico.",
+        "Fases 131-133 sin evidencia de importación real en Notion.",
+        "La evidencia de activación es un corpus sintético declarado, no material real.",
+        "Nadie ha importado en Notion: remote_status sigue en no_verificado."
+      ],
+      "gate_detail": ".......................................................................  [100%]\n71 passed in 6.64s\n"
+    },
+    {
+      "module_id": "maintenance",
+      "phases": [
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150
+      ],
+      "activation": "opt_in",
+      "corpus_ref": "evals/cases/maintenance.md",
+      "gate": {
+        "kind": "pytest",
+        "target": "tests/ (fases 141-148)",
+        "command": "python3 -m pytest tests/test_audit_docs.py tests/test_compare_parser.py tests/test_gate_optional.py tests/test_manifest_migration.py tests/test_model_variation.py tests/test_optional_activation.py tests/test_optional_deactivation.py tests/test_portability.py tests/test_purge_workdir.py tests/test_regression_cases.py tests/test_regression_registry.py tests/test_release_docs_0_4_0.py tests/test_versioning_policy.py -q",
+        "test_files": [
+          "tests/test_audit_docs.py",
+          "tests/test_compare_parser.py",
+          "tests/test_gate_optional.py",
+          "tests/test_manifest_migration.py",
+          "tests/test_model_variation.py",
+          "tests/test_optional_activation.py",
+          "tests/test_optional_deactivation.py",
+          "tests/test_portability.py",
+          "tests/test_purge_workdir.py",
+          "tests/test_regression_cases.py",
+          "tests/test_regression_registry.py",
+          "tests/test_release_candidate.py",
+          "tests/test_release_docs_0_4_0.py",
+          "tests/test_versioning_policy.py"
+        ],
+        "excluded_tests": [
+          {
+            "path": "tests/test_release_candidate.py",
+            "reason": "valida el candidato que este script escribe; se ejecuta aparte"
+          }
+        ]
+      },
+      "exit_code": 0,
+      "ok": true,
+      "limitations": [
+        "El corpus que lo activa es sintético o inexistente: evals/cases/maintenance.md",
+        "El gate extendido (149) se ejecuta aparte: necesita el candidato que este script construye.",
+        "Este módulo no es opcional en la práctica: sus herramientas comprueban el release y no se pueden apagar.",
+        "Los 22 casos de regresión son sintéticos: sus hashes no corresponden a ningún artefacto real.",
+        "Los casos de regresión son sintéticos: sus hashes no corresponden a artefactos reales.",
+        "Windows queda en design_only y la variación entre modelos tiene una sola ejecución registrada."
+      ],
+      "gate_detail": "........................................................................ [ 27%]\n........................................................................ [ 54%]\n........................................................................ [ 81%]\n.................................................                        [100%]\n265 passed in 27.40s\n"
+    }
+  ],
+  "not_required": [
+    {
+      "option": "delivery.enabled",
+      "default": "false",
+      "reason": "La exportación y la adaptación local siguen siendo opt-in por perfil."
+    },
+    {
+      "option": "html.enabled",
+      "default": "false",
+      "reason": "El HTML embebido se clasifica pero no se adapta sin activar el módulo."
+    },
+    {
+      "option": "mdx.enabled",
+      "default": "false",
+      "reason": "MDX se clasifica con el contrato aplicado; sin corpus declarado no se activa."
+    },
+    {
+      "option": "admonitions.enabled",
+      "default": "false",
+      "reason": "Las directivas ::: solo bloquean sin activar el módulo."
+    },
+    {
+      "option": "definition_lists.enabled",
+      "default": "false",
+      "reason": "Sin corpus que las contenga, no hay qué activar."
+    },
+    {
+      "option": "directives.enabled",
+      "default": "false",
+      "reason": "Una directiva desconocida bloquea el archivo; activarla solo cambia el trato."
+    },
+    {
+      "option": "wikilinks.enabled",
+      "default": "false",
+      "reason": "Los wikilinks reales del corpus son rutas dentro de código; no se traducen."
+    },
+    {
+      "option": "terminology.enabled",
+      "default": "false",
+      "reason": "Ningún perfil de dominio tiene corpus real que lo justifique."
+    },
+    {
+      "option": "mixed_profile.enabled",
+      "default": "false",
+      "reason": "El perfil mixto exige una segunda fuente separada; no entra en este release."
+    },
+    {
+      "option": "rtl.enabled",
+      "default": "false",
+      "reason": "La política RTL está escrita y probada, pero su activación requiere corpus propio."
+    },
+    {
+      "option": "locale",
+      "default": "es",
+      "reason": "Elegir variante regional exige corpus_ref y justification desde el perfil 1.1.0."
+    },
+    {
+      "option": "mermaid labels",
+      "default": "preservados",
+      "reason": "Las etiquetas Mermaid no se traducen en el núcleo."
+    },
+    {
+      "option": "frontmatter traducible",
+      "default": "preserve",
+      "reason": "El frontmatter se preserva literal por política."
+    },
+    {
+      "option": "gate_review.py --mode expanded",
+      "default": "basic",
+      "reason": "La revisión ampliada exige --justification con un corpus concreto."
+    },
+    {
+      "option": "run_concurrent.py",
+      "default": "run_serial.py",
+      "reason": "El modo serie es el valor por defecto; el concurrente se invoca a mano."
+    }
+  ],
+  "open_external_items": [
+    {
+      "id": "notion_import_evidence",
+      "phases": [
+        131,
+        132,
+        133
+      ],
+      "reason": "No existe importación real comprobada en Notion: solo el checklist y el contrato.",
+      "owner": "usuario",
+      "procedure": "Importar una muestra con references/delivery-notion-checklist.md y registrar la evidencia con scripts/record_import_evidence.py.",
+      "blocking_scope": "remote_verification_claim"
+    },
+    {
+      "id": "second_delivery_destination",
+      "phases": [
+        139
+      ],
+      "reason": "No hay un destino de entrega real distinto del árbol canónico.",
+      "owner": "usuario",
+      "procedure": "Elegir un destino de references/delivery-matrix.md y ejecutar una entrega real.",
+      "blocking_scope": "remote_verification_claim"
+    },
+    {
+      "id": "native_reviewer_signature",
+      "phases": [
+        103,
+        109,
+        110
+      ],
+      "reason": "Firmas de revisor nativo pendientes: 1 par humano de 3 exigidos.",
+      "owner": "revisor humano",
+      "procedure": "Revisar la muestra bilingüe y registrar la decisión en el manifiesto.",
+      "blocking_scope": "human_signature"
+    },
+    {
+      "id": "live_back_translation",
+      "phases": [
+        127
+      ],
+      "reason": "La retrotraducción solo se ha ejecutado en modo seco.",
+      "owner": "usuario",
+      "procedure": "Ejecutar eval_back_translation.py en modo live con el proveedor autorizado.",
+      "blocking_scope": "human_signature"
+    },
+    {
+      "id": "second_model_run",
+      "phases": [
+        145
+      ],
+      "reason": "Solo hay una ejecución real registrada; la comparación entre modelos necesita dos.",
+      "owner": "usuario",
+      "procedure": "Traducir el piloto con otro modelo y registrarlo con scripts/record_model_run.py.",
+      "blocking_scope": "human_signature"
+    },
+    {
+      "id": "windows_execution",
+      "phases": [
+        147
+      ],
+      "reason": "Windows queda en design_only: no hay máquina ni imagen para ejecutarlo.",
+      "owner": "equipo de mantenimiento",
+      "procedure": "Ejecutar la suite en Windows y adjuntar el informe de sonda.",
+      "blocking_scope": "human_signature"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "release_contract.json",
+      "sha256": "d6030de19267056eb493a24c9daff8775d90018616e6cd3f6a5bd1554bac74f5"
+    },
+    {
+      "path": "evals/regression/registry.json",
+      "sha256": "d075dc90069141bf3a008186e4cbe9481926719fc3a07826811577faccadd52e"
+    },
+    {
+      "path": "reports/maintenance/regression.json",
+      "sha256": "5a640fc49d6ced4f4293f7998b0b8d40508d165e40c5e136897c3b3bd5457529"
+    },
+    {
+      "path": "reports/maintenance/versioning.json",
+      "sha256": "7a487d16de62b741066b33a17e00ffa3b8d5923bf8277910ec1054705acafa78"
+    },
+    {
+      "path": "reports/maintenance/parser_comparison.json",
+      "sha256": "66cb70a8b21a97a67792947ea0098b320084a20349f30835e5d9fb087ef54371"
+    },
+    {
+      "path": "reports/maintenance/model_runs/run-0000d3mo.json",
+      "sha256": "a3ed22c4fe091c00ec581389c34514cdb7eca866da4f0cc2b2e8693e295785a4"
+    },
+    {
+      "path": "reports/maintenance/docs_audit.json",
+      "sha256": "fbe97cc2be64a18c11edfe2165c1226a79c4b0d4f04b522c17c6c3d3bcd56da3"
+    },
+    {
+      "path": "reports/maintenance/platform_probe.json",
+      "sha256": "07899676eb9d04910045e6c4502c6cc70d2efd9888ce30c23cb4ae86eaac20cc"
+    },
+    {
+      "path": "reports/maintenance/portability_matrix.json",
+      "sha256": "ff8462591394e54974f07cdff755652d8223e7bf0fb398abe4b5d967685d4e00"
+    }
+  ],
+  "claims_not_made": [
+    "No se afirma equivalencia semántica de la traducción.",
+    "No se afirma que nada se haya importado en Notion ni en ningún destino remoto.",
+    "No se afirma que la salida sea reproducible bit a bit entre ejecuciones del modelo.",
+    "No se afirma portabilidad en Windows: esa fila está en design_only.",
+    "No se afirma cobertura del corpus remoto del usuario: la fidelidad se evalúa sobre los Markdown recibidos.",
+    "No se activa ningún módulo opcional por defecto."
+  ]
+}

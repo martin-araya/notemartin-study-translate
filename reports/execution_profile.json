@@ -1,0 +1,39 @@
+{
+  "pair": "en-es",
+  "corpus_root": "/var/folders/hr/sbmrj9lj3_n56qv4b37q4y540000gn/T/kilo/sample-scale-11-5",
+  "started_at": "2026-10-20T14:18:13Z",
+  "finished_at": "2026-10-20T14:18:14Z",
+  "duration_sec": 0.5658,
+  "metrics": {
+    "files": 5,
+    "bytes": 34980,
+    "segments": 204,
+    "translatable_prose_segments": 99,
+    "packets": 6,
+    "segments_per_sec": 360.5336,
+    "bytes_per_sec": 61820.9067,
+    "step_durations_sec": {
+      "inventory": 0.0248,
+      "prepare": 0.069,
+      "detect_language": 0.446,
+      "packetize": 0.0258
+    }
+  },
+  "provider_known": false,
+  "cost_unknown": true,
+  "tokens_estimated": null,
+  "cost_estimated_usd": null,
+  "sample": {
+    "files_sampled": 5,
+    "total_files": 30,
+    "reason": "sample<N para CI; ver evals/cases/corpus-full.md",
+    "seed": 11
+  },
+  "host": {
+    "system": "Darwin",
+    "release": "25.6.0",
+    "machine": "arm64",
+    "python": "3.9.6"
+  },
+  "notes": "Perfil de ejecución del núcleo. Los costos del proveedor son null por política (AGENTS.md §1). Active --provider con un valor conocido para registrarlo en futuras pasadas; los costos siguen siendo null hasta que el proveedor los exponga."
+}

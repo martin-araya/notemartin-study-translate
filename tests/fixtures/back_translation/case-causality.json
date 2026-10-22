@@ -1,0 +1,9 @@
+{
+  "case_id": "bt-causality",
+  "category": "false_negative",
+  "source_text": "Trigger a rollback because the deploy failed.",
+  "translated_text": "El deploy falla, dispara un rollback.",
+  "expected_outcome": "comp_should_disagree",
+  "expected_should_be_caught": true,
+  "notes": "La causalidad se invierte; el comparador no detecta el cambio 'because' que justifica el rollback."
+}

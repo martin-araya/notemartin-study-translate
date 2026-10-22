@@ -1,0 +1,346 @@
+{
+  "generated_at": "2026-10-21T00:41:20Z",
+  "source_root": "/Users/martin/Desktop/projects/notemartin-beta-oracle/source",
+  "output_root": "/Users/martin/Desktop/projects/notemartin-beta-oracle/output/staged",
+  "copied": [
+    {
+      "path": "oracle/resúmenes/assets/04_Get_Started/p025_xI1.jpg",
+      "sha256": "489d3f2444d04ef0650b17fd1fb0514e10d3051b427df5ead244c311e18b709a",
+      "bytes": 65269
+    },
+    {
+      "path": "oracle/resúmenes/assets/05_Generate_Vector_Embeddings/p006_fb00.png",
+      "sha256": "31fe5749281c8af22b9abf6bc6ad5346722d3cdc904eb495bc349d968390a3b8",
+      "bytes": 62833
+    },
+    {
+      "path": "oracle/resúmenes/assets/05_Generate_Vector_Embeddings/p116_fb00.png",
+      "sha256": "0690345bccc8b2be6dc7f44408148056eb6cebc482175c6bdaa1eba8f7cc7702",
+      "bytes": 126878
+    },
+    {
+      "path": "oracle/resúmenes/assets/05_Generate_Vector_Embeddings/p116_fb01.png",
+      "sha256": "fe21dbb3edc92c0df2b4b9aa7497eef2b3d4d31bdbdda9292e459e915413d571",
+      "bytes": 111832
+    },
+    {
+      "path": "oracle/resúmenes/assets/05_Generate_Vector_Embeddings/p117_fb00.png",
+      "sha256": "628c1dbae108c31668e1077ac237603127a2601fecfb1b26d51dc8d71ccf43b9",
+      "bytes": 119955
+    },
+    {
+      "path": "oracle/resúmenes/assets/05_Generate_Vector_Embeddings/p118_fb00.png",
+      "sha256": "e4bf9c9e713082b7ccf59d7f6e1ec1b9f51a6d12df3f01d67d7c3a7c38d6ad89",
+      "bytes": 106600
+    },
+    {
+      "path": "oracle/resúmenes/assets/05_Generate_Vector_Embeddings/p119_fb00.png",
+      "sha256": "48fd1df3b0a1fc75870412d5e3f7cb22aecebcaa27950e86b3d2ad715471cd03",
+      "bytes": 117624
+    },
+    {
+      "path": "oracle/resúmenes/assets/05_Generate_Vector_Embeddings/p120_fb00.png",
+      "sha256": "99161beb07d1c55c32b93c9e45fc5ddee38038184540751f41bdedef830a6a9c",
+      "bytes": 109935
+    },
+    {
+      "path": "oracle/resúmenes/assets/05_Generate_Vector_Embeddings/p121_fb00.png",
+      "sha256": "ff2ebd4db9960c5304c7d9e9dd78b5b981a127f8be7277a8b636d83c22124dba",
+      "bytes": 107557
+    },
+    {
+      "path": "oracle/resúmenes/assets/05_Generate_Vector_Embeddings/p122_fb00.png",
+      "sha256": "36171f14d919b331ab5d5b0af2b635e968bd1c9e911db9f89e18a354ec2c5bf8",
+      "bytes": 113942
+    },
+    {
+      "path": "oracle/resúmenes/assets/05_Generate_Vector_Embeddings/p123_fb00.png",
+      "sha256": "4271efeecc7b565562c06640c808a78f117480a746daa993b91fdff138b157fe",
+      "bytes": 117245
+    },
+    {
+      "path": "oracle/resúmenes/assets/05_Generate_Vector_Embeddings/p124_fb00.png",
+      "sha256": "41b477310a2f1009ddeaf89326ee1f461303dfc9b8a31f5aa76498bdd17864a5",
+      "bytes": 113293
+    },
+    {
+      "path": "oracle/resúmenes/assets/05_Generate_Vector_Embeddings/p125_fb00.png",
+      "sha256": "6614cc387cd5ac213a7276be85a38da97d4f78df0f2d09eaf12d4e17e02e8b1c",
+      "bytes": 117094
+    },
+    {
+      "path": "oracle/resúmenes/assets/05_Generate_Vector_Embeddings/p126_fb00.png",
+      "sha256": "07e33f914e83f385f151367e99b9d698b591883b0d5efaea912eb60a15aceeb6",
+      "bytes": 107690
+    },
+    {
+      "path": "oracle/resúmenes/assets/05_Generate_Vector_Embeddings/p127_fb00.png",
+      "sha256": "2951bdbb77d107201c87d448d3d7960154491778cbea38161e8c1cbc20ceacdb",
+      "bytes": 111672
+    },
+    {
+      "path": "oracle/resúmenes/assets/05_Generate_Vector_Embeddings/p128_fb00.png",
+      "sha256": "97b9cf335d78d04848bb820b04b5b831b40cf992469e38286064b778694317ec",
+      "bytes": 112369
+    },
+    {
+      "path": "oracle/resúmenes/assets/05_Generate_Vector_Embeddings/p129_fb00.png",
+      "sha256": "d4d438b4de5640de43bd3f647a35a81ed8abd34e6faeaec9da949bb593b6733c",
+      "bytes": 113305
+    },
+    {
+      "path": "oracle/resúmenes/assets/05_Generate_Vector_Embeddings/p130_fb00.png",
+      "sha256": "8a7872b9f883a9eabd560e9e941d69143f654a5c5ecde2c6843fbf4b0913d072",
+      "bytes": 107735
+    },
+    {
+      "path": "oracle/resúmenes/assets/05_Generate_Vector_Embeddings/p131_fb00.png",
+      "sha256": "e2c4474e5cc5c0e88fdf28b2f46f4c5b1900759f4e2c58238074467c57e989da",
+      "bytes": 193446
+    },
+    {
+      "path": "oracle/resúmenes/assets/07_Create_Vector_Indexes/p002_xI1.jpg",
+      "sha256": "a8e4d819b3d77bc898ae2f183eb57a9b7870269e58edd41bd82f2bf61e5539ac",
+      "bytes": 91093
+    },
+    {
+      "path": "oracle/resúmenes/assets/07_Create_Vector_Indexes/p007_xI1.png",
+      "sha256": "637056cf4dd5c7a9e5c60ca94770efb3e305c38672ca0a1931153c4f9d674b46",
+      "bytes": 281781
+    },
+    {
+      "path": "oracle/resúmenes/assets/07_Create_Vector_Indexes/p008_xI1.jpg",
+      "sha256": "d8a36de533e0cb2c6ab7e7f29e532b68d8abbdfcf2fdb0dad5e72de2a47a54ef",
+      "bytes": 99171
+    },
+    {
+      "path": "oracle/resúmenes/assets/07_Create_Vector_Indexes/p009_xI1.png",
+      "sha256": "e022d636413ce6d43064188527b7da6ce2b44241963bcb857022fed7ebaf0ace",
+      "bytes": 1074864
+    },
+    {
+      "path": "oracle/resúmenes/assets/07_Create_Vector_Indexes/p010_xI1.png",
+      "sha256": "40254adc22eb387f4e5258b4beb4ed7f2e5f0f4720feee4a8b636e1f183b2af3",
+      "bytes": 1074864
+    },
+    {
+      "path": "oracle/resúmenes/assets/07_Create_Vector_Indexes/p014_xI1.png",
+      "sha256": "9165034fed695b5b78f74f1aeb43416c27f881c6f393119d55a418add67b5fc1",
+      "bytes": 1489473
+    },
+    {
+      "path": "oracle/resúmenes/assets/07_Create_Vector_Indexes/p015_xI1.png",
+      "sha256": "87ad07f2ef519922bf4ba41fb29c4798ffc27e0d20a51511fa4bd6e622f1c8df",
+      "bytes": 2296320
+    },
+    {
+      "path": "oracle/resúmenes/assets/07_Create_Vector_Indexes/p034_xI1.jpg",
+      "sha256": "670c9a5ee9e5b05a55d0a1a6098270f3eae2a6fe7c831b5e26a639b17b43e2fd",
+      "bytes": 66121
+    },
+    {
+      "path": "oracle/resúmenes/assets/07_Create_Vector_Indexes/p035_xI1.png",
+      "sha256": "cc32f0c803d1e2d0faa4b86cb5b87f7a63fd8723a09b62ff2d1f1dcc4a324f47",
+      "bytes": 1795092
+    },
+    {
+      "path": "oracle/resúmenes/assets/07_Create_Vector_Indexes/p035_xI2.png",
+      "sha256": "54b03a300d364bfcbc87dfc3104783bf8bcd49637c0509cc3898b5fcf97c76cf",
+      "bytes": 1798125
+    },
+    {
+      "path": "oracle/resúmenes/assets/07_Create_Vector_Indexes/p036_xI1.png",
+      "sha256": "0209d5668cb37d3e94a7de7dff2379b9e9b51f4be0d3c989fc2ac4fd1f6695fb",
+      "bytes": 1790502
+    },
+    {
+      "path": "oracle/resúmenes/assets/07_Create_Vector_Indexes/p037_xI1.png",
+      "sha256": "948491b5252ced279d01e90a865b99c99fa873185cfd09aea81ce7b8c02f1c76",
+      "bytes": 1798992
+    },
+    {
+      "path": "oracle/resúmenes/assets/07_Create_Vector_Indexes/p037_xI2.png",
+      "sha256": "2f3dc651f6a43629e4d0776acf163921d5dcea4268b16ac01a5646d5042c4640",
+      "bytes": 1788480
+    },
+    {
+      "path": "oracle/resúmenes/assets/07_Create_Vector_Indexes/p038_xI1.png",
+      "sha256": "8ae871756d5ca178df19b34490dd3ea8667201213e2639f385868c68e69533d7",
+      "bytes": 1792206
+    },
+    {
+      "path": "oracle/resúmenes/assets/07_Create_Vector_Indexes/p040_fb00.png",
+      "sha256": "04900043f4fa29181234ba7405563d176a2b9bcaa7c088659e1109d8080ae3ca",
+      "bytes": 436299
+    },
+    {
+      "path": "oracle/resúmenes/assets/07_Create_Vector_Indexes/p041_fb00.png",
+      "sha256": "0ae0e174b75bb46f45639de8ce74acae2a1422ae8c3d98f0ce7f926113d8db9c",
+      "bytes": 691863
+    },
+    {
+      "path": "oracle/resúmenes/assets/07_Create_Vector_Indexes/p053_xI1.png",
+      "sha256": "12c13e98133b4434289e3e618d9b1ba49836b4cf2ce130092f57a73631474013",
+      "bytes": 2246940
+    },
+    {
+      "path": "oracle/resúmenes/assets/07_Create_Vector_Indexes/p054_xI1.png",
+      "sha256": "e613916af7802b70efe03af85a043f22048069c960828b576f35add461cc657e",
+      "bytes": 2474556
+    },
+    {
+      "path": "oracle/resúmenes/assets/07_Create_Vector_Indexes/p054_xI2.png",
+      "sha256": "388a02a7b4afbbed077f77b70f39b3f4d2cec7fef4e3b8a8c7561f41b1dea083",
+      "bytes": 2401182
+    },
+    {
+      "path": "oracle/resúmenes/assets/07_Create_Vector_Indexes/p055_xI1.png",
+      "sha256": "badc797909e697733d2c426a1c74cdc5e132eaf254ad023e236689305d742f37",
+      "bytes": 2201550
+    },
+    {
+      "path": "oracle/resúmenes/assets/07_Create_Vector_Indexes/p062_fb00.png",
+      "sha256": "a703d235516623f26c3e42ed4c4f419cbaf7ba6dc6f8899aadfcd5cf4f49b09f",
+      "bytes": 87427
+    },
+    {
+      "path": "oracle/resúmenes/assets/07_Create_Vector_Indexes/p080_fb00.png",
+      "sha256": "5c82e75ca7128c46121203bb65613f40ec8135654ddb9808646c3e7aa58dacd3",
+      "bytes": 292736
+    },
+    {
+      "path": "oracle/resúmenes/assets/08_SQL_Functions_Vector_Operations/p004_xI1.png",
+      "sha256": "8225abb30c74fd6e96d52c3784b6da00a504f8a0a9c092d885f1c8888189ba21",
+      "bytes": 338640
+    },
+    {
+      "path": "oracle/resúmenes/assets/08_SQL_Functions_Vector_Operations/p005_xI1.png",
+      "sha256": "3d6e434ff71b90dd079976463a30fd0b10441c85e4a0c7e6315f8d180c63d8cf",
+      "bytes": 2340030
+    },
+    {
+      "path": "oracle/resúmenes/assets/08_SQL_Functions_Vector_Operations/p006_fb00.png",
+      "sha256": "6b269bfcdfe94f30692ece0c8433ab8e275a859f0193ab63198584f9a572e101",
+      "bytes": 64845
+    },
+    {
+      "path": "oracle/resúmenes/assets/08_SQL_Functions_Vector_Operations/p007_xI1.png",
+      "sha256": "09bcd358683960acb6bbea20e63961b8d791b2f21cf88596af09bb3f9b476910",
+      "bytes": 910569
+    },
+    {
+      "path": "oracle/resúmenes/assets/08_SQL_Functions_Vector_Operations/p008_xI1.png",
+      "sha256": "758f9550bd2376c3b32b22ab7217b4cfa636b48d276a43afff6f63041399b7a6",
+      "bytes": 740727
+    },
+    {
+      "path": "oracle/resúmenes/assets/08_SQL_Functions_Vector_Operations/p009_xI1.png",
+      "sha256": "1b1cbaab30f8db74e67b45c4254639dcb46b21f8d22c465af80ee9228d3df941",
+      "bytes": 1006056
+    },
+    {
+      "path": "oracle/resúmenes/assets/08_SQL_Functions_Vector_Operations/p042_xI1.png",
+      "sha256": "6d43ce1d1367247656377d4b652a2a99ebf4b6048e9e759849bdb82ae068ea63",
+      "bytes": 1916730
+    },
+    {
+      "path": "oracle/resúmenes/assets/08_SQL_Functions_Vector_Operations/p044_xI1.png",
+      "sha256": "c7d681ec2e47860c3125219248fec8838df7cd63c78408a08792f68c769665f5",
+      "bytes": 370548
+    },
+    {
+      "path": "oracle/resúmenes/assets/08_SQL_Functions_Vector_Operations/p046_xI1.png",
+      "sha256": "ed3293b12bb5eb50ec023fccd4531f2acd9d8444dab5a0d4fa4cfb21e9481923",
+      "bytes": 793440
+    },
+    {
+      "path": "oracle/resúmenes/assets/09_Query_Similarity_Hybrid_Searches/p001_xI1.png",
+      "sha256": "5088286945d38c1b752729ed30a4768794380f6d215f4970b3c7f1a5a052d056",
+      "bytes": 896940
+    },
+    {
+      "path": "oracle/resúmenes/assets/09_Query_Similarity_Hybrid_Searches/p004_xI1.png",
+      "sha256": "8927fda8c86e8fcdc711189e71df2e2c51c6afee0ed10f8f5507f641216d1110",
+      "bytes": 303282
+    },
+    {
+      "path": "oracle/resúmenes/assets/09_Query_Similarity_Hybrid_Searches/p004_xI2.png",
+      "sha256": "59812e24a50d8bfa89d6d67414fea1cb86a25e3bff43f1ca1379afc474fba601",
+      "bytes": 339729
+    },
+    {
+      "path": "oracle/resúmenes/assets/09_Query_Similarity_Hybrid_Searches/p005_xI1.png",
+      "sha256": "7d1c827637adda630efcf77e80d14271d30d2e5c915e5e6c8ae416fdc2b6f41e",
+      "bytes": 342342
+    },
+    {
+      "path": "oracle/resúmenes/assets/09_Query_Similarity_Hybrid_Searches/p005_xI2.png",
+      "sha256": "a3fb07cdee7ec89a31526b490cf779c89e3e9702fd91b30c911db762e483158d",
+      "bytes": 452235
+    },
+    {
+      "path": "oracle/resúmenes/assets/09_Query_Similarity_Hybrid_Searches/p036_xI1.png",
+      "sha256": "a3d758400315309475abacedb36b0a08af7efda2c851ba4c93695dca5fd77fda",
+      "bytes": 310635
+    },
+    {
+      "path": "oracle/resúmenes/assets/09_Query_Similarity_Hybrid_Searches/p037_xI1.png",
+      "sha256": "a37d61f0066395e609606d4adf76813c502010109877c4825bd41c938cf2b545",
+      "bytes": 354960
+    },
+    {
+      "path": "oracle/resúmenes/assets/09_Query_Similarity_Hybrid_Searches/p038_xI1.png",
+      "sha256": "7acbc87003be1e7069af2ba8b1aac5b7423863548bd81ebbee7e08d315af4bb5",
+      "bytes": 400302
+    },
+    {
+      "path": "oracle/resúmenes/assets/09_Query_Similarity_Hybrid_Searches/p040_fb00.png",
+      "sha256": "16b583af5aef40e55ddfcd2871403f01616d1bf16f0b9d855c5aeaa4b3f4c2ea",
+      "bytes": 220664
+    },
+    {
+      "path": "oracle/resúmenes/assets/09_Query_Similarity_Hybrid_Searches/p044_fb00.png",
+      "sha256": "965061a67b83e86247616bcb60455905f663b46da77f9e6556d276481e840dcd",
+      "bytes": 163038
+    },
+    {
+      "path": "oracle/resúmenes/assets/09_Query_Similarity_Hybrid_Searches/p045_fb00.png",
+      "sha256": "8b00db125ad2d4f308869700e481d066e82d4f0229f3f4d73fcaad29027b464c",
+      "bytes": 85032
+    },
+    {
+      "path": "oracle/resúmenes/assets/09_Query_Similarity_Hybrid_Searches/p047_fb00.png",
+      "sha256": "7b37210c683625f713d52fcc82c3b48d8b09fc45d3b75a3adf86e2efc9ee6cf6",
+      "bytes": 150913
+    },
+    {
+      "path": "oracle/resúmenes/assets/09_Query_Similarity_Hybrid_Searches/p048_xI1.png",
+      "sha256": "ec9e61705b24c5943fec35c55fd754523faee968da0cf8c6ac3af5d021377e2f",
+      "bytes": 2348097
+    },
+    {
+      "path": "oracle/resúmenes/assets/10_LLM_APIs_and_RAG/p030_xI1.jpg",
+      "sha256": "9066bee383233ba690384f1a99c4027ac573d44d8440f5e24bd631c9bba5c875",
+      "bytes": 103912
+    },
+    {
+      "path": "oracle/resúmenes/assets/10_LLM_APIs_and_RAG/p036_xI1.jpg",
+      "sha256": "9066bee383233ba690384f1a99c4027ac573d44d8440f5e24bd631c9bba5c875",
+      "bytes": 103912
+    },
+    {
+      "path": "oracle/resúmenes/assets/10_LLM_APIs_and_RAG/p041_xI1.jpg",
+      "sha256": "43b2e35335f84fdc5cbe706051da5c22f09df80943493adeb761dff3783c487d",
+      "bytes": 90849
+    }
+  ],
+  "hash_mismatches": [],
+  "missing": [],
+  "external": [],
+  "summary": {
+    "copied": 66,
+    "mismatches": 0,
+    "missing": 0,
+    "external": 0
+  }
+}

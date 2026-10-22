@@ -1,0 +1,9 @@
+{
+  "case_id": "bt-quantifier",
+  "category": "false_positive",
+  "source_text": "All five servers must restart.",
+  "translated_text": "Los cinco servidores deben reiniciarse.",
+  "expected_outcome": "agree_match",
+  "expected_should_be_caught": false,
+  "notes": "Comparador acierta porque ``five`` → ``cinco`` se preserva y ``servers`` también."
+}

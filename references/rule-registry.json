@@ -1,0 +1,63 @@
+{
+  "registry_version": "1",
+  "purpose": "Valores canónicos que varios documentos repiten. Si un documento declara un valor distinto del que dice el registro, el documento se contradice con el resto del proyecto (fase 146).",
+  "scan_targets": [
+    "SKILL.md",
+    "RELEASE.md",
+    "CHANGELOG.md",
+    "roadmap.md",
+    "references/*.md",
+    "templates/*.md",
+    "evals/**/*.md"
+  ],
+  "rules": [
+    {
+      "key": "skill_name",
+      "kind": "value",
+      "value": "notemartin-study-translate",
+      "pattern": "notemartin-study-(?!notes\\b)[a-z0-9\\-]+",
+      "source_of_truth": "SKILL.md frontmatter"
+    },
+    {
+      "key": "parser_version",
+      "kind": "value",
+      "value": "3.0.0",
+      "pattern": "markdown-it-py[\\s\\S]{0,40}?(\\d+\\.\\d+\\.\\d+)",
+      "source_of_truth": "release_contract.json parser.pinned"
+    },
+    {
+      "key": "anchor_algorithm",
+      "kind": "value",
+      "value": "github-slug-v1",
+      "pattern": "github-slug-v\\d+",
+      "source_of_truth": "release_contract.json y references/markdown-contract.md"
+    },
+    {
+      "key": "manifest_version_or_origin",
+      "kind": "enum",
+      "pattern": "translate/v\\d+",
+      "source_of_truth": "schemas/manifest.schema.json",
+      "values": [
+        "translate/v1",
+        "translate/v0"
+      ],
+      "note": "translate/v0 solo puede aparecer como origen de una migración; el valor vigente lo fija schemas/manifest.schema.json."
+    },
+    {
+      "key": "remote_status",
+      "kind": "enum",
+      "values": [
+        "no_verificado",
+        "verificado_con_evidencia"
+      ],
+      "pattern": "remote_status[\"']?\\s*[:=]\\s*[\"']([a-z_]+)[\"']",
+      "source_of_truth": "schemas/import_evidence.schema.json"
+    }
+  ],
+  "forbidden_remote_claims": [
+    "importación verificada en Notion",
+    "soportado en Notion",
+    "verificado en Notion",
+    "importado en Notion con éxito"
+  ]
+}

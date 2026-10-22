@@ -1,0 +1,14 @@
+{
+  "responses_received": 16,
+  "packets_accepted": 16,
+  "packets_with_findings": 0,
+  "documents_written": 2,
+  "documents_written_by_path": {
+    "tailwindcss/styling-with-utility-classes.md": "doc-37ae577e",
+    "tailwindcss/hover-focus-and-other-states.md": "doc-c9c3c06c"
+  },
+  "segments_accepted": 37,
+  "findings_by_kind": {},
+  "findings": [],
+  "applied": true
+}

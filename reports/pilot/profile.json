@@ -1,0 +1,31 @@
+{
+  "target_language": "es",
+  "source_language": "auto",
+  "markdown_dialect": "commonmark+gfm",
+  "slug_algorithm": { "name": "github", "version": "v1" },
+  "code_preservation": "strict",
+  "frontmatter_policy": "preserve",
+  "bilingual_policy": "first-mention-per-document",
+  "punctuation_preference": "es-comma-period",
+  "review_mode": "assisted",
+  "paths": {
+    "source_root": "/Users/martin/Desktop/projects/notemartin-pilot/source",
+    "work_root": "/Users/martin/Desktop/projects/notemartin-pilot/work",
+    "output_root": "/Users/martin/Desktop/projects/notemartin-pilot/output"
+  },
+  "exclusions": [],
+  "context_budget": 1500,
+  "model_metadata": {
+    "provider": "kilo",
+    "model": "minimax-coding-plan/MiniMax-M3",
+    "prompt_version": "1.0.0"
+  },
+  "mdx": {
+    "enabled": true,
+    "contract_path": "references/mdx-contract.md"
+  },
+  "html": {
+    "enabled": true,
+    "contract_path": "references/html-contract.md"
+  }
+}

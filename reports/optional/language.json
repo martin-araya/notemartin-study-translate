@@ -1,0 +1,149 @@
+{
+  "module_id": "language",
+  "generated_at": "2026-10-22T17:58:50Z",
+  "gate": "scripts/gate_optional.py",
+  "gate_exit_code": 0,
+  "phases": {
+    "from": 101,
+    "to": 110
+  },
+  "activation": "dormant_by_default",
+  "default_enabled": false,
+  "activation_option": "mixed_profile.enabled, locale",
+  "corpus_ref": "evals/cases/pilot-fr.md",
+  "corpus_real": false,
+  "justification": "El par fr -> es tiene corpus CC0 declarado, una política de idioma de origen y una política de citas; el perfil fr-es-experimental-v1 lo exige para activarse.",
+  "criteria": {
+    "1_activacion_con_corpus": {
+      "passed": true,
+      "detail": {
+        "corpus_ref": "evals/cases/pilot-fr.md",
+        "schema_enforced": true
+      }
+    },
+    "2_contrato_y_politica_de_fallo": {
+      "passed": true,
+      "detail": {
+        "contract_paths": 6,
+        "entrypoint": "scripts/detect_language.py",
+        "exit_codes": [
+          0,
+          2
+        ]
+      }
+    },
+    "3_casos_positivos_y_negativos": {
+      "passed": true,
+      "detail": {
+        "declared": 11,
+        "matched_by_prefix": 11,
+        "undeclared": [],
+        "missing": [],
+        "evidence_tests": {
+          "activation_negative_test": {
+            "nodeid": "tests/test_optional_activation.py::test_declarar_una_variante_regional_exige_corpus",
+            "exists": true,
+            "detail": "test_declarar_una_variante_regional_exige_corpus"
+          },
+          "deactivation_test": {
+            "nodeid": "tests/test_optional_deactivation.py::test_desactivacion_mixed_profile",
+            "exists": true,
+            "detail": "test_desactivacion_mixed_profile"
+          }
+        }
+      },
+      "test_runs": {
+        "exit_code": 0,
+        "files": 11
+      }
+    },
+    "4_regresion_del_nucleo": {
+      "passed": true,
+      "core_suite_exit_code": 0,
+      "core_suite_source": "reports/core/pytest.json",
+      "undeclared_dependencies": []
+    },
+    "desactivacion_sin_efectos": {
+      "passed": true,
+      "detail": {
+        "nodeid": "tests/test_optional_deactivation.py::test_desactivacion_mixed_profile",
+        "status": "pass",
+        "exit_code": 0
+      }
+    },
+    "consistencia_con_el_candidato": {
+      "passed": true,
+      "detail": {
+        "status": "checked",
+        "candidate": "reports/maintenance/release_candidate.json",
+        "modules_in_candidate": [
+          "core",
+          "delivery",
+          "html",
+          "language",
+          "maintenance",
+          "markdown-extensions",
+          "mdx",
+          "review",
+          "scale",
+          "terminology"
+        ],
+        "not_required": [
+          "admonitions.enabled",
+          "definition_lists.enabled",
+          "delivery.enabled",
+          "directives.enabled",
+          "frontmatter traducible",
+          "gate_review.py --mode expanded",
+          "html.enabled",
+          "locale",
+          "mdx.enabled",
+          "mermaid labels",
+          "mixed_profile.enabled",
+          "rtl.enabled",
+          "run_concurrent.py",
+          "terminology.enabled",
+          "wikilinks.enabled"
+        ]
+      }
+    }
+  },
+  "contract_paths": [
+    "references/source-language-policy-fr.md",
+    "references/citations-policy.md",
+    "references/locale-policy.md",
+    "references/rtl-policy.md",
+    "references/reviewer-policy.md",
+    "references/dialect-profiles.md"
+  ],
+  "test_files": [
+    "tests/test_citations_policy.py",
+    "tests/test_detect_language.py",
+    "tests/test_eval_fr.py",
+    "tests/test_language_matrix.py",
+    "tests/test_locale_policy.py",
+    "tests/test_mixed_profile.py",
+    "tests/test_pilot_fr.py",
+    "tests/test_regional_eval.py",
+    "tests/test_reviewer_policy.py",
+    "tests/test_rtl_policy.py",
+    "tests/test_source_language_policy_fr.py"
+  ],
+  "limitations": [
+    "La revisión del par fr -> es es asistida: la fase 103 lleva el aviso hasta que un nativo en francés firme.",
+    "El corpus del par es CC0 derivado, no un volcado de Nextcloud real.",
+    "El render RTL no está comprobado: solo se preservan los bytes Unicode."
+  ],
+  "known_external_gaps": [
+    {
+      "id": "native_reviewer_signature",
+      "reason": "Fases 103, 109 y 110 sin firma nativa: 1 par humano de 3 exigidos.",
+      "owner": "revisor humano",
+      "procedure": "Revisar la muestra bilingüe y registrar la decisión en manifest.reviewers[] con reviewer_status human_approved.",
+      "blocking_scope": "human_signature"
+    }
+  ],
+  "core_delegations": [],
+  "failing_checks": {},
+  "note": "Este archivo lo escribe el gate que comprueba los cuatro criterios. No demuestra equivalencia semántica ni ejecución sobre el corpus real; dice lo que el gate midió."
+}

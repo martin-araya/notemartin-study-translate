@@ -1,0 +1,12 @@
+{
+  "generated_at": "2026-10-22T17:54:59Z",
+  "root": "/Users/martin/Desktop/projects/Skills/notemartin-study-translate",
+  "registry": "/Users/martin/Desktop/projects/Skills/notemartin-study-translate/references/rule-registry.json",
+  "ok": true,
+  "failures": {},
+  "counts": {
+    "documents": 85,
+    "references": 61,
+    "rules": 5
+  }
+}

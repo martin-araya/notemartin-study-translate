@@ -1,0 +1,156 @@
+{
+  "seed": 42,
+  "count": 30,
+  "files": [
+    {
+      "path": "angular/api/aria/accordion/ACCORDION_GROUP.md",
+      "sha256_short": "5e73ede0e9841368",
+      "size": 306
+    },
+    {
+      "path": "angular/api/common/NgSwitch.md",
+      "sha256_short": "ac44158e6c306d95",
+      "size": 3455
+    },
+    {
+      "path": "angular/api/common/PopStateEvent.md",
+      "sha256_short": "6ca528ca5e45a6f1",
+      "size": 542
+    },
+    {
+      "path": "angular/api/common/getLocaleFirstDayOfWeek.md",
+      "sha256_short": "6cf58163afbb4b9e",
+      "size": 2056
+    },
+    {
+      "path": "angular/api/common/http/HttpClientModule.md",
+      "sha256_short": "2ead11758621e900",
+      "size": 1380
+    },
+    {
+      "path": "angular/api/forms/RadioControlValueAccessor.md",
+      "sha256_short": "02979e949b4e386a",
+      "size": 3021
+    },
+    {
+      "path": "angular/api/forms/signals/LogicFn.md",
+      "sha256_short": "80d1a3fb14885fc0",
+      "size": 500
+    },
+    {
+      "path": "angular/api/forms/signals/email.md",
+      "sha256_short": "94118bc5769b191b",
+      "size": 1013
+    },
+    {
+      "path": "angular/api/platform-browser/withEventReplay.md",
+      "sha256_short": "77f86f3d0bb787a3",
+      "size": 905
+    },
+    {
+      "path": "angular/best-practices/runtime-performance.md",
+      "sha256_short": "aabaff3c0f291a1d",
+      "size": 1609
+    },
+    {
+      "path": "angular/guide/forms/signals/cross-field-logic.md",
+      "sha256_short": "f6bebffada973066",
+      "size": 12365
+    },
+    {
+      "path": "code-visualstudio/agents/agent-troubleshooting/faq.md",
+      "sha256_short": "a3fdc68a61359a7f",
+      "size": 21839
+    },
+    {
+      "path": "dart/index-2.md",
+      "sha256_short": "03efd0cc5ab0c291",
+      "size": 4363
+    },
+    {
+      "path": "dart/language/built-in-types.md",
+      "sha256_short": "9fd4031d6f4e3d0e",
+      "size": 298
+    },
+    {
+      "path": "dart/language/methods.md",
+      "sha256_short": "8440e1eb5681a619",
+      "size": 284
+    },
+    {
+      "path": "dart/tools/jetbrains-plugin.md",
+      "sha256_short": "0918d133de8ed88c",
+      "size": 320
+    },
+    {
+      "path": "developer-mozilla/How_to/Layout_cookbook/Column_layouts.md",
+      "sha256_short": "c43af467cc280428",
+      "size": 11387
+    },
+    {
+      "path": "developer-mozilla/Reference/Properties/text-wrap.md",
+      "sha256_short": "6bb4ca994c9457f5",
+      "size": 11353
+    },
+    {
+      "path": "developer-mozilla/Reference/Selectors/:-moz-handler-crashed.md",
+      "sha256_short": "106371d986c43999",
+      "size": 2221
+    },
+    {
+      "path": "developer-mozilla/Reference/Selectors/:-moz-last-node.md",
+      "sha256_short": "0e569c97004cea98",
+      "size": 2824
+    },
+    {
+      "path": "docs-flutter/platform-integration/ios/ios-debugging.md",
+      "sha256_short": "54102727a11de1c7",
+      "size": 111
+    },
+    {
+      "path": "nextjs/15/app/guides/testing/jest.md",
+      "sha256_short": "a2240237986f4014",
+      "size": 7925
+    },
+    {
+      "path": "nextjs/15/pages/api-reference/cli/index.md",
+      "sha256_short": "0205aa9a6fd0c516",
+      "size": 849
+    },
+    {
+      "path": "nextjs/15/pages/api-reference/components/image.md",
+      "sha256_short": "f8f2adfee925983f",
+      "size": 48513
+    },
+    {
+      "path": "nextjs/app/api-reference/config/next-config-js/sassOptions.md",
+      "sha256_short": "0aea71e72ce4cfcb",
+      "size": 1129
+    },
+    {
+      "path": "nextjs/pages/guides/upgrading/version-9.md",
+      "sha256_short": "59b370608ffc59b8",
+      "size": 7223
+    },
+    {
+      "path": "robyn/en/example_app/index.md",
+      "sha256_short": "7c8eb58b3c866de2",
+      "size": 2000
+    },
+    {
+      "path": "robyn/en/example_app/openapi.md",
+      "sha256_short": "5e9db2c71d81df32",
+      "size": 5070
+    },
+    {
+      "path": "tailwindcss/filter.md",
+      "sha256_short": "e1443444a2dcb3f4",
+      "size": 119
+    },
+    {
+      "path": "typescriptlang/handbook/utility-types.md",
+      "sha256_short": "99bff4e5069d25b6",
+      "size": 17144
+    }
+  ]
+}

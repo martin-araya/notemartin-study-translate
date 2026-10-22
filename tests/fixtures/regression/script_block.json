@@ -1,0 +1,10 @@
+{
+  "case_id": "script_block",
+  "case": {},
+  "positive": {
+    "document": "El ejemplo muestra un fragmento dentro de código protegido:\n\n```html\n<script>alert(1)</script>\n```\n\nEse bloque no se traduce.\n"
+  },
+  "negative": {
+    "document": "El ejemplo incrusta un script activo en la prosa:\n\n<script>alert(1)</script>\n\nEsa construcción queda bloqueada.\n"
+  }
+}

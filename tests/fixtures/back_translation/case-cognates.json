@@ -1,0 +1,9 @@
+{
+  "case_id": "bt-false-positive-cognates",
+  "category": "false_positive",
+  "source_text": "Application state must reset on failure recovery.",
+  "translated_text": "El estado de la aplicación debe reiniciarse en la recuperación de fallos.",
+  "expected_outcome": "comp_should_disagree",
+  "expected_should_be_caught": true,
+  "notes": "Cognados ``application`` y ``state`` producen un acuerdo espurio; la retrotraducción no detecta ningún cambio."
+}

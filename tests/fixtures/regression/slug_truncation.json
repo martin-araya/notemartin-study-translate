@@ -1,0 +1,12 @@
+{
+  "case_id": "slug_truncation",
+  "case": {
+    "slug_limit": 256
+  },
+  "positive": {
+    "heading": "Install the agent on a single host"
+  },
+  "negative": {
+    "heading": "Install the agent on a single host with a very long descriptive heading that keeps growing until the generated anchor identifier is silently shortened by the truncation rule declared in the markdown contract for anchors longer than the supported slug limit"
+  }
+}

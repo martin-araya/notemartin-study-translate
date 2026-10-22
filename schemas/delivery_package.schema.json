@@ -1,0 +1,151 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://notemartin-study-translate.local/schemas/delivery_package.schema.json",
+  "x-schema-version": "1.0.0",
+  "title": "Manifiesto de paquete de entrega (fases 135-136)",
+  "description": "Describe el contenido exacto de un paquete ZIP de entrega: miembros, hash de cada uno, exclusiones justificadas y estado de la verificación remota. La guía de entrega vive fuera del paquete y su ruta se declara aquí solo como referencia, nunca como miembro.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "package_id",
+    "run_id",
+    "destination_id",
+    "created_at",
+    "top_level_dir",
+    "source_tree",
+    "members",
+    "excluded",
+    "guide_outside_package",
+    "remote_status"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "const": "1"
+    },
+    "package_id": {
+      "description": "Identificador del paquete. Se deriva del run_id y el destino.",
+      "type": "string",
+      "minLength": 1
+    },
+    "run_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "destination_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "top_level_dir": {
+      "description": "Directorio único que envuelve a todos los miembros.",
+      "type": "string",
+      "minLength": 1
+    },
+    "source_tree": {
+      "description": "Árbol del que se extraen los miembros. Canónico o adaptado.",
+      "type": "string",
+      "minLength": 1
+    },
+    "adaptation": {
+      "description": "Reglas aplicadas cuando el paquete viene de un árbol adaptado.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["applied_rules", "profile_id"],
+      "properties": {
+        "profile_id": { "type": "string", "minLength": 1 },
+        "applied_rules": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "degradation_report_ref": { "type": "string" }
+      }
+    },
+    "members": {
+      "description": "Cada miembro del ZIP con su hash. El orden es estable y forma parte del contrato.",
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/member" }
+    },
+    "excluded": {
+      "description": "Elementos presentes en el árbol pero fuera del paquete, con motivo.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["path", "reason"],
+        "properties": {
+          "path": { "type": "string", "minLength": 1 },
+          "reason": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
+    "guide_outside_package": {
+      "description": "Debe ser true: la guía no se importa como documentación del producto.",
+      "type": "boolean"
+    },
+    "guide_path": {
+      "description": "Ruta de la guía de entrega, fuera del paquete y fuera del árbol importable.",
+      "type": "string"
+    },
+    "remote_status": {
+      "description": "Estado de la verificación remota aportada por el usuario.",
+      "type": "string",
+      "enum": ["no_verificado", "verificado_con_evidencia"]
+    },
+    "zip_sha256": {
+      "description": "Hash del archivo ZIP completo. Lo añade el exportador.",
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    }
+  },
+  "$defs": {
+    "member": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["path", "sha256", "bytes", "kind"],
+      "properties": {
+        "path": {
+          "description": "Ruta relativa POSIX dentro del ZIP, incluyendo el directorio raíz.",
+          "type": "string",
+          "minLength": 1
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "bytes": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "kind": {
+          "type": "string",
+          "enum": ["document", "resource"]
+        }
+      },
+      "not": {
+        "anyOf": [
+          {
+            "properties": {
+              "path": { "pattern": "(^|/)\\.\\.(/|$)" }
+            }
+          },
+          {
+            "properties": {
+              "path": { "pattern": "^/" }
+            }
+          },
+          {
+            "properties": {
+              "path": { "pattern": "^[A-Za-z]:[\\\\/]" }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

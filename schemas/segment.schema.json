@@ -1,0 +1,257 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://notemartin-study-translate.local/schemas/segment.schema.json",
+  "x-schema-version": "1.0.0",
+  "title": "Segmento traducible",
+  "description": "Modelo de un segmento traducible extraído de un archivo Markdown. Las coordenadas byte_range se corresponden con offsets reales en los bytes originales. La regla de no partir secuencias UTF-8 se aplica por el validador de implementación y por los tests (test_literals, test_markdown); JSON Schema 2020-12 no puede imponer alineación a límites de codepoint.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "document_id",
+    "path",
+    "source_hash",
+    "segments"
+  ],
+  "properties": {
+    "document_id": {
+      "description": "Identificador estable del archivo: doc-XXXXXXXX donde XXXXXXXX son los primeros 8 hex del SHA-256 de los bytes originales.",
+      "type": "string",
+      "pattern": "^doc-[0-9a-f]{8}$"
+    },
+    "path": {
+      "description": "Ruta relativa del archivo dentro del source_root.",
+      "type": "string",
+      "minLength": 1
+    },
+    "source_hash": {
+      "description": "SHA-256 hex (64 caracteres) de los bytes originales.",
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "source_size": {
+      "description": "Tamaño del archivo original en bytes. Útil para validar byte_range.end.",
+      "type": "integer",
+      "minimum": 0
+    },
+    "segments": {
+      "description": "Lista de segmentos extraídos en orden de aparición.",
+      "type": "array",
+      "items": { "$ref": "#/$defs/segment" }
+    }
+  },
+  "$defs": {
+    "segment": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "segment_id",
+        "structural_type",
+        "byte_range",
+        "line_range"
+      ],
+      "properties": {
+        "segment_id": {
+          "description": "Identificador estable del segmento. Cambia si la fuente cambia.",
+          "type": "string",
+          "pattern": "^seg-[0-9a-f]{8}$"
+        },
+        "structural_type": {
+          "description": "Tipo estructural del segmento.",
+          "type": "string",
+          "enum": [
+            "paragraph",
+            "heading",
+            "list_item",
+            "table",
+            "blockquote",
+            "code_fenced",
+            "code_indented",
+            "code_inline",
+            "link",
+            "image",
+            "html_inline",
+            "html_block",
+            "anchor",
+            "frontmatter",
+            "marker",
+            "inline"
+          ]
+        },
+        "byte_range": {
+          "description": "Offsets absolutos en bytes del archivo original. El límite UTF-8 lo verifica el validador externo.",
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["start", "end"],
+          "properties": {
+            "start": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "end": {
+              "type": "integer",
+              "minimum": 0
+            }
+          }
+        },
+        "line_range": {
+          "description": "Rango de líneas 0-indexado.",
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["start", "end"],
+          "properties": {
+            "start": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "end": {
+              "type": "integer",
+              "minimum": 0
+            }
+          }
+        },
+        "heading_path": {
+          "description": "Encabezados padres hasta el nivel 1 inclusive.",
+          "type": "array",
+          "items": { "$ref": "#/$defs/heading_ref" }
+        },
+        "translatable_text": {
+          "description": "Texto a traducir. Vacío para marcadores puramente estructurales como code_fenced.",
+          "type": "string"
+        },
+        "language": {
+          "description": "Lenguaje declarado para code_fenced.",
+          "type": "string"
+        },
+        "protected_literals": {
+          "description": "Literales protegidos dentro del rango del segmento.",
+          "type": "array",
+          "items": { "$ref": "#/$defs/literal" }
+        },
+        "citation_type": {
+          "description": "Tipo de cita según references/citations-policy.md. Solo aplica a blockquote, paragraph o heading. Ausente si no clasificado o no aplicable.",
+          "type": "string",
+          "enum": [
+            "contractual",
+            "technical_literal",
+            "translatable_prose",
+            "unknown"
+          ]
+        },
+        "detected_language": {
+          "description": "Idioma detectado por segmento (es, en, fr, code, empty, unknown, other). Véase scripts/detect_language.py.",
+          "type": "string"
+        },
+        "declared_language": {
+          "description": "Idioma declarado en profile o frontmatter para este archivo, si difiere del detectado.",
+          "type": "string"
+        },
+        "text_direction": {
+          "description": "Dirección de escritura detectada por segmento según references/rtl-policy.md (fase 108). Ausente si no clasificado o no aplicable.",
+          "type": "string",
+          "enum": ["ltr", "rtl", "mixed"]
+        },
+        "digits": {
+          "description": "Sistema numérico dominante en el segmento (fase 108). ascii para 0-9; arabic_indic para U+0660..U+0669; arabic_eastern para U+06F0..U+06F9; other en caso contrario.",
+          "type": "string",
+          "enum": ["ascii", "arabic_indic", "arabic_eastern", "other"]
+        },
+        "references": {
+          "description": "Referencias detectadas en el segmento. Rellenado por la fase de snapshot.",
+          "type": "array",
+          "items": { "$ref": "#/$defs/reference" }
+        }
+      }
+    },
+    "heading_ref": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["level", "text"],
+      "properties": {
+        "level": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 6
+        },
+        "text": {
+          "type": "string"
+        },
+        "byte_range": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["start", "end"],
+          "properties": {
+            "start": { "type": "integer", "minimum": 0 },
+            "end": { "type": "integer", "minimum": 0 }
+          }
+        }
+      }
+    },
+    "literal": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "byte_range"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "code_inline",
+            "code_fenced",
+            "code_indented",
+            "link_destination",
+            "image_destination",
+            "image_alt",
+            "html_inline",
+            "html_block",
+            "anchor",
+            "frontmatter"
+          ]
+        },
+        "byte_range": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["start", "end"],
+          "properties": {
+            "start": { "type": "integer", "minimum": 0 },
+            "end": { "type": "integer", "minimum": 0 }
+          }
+        },
+        "language": {
+          "type": "string"
+        },
+        "value": {
+          "description": "Contenido textual del literal cuando se preserva sin cambio.",
+          "type": "string"
+        }
+      }
+    },
+    "reference": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "target"],
+      "properties": {
+        "kind": {
+          "type": "string",
+          "enum": ["internal", "external"]
+        },
+        "target": {
+          "type": "string"
+        },
+        "anchor": {
+          "type": "string"
+        },
+        "text": {
+          "type": "string"
+        },
+        "byte_range": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["start", "end"],
+          "properties": {
+            "start": { "type": "integer", "minimum": 0 },
+            "end": { "type": "integer", "minimum": 0 }
+          }
+        }
+      }
+    }
+  }
+}

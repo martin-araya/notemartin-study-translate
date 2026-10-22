@@ -1,0 +1,94 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://notemartin-study-translate.local/schemas/execution_profile.schema.json",
+  "x-schema-version": "1.0.0",
+  "title": "Perfil de ejecución",
+  "description": "Tiempos y conteos observables de una pasada del núcleo. Los campos sensibles al proveedor (tokens, costos) quedan en null cuando el proveedor no los expone, según references/operation.md y AGENTS.md §1.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "pair",
+    "corpus_root",
+    "started_at",
+    "finished_at",
+    "duration_sec",
+    "metrics",
+    "provider_known",
+    "cost_unknown"
+  ],
+  "properties": {
+    "pair": {
+      "description": "Par de idioma origen-destino.",
+      "type": "string",
+      "minLength": 2
+    },
+    "corpus_root": {
+      "description": "Ruta absoluta del corpus medido.",
+      "type": "string",
+      "minLength": 1
+    },
+    "started_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "finished_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "duration_sec": {
+      "type": "number",
+      "minimum": 0
+    },
+    "metrics": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "files": { "type": "integer", "minimum": 0 },
+        "bytes": { "type": "integer", "minimum": 0 },
+        "segments": { "type": "integer", "minimum": 0 },
+        "packets": { "type": "integer", "minimum": 0 },
+        "translatable_prose_segments": { "type": "integer", "minimum": 0 },
+        "segments_per_sec": { "type": "number", "minimum": 0 },
+        "bytes_per_sec": { "type": "number", "minimum": 0 },
+        "step_durations_sec": {
+          "type": "object",
+          "additionalProperties": { "type": "number", "minimum": 0 }
+        }
+      }
+    },
+    "provider_known": {
+      "description": "Indica si el proveedor/modelo del agente está identificado. false cuando no se conoce.",
+      "type": "boolean"
+    },
+    "cost_unknown": {
+      "description": "true cuando el costo (USD, tokens) no se mide ni se infiere. AGENTS.md §1 lo exige.",
+      "type": "boolean"
+    },
+    "tokens_estimated": {
+      "description": "Conteo de tokens estimado por el provider o null cuando el proveedor no lo expone. Nunca se inventa.",
+      "type": ["number", "null"]
+    },
+    "cost_estimated_usd": {
+      "description": "Costo estimado en USD o null cuando el proveedor no lo expone. Nunca se inventa.",
+      "type": ["number", "null"]
+    },
+    "sample": {
+      "description": "Muestreo aplicado. null cuando se mide el corpus entero; un objeto con `files_sampled`, `total_files`, `reason` cuando se muestrea.",
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "properties": {
+        "files_sampled": { "type": "integer", "minimum": 1 },
+        "total_files": { "type": "integer", "minimum": 1 },
+        "reason": { "type": "string", "minLength": 1 },
+        "seed": { "type": "integer" }
+      }
+    },
+    "host": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "notes": {
+      "type": "string"
+    }
+  }
+}

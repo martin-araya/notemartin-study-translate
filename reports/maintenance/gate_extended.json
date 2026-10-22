@@ -1,0 +1,84 @@
+{
+  "generated_at": "2026-10-22T17:58:11Z",
+  "candidate_version": "0.4.0",
+  "ok": true,
+  "failures": {},
+  "checks": {
+    "1": "regresion_permanente",
+    "2": "versionado",
+    "3": "migracion_manifiesto",
+    "4": "parser_promovido",
+    "5": "afirmacion_remota_sin_evidencia",
+    "6": "auditoria_documental",
+    "7": "portabilidad_sin_evidencia",
+    "8": "retencion_y_trazabilidad",
+    "9": "regresion_del_nucleo"
+  },
+  "open_external_items": [
+    {
+      "id": "notion_import_evidence",
+      "phases": [
+        131,
+        132,
+        133
+      ],
+      "reason": "No existe importación real comprobada en Notion: solo el checklist y el contrato.",
+      "owner": "usuario",
+      "procedure": "Importar una muestra con references/delivery-notion-checklist.md y registrar la evidencia con scripts/record_import_evidence.py.",
+      "blocking_scope": "remote_verification_claim"
+    },
+    {
+      "id": "second_delivery_destination",
+      "phases": [
+        139
+      ],
+      "reason": "No hay un destino de entrega real distinto del árbol canónico.",
+      "owner": "usuario",
+      "procedure": "Elegir un destino de references/delivery-matrix.md y ejecutar una entrega real.",
+      "blocking_scope": "remote_verification_claim"
+    },
+    {
+      "id": "native_reviewer_signature",
+      "phases": [
+        103,
+        109,
+        110
+      ],
+      "reason": "Firmas de revisor nativo pendientes: 1 par humano de 3 exigidos.",
+      "owner": "revisor humano",
+      "procedure": "Revisar la muestra bilingüe y registrar la decisión en el manifiesto.",
+      "blocking_scope": "human_signature"
+    },
+    {
+      "id": "live_back_translation",
+      "phases": [
+        127
+      ],
+      "reason": "La retrotraducción solo se ha ejecutado en modo seco.",
+      "owner": "usuario",
+      "procedure": "Ejecutar eval_back_translation.py en modo live con el proveedor autorizado.",
+      "blocking_scope": "human_signature"
+    },
+    {
+      "id": "second_model_run",
+      "phases": [
+        145
+      ],
+      "reason": "Solo hay una ejecución real registrada; la comparación entre modelos necesita dos.",
+      "owner": "usuario",
+      "procedure": "Traducir el piloto con otro modelo y registrarlo con scripts/record_model_run.py.",
+      "blocking_scope": "human_signature"
+    },
+    {
+      "id": "windows_execution",
+      "phases": [
+        147
+      ],
+      "reason": "Windows queda en design_only: no hay máquina ni imagen para ejecutarlo.",
+      "owner": "equipo de mantenimiento",
+      "procedure": "Ejecutar la suite en Windows y adjuntar el informe de sonda.",
+      "blocking_scope": "human_signature"
+    }
+  ],
+  "external_items_do_not_block_local_release": true
+}

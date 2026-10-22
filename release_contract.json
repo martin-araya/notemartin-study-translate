@@ -1,0 +1,195 @@
+{
+  "skill_version": "0.4.0",
+  "contracts": [
+    {
+      "id": "C-IN",
+      "version": "translate/v1",
+      "doc": "references/operation.md"
+    },
+    {
+      "id": "C-PROFILE",
+      "version": "translate/v1",
+      "doc": "schemas/profile.schema.json"
+    },
+    {
+      "id": "C-GLOSSARY",
+      "version": "translate/v1",
+      "doc": "schemas/glossary.schema.json"
+    },
+    {
+      "id": "C-SEGMENT",
+      "version": "translate/v1",
+      "doc": "schemas/segment.schema.json"
+    },
+    {
+      "id": "C-RUN",
+      "version": "translate/v1",
+      "doc": "schemas/manifest.schema.json"
+    },
+    {
+      "id": "C-ANCHORS",
+      "version": "translate/v1",
+      "doc": "references/markdown-contract.md"
+    },
+    {
+      "id": "C-OUT",
+      "version": "translate/v1",
+      "doc": "references/delivery-contract.md"
+    }
+  ],
+  "schemas": [
+    {
+      "path": "schemas/cache_entry.schema.json",
+      "version": "1.0.0"
+    },
+    {
+      "path": "schemas/delivery_package.schema.json",
+      "version": "1.0.0"
+    },
+    {
+      "path": "schemas/delivery_profile.schema.json",
+      "version": "1.0.0"
+    },
+    {
+      "path": "schemas/execution_profile.schema.json",
+      "version": "1.0.0"
+    },
+    {
+      "path": "schemas/glossary.schema.json",
+      "version": "1.2.0"
+    },
+    {
+      "path": "schemas/import_evidence.schema.json",
+      "version": "1.0.0"
+    },
+    {
+      "path": "schemas/manifest.schema.json",
+      "version": "1.4.0"
+    },
+    {
+      "path": "schemas/module_declaration.schema.json",
+      "version": "1.0.0"
+    },
+    {
+      "path": "schemas/packet_schedule.schema.json",
+      "version": "1.0.0"
+    },
+    {
+      "path": "schemas/profile.schema.json",
+      "version": "1.1.0"
+    },
+    {
+      "path": "schemas/term_profile.schema.json",
+      "version": "1.0.0"
+    },
+    {
+      "path": "schemas/regression_registry.schema.json",
+      "version": "1.0.0"
+    },
+    {
+      "path": "schemas/release_contract.schema.json",
+      "version": "1.0.0"
+    },
+    {
+      "path": "schemas/segment.schema.json",
+      "version": "1.0.0"
+    },
+    {
+      "path": "schemas/release_candidate.schema.json",
+      "version": "1.0.0"
+    }
+  ],
+  "docs": [
+    {
+      "path": "references/content-audit.md",
+      "version": "1.0.0"
+    },
+    {
+      "path": "references/manifest-migration.md",
+      "version": "1.0.0"
+    },
+    {
+      "path": "references/model-variation.md",
+      "version": "1.0.0"
+    },
+    {
+      "path": "references/optional-modules.md",
+      "version": "1.0.0"
+    },
+    {
+      "path": "references/parser-upgrade.md",
+      "version": "1.0.0"
+    },
+    {
+      "path": "references/portability.md",
+      "version": "1.0.0"
+    },
+    {
+      "path": "references/regression-corpus.md",
+      "version": "1.0.0"
+    },
+    {
+      "path": "references/release-gate.md",
+      "version": "1.0.0"
+    },
+    {
+      "path": "references/versioning-policy.md",
+      "version": "1.0.0"
+    },
+    {
+      "path": "references/workdir-retention.md",
+      "version": "1.0.0"
+    }
+  ],
+  "breaking_changes": [
+    {
+      "id": "manifest-version-required",
+      "phase": 143,
+      "description": "El manifiesto declara manifest_version; los manifiestos anteriores se migran y sus aprobaciones quedan obsoletas.",
+      "migration": "scripts/migrate_manifest.py"
+    },
+    {
+      "id": "glossary-approved-at-declared",
+      "phase": 30,
+      "description": "El glosario declara approved_at, que approve_pilot.py escribe al congelarlo.",
+      "migration": "scripts/approve_pilot.py"
+    },
+    {
+      "id": "profile-corpus-required",
+      "phase": 150,
+      "description": "Un módulo opcional con enabled:true exige corpus_ref y justification. Un perfil que hoy los activa sin declararlos no valida contra profile.schema.json 1.1.0. Los perfiles de ejecuciones ya terminadas no se corrigen: su hash está anclado en el manifiesto y tocarlo invalidaría su aprobación (INV-13); su activación inmotivada queda registrada en evals/cases/<módulo>.md.",
+      "migration": "scripts/migrate_profile.py"
+    },
+    {
+      "id": "manifest-approval-hashes-declared",
+      "phase": 124,
+      "description": "El esquema de manifiesto acepta target_glossary_hash, target_anchor_hash, target_profile_hash y superseded_by en cada aprobación, que approval_freshness.py ya leía y que el esquema rechazaba.",
+      "migration": null
+    },
+    {
+      "id": "glossary-provenance-declared",
+      "phase": 96,
+      "description": "El esquema de glosario acepta el bloque provenance que term_provenance.py ya escribía en cada entrada.",
+      "migration": null
+    }
+  ],
+  "migrations": [
+    {
+      "from": "translate/v0",
+      "to": "translate/v1",
+      "tool": "scripts/migrate_manifest.py"
+    },
+    {
+      "from": "profile/1.0.0",
+      "to": "profile/1.1.0",
+      "tool": "scripts/migrate_profile.py",
+      "note": "Añade corpus_ref y justification a cada módulo opcional activo, tomados del caso de evals/cases/ que lo declara. No cambia ningún otro valor. Los perfiles de ejecuciones terminadas se dejan intactos a propósito: su hash está anclado en el manifiesto."
+    }
+  ],
+  "parser": {
+    "name": "markdown-it-py",
+    "pinned": "3.0.0",
+    "policy": "references/parser-upgrade.md"
+  },
+  "prompt_version": "1.0.0"
+}

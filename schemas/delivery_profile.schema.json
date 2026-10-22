@@ -1,0 +1,113 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://notemartin-study-translate.local/schemas/delivery_profile.schema.json",
+  "x-schema-version": "1.0.0",
+  "title": "Perfil de entrega y adaptación local (fase 134)",
+  "description": "Declara un destino de entrega y las reglas de adaptación que exige. Una regla sin justificación explícita o que declare pérdida de contenido se rechaza. El perfil nunca sustituye a la traducción canónica: solo cambia formato o rutas, y el árbol canónico permanece intacto.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["profile_id", "version", "kind", "activation", "rules", "limitations"],
+  "properties": {
+    "profile_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "kind": {
+      "description": "canonical entrega el Markdown sin adaptar. local_adapter aplica reglas de formato a una copia.",
+      "type": "string",
+      "enum": ["canonical", "local_adapter"]
+    },
+    "activation": {
+      "description": "La adaptación nunca se activa sola.",
+      "type": "string",
+      "enum": ["explicit"]
+    },
+    "canonical": {
+      "description": "Perfil del que parte la adaptación.",
+      "type": "string"
+    },
+    "justification": {
+      "description": "Motivo concreto por el que el corpus necesita esta adaptación.",
+      "type": "string",
+      "minLength": 10
+    },
+    "real_app_evidence": {
+      "description": "true solo si el destino se probó en la aplicación real. Un adaptador interno se declara false.",
+      "type": "boolean"
+    },
+    "default_rules": {
+      "description": "Reglas activas cuando el perfil se aplica sin selección explícita. Vacío significa copia byte a byte.",
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "rules": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/rule" }
+    },
+    "limitations": {
+      "description": "Limitaciones conocidas del destino. Lista no vacía para local_adapter.",
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "cases": {
+      "description": "Casos de prueba que activan el perfil.",
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": { "kind": { "const": "local_adapter" } },
+        "required": ["kind"]
+      },
+      "then": {
+        "required": ["justification", "limitations"]
+      }
+    }
+  ],
+  "$defs": {
+    "rule": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["rule_id", "description", "rationale", "lossiness", "reversible", "scope"],
+      "properties": {
+        "rule_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "description": {
+          "type": "string",
+          "minLength": 10
+        },
+        "rationale": {
+          "description": "Por qué el destino lo exige. Sin justificación la regla se rechaza.",
+          "type": "string",
+          "minLength": 10
+        },
+        "lossiness": {
+          "description": "none no altera el contenido. degraded_documented declara una pérdida acotada y documentada. content_loss se rechaza siempre.",
+          "type": "string",
+          "enum": ["none", "degraded_documented", "content_loss"]
+        },
+        "reversible": {
+          "type": "boolean"
+        },
+        "scope": {
+          "description": "Qué superficie toca la regla.",
+          "type": "string",
+          "enum": ["resource_paths", "resource_names", "document_conventions", "none"]
+        }
+      },
+      "not": {
+        "properties": { "lossiness": { "const": "content_loss" } },
+        "required": ["lossiness"]
+      }
+    }
+  }
+}

@@ -1,0 +1,3513 @@
+{
+  "version": 3,
+  "frozen": true,
+  "allowed_languages": [
+    "es"
+  ],
+  "entries": [
+    {
+      "id": "g-4df9",
+      "source_term": "component",
+      "domain": "angular",
+      "sense": "unidad de UI declarativa que Angular instancia con el decorador @Component",
+      "preferred": {
+        "lang": "es",
+        "term": "componente"
+      },
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-bca7c9b4",
+          "segment_id": "seg-c1ac337f",
+          "before": "injectable service that produces an animation sequence programmatically within an\nAngular ",
+          "after": " or directive.\nProvided by the `BrowserAnimationsModule` or `NoopAnimationsModule`.\nDeprec",
+          "note": "angular/api/animations/AnimationBuilder.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "Tecnicismo asentado de la documentacion en espanol y coherente con el plural 'componentes' que ya usa el corpus.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z",
+      "allowed_variants": [],
+      "forbidden_forms": [
+        "componente Angular"
+      ]
+    },
+    {
+      "id": "g-cd4d",
+      "source_term": "directive",
+      "domain": "angular",
+      "sense": "atributo que anade comportamiento a un elemento del DOM",
+      "preferred": {
+        "lang": "es",
+        "term": "directiva"
+      },
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-bca7c9b4",
+          "segment_id": "seg-c1ac337f",
+          "before": "rvice that produces an animation sequence programmatically within an\nAngular component or ",
+          "after": ".\nProvided by the `BrowserAnimationsModule` or `NoopAnimationsModule`.\nDeprecation warning",
+          "note": "angular/api/animations/AnimationBuilder.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "Se distingue de 'component' y de 'directive' de HTML: son dos sentidos distintos del mismo término ingles, por eso van en entradas separadas.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z",
+      "allowed_variants": [],
+      "forbidden_forms": []
+    },
+    {
+      "id": "g-7f61",
+      "source_term": "injector",
+      "domain": "angular",
+      "sense": "proveedor de dependencias que resuelve instancias",
+      "preferred": {
+        "lang": "es",
+        "term": "inyector"
+      },
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-6f9319e1",
+          "segment_id": "seg-881486eb",
+          "before": "@param\n",
+          "after": "\n`Injector`",
+          "note": "angular/api/cdk/drag-drop/createDragRef.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "El sustantivo es el inyector; 'dependency injection' es el proceso. Confundirlos cambia el sujeto de la frase.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z",
+      "allowed_variants": [],
+      "forbidden_forms": [
+        "inyección"
+      ]
+    },
+    {
+      "id": "g-a4a6",
+      "source_term": "dependency injection",
+      "domain": "angular",
+      "sense": "patron que suministra instancias a un consumidor",
+      "preferred": {
+        "lang": "es",
+        "term": "inyección de dependencias"
+      },
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-600163b8",
+          "segment_id": "seg-37c8bb21",
+          "before": "For an extended example, see [\"",
+          "after": "\nGuide\"](guide/di/hierarchical-dependency-injection#optional).",
+          "note": "angular/api/core/Host.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "Expresion fijada del patron; se conserva el orden de la forma inglesa.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z",
+      "allowed_variants": [],
+      "forbidden_forms": [
+        "inyectado de dependencias"
+      ]
+    },
+    {
+      "id": "g-e80b",
+      "source_term": "pipe",
+      "domain": "angular",
+      "sense": "transformacion declarativa en plantillas",
+      "preferred": {
+        "lang": "es",
+        "term": "pipe"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-33991fd3",
+          "segment_id": "seg-6c4e8140",
+          "before": "",
+          "after": "\nstable\nImpure\n[*code*](https://github.com/angular/angular/blob/main/packages/common/src/p",
+          "note": "angular/api/common/AsyncPipe.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "'Tuberia' es una traduccion literal que se lee como conduccion fisica y confunde. La forma inglesa es la que usa la documentacion en espanol.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-7e3e",
+      "source_term": "guard",
+      "domain": "angular",
+      "sense": "clase que decide si una ruta se activa",
+      "preferred": {
+        "lang": "es",
+        "term": "guard"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-ec933672",
+          "segment_id": "seg-452d363c",
+          "before": "rStream` returns a value,\nso you don't need to use the\nsafe-navigation-operator (`?.`)\nto ",
+          "after": " against null values when accessing properties.\nYou can display an alternative template wh",
+          "note": "angular/api/common/NgIf.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "'Guardia' sugiere vigilancia fisica. Mismo criterio que 'pipe'.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-f99e",
+      "source_term": "resolver",
+      "domain": "angular",
+      "sense": "servicio que obtiene datos antes de activar una ruta",
+      "preferred": {
+        "lang": "es",
+        "term": "resolver"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-94df40b8",
+          "segment_id": "seg-8398072a",
+          "before": "and null if not). This method's existence allows Node objects to be passed as a namespace ",
+          "after": " to XPathEvaluator.createExpression() and XPathEvaluator.evaluate().\n[MDN Reference](https",
+          "note": "angular/api/elements/NgElement.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "Calco no asentado; 'resolver' es lo que ya aparece en la traduccion de la comunidad.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-36ba",
+      "source_term": "interceptor",
+      "domain": "angular",
+      "sense": "servicio que intercepta peticiones o respuestas HTTP",
+      "preferred": {
+        "lang": "es",
+        "term": "interceptor"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-24d67589",
+          "segment_id": "seg-c125d800",
+          "before": "ant\nstable\n[*code*](https://github.com/angular/angular/blob/main/packages/common/http/src/",
+          "after": ".ts#L195-L197)",
+          "note": "angular/api/common/http/HTTP_INTERCEPTORS.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "Mismo criterio que 'pipe' y 'guard': el anglicismo esta asentado y la traduccion literal engaña.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-0485",
+      "source_term": "route",
+      "domain": "angular",
+      "sense": "ruta del enrutador que mapea una URL a un componente",
+      "preferred": {
+        "lang": "es",
+        "term": "ruta"
+      },
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-df0c7afb",
+          "segment_id": "seg-268a71ef",
+          "before": "It's better to use the `Router.navigate()` service to trigger ",
+          "after": " changes. Use\n[`Location`](/api/common/Location) only if you need to interact with or crea",
+          "note": "angular/api/common/Location.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "Termino comun en espanol tecnico, sin ambiguedad con 'router'.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z",
+      "allowed_variants": [],
+      "forbidden_forms": [
+        "route"
+      ]
+    },
+    {
+      "id": "g-e3e9",
+      "source_term": "router",
+      "domain": "angular",
+      "sense": "servicio de enrutamiento, no la ruta individual",
+      "preferred": {
+        "lang": "es",
+        "term": "router"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-df0c7afb",
+          "segment_id": "seg-268a71ef",
+          "before": "It's better to use the `",
+          "after": ".navigate()` service to trigger route changes. Use\n[`Location`](/api/common/Location) only",
+          "note": "angular/api/common/Location.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "Distinto de 'route': es el servicio, no la ruta. Conservar la forma inglesa evita el par 'ruta/enrutador' donde ambos significan lo mismo.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-1eef",
+      "source_term": "state",
+      "domain": "angular",
+      "sense": "datos que un componente mantiene entre renderizados",
+      "preferred": {
+        "lang": "es",
+        "term": "estado"
+      },
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-5aca0edf",
+          "segment_id": "seg-8e3257f9",
+          "before": "The name of the ",
+          "after": " from which the animation is triggered.",
+          "note": "angular/api/animations/AnimationEvent.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "Sentido de interfaz. Distinto del 'state' de un modulo, que tambien aparece en el corpus.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z",
+      "allowed_variants": [],
+      "forbidden_forms": []
+    },
+    {
+      "id": "g-b551",
+      "source_term": "module",
+      "domain": "angular",
+      "sense": "NgModule, agrupacion de declaraciones con su ambito",
+      "preferred": {
+        "lang": "es",
+        "term": "módulo"
+      },
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-f507b7ab",
+          "segment_id": "seg-a7c034c7",
+          "before": "Object that can be used to configure the drag\nitems and drop lists within a ",
+          "after": " or a component.",
+          "note": "angular/api/cdk/drag-drop/DragDropConfig.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "Traduccion directa sin ambiguedad en este corpus.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z",
+      "allowed_variants": [],
+      "forbidden_forms": []
+    },
+    {
+      "id": "g-6177",
+      "source_term": "hook",
+      "domain": "angular",
+      "sense": "funcion que se ejecuta en un momento dado del ciclo de vida",
+      "preferred": {
+        "lang": "es",
+        "term": "hook"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-aa65c3be",
+          "segment_id": "seg-dd7831bc",
+          "before": "A lifecycle ",
+          "after": " that is called after the default change detector has\ncompleted checking all content of a ",
+          "note": "angular/api/core/AfterContentChecked.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "'Gancho' es un calco evidente en espanol tecnico. Mismo tratamiento que 'custom property' en el piloto.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-41f1",
+      "source_term": "signal",
+      "domain": "angular",
+      "sense": "reactividad por valor reactivo",
+      "preferred": {
+        "lang": "es",
+        "term": "señal"
+      },
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-ee1a2c95",
+          "segment_id": "seg-1b7a26de",
+          "before": "d)\n`InputSignal<any>`\n\nA global unique identifier for the panel.\n### [visible](#visible)\n`",
+          "after": "<boolean>`\n\nWhether the accordion panel is visible. True if the associated trigger is expa",
+          "note": "angular/api/aria/accordion/AccordionPanel.md: el término solo aparece como literal en el archivo fuente; su protección es por código, no por el glosario."
+        }
+      ],
+      "justification": "Tecnicismo con equivalente asentado en la documentacion de Angular en espanol.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z",
+      "allowed_variants": [],
+      "forbidden_forms": []
+    },
+    {
+      "id": "g-a947",
+      "source_term": "server component",
+      "domain": "nextjs",
+      "sense": "componente que se ejecuta solo en el servidor",
+      "preferred": {
+        "lang": "es",
+        "term": "componente de servidor"
+      },
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-45b5da81",
+          "segment_id": "seg-01084089",
+          "before": "to work with sensitive data shapes not defined by you\n- Sensitive data is accessed during ",
+          "after": " rendering\n\nIt is recommended to model your data and APIs so that sensitive data is not re",
+          "note": "nextjs/15/app/api-reference/config/next-config-js/taint.md: el término solo aparece como literal en el archivo fuente; su protección es por código, no por el glosario."
+        }
+      ],
+      "justification": "Oponente de 'client component'; traducir solo uno rompe la simetria.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z",
+      "allowed_variants": [
+        "Server Component"
+      ],
+      "forbidden_forms": []
+    },
+    {
+      "id": "g-9d1d",
+      "source_term": "client component",
+      "domain": "nextjs",
+      "sense": "componente que se ejecuta tambien en el navegador",
+      "preferred": {
+        "lang": "es",
+        "term": "componente de cliente"
+      },
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-45b5da81",
+          "segment_id": "seg-8fc7a97e",
+          "before": ", so that it cannot cross a Server-Client boundary. For example, assuming `UserCard` is a ",
+          "after": ".\nTypeScript",
+          "note": "nextjs/15/app/api-reference/config/next-config-js/taint.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "Simetrico del anterior.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z",
+      "allowed_variants": [
+        "Client Component"
+      ],
+      "forbidden_forms": []
+    },
+    {
+      "id": "g-920e",
+      "source_term": "route handler",
+      "domain": "nextjs",
+      "sense": "funcion de servidor que atiende una ruta de API",
+      "preferred": {
+        "lang": "es",
+        "term": "handler de ruta"
+      },
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-edff195b",
+          "segment_id": "seg-dac84449",
+          "before": "and buffers it in memory to enable multiple reads - both in middleware and the underlying ",
+          "after": ". To prevent excessive memory usage, this configuration option sets a size limit on the bu",
+          "note": "nextjs/15/app/api-reference/config/next-config-js/middlewareClientMaxBodySize.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "'Handler' esta asentado; 'controlador' es la alternativa explicita para quien prefiera un termino descriptivo.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z",
+      "allowed_variants": [
+        "controlador de ruta"
+      ],
+      "forbidden_forms": []
+    },
+    {
+      "id": "g-df46",
+      "source_term": "hydration",
+      "domain": "nextjs",
+      "sense": "montaje de la aplicacion en el cliente tras el HTML inicial",
+      "preferred": {
+        "lang": "es",
+        "term": "hidratación"
+      },
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-488b7ae3",
+          "segment_id": "seg-af306152",
+          "before": " recognize those requests as the same\nones and reuse the data cached on the server during ",
+          "after": " on the client.",
+          "note": "angular/api/common/http/HTTP_TRANSFER_CACHE_ORIGIN_MAP.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "Equivalente asentado en la documentacion de Next.js en espanol.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z",
+      "allowed_variants": [],
+      "forbidden_forms": []
+    },
+    {
+      "id": "g-5d96",
+      "source_term": "middleware",
+      "domain": "nextjs",
+      "sense": "codigo que se ejecuta antes de procesar una peticion",
+      "preferred": {
+        "lang": "es",
+        "term": "middleware"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-96caf57e",
+          "segment_id": "seg-a5c7f4d1",
+          "before": "i/common/http/HttpClient).\n[`HttpInterceptorFn`](/api/common/http/HttpInterceptorFn)s are ",
+          "after": " functions which [`HttpClient`](/api/common/http/HttpClient) calls when a request is made.",
+          "note": "angular/api/common/http/HttpInterceptorFn.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "'Software intermedio' es la traduccion literal de Microsoft y engaña en contexto web. La forma inglesa es la usada por el framework.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-804e",
+      "source_term": "rendering",
+      "domain": "nextjs",
+      "sense": "momento y lugar en que se produce el HTML",
+      "preferred": {
+        "lang": "es",
+        "term": "renderizado"
+      },
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-185f48f5",
+          "segment_id": "seg-380e67d6",
+          "before": ", the special animation control binding `@.disabled` binding prevents\nall animations from ",
+          "after": ".\nPlace the  `@.disabled` binding on an element to disable\nanimations on the element itsel",
+          "note": "angular/api/animations/trigger.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "'Renderizacion' es un falso cognado en espanol: no significa 'render'.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z",
+      "allowed_variants": [],
+      "forbidden_forms": [
+        "renderización"
+      ]
+    },
+    {
+      "id": "g-33c8",
+      "source_term": "caching",
+      "domain": "nextjs",
+      "sense": "almacenamiento temporal de respuestas para reutilizarlas",
+      "preferred": {
+        "lang": "es",
+        "term": "caché"
+      },
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-88f1912f",
+          "segment_id": "seg-2262dd42",
+          "before": "Enables ",
+          "after": " for `POST` requests. By default, only `GET` and `HEAD` requests are cached.\nThis option c",
+          "note": "angular/api/common/http/HttpTransferCacheOptions.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "'Cacheo' es un calco evitado; 'caché' esta asentado.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z",
+      "allowed_variants": [
+        "cacheo"
+      ],
+      "forbidden_forms": []
+    },
+    {
+      "id": "g-f1a0",
+      "source_term": "props",
+      "domain": "react",
+      "sense": "propiedades pasadas a un componente",
+      "preferred": {
+        "lang": "es",
+        "term": "props"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-f76b364b",
+          "segment_id": "seg-bde75603",
+          "before": "o Angular. If you're familiar with other web frameworks, input properties are similar to *",
+          "after": "*.\nWhen you use a component, you commonly want to pass some data to it. A component specif",
+          "note": "angular/guide/components/inputs.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "Se usa como sustantivo tecnico en singular y plural; traducirlo rompe la concordancia con la documentacion del framework.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-264c",
+      "source_term": "context",
+      "domain": "react",
+      "sense": "mecanismo para compartir valores por el arbol",
+      "preferred": {
+        "lang": "es",
+        "term": "contexto"
+      },
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-adba920f",
+          "segment_id": "seg-92de968b",
+          "before": "Also note that in such ",
+          "after": ":",
+          "note": "angular/api/animations/transition.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "Traduccion directa y sin ambiguedad en este corpus.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z",
+      "allowed_variants": [],
+      "forbidden_forms": []
+    },
+    {
+      "id": "g-dab3",
+      "source_term": "custom property",
+      "domain": "tailwind",
+      "sense": "variable CSS que el autor declara con prefijo --",
+      "preferred": {
+        "lang": "es",
+        "term": "propiedad personalizada"
+      },
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-cec70caf",
+          "segment_id": "seg-0256cd4e",
+          "before": "In this example, the `--my-background` CSS ",
+          "after": " is bound to the `color` signal. The value of the custom property will automatically updat",
+          "note": "angular/guide/components/host-elements.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "Entra en el glosario v3 con ejemplo real: el piloto la dejo fuera porque no aparecia en segmentos traducibles, y aqui si aparece.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z",
+      "allowed_variants": [],
+      "forbidden_forms": []
+    },
+    {
+      "id": "g-21e9",
+      "source_term": "utility class",
+      "domain": "tailwind",
+      "sense": "clase que aplica una unica utilidad de estilo",
+      "preferred": {
+        "lang": "es",
+        "term": "clase utilitaria"
+      },
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-2135d2dc",
+          "segment_id": "seg-bd4436d3",
+          "before": "a declaratively in templates. When you need the same transformation logic in a service, a ",
+          "after": ", or any other non-template context, **avoid injecting the pipe class**. Pipes are not des",
+          "note": "angular/guide/templates/pipes.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "Unica aparicion en el corpus, pero es la definicion central de Tailwind y aparece en el titulo de la referencia.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z",
+      "allowed_variants": [],
+      "forbidden_forms": []
+    },
+    {
+      "id": "g-9bd0",
+      "source_term": "preset",
+      "domain": "tailwind",
+      "sense": "configuracion lista para usar que ajusta valores por defecto",
+      "preferred": {
+        "lang": "es",
+        "term": "preset"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-5f9b670a",
+          "segment_id": "seg-95401ef2",
+          "before": "\n\n    <button (click)=\"addCity()\">Add City</button>\n    <button (click)=\"setPreset()\">Set ",
+          "after": "</button>\n  `,\n  standalone: false,\n})\nexport class NestedFormArray {\n  form = new FormGro",
+          "note": "angular/api/forms/FormArrayName.md: el término solo aparece como literal en el archivo fuente; su protección es por código, no por el glosario."
+        }
+      ],
+      "justification": "'Preajuste' existe pero casi no se usa; la forma inglesa es la que aparece en la documentacion.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-2011",
+      "source_term": "accessibility",
+      "domain": null,
+      "sense": "disponibilidad de la interfaz para personas con diversidad funcional",
+      "preferred": {
+        "lang": "es",
+        "term": "accesibilidad"
+      },
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-ee1a2c95",
+          "segment_id": "seg-62ea6d76",
+          "before": "is not rendered on the page until the trigger\nis expanded. It applies `role=\"region\"` for ",
+          "after": " and uses the `inert` attribute to hide\nits content from assistive technologies when not v",
+          "note": "angular/api/aria/accordion/AccordionPanel.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "Equivalente asentado; no se anade 'web' porque la fuente no lo lleva.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z",
+      "allowed_variants": [],
+      "forbidden_forms": [
+        "accesibilidad web"
+      ]
+    },
+    {
+      "id": "g-ca5e",
+      "source_term": "deprecated",
+      "domain": null,
+      "sense": "marca de una API que sigue funcionando pero no debe usarse",
+      "preferred": {
+        "lang": "es",
+        "term": "obsoleto"
+      },
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-51940b09",
+          "segment_id": "seg-b12a71bd",
+          "before": "constant\n",
+          "after": "\nsince v20.2\n[*code*](https://github.com/angular/angular/blob/main/packages/animations/src",
+          "note": "angular/api/animations/AUTO_STYLE.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "'Obsoleto' es el termino normal en documentacion en espanol; 'deprecado' queda como variante por si la fuente lo usa.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z",
+      "allowed_variants": [
+        "deprecado"
+      ],
+      "forbidden_forms": []
+    },
+    {
+      "id": "g-adbe",
+      "source_term": "deprecated",
+      "domain": null,
+      "sense": "marca sobre un argumento, no sobre una API completa",
+      "preferred": {
+        "lang": "es",
+        "term": "en desuso"
+      },
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-51940b09",
+          "segment_id": "seg-b12a71bd",
+          "before": "constant\n",
+          "after": "\nsince v20.2\n[*code*](https://github.com/angular/angular/blob/main/packages/animations/src",
+          "note": "angular/api/animations/AUTO_STYLE.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "Segundo sentido del mismo termino: un argumento obsoleto no es una API obsoleta. Entrada separada, no una variante, porque el contexto cambia el sintagma.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z",
+      "allowed_variants": [],
+      "forbidden_forms": []
+    },
+    {
+      "id": "g-b66a",
+      "source_term": "shallow",
+      "domain": null,
+      "sense": "comparacion que solo mira el primer nivel de una estructura",
+      "preferred": {
+        "lang": "es",
+        "term": "superficial"
+      },
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-b126cd3d",
+          "segment_id": "seg-ca9e06f4",
+          "before": " observables in this class only emit when the current and previous values differ based\non ",
+          "after": " equality. For example, changing deeply nested properties in resolved `data` will not\ncaus",
+          "note": "angular/api/router/ActivatedRoute.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "Calco frecuente de la documentacion de frameworks; 'superficial' es el termino asentado.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z",
+      "allowed_variants": [],
+      "forbidden_forms": [
+        "raso"
+      ]
+    },
+    {
+      "id": "g-e82b",
+      "source_term": "build",
+      "domain": null,
+      "sense": "proceso que convierte fuentes en salida ejecutable",
+      "preferred": {
+        "lang": "es",
+        "term": "compilación"
+      },
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-bca7c9b4",
+          "segment_id": "seg-bea57533",
+          "before": "[",
+          "after": "](#build)",
+          "note": "angular/api/animations/AnimationBuilder.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "Depende del contexto: 'build' como sustantivo proceso es 'compilacion'; dentro de un nombre de comando es literal.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z",
+      "allowed_variants": [
+        "build"
+      ],
+      "forbidden_forms": []
+    },
+    {
+      "id": "g-8be8",
+      "source_term": "token",
+      "domain": null,
+      "sense": "unidad lexical de un analizador o del diseno de sistemas",
+      "preferred": {
+        "lang": "es",
+        "term": "token"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-74ad3797",
+          "segment_id": "seg-615df387",
+          "before": "al is simply a consequence of that of their parent they\nshould be queried via a different ",
+          "after": " in their parent's `:enter`/`:leave` transitions).\nThe only elements Angular assumes can e",
+          "note": "angular/api/animations/query.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "'Ficha' es la traduccion de otra area; en estos frameworks el token es el termino tecnico.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-58e9",
+      "source_term": "stream",
+      "domain": null,
+      "sense": "envio de datos por partes",
+      "preferred": {
+        "lang": "es",
+        "term": "streaming"
+      },
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-b16becd7",
+          "segment_id": "seg-befe23eb",
+          "before": "Sends an [`HttpRequest`](/api/common/http/HttpRequest) and returns a ",
+          "after": " of [`HttpEvent`](/api/common/http/HttpEvent)s.\n@param\nreq\n`HttpRequest<any>`\n@returns\n`Ob",
+          "note": "angular/api/common/http/HttpClient.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "'Corriente' sugiere un canal fisico; el glosario v2 ya fijó 'streaming' para el mismo sentido.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z",
+      "allowed_variants": [
+        "flujo"
+      ],
+      "forbidden_forms": [
+        "corriente"
+      ]
+    },
+    {
+      "id": "g-ebfd",
+      "source_term": "layout",
+      "domain": "angular",
+      "sense": "estructura visual y de rejilla de una pagina",
+      "preferred": {
+        "lang": "es",
+        "term": "diseño"
+      },
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-6b64d8bb",
+          "segment_id": "seg-f95848c7",
+          "before": "Auto-styling can be used to define a state that depends on ",
+          "after": " or other\nenvironmental factors.\n@returns\n`AnimationStyleMetadata`",
+          "note": "angular/api/animations/style.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "'Diseno' puede confundirse con 'design'. Se propone 'estructura' como alternativa; la eleccion final es del usuario porque cambia el registro de todo el corpus.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z",
+      "allowed_variants": [
+        "layout",
+        "estructura"
+      ],
+      "forbidden_forms": []
+    },
+    {
+      "id": "g-ea61",
+      "source_term": "content query",
+      "domain": "angular",
+      "sense": "consulta de elementos proyectados dentro del componente (contenido proyectado por el padre)",
+      "preferred": {
+        "lang": "es",
+        "term": "consulta de contenido"
+      },
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-9b6eb4c4",
+          "segment_id": "seg-dae088c4",
+          "before": "[`@ContentChild`](/api/core/ContentChild) up to date as your application state changes.\n**",
+          "after": " results become available in the `ngAfterContentInit` lifecycle method**. Before this poin",
+          "note": "angular/guide/components/queries.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "Calco literal asentado por la documentación oficial.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z",
+      "allowed_variants": [],
+      "forbidden_forms": []
+    },
+    {
+      "id": "g-cce4",
+      "source_term": "two-way data binding",
+      "domain": "angular",
+      "sense": "enlace bidireccional entre modelo de formulario y plantilla",
+      "preferred": {
+        "lang": "es",
+        "term": "enlace bidireccional"
+      },
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-b4befe36",
+          "segment_id": "seg-f60e80e8",
+          "before": "date) method which emits an `ngModelChange` event.\n7. Because the component template uses ",
+          "after": " for the `favoriteColor` property, the `favoriteColor` property in the component is update",
+          "note": "angular/guide/forms/index.md: el término solo aparece como literal en el archivo fuente; su protección es por código, no por el glosario."
+        }
+      ],
+      "justification": "Calco castellano estándar en documentación de Angular.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z",
+      "allowed_variants": [],
+      "forbidden_forms": []
+    },
+    {
+      "id": "g-2430",
+      "source_term": "template reference variables",
+      "domain": "angular",
+      "sense": "variables locales declaradas en la plantilla con #var para acceder a elementos",
+      "preferred": {
+        "lang": "es",
+        "term": "variables de referencia de plantilla"
+      },
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-51334904",
+          "segment_id": "seg-721b1986",
+          "before": "om form controls based on the form status\n- Share information across HTML elements using [",
+          "after": "](guide/templates/variables#template-reference-variables)\n\n## [Build a template-driven for",
+          "note": "angular/guide/forms/template-driven-forms.md: el término solo aparece como literal en el archivo fuente; su protección es por código, no por el glosario."
+        }
+      ],
+      "justification": "Calco literal añadido por aclarar el sentido en el glosario.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z",
+      "allowed_variants": [],
+      "forbidden_forms": []
+    },
+    {
+      "id": "g-4b83",
+      "source_term": "reactive forms",
+      "domain": "angular",
+      "sense": "enfoque basado en un modelo declarado explicitamente en la clase del componente",
+      "preferred": {
+        "lang": "es",
+        "term": "formularios reactivos"
+      },
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-a7db563a",
+          "segment_id": "seg-a4e5e693",
+          "before": "Triggers a warning in dev mode that this input should not be used with ",
+          "after": ".",
+          "note": "angular/api/forms/FormControlDirective.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "Traducción estándar en documentación Angular.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z",
+      "allowed_variants": [],
+      "forbidden_forms": []
+    },
+    {
+      "id": "g-1a97",
+      "source_term": "template-driven forms",
+      "domain": "angular",
+      "sense": "enfoque que usa directivas en la plantilla para mutar el modelo",
+      "preferred": {
+        "lang": "es",
+        "term": "formularios basados en plantilla"
+      },
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-ec6cfecd",
+          "segment_id": "seg-515f4b3f",
+          "before": "[Adding a required checkbox validator using ",
+          "after": "](#adding-a-required-checkbox-validator-using-template-driven-forms) <a id=\"adding-a-requi",
+          "note": "angular/api/forms/CheckboxRequiredValidator.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "Calco literal del término técnico.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z",
+      "allowed_variants": [],
+      "forbidden_forms": []
+    },
+    {
+      "id": "g-2f5c",
+      "source_term": "locale",
+      "domain": "angular",
+      "sense": "identificador de region que determina formato de fecha, numero y moneda",
+      "preferred": {
+        "lang": "es",
+        "term": "locale"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-d0cd1364",
+          "segment_id": "seg-11178df5",
+          "before": "Transforms a number to a currency string, formatted according to ",
+          "after": " rules\nthat determine group sizing and separator, decimal-point character,\nand other local",
+          "note": "angular/api/common/CurrencyPipe.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "Préstamo técnico asentado en CLDR; 'configuración regional' se evita por perder el abreviatado.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-fdc4",
+      "source_term": "internationalization",
+      "domain": "angular",
+      "sense": "i18n, preparar el proyecto para uso en otros locales",
+      "preferred": {
+        "lang": "es",
+        "term": "internacionalización"
+      },
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-e0e9c5ca",
+          "segment_id": "seg-392cb00c",
+          "before": "In-depth Guides\n",
+          "after": "",
+          "note": "angular/guide/i18n/add-package.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "Traducción literal estándar.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z",
+      "allowed_variants": [],
+      "forbidden_forms": []
+    },
+    {
+      "id": "g-30be",
+      "source_term": "localization",
+      "domain": "angular",
+      "sense": "l10n, construir las versiones del proyecto por locale",
+      "preferred": {
+        "lang": "es",
+        "term": "localización"
+      },
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-7ba9a9bc",
+          "segment_id": "seg-7cef39a1",
+          "before": "ass\nstable\n[*code*](https://github.com/angular/angular/blob/main/packages/common/src/i18n/",
+          "after": ".ts#L67-L91)",
+          "note": "angular/api/common/NgLocaleLocalization.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "Traducción literal estándar.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z",
+      "allowed_variants": [],
+      "forbidden_forms": []
+    },
+    {
+      "id": "g-9269",
+      "source_term": "locale data",
+      "domain": "angular",
+      "sense": "datos especificos del locale: formatos y nombres traducidos",
+      "preferred": {
+        "lang": "es",
+        "term": "datos de localización"
+      },
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-6ec29c91",
+          "segment_id": "seg-b53a92a3",
+          "before": "o ensure that the pipe is executed, you must create a new `Date` object.\nOnly the `en-US` ",
+          "after": " comes with Angular. To localize dates\nin another language, you must import the correspond",
+          "note": "angular/api/common/DatePipe.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "Traducción literal.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z",
+      "allowed_variants": [],
+      "forbidden_forms": []
+    },
+    {
+      "id": "g-5bf8",
+      "source_term": "translation files",
+      "domain": "angular",
+      "sense": "archivos xliff con los mensajes a traducir",
+      "preferred": {
+        "lang": "es",
+        "term": "archivos de traducción"
+      },
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-923870e4",
+          "segment_id": "seg-bb528db6",
+          "before": "The message IDs and translations are in the same format as that rendered to \"simple JSON\"\n",
+          "after": " when extracting messages. In particular, placeholders in messages are rendered\nusing the ",
+          "note": "angular/api/localize/loadTranslations.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "Traducción literal.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z",
+      "allowed_variants": [],
+      "forbidden_forms": []
+    },
+    {
+      "id": "g-f9da",
+      "source_term": "ssr",
+      "domain": "angular",
+      "sense": "renderizado en el servidor en cada peticion",
+      "preferred": {
+        "lang": "es",
+        "term": "renderizado en servidor"
+      },
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-9f99ec5f",
+          "segment_id": "seg-3d2d3365",
+          "before": "A DI Token representing the main rendering context.\nIn a browser and ",
+          "after": " this is the DOM Document.\nWhen using SSR, that document is created by [Domino](https://gi",
+          "note": "angular/api/common/DOCUMENT.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "Calco literal.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z",
+      "allowed_variants": [],
+      "forbidden_forms": []
+    },
+    {
+      "id": "g-8374",
+      "source_term": "prerendering",
+      "domain": "angular",
+      "sense": "generación estática de HTML antes del deploy",
+      "preferred": {
+        "lang": "es",
+        "term": "prerenderizado"
+      },
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-fd95ce50",
+          "segment_id": "seg-d882f5da",
+          "before": "[Build-time ",
+          "after": "](#build-time-prerendering) <a id=\"build-time-prerendering\"></a>",
+          "note": "angular/best-practices/performance/ssr.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "Sustituye a 'preprocesado' (incorrecto) y 'prerrenderización' (cacofónico).",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z",
+      "allowed_variants": [],
+      "forbidden_forms": []
+    },
+    {
+      "id": "g-8caa",
+      "source_term": "ssg",
+      "domain": "angular",
+      "sense": "static site generation, prerender de paginas completas en build",
+      "preferred": {
+        "lang": "es",
+        "term": "generación estática"
+      },
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-9d908294",
+          "segment_id": "seg-af6e8644",
+          "before": "endered in the browser (client-side rendering).\n- When performing static site generation (",
+          "after": ").\n- During route extraction in development (at the time of the request).",
+          "note": "angular/api/core/REQUEST.md: el término solo aparece como literal en el archivo fuente; su protección es por código, no por el glosario."
+        }
+      ],
+      "justification": "Calco castellano estándar.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z",
+      "allowed_variants": [],
+      "forbidden_forms": []
+    },
+    {
+      "id": "g-3dec",
+      "source_term": "csr",
+      "domain": "angular",
+      "sense": "renderizado en el navegador",
+      "preferred": {
+        "lang": "es",
+        "term": "renderizado en cliente"
+      },
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-c4ca725d",
+          "segment_id": "seg-280e2397",
+          "before": "Fallback to Client-Side Rendering (",
+          "after": ") if the pre-rendered path is not available.\nThis strategy allows the page to be rendered ",
+          "note": "angular/api/ssr/PrerenderFallback.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "Calco literal.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z",
+      "allowed_variants": [],
+      "forbidden_forms": []
+    },
+    {
+      "id": "g-9642",
+      "source_term": "incremental hydration",
+      "domain": "angular",
+      "sense": "estrategia de hydration selectiva por partes del árbol",
+      "preferred": {
+        "lang": "es",
+        "term": "hidratación incremental"
+      },
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-dae17abf",
+          "segment_id": "seg-e53645f6",
+          "before": "ests. Learn more about data caching\n[here](guide/ssr#caching-data-when-using-httpclient).\n",
+          "after": ". [Learn more](guide/incremental-hydration).\n\nThese functions allow you to disable some of",
+          "note": "angular/api/platform-browser/provideClientHydration.md: el término solo aparece como literal en el archivo fuente; su protección es por código, no por el glosario."
+        }
+      ],
+      "justification": "Calco literal.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z",
+      "allowed_variants": [],
+      "forbidden_forms": []
+    },
+    {
+      "id": "g-9ad5",
+      "source_term": "inheritance",
+      "domain": "angular",
+      "sense": "extension de un componente base que hereda inputs y comportamiento",
+      "preferred": {
+        "lang": "es",
+        "term": "herencia de componentes"
+      },
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-8a4b063e",
+          "segment_id": "seg-28d1cc77",
+          "before": "",
+          "after": "",
+          "note": "angular/guide/components/inheritance.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "Calco castellano estándar.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z",
+      "allowed_variants": [],
+      "forbidden_forms": []
+    },
+    {
+      "id": "g-0d5e",
+      "source_term": "route providers",
+      "domain": "angular",
+      "sense": "servicio con providedIn 'route', vivo dentro del árbol de la ruta",
+      "preferred": {
+        "lang": "es",
+        "term": "proveedores de la ruta"
+      },
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-55ebaef7",
+          "segment_id": "seg-b172b908",
+          "before": "Providers`](/api/core/EnvironmentProviders) that can be used in `bootstrapApplication`\nor ",
+          "after": ".",
+          "note": "angular/api/core/provideExperimentalWebMcpTools.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "Traducción literal.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z",
+      "allowed_variants": [],
+      "forbidden_forms": []
+    },
+    {
+      "id": "g-db15",
+      "source_term": "route resources",
+      "domain": "angular",
+      "sense": "recurso reactivo por ruta para fetching de datos basado en Resource",
+      "preferred": {
+        "lang": "es",
+        "term": "recursos de ruta"
+      },
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-d0fefb9f",
+          "segment_id": "seg-b01e3ec5",
+          "before": "**NOTE:** You can bind all route data with key-value pairs to component inputs: ",
+          "after": ", static or resolved route data, path parameters, matrix parameters, and query parameters.",
+          "note": "angular/guide/routing/common-router-tasks.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "Calco literal.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z",
+      "allowed_variants": [],
+      "forbidden_forms": []
+    },
+    {
+      "id": "g-33ab",
+      "source_term": "host binding",
+      "domain": "angular",
+      "sense": "vinculacion de una propiedad del componente a una propiedad del DOM anfitrion",
+      "preferred": {
+        "lang": "es",
+        "term": "host binding"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-185f48f5",
+          "segment_id": "seg-a5854e86",
+          "before": " disabled as well.\nThis means that you can disable all animations for an app\nby placing a ",
+          "after": " set on `@.disabled` on the topmost Angular component.",
+          "note": "angular/api/animations/trigger.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "Mantenido literal por ser convención del framework.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-8438",
+      "source_term": "host listener",
+      "domain": "angular",
+      "sense": "manejador de evento del DOM anclado al componente",
+      "preferred": {
+        "lang": "es",
+        "term": "host listener"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "literals",
+          "segment_id": "literal-only",
+          "before": "",
+          "after": "",
+          "note": "`host listener` es un nombre del API: vive solo en code fences y enlaces simbólicos. Su protección es por literal (INV-05), no por una prosa traducible. Sentido: manejador de evento del DOM anclado al componente"
+        }
+      ],
+      "justification": "Mantenido literal por convención del framework.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-92ee",
+      "source_term": "viewChild",
+      "domain": "angular",
+      "sense": "función que devuelve un signal con el primer elemento buscado en la vista",
+      "preferred": {
+        "lang": "es",
+        "term": "viewChild"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-c304fe77",
+          "segment_id": "seg-163e1492",
+          "before": "ponent;\n\n  myInputs = {'label': 'Complete'};\n\n  myInjector: Injector;\n  ahojTemplateRef = ",
+          "after": ".required<TemplateRef<any>>('ahoj');\n  svetTemplateRef = viewChild.required<TemplateRef<an",
+          "note": "angular/api/common/NgComponentOutlet.md: el término solo aparece como literal en el archivo fuente; su protección es por código, no por el glosario."
+        }
+      ],
+      "justification": "API literal.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-22ce",
+      "source_term": "viewChildren",
+      "domain": "angular",
+      "sense": "función que devuelve un signal con todos los elementos buscados en la vista",
+      "preferred": {
+        "lang": "es",
+        "term": "viewChildren"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-f779fedc",
+          "segment_id": "seg-6953a8e1",
+          "before": "lar keeps up to date when the state\nof the application changes.\nThe type of object that [`",
+          "after": "`](/api/core/ViewChildren), [`ContentChildren`](/api/core/ContentChildren), and [`QueryLis",
+          "note": "angular/api/core/QueryList.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "API literal.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-c9d8",
+      "source_term": "contentChild",
+      "domain": "angular",
+      "sense": "función que devuelve un signal con el primer elemento del contenido proyectado",
+      "preferred": {
+        "lang": "es",
+        "term": "contentChild"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-80167ff2",
+          "segment_id": "seg-388ee7a2",
+          "before": "",
+          "after": "",
+          "note": "angular/api/core/ContentChild.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "API literal.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-1284",
+      "source_term": "contentChildren",
+      "domain": "angular",
+      "sense": "función que devuelve un signal con todos los elementos del contenido proyectado",
+      "preferred": {
+        "lang": "es",
+        "term": "contentChildren"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-73c9ff47",
+          "segment_id": "seg-f46c4320",
+          "before": "",
+          "after": "",
+          "note": "angular/api/core/ContentChildren.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "API literal.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-fb3b",
+      "source_term": "WritableSignal",
+      "domain": "angular",
+      "sense": "signal que admite .set() y .update()",
+      "preferred": {
+        "lang": "es",
+        "term": "WritableSignal"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-22a43322",
+          "segment_id": "seg-0a986cf2",
+          "before": "nt)\n`HTMLElement`\n\nA reference to the group element.\n### [textDirection](#textDirection)\n`",
+          "after": "<Direction>`\n\nThe text direction (ltr or rtl).\n### [disabled](#disabled)\n`` InputSignalWit",
+          "note": "angular/api/aria/accordion/AccordionGroup.md: el término solo aparece como literal en el archivo fuente; su protección es por código, no por el glosario."
+        }
+      ],
+      "justification": "API literal.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-b1f3",
+      "source_term": "Signal",
+      "domain": "angular",
+      "sense": "signal de solo lectura",
+      "preferred": {
+        "lang": "es",
+        "term": "Signal"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-ee1a2c95",
+          "segment_id": "seg-1b7a26de",
+          "before": "d)\n`InputSignal<any>`\n\nA global unique identifier for the panel.\n### [visible](#visible)\n`",
+          "after": "<boolean>`\n\nWhether the accordion panel is visible. True if the associated trigger is expa",
+          "note": "angular/api/aria/accordion/AccordionPanel.md: el término solo aparece como literal en el archivo fuente; su protección es por código, no por el glosario."
+        }
+      ],
+      "justification": "API literal.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-17ef",
+      "source_term": "linkedSignal",
+      "domain": "angular",
+      "sense": "signal cuyo valor deriva de otro state por una relacion intrinseca",
+      "preferred": {
+        "lang": "es",
+        "term": "linkedSignal"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-0b7990fe",
+          "segment_id": "seg-5c8efc43",
+          "before": "",
+          "after": "",
+          "note": "angular/api/core/linkedSignal.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "API literal.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-e4f9",
+      "source_term": "Resource",
+      "domain": "angular",
+      "sense": "wrapper reactivo para datos async con status `isLoading` y `error`",
+      "preferred": {
+        "lang": "es",
+        "term": "Resource"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-2e31004a",
+          "segment_id": "seg-63df515f",
+          "before": "s match the value of \"src\". In other words, this loader applies no\ntransformations to the ",
+          "after": " URL and the value of the `ngSrc` attribute will be used as is.\nTo use an existing loader ",
+          "note": "angular/api/common/NgOptimizedImage.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "API literal.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-1de8",
+      "source_term": "AbortSignal",
+      "domain": "angular",
+      "sense": "API JS estándar para cancelar operaciones",
+      "preferred": {
+        "lang": "es",
+        "term": "AbortSignal"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-a3e7982a",
+          "segment_id": "seg-b5fd506d",
+          "before": "erform mutations.\n[`resource`](/api/core/resource) will cancel in-progress loads via the `",
+          "after": "` when destroyed or when a new\nrequest object becomes available, which could prematurely a",
+          "note": "angular/api/core/Resource.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "API estándar.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-b734",
+      "source_term": "EffectRef",
+      "domain": "angular",
+      "sense": "referencia a un efecto: sirve para destruirlo manualmente",
+      "preferred": {
+        "lang": "es",
+        "term": "EffectRef"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-ce2a7e01",
+          "segment_id": "seg-e9974b87",
+          "before": "",
+          "after": "",
+          "note": "angular/api/core/EffectRef.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "API literal.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-5c62",
+      "source_term": "ExpressionChangedAfterItHasBeenChecked",
+      "domain": "angular",
+      "sense": "error de Angular al modificar state tras la pasada de change detection",
+      "preferred": {
+        "lang": "es",
+        "term": "ExpressionChangedAfterItHasBeenChecked"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-9b6eb4c4",
+          "segment_id": "seg-dd98219d",
+          "before": "onents. This pattern can lead to brittle code that is hard to understand and is prone to [",
+          "after": "](errors/NG0100) errors.\nNever directly write state to parent or ancestor components. This",
+          "note": "angular/guide/components/queries.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "Nombre exacto del error del framework.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-57be",
+      "source_term": "input",
+      "domain": "angular",
+      "sense": "función que declara una propiedad de entrada del componente (signal-based)",
+      "preferred": {
+        "lang": "es",
+        "term": "input()"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-e117aa92",
+          "segment_id": "seg-88ba42b8",
+          "before": " the visibility of its associated `ngAccordionPanel`.\nThis directive requires the `panel` ",
+          "after": " be set to the template reference of the `ngAccordionPanel`\nit controls. When clicked, it ",
+          "note": "angular/api/aria/accordion/AccordionTrigger.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "API literal.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-6076",
+      "source_term": "Output",
+      "domain": "angular",
+      "sense": "función que declara una salida de evento del componente",
+      "preferred": {
+        "lang": "es",
+        "term": "Output()"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-6ec29c91",
+          "segment_id": "seg-a528e582",
+          "before": "n in the local time for the `en-US` locale.\n```text\n{{ dateObj | date }}               // ",
+          "after": " is 'Jun 15, 2015'\n{{ dateObj | date:'medium' }}      // output is 'Jun 15, 2015, 9:43:11 ",
+          "note": "angular/api/common/DatePipe.md: el término solo aparece como literal en el archivo fuente; su protección es por código, no por el glosario."
+        }
+      ],
+      "justification": "API literal.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-c985",
+      "source_term": "model",
+      "domain": "angular",
+      "sense": "función que declara una propiedad de dos-vias basada en signals",
+      "preferred": {
+        "lang": "es",
+        "term": "model()"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-c71c8b29",
+          "segment_id": "seg-6f3e5510",
+          "before": "The current selected tab as a ",
+          "after": " input.",
+          "note": "angular/api/aria/tabs/TabList.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "API literal.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-069f",
+      "source_term": "CanActivate",
+      "domain": "angular",
+      "sense": "tipo de guard que decide si se activa una ruta",
+      "preferred": {
+        "lang": "es",
+        "term": "CanActivate"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-18c85057",
+          "segment_id": "seg-00cd275d",
+          "before": "CBaseRouteReuseStrategy](/api/router/BaseRouteReuseStrategy)\n- [ICanActivate](/api/router/",
+          "after": ")\n- [ICanActivateChild](/api/router/CanActivateChild)\n- [TCanActivateChildFn](/api/router/",
+          "note": "angular/api/index.md: el término solo aparece como literal en el archivo fuente; su protección es por código, no por el glosario."
+        }
+      ],
+      "justification": "API literal.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-c6fa",
+      "source_term": "CanDeactivate",
+      "domain": "angular",
+      "sense": "tipo de guard que decide si se sale de una ruta",
+      "preferred": {
+        "lang": "es",
+        "term": "CanDeactivate"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-18c85057",
+          "segment_id": "seg-00cd275d",
+          "before": "vateChildFn)\n- [TCanActivateFn](/api/router/CanActivateFn)\n- [ICanDeactivate](/api/router/",
+          "after": ")\n- [TCanDeactivateFn](/api/router/CanDeactivateFn)\n- [ICanMatch](/api/router/CanMatch)\n- ",
+          "note": "angular/api/index.md: el término solo aparece como literal en el archivo fuente; su protección es por código, no por el glosario."
+        }
+      ],
+      "justification": "API literal.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-da2d",
+      "source_term": "CanMatch",
+      "domain": "angular",
+      "sense": "tipo de guard que decide si una ruta coincide con la URL",
+      "preferred": {
+        "lang": "es",
+        "term": "CanMatch"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-18c85057",
+          "segment_id": "seg-00cd275d",
+          "before": "anDeactivate)\n- [TCanDeactivateFn](/api/router/CanDeactivateFn)\n- [ICanMatch](/api/router/",
+          "after": ")\n- [TCanMatchFn](/api/router/CanMatchFn)\n- [CChildActivationEnd](/api/router/ChildActivat",
+          "note": "angular/api/index.md: el término solo aparece como literal en el archivo fuente; su protección es por código, no por el glosario."
+        }
+      ],
+      "justification": "API literal.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-7e84",
+      "source_term": "CanLoad",
+      "domain": "angular",
+      "sense": "tipo de guard que decide si se carga un módulo lazy-loaded",
+      "preferred": {
+        "lang": "es",
+        "term": "CanLoad"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-36ed5526",
+          "segment_id": "seg-4c030948",
+          "before": "",
+          "after": "",
+          "note": "angular/api/router/CanLoad.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "API literal.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-c5ef",
+      "source_term": "ResolveFn",
+      "domain": "angular",
+      "sense": "tipo de función que pre-resuelve datos antes de activar una ruta",
+      "preferred": {
+        "lang": "es",
+        "term": "ResolveFn"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-18c85057",
+          "segment_id": "seg-00cd275d",
+          "before": "pi/router/ResolveData)\n- [CResolveEnd](/api/router/ResolveEnd)\n- [TResolveFn](/api/router/",
+          "after": ")\n- [CResolveStart](/api/router/ResolveStart)\n- [IResourceContext](/api/router/ResourceCon",
+          "note": "angular/api/index.md: el término solo aparece como literal en el archivo fuente; su protección es por código, no por el glosario."
+        }
+      ],
+      "justification": "API literal.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-ac44",
+      "source_term": "ActivatedRoute",
+      "domain": "angular",
+      "sense": "servicio con la información de la ruta activa",
+      "preferred": {
+        "lang": "es",
+        "term": "ActivatedRoute"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-18c85057",
+          "segment_id": "seg-00cd275d",
+          "before": "outer ](/api#angular_router) <a id=\"angular_router\"></a>\n\n- [CActivatedRoute](/api/router/",
+          "after": ")\n- [CActivatedRouteSnapshot](/api/router/ActivatedRouteSnapshot)\n- [CActivationEnd](/api/",
+          "note": "angular/api/index.md: el término solo aparece como literal en el archivo fuente; su protección es por código, no por el glosario."
+        }
+      ],
+      "justification": "API literal.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-8ed9",
+      "source_term": "ActivatedRouteSnapshot",
+      "domain": "angular",
+      "sense": "snapshot inmutable de la ruta activa",
+      "preferred": {
+        "lang": "es",
+        "term": "ActivatedRouteSnapshot"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-18c85057",
+          "segment_id": "seg-00cd275d",
+          "before": "\n\n- [CActivatedRoute](/api/router/ActivatedRoute)\n- [CActivatedRouteSnapshot](/api/router/",
+          "after": ")\n- [CActivationEnd](/api/router/ActivationEnd)\n- [CActivationStart](/api/router/Activatio",
+          "note": "angular/api/index.md: el término solo aparece como literal en el archivo fuente; su protección es por código, no por el glosario."
+        }
+      ],
+      "justification": "API literal.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-125c",
+      "source_term": "RouterStateSnapshot",
+      "domain": "angular",
+      "sense": "snapshot del estado completo del router",
+      "preferred": {
+        "lang": "es",
+        "term": "RouterStateSnapshot"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-18c85057",
+          "segment_id": "seg-00cd275d",
+          "before": "ture) DEV \n- [CRouterState](/api/router/RouterState)\n- [CRouterStateSnapshot](/api/router/",
+          "after": ")\n- [TRoutes](/api/router/Routes)\n- [KROUTES](/api/router/ROUTES)\n- [CRoutesRecognized](/a",
+          "note": "angular/api/index.md: el término solo aparece como literal en el archivo fuente; su protección es por código, no por el glosario."
+        }
+      ],
+      "justification": "API literal.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-c4f6",
+      "source_term": "UrlTree",
+      "domain": "angular",
+      "sense": "estructura de árbol que representa una URL o un comando de redirección",
+      "preferred": {
+        "lang": "es",
+        "term": "UrlTree"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-18c85057",
+          "segment_id": "seg-00cd275d",
+          "before": "r/UrlSegmentGroup)\n- [CUrlSerializer](/api/router/UrlSerializer)\n- [CUrlTree](/api/router/",
+          "after": ")\n- [KVERSION](/api/router/VERSION)\n- [IViewTransitionInfo](/api/router/ViewTransitionInfo",
+          "note": "angular/api/index.md: el término solo aparece como literal en el archivo fuente; su protección es por código, no por el glosario."
+        }
+      ],
+      "justification": "API literal.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-9069",
+      "source_term": "RedirectCommand",
+      "domain": "angular",
+      "sense": "comando de redirección devuelto por un guard",
+      "preferred": {
+        "lang": "es",
+        "term": "RedirectCommand"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-18c85057",
+          "segment_id": "seg-00cd275d",
+          "before": " [TQueryParamsHandling](/api/router/QueryParamsHandling)\n- [CRedirectCommand](/api/router/",
+          "after": ")\n- [TRedirectFunction](/api/router/RedirectFunction)\n- [IResolve](/api/router/Resolve)\n- ",
+          "note": "angular/api/index.md: el término solo aparece como literal en el archivo fuente; su protección es por código, no por el glosario."
+        }
+      ],
+      "justification": "API literal.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-164c",
+      "source_term": "FormGroup",
+      "domain": "angular",
+      "sense": "agrupador de FormControl relacionados",
+      "preferred": {
+        "lang": "es",
+        "term": "FormGroup"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-4e1aca5c",
+          "segment_id": "seg-060aa0b6",
+          "before": "This is the base class for [`FormControl`](/api/forms/FormControl), [`",
+          "after": "`](/api/forms/FormGroup), and [`FormArray`](/api/forms/FormArray).",
+          "note": "angular/api/forms/AbstractControl.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "API literal.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-7149",
+      "source_term": "FormControl",
+      "domain": "angular",
+      "sense": "control de formulario individual",
+      "preferred": {
+        "lang": "es",
+        "term": "FormControl"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-4e1aca5c",
+          "segment_id": "seg-060aa0b6",
+          "before": "This is the base class for [`",
+          "after": "`](/api/forms/FormControl), [`FormGroup`](/api/forms/FormGroup), and [`FormArray`](/api/fo",
+          "note": "angular/api/forms/AbstractControl.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "API literal.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-a8eb",
+      "source_term": "FormArray",
+      "domain": "angular",
+      "sense": "array dinámico de controles",
+      "preferred": {
+        "lang": "es",
+        "term": "FormArray"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-4e1aca5c",
+          "segment_id": "seg-060aa0b6",
+          "before": "s for [`FormControl`](/api/forms/FormControl), [`FormGroup`](/api/forms/FormGroup), and [`",
+          "after": "`](/api/forms/FormArray).",
+          "note": "angular/api/forms/AbstractControl.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "API literal.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-c8aa",
+      "source_term": "FormBuilder",
+      "domain": "angular",
+      "sense": "servicio que ayuda a construir FormGroup/FormControl/FormArray",
+      "preferred": {
+        "lang": "es",
+        "term": "FormBuilder"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-a81724f6",
+          "segment_id": "seg-123e37fe",
+          "before": "",
+          "after": "",
+          "note": "angular/api/forms/FormBuilder.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "API literal.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-fedb",
+      "source_term": "NgModel",
+      "domain": "angular",
+      "sense": "directiva que conecta un control con el modelo",
+      "preferred": {
+        "lang": "es",
+        "term": "NgModel"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-2820c028",
+          "segment_id": "seg-2b7e63ee",
+          "before": "imports: [FormsModule, LiveData],\n  template: `\n    Live Update: <input type=\"checkbox\" [(",
+          "after": ")]=\"live\" />\n    <live-data [live]=\"live\"></live-data>\n  `,\n})\nclass App1 {\n  live = true;",
+          "note": "angular/api/core/ChangeDetectorRef.md: el término solo aparece como literal en el archivo fuente; su protección es por código, no por el glosario."
+        }
+      ],
+      "justification": "API literal.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-fb48",
+      "source_term": "NgForm",
+      "domain": "angular",
+      "sense": "directiva que crea un FormGroup implícito en la etiqueta form",
+      "preferred": {
+        "lang": "es",
+        "term": "NgForm"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-db6cc908",
+          "segment_id": "seg-a8dc301c",
+          "before": "An interface implemented by [`FormGroupDirective`](/api/forms/FormGroupDirective) and [`",
+          "after": "`](/api/forms/NgForm) directives.",
+          "note": "angular/api/forms/Form.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "API literal.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-39b2",
+      "source_term": "FormsModule",
+      "domain": "angular",
+      "sense": "módulo con directivas para template-driven forms",
+      "preferred": {
+        "lang": "es",
+        "term": "FormsModule"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-2820c028",
+          "segment_id": "seg-2b7e63ee",
+          "before": "}\n    });\n  }\n}\n\n@Component({\n  selector: 'app',\n  providers: [DataProvider],\n  imports: [",
+          "after": ", LiveData],\n  template: `\n    Live Update: <input type=\"checkbox\" [(ngModel)]=\"live\" />\n ",
+          "note": "angular/api/core/ChangeDetectorRef.md: el término solo aparece como literal en el archivo fuente; su protección es por código, no por el glosario."
+        }
+      ],
+      "justification": "API literal.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-4a5b",
+      "source_term": "ReactiveFormsModule",
+      "domain": "angular",
+      "sense": "módulo con clases para reactive forms",
+      "preferred": {
+        "lang": "es",
+        "term": "ReactiveFormsModule"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-e3e3776a",
+          "segment_id": "seg-88078cdf",
+          "before": "Base class for control directives.\nThis class is only used internally in the [`",
+          "after": "`](/api/forms/ReactiveFormsModule) and the [`FormsModule`](/api/forms/FormsModule).",
+          "note": "angular/api/forms/AbstractControlDirective.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "API literal.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-1c3b",
+      "source_term": "RenderMode",
+      "domain": "angular",
+      "sense": "enumeración Angular SSR: Client, Prerender, Server",
+      "preferred": {
+        "lang": "es",
+        "term": "RenderMode"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-18c85057",
+          "segment_id": "seg-00cd275d",
+          "before": "ck)\n- [FprovideServerRendering](/api/ssr/provideServerRendering)\n- [ERenderMode](/api/ssr/",
+          "after": ")\n- [TRequestHandlerFunction](/api/ssr/RequestHandlerFunction)\n- [IServerRenderingOptions]",
+          "note": "angular/api/index.md: el término solo aparece como literal en el archivo fuente; su protección es por código, no por el glosario."
+        }
+      ],
+      "justification": "API literal.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-7c6a",
+      "source_term": "ServerRoute",
+      "domain": "angular",
+      "sense": "interfaz Angular SSR para declarar rutas",
+      "preferred": {
+        "lang": "es",
+        "term": "ServerRoute"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-18c85057",
+          "segment_id": "seg-00cd275d",
+          "before": "n)\n- [IServerRenderingOptions](/api/ssr/ServerRenderingOptions)\n- [TServerRoute](/api/ssr/",
+          "after": ")\n- [IServerRouteClient](/api/ssr/ServerRouteClient)\n- [IServerRouteCommon](/api/ssr/Serve",
+          "note": "angular/api/index.md: el término solo aparece como literal en el archivo fuente; su protección es por código, no por el glosario."
+        }
+      ],
+      "justification": "API literal.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-b3e0",
+      "source_term": "provideClientHydration",
+      "domain": "angular",
+      "sense": "proveedor que activa hydration de Angular",
+      "preferred": {
+        "lang": "es",
+        "term": "provideClientHydration"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-394d635a",
+          "segment_id": "seg-f3ead4e5",
+          "before": "ders are included by default).\nSetting this property will override the options passed to `",
+          "after": "()` for this\nparticular request",
+          "note": "angular/api/common/http/HttpClientCommonOptions.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "API literal.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-83b8",
+      "source_term": "DatePipe",
+      "domain": "angular",
+      "sense": "pipe que formatea fechas según locale",
+      "preferred": {
+        "lang": "es",
+        "term": "DatePipe"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-42d53791",
+          "segment_id": "seg-f599eff0",
+          "before": "DI token that allows to provide default configuration for the [`",
+          "after": "`](/api/common/DatePipe) instances in an\napplication. The value is an object which can inc",
+          "note": "angular/api/common/DATE_PIPE_DEFAULT_OPTIONS.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "API literal.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-bf69",
+      "source_term": "CurrencyPipe",
+      "domain": "angular",
+      "sense": "pipe que formatea moneda",
+      "preferred": {
+        "lang": "es",
+        "term": "CurrencyPipe"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-d0cd1364",
+          "segment_id": "seg-191c6fe0",
+          "before": "",
+          "after": "",
+          "note": "angular/api/common/CurrencyPipe.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "API literal.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-1c5f",
+      "source_term": "DecimalPipe",
+      "domain": "angular",
+      "sense": "pipe que formatea números decimales según locale",
+      "preferred": {
+        "lang": "es",
+        "term": "DecimalPipe"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-c7b04a53",
+          "segment_id": "seg-2ceef124",
+          "before": "ctives and pipes,\nsuch as [`NgIf`](/api/common/NgIf), [`NgForOf`](/api/common/NgForOf), [`",
+          "after": "`](/api/common/DecimalPipe), and so on.\nRe-exported by `BrowserModule`, which is included ",
+          "note": "angular/api/common/CommonModule.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "API literal.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-cf73",
+      "source_term": "opt-out",
+      "domain": "nextjs",
+      "sense": "mecanismo para desactivar Instant Navigation en una página concreta",
+      "preferred": {
+        "lang": "es",
+        "term": "desactivar manualmente"
+      },
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-87f5cde1",
+          "segment_id": "seg-09d23228",
+          "before": "vely, use [`untracked`](/api/core/untracked) to leave the reactive context and explicitly ",
+          "after": " of this error.",
+          "note": "angular/errors/NG0602.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "Calco castellano del término del producto.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z",
+      "allowed_variants": [],
+      "forbidden_forms": []
+    },
+    {
+      "id": "g-2e21",
+      "source_term": "authentication",
+      "domain": "nextjs",
+      "sense": "proceso de comprobar la identidad del usuario",
+      "preferred": {
+        "lang": "es",
+        "term": "autenticación"
+      },
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-1a5d33a0",
+          "segment_id": "seg-fa417280",
+          "before": "The credentials mode of the request, which determines how cookies and HTTP ",
+          "after": " are handled.\nThis can affect whether cookies are sent with the request, and how authentic",
+          "note": "angular/api/common/http/HttpRequest.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "Término de seguridad clásico.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z",
+      "allowed_variants": [],
+      "forbidden_forms": []
+    },
+    {
+      "id": "g-c106",
+      "source_term": "authorization",
+      "domain": "nextjs",
+      "sense": "proceso de comprobar permisos sobre recursos",
+      "preferred": {
+        "lang": "es",
+        "term": "autorización"
+      },
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-96caf57e",
+          "segment_id": "seg-9da2fb41",
+          "before": "st userToken = 'MY_TOKEN'; const modifiedReq = req.clone({\n     headers: req.headers.set('",
+          "after": "', `Bearer ${userToken}`),\n   });\n\n   return next(modifiedReq);\n};\n```",
+          "note": "angular/api/common/http/HttpInterceptorFn.md: el término solo aparece como literal en el archivo fuente; su protección es por código, no por el glosario."
+        }
+      ],
+      "justification": "Término de seguridad clásico.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z",
+      "allowed_variants": [],
+      "forbidden_forms": []
+    },
+    {
+      "id": "g-457b",
+      "source_term": "session",
+      "domain": "nextjs",
+      "sense": "estado de la sesión del usuario a través de peticiones",
+      "preferred": {
+        "lang": "es",
+        "term": "sesión"
+      },
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-df0c7afb",
+          "segment_id": "seg-9ab91ebd",
+          "before": "Navigate to a specific page from ",
+          "after": " history, identified by its relative position to the\ncurrent page.\n@param\nrelativePosition",
+          "note": "angular/api/common/Location.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "Término de seguridad clásico.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z",
+      "allowed_variants": [],
+      "forbidden_forms": []
+    },
+    {
+      "id": "g-c6ae",
+      "source_term": "Data Access Layer",
+      "domain": "nextjs",
+      "sense": "capa entre Server Actions y la base de datos donde se aplica SQL",
+      "preferred": {
+        "lang": "es",
+        "term": "capa de acceso a datos"
+      },
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-30810626",
+          "segment_id": "seg-9356a44a",
+          "before": "ity of security checks should be performed as close as possible to your data source, see [",
+          "after": "](#creating-a-data-access-layer-dal) for more information.\nTips",
+          "note": "nextjs/15/app/guides/authentication.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "Calco literal.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z",
+      "allowed_variants": [],
+      "forbidden_forms": []
+    },
+    {
+      "id": "g-6166",
+      "source_term": "cold cache",
+      "domain": "nextjs",
+      "sense": "caché que nunca se ha calentado o se ha vaciado",
+      "preferred": {
+        "lang": "es",
+        "term": "caché frío"
+      },
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-e7a749ff",
+          "segment_id": "seg-ae4f95ce",
+          "before": "ss that access is [deferred to the navigation](#keep-the-prefetch-static).\nGood to know\nA ",
+          "after": " (first visit, or after expiration) means the server still has to compute the cached resul",
+          "note": "nextjs/app/guides/optimizing-prefetching.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "Consistencia con CPU frío/caliente.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z",
+      "allowed_variants": [],
+      "forbidden_forms": []
+    },
+    {
+      "id": "g-597e",
+      "source_term": "instant loading states",
+      "domain": "nextjs",
+      "sense": "fallback UI que aparece de inmediato en una navegación",
+      "preferred": {
+        "lang": "es",
+        "term": "fallback inmediato"
+      },
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-3edc4975",
+          "segment_id": "seg-5b89989a",
+          "before": "[",
+          "after": "](#instant-loading-states) <a id=\"instant-loading-states\"></a>",
+          "note": "nextjs/15/app/api-reference/file-conventions/loading.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "Calco castellano.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z",
+      "allowed_variants": [],
+      "forbidden_forms": []
+    },
+    {
+      "id": "g-3cbb",
+      "source_term": "template.js",
+      "domain": "nextjs",
+      "sense": "componente que se re-monta en cada navegación (clave nueva)",
+      "preferred": {
+        "lang": "es",
+        "term": "plantilla"
+      },
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-4c85961f",
+          "segment_id": "seg-2a5ecc34",
+          "before": "/docs/15/app/api-reference/file-conventions/src-folder)\n[template.jsAPI Reference for the ",
+          "after": " file.](/docs/15/app/api-reference/file-conventions/template)\n[unauthorized.jsAPI referenc",
+          "note": "nextjs/15/app/api-reference/file-conventions/index.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "Calco castellano del término.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z",
+      "allowed_variants": [],
+      "forbidden_forms": []
+    },
+    {
+      "id": "g-76ae",
+      "source_term": "dynamic rendering",
+      "domain": "nextjs",
+      "sense": "renderizado por petición (no en build)",
+      "preferred": {
+        "lang": "es",
+        "term": "renderizado dinámico"
+      },
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-612315c3",
+          "segment_id": "seg-c3b537f6",
+          "before": " PrerenderingLearn how to use Partial Prerendering and combine the benefits of static and ",
+          "after": ".](/docs/15/app/getting-started/partial-prerendering)",
+          "note": "nextjs/15/app/api-reference/config/next-config-js/ppr.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "Calco castellano estándar.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z",
+      "allowed_variants": [],
+      "forbidden_forms": []
+    },
+    {
+      "id": "g-e4b6",
+      "source_term": "static rendering",
+      "domain": "nextjs",
+      "sense": "renderizado en build que se sirve sin variación",
+      "preferred": {
+        "lang": "es",
+        "term": "renderizado estático"
+      },
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-3462f1ac",
+          "segment_id": "seg-24751b25",
+          "before": "static and the indicator has marked it as dynamic, it's likely the route has opted out of ",
+          "after": ".\nYou can confirm if a route is [static](/docs/app/getting-started/partial-prerendering#st",
+          "note": "nextjs/15/app/api-reference/config/next-config-js/devIndicators.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "Calco castellano estándar.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z",
+      "allowed_variants": [],
+      "forbidden_forms": []
+    },
+    {
+      "id": "g-ceda",
+      "source_term": "parallel routes",
+      "domain": "nextjs",
+      "sense": "rutas que se renderizan simultáneamente bajo un mismo layout",
+      "preferred": {
+        "lang": "es",
+        "term": "rutas en paralelo"
+      },
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-73f3abb9",
+          "segment_id": "seg-ac2a3265",
+          "before": "The `default.js` file is used to render a fallback within [",
+          "after": "](/docs/app/api-reference/file-conventions/parallel-routes) when Next.js cannot recover a ",
+          "note": "nextjs/15/app/api-reference/file-conventions/default.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "Calco castellano.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z",
+      "allowed_variants": [],
+      "forbidden_forms": []
+    },
+    {
+      "id": "g-00fb",
+      "source_term": "route groups",
+      "domain": "nextjs",
+      "sense": "convenio `(folder)` que organiza rutas sin afectar la URL",
+      "preferred": {
+        "lang": "es",
+        "term": "grupos de rutas"
+      },
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-051c5fce",
+          "segment_id": "seg-8e227b7d",
+          "before": " identity in both bundlers. App Router sources use the full `page` module name, including ",
+          "after": " and parallel slots. For example, a Pages Router response for `/blog/post` generated by `/",
+          "note": "nextjs/15/app/api-reference/config/next-config-js/incrementalCacheHandlerPath.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "Calco castellano.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z",
+      "allowed_variants": [],
+      "forbidden_forms": []
+    },
+    {
+      "id": "g-2dc7",
+      "source_term": "cache profile",
+      "domain": "nextjs",
+      "sense": "objeto dentro de cacheLife que define stale, revalidate, expire",
+      "preferred": {
+        "lang": "es",
+        "term": "perfil de caché"
+      },
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-347b9503",
+          "segment_id": "seg-ac50aefa",
+          "before": "ponents` flag](/docs/app/api-reference/config/next-config-js/cacheComponents) and add the ",
+          "after": " in the `cacheLife` object in the `next.config.js` file. For example, a `blog` profile:\nTy",
+          "note": "nextjs/15/app/api-reference/config/next-config-js/cacheLife.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "Calco literal.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z",
+      "allowed_variants": [],
+      "forbidden_forms": []
+    },
+    {
+      "id": "g-954e",
+      "source_term": "instant navigation",
+      "domain": "nextjs",
+      "sense": "navegación cliente que arranca render sin esperar al servidor",
+      "preferred": {
+        "lang": "es",
+        "term": "Instant Navigation"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-b3cf70a7",
+          "segment_id": "seg-36665eed",
+          "before": "[`loading.js`](/docs/app/api-reference/file-conventions/loading) file that would allow an ",
+          "after": ".\nTypeScript\napp/loading-indicator.tsx\n\n```text\n'use client'\n\nimport { useLinkStatus } fro",
+          "note": "nextjs/15/app/api-reference/functions/use-link-status.md: el término solo aparece como literal en el archivo fuente; su protección es por código, no por el glosario."
+        }
+      ],
+      "justification": "Nombre del producto, conservado.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-e1f1",
+      "source_term": "App Shell",
+      "domain": "nextjs",
+      "sense": "shell por ruta que renderiza durante navegaciones cliente",
+      "preferred": {
+        "lang": "es",
+        "term": "App Shell"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-b4ca756d",
+          "segment_id": "seg-6ab14ffd",
+          "before": "he necessary providers for server-side rendering, including\nsupport for server routes and ",
+          "after": ". It combines features configured using\n[`withRoutes`](/api/ssr/withRoutes) and [`withAppS",
+          "note": "angular/api/ssr/provideServerRendering.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "Nombre del producto.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-6918",
+      "source_term": "partial prerendering (PPR)",
+      "domain": "nextjs",
+      "sense": "estrategia por defecto del App Router con Cache Components",
+      "preferred": {
+        "lang": "es",
+        "term": "prerender parcial (PPR)"
+      },
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-612315c3",
+          "segment_id": "seg-9fa4e494",
+          "before": "",
+          "after": " enables you to combine static and dynamic components together in the same route. Learn mo",
+          "note": "nextjs/15/app/api-reference/config/next-config-js/ppr.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "Calco literal con la sigla preservada.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z",
+      "allowed_variants": [],
+      "forbidden_forms": []
+    },
+    {
+      "id": "g-40f5",
+      "source_term": "middleware (deprecated)",
+      "domain": "nextjs",
+      "sense": "convenio file-system ya deprecado, renombrado a proxy",
+      "preferred": {
+        "lang": "es",
+        "term": "middleware"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "literals",
+          "segment_id": "literal-only",
+          "before": "",
+          "after": "",
+          "note": "`middleware (deprecated)` es un nombre del API: vive solo en code fences y enlaces simbólicos. Su protección es por literal (INV-05), no por una prosa traducible. Sentido: convenio file-system ya deprecado, renombrado a proxy"
+        }
+      ],
+      "justification": "Conviven las dos formas en documentación histórica.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-0fd7",
+      "source_term": "proxy",
+      "domain": "nextjs",
+      "sense": "convenio file-system v16+ para código que se ejecuta antes de una petición",
+      "preferred": {
+        "lang": "es",
+        "term": "proxy"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-ea6de4a6",
+          "segment_id": "seg-5d8361a6",
+          "before": "Extends the scope of trusted ",
+          "after": " headers (`Forwarded` or `X-Forwarded-*`).",
+          "note": "angular/api/ssr/AngularAppEngineOptions.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "Convenio file-system literal.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-4208",
+      "source_term": "use cache",
+      "domain": "nextjs",
+      "sense": "directiva que cachea el valor de retorno de una función o componente",
+      "preferred": {
+        "lang": "es",
+        "term": "use cache"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-3be0f7cc",
+          "segment_id": "seg-86078006",
+          "before": "than serving from a pre-rendered cache.\nIt is expected to be used in conjunction with [`` ",
+          "after": " ``](/docs/app/api-reference/directives/use-cache) so that your data fetching happens at r",
+          "note": "nextjs/15/app/api-reference/config/next-config-js/cacheComponents.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "API literal.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-f52d",
+      "source_term": "use client",
+      "domain": "nextjs",
+      "sense": "directiva que marca la frontera cliente",
+      "preferred": {
+        "lang": "es",
+        "term": "use client"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-0f913fb2",
+          "segment_id": "seg-0ce73fa9",
+          "before": "s a loading state when the form is pending:\nTypeScript\n/app/ui/search-button.tsx\n```text\n'",
+          "after": "'\nimport { useFormStatus } from 'react-dom'\n\nexport default function SearchButton() {\n  co",
+          "note": "nextjs/15/app/api-reference/components/form.md: el término solo aparece como literal en el archivo fuente; su protección es por código, no por el glosario."
+        }
+      ],
+      "justification": "API literal.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-8b69",
+      "source_term": "use server",
+      "domain": "nextjs",
+      "sense": "directiva que marca una función como Server Function",
+      "preferred": {
+        "lang": "es",
+        "term": "use server"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-9791f3db",
+          "segment_id": "seg-7ee2eba5",
+          "before": "esult: {valid: boolean; message?: string}) => {\n    if (result.valid) return null;\n    // ",
+          "after": " message when available\n    return {\n      kind: 'serverError',\n      message: result.mess",
+          "note": "angular/guide/forms/signals/async-operations.md: el término solo aparece como literal en el archivo fuente; su protección es por código, no por el glosario."
+        }
+      ],
+      "justification": "API literal.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-cb64",
+      "source_term": "cacheLife",
+      "domain": "nextjs",
+      "sense": "función que aplica un perfil de caché a un scope use cache",
+      "preferred": {
+        "lang": "es",
+        "term": "cacheLife"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-3be0f7cc",
+          "segment_id": "seg-252e40f5",
+          "before": "wserDebugInfoInTerminal)\n[NextcacheLife](/docs/15/app/api-reference/config/next-config-js/",
+          "after": ")",
+          "note": "nextjs/15/app/api-reference/config/next-config-js/cacheComponents.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "API literal.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-b7b2",
+      "source_term": "cacheTag",
+      "domain": "nextjs",
+      "sense": "función que etiqueta una entrada de caché para invalidación selectiva",
+      "preferred": {
+        "lang": "es",
+        "term": "cacheTag"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-3be0f7cc",
+          "segment_id": "seg-f9e57702",
+          "before": "on](/docs/app/api-reference/config/next-config-js/cacheLife) with `` use cache ``\n- The [`",
+          "after": "` function](/docs/app/api-reference/functions/cacheTag)\n\n## [Notes](#notes) <a id=\"notes\">",
+          "note": "nextjs/15/app/api-reference/config/next-config-js/cacheComponents.md: el término solo aparece como literal en el archivo fuente; su protección es por código, no por el glosario."
+        }
+      ],
+      "justification": "API literal.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-ebee",
+      "source_term": "revalidateTag",
+      "domain": "nextjs",
+      "sense": "API para invalidar entradas con una etiqueta",
+      "preferred": {
+        "lang": "es",
+        "term": "revalidateTag"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-051c5fce",
+          "segment_id": "seg-bf518c6f",
+          "before": "The cache handler can implement the following methods: `get`, `set`, `",
+          "after": "`, and `resetRequestCache`.",
+          "note": "nextjs/15/app/api-reference/config/next-config-js/incrementalCacheHandlerPath.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "API literal.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-48a6",
+      "source_term": "revalidatePath",
+      "domain": "nextjs",
+      "sense": "API para invalidar el caché de una ruta concreta",
+      "preferred": {
+        "lang": "es",
+        "term": "revalidatePath"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-051c5fce",
+          "segment_id": "seg-2255df95",
+          "before": " cache for a single request before the next request.\nReturns `void`.\n**Good to know:**\n- `",
+          "after": "` is a convenience layer on top of cache tags. Calling `revalidatePath` will call your `re",
+          "note": "nextjs/15/app/api-reference/config/next-config-js/incrementalCacheHandlerPath.md: el término solo aparece como literal en el archivo fuente; su protección es por código, no por el glosario."
+        }
+      ],
+      "justification": "API literal.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-6aa0",
+      "source_term": "redirect",
+      "domain": "nextjs",
+      "sense": "API que emite una respuesta HTTP de redirección",
+      "preferred": {
+        "lang": "es",
+        "term": "redirect"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-394d635a",
+          "segment_id": "seg-232214ac",
+          "before": "[",
+          "after": "](#redirect)",
+          "note": "angular/api/common/http/HttpClientCommonOptions.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "API literal.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-31b8",
+      "source_term": "notFound",
+      "domain": "nextjs",
+      "sense": "API que lanza el render de la UI not-found con status 404",
+      "preferred": {
+        "lang": "es",
+        "term": "notFound"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-1879ae9a",
+          "segment_id": "seg-676189d4",
+          "before": "[",
+          "after": "](#NotFound)",
+          "note": "angular/api/common/http/HttpStatusCode.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "API literal.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-ed2f",
+      "source_term": "forbidden",
+      "domain": "nextjs",
+      "sense": "API que lanza el render de la UI forbidden con status 403",
+      "preferred": {
+        "lang": "es",
+        "term": "forbidden"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-1879ae9a",
+          "segment_id": "seg-20263ebc",
+          "before": "[",
+          "after": "](#Forbidden)",
+          "note": "angular/api/common/http/HttpStatusCode.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "API literal.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-3be3",
+      "source_term": "unauthorized",
+      "domain": "nextjs",
+      "sense": "API que lanza el render de la UI unauthorized con status 401",
+      "preferred": {
+        "lang": "es",
+        "term": "unauthorized"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-1879ae9a",
+          "segment_id": "seg-feeb73c6",
+          "before": "[",
+          "after": "](#Unauthorized)",
+          "note": "angular/api/common/http/HttpStatusCode.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "API literal.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-6a23",
+      "source_term": "connection",
+      "domain": "nextjs",
+      "sense": "API que marca un componente como request-bound",
+      "preferred": {
+        "lang": "es",
+        "term": "connection"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-de09f1ef",
+          "segment_id": "seg-5d76303b",
+          "before": "/destroy views that depend on component state. Root effects run as microtasks\nand have no ",
+          "after": " to the component tree or change detection.\n[`effect()`](/api/core/effect) must be run in ",
+          "note": "angular/api/core/effect.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "API literal.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-f798",
+      "source_term": "NextRequest",
+      "domain": "nextjs",
+      "sense": "extensión de la Web Request API en Next.js con cookies y nextUrl",
+      "preferred": {
+        "lang": "es",
+        "term": "NextRequest"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-edff195b",
+          "segment_id": "seg-802f139c",
+          "before": "cation logic\n\n## [Example](#example) <a id=\"example\"></a>\nmiddleware.ts\n\n```text\nimport { ",
+          "after": ", NextResponse } from 'next/server'\n\nexport async function middleware(request: NextRequest",
+          "note": "nextjs/15/app/api-reference/config/next-config-js/middlewareClientMaxBodySize.md: el término solo aparece como literal en el archivo fuente; su protección es por código, no por el glosario."
+        }
+      ],
+      "justification": "API literal.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-eaa7",
+      "source_term": "NextResponse",
+      "domain": "nextjs",
+      "sense": "extensión de la Web Response API en Next.js",
+      "preferred": {
+        "lang": "es",
+        "term": "NextResponse"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-37235d13",
+          "segment_id": "seg-2956cbd8",
+          "before": "eware to redirect the user to the correct page:\nTypeScript\nmiddleware.ts\n```text\nimport { ",
+          "after": " } from 'next/server'\n\nexport function middleware(request: Request) {\n  const nextUrl = re",
+          "note": "nextjs/15/app/api-reference/components/link.md: el término solo aparece como literal en el archivo fuente; su protección es por código, no por el glosario."
+        }
+      ],
+      "justification": "API literal.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-fa4c",
+      "source_term": "matcher",
+      "domain": "nextjs",
+      "sense": "config de proxy que limita a qué rutas se aplica",
+      "preferred": {
+        "lang": "es",
+        "term": "matcher"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-361feb46",
+          "segment_id": "seg-52311c7a",
+          "before": "Defines a ",
+          "after": " for requests based on URL, method, or both.",
+          "note": "angular/api/common/http/testing/RequestMatch.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "API literal.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-eb2c",
+      "source_term": "cacheComponents",
+      "domain": "nextjs",
+      "sense": "flag de next.config.ts que activa el sistema de directivas de caché",
+      "preferred": {
+        "lang": "es",
+        "term": "cacheComponents"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-a1facd02",
+          "segment_id": "seg-b3e1ec5c",
+          "before": "onfig-js/basePath)\n[NextcacheComponents](/docs/15/app/api-reference/config/next-config-js/",
+          "after": ")",
+          "note": "nextjs/15/app/api-reference/config/next-config-js/browserDebugInfoInTerminal.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "API literal.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-4238",
+      "source_term": "partialPrefetching",
+      "domain": "nextjs",
+      "sense": "flag de next.config.ts que activa Partial Prefetching",
+      "preferred": {
+        "lang": "es",
+        "term": "partialPrefetching"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-603f3650",
+          "segment_id": "seg-91e4ece3",
+          "before": "oth on entering the viewport and on hover.\n\n>\n> **With Partial Prefetching enabled** ([`` ",
+          "after": ": true ``](/docs/app/api-reference/config/next-config-js/partialPrefetching)): the default",
+          "note": "nextjs/app/api-reference/components/link.md: el término solo aparece como literal en el archivo fuente; su protección es por código, no por el glosario."
+        }
+      ],
+      "justification": "API literal.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-646d",
+      "source_term": "cacheHandlers",
+      "domain": "nextjs",
+      "sense": "config que mapea default/remote a archivos de implementación de caché",
+      "preferred": {
+        "lang": "es",
+        "term": "cacheHandlers"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-974fb68d",
+          "segment_id": "seg-6d0e4707",
+          "before": "andler`](/docs/app/api-reference/config/next-config-js/incrementalCacheHandlerPath) and [`",
+          "after": "`](/docs/app/api-reference/config/next-config-js/cacheHandlers).\nTogether, the adapter and",
+          "note": "nextjs/app/api-reference/adapters/runtime-integration.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "API literal.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-6f8d",
+      "source_term": "LRU",
+      "domain": "nextjs",
+      "sense": "algoritmo de caché por menos uso reciente (Least Recently Used)",
+      "preferred": {
+        "lang": "es",
+        "term": "LRU"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-1406e192",
+          "segment_id": "seg-0c746c99",
+          "before": "If you don't configure `cacheHandlers`, Next.js uses an in-memory ",
+          "after": " (Least Recently Used) cache for both `default` and `remote`. You can view the [default im",
+          "note": "nextjs/app/api-reference/config/next-config-js/cacheHandlers.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "Algoritmo estándar con nombre propio.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-474a",
+      "source_term": "route-segment-config runtime",
+      "domain": "nextjs",
+      "sense": "export runtime = 'nodejs' (edge deprecado)",
+      "preferred": {
+        "lang": "es",
+        "term": "runtime = 'nodejs'"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "literals",
+          "segment_id": "literal-only",
+          "before": "",
+          "after": "",
+          "note": "`route-segment-config runtime` es un nombre del API: vive solo en code fences y enlaces simbólicos. Su protección es por literal (INV-05), no por una prosa traducible. Sentido: export runtime = 'nodejs' (edge deprecado)"
+        }
+      ],
+      "justification": "API literal; 'edge' ya no se usa.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-5da7",
+      "source_term": "instant = false",
+      "domain": "nextjs",
+      "sense": "export que desactiva Instant Navigation en una página",
+      "preferred": {
+        "lang": "es",
+        "term": "instant = false"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-ec8d518e",
+          "segment_id": "seg-0361979c",
+          "before": "content fails validation, even when it is wrapped in `<Suspense>` or the segment sets [`` ",
+          "after": " ``](/docs/app/api-reference/file-conventions/route-segment-config/instant#disabling-insta",
+          "note": "nextjs/app/api-reference/file-conventions/route-segment-config/ensureStatic.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "API literal.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-a2a1",
+      "source_term": "experimental.dynamicIO",
+      "domain": "nextjs",
+      "sense": "flag experimental pre-Cache Components",
+      "preferred": {
+        "lang": "es",
+        "term": "experimental.dynamicIO"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-afab2556",
+          "segment_id": "seg-a2c6b904",
+          "before": "Good to know\nIf you used `experimental.useCache` or `",
+          "after": "`, migrate using the [Version 16 upgrade guide](/docs/app/guides/upgrading/version-16#expe",
+          "note": "nextjs/app/api-reference/config/next-config-js/cacheComponents.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "API histórica deprecada.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-f018",
+      "source_term": "experimental.useCache",
+      "domain": "nextjs",
+      "sense": "flag experimental pre-Cache Components",
+      "preferred": {
+        "lang": "es",
+        "term": "experimental.useCache"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-afab2556",
+          "segment_id": "seg-a2c6b904",
+          "before": "Good to know\nIf you used `",
+          "after": "` or `experimental.dynamicIO`, migrate using the [Version 16 upgrade guide](/docs/app/guid",
+          "note": "nextjs/app/api-reference/config/next-config-js/cacheComponents.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "API histórica deprecada.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-7b23",
+      "source_term": "prefix",
+      "domain": "tailwind",
+      "sense": "string que se prepende a cada clase generada para evitar colisiones",
+      "preferred": {
+        "lang": "es",
+        "term": "prefijo"
+      },
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-9e538d41",
+          "segment_id": "seg-c770cb39",
+          "before": " the [`PathLocationStrategy`](/api/common/PathLocationStrategy).\nThe base href is the URL ",
+          "after": " that should be preserved when generating\nand recognizing URLs.",
+          "note": "angular/api/common/APP_BASE_HREF.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "Calco castellano estándar.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z",
+      "allowed_variants": [],
+      "forbidden_forms": []
+    },
+    {
+      "id": "g-8a98",
+      "source_term": "@theme",
+      "domain": "tailwind",
+      "sense": "directiva CSS de Tailwind v4 para definir tokens del tema",
+      "preferred": {
+        "lang": "es",
+        "term": "@theme"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-bac2e680",
+          "segment_id": "seg-e6b0166f",
+          "before": "](/docs/app/getting-started/css#tailwind-css):\nglobal.css\n```text\n@import 'tailwindcss';\n\n",
+          "after": " inline {\n  --font-sans: var(--font-inter);\n  --font-mono: var(--font-roboto-mono);\n}\n```\n",
+          "note": "nextjs/15/app/api-reference/components/font.md: el término solo aparece como literal en el archivo fuente; su protección es por código, no por el glosario."
+        }
+      ],
+      "justification": "API literal.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-c72d",
+      "source_term": "@utility",
+      "domain": "tailwind",
+      "sense": "directiva CSS de Tailwind v4 para declarar utilidades",
+      "preferred": {
+        "lang": "es",
+        "term": "@utility"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-0db7957d",
+          "segment_id": "seg-a0bf1b26",
+          "before": "that no longer exist in v4.\nTo customize the container utility in v4, extend it using the ",
+          "after": " directive:\n@utility container {  margin-inline: auto;  padding-inline: 2rem;}\nIn v3, the ",
+          "note": "tailwindcss/upgrade-guide.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "API literal.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-54e0",
+      "source_term": "@custom-variant",
+      "domain": "tailwind",
+      "sense": "directiva CSS que redefine una variante",
+      "preferred": {
+        "lang": "es",
+        "term": "@custom-variant"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-c9c3c06c",
+          "segment_id": "seg-49943506",
+          "before": "ules you're using in your project by creating a new variant in the supports-\\* namespace:\n",
+          "after": " supports-grid \\{  @supports (display: grid) \\{    @slot;  \\}\\}\nYou can then use these cus",
+          "note": "tailwindcss/hover-focus-and-other-states.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "API literal.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-04a1",
+      "source_term": "@config",
+      "domain": "tailwind",
+      "sense": "directiva CSS que carga un tailwind.config.js por compatibilidad",
+      "preferred": {
+        "lang": "es",
+        "term": "@config"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-0db7957d",
+          "segment_id": "seg-f8e0364a",
+          "before": ".\nIf you still need to use a JavaScript config file, you can load it explicitly using the ",
+          "after": " directive:\n@config \"../../tailwind.config.js\";\nThe corePlugins, safelist, and separator o",
+          "note": "tailwindcss/upgrade-guide.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "API literal.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-8dc1",
+      "source_term": "@source",
+      "domain": "tailwind",
+      "sense": "directiva CSS para safelist de clases v4",
+      "preferred": {
+        "lang": "es",
+        "term": "@source"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-0db7957d",
+          "segment_id": "seg-f8e0364a",
+          "before": "om the JavaScript-based config are not supported in v4.0. To safelist utilities in v4 use ",
+          "after": " inline().\nIn v3 we exported a resolveConfig function that you could use to turn your Java",
+          "note": "tailwindcss/upgrade-guide.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "API literal.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-1c0e",
+      "source_term": "@layer",
+      "domain": "tailwind",
+      "sense": "directiva CSS que define una capa en la cascada",
+      "preferred": {
+        "lang": "es",
+        "term": "@layer"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-37ae577e",
+          "segment_id": "seg-24e711a8",
+          "before": "n importing Tailwind to mark all utilities as !important:\n@import \"tailwindcss\" important;",
+          "after": " utilities {  .flex {    display: flex !important;  }  .gap-4 {    gap: 1rem !important;  ",
+          "note": "tailwindcss/styling-with-utility-classes.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "API literal.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-1988",
+      "source_term": "Preflight",
+      "domain": "tailwind",
+      "sense": "capa base de estilos que Tailwind inyecta",
+      "preferred": {
+        "lang": "es",
+        "term": "Preflight"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-88daff3d",
+          "segment_id": "seg-9a943e3e",
+          "before": "[",
+          "after": " Requests](#preflight-requests) <a id=\"preflight-requests\"></a>",
+          "note": "nextjs/15/app/guides/backend-for-frontend.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "Nombre del producto.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-260d",
+      "source_term": "divide-x",
+      "domain": "tailwind",
+      "sense": "utilidad que aplica bordes entre hijos en horizontal",
+      "preferred": {
+        "lang": "es",
+        "term": "divide-x"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "literals",
+          "segment_id": "literal-only",
+          "before": "",
+          "after": "",
+          "note": "`divide-x` es un nombre del API: vive solo en code fences y enlaces simbólicos. Su protección es por literal (INV-05), no por una prosa traducible. Sentido: utilidad que aplica bordes entre hijos en horizontal"
+        }
+      ],
+      "justification": "API literal.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-fe95",
+      "source_term": "divide-y",
+      "domain": "tailwind",
+      "sense": "utilidad que aplica bordes entre hijos en vertical",
+      "preferred": {
+        "lang": "es",
+        "term": "divide-y"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "literals",
+          "segment_id": "literal-only",
+          "before": "",
+          "after": "",
+          "note": "`divide-y` es un nombre del API: vive solo en code fences y enlaces simbólicos. Su protección es por literal (INV-05), no por una prosa traducible. Sentido: utilidad que aplica bordes entre hijos en vertical"
+        }
+      ],
+      "justification": "API literal.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-ae3c",
+      "source_term": "ring",
+      "domain": "tailwind",
+      "sense": "utilidad de outline circular (1px por defecto en v4)",
+      "preferred": {
+        "lang": "es",
+        "term": "ring"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-0db7957d",
+          "segment_id": "seg-5ce733ad",
+          "before": "    border-color: var(--color-gray-200, currentColor);  }}\nWe've changed the width of the ",
+          "after": " utility from 3px to 1px and changed the default color from blue-500 to currentColor to ma",
+          "note": "tailwindcss/upgrade-guide.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "API literal.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-d7eb",
+      "source_term": "important flag",
+      "domain": "tailwind",
+      "sense": "config global que hace todas las utilidades importantes",
+      "preferred": {
+        "lang": "es",
+        "term": "important flag"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-37ae577e",
+          "segment_id": "seg-24e711a8",
+          "before": "d to a project that has existing complex CSS with high specificity rules, you can use the ",
+          "after": " when importing Tailwind to mark all utilities as !important:\n@import \"tailwindcss\" import",
+          "note": "tailwindcss/styling-with-utility-classes.md: ejemplo real localizado en prosa traducible"
+        }
+      ],
+      "justification": "API literal.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    },
+    {
+      "id": "g-0a81",
+      "source_term": "border-* utilities",
+      "domain": "tailwind",
+      "sense": "utilidades de border-* con currentColor por defecto",
+      "preferred": {
+        "lang": "es",
+        "term": "border-*"
+      },
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "literals",
+          "segment_id": "literal-only",
+          "before": "",
+          "after": "",
+          "note": "`border-* utilities` es un nombre del API: vive solo en code fences y enlaces simbólicos. Su protección es por literal (INV-05), no por una prosa traducible. Sentido: utilidades de border-* con currentColor por defecto"
+        }
+      ],
+      "justification": "API literal.",
+      "decided_by": "usuario",
+      "decided_at": "2026-10-20T22:15:32Z"
+    }
+  ],
+  "approved_at": "2026-10-20T22:15:32Z"
+}

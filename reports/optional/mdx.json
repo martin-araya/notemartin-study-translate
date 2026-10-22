@@ -1,0 +1,144 @@
+{
+  "module_id": "mdx",
+  "generated_at": "2026-10-22T17:58:50Z",
+  "gate": "scripts/gate_optional.py",
+  "gate_exit_code": 0,
+  "phases": {
+    "from": 61,
+    "to": 70
+  },
+  "activation": "dormant_by_default",
+  "default_enabled": false,
+  "activation_option": "mdx.enabled",
+  "corpus_ref": "evals/cases/mdx.md",
+  "corpus_real": true,
+  "justification": "El corpus piloto autorizado contiene componentes MDX dentro de .md (Info y CodeGroup), de modo que prepare.py necesita distinguirlos del HTML genérico en lugar de bloquear todo lo que parezca una etiqueta.",
+  "criteria": {
+    "1_activacion_con_corpus": {
+      "passed": true,
+      "detail": {
+        "corpus_ref": "evals/cases/mdx.md",
+        "schema_enforced": true
+      }
+    },
+    "2_contrato_y_politica_de_fallo": {
+      "passed": true,
+      "detail": {
+        "contract_paths": 3,
+        "entrypoint": "scripts/prepare.py",
+        "exit_codes": [
+          0,
+          2
+        ]
+      }
+    },
+    "3_casos_positivos_y_negativos": {
+      "passed": true,
+      "detail": {
+        "declared": 10,
+        "matched_by_prefix": 10,
+        "undeclared": [],
+        "missing": [],
+        "evidence_tests": {
+          "activation_negative_test": {
+            "nodeid": "tests/test_optional_activation.py::test_encender_sin_corpus_se_rechaza[mdx]",
+            "exists": true,
+            "detail": "test_encender_sin_corpus_se_rechaza[mdx]"
+          },
+          "deactivation_test": {
+            "nodeid": "tests/test_optional_deactivation.py::test_desactivacion_deja_el_flujo_del_nucleo_identico[mdx]",
+            "exists": true,
+            "detail": "test_desactivacion_deja_el_flujo_del_nucleo_identico[mdx]"
+          }
+        }
+      },
+      "test_runs": {
+        "exit_code": 0,
+        "files": 10
+      }
+    },
+    "4_regresion_del_nucleo": {
+      "passed": true,
+      "core_suite_exit_code": 0,
+      "core_suite_source": "reports/core/pytest.json",
+      "undeclared_dependencies": []
+    },
+    "desactivacion_sin_efectos": {
+      "passed": true,
+      "detail": {
+        "nodeid": "tests/test_optional_deactivation.py::test_desactivacion_deja_el_flujo_del_nucleo_identico[mdx]",
+        "status": "pass",
+        "exit_code": 0
+      }
+    },
+    "consistencia_con_el_candidato": {
+      "passed": true,
+      "detail": {
+        "status": "checked",
+        "candidate": "reports/maintenance/release_candidate.json",
+        "modules_in_candidate": [
+          "core",
+          "delivery",
+          "html",
+          "language",
+          "maintenance",
+          "markdown-extensions",
+          "mdx",
+          "review",
+          "scale",
+          "terminology"
+        ],
+        "not_required": [
+          "admonitions.enabled",
+          "definition_lists.enabled",
+          "delivery.enabled",
+          "directives.enabled",
+          "frontmatter traducible",
+          "gate_review.py --mode expanded",
+          "html.enabled",
+          "locale",
+          "mdx.enabled",
+          "mermaid labels",
+          "mixed_profile.enabled",
+          "rtl.enabled",
+          "run_concurrent.py",
+          "terminology.enabled",
+          "wikilinks.enabled"
+        ]
+      }
+    }
+  },
+  "contract_paths": [
+    "references/mdx-contract.md",
+    "references/mdx-attributes.md",
+    "references/mdx-review.md"
+  ],
+  "test_files": [
+    "tests/test_mdx_assemble.py",
+    "tests/test_mdx_attributes.py",
+    "tests/test_mdx_contract.py",
+    "tests/test_mdx_gate.py",
+    "tests/test_mdx_parser.py",
+    "tests/test_mdx_props.py",
+    "tests/test_mdx_protect.py",
+    "tests/test_mdx_review.py",
+    "tests/test_mdx_selector.py",
+    "tests/test_mdx_tabs.py"
+  ],
+  "limitations": [
+    "No existe ningún archivo .mdx real en el repositorio: el corpus usa componentes MDX dentro de .md.",
+    "La evidencia es de clasificación y contrato, no de traducción completa con el módulo activo.",
+    "Los fixtures de tests/fixtures/mdx/ son sintéticos; el corpus que justifica la activación es el piloto."
+  ],
+  "known_external_gaps": [],
+  "core_delegations": [
+    {
+      "from_script": "scripts/prepare.py",
+      "imports": "mdx_selector",
+      "kind": "detector",
+      "why": "prepare.py necesita reconocer un componente MDX para bloquearlo cuando el módulo está apagado. Importa la librería pura del selector, no su CLI ni ningún estado del módulo."
+    }
+  ],
+  "failing_checks": {},
+  "note": "Este archivo lo escribe el gate que comprueba los cuatro criterios. No demuestra equivalencia semántica ni ejecución sobre el corpus real; dice lo que el gate midió."
+}

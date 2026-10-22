@@ -1,0 +1,135 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://notemartin-study-translate.local/schemas/release_candidate.schema.json",
+  "x-schema-version": "1.0.0",
+  "title": "Candidato de release ampliado",
+  "description": "Inventario de módulos activos de un candidato, con el gate propio de cada uno y los huecos externos que siguen abiertos (fase 149). Un módulo activo sin gate es un candidato inválido.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "generated_at",
+    "candidate_version",
+    "skill_version",
+    "modules",
+    "not_required",
+    "open_external_items",
+    "artifacts",
+    "claims_not_made"
+  ],
+  "properties": {
+    "generated_at": { "type": "string", "minLength": 4 },
+    "candidate_version": { "type": "string", "pattern": "^\\d+\\.\\d+\\.\\d+$" },
+    "skill_version": { "type": "string", "pattern": "^\\d+\\.\\d+\\.\\d+$" },
+    "modules": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["module_id", "phases", "activation", "gate", "exit_code", "ok", "limitations"],
+        "properties": {
+          "module_id": { "type": "string", "minLength": 1 },
+          "phases": {
+            "type": "array",
+            "minItems": 1,
+            "items": { "type": "integer", "minimum": 1, "maximum": 150 }
+          },
+          "activation": {
+            "description": "Sale de modules.json (criterio 1 de G-EXT): un módulo dormiente no puede declararse activo porque sus pruebas estén en verde.",
+            "enum": ["dormant_by_default", "opt_in", "core_required", "active", "inactive"]
+          },
+          "corpus_ref": {
+            "description": "Caso de evals/cases/ que declara el corpus que justifica este módulo. Null para el núcleo, que no necesita justificación para existir.",
+            "type": ["string", "null"]
+          },
+          "gate": {
+            "description": "Comando o informe que demuestra el estado interno del módulo.",
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["kind", "target"],
+            "properties": {
+              "kind": { "enum": ["command", "report", "pytest"] },
+              "target": { "type": "string", "minLength": 1 },
+              "command": { "type": "string" },
+              "test_files": {
+                "description": "Ficheros de prueba que el gate ejecuta. Deben ser todos los del módulo salvo los excluidos con motivo.",
+                "type": "array",
+                "items": { "type": "string" }
+              },
+              "excluded_tests": {
+                "description": "Pruebas del módulo que este gate no ejecuta, con el motivo. Vaciar la lista sin motivo esconde una regresión.",
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": ["path", "reason"],
+                  "properties": {
+                    "path": { "type": "string", "pattern": "^tests/[a-z0-9_]+\\.py$" },
+                    "reason": { "type": "string", "minLength": 20 }
+                  }
+                }
+              }
+            }
+          },
+          "exit_code": { "type": "integer", "minimum": 0, "maximum": 9 },
+          "ok": { "type": "boolean" },
+          "gate_detail": {
+            "description": "Últimas líneas de la salida real del gate. Se conserva aunque pase.",
+            "type": "string"
+          },
+          "limitations": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    },
+    "not_required": {
+      "description": "Opciones desactivadas que NO son requisitos de este candidato.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["option", "default", "reason"],
+        "properties": {
+          "option": { "type": "string", "minLength": 1 },
+          "default": { "type": "string" },
+          "reason": { "type": "string", "minLength": 8 }
+        }
+      }
+    },
+    "open_external_items": {
+      "description": "Evidencia externa que no existe. Nunca son fallos internos: bloquean afirmaciones remotas, no el release local.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "phases", "reason", "owner", "procedure", "blocking_scope"],
+        "properties": {
+          "id": { "type": "string", "minLength": 1 },
+          "phases": { "type": "array", "items": { "type": "integer" } },
+          "reason": { "type": "string", "minLength": 8 },
+          "owner": { "type": "string", "minLength": 1 },
+          "procedure": { "type": "string", "minLength": 8 },
+          "blocking_scope": {
+            "enum": ["remote_verification_claim", "human_signature"]
+          }
+        }
+      }
+    },
+    "artifacts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["path", "sha256"],
+        "properties": {
+          "path": { "type": "string", "minLength": 1 },
+          "sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" }
+        }
+      }
+    },
+    "claims_not_made": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string", "minLength": 8 }
+    }
+  }
+}

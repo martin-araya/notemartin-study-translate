@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://notemartin-study-translate.local/schemas/packet_schedule.schema.json",
+  "x-schema-version": "1.0.0",
+  "title": "Planificador de paquetes (fase 112)",
+  "description": "Orden topológico de los ``packet_id`` de una ejecución. Las dependencias se establecen entre paquetes que comparten anclas y entre paquetes y términos del glosario congelado.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "generated_at",
+    "glossary_hash",
+    "order",
+    "cycles",
+    "missing_terms",
+    "phases"
+  ],
+  "properties": {
+    "generated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "glossary_hash": {
+      "description": "SHA-256 del glossary.json congelado usado al planificar.",
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "expected_glossary_hash": {
+      "description": "Hash declarado por la ejecución (a veces diferente del actual tras una edición). null cuando la ejecución no lo aporta.",
+      "type": ["string", "null"],
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "pair": {
+      "type": "string"
+    },
+    "order": {
+      "description": "Lista de packet_id en orden topológico. Vacía si hay ciclos.",
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "cycles": {
+      "description": "Lista de ciclos detectados (cada uno es una lista de packet_id).",
+      "type": "array",
+      "items": {
+        "type": "array",
+        "items": { "type": "string" }
+      }
+    },
+    "missing_terms": {
+      "description": "Términos de glosario referenciados por algún paquete pero ausentes del glossary.json.",
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "phases": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "glossary_dependent": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "anchor_dependent": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "free": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "notes": {
+      "type": "string"
+    }
+  }
+}

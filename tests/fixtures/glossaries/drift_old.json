@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "frozen": false,
+  "allowed_languages": ["es"],
+  "entries": [
+    {
+      "id": "g-d001",
+      "source_term": "schema",
+      "domain": "database",
+      "sense": "Definición estructural de tablas, columnas y relaciones",
+      "preferred": {"lang": "es", "term": "esquema"},
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-db-1",
+          "segment_id": "seg-d001-a",
+          "before": "CREATE TABLE users (",
+          "after": " );",
+          "note": "Definición DDL"
+        }
+      ],
+      "justification": "Traducción estándar.",
+      "decided_by": "example-agent",
+      "decided_at": "2026-10-20T00:00:00Z"
+    },
+    {
+      "id": "g-d003",
+      "source_term": "transaction",
+      "domain": "database",
+      "sense": "Unidad lógica de trabajo ACID",
+      "preferred": {"lang": "es", "term": "transacción"},
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-db-1",
+          "segment_id": "seg-d003-a",
+          "before": "BEGIN; COMMIT;",
+          "after": "",
+          "note": "Sentencias SQL"
+        }
+      ],
+      "justification": "Traducción estándar.",
+      "decided_by": "example-agent",
+      "decided_at": "2026-10-20T00:00:00Z"
+    }
+  ]
+}

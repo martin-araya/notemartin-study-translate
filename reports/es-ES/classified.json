@@ -1,0 +1,1539 @@
+{
+  "source_root": "/Users/martin/Desktop/projects/Skills/notemartin-study-translate/tests/fixtures/es-es",
+  "generated_at": "2026-10-20T14:11:27Z",
+  "files": [
+    {
+      "document_id": "doc-a727f998",
+      "path": "web-css.md",
+      "source_hash": "a727f998c7f6726657a38d437db88939980c765820907771579ae1e2fd413dc3",
+      "source_size": 9380,
+      "segments": [
+        {
+          "segment_id": "seg-12c0730a",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 4,
+            "end": 33
+          },
+          "line_range": {
+            "start": 1,
+            "end": 4
+          },
+          "heading_path": [],
+          "translatable_text": "title: CSS\nslug: Web/CSS",
+          "anchor": null,
+          "protected_literals": [],
+          "language": "en",
+          "disposition": "translatable",
+          "confidence": 0.8571381033717664
+        },
+        {
+          "segment_id": "seg-208554c7",
+          "structural_type": "paragraph",
+          "byte_range": {
+            "start": 34,
+            "end": 543
+          },
+          "line_range": {
+            "start": 5,
+            "end": 6
+          },
+          "heading_path": [
+            {
+              "level": 2,
+              "text": "title: CSS\nslug: Web/CSS",
+              "byte_range": {
+                "start": 4,
+                "end": 33
+              }
+            }
+          ],
+          "translatable_text": "**Hojas de Estilo en Cascada** (del inglés _**C**ascading **S**tyle **S**heets_) o **CSS** es el lenguaje de [estilos](/es/docs/Web/API/StyleSheet) utilizado para describir la presentación de documentos [HTML](/es/docs/Web/HTML) o [XML](/es/docs/Web/XML) (incluyendo varios lenguajes basados en XML como [SVG](/es/docs/Web/SVG), [MathML](/es/docs/Web/MathML) o {{Glossary(\"XHTML\")}}). CSS describe cómo debe ser renderizado el elemento estructurado en la pantalla, en papel, en el habla o en otros medios.",
+          "protected_literals": [],
+          "language": "es",
+          "disposition": "already_target",
+          "confidence": 0.9999967496061772
+        },
+        {
+          "segment_id": "seg-462c9a61",
+          "structural_type": "paragraph",
+          "byte_range": {
+            "start": 544,
+            "end": 995
+          },
+          "line_range": {
+            "start": 7,
+            "end": 8
+          },
+          "heading_path": [
+            {
+              "level": 2,
+              "text": "title: CSS\nslug: Web/CSS",
+              "byte_range": {
+                "start": 4,
+                "end": 33
+              }
+            }
+          ],
+          "translatable_text": "**CSS** es uno de los lenguajes base de la _Open Web_ y posee una [especificación estandarizada](https://www.w3.org/Style/CSS/#specs) por parte del W3C. Anteriormente , el desarrollo de varias partes de las especificaciones de CSS era realizado de manera sincrónica, lo que permitía el versionado de las recomendaciones. Probablemente habrás escuchado acerca de CSS1, CSS2.1, CSS3. Sin embargo, CSS4 nunca se ha lanzado como una versión oficial.",
+          "protected_literals": [],
+          "language": "es",
+          "disposition": "already_target",
+          "confidence": 0.9999971082422142
+        },
+        {
+          "segment_id": "seg-8884d00b",
+          "structural_type": "paragraph",
+          "byte_range": {
+            "start": 996,
+            "end": 1470
+          },
+          "line_range": {
+            "start": 9,
+            "end": 10
+          },
+          "heading_path": [
+            {
+              "level": 2,
+              "text": "title: CSS\nslug: Web/CSS",
+              "byte_range": {
+                "start": 4,
+                "end": 33
+              }
+            }
+          ],
+          "translatable_text": "Desde CSS3, el alcance de las especificaciones se incrementó de forma significativa y el progreso de los diferentes módulos de CSS comenzó a mostrar varias diferencias, lo que hizo más efectivo [desarrollar y publicar recomendaciones separadas por módulos](https://www.w3.org/Style/CSS/current-work). En vez de versionar las especificaciones de CSS, la W3C actualmente realiza una captura de las [últimas especificaciones estables de CSS](https://www.w3.org/TR/css/).",
+          "protected_literals": [],
+          "language": "es",
+          "disposition": "already_target",
+          "confidence": 0.9999959125862761
+        },
+        {
+          "segment_id": "seg-8acc9c90",
+          "structural_type": "list_item",
+          "byte_range": {
+            "start": 1471,
+            "end": 2224
+          },
+          "line_range": {
+            "start": 11,
+            "end": 20
+          },
+          "heading_path": [
+            {
+              "level": 2,
+              "text": "title: CSS\nslug: Web/CSS",
+              "byte_range": {
+                "start": 4,
+                "end": 33
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": [],
+          "language": "empty",
+          "disposition": "no_text",
+          "confidence": 1.0
+        },
+        {
+          "segment_id": "seg-a92daf1a",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 2224,
+            "end": 2238
+          },
+          "line_range": {
+            "start": 20,
+            "end": 21
+          },
+          "heading_path": [
+            {
+              "level": 2,
+              "text": "title: CSS\nslug: Web/CSS",
+              "byte_range": {
+                "start": 4,
+                "end": 33
+              }
+            }
+          ],
+          "translatable_text": "Tutoriales",
+          "anchor": null,
+          "protected_literals": [],
+          "language": "other",
+          "disposition": "translatable",
+          "confidence": 0.9512891283009708
+        },
+        {
+          "segment_id": "seg-0c10b5e0",
+          "structural_type": "paragraph",
+          "byte_range": {
+            "start": 2239,
+            "end": 2471
+          },
+          "line_range": {
+            "start": 22,
+            "end": 23
+          },
+          "heading_path": [
+            {
+              "level": 2,
+              "text": "Tutoriales",
+              "byte_range": {
+                "start": 2224,
+                "end": 2238
+              }
+            }
+          ],
+          "translatable_text": "Nuestra [área de aprendizaje CSS](/es/docs/conflicting/Learn_web_development/Core/Styling_basics_b957eec7deaf1ea2b20721d6838ea6e1) presenta múltiples módulos que enseñan CSS desde cero — no se requieren conocimientos previos.",
+          "protected_literals": [],
+          "language": "es",
+          "disposition": "already_target",
+          "confidence": 0.9999940373043608
+        },
+        {
+          "segment_id": "seg-40873da5",
+          "structural_type": "list_item",
+          "byte_range": {
+            "start": 2472,
+            "end": 3015
+          },
+          "line_range": {
+            "start": 24,
+            "end": 27
+          },
+          "heading_path": [
+            {
+              "level": 2,
+              "text": "Tutoriales",
+              "byte_range": {
+                "start": 2224,
+                "end": 2238
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": [],
+          "language": "empty",
+          "disposition": "no_text",
+          "confidence": 1.0
+        },
+        {
+          "segment_id": "seg-6b826aa7",
+          "structural_type": "html_block",
+          "byte_range": {
+            "start": 3015,
+            "end": 3023
+          },
+          "line_range": {
+            "start": 27,
+            "end": 28
+          },
+          "heading_path": [
+            {
+              "level": 2,
+              "text": "Tutoriales",
+              "byte_range": {
+                "start": 2224,
+                "end": 2238
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": [],
+          "language": "empty",
+          "disposition": "no_text",
+          "confidence": 1.0
+        },
+        {
+          "segment_id": "seg-571bab89",
+          "structural_type": "list_item",
+          "byte_range": {
+            "start": 3024,
+            "end": 5485
+          },
+          "line_range": {
+            "start": 29,
+            "end": 41
+          },
+          "heading_path": [
+            {
+              "level": 2,
+              "text": "Tutoriales",
+              "byte_range": {
+                "start": 2224,
+                "end": 2238
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": [],
+          "language": "empty",
+          "disposition": "no_text",
+          "confidence": 1.0
+        },
+        {
+          "segment_id": "seg-4f875975",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 5485,
+            "end": 5499
+          },
+          "line_range": {
+            "start": 41,
+            "end": 42
+          },
+          "heading_path": [
+            {
+              "level": 2,
+              "text": "Tutoriales",
+              "byte_range": {
+                "start": 2224,
+                "end": 2238
+              }
+            }
+          ],
+          "translatable_text": "Referencia",
+          "anchor": null,
+          "protected_literals": [],
+          "language": "es",
+          "disposition": "already_target",
+          "confidence": 0.9999932067254351
+        },
+        {
+          "segment_id": "seg-22ece9fa",
+          "structural_type": "list_item",
+          "byte_range": {
+            "start": 5500,
+            "end": 7126
+          },
+          "line_range": {
+            "start": 43,
+            "end": 58
+          },
+          "heading_path": [
+            {
+              "level": 2,
+              "text": "Referencia",
+              "byte_range": {
+                "start": 5485,
+                "end": 5499
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": [],
+          "language": "empty",
+          "disposition": "no_text",
+          "confidence": 1.0
+        },
+        {
+          "segment_id": "seg-1d45c0f0",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 7126,
+            "end": 7138
+          },
+          "line_range": {
+            "start": 58,
+            "end": 59
+          },
+          "heading_path": [
+            {
+              "level": 2,
+              "text": "Referencia",
+              "byte_range": {
+                "start": 5485,
+                "end": 5499
+              }
+            }
+          ],
+          "translatable_text": "Cookbook",
+          "anchor": null,
+          "protected_literals": [],
+          "language": "unknown",
+          "disposition": "too_short",
+          "confidence": 0.0
+        },
+        {
+          "segment_id": "seg-a0d26077",
+          "structural_type": "paragraph",
+          "byte_range": {
+            "start": 7139,
+            "end": 7629
+          },
+          "line_range": {
+            "start": 60,
+            "end": 61
+          },
+          "heading_path": [
+            {
+              "level": 2,
+              "text": "Cookbook",
+              "byte_range": {
+                "start": 7126,
+                "end": 7138
+              }
+            }
+          ],
+          "translatable_text": "El [libro de cocina de diseño CSS](/es/docs/Web/CSS/How_to/Layout_cookbook)[](/es/docs/Web/CSS/How_to/Layout_cookbook) tiene como objetivo reunir recetas para patrones de diseño comunes, sobre cosas que puedes necesitar implementar en tus sitios. Además de proporcionar código que puedes usar como punto de partida en tus proyectos, estas recetas destacan las diferentes formas en que se pueden usar las especificaciones de diseño y las elecciones que puedes hacer como desarrollador.",
+          "protected_literals": [],
+          "language": "es",
+          "disposition": "already_target",
+          "confidence": 0.9999970768761888
+        },
+        {
+          "segment_id": "seg-b1c80349",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 7630,
+            "end": 7672
+          },
+          "line_range": {
+            "start": 62,
+            "end": 63
+          },
+          "heading_path": [
+            {
+              "level": 2,
+              "text": "Cookbook",
+              "byte_range": {
+                "start": 7126,
+                "end": 7138
+              }
+            }
+          ],
+          "translatable_text": "Herramientas para el desarrollo de CSS",
+          "anchor": null,
+          "protected_literals": [],
+          "language": "es",
+          "disposition": "already_target",
+          "confidence": 0.9999961137927974
+        },
+        {
+          "segment_id": "seg-c0aa2417",
+          "structural_type": "list_item",
+          "byte_range": {
+            "start": 7673,
+            "end": 8521
+          },
+          "line_range": {
+            "start": 64,
+            "end": 69
+          },
+          "heading_path": [
+            {
+              "level": 2,
+              "text": "Herramientas para el desarrollo de CSS",
+              "byte_range": {
+                "start": 7630,
+                "end": 7672
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": [],
+          "language": "empty",
+          "disposition": "no_text",
+          "confidence": 1.0
+        },
+        {
+          "segment_id": "seg-a586aafa",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 8521,
+            "end": 8537
+          },
+          "line_range": {
+            "start": 69,
+            "end": 70
+          },
+          "heading_path": [
+            {
+              "level": 2,
+              "text": "Herramientas para el desarrollo de CSS",
+              "byte_range": {
+                "start": 7630,
+                "end": 7672
+              }
+            }
+          ],
+          "translatable_text": "Meta errores",
+          "anchor": null,
+          "protected_literals": [],
+          "language": "es",
+          "disposition": "already_target",
+          "confidence": 0.9999928830060723
+        },
+        {
+          "segment_id": "seg-550f958f",
+          "structural_type": "list_item",
+          "byte_range": {
+            "start": 8538,
+            "end": 8604
+          },
+          "line_range": {
+            "start": 71,
+            "end": 73
+          },
+          "heading_path": [
+            {
+              "level": 2,
+              "text": "Meta errores",
+              "byte_range": {
+                "start": 8521,
+                "end": 8537
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": [],
+          "language": "empty",
+          "disposition": "no_text",
+          "confidence": 1.0
+        },
+        {
+          "segment_id": "seg-0c852885",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 8604,
+            "end": 8620
+          },
+          "line_range": {
+            "start": 73,
+            "end": 74
+          },
+          "heading_path": [
+            {
+              "level": 2,
+              "text": "Meta errores",
+              "byte_range": {
+                "start": 8521,
+                "end": 8537
+              }
+            }
+          ],
+          "translatable_text": "Ver también",
+          "anchor": null,
+          "protected_literals": [],
+          "language": "es",
+          "disposition": "already_target",
+          "confidence": 0.99999482898061
+        },
+        {
+          "segment_id": "seg-3aac582c",
+          "structural_type": "list_item",
+          "byte_range": {
+            "start": 8621,
+            "end": 9380
+          },
+          "line_range": {
+            "start": 75,
+            "end": 80
+          },
+          "heading_path": [
+            {
+              "level": 2,
+              "text": "Ver también",
+              "byte_range": {
+                "start": 8604,
+                "end": 8620
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": [],
+          "language": "empty",
+          "disposition": "no_text",
+          "confidence": 1.0
+        }
+      ],
+      "file_disposition": "mixed",
+      "file_disposition_counts": {
+        "translatable": 2,
+        "already_target": 9,
+        "no_text": 8,
+        "too_short": 1
+      }
+    },
+    {
+      "document_id": "doc-5b616001",
+      "path": "web-html.md",
+      "source_hash": "5b6160018a4918138e3e92ff0653afb1ef7e5eac59ac82f47142864552609667",
+      "source_size": 1817,
+      "segments": [
+        {
+          "segment_id": "seg-1dba8ffc",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 4,
+            "end": 143
+          },
+          "line_range": {
+            "start": 1,
+            "end": 7
+          },
+          "heading_path": [],
+          "translatable_text": "title: Referencia HTML\nshort-title: Referencia\nslug: Web/HTML/Reference\nl10n:\n  sourceCommit: 0754cd805a8e010d2e3a2a065f634a3bcf358252",
+          "anchor": null,
+          "protected_literals": [],
+          "language": "en",
+          "disposition": "translatable",
+          "confidence": 0.9999951301644181
+        },
+        {
+          "segment_id": "seg-801cfa38",
+          "structural_type": "paragraph",
+          "byte_range": {
+            "start": 144,
+            "end": 320
+          },
+          "line_range": {
+            "start": 8,
+            "end": 9
+          },
+          "heading_path": [
+            {
+              "level": 2,
+              "text": "title: Referencia HTML\nshort-title: Referencia\nslug: Web/HTML/Reference\nl10n:\n  sourceCommit: 0754cd805a8e010d2e3a2a065f634a3bcf358252",
+              "byte_range": {
+                "start": 4,
+                "end": 143
+              }
+            }
+          ],
+          "translatable_text": "Esta referencia [HTML](/es/docs/Web/HTML) describe todos los **elementos** y **atributos** de HTML, incluyendo los **atributos globales** que se aplican a todos los elementos.",
+          "protected_literals": [],
+          "language": "es",
+          "disposition": "already_target",
+          "confidence": 0.9999970156155435
+        },
+        {
+          "segment_id": "seg-5fc075df",
+          "structural_type": "list_item",
+          "byte_range": {
+            "start": 321,
+            "end": 1817
+          },
+          "line_range": {
+            "start": 10,
+            "end": 22
+          },
+          "heading_path": [
+            {
+              "level": 2,
+              "text": "title: Referencia HTML\nshort-title: Referencia\nslug: Web/HTML/Reference\nl10n:\n  sourceCommit: 0754cd805a8e010d2e3a2a065f634a3bcf358252",
+              "byte_range": {
+                "start": 4,
+                "end": 143
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": [],
+          "language": "empty",
+          "disposition": "no_text",
+          "confidence": 1.0
+        }
+      ],
+      "file_disposition": "mixed",
+      "file_disposition_counts": {
+        "translatable": 1,
+        "already_target": 1,
+        "no_text": 1
+      }
+    },
+    {
+      "document_id": "doc-2e7ef047",
+      "path": "web-index.md",
+      "source_hash": "2e7ef047f9c453e8413f3e7bc70bd0e997d962a5e6c28ed240b90591ce50605e",
+      "source_size": 6173,
+      "segments": [
+        {
+          "segment_id": "seg-1c52946f",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 4,
+            "end": 142
+          },
+          "line_range": {
+            "start": 1,
+            "end": 7
+          },
+          "heading_path": [],
+          "translatable_text": "title: Tecnología web para desarrolladores\nshort-title: Web\nslug: Web\nl10n:\n  sourceCommit: f4c0e822eb6a1ea438c7342f43a3e4809adbd56a",
+          "anchor": null,
+          "protected_literals": [],
+          "language": "en",
+          "disposition": "translatable",
+          "confidence": 0.9999948056706239
+        },
+        {
+          "segment_id": "seg-55f053c1",
+          "structural_type": "paragraph",
+          "byte_range": {
+            "start": 143,
+            "end": 384
+          },
+          "line_range": {
+            "start": 8,
+            "end": 9
+          },
+          "heading_path": [
+            {
+              "level": 2,
+              "text": "title: Tecnología web para desarrolladores\nshort-title: Web\nslug: Web\nl10n:\n  sourceCommit: f4c0e822eb6a1ea438c7342f43a3e4809adbd56a",
+              "byte_range": {
+                "start": 4,
+                "end": 142
+              }
+            }
+          ],
+          "translatable_text": "La web abierta ofrece increíbles oportunidades para los desarrolladores. Para aprovechar al máximo estas tecnologías, es necesario saber cómo usarlas. A continuación, encontrarás enlaces a nuestra documentación sobre tecnología web.",
+          "protected_literals": [],
+          "language": "es",
+          "disposition": "already_target",
+          "confidence": 0.9999965811637725
+        },
+        {
+          "segment_id": "seg-ed8ea379",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 385,
+            "end": 428
+          },
+          "line_range": {
+            "start": 10,
+            "end": 11
+          },
+          "heading_path": [
+            {
+              "level": 2,
+              "text": "title: Tecnología web para desarrolladores\nshort-title: Web\nslug: Web\nl10n:\n  sourceCommit: f4c0e822eb6a1ea438c7342f43a3e4809adbd56a",
+              "byte_range": {
+                "start": 4,
+                "end": 142
+              }
+            }
+          ],
+          "translatable_text": "Documentación para desarrolladores web",
+          "anchor": null,
+          "protected_literals": [],
+          "language": "es",
+          "disposition": "already_target",
+          "confidence": 0.999994507804781
+        },
+        {
+          "segment_id": "seg-5f9b3b87",
+          "structural_type": "list_item",
+          "byte_range": {
+            "start": 429,
+            "end": 1558
+          },
+          "line_range": {
+            "start": 12,
+            "end": 27
+          },
+          "heading_path": [
+            {
+              "level": 2,
+              "text": "Documentación para desarrolladores web",
+              "byte_range": {
+                "start": 385,
+                "end": 428
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": [],
+          "language": "empty",
+          "disposition": "no_text",
+          "confidence": 1.0
+        },
+        {
+          "segment_id": "seg-4679fbaa",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 1558,
+            "end": 1592
+          },
+          "line_range": {
+            "start": 27,
+            "end": 28
+          },
+          "heading_path": [
+            {
+              "level": 2,
+              "text": "Documentación para desarrolladores web",
+              "byte_range": {
+                "start": 385,
+                "end": 428
+              }
+            }
+          ],
+          "translatable_text": "Referencias de tecnología web",
+          "anchor": null,
+          "protected_literals": [],
+          "language": "es",
+          "disposition": "already_target",
+          "confidence": 0.9999977019771544
+        },
+        {
+          "segment_id": "seg-0fff240c",
+          "structural_type": "list_item",
+          "byte_range": {
+            "start": 1593,
+            "end": 5404
+          },
+          "line_range": {
+            "start": 29,
+            "end": 68
+          },
+          "heading_path": [
+            {
+              "level": 2,
+              "text": "Referencias de tecnología web",
+              "byte_range": {
+                "start": 1558,
+                "end": 1592
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": [],
+          "language": "empty",
+          "disposition": "no_text",
+          "confidence": 1.0
+        },
+        {
+          "segment_id": "seg-95f3e390",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 5404,
+            "end": 5452
+          },
+          "line_range": {
+            "start": 68,
+            "end": 69
+          },
+          "heading_path": [
+            {
+              "level": 2,
+              "text": "Referencias de tecnología web",
+              "byte_range": {
+                "start": 1558,
+                "end": 1592
+              }
+            }
+          ],
+          "translatable_text": "Documentación de herramientas de desarrollo",
+          "anchor": null,
+          "protected_literals": [],
+          "language": "es",
+          "disposition": "already_target",
+          "confidence": 0.9999971900034126
+        },
+        {
+          "segment_id": "seg-853956f2",
+          "structural_type": "list_item",
+          "byte_range": {
+            "start": 5453,
+            "end": 6173
+          },
+          "line_range": {
+            "start": 70,
+            "end": 78
+          },
+          "heading_path": [
+            {
+              "level": 2,
+              "text": "Documentación de herramientas de desarrollo",
+              "byte_range": {
+                "start": 5404,
+                "end": 5452
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": [],
+          "language": "empty",
+          "disposition": "no_text",
+          "confidence": 1.0
+        }
+      ],
+      "file_disposition": "mixed",
+      "file_disposition_counts": {
+        "translatable": 1,
+        "already_target": 4,
+        "no_text": 3
+      }
+    },
+    {
+      "document_id": "doc-20864b93",
+      "path": "web-javascript.md",
+      "source_hash": "20864b932d1853aa650df96d4baa5b772e84ec5ff66574e7dce3038c61bdebc3",
+      "source_size": 9567,
+      "segments": [
+        {
+          "segment_id": "seg-05e37037",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 4,
+            "end": 110
+          },
+          "line_range": {
+            "start": 1,
+            "end": 6
+          },
+          "heading_path": [],
+          "translatable_text": "title: JavaScript\nslug: Web/JavaScript\nl10n:\n  sourceCommit: 04158640487c17d515de8078c9307a2f906377d0",
+          "anchor": null,
+          "protected_literals": [],
+          "language": "other",
+          "disposition": "translatable",
+          "confidence": 0.9999948556056438
+        },
+        {
+          "segment_id": "seg-5d2c68f2",
+          "structural_type": "paragraph",
+          "byte_range": {
+            "start": 111,
+            "end": 962
+          },
+          "line_range": {
+            "start": 7,
+            "end": 8
+          },
+          "heading_path": [
+            {
+              "level": 2,
+              "text": "title: JavaScript\nslug: Web/JavaScript\nl10n:\n  sourceCommit: 04158640487c17d515de8078c9307a2f906377d0",
+              "byte_range": {
+                "start": 4,
+                "end": 110
+              }
+            }
+          ],
+          "translatable_text": "**JavaScript** (**JS**) es un lenguaje de programación ligero, interpretado (o compilado {{Glossary(\"Just_In_Time_Compilation\", \"justo-a-tiempo\")}}) con {{Glossary(\"First-class Function\", \"funciones de primera clase\")}}. Si bien es más conocido como el lenguaje de scripting para páginas web, [muchos entornos fuera del navegador](https://es.wikipedia.org/wiki/JavaScript) también lo usan, tal como {{Glossary(\"Node.js\")}}, [Apache CouchDB](https://couchdb.apache.org/) y [Adobe Acrobat](https://opensource.adobe.com/dc-acrobat-sdk-docs/acrobatsdk/). JavaScript es un lenguaje [basado en prototipos](/es/docs/Glossary/Prototype-based_programming), con [recolección de basura](/es/docs/Glossary/Garbage_collection), [dinámico](/es/docs/Glossary/Dynamic_typing), que soporta múltiples paradigmas como imperativo, funcional y orientado a objetos.",
+          "protected_literals": [],
+          "language": "es",
+          "disposition": "already_target",
+          "confidence": 0.9999962854650355
+        },
+        {
+          "segment_id": "seg-15fba110",
+          "structural_type": "paragraph",
+          "byte_range": {
+            "start": 963,
+            "end": 1635
+          },
+          "line_range": {
+            "start": 9,
+            "end": 10
+          },
+          "heading_path": [
+            {
+              "level": 2,
+              "text": "title: JavaScript\nslug: Web/JavaScript\nl10n:\n  sourceCommit: 04158640487c17d515de8078c9307a2f906377d0",
+              "byte_range": {
+                "start": 4,
+                "end": 110
+              }
+            }
+          ],
+          "translatable_text": "Las capacidades dinámicas de JavaScript incluyen construcción de objetos en tiempo de ejecución, listas de parámetros variables, variables de función, creación dinámica de scripts (mediante [`eval`](/es/docs/Web/JavaScript/Reference/Global_Objects/eval)), introspección de objetos (mediante [`for...in`](/es/docs/Web/JavaScript/Reference/Statements/for...in) y [utilidades de `Object`](/es/docs/Web/JavaScript/Reference/Global_Objects/Object#static_methods)), y recuperación de código fuente (las funciones de JavaScript almacenan su texto fuente y pueden recuperarse mediante [`toString()`](/es/docs/Web/JavaScript/Reference/Global_Objects/Function/toString)).",
+          "protected_literals": [
+            {
+              "type": "code_inline",
+              "byte_range": {
+                "start": 1162,
+                "end": 1166
+              },
+              "value": "eval"
+            }
+          ],
+          "language": "es",
+          "disposition": "already_target",
+          "confidence": 0.9999960834778402
+        },
+        {
+          "segment_id": "seg-acda2801",
+          "structural_type": "paragraph",
+          "byte_range": {
+            "start": 1636,
+            "end": 1926
+          },
+          "line_range": {
+            "start": 11,
+            "end": 12
+          },
+          "heading_path": [
+            {
+              "level": 2,
+              "text": "title: JavaScript\nslug: Web/JavaScript\nl10n:\n  sourceCommit: 04158640487c17d515de8078c9307a2f906377d0",
+              "byte_range": {
+                "start": 4,
+                "end": 110
+              }
+            }
+          ],
+          "translatable_text": "Esta sección está dedicada al lenguaje JavaScript en sí, y no a las partes que son específicas de las páginas web u otros entornos host. Para información acerca de {{Glossary(\"API\",\"APIs\")}} específicas para páginas Web, consulta [APIs Web](/es/docs/Web/API) y {{Glossary(\"DOM\")}}.",
+          "protected_literals": [],
+          "language": "es",
+          "disposition": "already_target",
+          "confidence": 0.9999950061053422
+        },
+        {
+          "segment_id": "seg-b011ce9e",
+          "structural_type": "paragraph",
+          "byte_range": {
+            "start": 1927,
+            "end": 2681
+          },
+          "line_range": {
+            "start": 13,
+            "end": 14
+          },
+          "heading_path": [
+            {
+              "level": 2,
+              "text": "title: JavaScript\nslug: Web/JavaScript\nl10n:\n  sourceCommit: 04158640487c17d515de8078c9307a2f906377d0",
+              "byte_range": {
+                "start": 4,
+                "end": 110
+              }
+            }
+          ],
+          "translatable_text": "Los estándares para JavaScript son la [Especificación del Lenguaje ECMAScript](https://tc39.es/ecma262/) (ECMA-262) y la [especificación de la API de Internacionalización de ECMAScript](https://tc39.es/ecma402/) (ECMA-402). Tan pronto como un navegador implementa una funcionalidad, intentamos documentarla. Esto significa que en casos donde algunas [propuestas para nuevas funciones de ECMAScript](https://github.com/tc39/proposals) ya han sido implementadas en navegadores, la documentación y ejemplos en los artículos de MDN pueden usar algunas de esas nuevas funciones. La mayoría de las veces, esto ocurre entre las [etapas](https://tc39.es/process-document/) 3 y 4, y generalmente antes de que la especificación sea publicada oficialmente.",
+          "protected_literals": [],
+          "language": "es",
+          "disposition": "already_target",
+          "confidence": 0.9999977968729912
+        },
+        {
+          "segment_id": "seg-ea73eeb8",
+          "structural_type": "paragraph",
+          "byte_range": {
+            "start": 2682,
+            "end": 3068
+          },
+          "line_range": {
+            "start": 15,
+            "end": 16
+          },
+          "heading_path": [
+            {
+              "level": 2,
+              "text": "title: JavaScript\nslug: Web/JavaScript\nl10n:\n  sourceCommit: 04158640487c17d515de8078c9307a2f906377d0",
+              "byte_range": {
+                "start": 4,
+                "end": 110
+              }
+            }
+          ],
+          "translatable_text": "No confundas JavaScript con el [lenguaje de programación Java](<https://es.wikipedia.org/wiki/Java_(lenguaje_de_programación)>) — **JavaScript _no es_ \"Java Interpretado\"**. Ambos \"Java\" y \"JavaScript\" son marcas o marcas registradas de Oracle en los Estados Unidos y otros países. Sin embargo, los dos lenguajes de programación tienen sintaxis, semántica y usos muy diferentes.",
+          "protected_literals": [],
+          "language": "es",
+          "disposition": "already_target",
+          "confidence": 0.9999972876765797
+        },
+        {
+          "segment_id": "seg-fab52f05",
+          "structural_type": "paragraph",
+          "byte_range": {
+            "start": 3069,
+            "end": 3282
+          },
+          "line_range": {
+            "start": 17,
+            "end": 18
+          },
+          "heading_path": [
+            {
+              "level": 2,
+              "text": "title: JavaScript\nslug: Web/JavaScript\nl10n:\n  sourceCommit: 04158640487c17d515de8078c9307a2f906377d0",
+              "byte_range": {
+                "start": 4,
+                "end": 110
+              }
+            }
+          ],
+          "translatable_text": "La documentación de JavaScript sobre las características principales del lenguaje ([ECMAScript](/es/docs/Web/JavaScript/Reference/JavaScript_technologies_overview) puro, en su mayor parte) incluye lo siguiente:",
+          "protected_literals": [],
+          "language": "es",
+          "disposition": "already_target",
+          "confidence": 0.9999940985142846
+        },
+        {
+          "segment_id": "seg-216eb03f",
+          "structural_type": "list_item",
+          "byte_range": {
+            "start": 3283,
+            "end": 3409
+          },
+          "line_range": {
+            "start": 19,
+            "end": 22
+          },
+          "heading_path": [
+            {
+              "level": 2,
+              "text": "title: JavaScript\nslug: Web/JavaScript\nl10n:\n  sourceCommit: 04158640487c17d515de8078c9307a2f906377d0",
+              "byte_range": {
+                "start": 4,
+                "end": 110
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": [],
+          "language": "empty",
+          "disposition": "no_text",
+          "confidence": 1.0
+        },
+        {
+          "segment_id": "seg-9ea54cb0",
+          "structural_type": "paragraph",
+          "byte_range": {
+            "start": 3409,
+            "end": 3634
+          },
+          "line_range": {
+            "start": 22,
+            "end": 23
+          },
+          "heading_path": [
+            {
+              "level": 2,
+              "text": "title: JavaScript\nslug: Web/JavaScript\nl10n:\n  sourceCommit: 04158640487c17d515de8078c9307a2f906377d0",
+              "byte_range": {
+                "start": 4,
+                "end": 110
+              }
+            }
+          ],
+          "translatable_text": "Para más información sobre las especificaciones de JavaScript y tecnologías relacionadas, consulta [Descripción general de las tecnologías JavaScript](/es/docs/Web/JavaScript/Reference/JavaScript_technologies_overview).",
+          "protected_literals": [],
+          "language": "es",
+          "disposition": "already_target",
+          "confidence": 0.999994954181879
+        },
+        {
+          "segment_id": "seg-2e9fa6ad",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 3635,
+            "end": 3668
+          },
+          "line_range": {
+            "start": 24,
+            "end": 25
+          },
+          "heading_path": [
+            {
+              "level": 2,
+              "text": "title: JavaScript\nslug: Web/JavaScript\nl10n:\n  sourceCommit: 04158640487c17d515de8078c9307a2f906377d0",
+              "byte_range": {
+                "start": 4,
+                "end": 110
+              }
+            }
+          ],
+          "translatable_text": "Tutoriales para principiantes",
+          "anchor": null,
+          "protected_literals": [],
+          "language": "es",
+          "disposition": "already_target",
+          "confidence": 0.6230708244317901
+        },
+        {
+          "segment_id": "seg-a23e7ac8",
+          "structural_type": "paragraph",
+          "byte_range": {
+            "start": 3669,
+            "end": 3858
+          },
+          "line_range": {
+            "start": 26,
+            "end": 27
+          },
+          "heading_path": [
+            {
+              "level": 2,
+              "text": "Tutoriales para principiantes",
+              "byte_range": {
+                "start": 3635,
+                "end": 3668
+              }
+            }
+          ],
+          "translatable_text": "Nuestros [módulos principales de aprendizaje de desarrollo web](/es/docs/Learn_web_development/Core) contienen tutoriales modernos y actualizados que cubren los fundamentos de JavaScript.",
+          "protected_literals": [],
+          "language": "es",
+          "disposition": "already_target",
+          "confidence": 0.9999950116784819
+        },
+        {
+          "segment_id": "seg-f8026223",
+          "structural_type": "list_item",
+          "byte_range": {
+            "start": 3859,
+            "end": 5065
+          },
+          "line_range": {
+            "start": 28,
+            "end": 35
+          },
+          "heading_path": [
+            {
+              "level": 2,
+              "text": "Tutoriales para principiantes",
+              "byte_range": {
+                "start": 3635,
+                "end": 3668
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": [],
+          "language": "empty",
+          "disposition": "no_text",
+          "confidence": 1.0
+        },
+        {
+          "segment_id": "seg-b8497a06",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 5065,
+            "end": 5089
+          },
+          "line_range": {
+            "start": 35,
+            "end": 36
+          },
+          "heading_path": [
+            {
+              "level": 2,
+              "text": "Tutoriales para principiantes",
+              "byte_range": {
+                "start": 3635,
+                "end": 3668
+              }
+            }
+          ],
+          "translatable_text": "Guías de JavaScript",
+          "anchor": null,
+          "protected_literals": [],
+          "language": "es",
+          "disposition": "already_target",
+          "confidence": 0.8571385518116134
+        },
+        {
+          "segment_id": "seg-ae4ad127",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 5090,
+            "end": 5128
+          },
+          "line_range": {
+            "start": 37,
+            "end": 38
+          },
+          "heading_path": [
+            {
+              "level": 2,
+              "text": "Guías de JavaScript",
+              "byte_range": {
+                "start": 5065,
+                "end": 5089
+              }
+            }
+          ],
+          "translatable_text": "Guías fundamentales del lenguaje",
+          "anchor": null,
+          "protected_literals": [],
+          "language": "es",
+          "disposition": "already_target",
+          "confidence": 0.9999962305619917
+        },
+        {
+          "segment_id": "seg-75d5171c",
+          "structural_type": "list_item",
+          "byte_range": {
+            "start": 5129,
+            "end": 5346
+          },
+          "line_range": {
+            "start": 39,
+            "end": 42
+          },
+          "heading_path": [
+            {
+              "level": 2,
+              "text": "Guías de JavaScript",
+              "byte_range": {
+                "start": 5065,
+                "end": 5089
+              }
+            },
+            {
+              "level": 3,
+              "text": "Guías fundamentales del lenguaje",
+              "byte_range": {
+                "start": 5090,
+                "end": 5128
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": [],
+          "language": "empty",
+          "disposition": "no_text",
+          "confidence": 1.0
+        },
+        {
+          "segment_id": "seg-975359f6",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 5346,
+            "end": 5361
+          },
+          "line_range": {
+            "start": 42,
+            "end": 43
+          },
+          "heading_path": [
+            {
+              "level": 2,
+              "text": "Guías de JavaScript",
+              "byte_range": {
+                "start": 5065,
+                "end": 5089
+              }
+            },
+            {
+              "level": 3,
+              "text": "Guías fundamentales del lenguaje",
+              "byte_range": {
+                "start": 5090,
+                "end": 5128
+              }
+            }
+          ],
+          "translatable_text": "Intermedio",
+          "anchor": null,
+          "protected_literals": [],
+          "language": "unknown",
+          "disposition": "unknown",
+          "confidence": 0.5706366850821056
+        },
+        {
+          "segment_id": "seg-339cb728",
+          "structural_type": "list_item",
+          "byte_range": {
+            "start": 5362,
+            "end": 7428
+          },
+          "line_range": {
+            "start": 44,
+            "end": 61
+          },
+          "heading_path": [
+            {
+              "level": 2,
+              "text": "Guías de JavaScript",
+              "byte_range": {
+                "start": 5065,
+                "end": 5089
+              }
+            },
+            {
+              "level": 3,
+              "text": "Intermedio",
+              "byte_range": {
+                "start": 5346,
+                "end": 5361
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": [],
+          "language": "empty",
+          "disposition": "no_text",
+          "confidence": 1.0
+        },
+        {
+          "segment_id": "seg-b9b94fad",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 7428,
+            "end": 7441
+          },
+          "line_range": {
+            "start": 61,
+            "end": 62
+          },
+          "heading_path": [
+            {
+              "level": 2,
+              "text": "Guías de JavaScript",
+              "byte_range": {
+                "start": 5065,
+                "end": 5089
+              }
+            },
+            {
+              "level": 3,
+              "text": "Intermedio",
+              "byte_range": {
+                "start": 5346,
+                "end": 5361
+              }
+            }
+          ],
+          "translatable_text": "Avanzado",
+          "anchor": null,
+          "protected_literals": [],
+          "language": "unknown",
+          "disposition": "too_short",
+          "confidence": 0.0
+        },
+        {
+          "segment_id": "seg-240380ec",
+          "structural_type": "list_item",
+          "byte_range": {
+            "start": 7442,
+            "end": 7795
+          },
+          "line_range": {
+            "start": 63,
+            "end": 68
+          },
+          "heading_path": [
+            {
+              "level": 2,
+              "text": "Guías de JavaScript",
+              "byte_range": {
+                "start": 5065,
+                "end": 5089
+              }
+            },
+            {
+              "level": 3,
+              "text": "Avanzado",
+              "byte_range": {
+                "start": 7428,
+                "end": 7441
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": [],
+          "language": "empty",
+          "disposition": "no_text",
+          "confidence": 1.0
+        },
+        {
+          "segment_id": "seg-f85518ee",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 7795,
+            "end": 7809
+          },
+          "line_range": {
+            "start": 68,
+            "end": 69
+          },
+          "heading_path": [
+            {
+              "level": 2,
+              "text": "Guías de JavaScript",
+              "byte_range": {
+                "start": 5065,
+                "end": 5089
+              }
+            },
+            {
+              "level": 3,
+              "text": "Avanzado",
+              "byte_range": {
+                "start": 7428,
+                "end": 7441
+              }
+            }
+          ],
+          "translatable_text": "Referencia",
+          "anchor": null,
+          "protected_literals": [],
+          "language": "es",
+          "disposition": "already_target",
+          "confidence": 0.9999932067254351
+        },
+        {
+          "segment_id": "seg-a519f6bf",
+          "structural_type": "paragraph",
+          "byte_range": {
+            "start": 7810,
+            "end": 7915
+          },
+          "line_range": {
+            "start": 70,
+            "end": 71
+          },
+          "heading_path": [
+            {
+              "level": 2,
+              "text": "Referencia",
+              "byte_range": {
+                "start": 7795,
+                "end": 7809
+              }
+            }
+          ],
+          "translatable_text": "Consulta la documentación completa de la [referencia de JavaScript](/es/docs/Web/JavaScript/Reference).",
+          "protected_literals": [],
+          "language": "other",
+          "disposition": "translatable",
+          "confidence": 0.7142986273417129
+        },
+        {
+          "segment_id": "seg-198173cf",
+          "structural_type": "list_item",
+          "byte_range": {
+            "start": 7916,
+            "end": 9567
+          },
+          "line_range": {
+            "start": 72,
+            "end": 82
+          },
+          "heading_path": [
+            {
+              "level": 2,
+              "text": "Referencia",
+              "byte_range": {
+                "start": 7795,
+                "end": 7809
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": [],
+          "language": "empty",
+          "disposition": "no_text",
+          "confidence": 1.0
+        }
+      ],
+      "file_disposition": "already_target",
+      "file_disposition_counts": {
+        "translatable": 2,
+        "already_target": 12,
+        "no_text": 6,
+        "unknown": 1,
+        "too_short": 1
+      }
+    }
+  ],
+  "recognized_source_languages": [
+    "en"
+  ]
+}

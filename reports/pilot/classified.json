@@ -1,0 +1,125 @@
+{
+  "source_root": "/Users/martin/Desktop/projects/notemartin-pilot/source",
+  "generated_at": "2026-10-20T18:27:44Z",
+  "total_files": 9,
+  "blocked_count": 0,
+  "files": [
+    {
+      "path": "APIs/OpenRouter/01 - Introducción, Autenticación y Formato General.md",
+      "bytes": 201287,
+      "sha256": "ef8f4c49d1c26354f2bdeb91b0a69e4c29d03e6f6b04f28ed731095d28415644",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false,
+      "verdict": "ok",
+      "findings": []
+    },
+    {
+      "path": "APIs/OpenRouter/04 - Capacidades Avanzadas Reasoning, Tool Calling.md",
+      "bytes": 464977,
+      "sha256": "1e74cd4b9be34d6164da92fcab417d4ea5057db7cb5cd4f28b4b66e435c37c77",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false,
+      "verdict": "ok",
+      "findings": []
+    },
+    {
+      "path": "developer-mozilla/Guides/Cascading_variables/Using_custom_properties.md",
+      "bytes": 13057,
+      "sha256": "6192fc4ddee0b44b742c8076f1103797ea0b89b6f60e46d28c9cdadc3725a2e4",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false,
+      "verdict": "ok",
+      "findings": []
+    },
+    {
+      "path": "developer-mozilla/How_to/Layout_cookbook/Card.md",
+      "bytes": 9217,
+      "sha256": "58e4cbffec89245cc8122c2bfb01ed29bf77a64144895bef1a907b021133a0e9",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false,
+      "verdict": "ok",
+      "findings": []
+    },
+    {
+      "path": "mermaid/build-and-edit/write-diagram-syntax.md",
+      "bytes": 7866,
+      "sha256": "1e57d898caaa68954c4415615e8f480dda2a43ae1e894f62572b751a761436a4",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false,
+      "verdict": "ok",
+      "findings": [
+        {
+          "type": "mermaid_in_fence",
+          "severity": "info",
+          "evidence": "Mermaid dentro de fence; se preserva"
+        }
+      ]
+    },
+    {
+      "path": "mermaid/guides/presentation.md",
+      "bytes": 9445,
+      "sha256": "b8cb5af114daab0e5d76590d3dff367544ffb4e6503a7c6d1452b6400259a92b",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false,
+      "verdict": "ok",
+      "findings": [
+        {
+          "type": "mermaid_in_fence",
+          "severity": "info",
+          "evidence": "Mermaid dentro de fence; se preserva"
+        }
+      ]
+    },
+    {
+      "path": "oracle/notas/Cap_14/Cap_14_Physical_Storage_Structures.md",
+      "bytes": 66240,
+      "sha256": "8607448205a83aec92a72ffe2dc860afd68c3acd46d58f9c516ee86055e6296d",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false,
+      "verdict": "ok",
+      "findings": [
+        {
+          "type": "mermaid_in_fence",
+          "severity": "info",
+          "evidence": "Mermaid dentro de fence; se preserva"
+        }
+      ]
+    },
+    {
+      "path": "typescriptlang/handbook/2/basic-types.md",
+      "bytes": 20442,
+      "sha256": "5602380ce79fa687c4d2a6a9df80b707ff25d441ad8997de6ec49f9894e8b77c",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false,
+      "verdict": "ok",
+      "findings": []
+    },
+    {
+      "path": "typescriptlang/handbook/2/functions.md",
+      "bytes": 30782,
+      "sha256": "461b6cd35a1e372d4e0edcd99e7eb87c28ef6cafd7785ee3c33f0c2929639cec",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false,
+      "verdict": "ok",
+      "findings": []
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "source_root": "/Users/martin/Desktop/projects/Skills/notemartin-study-translate/tests/fixtures/es-ar",
+  "generated_at": "2026-10-20T01:54:44Z",
+  "total_files": 4,
+  "total_bytes": 6266,
+  "files": [
+    {
+      "path": "web-css.md",
+      "bytes": 1290,
+      "sha256": "9a0e94dbfdeff775b0fd4bd5830b04c0ca8f40f0f1da2cfd5bf5f96650b1194a",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "web-html.md",
+      "bytes": 1517,
+      "sha256": "b8b4b2d2e25c4de8d5feefb216519b9c6dd39c5fa8bda8db4df5cecc2086e48c",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "web-index.md",
+      "bytes": 2348,
+      "sha256": "61e59a1964465aa566ab7c83ed7673af5dcb39dd8098944b269d39a16e33b36d",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "web-javascript.md",
+      "bytes": 1111,
+      "sha256": "cd70e7fb661da1777f32a9a1414326a43ce94709738f269c8e6c3e27f31515d1",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    }
+  ]
+}

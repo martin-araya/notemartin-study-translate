@@ -1,0 +1,19 @@
+{
+  "case_id": "foreign_segment_id",
+  "case": {
+    "segments": ["seg-0001", "seg-0002"]
+  },
+  "positive": {
+    "translations": {
+      "seg-0001": "El agente conserva los literales protegidos.",
+      "seg-0002": "La revisión ocurre en una pasada separada."
+    }
+  },
+  "negative": {
+    "translations": {
+      "seg-0001": "El agente conserva los literales protegidos.",
+      "seg-0002": "La revisión ocurre en una pasada separada.",
+      "seg-9999": "Segmento que no existe en el origen."
+    }
+  }
+}

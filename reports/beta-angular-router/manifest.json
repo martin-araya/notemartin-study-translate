@@ -1,0 +1,4108 @@
+{
+  "run_id": "run-deadbeef",
+  "created_at": "2026-10-21T00:30:45Z",
+  "manifest_version": "translate/v1",
+  "skill_version": "0.2.1",
+  "parser": {
+    "name": "markdown-it-py",
+    "version": "3.0.0"
+  },
+  "anchor_policy": {
+    "algorithm": "github-slug-v1",
+    "version": "v1"
+  },
+  "model_metadata": {
+    "provider": "kilo",
+    "model": "minimax-coding-plan/MiniMax-M3",
+    "prompt_version": "1.0.0"
+  },
+  "glossary_snapshot": {
+    "version": 5,
+    "hash": "c67b5b234f513825b62738d15ae06d0ca26f46810b1f71c6af114bba97aea341",
+    "frozen": true
+  },
+  "profile_snapshot": {
+    "hash": "fbdc465424c133518b30e8fc5467ed78702be296fb9addded86a6e1977d0cc04"
+  },
+  "inputs": {
+    "source_root": "/Users/martin/Desktop/projects/notemartin-beta-angular-router/source",
+    "total_files": 150,
+    "total_bytes": 298347,
+    "hashes_indexed": true
+  },
+  "files": [
+    {
+      "path": "angular/api/index.md",
+      "document_id": "doc-18c85057",
+      "source_hash": "18c85057aea339802c2dcac6d945406787ccc0a26803f1aa304cdd5244ff5652",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 88,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/ActivatedRoute.md",
+      "document_id": "doc-b126cd3d",
+      "source_hash": "b126cd3d78dd7db8e9e9f0c76da83c24639ada0be45101b5dd23fcb987e55f09",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 68,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/ActivatedRouteSnapshot.md",
+      "document_id": "doc-163bcf9d",
+      "source_hash": "163bcf9d4620e893ef623c037ea56978cba6e547823920745e461660ef84e6f7",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 67,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/ActivationEnd.md",
+      "document_id": "doc-383e6a33",
+      "source_hash": "383e6a33f63efd74234e41c5b68fa759aa4d099e80c808dc050e5689d1657282",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 12,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/ActivationStart.md",
+      "document_id": "doc-55c8b9d8",
+      "source_hash": "55c8b9d8f14bbe80061100de87c94f628f279268fb5937068b519ed5a8f62657",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 12,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/AutoCleanupInjectorsFeature.md",
+      "document_id": "doc-1bad0c7c",
+      "source_hash": "1bad0c7c0b968d40c7f04b5c4556fcee77b7fd598d2835052783134afdfe1d22",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 6,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/BaseRouteReuseStrategy.md",
+      "document_id": "doc-2c6a46dc",
+      "source_hash": "2c6a46dc6b5104b3f630d7e06b6ea399d62bed3aa23dc80d59f54f34540070a8",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 26,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/CanActivate.md",
+      "document_id": "doc-b3a701ee",
+      "source_hash": "b3a701ee1475df5e92c3918580b75daedb72a1ab97ec5c791b11c7f29b7a726d",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 13,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/CanActivateChild.md",
+      "document_id": "doc-4fd63d01",
+      "source_hash": "4fd63d01ecf83534c4d4b1468c09570e1ce2557ff074e1f69ec76cec737270d3",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 13,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/CanActivateChildFn.md",
+      "document_id": "doc-aa7f799d",
+      "source_hash": "aa7f799d8d66cb8ba730bee014da466c51058864b53e4b616b458b59d9acbeaa",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 9,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/CanActivateFn.md",
+      "document_id": "doc-01361806",
+      "source_hash": "01361806a03874950110c4e2ba3126b5caa0d559fa3986299d7a3834be89f122",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 11,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/CanDeactivate.md",
+      "document_id": "doc-40f0b118",
+      "source_hash": "40f0b118d7cb6eea035e2660174a97c0b8f819390fb393075f1148ace50e5d34",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 13,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/CanDeactivateFn.md",
+      "document_id": "doc-fab452ef",
+      "source_hash": "fab452ef2043495597c3b6a3b53fc8a2514f9479c3ffee4a3bca1ad9475ea0a8",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 9,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/CanLoad.md",
+      "document_id": "doc-36ed5526",
+      "source_hash": "36ed55263b506f6cb73fa4a4fbc6c20094684460d1eeb8ccb1999f68223b0a3b",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 14,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/CanLoadFn.md",
+      "document_id": "doc-8a18b9cf",
+      "source_hash": "8a18b9cfb531d2cb2d2dc280f60bd08889d9dd6249f0325f67bed2abe9eef91f",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 7,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/CanMatch.md",
+      "document_id": "doc-ddcb4e19",
+      "source_hash": "ddcb4e192abab931a83956a8a9b455ebee619aa3a46146d254b38d0d635fb48f",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 14,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/CanMatchFn.md",
+      "document_id": "doc-483da415",
+      "source_hash": "483da415e7b3606155fb951576aef87c22834470c0cd1b9565def5e1441d41c6",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 9,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/ChildActivationEnd.md",
+      "document_id": "doc-f4cc27eb",
+      "source_hash": "f4cc27eb4e7a57edb0012295582245b71036ee80cc76ee781c8a57b471037bae",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 12,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/ChildActivationStart.md",
+      "document_id": "doc-6d9f3bc4",
+      "source_hash": "6d9f3bc47a982c205e496fad54710979301cbdaee324ffe748218caabeec9c70",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 12,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/ChildrenOutletContexts.md",
+      "document_id": "doc-fe528835",
+      "source_hash": "fe528835520cce0c37506221139318ea498e6537af4cc5907b5bf18caa959c4f",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 21,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/ComponentInputBindingFeature.md",
+      "document_id": "doc-1cac880c",
+      "source_hash": "1cac880c2e8334ac65af654d45c1015aeb89a0dbf7e1708693fb81f47a0ee5fe",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 6,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/ComponentInputBindingOptions.md",
+      "document_id": "doc-6a17dd73",
+      "source_hash": "6a17dd73c9570a3b5868e070c33eaab47e2ed4da87fa67f9c70dce8bb31ec140",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 13,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/Data.md",
+      "document_id": "doc-976afb9f",
+      "source_hash": "976afb9f03c850512b8c6a0aba86fb66943026eff1ff14f9413d29a57d7a0b45",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 6,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/DebugTracingFeature.md",
+      "document_id": "doc-8c4d6762",
+      "source_hash": "8c4d676294c1b2f04d67fe93f0eda36b5b5943add455c0f249799459c4b8734c",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 6,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/DefaultExport.md",
+      "document_id": "doc-b999856e",
+      "source_hash": "b999856ef42e15260dd5afe4c8da025762c15e824eff5cc71d6a6f5c91b39f7e",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 9,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/DefaultTitleStrategy.md",
+      "document_id": "doc-c6077a87",
+      "source_hash": "c6077a874f218c1dcd46f704abdddd6c5dac104f164ffad6740c3470d59f550e",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 17,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/DefaultUrlSerializer.md",
+      "document_id": "doc-da47e472",
+      "source_hash": "da47e472803f1535caf07b625e5ee6c2f86b4c90f72faca32b9652cf5fef75d0",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 16,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/DeprecatedGuard.md",
+      "document_id": "doc-a38978cc",
+      "source_hash": "a38978cc1c078c7b1f5675e7f0eda4087e3e20b17e997d8d0fb96784ee085a4c",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 6,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/DeprecatedResolve.md",
+      "document_id": "doc-a6d628ba",
+      "source_hash": "a6d628ba40d74a14ab6d82f654cbc4fc45ad4915250c741b72545dd640646be2",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 6,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/DetachedRouteHandle.md",
+      "document_id": "doc-f9d47791",
+      "source_hash": "f9d4779128433908c1e04a394fbcf9b55a6c9ac55feb8e6754bc52729ad5c0b5",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 8,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/DisabledInitialNavigationFeature.md",
+      "document_id": "doc-c2a68e46",
+      "source_hash": "c2a68e464fe8805b4e3890457d7f5aec54450e9049f6a0568cdc9fbafa13887d",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 6,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/EnabledBlockingInitialNavigationFeature.md",
+      "document_id": "doc-df311600",
+      "source_hash": "df3116004f9b29628c82580637f7114650617cdb10f80719e478d7172a984bf2",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 6,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/Event.md",
+      "document_id": "doc-3bfd5b7b",
+      "source_hash": "3bfd5b7b2dc046e4357630fc1ee9f8992d0d47b2096e65a8f4c262a53f613f30",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 9,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/EventType.md",
+      "document_id": "doc-19fd1298",
+      "source_hash": "19fd1298936a2d538e4eac1aa4d919fa892887d3fcc7bc7af87eba5dbaa6ed2a",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 23,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/ExtraOptions.md",
+      "document_id": "doc-10556398",
+      "source_hash": "105563986bbf8f333d102526f888ffe3ee4f341c239a43e97afef23b5ae1d41c",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 57,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/GuardResult.md",
+      "document_id": "doc-b2bd196f",
+      "source_hash": "b2bd196f859e16f91705c1ae3965424c8a8d51501859078de12e23f7fe347375",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 6,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/GuardsCheckEnd.md",
+      "document_id": "doc-aa056929",
+      "source_hash": "aa056929a8c2822914785bc4715bc388701f495d3902913accb6337929ee55d9",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 22,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/GuardsCheckStart.md",
+      "document_id": "doc-3daa853b",
+      "source_hash": "3daa853bf2c42be9c67148a300dae1f6005f4ff114fe983f52776bf01a669873",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 20,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/InMemoryScrollingFeature.md",
+      "document_id": "doc-6a2f1716",
+      "source_hash": "6a2f1716b39f8f7867b5c67269c5cf153c028428b392f5a8235560185f19264f",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 6,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/InMemoryScrollingOptions.md",
+      "document_id": "doc-71c7a7ea",
+      "source_hash": "71c7a7ea8ecc22e97c6b398159bf2eca0abf594394164f5f8be380a43587431f",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 15,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/InitialNavigation.md",
+      "document_id": "doc-32e60870",
+      "source_hash": "32e608707171d64df09cfe1af30c9091e9374f6104dedc921c0d1329e34ef4d0",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 9,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/InitialNavigationFeature.md",
+      "document_id": "doc-c02763f1",
+      "source_hash": "c02763f1cd674ac5eebf3b62730271812e83a896e6bf17fc0d10addc758433d7",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 6,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/IsActiveMatchOptions.md",
+      "document_id": "doc-ce5ed2b1",
+      "source_hash": "ce5ed2b12a965064518045736079df3958e0820cae9470a04570076ba8f3fae7",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 21,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/LoadChildren.md",
+      "document_id": "doc-7bf5aff2",
+      "source_hash": "7bf5aff29dacc21358f1a513c407f341833a4ec367739c4d03e14f1bfa3772d6",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 6,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/LoadChildrenCallback.md",
+      "document_id": "doc-c9cb4ec8",
+      "source_hash": "c9cb4ec85c21f08f0974670b11709ee72bf535568a674373386a2317801e0277",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 13,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/MaybeAsync.md",
+      "document_id": "doc-aa259a9a",
+      "source_hash": "aa259a9a9cde489ea560454d9efa9cf0644f9208f3248e7d44db4abe95370766",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 6,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/Navigation.md",
+      "document_id": "doc-0179ecc7",
+      "source_hash": "0179ecc7a438aaf9aa7193cf16b0d71b0e3e8ef1b9e47163bc98f7a47693adad",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 33,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/NavigationBehaviorOptions.md",
+      "document_id": "doc-08f2c65a",
+      "source_hash": "08f2c65abb27b59bdd45e2cc606019353960a4d032095dc051cd109f25546fba",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 32,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/NavigationCancel.md",
+      "document_id": "doc-618ad51f",
+      "source_hash": "618ad51fa88094f28f18ed71def98cae3cf835aa8d4a9155e67c7c7e3c8be140",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 20,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/NavigationCancellationCode.md",
+      "document_id": "doc-59af44b4",
+      "source_hash": "59af44b4ae34943d3609ad8161778e415814e31e37da954be701d3e1ca9291b6",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 16,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/NavigationEnd.md",
+      "document_id": "doc-f52c7edb",
+      "source_hash": "f52c7edb0e39f3dd5095d15fc1e95dd66c05c9b3255b3fe932d023af58a591c6",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 18,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/NavigationError.md",
+      "document_id": "doc-8f660066",
+      "source_hash": "8f66006601219972f641504447a66d5842f52f13cb599cc080fec02e6d1f509a",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 19,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/NavigationErrorHandlerFeature.md",
+      "document_id": "doc-2daee20f",
+      "source_hash": "2daee20fd54716a0a42a41955a3bdc963cf3e6b5044b9706bbb601d9253f2d9d",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 6,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/NavigationExtras.md",
+      "document_id": "doc-99f4ae1c",
+      "source_hash": "99f4ae1caf0ce7acd6a3da40b6b746dfac10237a6713a616aa12f4a9a63c77a8",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 60,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/NavigationSkipped.md",
+      "document_id": "doc-884d1c66",
+      "source_hash": "884d1c66fc1e66852f731f68497441d0902786ef7dabf7bbcf109cd73620ac61",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 20,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/NavigationSkippedCode.md",
+      "document_id": "doc-f4d186dd",
+      "source_hash": "f4d186dd5a1bde57ec06a7d7993827dbc8f1fb771d21d15cba98aa083472192e",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 10,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/NavigationStart.md",
+      "document_id": "doc-9577e7bd",
+      "source_hash": "9577e7bdf9b9789f7900ade6603885e1412b4cf957d67ea857804985eb689e49",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 22,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/NoPreloading.md",
+      "document_id": "doc-641a3950",
+      "source_hash": "641a395056385a9f5bb2d9b4323c5f81e0eda05e4ae40d6057e8cd2fb6c1d121",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 10,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/OnSameUrlNavigation.md",
+      "document_id": "doc-f3d94565",
+      "source_hash": "f3d94565628a248359e9a3cf5594410678a8106382e77566a9e6b1686b6b7900",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 10,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/OutletContext.md",
+      "document_id": "doc-f572a06f",
+      "source_hash": "f572a06ffed7997ccbc5a9130afa54a91b2924a46e16107fafc1bf6f58cba9e1",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 18,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/PRIMARY_OUTLET.md",
+      "document_id": "doc-ef171da7",
+      "source_hash": "ef171da7c25ccc2ba46129cd997fd02739e34e1405b733063cc17d5d03f37e45",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 6,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/ParamMap.md",
+      "document_id": "doc-66a56388",
+      "source_hash": "66a56388b5f0c61e8ee3aa9a2e3284452e05e1cadfdf62862a283045b529e23f",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 18,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/Params.md",
+      "document_id": "doc-6dbac60c",
+      "source_hash": "6dbac60cc0d576445baa750ca64734a89c3a14443457c1fdebfd801537055899",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 6,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/PartialMatchRouteSnapshot.md",
+      "document_id": "doc-577d2c24",
+      "source_hash": "577d2c245110e3da4b30c672df47caffced90e53b693b5add24b077661e761ec",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 6,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/PreloadAllModules.md",
+      "document_id": "doc-74acc0e2",
+      "source_hash": "74acc0e2917f94595f05133d7d9c3054ae5798aeb0f849b1632ca6c922f6716c",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 12,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/PreloadingFeature.md",
+      "document_id": "doc-c5e4f5a1",
+      "source_hash": "c5e4f5a102ad4f5cbd5a357a342954a10eae30b30eb16bf35ca52e8c6913db22",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 6,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/PreloadingStrategy.md",
+      "document_id": "doc-0246aaee",
+      "source_hash": "0246aaeec36a298a8969a9deb765723de906df5f2cbec7dd55eb9fa7a59e74b3",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 8,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/QueryParamsHandling.md",
+      "document_id": "doc-945faf72",
+      "source_hash": "945faf7266d76ab8e1004108590d76ef06675cbff21a8eb676b5adc8d387adc0",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 7,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/ROUTER_CONFIGURATION.md",
+      "document_id": "doc-89356168",
+      "source_hash": "89356168aa06dd698a2dfddb9c01ee9ef3529ea1e0b1b49f3d1fe068b34ae78a",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 6,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/ROUTER_INITIALIZER.md",
+      "document_id": "doc-56b4967a",
+      "source_hash": "56b4967aa9abd2c5346efe22eacea9c33120254a5c4781a315e55f6c3321f1ac",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 6,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/ROUTER_OUTLET_DATA.md",
+      "document_id": "doc-8ee37720",
+      "source_hash": "8ee37720fba89befad3ffa3cb59d2ff286ab51a9d0d509c82b3a33e08c65e62f",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 13,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/ROUTES.md",
+      "document_id": "doc-e4f6a681",
+      "source_hash": "e4f6a6819d5bc953ea8be1f8f05b3c2a8d2fce16c69daf38ba1d4bbac21cf4c2",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 6,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/RedirectCommand.md",
+      "document_id": "doc-e5344ff9",
+      "source_hash": "e5344ff9c564f15820ffb2327913b8b45ff225524f67094ecfc68c804de440fa",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 25,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/RedirectFunction.md",
+      "document_id": "doc-9bdd48a7",
+      "source_hash": "9bdd48a73b401cfee031fac260bd9cf35e8f0cf96d31656616c88e7fc1b2119f",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 8,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/Resolve.md",
+      "document_id": "doc-3af6f462",
+      "source_hash": "3af6f462eecd1119a8a86c59d98aebc9e3e5874218f3327713eaeab83fe4c3c3",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 19,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/ResolveData.md",
+      "document_id": "doc-7f4cde4e",
+      "source_hash": "7f4cde4e5607371c1385a5300cb0b41e6d448d633ddd18c99d7a8f4c9de9163d",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 8,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/ResolveEnd.md",
+      "document_id": "doc-b6b9b49a",
+      "source_hash": "b6b9b49aeebcd6257d6047466361d57a60169e51f5f7f448d2e13188fde4baa9",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 20,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/ResolveFn.md",
+      "document_id": "doc-6c342a54",
+      "source_hash": "6c342a54a84c6d2bc19b86be07f94f3e759f38d5e0d03b5372626b49a4058afd",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 18,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/ResolveStart.md",
+      "document_id": "doc-4a76fa69",
+      "source_hash": "4a76fa696251d99cb714cba905acd2b8254c054142b3c03921694090309a632e",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 22,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/ResourceContext.md",
+      "document_id": "doc-9ee7bba9",
+      "source_hash": "9ee7bba90af1aed40dfed1e099226b9452d6c2defd9801c4aefd79afe6a89bc2",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 18,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/ResourceResult.md",
+      "document_id": "doc-a99047f2",
+      "source_hash": "a99047f29bc69fc92f83e9eeb233d19d36bfc6bdfb86a5698e265f92f1e9837a",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 6,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/Route.md",
+      "document_id": "doc-0dc988f0",
+      "source_hash": "0dc988f0689193968acfcb5a25ba5815711a976291a6b772d8a0f12e31f18efd",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 101,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/RouteConfigLoadEnd.md",
+      "document_id": "doc-5ae14240",
+      "source_hash": "5ae14240af657898ce266a9462487527397baf6d0db0ddf2697989eeb28325d8",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 12,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/RouteConfigLoadStart.md",
+      "document_id": "doc-353a95be",
+      "source_hash": "353a95be6c238f78e681ae53765a7fc47c7a01907549fafcb2827378ccb5c005",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 12,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/RouteReuseStrategy.md",
+      "document_id": "doc-a806d9f7",
+      "source_hash": "a806d9f7792c0b4745442c7888b7b4d7593f32e78680b01bc2a79eec47bbb7c4",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 27,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/Router.md",
+      "document_id": "doc-c32befe8",
+      "source_hash": "c32befe8bc12c58a1ab2e6278203a60191bc64fe8dee431a2c4c777942071a2d",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 83,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/RouterConfigOptions.md",
+      "document_id": "doc-ca11f0b3",
+      "source_hash": "ca11f0b3f32f33b026f95f95ea639e4f65011eec8cb358327b08c546ce69159e",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 24,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/RouterConfigurationFeature.md",
+      "document_id": "doc-da1641b2",
+      "source_hash": "da1641b2c5efc6865e8cad2fda4feb0c75d00d1f168f08832df6219d18bd5b26",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 6,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/RouterEvent.md",
+      "document_id": "doc-2bcac797",
+      "source_hash": "2bcac7976a6156b5ed6fa99dc9d17df58c2c29b0839757afb210ea476429c1fd",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 18,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/RouterFeature.md",
+      "document_id": "doc-ca4644a8",
+      "source_hash": "ca4644a8446c1f3d61650b0211c4f8e1b4849a26e2dfd80f4395206111eafd81",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 6,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/RouterFeatures.md",
+      "document_id": "doc-9a80be01",
+      "source_hash": "9a80be01077daad0a40ebb64ddfcbb757af3d921c2e4f4cd1599a6c41b9fc63b",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 6,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/RouterHashLocationFeature.md",
+      "document_id": "doc-c71902e8",
+      "source_hash": "c71902e8531565b006de62660b737123d8c2752102bb4a81a8050839b23637e5",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 6,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/RouterLink.md",
+      "document_id": "doc-c8e12b8e",
+      "source_hash": "c8e12b8e4dfbb6835778fcd21928849a69e518505368a3e0659597acf9297386",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 96,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/RouterLinkActive.md",
+      "document_id": "doc-12791ca8",
+      "source_hash": "12791ca8f28a98784bca14bacf7ab547972c879a80e03abe2943e00d4358c96b",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 40,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/RouterLinkWithHref.md",
+      "document_id": "doc-48a1f5e0",
+      "source_hash": "48a1f5e0b5f78155cf7858b261a3617971f3ef1a9b813ece3fe284cb4b8c4a45",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 96,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/RouterModule.md",
+      "document_id": "doc-17b48235",
+      "source_hash": "17b482357e24726c0a9c841bfc068e627c81a494a5a72e63f94e08eceeec8dbd",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 21,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/RouterOutlet.md",
+      "document_id": "doc-6186b8a8",
+      "source_hash": "6186b8a884fda23249b29266590eea80ba1842dd534e18b2d2070478a1943215",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 47,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/RouterOutletContract.md",
+      "document_id": "doc-3e7ec83d",
+      "source_hash": "3e7ec83d7183f180e3215b5fb2246f1a86e2b6c85c1dcebba7c3a7ff8fd6bf77",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 47,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/RouterPreloader.md",
+      "document_id": "doc-5d770a12",
+      "source_hash": "5d770a12a94fb9da624270556c313899ef521af2f76c7d51e41f7c5cae9316ea",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 14,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/RouterResourcesFeature.md",
+      "document_id": "doc-7e8f0b64",
+      "source_hash": "7e8f0b64d4c0821405d45f807554ea7bfe51ffeb9cac10aa603d05e4450e081b",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 6,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/RouterState.md",
+      "document_id": "doc-8c1c0813",
+      "source_hash": "8c1c08135c55d186be1cde4cf81af7ac023425f764c8e4fc577a17fa89a7b587",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 19,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/RouterStateSnapshot.md",
+      "document_id": "doc-0abb0cf0",
+      "source_hash": "0abb0cf07d8f26c684ce2d840f9f38bb0c529d1519f40d3c2d67e2f0b86c2e3d",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 19,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/RoutesRecognized.md",
+      "document_id": "doc-7d6f9c13",
+      "source_hash": "7d6f9c13fae3146a41e7f4422ee38e7db3d2b78afd3625d1860eb74c433c5188",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 20,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/RunGuardsAndResolvers.md",
+      "document_id": "doc-58c9fa8a",
+      "source_hash": "58c9fa8aa479de367da5d1098414929c79bc7c55906c95f2fca040b6fd0e45ac",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 9,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/Scroll.md",
+      "document_id": "doc-007c14e1",
+      "source_hash": "007c14e1146b6205eaac4ea61136dda7870f956db49331315844d37566f2322c",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 10,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/TitleStrategy.md",
+      "document_id": "doc-6c4257b4",
+      "source_hash": "6c4257b4e48955e709a9bc42406e3879f104b239fee0d3a72840c7c2e6a0119d",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 19,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/UrlCreationOptions.md",
+      "document_id": "doc-9b516373",
+      "source_hash": "9b5163732727dfe778a781e80551f2cd79bb0402fccb0765ae3b00a2255be8d7",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 34,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/UrlHandlingStrategy.md",
+      "document_id": "doc-72b09d70",
+      "source_hash": "72b09d70bca51786bcefd0fad71292d16182e80ab15c352695340383cbdeff8d",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 15,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/UrlMatchResult.md",
+      "document_id": "doc-b206e407",
+      "source_hash": "b206e4072ffb5b4e0b7213ed92f0bc167407a4e3a86e06e771fb02a2e3ffb035",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 9,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/UrlMatcher.md",
+      "document_id": "doc-516c0ae1",
+      "source_hash": "516c0ae1a421620b2a61781520c1997c7419438c8e58df1f4ae0d6c993e34f5a",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 11,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/UrlSegment.md",
+      "document_id": "doc-ce5f3ab9",
+      "source_hash": "ce5f3ab91734f4eafdbf8023979c90cea77ae76b1c95c21abb2a78b0284c6832",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 22,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/UrlSegmentGroup.md",
+      "document_id": "doc-6e3989e7",
+      "source_hash": "6e3989e7e615a9222ad5b01a19fe43c23df7a5a1eab560015ff2ae95aed0b556",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 26,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/UrlSerializer.md",
+      "document_id": "doc-f2f6c12e",
+      "source_hash": "f2f6c12e05dc3738d789905f352ce2815185121358c7d36291dc6740af38a3fe",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 14,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/UrlTree.md",
+      "document_id": "doc-bf8a4448",
+      "source_hash": "bf8a444808d6d35e1cf2bb10309c567cb6bd918fcee173cec2ac508d994d90f6",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 25,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/VERSION.md",
+      "document_id": "doc-2b547b9b",
+      "source_hash": "2b547b9ba7d3da95af00ba6fc1c663740a318498a8ba8ffb0324e34966e52cd7",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 5,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/ViewTransitionInfo.md",
+      "document_id": "doc-5adb5f68",
+      "source_hash": "5adb5f689bf3d65fdd4cfcb62b4c33fa1a022f9299be96c67a5c9b415ac88d80",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 15,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/ViewTransitionsFeature.md",
+      "document_id": "doc-6d01ab09",
+      "source_hash": "6d01ab0922dd52fd03457f743489a079fa802d04047018addc745a732c696c70",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 6,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/ViewTransitionsFeatureOptions.md",
+      "document_id": "doc-4df1b372",
+      "source_hash": "4df1b372be378326e78b241c979f7a4ac018782b14211d5c15b653c275bc2ada",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 12,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/containsTree.md",
+      "document_id": "doc-2b1baefe",
+      "source_hash": "2b1baefe76a78c8a3fb84eaad49a889f187fc723a990a9650df5d288e27c04e6",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 9,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/convertToParamMap.md",
+      "document_id": "doc-654fafac",
+      "source_hash": "654fafaca31a922013fe9ed790e39a4347e82991a2c3f5c5b88c18ec3190a3a0",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 8,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/createUrlTreeFromSnapshot.md",
+      "document_id": "doc-234af01a",
+      "source_hash": "234af01ae3864ead584a5bb3287e7a6692688ab6d369e2a63ddc3c90a0accc0a",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 10,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/defaultUrlMatcher.md",
+      "document_id": "doc-67e2021d",
+      "source_hash": "67e2021d30b38a18a6766a4ebcba494a2954dc04a17e7cae4cedde2114dac51f",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 10,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/destroyDetachedRouteHandle.md",
+      "document_id": "doc-6b41e2d7",
+      "source_hash": "6b41e2d7c46deec087d967d6ce41c6fb14832f841f51cb973ddaac446943ffdd",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 10,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/isActive.md",
+      "document_id": "doc-0944e488",
+      "source_hash": "0944e488974edfae3611c4ae0df0c6a4f78e9d3d692c63dd52154e42d5a2e9a0",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 10,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/mapToCanActivate.md",
+      "document_id": "doc-964153ea",
+      "source_hash": "964153eac6ba02d1fa2459e5dd591ea5a53182c71b46075c81b53ad8ed22039e",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 10,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/mapToCanActivateChild.md",
+      "document_id": "doc-cf7d4119",
+      "source_hash": "cf7d4119b663c43ce6f50c82a0ef7b2412394aaaaa74ce721ba9e084174a35df",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 10,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/mapToCanDeactivate.md",
+      "document_id": "doc-20c1f599",
+      "source_hash": "20c1f599f5027ebc057ef95420004682fc5c4cb913ad439d59c6a376eca17ce0",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 10,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/mapToCanMatch.md",
+      "document_id": "doc-d08d84ac",
+      "source_hash": "d08d84ac28287dc78c39cb39e932939166680299b301f1c6a1f92819738310b6",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 10,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/mapToResolve.md",
+      "document_id": "doc-98c77019",
+      "source_hash": "98c770195516a41822d653523c331a5a5c74eb6557a3e65dc1223c2278f863fd",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 10,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/nonBlocking.md",
+      "document_id": "doc-63a9fcd7",
+      "source_hash": "63a9fcd7ed33a1b7ee4494a8235621ad2461332917f9cc273e7866d56f71e883",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 7,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/provideRouter.md",
+      "document_id": "doc-7cc36e13",
+      "source_hash": "7cc36e13c20fc2f68c45a41afd8490952751ba40e67cfb99724b2ac290191577",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 13,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/testing/RouterTestingHarness.md",
+      "document_id": "doc-cb5d34c3",
+      "source_hash": "cb5d34c3574defef1caf501f64bfe3069aa752c354efd905c64fefa699a36de5",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 34,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/testing/RouterTestingModule.md",
+      "document_id": "doc-aa22432a",
+      "source_hash": "aa22432a51f6d0bec0bd70fdce41c72618add0d377d5392e4ea388f698fe04e2",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 14,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/upgrade/RouterUpgradeInitializer.md",
+      "document_id": "doc-955c4b35",
+      "source_hash": "955c4b352d7598f333c205df5413f115cef43d2e2a124b6a8ff79e513e54a3df",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 11,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/upgrade/locationSyncBootstrapListener.md",
+      "document_id": "doc-48731e19",
+      "source_hash": "48731e192e25e54a140a32ec16c832d4c88c8ac676d59f0c9c9eb932a32fac07",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 6,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/upgrade/setUpLocationSync.md",
+      "document_id": "doc-cf112db8",
+      "source_hash": "cf112db82c6a72edfbe7ac43d4faffc6a6616e53953d824d43aba64daf03fb07",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 8,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/withAutoCleanupInjectors.md",
+      "document_id": "doc-ec1c3d90",
+      "source_hash": "ec1c3d90d392169e8aaff2aa498170c4df6025709bd2494a7c6de628e35e3a5c",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 9,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/withComponentInputBinding.md",
+      "document_id": "doc-eb1e299c",
+      "source_hash": "eb1e299cb47aa0d4b0605f21ee0adf1cd6dc9be101f5e16766146c4a38b557e9",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 15,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/withDebugTracing.md",
+      "document_id": "doc-424a0124",
+      "source_hash": "424a012456b81376c9886e0e726079e26b9fbc33f6703b89e939032388ed269d",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 11,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/withDisabledInitialNavigation.md",
+      "document_id": "doc-3344d3e4",
+      "source_hash": "3344d3e4d23e32bfff09161da4d44a88e06c78d34d7b8fd7b5a1a9ca8572400f",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 13,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/withEnabledBlockingInitialNavigation.md",
+      "document_id": "doc-4d0d6d94",
+      "source_hash": "4d0d6d9410dc097759db0e19292b2a83f3ae263e7cc5782a93bdb5c7b4605775",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 13,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/withExperimentalAutoCleanupInjectors.md",
+      "document_id": "doc-18e8b4d4",
+      "source_hash": "18e8b4d4bbdd555e5ba74920e7f10520018a35cfde12a3e267e62de43b6ad28c",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 9,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/withExperimentalPlatformNavigation.md",
+      "document_id": "doc-9e688880",
+      "source_hash": "9e68888028a02f4ec19b7da8cbd47fee8ade84ffa911b09a0e655e51d1825cbe",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 14,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/withHashLocation.md",
+      "document_id": "doc-93b369dc",
+      "source_hash": "93b369dcd0dfd46bab134d578e3ca75432ba048c3234200b9df3ec8e9b0f021a",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 11,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/withInMemoryScrolling.md",
+      "document_id": "doc-3f76f3c0",
+      "source_hash": "3f76f3c097979c7f83c312cf8ffb421c06f907897cf333e0b7d6050740d237e0",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 11,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/withNavigationErrorHandler.md",
+      "document_id": "doc-c90b676e",
+      "source_hash": "c90b676e47ce598aafde5f33fd432720b9b7e52dda20d1c175ba08ca41f88253",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 13,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/withPreloading.md",
+      "document_id": "doc-4c813b15",
+      "source_hash": "4c813b15fd73042b586d3f75ffc87d66a263c0cfbd48292cf9ea88e412858b93",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 11,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/withRouterConfig.md",
+      "document_id": "doc-1bd4a0a2",
+      "source_hash": "1bd4a0a25772eb3e73b0cc4a94495e873d60226a87037ee0cd7cfb3f7abcbcde",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 11,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/withRouterResources.md",
+      "document_id": "doc-9fef2f10",
+      "source_hash": "9fef2f108272f87c8c589b89aa2d1ea8fb96409a43757677fd0702255c263e51",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 11,
+      "state": "approved"
+    },
+    {
+      "path": "angular/api/router/withViewTransitions.md",
+      "document_id": "doc-0e005711",
+      "source_hash": "0e0057116220fd84fa4206f5fe727843dda57ebd51a0d76254ab2b4053df6ed9",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "ronda 2 multi-sesión: angular/api/router"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "traducción angular/api/router ronda 2 multi-sesión (con glosario v3 congelado)"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-21T00:33:47Z",
+          "reason": "aprobado por run-angular-router-001 (ronda 2 multi-sesión)"
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:33:47Z",
+      "segment_count": 13,
+      "state": "approved"
+    }
+  ],
+  "coverage": {
+    "total": 150,
+    "integrated": 150,
+    "blocked": 0,
+    "excluded": 0,
+    "invalid": 0,
+    "pending": 0,
+    "integrated_ratio": 1.0,
+    "blocked_ratio": 0.0,
+    "excluded_ratio": 0.0
+  },
+  "integrity_ok": true,
+  "pilot_approved": true,
+  "approved_by": "run-angular-router-001 (ronda 2 multi-sesión)",
+  "approved_at": "2026-10-21T00:33:47Z",
+  "provenance_baseline": {
+    "files_source": {
+      "doc-18c85057": "18c85057aea339802c2dcac6d945406787ccc0a26803f1aa304cdd5244ff5652",
+      "doc-b126cd3d": "b126cd3d78dd7db8e9e9f0c76da83c24639ada0be45101b5dd23fcb987e55f09",
+      "doc-163bcf9d": "163bcf9d4620e893ef623c037ea56978cba6e547823920745e461660ef84e6f7",
+      "doc-383e6a33": "383e6a33f63efd74234e41c5b68fa759aa4d099e80c808dc050e5689d1657282",
+      "doc-55c8b9d8": "55c8b9d8f14bbe80061100de87c94f628f279268fb5937068b519ed5a8f62657",
+      "doc-1bad0c7c": "1bad0c7c0b968d40c7f04b5c4556fcee77b7fd598d2835052783134afdfe1d22",
+      "doc-2c6a46dc": "2c6a46dc6b5104b3f630d7e06b6ea399d62bed3aa23dc80d59f54f34540070a8",
+      "doc-b3a701ee": "b3a701ee1475df5e92c3918580b75daedb72a1ab97ec5c791b11c7f29b7a726d",
+      "doc-4fd63d01": "4fd63d01ecf83534c4d4b1468c09570e1ce2557ff074e1f69ec76cec737270d3",
+      "doc-aa7f799d": "aa7f799d8d66cb8ba730bee014da466c51058864b53e4b616b458b59d9acbeaa",
+      "doc-01361806": "01361806a03874950110c4e2ba3126b5caa0d559fa3986299d7a3834be89f122",
+      "doc-40f0b118": "40f0b118d7cb6eea035e2660174a97c0b8f819390fb393075f1148ace50e5d34",
+      "doc-fab452ef": "fab452ef2043495597c3b6a3b53fc8a2514f9479c3ffee4a3bca1ad9475ea0a8",
+      "doc-36ed5526": "36ed55263b506f6cb73fa4a4fbc6c20094684460d1eeb8ccb1999f68223b0a3b",
+      "doc-8a18b9cf": "8a18b9cfb531d2cb2d2dc280f60bd08889d9dd6249f0325f67bed2abe9eef91f",
+      "doc-ddcb4e19": "ddcb4e192abab931a83956a8a9b455ebee619aa3a46146d254b38d0d635fb48f",
+      "doc-483da415": "483da415e7b3606155fb951576aef87c22834470c0cd1b9565def5e1441d41c6",
+      "doc-f4cc27eb": "f4cc27eb4e7a57edb0012295582245b71036ee80cc76ee781c8a57b471037bae",
+      "doc-6d9f3bc4": "6d9f3bc47a982c205e496fad54710979301cbdaee324ffe748218caabeec9c70",
+      "doc-fe528835": "fe528835520cce0c37506221139318ea498e6537af4cc5907b5bf18caa959c4f",
+      "doc-1cac880c": "1cac880c2e8334ac65af654d45c1015aeb89a0dbf7e1708693fb81f47a0ee5fe",
+      "doc-6a17dd73": "6a17dd73c9570a3b5868e070c33eaab47e2ed4da87fa67f9c70dce8bb31ec140",
+      "doc-976afb9f": "976afb9f03c850512b8c6a0aba86fb66943026eff1ff14f9413d29a57d7a0b45",
+      "doc-8c4d6762": "8c4d676294c1b2f04d67fe93f0eda36b5b5943add455c0f249799459c4b8734c",
+      "doc-b999856e": "b999856ef42e15260dd5afe4c8da025762c15e824eff5cc71d6a6f5c91b39f7e",
+      "doc-c6077a87": "c6077a874f218c1dcd46f704abdddd6c5dac104f164ffad6740c3470d59f550e",
+      "doc-da47e472": "da47e472803f1535caf07b625e5ee6c2f86b4c90f72faca32b9652cf5fef75d0",
+      "doc-a38978cc": "a38978cc1c078c7b1f5675e7f0eda4087e3e20b17e997d8d0fb96784ee085a4c",
+      "doc-a6d628ba": "a6d628ba40d74a14ab6d82f654cbc4fc45ad4915250c741b72545dd640646be2",
+      "doc-f9d47791": "f9d4779128433908c1e04a394fbcf9b55a6c9ac55feb8e6754bc52729ad5c0b5",
+      "doc-c2a68e46": "c2a68e464fe8805b4e3890457d7f5aec54450e9049f6a0568cdc9fbafa13887d",
+      "doc-df311600": "df3116004f9b29628c82580637f7114650617cdb10f80719e478d7172a984bf2",
+      "doc-3bfd5b7b": "3bfd5b7b2dc046e4357630fc1ee9f8992d0d47b2096e65a8f4c262a53f613f30",
+      "doc-19fd1298": "19fd1298936a2d538e4eac1aa4d919fa892887d3fcc7bc7af87eba5dbaa6ed2a",
+      "doc-10556398": "105563986bbf8f333d102526f888ffe3ee4f341c239a43e97afef23b5ae1d41c",
+      "doc-b2bd196f": "b2bd196f859e16f91705c1ae3965424c8a8d51501859078de12e23f7fe347375",
+      "doc-aa056929": "aa056929a8c2822914785bc4715bc388701f495d3902913accb6337929ee55d9",
+      "doc-3daa853b": "3daa853bf2c42be9c67148a300dae1f6005f4ff114fe983f52776bf01a669873",
+      "doc-6a2f1716": "6a2f1716b39f8f7867b5c67269c5cf153c028428b392f5a8235560185f19264f",
+      "doc-71c7a7ea": "71c7a7ea8ecc22e97c6b398159bf2eca0abf594394164f5f8be380a43587431f",
+      "doc-32e60870": "32e608707171d64df09cfe1af30c9091e9374f6104dedc921c0d1329e34ef4d0",
+      "doc-c02763f1": "c02763f1cd674ac5eebf3b62730271812e83a896e6bf17fc0d10addc758433d7",
+      "doc-ce5ed2b1": "ce5ed2b12a965064518045736079df3958e0820cae9470a04570076ba8f3fae7",
+      "doc-7bf5aff2": "7bf5aff29dacc21358f1a513c407f341833a4ec367739c4d03e14f1bfa3772d6",
+      "doc-c9cb4ec8": "c9cb4ec85c21f08f0974670b11709ee72bf535568a674373386a2317801e0277",
+      "doc-aa259a9a": "aa259a9a9cde489ea560454d9efa9cf0644f9208f3248e7d44db4abe95370766",
+      "doc-0179ecc7": "0179ecc7a438aaf9aa7193cf16b0d71b0e3e8ef1b9e47163bc98f7a47693adad",
+      "doc-08f2c65a": "08f2c65abb27b59bdd45e2cc606019353960a4d032095dc051cd109f25546fba",
+      "doc-618ad51f": "618ad51fa88094f28f18ed71def98cae3cf835aa8d4a9155e67c7c7e3c8be140",
+      "doc-59af44b4": "59af44b4ae34943d3609ad8161778e415814e31e37da954be701d3e1ca9291b6",
+      "doc-f52c7edb": "f52c7edb0e39f3dd5095d15fc1e95dd66c05c9b3255b3fe932d023af58a591c6",
+      "doc-8f660066": "8f66006601219972f641504447a66d5842f52f13cb599cc080fec02e6d1f509a",
+      "doc-2daee20f": "2daee20fd54716a0a42a41955a3bdc963cf3e6b5044b9706bbb601d9253f2d9d",
+      "doc-99f4ae1c": "99f4ae1caf0ce7acd6a3da40b6b746dfac10237a6713a616aa12f4a9a63c77a8",
+      "doc-884d1c66": "884d1c66fc1e66852f731f68497441d0902786ef7dabf7bbcf109cd73620ac61",
+      "doc-f4d186dd": "f4d186dd5a1bde57ec06a7d7993827dbc8f1fb771d21d15cba98aa083472192e",
+      "doc-9577e7bd": "9577e7bdf9b9789f7900ade6603885e1412b4cf957d67ea857804985eb689e49",
+      "doc-641a3950": "641a395056385a9f5bb2d9b4323c5f81e0eda05e4ae40d6057e8cd2fb6c1d121",
+      "doc-f3d94565": "f3d94565628a248359e9a3cf5594410678a8106382e77566a9e6b1686b6b7900",
+      "doc-f572a06f": "f572a06ffed7997ccbc5a9130afa54a91b2924a46e16107fafc1bf6f58cba9e1",
+      "doc-ef171da7": "ef171da7c25ccc2ba46129cd997fd02739e34e1405b733063cc17d5d03f37e45",
+      "doc-66a56388": "66a56388b5f0c61e8ee3aa9a2e3284452e05e1cadfdf62862a283045b529e23f",
+      "doc-6dbac60c": "6dbac60cc0d576445baa750ca64734a89c3a14443457c1fdebfd801537055899",
+      "doc-577d2c24": "577d2c245110e3da4b30c672df47caffced90e53b693b5add24b077661e761ec",
+      "doc-74acc0e2": "74acc0e2917f94595f05133d7d9c3054ae5798aeb0f849b1632ca6c922f6716c",
+      "doc-c5e4f5a1": "c5e4f5a102ad4f5cbd5a357a342954a10eae30b30eb16bf35ca52e8c6913db22",
+      "doc-0246aaee": "0246aaeec36a298a8969a9deb765723de906df5f2cbec7dd55eb9fa7a59e74b3",
+      "doc-945faf72": "945faf7266d76ab8e1004108590d76ef06675cbff21a8eb676b5adc8d387adc0",
+      "doc-89356168": "89356168aa06dd698a2dfddb9c01ee9ef3529ea1e0b1b49f3d1fe068b34ae78a",
+      "doc-56b4967a": "56b4967aa9abd2c5346efe22eacea9c33120254a5c4781a315e55f6c3321f1ac",
+      "doc-8ee37720": "8ee37720fba89befad3ffa3cb59d2ff286ab51a9d0d509c82b3a33e08c65e62f",
+      "doc-e4f6a681": "e4f6a6819d5bc953ea8be1f8f05b3c2a8d2fce16c69daf38ba1d4bbac21cf4c2",
+      "doc-e5344ff9": "e5344ff9c564f15820ffb2327913b8b45ff225524f67094ecfc68c804de440fa",
+      "doc-9bdd48a7": "9bdd48a73b401cfee031fac260bd9cf35e8f0cf96d31656616c88e7fc1b2119f",
+      "doc-3af6f462": "3af6f462eecd1119a8a86c59d98aebc9e3e5874218f3327713eaeab83fe4c3c3",
+      "doc-7f4cde4e": "7f4cde4e5607371c1385a5300cb0b41e6d448d633ddd18c99d7a8f4c9de9163d",
+      "doc-b6b9b49a": "b6b9b49aeebcd6257d6047466361d57a60169e51f5f7f448d2e13188fde4baa9",
+      "doc-6c342a54": "6c342a54a84c6d2bc19b86be07f94f3e759f38d5e0d03b5372626b49a4058afd",
+      "doc-4a76fa69": "4a76fa696251d99cb714cba905acd2b8254c054142b3c03921694090309a632e",
+      "doc-9ee7bba9": "9ee7bba90af1aed40dfed1e099226b9452d6c2defd9801c4aefd79afe6a89bc2",
+      "doc-a99047f2": "a99047f29bc69fc92f83e9eeb233d19d36bfc6bdfb86a5698e265f92f1e9837a",
+      "doc-0dc988f0": "0dc988f0689193968acfcb5a25ba5815711a976291a6b772d8a0f12e31f18efd",
+      "doc-5ae14240": "5ae14240af657898ce266a9462487527397baf6d0db0ddf2697989eeb28325d8",
+      "doc-353a95be": "353a95be6c238f78e681ae53765a7fc47c7a01907549fafcb2827378ccb5c005",
+      "doc-a806d9f7": "a806d9f7792c0b4745442c7888b7b4d7593f32e78680b01bc2a79eec47bbb7c4",
+      "doc-c32befe8": "c32befe8bc12c58a1ab2e6278203a60191bc64fe8dee431a2c4c777942071a2d",
+      "doc-ca11f0b3": "ca11f0b3f32f33b026f95f95ea639e4f65011eec8cb358327b08c546ce69159e",
+      "doc-da1641b2": "da1641b2c5efc6865e8cad2fda4feb0c75d00d1f168f08832df6219d18bd5b26",
+      "doc-2bcac797": "2bcac7976a6156b5ed6fa99dc9d17df58c2c29b0839757afb210ea476429c1fd",
+      "doc-ca4644a8": "ca4644a8446c1f3d61650b0211c4f8e1b4849a26e2dfd80f4395206111eafd81",
+      "doc-9a80be01": "9a80be01077daad0a40ebb64ddfcbb757af3d921c2e4f4cd1599a6c41b9fc63b",
+      "doc-c71902e8": "c71902e8531565b006de62660b737123d8c2752102bb4a81a8050839b23637e5",
+      "doc-c8e12b8e": "c8e12b8e4dfbb6835778fcd21928849a69e518505368a3e0659597acf9297386",
+      "doc-12791ca8": "12791ca8f28a98784bca14bacf7ab547972c879a80e03abe2943e00d4358c96b",
+      "doc-48a1f5e0": "48a1f5e0b5f78155cf7858b261a3617971f3ef1a9b813ece3fe284cb4b8c4a45",
+      "doc-17b48235": "17b482357e24726c0a9c841bfc068e627c81a494a5a72e63f94e08eceeec8dbd",
+      "doc-6186b8a8": "6186b8a884fda23249b29266590eea80ba1842dd534e18b2d2070478a1943215",
+      "doc-3e7ec83d": "3e7ec83d7183f180e3215b5fb2246f1a86e2b6c85c1dcebba7c3a7ff8fd6bf77",
+      "doc-5d770a12": "5d770a12a94fb9da624270556c313899ef521af2f76c7d51e41f7c5cae9316ea",
+      "doc-7e8f0b64": "7e8f0b64d4c0821405d45f807554ea7bfe51ffeb9cac10aa603d05e4450e081b",
+      "doc-8c1c0813": "8c1c08135c55d186be1cde4cf81af7ac023425f764c8e4fc577a17fa89a7b587",
+      "doc-0abb0cf0": "0abb0cf07d8f26c684ce2d840f9f38bb0c529d1519f40d3c2d67e2f0b86c2e3d",
+      "doc-7d6f9c13": "7d6f9c13fae3146a41e7f4422ee38e7db3d2b78afd3625d1860eb74c433c5188",
+      "doc-58c9fa8a": "58c9fa8aa479de367da5d1098414929c79bc7c55906c95f2fca040b6fd0e45ac",
+      "doc-007c14e1": "007c14e1146b6205eaac4ea61136dda7870f956db49331315844d37566f2322c",
+      "doc-6c4257b4": "6c4257b4e48955e709a9bc42406e3879f104b239fee0d3a72840c7c2e6a0119d",
+      "doc-9b516373": "9b5163732727dfe778a781e80551f2cd79bb0402fccb0765ae3b00a2255be8d7",
+      "doc-72b09d70": "72b09d70bca51786bcefd0fad71292d16182e80ab15c352695340383cbdeff8d",
+      "doc-b206e407": "b206e4072ffb5b4e0b7213ed92f0bc167407a4e3a86e06e771fb02a2e3ffb035",
+      "doc-516c0ae1": "516c0ae1a421620b2a61781520c1997c7419438c8e58df1f4ae0d6c993e34f5a",
+      "doc-ce5f3ab9": "ce5f3ab91734f4eafdbf8023979c90cea77ae76b1c95c21abb2a78b0284c6832",
+      "doc-6e3989e7": "6e3989e7e615a9222ad5b01a19fe43c23df7a5a1eab560015ff2ae95aed0b556",
+      "doc-f2f6c12e": "f2f6c12e05dc3738d789905f352ce2815185121358c7d36291dc6740af38a3fe",
+      "doc-bf8a4448": "bf8a444808d6d35e1cf2bb10309c567cb6bd918fcee173cec2ac508d994d90f6",
+      "doc-2b547b9b": "2b547b9ba7d3da95af00ba6fc1c663740a318498a8ba8ffb0324e34966e52cd7",
+      "doc-5adb5f68": "5adb5f689bf3d65fdd4cfcb62b4c33fa1a022f9299be96c67a5c9b415ac88d80",
+      "doc-6d01ab09": "6d01ab0922dd52fd03457f743489a079fa802d04047018addc745a732c696c70",
+      "doc-4df1b372": "4df1b372be378326e78b241c979f7a4ac018782b14211d5c15b653c275bc2ada",
+      "doc-2b1baefe": "2b1baefe76a78c8a3fb84eaad49a889f187fc723a990a9650df5d288e27c04e6",
+      "doc-654fafac": "654fafaca31a922013fe9ed790e39a4347e82991a2c3f5c5b88c18ec3190a3a0",
+      "doc-234af01a": "234af01ae3864ead584a5bb3287e7a6692688ab6d369e2a63ddc3c90a0accc0a",
+      "doc-67e2021d": "67e2021d30b38a18a6766a4ebcba494a2954dc04a17e7cae4cedde2114dac51f",
+      "doc-6b41e2d7": "6b41e2d7c46deec087d967d6ce41c6fb14832f841f51cb973ddaac446943ffdd",
+      "doc-0944e488": "0944e488974edfae3611c4ae0df0c6a4f78e9d3d692c63dd52154e42d5a2e9a0",
+      "doc-964153ea": "964153eac6ba02d1fa2459e5dd591ea5a53182c71b46075c81b53ad8ed22039e",
+      "doc-cf7d4119": "cf7d4119b663c43ce6f50c82a0ef7b2412394aaaaa74ce721ba9e084174a35df",
+      "doc-20c1f599": "20c1f599f5027ebc057ef95420004682fc5c4cb913ad439d59c6a376eca17ce0",
+      "doc-d08d84ac": "d08d84ac28287dc78c39cb39e932939166680299b301f1c6a1f92819738310b6",
+      "doc-98c77019": "98c770195516a41822d653523c331a5a5c74eb6557a3e65dc1223c2278f863fd",
+      "doc-63a9fcd7": "63a9fcd7ed33a1b7ee4494a8235621ad2461332917f9cc273e7866d56f71e883",
+      "doc-7cc36e13": "7cc36e13c20fc2f68c45a41afd8490952751ba40e67cfb99724b2ac290191577",
+      "doc-cb5d34c3": "cb5d34c3574defef1caf501f64bfe3069aa752c354efd905c64fefa699a36de5",
+      "doc-aa22432a": "aa22432a51f6d0bec0bd70fdce41c72618add0d377d5392e4ea388f698fe04e2",
+      "doc-955c4b35": "955c4b352d7598f333c205df5413f115cef43d2e2a124b6a8ff79e513e54a3df",
+      "doc-48731e19": "48731e192e25e54a140a32ec16c832d4c88c8ac676d59f0c9c9eb932a32fac07",
+      "doc-cf112db8": "cf112db82c6a72edfbe7ac43d4faffc6a6616e53953d824d43aba64daf03fb07",
+      "doc-ec1c3d90": "ec1c3d90d392169e8aaff2aa498170c4df6025709bd2494a7c6de628e35e3a5c",
+      "doc-eb1e299c": "eb1e299cb47aa0d4b0605f21ee0adf1cd6dc9be101f5e16766146c4a38b557e9",
+      "doc-424a0124": "424a012456b81376c9886e0e726079e26b9fbc33f6703b89e939032388ed269d",
+      "doc-3344d3e4": "3344d3e4d23e32bfff09161da4d44a88e06c78d34d7b8fd7b5a1a9ca8572400f",
+      "doc-4d0d6d94": "4d0d6d9410dc097759db0e19292b2a83f3ae263e7cc5782a93bdb5c7b4605775",
+      "doc-18e8b4d4": "18e8b4d4bbdd555e5ba74920e7f10520018a35cfde12a3e267e62de43b6ad28c",
+      "doc-9e688880": "9e68888028a02f4ec19b7da8cbd47fee8ade84ffa911b09a0e655e51d1825cbe",
+      "doc-93b369dc": "93b369dcd0dfd46bab134d578e3ca75432ba048c3234200b9df3ec8e9b0f021a",
+      "doc-3f76f3c0": "3f76f3c097979c7f83c312cf8ffb421c06f907897cf333e0b7d6050740d237e0",
+      "doc-c90b676e": "c90b676e47ce598aafde5f33fd432720b9b7e52dda20d1c175ba08ca41f88253",
+      "doc-4c813b15": "4c813b15fd73042b586d3f75ffc87d66a263c0cfbd48292cf9ea88e412858b93",
+      "doc-1bd4a0a2": "1bd4a0a25772eb3e73b0cc4a94495e873d60226a87037ee0cd7cfb3f7abcbcde",
+      "doc-9fef2f10": "9fef2f108272f87c8c589b89aa2d1ea8fb96409a43757677fd0702255c263e51",
+      "doc-0e005711": "0e0057116220fd84fa4206f5fe727843dda57ebd51a0d76254ab2b4053df6ed9"
+    },
+    "glossary_hash": "c67b5b234f513825b62738d15ae06d0ca26f46810b1f71c6af114bba97aea341",
+    "profile_hash": "fbdc465424c133518b30e8fc5467ed78702be296fb9addded86a6e1977d0cc04",
+    "parser_version": "3.0.0",
+    "prompt_version": "1.0.0"
+  }
+}

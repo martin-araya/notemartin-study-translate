@@ -1,0 +1,36 @@
+{
+  "document_id": "doc-fixture-one",
+  "path": "guides/bilingual-sample.md",
+  "source_hash": "11aaaaaaaa11aaaaaaff1111bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+  "version": 1,
+  "entries": [
+    {
+      "segment_id": "seg-abcd1234",
+      "structural_type": "heading",
+      "byte_range": {"start": 12, "end": 24},
+      "heading_path": [],
+      "original_text": "Getting Started",
+      "translated_text": "Primeros pasos",
+      "source_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "candidate_hash": "0000000000000000000000000000000000000000000000000000000000000001",
+      "literals_preserved": true,
+      "missing_literals": [],
+      "flag_loss": false
+    },
+    {
+      "segment_id": "seg-ef567890",
+      "structural_type": "paragraph",
+      "byte_range": {"start": 30, "end": 90},
+      "heading_path": [{"level": 1, "text": "Primeros pasos"}],
+      "original_text": "This guide shows how to install the library.",
+      "translated_text": "Esta guía muestra cómo instalar la biblioteca.",
+      "source_hash": "0000000000000000000000000000000000000000000000000000000000000002",
+      "candidate_hash": "0000000000000000000000000000000000000000000000000000000000000003",
+      "literals_preserved": true,
+      "missing_literals": [],
+      "flag_loss": false
+    }
+  ],
+  "flag_loss": false,
+  "literals_preserved": true
+}

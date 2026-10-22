@@ -1,0 +1,1358 @@
+{
+  "source_root": "/Users/martin/Desktop/projects/notemartin-beta-angular-router/source",
+  "generated_at": "2026-10-21T00:24:21Z",
+  "total_files": 150,
+  "total_bytes": 298347,
+  "files": [
+    {
+      "path": "angular/api/index.md",
+      "bytes": 58504,
+      "sha256": "18c85057aea339802c2dcac6d945406787ccc0a26803f1aa304cdd5244ff5652",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/ActivatedRoute.md",
+      "bytes": 4217,
+      "sha256": "b126cd3d78dd7db8e9e9f0c76da83c24639ada0be45101b5dd23fcb987e55f09",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/ActivatedRouteSnapshot.md",
+      "bytes": 4275,
+      "sha256": "163bcf9d4620e893ef623c037ea56978cba6e547823920745e461660ef84e6f7",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/ActivationEnd.md",
+      "bytes": 513,
+      "sha256": "383e6a33f63efd74234e41c5b68fa759aa4d099e80c808dc050e5689d1657282",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/ActivationStart.md",
+      "bytes": 525,
+      "sha256": "55c8b9d8f14bbe80061100de87c94f628f279268fb5937068b519ed5a8f62657",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/AutoCleanupInjectorsFeature.md",
+      "bytes": 492,
+      "sha256": "1bad0c7c0b968d40c7f04b5c4556fcee77b7fd598d2835052783134afdfe1d22",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/BaseRouteReuseStrategy.md",
+      "bytes": 2628,
+      "sha256": "2c6a46dc6b5104b3f630d7e06b6ea399d62bed3aa23dc80d59f54f34540070a8",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/CanActivate.md",
+      "bytes": 2234,
+      "sha256": "b3a701ee1475df5e92c3918580b75daedb72a1ab97ec5c791b11c7f29b7a726d",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/CanActivateChild.md",
+      "bytes": 2409,
+      "sha256": "4fd63d01ecf83534c4d4b1468c09570e1ce2557ff074e1f69ec76cec737270d3",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/CanActivateChildFn.md",
+      "bytes": 1475,
+      "sha256": "aa7f799d8d66cb8ba730bee014da466c51058864b53e4b616b458b59d9acbeaa",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/CanActivateFn.md",
+      "bytes": 1809,
+      "sha256": "01361806a03874950110c4e2ba3126b5caa0d559fa3986299d7a3834be89f122",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/CanDeactivate.md",
+      "bytes": 2461,
+      "sha256": "40f0b118d7cb6eea035e2660174a97c0b8f819390fb393075f1148ace50e5d34",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/CanDeactivateFn.md",
+      "bytes": 1457,
+      "sha256": "fab452ef2043495597c3b6a3b53fc8a2514f9479c3ffee4a3bca1ad9475ea0a8",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/CanLoad.md",
+      "bytes": 2410,
+      "sha256": "36ed55263b506f6cb73fa4a4fbc6c20094684460d1eeb8ccb1999f68223b0a3b",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/CanLoadFn.md",
+      "bytes": 535,
+      "sha256": "8a18b9cfb531d2cb2d2dc280f60bd08889d9dd6249f0325f67bed2abe9eef91f",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/CanMatch.md",
+      "bytes": 2891,
+      "sha256": "ddcb4e192abab931a83956a8a9b455ebee619aa3a46146d254b38d0d635fb48f",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/CanMatchFn.md",
+      "bytes": 1443,
+      "sha256": "483da415e7b3606155fb951576aef87c22834470c0cd1b9565def5e1441d41c6",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/ChildActivationEnd.md",
+      "bytes": 544,
+      "sha256": "f4cc27eb4e7a57edb0012295582245b71036ee80cc76ee781c8a57b471037bae",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/ChildActivationStart.md",
+      "bytes": 556,
+      "sha256": "6d9f3bc47a982c205e496fad54710979301cbdaee324ffe748218caabeec9c70",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/ChildrenOutletContexts.md",
+      "bytes": 1479,
+      "sha256": "fe528835520cce0c37506221139318ea498e6537af4cc5907b5bf18caa959c4f",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/ComponentInputBindingFeature.md",
+      "bytes": 485,
+      "sha256": "1cac880c2e8334ac65af654d45c1015aeb89a0dbf7e1708693fb81f47a0ee5fe",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/ComponentInputBindingOptions.md",
+      "bytes": 1187,
+      "sha256": "6a17dd73c9570a3b5868e070c33eaab47e2ed4da87fa67f9c70dce8bb31ec140",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/Data.md",
+      "bytes": 292,
+      "sha256": "976afb9f03c850512b8c6a0aba86fb66943026eff1ff14f9413d29a57d7a0b45",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/DebugTracingFeature.md",
+      "bytes": 440,
+      "sha256": "8c4d676294c1b2f04d67fe93f0eda36b5b5943add455c0f249799459c4b8734c",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/DefaultExport.md",
+      "bytes": 557,
+      "sha256": "b999856ef42e15260dd5afe4c8da025762c15e824eff5cc71d6a6f5c91b39f7e",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/DefaultTitleStrategy.md",
+      "bytes": 1312,
+      "sha256": "c6077a874f218c1dcd46f704abdddd6c5dac104f164ffad6740c3470d59f550e",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/DefaultUrlSerializer.md",
+      "bytes": 1033,
+      "sha256": "da47e472803f1535caf07b625e5ee6c2f86b4c90f72faca32b9652cf5fef75d0",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/DeprecatedGuard.md",
+      "bytes": 689,
+      "sha256": "a38978cc1c078c7b1f5675e7f0eda4087e3e20b17e997d8d0fb96784ee085a4c",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/DeprecatedResolve.md",
+      "bytes": 690,
+      "sha256": "a6d628ba40d74a14ab6d82f654cbc4fc45ad4915250c741b72545dd640646be2",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/DetachedRouteHandle.md",
+      "bytes": 485,
+      "sha256": "f9d4779128433908c1e04a394fbcf9b55a6c9ac55feb8e6754bc52729ad5c0b5",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/DisabledInitialNavigationFeature.md",
+      "bytes": 505,
+      "sha256": "c2a68e464fe8805b4e3890457d7f5aec54450e9049f6a0568cdc9fbafa13887d",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/EnabledBlockingInitialNavigationFeature.md",
+      "bytes": 540,
+      "sha256": "df3116004f9b29628c82580637f7114650617cdb10f80719e478d7172a984bf2",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/Event.md",
+      "bytes": 2325,
+      "sha256": "3bfd5b7b2dc046e4357630fc1ee9f8992d0d47b2096e65a8f4c262a53f613f30",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/EventType.md",
+      "bytes": 937,
+      "sha256": "19fd1298936a2d538e4eac1aa4d919fa892887d3fcc7bc7af87eba5dbaa6ed2a",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/ExtraOptions.md",
+      "bytes": 8610,
+      "sha256": "105563986bbf8f333d102526f888ffe3ee4f341c239a43e97afef23b5ae1d41c",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/GuardResult.md",
+      "bytes": 336,
+      "sha256": "b2bd196f859e16f91705c1ae3965424c8a8d51501859078de12e23f7fe347375",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/GuardsCheckEnd.md",
+      "bytes": 874,
+      "sha256": "aa056929a8c2822914785bc4715bc388701f495d3902913accb6337929ee55d9",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/GuardsCheckStart.md",
+      "bytes": 805,
+      "sha256": "3daa853bf2c42be9c67148a300dae1f6005f4ff114fe983f52776bf01a669873",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/InMemoryScrollingFeature.md",
+      "bytes": 465,
+      "sha256": "6a2f1716b39f8f7867b5c67269c5cf153c028428b392f5a8235560185f19264f",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/InMemoryScrollingOptions.md",
+      "bytes": 2062,
+      "sha256": "71c7a7ea8ecc22e97c6b398159bf2eca0abf594394164f5f8be380a43587431f",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/InitialNavigation.md",
+      "bytes": 1385,
+      "sha256": "32e608707171d64df09cfe1af30c9091e9374f6104dedc921c0d1329e34ef4d0",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/InitialNavigationFeature.md",
+      "bytes": 602,
+      "sha256": "c02763f1cd674ac5eebf3b62730271812e83a896e6bf17fc0d10addc758433d7",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/IsActiveMatchOptions.md",
+      "bytes": 2470,
+      "sha256": "ce5ed2b12a965064518045736079df3958e0820cae9470a04570076ba8f3fae7",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/LoadChildren.md",
+      "bytes": 286,
+      "sha256": "7bf5aff29dacc21358f1a513c407f341833a4ec367739c4d03e14f1bfa3772d6",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/LoadChildrenCallback.md",
+      "bytes": 1433,
+      "sha256": "c9cb4ec85c21f08f0974670b11709ee72bf535568a674373386a2317801e0277",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/MaybeAsync.md",
+      "bytes": 312,
+      "sha256": "aa259a9a9cde489ea560454d9efa9cf0644f9208f3248e7d44db4abe95370766",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/Navigation.md",
+      "bytes": 3488,
+      "sha256": "0179ecc7a438aaf9aa7193cf16b0d71b0e3e8ef1b9e47163bc98f7a47693adad",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/NavigationBehaviorOptions.md",
+      "bytes": 4026,
+      "sha256": "08f2c65abb27b59bdd45e2cc606019353960a4d032095dc051cd109f25546fba",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/NavigationCancel.md",
+      "bytes": 1436,
+      "sha256": "618ad51fa88094f28f18ed71def98cae3cf835aa8d4a9155e67c7c7e3c8be140",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/NavigationCancellationCode.md",
+      "bytes": 978,
+      "sha256": "59af44b4ae34943d3609ad8161778e415814e31e37da954be701d3e1ca9291b6",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/NavigationEnd.md",
+      "bytes": 705,
+      "sha256": "f52c7edb0e39f3dd5095d15fc1e95dd66c05c9b3255b3fe932d023af58a591c6",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/NavigationError.md",
+      "bytes": 965,
+      "sha256": "8f66006601219972f641504447a66d5842f52f13cb599cc080fec02e6d1f509a",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/NavigationErrorHandlerFeature.md",
+      "bytes": 490,
+      "sha256": "2daee20fd54716a0a42a41955a3bdc963cf3e6b5044b9706bbb601d9253f2d9d",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/NavigationExtras.md",
+      "bytes": 6415,
+      "sha256": "99f4ae1caf0ce7acd6a3da40b6b746dfac10237a6713a616aa12f4a9a63c77a8",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/NavigationSkipped.md",
+      "bytes": 1377,
+      "sha256": "884d1c66fc1e66852f731f68497441d0902786ef7dabf7bbcf109cd73620ac61",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/NavigationSkippedCode.md",
+      "bytes": 795,
+      "sha256": "f4d186dd5a1bde57ec06a7d7993827dbc8f1fb771d21d15cba98aa083472192e",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/NavigationStart.md",
+      "bytes": 1792,
+      "sha256": "9577e7bdf9b9789f7900ade6603885e1412b4cf957d67ea857804985eb689e49",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/NoPreloading.md",
+      "bytes": 607,
+      "sha256": "641a395056385a9f5bb2d9b4323c5f81e0eda05e4ae40d6057e8cd2fb6c1d121",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/OnSameUrlNavigation.md",
+      "bytes": 1663,
+      "sha256": "f3d94565628a248359e9a3cf5594410678a8106382e77566a9e6b1686b6b7900",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/OutletContext.md",
+      "bytes": 691,
+      "sha256": "f572a06ffed7997ccbc5a9130afa54a91b2924a46e16107fafc1bf6f58cba9e1",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/PRIMARY_OUTLET.md",
+      "bytes": 253,
+      "sha256": "ef171da7c25ccc2ba46129cd997fd02739e34e1405b733063cc17d5d03f37e45",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/ParamMap.md",
+      "bytes": 947,
+      "sha256": "66a56388b5f0c61e8ee3aa9a2e3284452e05e1cadfdf62862a283045b529e23f",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/Params.md",
+      "bytes": 275,
+      "sha256": "6dbac60cc0d576445baa750ca64734a89c3a14443457c1fdebfd801537055899",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/PartialMatchRouteSnapshot.md",
+      "bytes": 1006,
+      "sha256": "577d2c245110e3da4b30c672df47caffced90e53b693b5add24b077661e761ec",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/PreloadAllModules.md",
+      "bytes": 840,
+      "sha256": "74acc0e2917f94595f05133d7d9c3054ae5798aeb0f849b1632ca6c922f6716c",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/PreloadingFeature.md",
+      "bytes": 470,
+      "sha256": "c5e4f5a102ad4f5cbd5a357a342954a10eae30b30eb16bf35ca52e8c6913db22",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/PreloadingStrategy.md",
+      "bytes": 403,
+      "sha256": "0246aaeec36a298a8969a9deb765723de906df5f2cbec7dd55eb9fa7a59e74b3",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/QueryParamsHandling.md",
+      "bytes": 580,
+      "sha256": "945faf7266d76ab8e1004108590d76ef06675cbff21a8eb676b5adc8d387adc0",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/ROUTER_CONFIGURATION.md",
+      "bytes": 303,
+      "sha256": "89356168aa06dd698a2dfddb9c01ee9ef3529ea1e0b1b49f3d1fe068b34ae78a",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/ROUTER_INITIALIZER.md",
+      "bytes": 372,
+      "sha256": "56b4967aa9abd2c5346efe22eacea9c33120254a5c4781a315e55f6c3321f1ac",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/ROUTER_OUTLET_DATA.md",
+      "bytes": 1011,
+      "sha256": "8ee37720fba89befad3ffa3cb59d2ff286ab51a9d0d509c82b3a33e08c65e62f",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/ROUTES.md",
+      "bytes": 459,
+      "sha256": "e4f6a6819d5bc953ea8be1f8f05b3c2a8d2fce16c69daf38ba1d4bbac21cf4c2",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/RedirectCommand.md",
+      "bytes": 2020,
+      "sha256": "e5344ff9c564f15820ffb2327913b8b45ff225524f67094ecfc68c804de440fa",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/RedirectFunction.md",
+      "bytes": 937,
+      "sha256": "9bdd48a73b401cfee031fac260bd9cf35e8f0cf96d31656616c88e7fc1b2119f",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/Resolve.md",
+      "bytes": 2975,
+      "sha256": "3af6f462eecd1119a8a86c59d98aebc9e3e5874218f3327713eaeab83fe4c3c3",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/ResolveData.md",
+      "bytes": 874,
+      "sha256": "7f4cde4e5607371c1385a5300cb0b41e6d448d633ddd18c99d7a8f4c9de9163d",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/ResolveEnd.md",
+      "bytes": 775,
+      "sha256": "b6b9b49aeebcd6257d6047466361d57a60169e51f5f7f448d2e13188fde4baa9",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/ResolveFn.md",
+      "bytes": 2795,
+      "sha256": "6c342a54a84c6d2bc19b86be07f94f3e759f38d5e0d03b5372626b49a4058afd",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/ResolveStart.md",
+      "bytes": 1054,
+      "sha256": "4a76fa696251d99cb714cba905acd2b8254c054142b3c03921694090309a632e",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/ResourceContext.md",
+      "bytes": 700,
+      "sha256": "9ee7bba90af1aed40dfed1e099226b9452d6c2defd9801c4aefd79afe6a89bc2",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/ResourceResult.md",
+      "bytes": 414,
+      "sha256": "a99047f29bc69fc92f83e9eeb233d19d36bfc6bdfb86a5698e265f92f1e9837a",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/Route.md",
+      "bytes": 14413,
+      "sha256": "0dc988f0689193968acfcb5a25ba5815711a976291a6b772d8a0f12e31f18efd",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/RouteConfigLoadEnd.md",
+      "bytes": 463,
+      "sha256": "5ae14240af657898ce266a9462487527397baf6d0db0ddf2697989eeb28325d8",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/RouteConfigLoadStart.md",
+      "bytes": 481,
+      "sha256": "353a95be6c238f78e681ae53765a7fc47c7a01907549fafcb2827378ccb5c005",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/RouteReuseStrategy.md",
+      "bytes": 2074,
+      "sha256": "a806d9f7792c0b4745442c7888b7b4d7593f32e78680b01bc2a79eec47bbb7c4",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/Router.md",
+      "bytes": 8799,
+      "sha256": "c32befe8bc12c58a1ab2e6278203a60191bc64fe8dee431a2c4c777942071a2d",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/RouterConfigOptions.md",
+      "bytes": 4220,
+      "sha256": "ca11f0b3f32f33b026f95f95ea639e4f65011eec8cb358327b08c546ce69159e",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/RouterConfigurationFeature.md",
+      "bytes": 461,
+      "sha256": "da1641b2c5efc6865e8cad2fda4feb0c75d00d1f168f08832df6219d18bd5b26",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/RouterEvent.md",
+      "bytes": 1298,
+      "sha256": "2bcac7976a6156b5ed6fa99dc9d17df58c2c29b0839757afb210ea476429c1fd",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/RouterFeature.md",
+      "bytes": 313,
+      "sha256": "ca4644a8446c1f3d61650b0211c4f8e1b4849a26e2dfd80f4395206111eafd81",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/RouterFeatures.md",
+      "bytes": 973,
+      "sha256": "9a80be01077daad0a40ebb64ddfcbb757af3d921c2e4f4cd1599a6c41b9fc63b",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/RouterHashLocationFeature.md",
+      "bytes": 458,
+      "sha256": "c71902e8531565b006de62660b737123d8c2752102bb4a81a8050839b23637e5",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/RouterLink.md",
+      "bytes": 9136,
+      "sha256": "c8e12b8e4dfbb6835778fcd21928849a69e518505368a3e0659597acf9297386",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/RouterLinkActive.md",
+      "bytes": 4624,
+      "sha256": "12791ca8f28a98784bca14bacf7ab547972c879a80e03abe2943e00d4358c96b",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/RouterLinkWithHref.md",
+      "bytes": 9152,
+      "sha256": "48a1f5e0b5f78155cf7858b261a3617971f3ef1a9b813ece3fe284cb4b8c4a45",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/RouterModule.md",
+      "bytes": 2550,
+      "sha256": "17b482357e24726c0a9c841bfc068e627c81a494a5a72e63f94e08eceeec8dbd",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/RouterOutlet.md",
+      "bytes": 3822,
+      "sha256": "6186b8a884fda23249b29266590eea80ba1842dd534e18b2d2070478a1943215",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/RouterOutletContract.md",
+      "bytes": 4166,
+      "sha256": "3e7ec83d7183f180e3215b5fb2246f1a86e2b6c85c1dcebba7c3a7ff8fd6bf77",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/RouterPreloader.md",
+      "bytes": 1227,
+      "sha256": "5d770a12a94fb9da624270556c313899ef521af2f76c7d51e41f7c5cae9316ea",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/RouterResourcesFeature.md",
+      "bytes": 518,
+      "sha256": "7e8f0b64d4c0821405d45f807554ea7bfe51ffeb9cac10aa603d05e4450e081b",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/RouterState.md",
+      "bytes": 1446,
+      "sha256": "8c1c08135c55d186be1cde4cf81af7ac023425f764c8e4fc577a17fa89a7b587",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/RouterStateSnapshot.md",
+      "bytes": 1475,
+      "sha256": "0abb0cf07d8f26c684ce2d840f9f38bb0c529d1519f40d3c2d67e2f0b86c2e3d",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/RoutesRecognized.md",
+      "bytes": 789,
+      "sha256": "7d6f9c13fae3146a41e7f4422ee38e7db3d2b78afd3625d1860eb74c433c5188",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/RunGuardsAndResolvers.md",
+      "bytes": 1321,
+      "sha256": "58c9fa8aa479de367da5d1098414929c79bc7c55906c95f2fca040b6fd0e45ac",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/Scroll.md",
+      "bytes": 541,
+      "sha256": "007c14e1146b6205eaac4ea61136dda7870f956db49331315844d37566f2322c",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/TitleStrategy.md",
+      "bytes": 1879,
+      "sha256": "6c4257b4e48955e709a9bc42406e3879f104b239fee0d3a72840c7c2e6a0119d",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/UrlCreationOptions.md",
+      "bytes": 2790,
+      "sha256": "9b5163732727dfe778a781e80551f2cd79bb0402fccb0765ae3b00a2255be8d7",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/UrlHandlingStrategy.md",
+      "bytes": 998,
+      "sha256": "72b09d70bca51786bcefd0fad71292d16182e80ab15c352695340383cbdeff8d",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/UrlMatchResult.md",
+      "bytes": 597,
+      "sha256": "b206e4072ffb5b4e0b7213ed92f0bc167407a4e3a86e06e771fb02a2e3ffb035",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/UrlMatcher.md",
+      "bytes": 1365,
+      "sha256": "516c0ae1a421620b2a61781520c1997c7419438c8e58df1f4ae0d6c993e34f5a",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/UrlSegment.md",
+      "bytes": 1326,
+      "sha256": "ce5f3ab91734f4eafdbf8023979c90cea77ae76b1c95c21abb2a78b0284c6832",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/UrlSegmentGroup.md",
+      "bytes": 1222,
+      "sha256": "6e3989e7e615a9222ad5b01a19fe43c23df7a5a1eab560015ff2ae95aed0b556",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/UrlSerializer.md",
+      "bytes": 878,
+      "sha256": "f2f6c12e05dc3738d789905f352ce2815185121358c7d36291dc6740af38a3fe",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/UrlTree.md",
+      "bytes": 1746,
+      "sha256": "bf8a444808d6d35e1cf2bb10309c567cb6bd918fcee173cec2ac508d994d90f6",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/VERSION.md",
+      "bytes": 212,
+      "sha256": "2b547b9ba7d3da95af00ba6fc1c663740a318498a8ba8ffb0324e34966e52cd7",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/ViewTransitionInfo.md",
+      "bytes": 883,
+      "sha256": "5adb5f689bf3d65fdd4cfcb62b4c33fa1a022f9299be96c67a5c9b415ac88d80",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/ViewTransitionsFeature.md",
+      "bytes": 455,
+      "sha256": "6d01ab0922dd52fd03457f743489a079fa802d04047018addc745a732c696c70",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/ViewTransitionsFeatureOptions.md",
+      "bytes": 893,
+      "sha256": "4df1b372be378326e78b241c979f7a4ac018782b14211d5c15b653c275bc2ada",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/containsTree.md",
+      "bytes": 1192,
+      "sha256": "2b1baefe76a78c8a3fb84eaad49a889f187fc723a990a9650df5d288e27c04e6",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/convertToParamMap.md",
+      "bytes": 430,
+      "sha256": "654fafaca31a922013fe9ed790e39a4347e82991a2c3f5c5b88c18ec3190a3a0",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/createUrlTreeFromSnapshot.md",
+      "bytes": 3053,
+      "sha256": "234af01ae3864ead584a5bb3287e7a6692688ab6d369e2a63ddc3c90a0accc0a",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/defaultUrlMatcher.md",
+      "bytes": 1003,
+      "sha256": "67e2021d30b38a18a6766a4ebcba494a2954dc04a17e7cae4cedde2114dac51f",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/destroyDetachedRouteHandle.md",
+      "bytes": 820,
+      "sha256": "6b41e2d7c46deec087d967d6ce41c6fb14832f841f51cb973ddaac446943ffdd",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/isActive.md",
+      "bytes": 996,
+      "sha256": "0944e488974edfae3611c4ae0df0c6a4f78e9d3d692c63dd52154e42d5a2e9a0",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/mapToCanActivate.md",
+      "bytes": 993,
+      "sha256": "964153eac6ba02d1fa2459e5dd591ea5a53182c71b46075c81b53ad8ed22039e",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/mapToCanActivateChild.md",
+      "bytes": 1058,
+      "sha256": "cf7d4119b663c43ce6f50c82a0ef7b2412394aaaaa74ce721ba9e084174a35df",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/mapToCanDeactivate.md",
+      "bytes": 1047,
+      "sha256": "20c1f599f5027ebc057ef95420004682fc5c4cb913ad439d59c6a376eca17ce0",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/mapToCanMatch.md",
+      "bytes": 957,
+      "sha256": "d08d84ac28287dc78c39cb39e932939166680299b301f1c6a1f92819738310b6",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/mapToResolve.md",
+      "bytes": 931,
+      "sha256": "98c770195516a41822d653523c331a5a5c74eb6557a3e65dc1223c2278f863fd",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/nonBlocking.md",
+      "bytes": 466,
+      "sha256": "63a9fcd7ed33a1b7ee4494a8235621ad2461332917f9cc273e7866d56f71e883",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/provideRouter.md",
+      "bytes": 1369,
+      "sha256": "7cc36e13c20fc2f68c45a41afd8490952751ba40e67cfb99724b2ac290191577",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/testing/RouterTestingHarness.md",
+      "bytes": 5321,
+      "sha256": "cb5d34c3574defef1caf501f64bfe3069aa752c354efd905c64fefa699a36de5",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/testing/RouterTestingModule.md",
+      "bytes": 1528,
+      "sha256": "aa22432a51f6d0bec0bd70fdce41c72618add0d377d5392e4ea388f698fe04e2",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/upgrade/RouterUpgradeInitializer.md",
+      "bytes": 888,
+      "sha256": "955c4b352d7598f333c205df5413f115cef43d2e2a124b6a8ff79e513e54a3df",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/upgrade/locationSyncBootstrapListener.md",
+      "bytes": 293,
+      "sha256": "48731e192e25e54a140a32ec16c832d4c88c8ac676d59f0c9c9eb932a32fac07",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/upgrade/setUpLocationSync.md",
+      "bytes": 688,
+      "sha256": "cf112db82c6a72edfbe7ac43d4faffc6a6616e53953d824d43aba64daf03fb07",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/withAutoCleanupInjectors.md",
+      "bytes": 1098,
+      "sha256": "ec1c3d90d392169e8aaff2aa498170c4df6025709bd2494a7c6de628e35e3a5c",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/withComponentInputBinding.md",
+      "bytes": 2082,
+      "sha256": "eb1e299cb47aa0d4b0605f21ee0adf1cd6dc9be101f5e16766146c4a38b557e9",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/withDebugTracing.md",
+      "bytes": 783,
+      "sha256": "424a012456b81376c9886e0e726079e26b9fbc33f6703b89e939032388ed269d",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/withDisabledInitialNavigation.md",
+      "bytes": 955,
+      "sha256": "3344d3e4d23e32bfff09161da4d44a88e06c78d34d7b8fd7b5a1a9ca8572400f",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/withEnabledBlockingInitialNavigation.md",
+      "bytes": 1159,
+      "sha256": "4d0d6d9410dc097759db0e19292b2a83f3ae263e7cc5782a93bdb5c7b4605775",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/withExperimentalAutoCleanupInjectors.md",
+      "bytes": 633,
+      "sha256": "18e8b4d4bbdd555e5ba74920e7f10520018a35cfde12a3e267e62de43b6ad28c",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/withExperimentalPlatformNavigation.md",
+      "bytes": 2071,
+      "sha256": "9e68888028a02f4ec19b7da8cbd47fee8ade84ffa911b09a0e655e51d1825cbe",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/withHashLocation.md",
+      "bytes": 736,
+      "sha256": "93b369dcd0dfd46bab134d578e3ca75432ba048c3234200b9df3ec8e9b0f021a",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/withInMemoryScrolling.md",
+      "bytes": 968,
+      "sha256": "3f76f3c097979c7f83c312cf8ffb421c06f907897cf333e0b7d6050740d237e0",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/withNavigationErrorHandler.md",
+      "bytes": 1871,
+      "sha256": "c90b676e47ce598aafde5f33fd432720b9b7e52dda20d1c175ba08ca41f88253",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/withPreloading.md",
+      "bytes": 1043,
+      "sha256": "4c813b15fd73042b586d3f75ffc87d66a263c0cfbd48292cf9ea88e412858b93",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/withRouterConfig.md",
+      "bytes": 963,
+      "sha256": "1bd4a0a25772eb3e73b0cc4a94495e873d60226a87037ee0cd7cfb3f7abcbcde",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/withRouterResources.md",
+      "bytes": 762,
+      "sha256": "9fef2f108272f87c8c589b89aa2d1ea8fb96409a43757677fd0702255c263e51",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "angular/api/router/withViewTransitions.md",
+      "bytes": 1361,
+      "sha256": "0e0057116220fd84fa4206f5fe727843dda57ebd51a0d76254ab2b4053df6ed9",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    }
+  ]
+}

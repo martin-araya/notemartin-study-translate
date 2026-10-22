@@ -1,0 +1,10 @@
+{
+  "case_id": "anchor_collision",
+  "case": {},
+  "positive": {
+    "headings": ["Overview", "Resumen", "Installation"]
+  },
+  "negative": {
+    "headings": ["Overview", "overview"]
+  }
+}

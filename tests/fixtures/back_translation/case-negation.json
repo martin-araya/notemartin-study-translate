@@ -1,0 +1,9 @@
+{
+  "case_id": "bt-false-negative-negation",
+  "category": "false_negative",
+  "source_text": "You must not delete this file.",
+  "translated_text": "Debes eliminar este archivo.",
+  "expected_outcome": "comp_should_disagree",
+  "expected_should_be_caught": true,
+  "notes": "El comparador no detecta la pérdida de la negación ``not``; el original es MUST NOT."
+}

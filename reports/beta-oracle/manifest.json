@@ -1,0 +1,387 @@
+{
+  "run_id": "run-deadbeef",
+  "created_at": "2026-10-21T00:40:47Z",
+  "manifest_version": "translate/v1",
+  "skill_version": "0.2.1",
+  "parser": {
+    "name": "markdown-it-py",
+    "version": "3.0.0"
+  },
+  "anchor_policy": {
+    "algorithm": "github-slug-v1",
+    "version": "v1"
+  },
+  "model_metadata": {
+    "provider": "kilo",
+    "model": "minimax-coding-plan/MiniMax-M3",
+    "prompt_version": "1.0.0"
+  },
+  "glossary_snapshot": {
+    "version": 3,
+    "hash": "d586f92a9999f36cabebdc99ea4f47306800dda25158cdd946fc2550ad767469",
+    "frozen": true
+  },
+  "profile_snapshot": {
+    "hash": "fbdc465424c133518b30e8fc5467ed78702be296fb9addded86a6e1977d0cc04"
+  },
+  "inputs": {
+    "source_root": "/Users/martin/Desktop/projects/notemartin-beta-oracle/source",
+    "total_files": 17,
+    "total_bytes": 47281489,
+    "hashes_indexed": true
+  },
+  "files": [
+    {
+      "path": "oracle/resúmenes/00_Front_Matter_resumen.md",
+      "document_id": "doc-1b1ddbc2",
+      "source_hash": "1b1ddbc21ecfaff1672766676d24307af12fbd818ebdea4c9071685ea064efc9",
+      "current_state": "already_target",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T01:00:00Z",
+          "reason": "oracle/resúmenes: inventario de la ronda"
+        },
+        {
+          "state": "already_target",
+          "timestamp": "2026-10-21T01:00:00Z",
+          "reason": "corpus en español — el glosario v3 conserva los términos técnicos Oracle (PL/SQL, modelos, métricas) como keep-original"
+        }
+      ],
+      "last_transition_at": "2026-10-21T01:00:00Z",
+      "segment_count": 51
+    },
+    {
+      "path": "oracle/resúmenes/01_Preface_resumen.md",
+      "document_id": "doc-5e1b6ef4",
+      "source_hash": "5e1b6ef4608171d8559dc67d9b11a9530aa409732f05b21a6a6b96fe062de042",
+      "current_state": "already_target",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T01:00:00Z",
+          "reason": "oracle/resúmenes: inventario de la ronda"
+        },
+        {
+          "state": "already_target",
+          "timestamp": "2026-10-21T01:00:00Z",
+          "reason": "corpus en español — el glosario v3 conserva los términos técnicos Oracle (PL/SQL, modelos, métricas) como keep-original"
+        }
+      ],
+      "last_transition_at": "2026-10-21T01:00:00Z",
+      "segment_count": 22
+    },
+    {
+      "path": "oracle/resúmenes/02_Whats_New_resumen.md",
+      "document_id": "doc-f7e7438c",
+      "source_hash": "f7e7438ca6ce42bb89b829033665ff8cd7bed043b82306830935f5dc1e4234e3",
+      "current_state": "already_target",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T01:00:00Z",
+          "reason": "oracle/resúmenes: inventario de la ronda"
+        },
+        {
+          "state": "already_target",
+          "timestamp": "2026-10-21T01:00:00Z",
+          "reason": "corpus en español — el glosario v3 conserva los términos técnicos Oracle (PL/SQL, modelos, métricas) como keep-original"
+        }
+      ],
+      "last_transition_at": "2026-10-21T01:00:00Z",
+      "segment_count": 184
+    },
+    {
+      "path": "oracle/resúmenes/03_Overview_resumen.md",
+      "document_id": "doc-5359a85d",
+      "source_hash": "5359a85db7c50ddc39b089a6d44cb0e6f0dad4681969ead1949cb670228fd80a",
+      "current_state": "already_target",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T01:00:00Z",
+          "reason": "oracle/resúmenes: inventario de la ronda"
+        },
+        {
+          "state": "already_target",
+          "timestamp": "2026-10-21T01:00:00Z",
+          "reason": "corpus en español — el glosario v3 conserva los términos técnicos Oracle (PL/SQL, modelos, métricas) como keep-original"
+        }
+      ],
+      "last_transition_at": "2026-10-21T01:00:00Z",
+      "segment_count": 69
+    },
+    {
+      "path": "oracle/resúmenes/04_Get_Started_resumen.md",
+      "document_id": "doc-67866c44",
+      "source_hash": "67866c44f455df5ee3b7672b48d1f4793ae91ae4fc4d237b7acad5e7d7a488b5",
+      "current_state": "already_target",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T01:00:00Z",
+          "reason": "oracle/resúmenes: inventario de la ronda"
+        },
+        {
+          "state": "already_target",
+          "timestamp": "2026-10-21T01:00:00Z",
+          "reason": "corpus en español — el glosario v3 conserva los términos técnicos Oracle (PL/SQL, modelos, métricas) como keep-original"
+        }
+      ],
+      "last_transition_at": "2026-10-21T01:00:00Z",
+      "segment_count": 319
+    },
+    {
+      "path": "oracle/resúmenes/05_Generate_Vector_Embeddings_resumen.md",
+      "document_id": "doc-932029ac",
+      "source_hash": "932029ace78b05d17a26fb601d90d02232d305450ed3096d855b538d9e9e4a5f",
+      "current_state": "already_target",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T01:00:00Z",
+          "reason": "oracle/resúmenes: inventario de la ronda"
+        },
+        {
+          "state": "already_target",
+          "timestamp": "2026-10-21T01:00:00Z",
+          "reason": "corpus en español — el glosario v3 conserva los términos técnicos Oracle (PL/SQL, modelos, métricas) como keep-original"
+        }
+      ],
+      "last_transition_at": "2026-10-21T01:00:00Z",
+      "segment_count": 644
+    },
+    {
+      "path": "oracle/resúmenes/06_Store_Vector_Embeddings_resumen.md",
+      "document_id": "doc-ade8494e",
+      "source_hash": "ade8494e9de51a79cafc74a432fae313d624135f05bedf5f4df67618ebdccf88",
+      "current_state": "already_target",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T01:00:00Z",
+          "reason": "oracle/resúmenes: inventario de la ronda"
+        },
+        {
+          "state": "already_target",
+          "timestamp": "2026-10-21T01:00:00Z",
+          "reason": "corpus en español — el glosario v3 conserva los términos técnicos Oracle (PL/SQL, modelos, métricas) como keep-original"
+        }
+      ],
+      "last_transition_at": "2026-10-21T01:00:00Z",
+      "segment_count": 143
+    },
+    {
+      "path": "oracle/resúmenes/07_Create_Vector_Indexes_resumen.md",
+      "document_id": "doc-72fc0d29",
+      "source_hash": "72fc0d298364d2df8ef823800eae15a1a40e685870e6564a62759e7dbc6649d2",
+      "current_state": "already_target",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T01:00:00Z",
+          "reason": "oracle/resúmenes: inventario de la ronda"
+        },
+        {
+          "state": "already_target",
+          "timestamp": "2026-10-21T01:00:00Z",
+          "reason": "corpus en español — el glosario v3 conserva los términos técnicos Oracle (PL/SQL, modelos, métricas) como keep-original"
+        }
+      ],
+      "last_transition_at": "2026-10-21T01:00:00Z",
+      "segment_count": 535
+    },
+    {
+      "path": "oracle/resúmenes/08_SQL_Functions_Vector_Operations_resumen.md",
+      "document_id": "doc-c8dea1b8",
+      "source_hash": "c8dea1b840ce8b98671f554ed9d54f422f6ec67fcd5c0a26281ac7f9546471fe",
+      "current_state": "already_target",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T01:00:00Z",
+          "reason": "oracle/resúmenes: inventario de la ronda"
+        },
+        {
+          "state": "already_target",
+          "timestamp": "2026-10-21T01:00:00Z",
+          "reason": "corpus en español — el glosario v3 conserva los términos técnicos Oracle (PL/SQL, modelos, métricas) como keep-original"
+        }
+      ],
+      "last_transition_at": "2026-10-21T01:00:00Z",
+      "segment_count": 285
+    },
+    {
+      "path": "oracle/resúmenes/09_Query_Similarity_Hybrid_Searches_resumen.md",
+      "document_id": "doc-749b9d1f",
+      "source_hash": "749b9d1f2defda53eb4062b69188a130ada943ef607ee711d60c97188186c3d7",
+      "current_state": "already_target",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T01:00:00Z",
+          "reason": "oracle/resúmenes: inventario de la ronda"
+        },
+        {
+          "state": "already_target",
+          "timestamp": "2026-10-21T01:00:00Z",
+          "reason": "corpus en español — el glosario v3 conserva los términos técnicos Oracle (PL/SQL, modelos, métricas) como keep-original"
+        }
+      ],
+      "last_transition_at": "2026-10-21T01:00:00Z",
+      "segment_count": 231
+    },
+    {
+      "path": "oracle/resúmenes/10_LLM_APIs_and_RAG_resumen.md",
+      "document_id": "doc-710f66b4",
+      "source_hash": "710f66b4730d3ab68ebf3a7c690e54d79453000bea2be1d73b1ed782335f89a1",
+      "current_state": "already_target",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T01:00:00Z",
+          "reason": "oracle/resúmenes: inventario de la ronda"
+        },
+        {
+          "state": "already_target",
+          "timestamp": "2026-10-21T01:00:00Z",
+          "reason": "corpus en español — el glosario v3 conserva los términos técnicos Oracle (PL/SQL, modelos, métricas) como keep-original"
+        }
+      ],
+      "last_transition_at": "2026-10-21T01:00:00Z",
+      "segment_count": 129
+    },
+    {
+      "path": "oracle/resúmenes/11_Supported_Clients_Languages_resumen.md",
+      "document_id": "doc-669141e7",
+      "source_hash": "669141e7b4bb7ca141db7f0ff3af58088f3f1d0b75b637e39629c711131dec9d",
+      "current_state": "already_target",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T01:00:00Z",
+          "reason": "oracle/resúmenes: inventario de la ronda"
+        },
+        {
+          "state": "already_target",
+          "timestamp": "2026-10-21T01:00:00Z",
+          "reason": "corpus en español — el glosario v3 conserva los términos técnicos Oracle (PL/SQL, modelos, métricas) como keep-original"
+        }
+      ],
+      "last_transition_at": "2026-10-21T01:00:00Z",
+      "segment_count": 27
+    },
+    {
+      "path": "oracle/resúmenes/12_Vector_Diagnostics_resumen.md",
+      "document_id": "doc-8f6e14b4",
+      "source_hash": "8f6e14b44573bc90617268e5eb4cb05a891ff04c47a545376b2e0eb6976c3d97",
+      "current_state": "already_target",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T01:00:00Z",
+          "reason": "oracle/resúmenes: inventario de la ronda"
+        },
+        {
+          "state": "already_target",
+          "timestamp": "2026-10-21T01:00:00Z",
+          "reason": "corpus en español — el glosario v3 conserva los términos técnicos Oracle (PL/SQL, modelos, métricas) como keep-original"
+        }
+      ],
+      "last_transition_at": "2026-10-21T01:00:00Z",
+      "segment_count": 127
+    },
+    {
+      "path": "oracle/resúmenes/13_Vector_Search_PLSQL_Packages_resumen.md",
+      "document_id": "doc-f540ef20",
+      "source_hash": "f540ef20183d94dd4040081094b6b6ca93c3b02f02c89f77eec1902dc6afae87",
+      "current_state": "already_target",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T01:00:00Z",
+          "reason": "oracle/resúmenes: inventario de la ronda"
+        },
+        {
+          "state": "already_target",
+          "timestamp": "2026-10-21T01:00:00Z",
+          "reason": "corpus en español — el glosario v3 conserva los términos técnicos Oracle (PL/SQL, modelos, métricas) como keep-original"
+        }
+      ],
+      "last_transition_at": "2026-10-21T01:00:00Z",
+      "segment_count": 237
+    },
+    {
+      "path": "oracle/resúmenes/A_Python_Classes_ONNX_Deprecated_resumen.md",
+      "document_id": "doc-25b26164",
+      "source_hash": "25b26164c8f48e837cc637bb9d9ef4fd09f34d1a3b52945f8232c7ebe78d49c5",
+      "current_state": "already_target",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T01:00:00Z",
+          "reason": "oracle/resúmenes: inventario de la ronda"
+        },
+        {
+          "state": "already_target",
+          "timestamp": "2026-10-21T01:00:00Z",
+          "reason": "corpus en español — el glosario v3 conserva los términos técnicos Oracle (PL/SQL, modelos, métricas) como keep-original"
+        }
+      ],
+      "last_transition_at": "2026-10-21T01:00:00Z",
+      "segment_count": 96
+    },
+    {
+      "path": "oracle/resúmenes/Glossary_resumen.md",
+      "document_id": "doc-edfd06c0",
+      "source_hash": "edfd06c06a02321bb0e644cb8eaa7afcf0f81e8337843c4bf50b074a8393553b",
+      "current_state": "already_target",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T01:00:00Z",
+          "reason": "oracle/resúmenes: inventario de la ronda"
+        },
+        {
+          "state": "already_target",
+          "timestamp": "2026-10-21T01:00:00Z",
+          "reason": "corpus en español — el glosario v3 conserva los términos técnicos Oracle (PL/SQL, modelos, métricas) como keep-original"
+        }
+      ],
+      "last_transition_at": "2026-10-21T01:00:00Z",
+      "segment_count": 73
+    },
+    {
+      "path": "oracle/resúmenes/INDICE.md",
+      "document_id": "doc-ad3bd024",
+      "source_hash": "ad3bd024fc57745136589c01288a83231e1ad188187f5b221b0f992c6edfd7dc",
+      "current_state": "already_target",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T01:00:00Z",
+          "reason": "oracle/resúmenes: inventario de la ronda"
+        },
+        {
+          "state": "already_target",
+          "timestamp": "2026-10-21T01:00:00Z",
+          "reason": "corpus en español — el glosario v3 conserva los términos técnicos Oracle (PL/SQL, modelos, métricas) como keep-original"
+        }
+      ],
+      "last_transition_at": "2026-10-21T01:00:00Z",
+      "segment_count": 9
+    }
+  ],
+  "coverage": {
+    "total": 17,
+    "integrated": 17,
+    "blocked": 0,
+    "excluded": 0,
+    "invalid": 0,
+    "pending": 0,
+    "integrated_ratio": 1.0,
+    "blocked_ratio": 0.0,
+    "excluded_ratio": 0.0
+  },
+  "integrity_ok": true
+}

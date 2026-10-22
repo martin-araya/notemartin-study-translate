@@ -1,0 +1,23 @@
+{
+  "run_id": "run-7fbd5e24",
+  "measured_at": "2026-10-22",
+  "defecto": "check_structure se saltaba el documento entero cuando tenia segmentos traducibles, de modo que no comparaba fuente contra ensamblado.",
+  "antes": {
+    "documentos_totales": 2682,
+    "documentos_alcanzados": 4,
+    "omitidos_por_tener_segmentos_traducibles": 2462,
+    "omitidos_por_stub": 211,
+    "omitidos_por_tabla_o_fence": 5
+  },
+  "despues": {
+    "documentos_alcanzados": 2471,
+    "comparados_firma_a_firma": 46,
+    "aun_sin_ensamblar": 2425,
+    "stubs_omitidos": 211,
+    "diferencias_detectadas": 0
+  },
+  "validacion": {
+    "errores_totales": 0,
+    "ok": true
+  }
+}

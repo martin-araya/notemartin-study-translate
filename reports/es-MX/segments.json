@@ -1,0 +1,1369 @@
+{
+  "source_root": "/Users/martin/Desktop/projects/Skills/notemartin-study-translate/tests/fixtures/es-mx",
+  "generated_at": "2026-10-20T01:54:45Z",
+  "files": [
+    {
+      "document_id": "doc-3e669e02",
+      "path": "web-css.md",
+      "source_hash": "3e669e02b18a81c129ee22cc048e0e5810ea66b7423bd0d12b75589accbd5190",
+      "source_size": 1296,
+      "segments": [
+        {
+          "segment_id": "seg-c123caa0",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 0,
+            "end": 27
+          },
+          "line_range": {
+            "start": 0,
+            "end": 1
+          },
+          "heading_path": [],
+          "translatable_text": "Estilos en CSS (México)",
+          "anchor": null,
+          "protected_literals": []
+        },
+        {
+          "segment_id": "seg-9f2d2781",
+          "structural_type": "blockquote",
+          "byte_range": {
+            "start": 28,
+            "end": 219
+          },
+          "line_range": {
+            "start": 2,
+            "end": 7
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Estilos en CSS (México)",
+              "byte_range": {
+                "start": 0,
+                "end": 27
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": []
+        },
+        {
+          "segment_id": "seg-60c9b2c8",
+          "structural_type": "code_fenced",
+          "byte_range": {
+            "start": 220,
+            "end": 281
+          },
+          "line_range": {
+            "start": 8,
+            "end": 14
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Estilos en CSS (México)",
+              "byte_range": {
+                "start": 0,
+                "end": 27
+              }
+            }
+          ],
+          "language": "yaml",
+          "translatable_text": "",
+          "protected_literals": [
+            {
+              "type": "code_fenced",
+              "byte_range": {
+                "start": 220,
+                "end": 281
+              },
+              "language": "yaml",
+              "value": "```yaml\n---\ntitle: Estilos en CSS (MX)\nlocale: es-MX\n---\n```\n"
+            }
+          ]
+        },
+        {
+          "segment_id": "seg-1fbaf695",
+          "structural_type": "paragraph",
+          "byte_range": {
+            "start": 282,
+            "end": 486
+          },
+          "line_range": {
+            "start": 15,
+            "end": 19
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Estilos en CSS (México)",
+              "byte_range": {
+                "start": 0,
+                "end": 27
+              }
+            }
+          ],
+          "translatable_text": "Las hojas de estilo en cascada (CSS) le permiten a usted\ncontrolar la presentación de documentos HTML. Mediante reglas\nde selectores y propiedades, puede definir colores, fuentes y\ndiseños responsivos.",
+          "protected_literals": []
+        },
+        {
+          "segment_id": "seg-47b9f8d1",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 487,
+            "end": 510
+          },
+          "line_range": {
+            "start": 20,
+            "end": 21
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Estilos en CSS (México)",
+              "byte_range": {
+                "start": 0,
+                "end": 27
+              }
+            }
+          ],
+          "translatable_text": "Selectores básicos",
+          "anchor": null,
+          "protected_literals": []
+        },
+        {
+          "segment_id": "seg-6f5cd253",
+          "structural_type": "table",
+          "byte_range": {
+            "start": 511,
+            "end": 862
+          },
+          "line_range": {
+            "start": 22,
+            "end": 28
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Estilos en CSS (México)",
+              "byte_range": {
+                "start": 0,
+                "end": 27
+              }
+            },
+            {
+              "level": 2,
+              "text": "Selectores básicos",
+              "byte_range": {
+                "start": 487,
+                "end": 510
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": []
+        },
+        {
+          "segment_id": "seg-41b3504e",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 863,
+            "end": 881
+          },
+          "line_range": {
+            "start": 29,
+            "end": 30
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Estilos en CSS (México)",
+              "byte_range": {
+                "start": 0,
+                "end": 27
+              }
+            },
+            {
+              "level": 2,
+              "text": "Selectores básicos",
+              "byte_range": {
+                "start": 487,
+                "end": 510
+              }
+            }
+          ],
+          "translatable_text": "Caja y diseño",
+          "anchor": null,
+          "protected_literals": []
+        },
+        {
+          "segment_id": "seg-936dbf96",
+          "structural_type": "code_fenced",
+          "byte_range": {
+            "start": 882,
+            "end": 981
+          },
+          "line_range": {
+            "start": 31,
+            "end": 39
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Estilos en CSS (México)",
+              "byte_range": {
+                "start": 0,
+                "end": 27
+              }
+            },
+            {
+              "level": 2,
+              "text": "Caja y diseño",
+              "byte_range": {
+                "start": 863,
+                "end": 881
+              }
+            }
+          ],
+          "language": "css",
+          "translatable_text": "",
+          "protected_literals": [
+            {
+              "type": "code_fenced",
+              "byte_range": {
+                "start": 882,
+                "end": 981
+              },
+              "language": "css",
+              "value": "```css\n.caja {\n  width: 80%;\n  margin: 0 auto;\n  padding: 1rem;\n  background-color: #f4f4f4;\n}\n```\n"
+            }
+          ]
+        },
+        {
+          "segment_id": "seg-e54c6ebd",
+          "structural_type": "blockquote",
+          "byte_range": {
+            "start": 982,
+            "end": 1078
+          },
+          "line_range": {
+            "start": 40,
+            "end": 42
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Estilos en CSS (México)",
+              "byte_range": {
+                "start": 0,
+                "end": 27
+              }
+            },
+            {
+              "level": 2,
+              "text": "Caja y diseño",
+              "byte_range": {
+                "start": 863,
+                "end": 881
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": []
+        },
+        {
+          "segment_id": "seg-9b64d533",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 1079,
+            "end": 1105
+          },
+          "line_range": {
+            "start": 43,
+            "end": 44
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Estilos en CSS (México)",
+              "byte_range": {
+                "start": 0,
+                "end": 27
+              }
+            },
+            {
+              "level": 2,
+              "text": "Caja y diseño",
+              "byte_range": {
+                "start": 863,
+                "end": 881
+              }
+            }
+          ],
+          "translatable_text": "Comentarios regionales",
+          "anchor": null,
+          "protected_literals": []
+        },
+        {
+          "segment_id": "seg-828278b1",
+          "structural_type": "blockquote",
+          "byte_range": {
+            "start": 1106,
+            "end": 1296
+          },
+          "line_range": {
+            "start": 45,
+            "end": 49
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Estilos en CSS (México)",
+              "byte_range": {
+                "start": 0,
+                "end": 27
+              }
+            },
+            {
+              "level": 2,
+              "text": "Comentarios regionales",
+              "byte_range": {
+                "start": 1079,
+                "end": 1105
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": []
+        }
+      ]
+    },
+    {
+      "document_id": "doc-eb18368b",
+      "path": "web-html.md",
+      "source_hash": "eb18368b062a49b23be387f8fd4e994cdad5e5de29d478ab1838e2e175ceff68",
+      "source_size": 1512,
+      "segments": [
+        {
+          "segment_id": "seg-57ae11ca",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 0,
+            "end": 28
+          },
+          "line_range": {
+            "start": 0,
+            "end": 1
+          },
+          "heading_path": [],
+          "translatable_text": "Referencia HTML (México)",
+          "anchor": null,
+          "protected_literals": []
+        },
+        {
+          "segment_id": "seg-0512f97e",
+          "structural_type": "blockquote",
+          "byte_range": {
+            "start": 29,
+            "end": 166
+          },
+          "line_range": {
+            "start": 2,
+            "end": 6
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Referencia HTML (México)",
+              "byte_range": {
+                "start": 0,
+                "end": 28
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": []
+        },
+        {
+          "segment_id": "seg-78eddd03",
+          "structural_type": "code_fenced",
+          "byte_range": {
+            "start": 167,
+            "end": 229
+          },
+          "line_range": {
+            "start": 7,
+            "end": 13
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Referencia HTML (México)",
+              "byte_range": {
+                "start": 0,
+                "end": 28
+              }
+            }
+          ],
+          "language": "yaml",
+          "translatable_text": "",
+          "protected_literals": [
+            {
+              "type": "code_fenced",
+              "byte_range": {
+                "start": 167,
+                "end": 229
+              },
+              "language": "yaml",
+              "value": "```yaml\n---\ntitle: Referencia HTML (MX)\nlocale: es-MX\n---\n```\n"
+            }
+          ]
+        },
+        {
+          "segment_id": "seg-bea18067",
+          "structural_type": "paragraph",
+          "byte_range": {
+            "start": 230,
+            "end": 395
+          },
+          "line_range": {
+            "start": 14,
+            "end": 17
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Referencia HTML (México)",
+              "byte_range": {
+                "start": 0,
+                "end": 28
+              }
+            }
+          ],
+          "translatable_text": "HTML define la estructura semántica de su página web. Cada\nelemento tiene un propósito concreto: encabezados, párrafos,\nlistas, enlaces, imágenes, formularios.",
+          "protected_literals": []
+        },
+        {
+          "segment_id": "seg-c3202301",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 396,
+            "end": 420
+          },
+          "line_range": {
+            "start": 18,
+            "end": 19
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Referencia HTML (México)",
+              "byte_range": {
+                "start": 0,
+                "end": 28
+              }
+            }
+          ],
+          "translatable_text": "Elementos esenciales",
+          "anchor": null,
+          "protected_literals": []
+        },
+        {
+          "segment_id": "seg-626bbab8",
+          "structural_type": "table",
+          "byte_range": {
+            "start": 421,
+            "end": 775
+          },
+          "line_range": {
+            "start": 20,
+            "end": 26
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Referencia HTML (México)",
+              "byte_range": {
+                "start": 0,
+                "end": 28
+              }
+            },
+            {
+              "level": 2,
+              "text": "Elementos esenciales",
+              "byte_range": {
+                "start": 396,
+                "end": 420
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": []
+        },
+        {
+          "segment_id": "seg-4d12430b",
+          "structural_type": "blockquote",
+          "byte_range": {
+            "start": 776,
+            "end": 911
+          },
+          "line_range": {
+            "start": 27,
+            "end": 30
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Referencia HTML (México)",
+              "byte_range": {
+                "start": 0,
+                "end": 28
+              }
+            },
+            {
+              "level": 2,
+              "text": "Elementos esenciales",
+              "byte_range": {
+                "start": 396,
+                "end": 420
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": []
+        },
+        {
+          "segment_id": "seg-aa4f2d9f",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 912,
+            "end": 927
+          },
+          "line_range": {
+            "start": 31,
+            "end": 32
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Referencia HTML (México)",
+              "byte_range": {
+                "start": 0,
+                "end": 28
+              }
+            },
+            {
+              "level": 2,
+              "text": "Elementos esenciales",
+              "byte_range": {
+                "start": 396,
+                "end": 420
+              }
+            }
+          ],
+          "translatable_text": "Formularios",
+          "anchor": null,
+          "protected_literals": []
+        },
+        {
+          "segment_id": "seg-b3ab5e6f",
+          "structural_type": "code_fenced",
+          "byte_range": {
+            "start": 928,
+            "end": 1224
+          },
+          "line_range": {
+            "start": 33,
+            "end": 42
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Referencia HTML (México)",
+              "byte_range": {
+                "start": 0,
+                "end": 28
+              }
+            },
+            {
+              "level": 2,
+              "text": "Formularios",
+              "byte_range": {
+                "start": 912,
+                "end": 927
+              }
+            }
+          ],
+          "language": "html",
+          "translatable_text": "",
+          "protected_literals": [
+            {
+              "type": "code_fenced",
+              "byte_range": {
+                "start": 928,
+                "end": 1224
+              },
+              "language": "html",
+              "value": "```html\n<form action=\"/login\" method=\"post\">\n  <label for=\"user\">Usuario</label>\n  <input id=\"user\" name=\"user\" type=\"text\" required />\n  <label for=\"pass\">Contraseña</label>\n  <input id=\"pass\" name=\"pass\" type=\"password\" required />\n  <button type=\"submit\">Iniciar sesión</button>\n</form>\n```\n"
+            }
+          ]
+        },
+        {
+          "segment_id": "seg-f9e532f8",
+          "structural_type": "paragraph",
+          "byte_range": {
+            "start": 1225,
+            "end": 1314
+          },
+          "line_range": {
+            "start": 43,
+            "end": 45
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Referencia HTML (México)",
+              "byte_range": {
+                "start": 0,
+                "end": 28
+              }
+            },
+            {
+              "level": 2,
+              "text": "Formularios",
+              "byte_range": {
+                "start": 912,
+                "end": 927
+              }
+            }
+          ],
+          "translatable_text": "Los nombres de los campos (`user`, `pass`) son literales\ntécnicos; **no los traduzca**.",
+          "protected_literals": [
+            {
+              "type": "code_inline",
+              "byte_range": {
+                "start": 1253,
+                "end": 1257
+              },
+              "value": "user"
+            }
+          ]
+        },
+        {
+          "segment_id": "seg-fb91abde",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 1315,
+            "end": 1338
+          },
+          "line_range": {
+            "start": 46,
+            "end": 47
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Referencia HTML (México)",
+              "byte_range": {
+                "start": 0,
+                "end": 28
+              }
+            },
+            {
+              "level": 2,
+              "text": "Formularios",
+              "byte_range": {
+                "start": 912,
+                "end": 927
+              }
+            }
+          ],
+          "translatable_text": "Comentario regional",
+          "anchor": null,
+          "protected_literals": []
+        },
+        {
+          "segment_id": "seg-985e2f3d",
+          "structural_type": "blockquote",
+          "byte_range": {
+            "start": 1339,
+            "end": 1512
+          },
+          "line_range": {
+            "start": 48,
+            "end": 52
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Referencia HTML (México)",
+              "byte_range": {
+                "start": 0,
+                "end": 28
+              }
+            },
+            {
+              "level": 2,
+              "text": "Comentario regional",
+              "byte_range": {
+                "start": 1315,
+                "end": 1338
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": []
+        }
+      ]
+    },
+    {
+      "document_id": "doc-68d97709",
+      "path": "web-index.md",
+      "source_hash": "68d9770978b34de52feacc412f1cd596ab3d8a96a969858d722aff5216281f6a",
+      "source_size": 2027,
+      "segments": [
+        {
+          "segment_id": "seg-c5d33773",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 0,
+            "end": 49
+          },
+          "line_range": {
+            "start": 0,
+            "end": 1
+          },
+          "heading_path": [],
+          "translatable_text": "Tecnología web para desarrolladores (México)",
+          "anchor": null,
+          "protected_literals": []
+        },
+        {
+          "segment_id": "seg-28fd08e7",
+          "structural_type": "blockquote",
+          "byte_range": {
+            "start": 50,
+            "end": 270
+          },
+          "line_range": {
+            "start": 2,
+            "end": 7
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Tecnología web para desarrolladores (México)",
+              "byte_range": {
+                "start": 0,
+                "end": 49
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": []
+        },
+        {
+          "segment_id": "seg-987d80e8",
+          "structural_type": "code_fenced",
+          "byte_range": {
+            "start": 271,
+            "end": 381
+          },
+          "line_range": {
+            "start": 8,
+            "end": 16
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Tecnología web para desarrolladores (México)",
+              "byte_range": {
+                "start": 0,
+                "end": 49
+              }
+            }
+          ],
+          "language": "yaml",
+          "translatable_text": "",
+          "protected_literals": [
+            {
+              "type": "code_fenced",
+              "byte_range": {
+                "start": 271,
+                "end": 381
+              },
+              "language": "yaml",
+              "value": "```yaml\n---\ntitle: Tecnología web para desarrolladores (MX)\nshort-title: Web\nslug: Web\nlocale: es-MX\n---\n```\n"
+            }
+          ]
+        },
+        {
+          "segment_id": "seg-77446b6f",
+          "structural_type": "paragraph",
+          "byte_range": {
+            "start": 382,
+            "end": 639
+          },
+          "line_range": {
+            "start": 17,
+            "end": 21
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Tecnología web para desarrolladores (México)",
+              "byte_range": {
+                "start": 0,
+                "end": 49
+              }
+            }
+          ],
+          "translatable_text": "La web abierta le ofrece a usted, como desarrollador, oportunidades\nverdaderamente increíbles. Para aprovecharlas al máximo, es\nindispensable que usted sepa cómo utilizarlas. A continuación\nencontrará enlaces a la documentación sobre tecnología web.",
+          "protected_literals": []
+        },
+        {
+          "segment_id": "seg-6a6d478c",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 640,
+            "end": 683
+          },
+          "line_range": {
+            "start": 22,
+            "end": 23
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Tecnología web para desarrolladores (México)",
+              "byte_range": {
+                "start": 0,
+                "end": 49
+              }
+            }
+          ],
+          "translatable_text": "Documentación para desarrolladores web",
+          "anchor": null,
+          "protected_literals": []
+        },
+        {
+          "segment_id": "seg-c915fa1b",
+          "structural_type": "list_item",
+          "byte_range": {
+            "start": 684,
+            "end": 1721
+          },
+          "line_range": {
+            "start": 24,
+            "end": 46
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Tecnología web para desarrolladores (México)",
+              "byte_range": {
+                "start": 0,
+                "end": 49
+              }
+            },
+            {
+              "level": 2,
+              "text": "Documentación para desarrolladores web",
+              "byte_range": {
+                "start": 640,
+                "end": 683
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": []
+        },
+        {
+          "segment_id": "seg-eea173b6",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 1721,
+            "end": 1741
+          },
+          "line_range": {
+            "start": 46,
+            "end": 47
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Tecnología web para desarrolladores (México)",
+              "byte_range": {
+                "start": 0,
+                "end": 49
+              }
+            },
+            {
+              "level": 2,
+              "text": "Documentación para desarrolladores web",
+              "byte_range": {
+                "start": 640,
+                "end": 683
+              }
+            }
+          ],
+          "translatable_text": "Cómo contribuir",
+          "anchor": null,
+          "protected_literals": []
+        },
+        {
+          "segment_id": "seg-da0ff3d8",
+          "structural_type": "paragraph",
+          "byte_range": {
+            "start": 1742,
+            "end": 1899
+          },
+          "line_range": {
+            "start": 48,
+            "end": 51
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Tecnología web para desarrolladores (México)",
+              "byte_range": {
+                "start": 0,
+                "end": 49
+              }
+            },
+            {
+              "level": 2,
+              "text": "Cómo contribuir",
+              "byte_range": {
+                "start": 1721,
+                "end": 1741
+              }
+            }
+          ],
+          "translatable_text": "Si usted detecta un error o quiere proponer cambios, consulte la\nguía de contribución. Toda corrección pasa por una revisión manual\nantes de publicarse.",
+          "protected_literals": []
+        },
+        {
+          "segment_id": "seg-d66901f5",
+          "structural_type": "blockquote",
+          "byte_range": {
+            "start": 1900,
+            "end": 2027
+          },
+          "line_range": {
+            "start": 52,
+            "end": 55
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Tecnología web para desarrolladores (México)",
+              "byte_range": {
+                "start": 0,
+                "end": 49
+              }
+            },
+            {
+              "level": 2,
+              "text": "Cómo contribuir",
+              "byte_range": {
+                "start": 1721,
+                "end": 1741
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": []
+        }
+      ]
+    },
+    {
+      "document_id": "doc-4fe28e80",
+      "path": "web-javascript.md",
+      "source_hash": "4fe28e808a18754011d52d4596c9653c29922b68e33901ef584b323a3a3bbf94",
+      "source_size": 1106,
+      "segments": [
+        {
+          "segment_id": "seg-a70b4822",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 0,
+            "end": 31
+          },
+          "line_range": {
+            "start": 0,
+            "end": 1
+          },
+          "heading_path": [],
+          "translatable_text": "JavaScript básico (México)",
+          "anchor": null,
+          "protected_literals": []
+        },
+        {
+          "segment_id": "seg-432214aa",
+          "structural_type": "blockquote",
+          "byte_range": {
+            "start": 32,
+            "end": 157
+          },
+          "line_range": {
+            "start": 2,
+            "end": 6
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "JavaScript básico (México)",
+              "byte_range": {
+                "start": 0,
+                "end": 31
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": []
+        },
+        {
+          "segment_id": "seg-6db62b9c",
+          "structural_type": "code_fenced",
+          "byte_range": {
+            "start": 158,
+            "end": 223
+          },
+          "line_range": {
+            "start": 7,
+            "end": 13
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "JavaScript básico (México)",
+              "byte_range": {
+                "start": 0,
+                "end": 31
+              }
+            }
+          ],
+          "language": "yaml",
+          "translatable_text": "",
+          "protected_literals": [
+            {
+              "type": "code_fenced",
+              "byte_range": {
+                "start": 158,
+                "end": 223
+              },
+              "language": "yaml",
+              "value": "```yaml\n---\ntitle: JavaScript básico (MX)\nlocale: es-MX\n---\n```\n"
+            }
+          ]
+        },
+        {
+          "segment_id": "seg-fcde73c1",
+          "structural_type": "paragraph",
+          "byte_range": {
+            "start": 224,
+            "end": 406
+          },
+          "line_range": {
+            "start": 14,
+            "end": 17
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "JavaScript básico (México)",
+              "byte_range": {
+                "start": 0,
+                "end": 31
+              }
+            }
+          ],
+          "translatable_text": "JavaScript le permite a usted ejecutar lógica compleja dentro\ndel navegador. Mediante variables, funciones y eventos, puede\nmanipular el DOM y responder a las acciones del usuario.",
+          "protected_literals": []
+        },
+        {
+          "segment_id": "seg-79fec28d",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 407,
+            "end": 428
+          },
+          "line_range": {
+            "start": 18,
+            "end": 19
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "JavaScript básico (México)",
+              "byte_range": {
+                "start": 0,
+                "end": 31
+              }
+            }
+          ],
+          "translatable_text": "Tipos y variables",
+          "anchor": null,
+          "protected_literals": []
+        },
+        {
+          "segment_id": "seg-d299987a",
+          "structural_type": "table",
+          "byte_range": {
+            "start": 429,
+            "end": 579
+          },
+          "line_range": {
+            "start": 20,
+            "end": 25
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "JavaScript básico (México)",
+              "byte_range": {
+                "start": 0,
+                "end": 31
+              }
+            },
+            {
+              "level": 2,
+              "text": "Tipos y variables",
+              "byte_range": {
+                "start": 407,
+                "end": 428
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": []
+        },
+        {
+          "segment_id": "seg-64e91555",
+          "structural_type": "code_fenced",
+          "byte_range": {
+            "start": 580,
+            "end": 646
+          },
+          "line_range": {
+            "start": 26,
+            "end": 30
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "JavaScript básico (México)",
+              "byte_range": {
+                "start": 0,
+                "end": 31
+              }
+            },
+            {
+              "level": 2,
+              "text": "Tipos y variables",
+              "byte_range": {
+                "start": 407,
+                "end": 428
+              }
+            }
+          ],
+          "language": "js",
+          "translatable_text": "",
+          "protected_literals": [
+            {
+              "type": "code_fenced",
+              "byte_range": {
+                "start": 580,
+                "end": 646
+              },
+              "language": "js",
+              "value": "```js\nconst saludo = \"Hola\";\nconsole.log(`${saludo}, mundo`);\n```\n"
+            }
+          ]
+        },
+        {
+          "segment_id": "seg-3e85b7ca",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 647,
+            "end": 669
+          },
+          "line_range": {
+            "start": 31,
+            "end": 32
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "JavaScript básico (México)",
+              "byte_range": {
+                "start": 0,
+                "end": 31
+              }
+            },
+            {
+              "level": 2,
+              "text": "Tipos y variables",
+              "byte_range": {
+                "start": 407,
+                "end": 428
+              }
+            }
+          ],
+          "translatable_text": "Funciones y `this`",
+          "anchor": null,
+          "protected_literals": [
+            {
+              "type": "code_inline",
+              "byte_range": {
+                "start": 663,
+                "end": 667
+              },
+              "value": "this"
+            }
+          ]
+        },
+        {
+          "segment_id": "seg-d6e894b4",
+          "structural_type": "paragraph",
+          "byte_range": {
+            "start": 670,
+            "end": 781
+          },
+          "line_range": {
+            "start": 33,
+            "end": 35
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "JavaScript básico (México)",
+              "byte_range": {
+                "start": 0,
+                "end": 31
+              }
+            },
+            {
+              "level": 2,
+              "text": "Funciones y `this`",
+              "byte_range": {
+                "start": 647,
+                "end": 669
+              }
+            }
+          ],
+          "translatable_text": "Las funciones flecha **no** enlazan su propio `this`. Use\nfunciones tradicionales cuando necesite el contexto.",
+          "protected_literals": [
+            {
+              "type": "code_inline",
+              "byte_range": {
+                "start": 717,
+                "end": 721
+              },
+              "value": "this"
+            }
+          ]
+        },
+        {
+          "segment_id": "seg-b05427c6",
+          "structural_type": "blockquote",
+          "byte_range": {
+            "start": 782,
+            "end": 927
+          },
+          "line_range": {
+            "start": 36,
+            "end": 40
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "JavaScript básico (México)",
+              "byte_range": {
+                "start": 0,
+                "end": 31
+              }
+            },
+            {
+              "level": 2,
+              "text": "Funciones y `this`",
+              "byte_range": {
+                "start": 647,
+                "end": 669
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": []
+        },
+        {
+          "segment_id": "seg-9f75bd70",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 928,
+            "end": 951
+          },
+          "line_range": {
+            "start": 41,
+            "end": 42
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "JavaScript básico (México)",
+              "byte_range": {
+                "start": 0,
+                "end": 31
+              }
+            },
+            {
+              "level": 2,
+              "text": "Funciones y `this`",
+              "byte_range": {
+                "start": 647,
+                "end": 669
+              }
+            }
+          ],
+          "translatable_text": "Comentario regional",
+          "anchor": null,
+          "protected_literals": []
+        },
+        {
+          "segment_id": "seg-401b0a25",
+          "structural_type": "blockquote",
+          "byte_range": {
+            "start": 952,
+            "end": 1106
+          },
+          "line_range": {
+            "start": 43,
+            "end": 47
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "JavaScript básico (México)",
+              "byte_range": {
+                "start": 0,
+                "end": 31
+              }
+            },
+            {
+              "level": 2,
+              "text": "Comentario regional",
+              "byte_range": {
+                "start": 928,
+                "end": 951
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": []
+        }
+      ]
+    }
+  ]
+}

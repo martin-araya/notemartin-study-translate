@@ -1,0 +1,15 @@
+import { Note, Warning } from '@site/src/components';
+
+export const severity = 'high';
+
+<Note title="Compatibility note">
+This feature requires version 2.4 or later. Earlier versions ignore the `stream` flag silently.
+</Note>
+
+<Warning title="Breaking change" severity={severity}>
+The default endpoint changed in 22.5. Update your client before migrating to avoid the 410 response.
+</Warning>
+
+## See also
+
+Read the [migration guide](#) for the full list of removals.

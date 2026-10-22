@@ -1,0 +1,3213 @@
+{
+  "source_root": "/Users/martin/Desktop/projects/Skills/notemartin-study-translate/tests/fixtures/pilot-fr",
+  "generated_at": "2026-10-20T01:11:33Z",
+  "files": [
+    {
+      "document_id": "doc-06b2cead",
+      "path": "01-prelude-et-licence.md",
+      "source_hash": "06b2cead15159ee19d43d6b106ddf682d3d3b0355f48d7d866c4a28db9725100",
+      "source_size": 1982,
+      "segments": [
+        {
+          "segment_id": "seg-99beb033",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 0,
+            "end": 50
+          },
+          "line_range": {
+            "start": 0,
+            "end": 1
+          },
+          "heading_path": [],
+          "translatable_text": "Préface et licence de la documentation fr→es",
+          "anchor": null,
+          "protected_literals": [],
+          "language": "fr",
+          "disposition": "translatable",
+          "confidence": 0.9999982555588658
+        },
+        {
+          "segment_id": "seg-e9553852",
+          "structural_type": "blockquote",
+          "byte_range": {
+            "start": 51,
+            "end": 474
+          },
+          "line_range": {
+            "start": 2,
+            "end": 10
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Préface et licence de la documentation fr→es",
+              "byte_range": {
+                "start": 0,
+                "end": 50
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": [],
+          "language": "empty",
+          "disposition": "no_text",
+          "confidence": 1.0
+        },
+        {
+          "segment_id": "seg-56b0fecd",
+          "structural_type": "code_fenced",
+          "byte_range": {
+            "start": 475,
+            "end": 636
+          },
+          "line_range": {
+            "start": 11,
+            "end": 21
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Préface et licence de la documentation fr→es",
+              "byte_range": {
+                "start": 0,
+                "end": 50
+              }
+            }
+          ],
+          "language": "code",
+          "translatable_text": "",
+          "protected_literals": [
+            {
+              "type": "code_fenced",
+              "byte_range": {
+                "start": 475,
+                "end": 636
+              },
+              "language": "yaml",
+              "value": "```yaml\n---\ntitle: Préface et licence\nproject: notemartin-study-translate-fixture-fr\nlanguage: fr\naudience: maintainers\nlicense: CC0-1.0\nversion: 1.0.0\n---\n```\n"
+            }
+          ],
+          "disposition": "code_skip",
+          "confidence": 1.0
+        },
+        {
+          "segment_id": "seg-7024f95b",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 637,
+            "end": 665
+          },
+          "line_range": {
+            "start": 22,
+            "end": 23
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Préface et licence de la documentation fr→es",
+              "byte_range": {
+                "start": 0,
+                "end": 50
+              }
+            }
+          ],
+          "translatable_text": "À propos de ce document",
+          "anchor": null,
+          "protected_literals": [],
+          "language": "other",
+          "disposition": "translatable",
+          "confidence": 0.9999941778676238
+        },
+        {
+          "segment_id": "seg-2b5a60e8",
+          "structural_type": "paragraph",
+          "byte_range": {
+            "start": 666,
+            "end": 948
+          },
+          "line_range": {
+            "start": 24,
+            "end": 29
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Préface et licence de la documentation fr→es",
+              "byte_range": {
+                "start": 0,
+                "end": 50
+              }
+            },
+            {
+              "level": 2,
+              "text": "À propos de ce document",
+              "byte_range": {
+                "start": 637,
+                "end": 665
+              }
+            }
+          ],
+          "translatable_text": "Ce corpus pilote sert à mesurer la capacité de la skill\n`notemartin-study-translate` à traiter un corpus en français technique.\nIl n'est **pas** une copie du manuel Nextcloud ; il reproduit la\nvariété de constructions Markdown observée dans un manuel\nd'administration réel.",
+          "protected_literals": [
+            {
+              "type": "code_inline",
+              "byte_range": {
+                "start": 725,
+                "end": 751
+              },
+              "value": "notemartin-study-translate"
+            }
+          ],
+          "language": "fr",
+          "disposition": "translatable",
+          "confidence": 0.999995187814529
+        },
+        {
+          "segment_id": "seg-dcd47256",
+          "structural_type": "blockquote",
+          "byte_range": {
+            "start": 949,
+            "end": 1106
+          },
+          "line_range": {
+            "start": 30,
+            "end": 33
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Préface et licence de la documentation fr→es",
+              "byte_range": {
+                "start": 0,
+                "end": 50
+              }
+            },
+            {
+              "level": 2,
+              "text": "À propos de ce document",
+              "byte_range": {
+                "start": 637,
+                "end": 665
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": [],
+          "language": "empty",
+          "disposition": "no_text",
+          "confidence": 1.0
+        },
+        {
+          "segment_id": "seg-7dbefe2e",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 1107,
+            "end": 1132
+          },
+          "line_range": {
+            "start": 34,
+            "end": 35
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Préface et licence de la documentation fr→es",
+              "byte_range": {
+                "start": 0,
+                "end": 50
+              }
+            },
+            {
+              "level": 2,
+              "text": "À propos de ce document",
+              "byte_range": {
+                "start": 637,
+                "end": 665
+              }
+            }
+          ],
+          "translatable_text": "Conventions adoptées",
+          "anchor": null,
+          "protected_literals": [],
+          "language": "fr",
+          "disposition": "translatable",
+          "confidence": 0.9999937687377682
+        },
+        {
+          "segment_id": "seg-0002390e",
+          "structural_type": "table",
+          "byte_range": {
+            "start": 1133,
+            "end": 1540
+          },
+          "line_range": {
+            "start": 36,
+            "end": 43
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Préface et licence de la documentation fr→es",
+              "byte_range": {
+                "start": 0,
+                "end": 50
+              }
+            },
+            {
+              "level": 2,
+              "text": "Conventions adoptées",
+              "byte_range": {
+                "start": 1107,
+                "end": 1132
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": [],
+          "language": "empty",
+          "disposition": "no_text",
+          "confidence": 1.0
+        },
+        {
+          "segment_id": "seg-d867d347",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 1541,
+            "end": 1562
+          },
+          "line_range": {
+            "start": 44,
+            "end": 45
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Préface et licence de la documentation fr→es",
+              "byte_range": {
+                "start": 0,
+                "end": 50
+              }
+            },
+            {
+              "level": 2,
+              "text": "Conventions adoptées",
+              "byte_range": {
+                "start": 1107,
+                "end": 1132
+              }
+            }
+          ],
+          "translatable_text": "Limites assumées",
+          "anchor": null,
+          "protected_literals": [],
+          "language": "fr",
+          "disposition": "translatable",
+          "confidence": 0.9999960150786317
+        },
+        {
+          "segment_id": "seg-caeb784e",
+          "structural_type": "list_item",
+          "byte_range": {
+            "start": 1563,
+            "end": 1982
+          },
+          "line_range": {
+            "start": 46,
+            "end": 54
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Préface et licence de la documentation fr→es",
+              "byte_range": {
+                "start": 0,
+                "end": 50
+              }
+            },
+            {
+              "level": 2,
+              "text": "Limites assumées",
+              "byte_range": {
+                "start": 1541,
+                "end": 1562
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": [],
+          "language": "empty",
+          "disposition": "no_text",
+          "confidence": 1.0
+        }
+      ],
+      "file_disposition": "mixed",
+      "file_disposition_counts": {
+        "translatable": 5,
+        "no_text": 4,
+        "code_skip": 1
+      }
+    },
+    {
+      "document_id": "doc-f02b3b3f",
+      "path": "02-fichiers-et-synchronisation.md",
+      "source_hash": "f02b3b3f43bed1d335fd19b8d9cdf3202cff6c68caac66d4043ee1226e9b9b73",
+      "source_size": 2198,
+      "segments": [
+        {
+          "segment_id": "seg-ce20dedb",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 0,
+            "end": 30
+          },
+          "line_range": {
+            "start": 0,
+            "end": 1
+          },
+          "heading_path": [],
+          "translatable_text": "Fichiers et synchronisation",
+          "anchor": null,
+          "protected_literals": [],
+          "language": "unknown",
+          "disposition": "unknown",
+          "confidence": 0.5714262117796332
+        },
+        {
+          "segment_id": "seg-6833a5c1",
+          "structural_type": "blockquote",
+          "byte_range": {
+            "start": 31,
+            "end": 262
+          },
+          "line_range": {
+            "start": 2,
+            "end": 6
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Fichiers et synchronisation",
+              "byte_range": {
+                "start": 0,
+                "end": 30
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": [],
+          "language": "empty",
+          "disposition": "no_text",
+          "confidence": 1.0
+        },
+        {
+          "segment_id": "seg-bafffd80",
+          "structural_type": "paragraph",
+          "byte_range": {
+            "start": 263,
+            "end": 505
+          },
+          "line_range": {
+            "start": 7,
+            "end": 11
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Fichiers et synchronisation",
+              "byte_range": {
+                "start": 0,
+                "end": 30
+              }
+            }
+          ],
+          "translatable_text": "La fonction « Fichiers » de Nextcloud vous permet de gérer vos\ndocuments, images et autres ressources depuis un navigateur ou un\nclient de bureau. Les fichiers peuvent être partagés, versionnés et\nsynchronisés sur plusieurs appareils.",
+          "protected_literals": [],
+          "language": "fr",
+          "disposition": "translatable",
+          "confidence": 0.9999963036001527
+        },
+        {
+          "segment_id": "seg-a8507044",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 506,
+            "end": 526
+          },
+          "line_range": {
+            "start": 12,
+            "end": 13
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Fichiers et synchronisation",
+              "byte_range": {
+                "start": 0,
+                "end": 30
+              }
+            }
+          ],
+          "translatable_text": "Parcours typique",
+          "anchor": null,
+          "protected_literals": [],
+          "language": "fr",
+          "disposition": "translatable",
+          "confidence": 0.9999985652347636
+        },
+        {
+          "segment_id": "seg-428c6cc5",
+          "structural_type": "list_item",
+          "byte_range": {
+            "start": 527,
+            "end": 691
+          },
+          "line_range": {
+            "start": 14,
+            "end": 19
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Fichiers et synchronisation",
+              "byte_range": {
+                "start": 0,
+                "end": 30
+              }
+            },
+            {
+              "level": 2,
+              "text": "Parcours typique",
+              "byte_range": {
+                "start": 506,
+                "end": 526
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": [],
+          "language": "empty",
+          "disposition": "no_text",
+          "confidence": 1.0
+        },
+        {
+          "segment_id": "seg-4e05afd6",
+          "structural_type": "blockquote",
+          "byte_range": {
+            "start": 691,
+            "end": 876
+          },
+          "line_range": {
+            "start": 19,
+            "end": 23
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Fichiers et synchronisation",
+              "byte_range": {
+                "start": 0,
+                "end": 30
+              }
+            },
+            {
+              "level": 2,
+              "text": "Parcours typique",
+              "byte_range": {
+                "start": 506,
+                "end": 526
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": [],
+          "language": "empty",
+          "disposition": "no_text",
+          "confidence": 1.0
+        },
+        {
+          "segment_id": "seg-787159a7",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 877,
+            "end": 900
+          },
+          "line_range": {
+            "start": 24,
+            "end": 25
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Fichiers et synchronisation",
+              "byte_range": {
+                "start": 0,
+                "end": 30
+              }
+            },
+            {
+              "level": 2,
+              "text": "Parcours typique",
+              "byte_range": {
+                "start": 506,
+                "end": 526
+              }
+            }
+          ],
+          "translatable_text": "Actions disponibles",
+          "anchor": null,
+          "protected_literals": [],
+          "language": "fr",
+          "disposition": "translatable",
+          "confidence": 0.8571407539063707
+        },
+        {
+          "segment_id": "seg-59feec7a",
+          "structural_type": "table",
+          "byte_range": {
+            "start": 901,
+            "end": 1281
+          },
+          "line_range": {
+            "start": 26,
+            "end": 33
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Fichiers et synchronisation",
+              "byte_range": {
+                "start": 0,
+                "end": 30
+              }
+            },
+            {
+              "level": 2,
+              "text": "Actions disponibles",
+              "byte_range": {
+                "start": 877,
+                "end": 900
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": [],
+          "language": "empty",
+          "disposition": "no_text",
+          "confidence": 1.0
+        },
+        {
+          "segment_id": "seg-ad51746f",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 1282,
+            "end": 1300
+          },
+          "line_range": {
+            "start": 34,
+            "end": 35
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Fichiers et synchronisation",
+              "byte_range": {
+                "start": 0,
+                "end": 30
+              }
+            },
+            {
+              "level": 2,
+              "text": "Actions disponibles",
+              "byte_range": {
+                "start": 877,
+                "end": 900
+              }
+            }
+          ],
+          "translatable_text": "Partage public",
+          "anchor": null,
+          "protected_literals": [],
+          "language": "fr",
+          "disposition": "translatable",
+          "confidence": 0.9023191086921241
+        },
+        {
+          "segment_id": "seg-5c8c5eac",
+          "structural_type": "code_fenced",
+          "byte_range": {
+            "start": 1301,
+            "end": 1442
+          },
+          "line_range": {
+            "start": 36,
+            "end": 40
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Fichiers et synchronisation",
+              "byte_range": {
+                "start": 0,
+                "end": 30
+              }
+            },
+            {
+              "level": 2,
+              "text": "Partage public",
+              "byte_range": {
+                "start": 1282,
+                "end": 1300
+              }
+            }
+          ],
+          "language": "code",
+          "translatable_text": "",
+          "protected_literals": [
+            {
+              "type": "code_fenced",
+              "byte_range": {
+                "start": 1301,
+                "end": 1442
+              },
+              "language": "text",
+              "value": "```text\nVous pouvez partager un fichier publiquement avec un lien. Le\ndestinataire n'a pas besoin de compte ; il reçoit une URL stable.\n```\n"
+            }
+          ],
+          "disposition": "code_skip",
+          "confidence": 1.0
+        },
+        {
+          "segment_id": "seg-dcf55dd1",
+          "structural_type": "paragraph",
+          "byte_range": {
+            "start": 1443,
+            "end": 1590
+          },
+          "line_range": {
+            "start": 41,
+            "end": 44
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Fichiers et synchronisation",
+              "byte_range": {
+                "start": 0,
+                "end": 30
+              }
+            },
+            {
+              "level": 2,
+              "text": "Partage public",
+              "byte_range": {
+                "start": 1282,
+                "end": 1300
+              }
+            }
+          ],
+          "translatable_text": "L'option « Lien public » se trouve dans le menu d'action du fichier.\nActivez-la seulement si la ressource ne contient pas de données\nsensibles.",
+          "protected_literals": [],
+          "language": "fr",
+          "disposition": "translatable",
+          "confidence": 0.9999954830407813
+        },
+        {
+          "segment_id": "seg-b22b25dc",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 1591,
+            "end": 1621
+          },
+          "line_range": {
+            "start": 45,
+            "end": 46
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Fichiers et synchronisation",
+              "byte_range": {
+                "start": 0,
+                "end": 30
+              }
+            },
+            {
+              "level": 2,
+              "text": "Partage public",
+              "byte_range": {
+                "start": 1282,
+                "end": 1300
+              }
+            }
+          ],
+          "translatable_text": "Exemple d'URL de ressource",
+          "anchor": null,
+          "protected_literals": [],
+          "language": "fr",
+          "disposition": "translatable",
+          "confidence": 0.9999953825020259
+        },
+        {
+          "segment_id": "seg-a4f154f4",
+          "structural_type": "code_fenced",
+          "byte_range": {
+            "start": 1622,
+            "end": 1660
+          },
+          "line_range": {
+            "start": 47,
+            "end": 50
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Fichiers et synchronisation",
+              "byte_range": {
+                "start": 0,
+                "end": 30
+              }
+            },
+            {
+              "level": 2,
+              "text": "Exemple d'URL de ressource",
+              "byte_range": {
+                "start": 1591,
+                "end": 1621
+              }
+            }
+          ],
+          "language": "code",
+          "translatable_text": "",
+          "protected_literals": [
+            {
+              "type": "code_fenced",
+              "byte_range": {
+                "start": 1622,
+                "end": 1660
+              },
+              "language": "yaml",
+              "value": "```yaml\n/uploads/illustration.png\n```\n"
+            }
+          ],
+          "disposition": "code_skip",
+          "confidence": 1.0
+        },
+        {
+          "segment_id": "seg-db12afff",
+          "structural_type": "paragraph",
+          "byte_range": {
+            "start": 1661,
+            "end": 1784
+          },
+          "line_range": {
+            "start": 51,
+            "end": 53
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Fichiers et synchronisation",
+              "byte_range": {
+                "start": 0,
+                "end": 30
+              }
+            },
+            {
+              "level": 2,
+              "text": "Exemple d'URL de ressource",
+              "byte_range": {
+                "start": 1591,
+                "end": 1621
+              }
+            }
+          ],
+          "translatable_text": "Ce chemin est résolu **par rapport à** la racine du serveur. Ne le\ntraduisez pas : il s'agit d'un identifiant technique.",
+          "protected_literals": [],
+          "language": "fr",
+          "disposition": "translatable",
+          "confidence": 0.9999981189119591
+        },
+        {
+          "segment_id": "seg-06115613",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 1785,
+            "end": 1805
+          },
+          "line_range": {
+            "start": 54,
+            "end": 55
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Fichiers et synchronisation",
+              "byte_range": {
+                "start": 0,
+                "end": 30
+              }
+            },
+            {
+              "level": 2,
+              "text": "Exemple d'URL de ressource",
+              "byte_range": {
+                "start": 1591,
+                "end": 1621
+              }
+            }
+          ],
+          "translatable_text": "Renvois internes",
+          "anchor": null,
+          "protected_literals": [],
+          "language": "unknown",
+          "disposition": "unknown",
+          "confidence": 0.5714274642236224
+        },
+        {
+          "segment_id": "seg-e0a36859",
+          "structural_type": "list_item",
+          "byte_range": {
+            "start": 1806,
+            "end": 2037
+          },
+          "line_range": {
+            "start": 56,
+            "end": 61
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Fichiers et synchronisation",
+              "byte_range": {
+                "start": 0,
+                "end": 30
+              }
+            },
+            {
+              "level": 2,
+              "text": "Renvois internes",
+              "byte_range": {
+                "start": 1785,
+                "end": 1805
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": [],
+          "language": "empty",
+          "disposition": "no_text",
+          "confidence": 1.0
+        },
+        {
+          "segment_id": "seg-306dcb6e",
+          "structural_type": "blockquote",
+          "byte_range": {
+            "start": 2037,
+            "end": 2198
+          },
+          "line_range": {
+            "start": 61,
+            "end": 64
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Fichiers et synchronisation",
+              "byte_range": {
+                "start": 0,
+                "end": 30
+              }
+            },
+            {
+              "level": 2,
+              "text": "Renvois internes",
+              "byte_range": {
+                "start": 1785,
+                "end": 1805
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": [],
+          "language": "empty",
+          "disposition": "no_text",
+          "confidence": 1.0
+        }
+      ],
+      "file_disposition": "mixed",
+      "file_disposition_counts": {
+        "unknown": 2,
+        "no_text": 6,
+        "translatable": 7,
+        "code_skip": 2
+      }
+    },
+    {
+      "document_id": "doc-5c64eaaf",
+      "path": "03-authentification.md",
+      "source_hash": "5c64eaaf682e01d12885411905f23891f8f41451a0c50ad6b0e440ff6bcb6115",
+      "source_size": 2193,
+      "segments": [
+        {
+          "segment_id": "seg-1dc0397c",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 0,
+            "end": 32
+          },
+          "line_range": {
+            "start": 0,
+            "end": 1
+          },
+          "heading_path": [],
+          "translatable_text": "Authentification et connexion",
+          "anchor": null,
+          "protected_literals": [],
+          "language": "en",
+          "disposition": "translatable",
+          "confidence": 0.7142843426256091
+        },
+        {
+          "segment_id": "seg-5b3cec75",
+          "structural_type": "paragraph",
+          "byte_range": {
+            "start": 33,
+            "end": 231
+          },
+          "line_range": {
+            "start": 2,
+            "end": 5
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Authentification et connexion",
+              "byte_range": {
+                "start": 0,
+                "end": 32
+              }
+            }
+          ],
+          "translatable_text": "L'authentification contrôle l'accès à l'interface d'administration.\nVous ne devez jamais désactiver l'authentification pour un utilisateur\nadministrateur, sinon vous perdez l'accès au serveur.",
+          "protected_literals": [],
+          "language": "fr",
+          "disposition": "translatable",
+          "confidence": 0.9999963708558032
+        },
+        {
+          "segment_id": "seg-101f83aa",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 232,
+            "end": 262
+          },
+          "line_range": {
+            "start": 6,
+            "end": 7
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Authentification et connexion",
+              "byte_range": {
+                "start": 0,
+                "end": 32
+              }
+            }
+          ],
+          "translatable_text": "Méthodes prises en charge",
+          "anchor": null,
+          "protected_literals": [],
+          "language": "fr",
+          "disposition": "translatable",
+          "confidence": 0.999995279383756
+        },
+        {
+          "segment_id": "seg-8b68178f",
+          "structural_type": "table",
+          "byte_range": {
+            "start": 263,
+            "end": 590
+          },
+          "line_range": {
+            "start": 8,
+            "end": 14
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Authentification et connexion",
+              "byte_range": {
+                "start": 0,
+                "end": 32
+              }
+            },
+            {
+              "level": 2,
+              "text": "Méthodes prises en charge",
+              "byte_range": {
+                "start": 232,
+                "end": 262
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": [],
+          "language": "empty",
+          "disposition": "no_text",
+          "confidence": 1.0
+        },
+        {
+          "segment_id": "seg-83f69a28",
+          "structural_type": "blockquote",
+          "byte_range": {
+            "start": 591,
+            "end": 757
+          },
+          "line_range": {
+            "start": 15,
+            "end": 19
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Authentification et connexion",
+              "byte_range": {
+                "start": 0,
+                "end": 32
+              }
+            },
+            {
+              "level": 2,
+              "text": "Méthodes prises en charge",
+              "byte_range": {
+                "start": 232,
+                "end": 262
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": [],
+          "language": "empty",
+          "disposition": "no_text",
+          "confidence": 1.0
+        },
+        {
+          "segment_id": "seg-04ecee75",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 758,
+            "end": 790
+          },
+          "line_range": {
+            "start": 20,
+            "end": 21
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Authentification et connexion",
+              "byte_range": {
+                "start": 0,
+                "end": 32
+              }
+            },
+            {
+              "level": 2,
+              "text": "Méthodes prises en charge",
+              "byte_range": {
+                "start": 232,
+                "end": 262
+              }
+            }
+          ],
+          "translatable_text": "Connexion à l'interface web",
+          "anchor": null,
+          "protected_literals": [],
+          "language": "fr",
+          "disposition": "translatable",
+          "confidence": 0.9999962092337329
+        },
+        {
+          "segment_id": "seg-61c759e7",
+          "structural_type": "paragraph",
+          "byte_range": {
+            "start": 791,
+            "end": 1004
+          },
+          "line_range": {
+            "start": 22,
+            "end": 25
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Authentification et connexion",
+              "byte_range": {
+                "start": 0,
+                "end": 32
+              }
+            },
+            {
+              "level": 2,
+              "text": "Connexion à l'interface web",
+              "byte_range": {
+                "start": 758,
+                "end": 790
+              }
+            }
+          ],
+          "translatable_text": "Vous accédez à l'interface par l'URL fournie par votre administrateur.\nLe formulaire de connexion vous demande votre identifiant et votre mot\nde passe. Après trois échecs consécutifs, un captcha est imposé.",
+          "protected_literals": [],
+          "language": "fr",
+          "disposition": "translatable",
+          "confidence": 0.9999977196356322
+        },
+        {
+          "segment_id": "seg-adae95df",
+          "structural_type": "code_fenced",
+          "byte_range": {
+            "start": 1005,
+            "end": 1154
+          },
+          "line_range": {
+            "start": 26,
+            "end": 32
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Authentification et connexion",
+              "byte_range": {
+                "start": 0,
+                "end": 32
+              }
+            },
+            {
+              "level": 2,
+              "text": "Connexion à l'interface web",
+              "byte_range": {
+                "start": 758,
+                "end": 790
+              }
+            }
+          ],
+          "language": "code",
+          "translatable_text": "",
+          "protected_literals": [
+            {
+              "type": "code_fenced",
+              "byte_range": {
+                "start": 1005,
+                "end": 1154
+              },
+              "language": "bash",
+              "value": "```bash\n# Exemple : ouverture de la console d'administration\ncurl --silent \\\n     --user \"$USER:$PASS\" \\\n     \"$BASE_URL/ocs/v1.php/cloud/users\"\n```\n"
+            }
+          ],
+          "disposition": "code_skip",
+          "confidence": 1.0
+        },
+        {
+          "segment_id": "seg-64e4c311",
+          "structural_type": "blockquote",
+          "byte_range": {
+            "start": 1155,
+            "end": 1340
+          },
+          "line_range": {
+            "start": 33,
+            "end": 36
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Authentification et connexion",
+              "byte_range": {
+                "start": 0,
+                "end": 32
+              }
+            },
+            {
+              "level": 2,
+              "text": "Connexion à l'interface web",
+              "byte_range": {
+                "start": 758,
+                "end": 790
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": [],
+          "language": "empty",
+          "disposition": "no_text",
+          "confidence": 1.0
+        },
+        {
+          "segment_id": "seg-00e11507",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 1341,
+            "end": 1371
+          },
+          "line_range": {
+            "start": 37,
+            "end": 38
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Authentification et connexion",
+              "byte_range": {
+                "start": 0,
+                "end": 32
+              }
+            },
+            {
+              "level": 2,
+              "text": "Connexion à l'interface web",
+              "byte_range": {
+                "start": 758,
+                "end": 790
+              }
+            }
+          ],
+          "translatable_text": "Politique de mots de passe",
+          "anchor": null,
+          "protected_literals": [],
+          "language": "fr",
+          "disposition": "translatable",
+          "confidence": 0.9999959209595314
+        },
+        {
+          "segment_id": "seg-ae7853c0",
+          "structural_type": "table",
+          "byte_range": {
+            "start": 1372,
+            "end": 1673
+          },
+          "line_range": {
+            "start": 39,
+            "end": 45
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Authentification et connexion",
+              "byte_range": {
+                "start": 0,
+                "end": 32
+              }
+            },
+            {
+              "level": 2,
+              "text": "Politique de mots de passe",
+              "byte_range": {
+                "start": 1341,
+                "end": 1371
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": [],
+          "language": "empty",
+          "disposition": "no_text",
+          "confidence": 1.0
+        },
+        {
+          "segment_id": "seg-3420ce6e",
+          "structural_type": "blockquote",
+          "byte_range": {
+            "start": 1674,
+            "end": 1823
+          },
+          "line_range": {
+            "start": 46,
+            "end": 49
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Authentification et connexion",
+              "byte_range": {
+                "start": 0,
+                "end": 32
+              }
+            },
+            {
+              "level": 2,
+              "text": "Politique de mots de passe",
+              "byte_range": {
+                "start": 1341,
+                "end": 1371
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": [],
+          "language": "empty",
+          "disposition": "no_text",
+          "confidence": 1.0
+        },
+        {
+          "segment_id": "seg-a2d820c6",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 1824,
+            "end": 1833
+          },
+          "line_range": {
+            "start": 50,
+            "end": 51
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Authentification et connexion",
+              "byte_range": {
+                "start": 0,
+                "end": 32
+              }
+            },
+            {
+              "level": 2,
+              "text": "Politique de mots de passe",
+              "byte_range": {
+                "start": 1341,
+                "end": 1371
+              }
+            }
+          ],
+          "translatable_text": "Audit",
+          "anchor": null,
+          "protected_literals": [],
+          "language": "unknown",
+          "disposition": "too_short",
+          "confidence": 0.0
+        },
+        {
+          "segment_id": "seg-8876e96f",
+          "structural_type": "paragraph",
+          "byte_range": {
+            "start": 1834,
+            "end": 2072
+          },
+          "line_range": {
+            "start": 52,
+            "end": 56
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Authentification et connexion",
+              "byte_range": {
+                "start": 0,
+                "end": 32
+              }
+            },
+            {
+              "level": 2,
+              "text": "Audit",
+              "byte_range": {
+                "start": 1824,
+                "end": 1833
+              }
+            }
+          ],
+          "translatable_text": "Chaque tentative de connexion produit une entrée dans le journal\nd'audit. La conservation par défaut est de **trente jours**. Vous\npouvez l'allonger ; notez cependant que cela augmente la quantité de\ndonnées personnelles conservées.",
+          "protected_literals": [],
+          "language": "fr",
+          "disposition": "translatable",
+          "confidence": 0.9999978972203066
+        },
+        {
+          "segment_id": "seg-a9d22aa1",
+          "structural_type": "blockquote",
+          "byte_range": {
+            "start": 2073,
+            "end": 2193
+          },
+          "line_range": {
+            "start": 57,
+            "end": 59
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Authentification et connexion",
+              "byte_range": {
+                "start": 0,
+                "end": 32
+              }
+            },
+            {
+              "level": 2,
+              "text": "Audit",
+              "byte_range": {
+                "start": 1824,
+                "end": 1833
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": [],
+          "language": "empty",
+          "disposition": "no_text",
+          "confidence": 1.0
+        }
+      ],
+      "file_disposition": "mixed",
+      "file_disposition_counts": {
+        "translatable": 7,
+        "no_text": 6,
+        "code_skip": 1,
+        "too_short": 1
+      }
+    },
+    {
+      "document_id": "doc-0fcaf443",
+      "path": "04-configuration-2fa.md",
+      "source_hash": "0fcaf443713b06be05b03aa40ab81a0cc875ef1dab094f8bacd3eb21e1fb7dc0",
+      "source_size": 2109,
+      "segments": [
+        {
+          "segment_id": "seg-4e54994a",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 0,
+            "end": 55
+          },
+          "line_range": {
+            "start": 0,
+            "end": 1
+          },
+          "heading_path": [],
+          "translatable_text": "Configuration de l'authentification à deux facteurs",
+          "anchor": null,
+          "protected_literals": [],
+          "language": "fr",
+          "disposition": "translatable",
+          "confidence": 0.9999975884897356
+        },
+        {
+          "segment_id": "seg-09c5018f",
+          "structural_type": "paragraph",
+          "byte_range": {
+            "start": 56,
+            "end": 229
+          },
+          "line_range": {
+            "start": 2,
+            "end": 5
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Configuration de l'authentification à deux facteurs",
+              "byte_range": {
+                "start": 0,
+                "end": 55
+              }
+            }
+          ],
+          "translatable_text": "L'authentification à deux facteurs (2FA) ajoute une étape de\nvérification supplémentaire. Vous l'activez pour un utilisateur, un\ngroupe ou l'ensemble de l'organisation.",
+          "protected_literals": [],
+          "language": "fr",
+          "disposition": "translatable",
+          "confidence": 0.9999968688428728
+        },
+        {
+          "segment_id": "seg-9b9304f5",
+          "structural_type": "blockquote",
+          "byte_range": {
+            "start": 230,
+            "end": 429
+          },
+          "line_range": {
+            "start": 6,
+            "end": 10
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Configuration de l'authentification à deux facteurs",
+              "byte_range": {
+                "start": 0,
+                "end": 55
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": [],
+          "language": "empty",
+          "disposition": "no_text",
+          "confidence": 1.0
+        },
+        {
+          "segment_id": "seg-870b082c",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 430,
+            "end": 454
+          },
+          "line_range": {
+            "start": 11,
+            "end": 12
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Configuration de l'authentification à deux facteurs",
+              "byte_range": {
+                "start": 0,
+                "end": 55
+              }
+            }
+          ],
+          "translatable_text": "Étapes d'activation",
+          "anchor": null,
+          "protected_literals": [],
+          "language": "fr",
+          "disposition": "translatable",
+          "confidence": 0.9999969370297961
+        },
+        {
+          "segment_id": "seg-356493b0",
+          "structural_type": "list_item",
+          "byte_range": {
+            "start": 455,
+            "end": 689
+          },
+          "line_range": {
+            "start": 13,
+            "end": 18
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Configuration de l'authentification à deux facteurs",
+              "byte_range": {
+                "start": 0,
+                "end": 55
+              }
+            },
+            {
+              "level": 2,
+              "text": "Étapes d'activation",
+              "byte_range": {
+                "start": 430,
+                "end": 454
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": [],
+          "language": "empty",
+          "disposition": "no_text",
+          "confidence": 1.0
+        },
+        {
+          "segment_id": "seg-70dcfc80",
+          "structural_type": "table",
+          "byte_range": {
+            "start": 689,
+            "end": 992
+          },
+          "line_range": {
+            "start": 18,
+            "end": 24
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Configuration de l'authentification à deux facteurs",
+              "byte_range": {
+                "start": 0,
+                "end": 55
+              }
+            },
+            {
+              "level": 2,
+              "text": "Étapes d'activation",
+              "byte_range": {
+                "start": 430,
+                "end": 454
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": [],
+          "language": "empty",
+          "disposition": "no_text",
+          "confidence": 1.0
+        },
+        {
+          "segment_id": "seg-440c35ee",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 993,
+            "end": 1013
+          },
+          "line_range": {
+            "start": 25,
+            "end": 26
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Configuration de l'authentification à deux facteurs",
+              "byte_range": {
+                "start": 0,
+                "end": 55
+              }
+            },
+            {
+              "level": 2,
+              "text": "Étapes d'activation",
+              "byte_range": {
+                "start": 430,
+                "end": 454
+              }
+            }
+          ],
+          "translatable_text": "Codes de secours",
+          "anchor": null,
+          "protected_literals": [],
+          "language": "fr",
+          "disposition": "translatable",
+          "confidence": 0.9999967321240368
+        },
+        {
+          "segment_id": "seg-18ec4842",
+          "structural_type": "paragraph",
+          "byte_range": {
+            "start": 1014,
+            "end": 1199
+          },
+          "line_range": {
+            "start": 27,
+            "end": 30
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Configuration de l'authentification à deux facteurs",
+              "byte_range": {
+                "start": 0,
+                "end": 55
+              }
+            },
+            {
+              "level": 2,
+              "text": "Codes de secours",
+              "byte_range": {
+                "start": 993,
+                "end": 1013
+              }
+            }
+          ],
+          "translatable_text": "Vous recevez initialement **dix codes de secours**. Chaque code est à\nusage unique. Distribuez-les par un canal sécurisé ; le courrier\nélectronique n'est pas considéré comme tel.",
+          "protected_literals": [],
+          "language": "fr",
+          "disposition": "translatable",
+          "confidence": 0.9999969522648061
+        },
+        {
+          "segment_id": "seg-8a3e964a",
+          "structural_type": "blockquote",
+          "byte_range": {
+            "start": 1200,
+            "end": 1376
+          },
+          "line_range": {
+            "start": 31,
+            "end": 34
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Configuration de l'authentification à deux facteurs",
+              "byte_range": {
+                "start": 0,
+                "end": 55
+              }
+            },
+            {
+              "level": 2,
+              "text": "Codes de secours",
+              "byte_range": {
+                "start": 993,
+                "end": 1013
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": [],
+          "language": "empty",
+          "disposition": "no_text",
+          "confidence": 1.0
+        },
+        {
+          "segment_id": "seg-063a0d5e",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 1377,
+            "end": 1406
+          },
+          "line_range": {
+            "start": 35,
+            "end": 36
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Configuration de l'authentification à deux facteurs",
+              "byte_range": {
+                "start": 0,
+                "end": 55
+              }
+            },
+            {
+              "level": 2,
+              "text": "Codes de secours",
+              "byte_range": {
+                "start": 993,
+                "end": 1013
+              }
+            }
+          ],
+          "translatable_text": "Désactivation temporaire",
+          "anchor": null,
+          "protected_literals": [],
+          "language": "fr",
+          "disposition": "translatable",
+          "confidence": 0.9999964100285174
+        },
+        {
+          "segment_id": "seg-a0ce5f26",
+          "structural_type": "paragraph",
+          "byte_range": {
+            "start": 1407,
+            "end": 1554
+          },
+          "line_range": {
+            "start": 37,
+            "end": 40
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Configuration de l'authentification à deux facteurs",
+              "byte_range": {
+                "start": 0,
+                "end": 55
+              }
+            },
+            {
+              "level": 2,
+              "text": "Désactivation temporaire",
+              "byte_range": {
+                "start": 1377,
+                "end": 1406
+              }
+            }
+          ],
+          "translatable_text": "Vous pouvez suspendre la 2FA pour un événement particulier\n(maintenance, audit). La durée maximale recommandée est de\n**vingt-quatre heures**.",
+          "protected_literals": [],
+          "language": "fr",
+          "disposition": "translatable",
+          "confidence": 0.999996940491824
+        },
+        {
+          "segment_id": "seg-fbd9ef5d",
+          "structural_type": "code_fenced",
+          "byte_range": {
+            "start": 1555,
+            "end": 1701
+          },
+          "line_range": {
+            "start": 41,
+            "end": 45
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Configuration de l'authentification à deux facteurs",
+              "byte_range": {
+                "start": 0,
+                "end": 55
+              }
+            },
+            {
+              "level": 2,
+              "text": "Désactivation temporaire",
+              "byte_range": {
+                "start": 1377,
+                "end": 1406
+              }
+            }
+          ],
+          "language": "code",
+          "translatable_text": "",
+          "protected_literals": [
+            {
+              "type": "code_fenced",
+              "byte_range": {
+                "start": 1555,
+                "end": 1701
+              },
+              "language": "bash",
+              "value": "```bash\n# Désactivation temporaire pour le compte d'astreinte\nocc twofactor:disable --user oncall@example.org --until \"2026-12-31T23:59:00Z\"\n```\n"
+            }
+          ],
+          "disposition": "code_skip",
+          "confidence": 1.0
+        },
+        {
+          "segment_id": "seg-24dc62f8",
+          "structural_type": "blockquote",
+          "byte_range": {
+            "start": 1702,
+            "end": 1826
+          },
+          "line_range": {
+            "start": 46,
+            "end": 48
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Configuration de l'authentification à deux facteurs",
+              "byte_range": {
+                "start": 0,
+                "end": 55
+              }
+            },
+            {
+              "level": 2,
+              "text": "Désactivation temporaire",
+              "byte_range": {
+                "start": 1377,
+                "end": 1406
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": [],
+          "language": "empty",
+          "disposition": "no_text",
+          "confidence": 1.0
+        },
+        {
+          "segment_id": "seg-7ec796ed",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 1827,
+            "end": 1847
+          },
+          "line_range": {
+            "start": 49,
+            "end": 50
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Configuration de l'authentification à deux facteurs",
+              "byte_range": {
+                "start": 0,
+                "end": 55
+              }
+            },
+            {
+              "level": 2,
+              "text": "Désactivation temporaire",
+              "byte_range": {
+                "start": 1377,
+                "end": 1406
+              }
+            }
+          ],
+          "translatable_text": "Renvois internes",
+          "anchor": null,
+          "protected_literals": [],
+          "language": "unknown",
+          "disposition": "unknown",
+          "confidence": 0.5714274642236224
+        },
+        {
+          "segment_id": "seg-9e0fda13",
+          "structural_type": "list_item",
+          "byte_range": {
+            "start": 1848,
+            "end": 2109
+          },
+          "line_range": {
+            "start": 51,
+            "end": 54
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Configuration de l'authentification à deux facteurs",
+              "byte_range": {
+                "start": 0,
+                "end": 55
+              }
+            },
+            {
+              "level": 2,
+              "text": "Renvois internes",
+              "byte_range": {
+                "start": 1827,
+                "end": 1847
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": [],
+          "language": "empty",
+          "disposition": "no_text",
+          "confidence": 1.0
+        }
+      ],
+      "file_disposition": "mixed",
+      "file_disposition_counts": {
+        "translatable": 7,
+        "no_text": 6,
+        "code_skip": 1,
+        "unknown": 1
+      }
+    },
+    {
+      "document_id": "doc-dfd90747",
+      "path": "05-client-bureau.md",
+      "source_hash": "dfd907470cc074a3d290730bab9b868ada900c8c9250fe68de69034b866ad8da",
+      "source_size": 1948,
+      "segments": [
+        {
+          "segment_id": "seg-685506ea",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 0,
+            "end": 19
+          },
+          "line_range": {
+            "start": 0,
+            "end": 1
+          },
+          "heading_path": [],
+          "translatable_text": "Client de bureau",
+          "anchor": null,
+          "protected_literals": [],
+          "language": "fr",
+          "disposition": "translatable",
+          "confidence": 0.9999965380768647
+        },
+        {
+          "segment_id": "seg-976ad75d",
+          "structural_type": "paragraph",
+          "byte_range": {
+            "start": 20,
+            "end": 172
+          },
+          "line_range": {
+            "start": 2,
+            "end": 5
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Client de bureau",
+              "byte_range": {
+                "start": 0,
+                "end": 19
+              }
+            }
+          ],
+          "translatable_text": "Le client de bureau synchronise vos dossiers Nextcloud avec votre\nposte de travail. Il prend en charge Windows, macOS et plusieurs\ndistributions Linux.",
+          "protected_literals": [],
+          "language": "fr",
+          "disposition": "translatable",
+          "confidence": 0.9999976692558791
+        },
+        {
+          "segment_id": "seg-572f5660",
+          "structural_type": "blockquote",
+          "byte_range": {
+            "start": 173,
+            "end": 344
+          },
+          "line_range": {
+            "start": 6,
+            "end": 9
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Client de bureau",
+              "byte_range": {
+                "start": 0,
+                "end": 19
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": [],
+          "language": "empty",
+          "disposition": "no_text",
+          "confidence": 1.0
+        },
+        {
+          "segment_id": "seg-7017c6f9",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 345,
+            "end": 377
+          },
+          "line_range": {
+            "start": 10,
+            "end": 11
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Client de bureau",
+              "byte_range": {
+                "start": 0,
+                "end": 19
+              }
+            }
+          ],
+          "translatable_text": "Plateformes prises en charge",
+          "anchor": null,
+          "protected_literals": [],
+          "language": "fr",
+          "disposition": "translatable",
+          "confidence": 0.9999933602432621
+        },
+        {
+          "segment_id": "seg-72a5d271",
+          "structural_type": "table",
+          "byte_range": {
+            "start": 378,
+            "end": 690
+          },
+          "line_range": {
+            "start": 12,
+            "end": 19
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Client de bureau",
+              "byte_range": {
+                "start": 0,
+                "end": 19
+              }
+            },
+            {
+              "level": 2,
+              "text": "Plateformes prises en charge",
+              "byte_range": {
+                "start": 345,
+                "end": 377
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": [],
+          "language": "empty",
+          "disposition": "no_text",
+          "confidence": 1.0
+        },
+        {
+          "segment_id": "seg-3541e7b2",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 691,
+            "end": 717
+          },
+          "line_range": {
+            "start": 20,
+            "end": 21
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Client de bureau",
+              "byte_range": {
+                "start": 0,
+                "end": 19
+              }
+            },
+            {
+              "level": 2,
+              "text": "Plateformes prises en charge",
+              "byte_range": {
+                "start": 345,
+                "end": 377
+              }
+            }
+          ],
+          "translatable_text": "Configuration initiale",
+          "anchor": null,
+          "protected_literals": [],
+          "language": "other",
+          "disposition": "translatable",
+          "confidence": 0.9999965832845096
+        },
+        {
+          "segment_id": "seg-7ddac04b",
+          "structural_type": "list_item",
+          "byte_range": {
+            "start": 718,
+            "end": 918
+          },
+          "line_range": {
+            "start": 22,
+            "end": 27
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Client de bureau",
+              "byte_range": {
+                "start": 0,
+                "end": 19
+              }
+            },
+            {
+              "level": 2,
+              "text": "Configuration initiale",
+              "byte_range": {
+                "start": 691,
+                "end": 717
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": [],
+          "language": "empty",
+          "disposition": "no_text",
+          "confidence": 1.0
+        },
+        {
+          "segment_id": "seg-63a255b9",
+          "structural_type": "code_fenced",
+          "byte_range": {
+            "start": 918,
+            "end": 1034
+          },
+          "line_range": {
+            "start": 27,
+            "end": 32
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Client de bureau",
+              "byte_range": {
+                "start": 0,
+                "end": 19
+              }
+            },
+            {
+              "level": 2,
+              "text": "Configuration initiale",
+              "byte_range": {
+                "start": 691,
+                "end": 717
+              }
+            }
+          ],
+          "language": "code",
+          "translatable_text": "",
+          "protected_literals": [
+            {
+              "type": "code_fenced",
+              "byte_range": {
+                "start": 918,
+                "end": 1034
+              },
+              "language": "text",
+              "value": "```text\nURL du serveur : https://cloud.example.org\nDossier local  : ~/Nextcloud\nSynchronisation : à la demande\n```\n"
+            }
+          ],
+          "disposition": "code_skip",
+          "confidence": 1.0
+        },
+        {
+          "segment_id": "seg-3b20ddef",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 1035,
+            "end": 1058
+          },
+          "line_range": {
+            "start": 33,
+            "end": 34
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Client de bureau",
+              "byte_range": {
+                "start": 0,
+                "end": 19
+              }
+            },
+            {
+              "level": 2,
+              "text": "Configuration initiale",
+              "byte_range": {
+                "start": 691,
+                "end": 717
+              }
+            }
+          ],
+          "translatable_text": "Indicateurs d'état",
+          "anchor": null,
+          "protected_literals": [],
+          "language": "fr",
+          "disposition": "translatable",
+          "confidence": 0.9999977726215932
+        },
+        {
+          "segment_id": "seg-238c9090",
+          "structural_type": "blockquote",
+          "byte_range": {
+            "start": 1059,
+            "end": 1277
+          },
+          "line_range": {
+            "start": 35,
+            "end": 42
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Client de bureau",
+              "byte_range": {
+                "start": 0,
+                "end": 19
+              }
+            },
+            {
+              "level": 2,
+              "text": "Indicateurs d'état",
+              "byte_range": {
+                "start": 1035,
+                "end": 1058
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": [],
+          "language": "empty",
+          "disposition": "no_text",
+          "confidence": 1.0
+        },
+        {
+          "segment_id": "seg-8500366b",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 1278,
+            "end": 1298
+          },
+          "line_range": {
+            "start": 43,
+            "end": 44
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Client de bureau",
+              "byte_range": {
+                "start": 0,
+                "end": 19
+              }
+            },
+            {
+              "level": 2,
+              "text": "Indicateurs d'état",
+              "byte_range": {
+                "start": 1035,
+                "end": 1058
+              }
+            }
+          ],
+          "translatable_text": "Désinstallation",
+          "anchor": null,
+          "protected_literals": [],
+          "language": "fr",
+          "disposition": "translatable",
+          "confidence": 0.9999966634610373
+        },
+        {
+          "segment_id": "seg-7554cb47",
+          "structural_type": "paragraph",
+          "byte_range": {
+            "start": 1299,
+            "end": 1340
+          },
+          "line_range": {
+            "start": 45,
+            "end": 46
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Client de bureau",
+              "byte_range": {
+                "start": 0,
+                "end": 19
+              }
+            },
+            {
+              "level": 2,
+              "text": "Désinstallation",
+              "byte_range": {
+                "start": 1278,
+                "end": 1298
+              }
+            }
+          ],
+          "translatable_text": "Pour supprimer complètement le client :",
+          "protected_literals": [],
+          "language": "fr",
+          "disposition": "translatable",
+          "confidence": 0.9999964846540501
+        },
+        {
+          "segment_id": "seg-6f89ee79",
+          "structural_type": "table",
+          "byte_range": {
+            "start": 1341,
+            "end": 1606
+          },
+          "line_range": {
+            "start": 47,
+            "end": 53
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Client de bureau",
+              "byte_range": {
+                "start": 0,
+                "end": 19
+              }
+            },
+            {
+              "level": 2,
+              "text": "Désinstallation",
+              "byte_range": {
+                "start": 1278,
+                "end": 1298
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": [],
+          "language": "empty",
+          "disposition": "no_text",
+          "confidence": 1.0
+        },
+        {
+          "segment_id": "seg-1555a8a2",
+          "structural_type": "blockquote",
+          "byte_range": {
+            "start": 1607,
+            "end": 1692
+          },
+          "line_range": {
+            "start": 54,
+            "end": 56
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Client de bureau",
+              "byte_range": {
+                "start": 0,
+                "end": 19
+              }
+            },
+            {
+              "level": 2,
+              "text": "Désinstallation",
+              "byte_range": {
+                "start": 1278,
+                "end": 1298
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": [],
+          "language": "empty",
+          "disposition": "no_text",
+          "confidence": 1.0
+        },
+        {
+          "segment_id": "seg-2a10086e",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 1693,
+            "end": 1713
+          },
+          "line_range": {
+            "start": 57,
+            "end": 58
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Client de bureau",
+              "byte_range": {
+                "start": 0,
+                "end": 19
+              }
+            },
+            {
+              "level": 2,
+              "text": "Désinstallation",
+              "byte_range": {
+                "start": 1278,
+                "end": 1298
+              }
+            }
+          ],
+          "translatable_text": "Renvois internes",
+          "anchor": null,
+          "protected_literals": [],
+          "language": "unknown",
+          "disposition": "unknown",
+          "confidence": 0.5714274642236224
+        },
+        {
+          "segment_id": "seg-cf32def9",
+          "structural_type": "list_item",
+          "byte_range": {
+            "start": 1714,
+            "end": 1948
+          },
+          "line_range": {
+            "start": 59,
+            "end": 62
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Client de bureau",
+              "byte_range": {
+                "start": 0,
+                "end": 19
+              }
+            },
+            {
+              "level": 2,
+              "text": "Renvois internes",
+              "byte_range": {
+                "start": 1693,
+                "end": 1713
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": [],
+          "language": "empty",
+          "disposition": "no_text",
+          "confidence": 1.0
+        }
+      ],
+      "file_disposition": "mixed",
+      "file_disposition_counts": {
+        "translatable": 7,
+        "no_text": 7,
+        "code_skip": 1,
+        "unknown": 1
+      }
+    },
+    {
+      "document_id": "doc-96c7001e",
+      "path": "06-preferences-utilisateur.md",
+      "source_hash": "96c7001e89902612d1fee84d42fd90a419f0b298cc76abf3cd02eddbdd059aa2",
+      "source_size": 2329,
+      "segments": [
+        {
+          "segment_id": "seg-9f97f9e1",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 0,
+            "end": 28
+          },
+          "line_range": {
+            "start": 0,
+            "end": 1
+          },
+          "heading_path": [],
+          "translatable_text": "Préférences utilisateur",
+          "anchor": null,
+          "protected_literals": [],
+          "language": "fr",
+          "disposition": "translatable",
+          "confidence": 0.9999980491669431
+        },
+        {
+          "segment_id": "seg-45edfc39",
+          "structural_type": "paragraph",
+          "byte_range": {
+            "start": 29,
+            "end": 244
+          },
+          "line_range": {
+            "start": 2,
+            "end": 6
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Préférences utilisateur",
+              "byte_range": {
+                "start": 0,
+                "end": 28
+              }
+            }
+          ],
+          "translatable_text": "Vous pouvez ajuster votre langue, votre fuseau horaire, votre quota\nde stockage et votre thème depuis la page « Préférences ». Vos choix\nsont enregistrés automatiquement ; aucune confirmation n'est\ndemandée.",
+          "protected_literals": [],
+          "language": "fr",
+          "disposition": "translatable",
+          "confidence": 0.9999964031259071
+        },
+        {
+          "segment_id": "seg-a9f70de8",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 245,
+            "end": 271
+          },
+          "line_range": {
+            "start": 7,
+            "end": 8
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Préférences utilisateur",
+              "byte_range": {
+                "start": 0,
+                "end": 28
+              }
+            }
+          ],
+          "translatable_text": "Paramètres régionaux",
+          "anchor": null,
+          "protected_literals": [],
+          "language": "fr",
+          "disposition": "translatable",
+          "confidence": 0.9999982163207526
+        },
+        {
+          "segment_id": "seg-b6a81744",
+          "structural_type": "table",
+          "byte_range": {
+            "start": 272,
+            "end": 639
+          },
+          "line_range": {
+            "start": 9,
+            "end": 15
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Préférences utilisateur",
+              "byte_range": {
+                "start": 0,
+                "end": 28
+              }
+            },
+            {
+              "level": 2,
+              "text": "Paramètres régionaux",
+              "byte_range": {
+                "start": 245,
+                "end": 271
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": [],
+          "language": "empty",
+          "disposition": "no_text",
+          "confidence": 1.0
+        },
+        {
+          "segment_id": "seg-5aa1f456",
+          "structural_type": "blockquote",
+          "byte_range": {
+            "start": 640,
+            "end": 767
+          },
+          "line_range": {
+            "start": 16,
+            "end": 19
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Préférences utilisateur",
+              "byte_range": {
+                "start": 0,
+                "end": 28
+              }
+            },
+            {
+              "level": 2,
+              "text": "Paramètres régionaux",
+              "byte_range": {
+                "start": 245,
+                "end": 271
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": [],
+          "language": "empty",
+          "disposition": "no_text",
+          "confidence": 1.0
+        },
+        {
+          "segment_id": "seg-21e1cc8e",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 768,
+            "end": 790
+          },
+          "line_range": {
+            "start": 20,
+            "end": 21
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Préférences utilisateur",
+              "byte_range": {
+                "start": 0,
+                "end": 28
+              }
+            },
+            {
+              "level": 2,
+              "text": "Paramètres régionaux",
+              "byte_range": {
+                "start": 245,
+                "end": 271
+              }
+            }
+          ],
+          "translatable_text": "Espace de stockage",
+          "anchor": null,
+          "protected_literals": [],
+          "language": "es",
+          "disposition": "already_target",
+          "confidence": 0.7142813865359853
+        },
+        {
+          "segment_id": "seg-13624bb2",
+          "structural_type": "paragraph",
+          "byte_range": {
+            "start": 791,
+            "end": 895
+          },
+          "line_range": {
+            "start": 22,
+            "end": 24
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Préférences utilisateur",
+              "byte_range": {
+                "start": 0,
+                "end": 28
+              }
+            },
+            {
+              "level": 2,
+              "text": "Espace de stockage",
+              "byte_range": {
+                "start": 768,
+                "end": 790
+              }
+            }
+          ],
+          "translatable_text": "Le quota par défaut est de `5 Go`. Vous pouvez le consulter dans\n**Paramètres → Espace personnel**.",
+          "protected_literals": [
+            {
+              "type": "code_inline",
+              "byte_range": {
+                "start": 820,
+                "end": 824
+              },
+              "value": "5 Go"
+            }
+          ],
+          "language": "fr",
+          "disposition": "translatable",
+          "confidence": 0.9999962133950978
+        },
+        {
+          "segment_id": "seg-bd5b1b69",
+          "structural_type": "code_fenced",
+          "byte_range": {
+            "start": 896,
+            "end": 973
+          },
+          "line_range": {
+            "start": 25,
+            "end": 30
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Préférences utilisateur",
+              "byte_range": {
+                "start": 0,
+                "end": 28
+              }
+            },
+            {
+              "level": 2,
+              "text": "Espace de stockage",
+              "byte_range": {
+                "start": 768,
+                "end": 790
+              }
+            }
+          ],
+          "language": "code",
+          "translatable_text": "",
+          "protected_literals": [
+            {
+              "type": "code_fenced",
+              "byte_range": {
+                "start": 896,
+                "end": 973
+              },
+              "language": "text",
+              "value": "```text\nUtilisé       : 312 Mo\nDisponible   : 4,7 Go\nPourcentage  : 6 %\n```\n"
+            }
+          ],
+          "disposition": "code_skip",
+          "confidence": 1.0
+        },
+        {
+          "segment_id": "seg-76947792",
+          "structural_type": "blockquote",
+          "byte_range": {
+            "start": 974,
+            "end": 1157
+          },
+          "line_range": {
+            "start": 31,
+            "end": 34
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Préférences utilisateur",
+              "byte_range": {
+                "start": 0,
+                "end": 28
+              }
+            },
+            {
+              "level": 2,
+              "text": "Espace de stockage",
+              "byte_range": {
+                "start": 768,
+                "end": 790
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": [],
+          "language": "empty",
+          "disposition": "no_text",
+          "confidence": 1.0
+        },
+        {
+          "segment_id": "seg-e6b13ee2",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 1158,
+            "end": 1178
+          },
+          "line_range": {
+            "start": 35,
+            "end": 36
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Préférences utilisateur",
+              "byte_range": {
+                "start": 0,
+                "end": 28
+              }
+            },
+            {
+              "level": 2,
+              "text": "Espace de stockage",
+              "byte_range": {
+                "start": 768,
+                "end": 790
+              }
+            }
+          ],
+          "translatable_text": "Confidentialité",
+          "anchor": null,
+          "protected_literals": [],
+          "language": "fr",
+          "disposition": "translatable",
+          "confidence": 0.8571377966309554
+        },
+        {
+          "segment_id": "seg-9ddb0e6a",
+          "structural_type": "blockquote",
+          "byte_range": {
+            "start": 1179,
+            "end": 1389
+          },
+          "line_range": {
+            "start": 37,
+            "end": 40
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Préférences utilisateur",
+              "byte_range": {
+                "start": 0,
+                "end": 28
+              }
+            },
+            {
+              "level": 2,
+              "text": "Confidentialité",
+              "byte_range": {
+                "start": 1158,
+                "end": 1178
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": [],
+          "language": "empty",
+          "disposition": "no_text",
+          "confidence": 1.0
+        },
+        {
+          "segment_id": "seg-1a6406fa",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 1390,
+            "end": 1400
+          },
+          "line_range": {
+            "start": 41,
+            "end": 42
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Préférences utilisateur",
+              "byte_range": {
+                "start": 0,
+                "end": 28
+              }
+            },
+            {
+              "level": 2,
+              "text": "Confidentialité",
+              "byte_range": {
+                "start": 1158,
+                "end": 1178
+              }
+            }
+          ],
+          "translatable_text": "Thème",
+          "anchor": null,
+          "protected_literals": [],
+          "language": "unknown",
+          "disposition": "too_short",
+          "confidence": 0.0
+        },
+        {
+          "segment_id": "seg-449d5713",
+          "structural_type": "paragraph",
+          "byte_range": {
+            "start": 1401,
+            "end": 1522
+          },
+          "line_range": {
+            "start": 43,
+            "end": 45
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Préférences utilisateur",
+              "byte_range": {
+                "start": 0,
+                "end": 28
+              }
+            },
+            {
+              "level": 2,
+              "text": "Thème",
+              "byte_range": {
+                "start": 1390,
+                "end": 1400
+              }
+            }
+          ],
+          "translatable_text": "Trois thèmes sont disponibles : clair, sombre, automatique. L'option\n« Automatique » suit les préférences système.",
+          "protected_literals": [],
+          "language": "fr",
+          "disposition": "translatable",
+          "confidence": 0.9999954589975114
+        },
+        {
+          "segment_id": "seg-33346972",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 1523,
+            "end": 1543
+          },
+          "line_range": {
+            "start": 46,
+            "end": 47
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Préférences utilisateur",
+              "byte_range": {
+                "start": 0,
+                "end": 28
+              }
+            },
+            {
+              "level": 2,
+              "text": "Thème",
+              "byte_range": {
+                "start": 1390,
+                "end": 1400
+              }
+            }
+          ],
+          "translatable_text": "Renvois internes",
+          "anchor": null,
+          "protected_literals": [],
+          "language": "unknown",
+          "disposition": "unknown",
+          "confidence": 0.5714274642236224
+        },
+        {
+          "segment_id": "seg-0d1a53b3",
+          "structural_type": "list_item",
+          "byte_range": {
+            "start": 1544,
+            "end": 1831
+          },
+          "line_range": {
+            "start": 48,
+            "end": 55
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Préférences utilisateur",
+              "byte_range": {
+                "start": 0,
+                "end": 28
+              }
+            },
+            {
+              "level": 2,
+              "text": "Renvois internes",
+              "byte_range": {
+                "start": 1523,
+                "end": 1543
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": [],
+          "language": "empty",
+          "disposition": "no_text",
+          "confidence": 1.0
+        },
+        {
+          "segment_id": "seg-0a310bc6",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 1831,
+            "end": 1858
+          },
+          "line_range": {
+            "start": 55,
+            "end": 56
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Préférences utilisateur",
+              "byte_range": {
+                "start": 0,
+                "end": 28
+              }
+            },
+            {
+              "level": 2,
+              "text": "Renvois internes",
+              "byte_range": {
+                "start": 1523,
+                "end": 1543
+              }
+            }
+          ],
+          "translatable_text": "Mentions contractuelles",
+          "anchor": null,
+          "protected_literals": [],
+          "language": "fr",
+          "disposition": "translatable",
+          "confidence": 0.999995560778858
+        },
+        {
+          "segment_id": "seg-3d250bcb",
+          "structural_type": "blockquote",
+          "byte_range": {
+            "start": 1859,
+            "end": 2140
+          },
+          "line_range": {
+            "start": 57,
+            "end": 61
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Préférences utilisateur",
+              "byte_range": {
+                "start": 0,
+                "end": 28
+              }
+            },
+            {
+              "level": 2,
+              "text": "Mentions contractuelles",
+              "byte_range": {
+                "start": 1831,
+                "end": 1858
+              }
+            }
+          ],
+          "translatable_text": "",
+          "protected_literals": [],
+          "language": "empty",
+          "disposition": "no_text",
+          "confidence": 1.0
+        },
+        {
+          "segment_id": "seg-c09f8022",
+          "structural_type": "heading",
+          "byte_range": {
+            "start": 2141,
+            "end": 2167
+          },
+          "line_range": {
+            "start": 62,
+            "end": 63
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Préférences utilisateur",
+              "byte_range": {
+                "start": 0,
+                "end": 28
+              }
+            },
+            {
+              "level": 2,
+              "text": "Mentions contractuelles",
+              "byte_range": {
+                "start": 1831,
+                "end": 1858
+              }
+            }
+          ],
+          "translatable_text": "Fin du document pilote",
+          "anchor": null,
+          "protected_literals": [],
+          "language": "other",
+          "disposition": "translatable",
+          "confidence": 0.7142850486777399
+        },
+        {
+          "segment_id": "seg-f8c0607b",
+          "structural_type": "paragraph",
+          "byte_range": {
+            "start": 2168,
+            "end": 2329
+          },
+          "line_range": {
+            "start": 64,
+            "end": 67
+          },
+          "heading_path": [
+            {
+              "level": 1,
+              "text": "Préférences utilisateur",
+              "byte_range": {
+                "start": 0,
+                "end": 28
+              }
+            },
+            {
+              "level": 2,
+              "text": "Fin du document pilote",
+              "byte_range": {
+                "start": 2141,
+                "end": 2167
+              }
+            }
+          ],
+          "translatable_text": "Le présent corpus n'est pas destiné à remplacer un manuel\nd'administration réel. Il sert uniquement à valider la\nchaîne de traduction fr→es de la skill.",
+          "protected_literals": [],
+          "language": "fr",
+          "disposition": "translatable",
+          "confidence": 0.9999967363759762
+        }
+      ],
+      "file_disposition": "mixed",
+      "file_disposition_counts": {
+        "translatable": 9,
+        "no_text": 6,
+        "already_target": 1,
+        "code_skip": 1,
+        "too_short": 1,
+        "unknown": 1
+      }
+    }
+  ],
+  "recognized_source_languages": [
+    "en",
+    "fr"
+  ]
+}

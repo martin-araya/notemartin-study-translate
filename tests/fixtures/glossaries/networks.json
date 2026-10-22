@@ -1,0 +1,127 @@
+{
+  "version": 1,
+  "frozen": false,
+  "allowed_languages": ["es"],
+  "entries": [
+    {
+      "id": "g-2001",
+      "source_term": "socket",
+      "domain": "network",
+      "sense": "Punto final de una conexión de red identificado por par (IP, puerto, tipo)",
+      "preferred": {"lang": "es", "term": "socket"},
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-nw-1",
+          "segment_id": "seg-n001-a",
+          "before": "Open a TCP ",
+          "after": " to port 5432 on the server.",
+          "note": "Uso en contexto de programación de sockets"
+        }
+      ],
+      "justification": "'Socket' es un término técnico plenamente aceptado. La traducción 'enchufe' introduce ambigüedad con conexiones eléctricas y de hardware.",
+      "decided_by": "example-agent",
+      "decided_at": "2026-10-20T00:00:00Z"
+    },
+    {
+      "id": "g-2002",
+      "source_term": "endpoint",
+      "domain": "network",
+      "sense": "URL que acepta peticiones HTTP en una API REST",
+      "preferred": {"lang": "es", "term": "endpoint"},
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-nw-1",
+          "segment_id": "seg-n002-a",
+          "before": "Send a POST to the ",
+          "after": " to create a new account.",
+          "note": "Uso en contexto de APIs HTTP"
+        }
+      ],
+      "justification": "Mismo razonamiento que 'terminology.md' mantiene: 'endpoint' es un identificador técnico reconocido; 'punto de conexión' introduce ambigüedad con sockets físicos.",
+      "decided_by": "example-agent",
+      "decided_at": "2026-10-20T00:00:00Z"
+    },
+    {
+      "id": "g-2003",
+      "source_term": "packet",
+      "domain": "network",
+      "sense": "Unidad de datos transmitida en una red de conmutación de paquetes",
+      "preferred": {"lang": "es", "term": "paquete"},
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-nw-1",
+          "segment_id": "seg-n003-a",
+          "before": "Each ",
+          "after": " contains a header and a payload.",
+          "note": "Estructura de un paquete TCP/IP"
+        }
+      ],
+      "justification": "'Paquete' es la traducción estándar. No se conserva 'packet' para evitar anglicismo innecesario.",
+      "decided_by": "example-agent",
+      "decided_at": "2026-10-20T00:00:00Z"
+    },
+    {
+      "id": "g-2004",
+      "source_term": "protocol",
+      "domain": "network",
+      "sense": "Conjunto de reglas que gobiernan el intercambio de datos en una red",
+      "preferred": {"lang": "es", "term": "protocolo"},
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-nw-1",
+          "segment_id": "seg-n004-a",
+          "before": "The HTTP ",
+          "after": " uses request/response semantics.",
+          "note": "Convención como protocolo de aplicación"
+        }
+      ],
+      "justification": "Término técnico completamente traducido. La forma 'protocolo' no introduce ambigüedad.",
+      "decided_by": "example-agent",
+      "decided_at": "2026-10-20T00:00:00Z"
+    },
+{
+      "id": "g-2004",
+      "source_term": "port",
+      "domain": "network",
+      "sense": "Número de 16 bits que identifica un servicio en una dirección IP",
+      "preferred": {"lang": "es", "term": "puerto"},
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-nw-1",
+          "segment_id": "seg-n004-a",
+          "before": "Listen on ",
+          "after": " 8080 for incoming connections.",
+          "note": "Configuración de un listener TCP"
+        }
+      ],
+      "justification": "Traducción asentada en la documentación de redes en español.",
+      "decided_by": "example-agent",
+      "decided_at": "2026-10-20T00:00:00Z"
+    },
+    {
+      "id": "g-2005",
+      "source_term": "IP address",
+      "domain": "network",
+      "sense": "Dirección numérica que identifica un dispositivo en una red IP",
+      "preferred": {"lang": "es", "term": "dirección IP"},
+      "preservation_policy": "translate-with-original-on-first-mention",
+      "context_examples": [
+        {
+          "document_id": "doc-nw-1",
+          "segment_id": "seg-n005-a",
+          "before": "Resolve the ",
+          "after": " to a hostname before connecting.",
+          "note": "Resolución DNS y conexión"
+        }
+      ],
+      "justification": "Se traduce como 'dirección IP'. La sigla 'IP' se mantiene en la primera mención; el resto usa solo 'dirección IP'.",
+      "decided_by": "example-agent",
+      "decided_at": "2026-10-20T00:00:00Z"
+    }
+  ]
+}

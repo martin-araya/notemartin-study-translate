@@ -1,0 +1,373 @@
+{
+  "run_id": "run-0000f1a0",
+  "created_at": "2026-10-20T18:28:37Z",
+  "manifest_version": "translate/v1",
+  "skill_version": "0.2.0",
+  "parser": {
+    "name": "markdown-it-py",
+    "version": "3.0.0"
+  },
+  "anchor_policy": {
+    "algorithm": "github-slug-v1",
+    "version": "v1"
+  },
+  "model_metadata": {
+    "provider": "kilo",
+    "model": "minimax-coding-plan/MiniMax-M3",
+    "prompt_version": "1.0.0"
+  },
+  "glossary_snapshot": {
+    "version": 2,
+    "hash": "59eb87e983ce0108ddd40fcaef7648c8119e03cabbffca1c3da24b59e112d073",
+    "frozen": true
+  },
+  "profile_snapshot": {
+    "hash": "08456dc67e84a1f8f226ab3166cc551fa9f395ed0a1d4dd197460077d05d3242"
+  },
+  "inputs": {
+    "source_root": "/Users/martin/Desktop/projects/notemartin-pilot/source",
+    "total_files": 9,
+    "total_bytes": 823313,
+    "hashes_indexed": true
+  },
+  "files": [
+    {
+      "path": "APIs/OpenRouter/01 - Introducción, Autenticación y Formato General.md",
+      "document_id": "doc-ef8f4c49",
+      "source_hash": "ef8f4c49d1c26354f2bdeb91b0a69e4c29d03e6f6b04f28ed731095d28415644",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-20T18:28:37Z",
+          "reason": "inventario del corpus piloto autorizado"
+        },
+        {
+          "state": "prepared",
+          "timestamp": "2026-10-20T18:28:37Z",
+          "reason": "segmentos y hallazgos con el perfil del piloto"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-20T18:28:37Z",
+          "reason": "traducción por lotes con glosario congelado"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-20T18:29:33Z",
+          "reason": "aprobado por usuario (tanda de aprobación del 2026-10-20)"
+        }
+      ],
+      "last_transition_at": "2026-10-20T18:29:33Z",
+      "segment_count": 132,
+      "state": "approved",
+      "notes": [
+        "current_state reparado desde state: approve_pilot.py escribía solo el campo state (defecto corregido en la 0.3.0)"
+      ]
+    },
+    {
+      "path": "APIs/OpenRouter/04 - Capacidades Avanzadas Reasoning, Tool Calling.md",
+      "document_id": "doc-1e74cd4b",
+      "source_hash": "1e74cd4b9be34d6164da92fcab417d4ea5057db7cb5cd4f28b4b66e435c37c77",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-20T18:28:37Z",
+          "reason": "inventario del corpus piloto autorizado"
+        },
+        {
+          "state": "prepared",
+          "timestamp": "2026-10-20T18:28:37Z",
+          "reason": "segmentos y hallazgos con el perfil del piloto"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-20T18:28:37Z",
+          "reason": "traducción por lotes con glosario congelado"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-20T18:29:33Z",
+          "reason": "aprobado por usuario (tanda de aprobación del 2026-10-20)"
+        }
+      ],
+      "last_transition_at": "2026-10-20T18:29:33Z",
+      "segment_count": 259,
+      "state": "approved",
+      "notes": [
+        "current_state reparado desde state: approve_pilot.py escribía solo el campo state (defecto corregido en la 0.3.0)"
+      ]
+    },
+    {
+      "path": "developer-mozilla/Guides/Cascading_variables/Using_custom_properties.md",
+      "document_id": "doc-6192fc4d",
+      "source_hash": "6192fc4ddee0b44b742c8076f1103797ea0b89b6f60e46d28c9cdadc3725a2e4",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-20T18:28:37Z",
+          "reason": "inventario del corpus piloto autorizado"
+        },
+        {
+          "state": "prepared",
+          "timestamp": "2026-10-20T18:28:37Z",
+          "reason": "segmentos y hallazgos con el perfil del piloto"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-20T18:28:37Z",
+          "reason": "traducción por lotes con glosario congelado"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-20T18:29:33Z",
+          "reason": "aprobado por usuario (tanda de aprobación del 2026-10-20)"
+        }
+      ],
+      "last_transition_at": "2026-10-20T18:29:33Z",
+      "segment_count": 52,
+      "state": "approved",
+      "notes": [
+        "current_state reparado desde state: approve_pilot.py escribía solo el campo state (defecto corregido en la 0.3.0)"
+      ]
+    },
+    {
+      "path": "developer-mozilla/How_to/Layout_cookbook/Card.md",
+      "document_id": "doc-58e4cbff",
+      "source_hash": "58e4cbffec89245cc8122c2bfb01ed29bf77a64144895bef1a907b021133a0e9",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-20T18:28:37Z",
+          "reason": "inventario del corpus piloto autorizado"
+        },
+        {
+          "state": "prepared",
+          "timestamp": "2026-10-20T18:28:37Z",
+          "reason": "segmentos y hallazgos con el perfil del piloto"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-20T18:28:37Z",
+          "reason": "traducción por lotes con glosario congelado"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-20T18:29:33Z",
+          "reason": "aprobado por usuario (tanda de aprobación del 2026-10-20)"
+        }
+      ],
+      "last_transition_at": "2026-10-20T18:29:33Z",
+      "segment_count": 25,
+      "state": "approved",
+      "notes": [
+        "current_state reparado desde state: approve_pilot.py escribía solo el campo state (defecto corregido en la 0.3.0)"
+      ]
+    },
+    {
+      "path": "mermaid/build-and-edit/write-diagram-syntax.md",
+      "document_id": "doc-1e57d898",
+      "source_hash": "1e57d898caaa68954c4415615e8f480dda2a43ae1e894f62572b751a761436a4",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-20T18:28:37Z",
+          "reason": "inventario del corpus piloto autorizado"
+        },
+        {
+          "state": "prepared",
+          "timestamp": "2026-10-20T18:28:37Z",
+          "reason": "segmentos y hallazgos con el perfil del piloto"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-20T18:28:37Z",
+          "reason": "traducción por lotes con glosario congelado"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-20T18:29:33Z",
+          "reason": "aprobado por usuario (tanda de aprobación del 2026-10-20)"
+        }
+      ],
+      "last_transition_at": "2026-10-20T18:29:33Z",
+      "segment_count": 33,
+      "state": "approved",
+      "notes": [
+        "current_state reparado desde state: approve_pilot.py escribía solo el campo state (defecto corregido en la 0.3.0)"
+      ]
+    },
+    {
+      "path": "mermaid/guides/presentation.md",
+      "document_id": "doc-b8cb5af1",
+      "source_hash": "b8cb5af114daab0e5d76590d3dff367544ffb4e6503a7c6d1452b6400259a92b",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-20T18:28:37Z",
+          "reason": "inventario del corpus piloto autorizado"
+        },
+        {
+          "state": "prepared",
+          "timestamp": "2026-10-20T18:28:37Z",
+          "reason": "segmentos y hallazgos con el perfil del piloto"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-20T18:28:37Z",
+          "reason": "traducción por lotes con glosario congelado"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-20T18:29:33Z",
+          "reason": "aprobado por usuario (tanda de aprobación del 2026-10-20)"
+        }
+      ],
+      "last_transition_at": "2026-10-20T18:29:33Z",
+      "segment_count": 64,
+      "state": "approved",
+      "notes": [
+        "current_state reparado desde state: approve_pilot.py escribía solo el campo state (defecto corregido en la 0.3.0)"
+      ]
+    },
+    {
+      "path": "oracle/notas/Cap_14/Cap_14_Physical_Storage_Structures.md",
+      "document_id": "doc-86074482",
+      "source_hash": "8607448205a83aec92a72ffe2dc860afd68c3acd46d58f9c516ee86055e6296d",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-20T18:28:37Z",
+          "reason": "inventario del corpus piloto autorizado"
+        },
+        {
+          "state": "prepared",
+          "timestamp": "2026-10-20T18:28:37Z",
+          "reason": "segmentos y hallazgos con el perfil del piloto"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-20T18:28:37Z",
+          "reason": "traducción por lotes con glosario congelado"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-20T18:29:33Z",
+          "reason": "aprobado por usuario (tanda de aprobación del 2026-10-20)"
+        }
+      ],
+      "last_transition_at": "2026-10-20T18:29:33Z",
+      "segment_count": 404,
+      "state": "approved",
+      "notes": [
+        "current_state reparado desde state: approve_pilot.py escribía solo el campo state (defecto corregido en la 0.3.0)"
+      ]
+    },
+    {
+      "path": "typescriptlang/handbook/2/basic-types.md",
+      "document_id": "doc-5602380c",
+      "source_hash": "5602380ce79fa687c4d2a6a9df80b707ff25d441ad8997de6ec49f9894e8b77c",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-20T18:28:37Z",
+          "reason": "inventario del corpus piloto autorizado"
+        },
+        {
+          "state": "prepared",
+          "timestamp": "2026-10-20T18:28:37Z",
+          "reason": "segmentos y hallazgos con el perfil del piloto"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-20T18:28:37Z",
+          "reason": "traducción por lotes con glosario congelado"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-20T18:29:33Z",
+          "reason": "aprobado por usuario (tanda de aprobación del 2026-10-20)"
+        }
+      ],
+      "last_transition_at": "2026-10-20T18:29:33Z",
+      "segment_count": 81,
+      "state": "approved",
+      "notes": [
+        "current_state reparado desde state: approve_pilot.py escribía solo el campo state (defecto corregido en la 0.3.0)"
+      ]
+    },
+    {
+      "path": "typescriptlang/handbook/2/functions.md",
+      "document_id": "doc-461b6cd3",
+      "source_hash": "461b6cd35a1e372d4e0edcd99e7eb87c28ef6cafd7785ee3c33f0c2929639cec",
+      "current_state": "approved",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-20T18:28:37Z",
+          "reason": "inventario del corpus piloto autorizado"
+        },
+        {
+          "state": "prepared",
+          "timestamp": "2026-10-20T18:28:37Z",
+          "reason": "segmentos y hallazgos con el perfil del piloto"
+        },
+        {
+          "state": "translated",
+          "timestamp": "2026-10-20T18:28:37Z",
+          "reason": "traducción por lotes con glosario congelado"
+        },
+        {
+          "state": "approved",
+          "timestamp": "2026-10-20T18:29:33Z",
+          "reason": "aprobado por usuario (tanda de aprobación del 2026-10-20)"
+        }
+      ],
+      "last_transition_at": "2026-10-20T18:29:33Z",
+      "segment_count": 173,
+      "state": "approved",
+      "notes": [
+        "current_state reparado desde state: approve_pilot.py escribía solo el campo state (defecto corregido en la 0.3.0)"
+      ]
+    }
+  ],
+  "coverage": {
+    "total": 9,
+    "integrated": 9,
+    "blocked": 0,
+    "excluded": 0,
+    "invalid": 0,
+    "pending": 0,
+    "integrated_ratio": 1.0,
+    "blocked_ratio": 0.0,
+    "excluded_ratio": 0.0
+  },
+  "integrity_ok": true,
+  "pilot_approved": true,
+  "approved_by": "usuario (tanda de aprobación del 2026-10-20)",
+  "approved_at": "2026-10-20T18:29:33Z",
+  "provenance_baseline": {
+    "files_source": {
+      "doc-ef8f4c49": "ef8f4c49d1c26354f2bdeb91b0a69e4c29d03e6f6b04f28ed731095d28415644",
+      "doc-1e74cd4b": "1e74cd4b9be34d6164da92fcab417d4ea5057db7cb5cd4f28b4b66e435c37c77",
+      "doc-6192fc4d": "6192fc4ddee0b44b742c8076f1103797ea0b89b6f60e46d28c9cdadc3725a2e4",
+      "doc-58e4cbff": "58e4cbffec89245cc8122c2bfb01ed29bf77a64144895bef1a907b021133a0e9",
+      "doc-1e57d898": "1e57d898caaa68954c4415615e8f480dda2a43ae1e894f62572b751a761436a4",
+      "doc-b8cb5af1": "b8cb5af114daab0e5d76590d3dff367544ffb4e6503a7c6d1452b6400259a92b",
+      "doc-86074482": "8607448205a83aec92a72ffe2dc860afd68c3acd46d58f9c516ee86055e6296d",
+      "doc-5602380c": "5602380ce79fa687c4d2a6a9df80b707ff25d441ad8997de6ec49f9894e8b77c",
+      "doc-461b6cd3": "461b6cd35a1e372d4e0edcd99e7eb87c28ef6cafd7785ee3c33f0c2929639cec"
+    },
+    "glossary_hash": "59eb87e983ce0108ddd40fcaef7648c8119e03cabbffca1c3da24b59e112d073",
+    "profile_hash": "08456dc67e84a1f8f226ab3166cc551fa9f395ed0a1d4dd197460077d05d3242",
+    "parser_version": "3.0.0",
+    "prompt_version": "1.0.0"
+  }
+}

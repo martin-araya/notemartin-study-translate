@@ -1,0 +1,16 @@
+{
+  "case_id": "mdx_gate_ignored_finding",
+  "case": {
+    "document": "# Documentación\n\nEl módulo usa <Info> para avisos y <CodeGroup> para pestañas.\n"
+  },
+  "positive": {
+    "profile": {},
+    "flag_mdx": false,
+    "expectation": "blocked"
+  },
+  "negative": {
+    "profile": { "mdx": { "enabled": true } },
+    "flag_mdx": false,
+    "expectation": "ok"
+  }
+}

@@ -1,0 +1,19 @@
+---
+title: API quickstart
+description: Minimal working example of the public endpoint.
+---
+
+# {frontMatter.title}
+
+Use the `{endpoint}` variable to compose your request URL.
+
+<CardGroup cols={2}>
+  <Card title="GET /users" icon="user">
+List every user in the workspace. Returns `200 OK` with a JSON array.
+  </Card>
+  <Card title="POST /users" icon="plus">
+Create a new user. The body must include `name` and `email`. Returns `201 Created`.
+  </Card>
+</CardGroup>
+
+Avoid mixing GET and POST parameters in the same call.

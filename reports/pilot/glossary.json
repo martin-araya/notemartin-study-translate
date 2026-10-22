@@ -1,0 +1,795 @@
+{
+  "version": 2,
+  "frozen": true,
+  "allowed_languages": [
+    "es"
+  ],
+  "entries": [
+    {
+      "id": "g-08eb",
+      "source_term": "state",
+      "domain": "ui",
+      "sense": "estado visible de un componente de interfaz",
+      "preferred": {
+        "lang": "es",
+        "term": "estado"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-1e74cd4b",
+          "segment_id": "seg-59eb0592",
+          "before": "This API is **stateless** - each request is independent and no conversation sta",
+          "after": "",
+          "note": "primera aparición en el corpus piloto"
+        }
+      ],
+      "justification": "Equivalente técnico neutro en español. El mismo término conserva su sentido porque el dominio y el sentido son los mismos; no es una traducción universal.",
+      "decided_by": "usuario (tanda de aprobación del piloto, 2026-10-20)",
+      "decided_at": "2026-10-20T18:20:00Z"
+    },
+    {
+      "id": "g-e936",
+      "source_term": "state",
+      "domain": "database",
+      "sense": "información persistente almacenada",
+      "preferred": {
+        "lang": "es",
+        "term": "estado"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-1e74cd4b",
+          "segment_id": "seg-59eb0592",
+          "before": "This API is **stateless** - each request is independent and no conversation sta",
+          "after": "",
+          "note": "primera aparición en el corpus piloto"
+        }
+      ],
+      "justification": "Equivalente técnico neutro en español. El mismo término conserva su sentido porque el dominio y el sentido son los mismos; no es una traducción universal.",
+      "decided_by": "usuario (tanda de aprobación del piloto, 2026-10-20)",
+      "decided_at": "2026-10-20T18:20:00Z"
+    },
+    {
+      "id": "g-01a1",
+      "source_term": "state",
+      "domain": "network",
+      "sense": "estado de una conexión de red",
+      "preferred": {
+        "lang": "es",
+        "term": "estado"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-1e74cd4b",
+          "segment_id": "seg-59eb0592",
+          "before": "This API is **stateless** - each request is independent and no conversation sta",
+          "after": "",
+          "note": "primera aparición en el corpus piloto"
+        }
+      ],
+      "justification": "Equivalente técnico neutro en español. El mismo término conserva su sentido porque el dominio y el sentido son los mismos; no es una traducción universal.",
+      "decided_by": "usuario (tanda de aprobación del piloto, 2026-10-20)",
+      "decided_at": "2026-10-20T18:20:00Z"
+    },
+    {
+      "id": "g-a735",
+      "source_term": "request",
+      "domain": "api",
+      "sense": "petición entrante que el servicio recibe",
+      "preferred": {
+        "lang": "es",
+        "term": "petición"
+      },
+      "allowed_variants": [
+        "solicitud"
+      ],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-ef8f4c49",
+          "segment_id": "seg-3b73d710",
+          "before": "OpenRouter's request and response schemas are very similar to the OpenAI Chat AP",
+          "after": "",
+          "note": "primera aparición en el corpus piloto"
+        }
+      ],
+      "justification": "Equivalente técnico neutro en español. El mismo término conserva su sentido porque el dominio y el sentido son los mismos; no es una traducción universal.",
+      "decided_by": "usuario (tanda de aprobación del piloto, 2026-10-20)",
+      "decided_at": "2026-10-20T18:20:00Z"
+    },
+    {
+      "id": "g-eb3e",
+      "source_term": "response",
+      "domain": "api",
+      "sense": "respuesta que el servicio devuelve",
+      "preferred": {
+        "lang": "es",
+        "term": "respuesta"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-ef8f4c49",
+          "segment_id": "seg-3b73d710",
+          "before": "OpenRouter's request and response schemas are very similar to the OpenAI Chat API, with a few",
+          "after": "",
+          "note": "primera aparición en el corpus piloto"
+        }
+      ],
+      "justification": "Equivalente técnico neutro en español. El mismo término conserva su sentido porque el dominio y el sentido son los mismos; no es una traducción universal.",
+      "decided_by": "usuario (tanda de aprobación del piloto, 2026-10-20)",
+      "decided_at": "2026-10-20T18:20:00Z"
+    },
+    {
+      "id": "g-993b",
+      "source_term": "endpoint",
+      "domain": "api",
+      "sense": "URL que acepta peticiones",
+      "preferred": {
+        "lang": "es",
+        "term": "endpoint"
+      },
+      "allowed_variants": [
+        "punto de conexión"
+      ],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-ef8f4c49",
+          "segment_id": "seg-2316d133",
+          "before": "dy of your `POST` request to the `/api/v1/chat/completions` endpoint (see the [quick start](https://app.notion.com/docs/quicksta",
+          "after": "",
+          "note": "primera aparición en el corpus piloto"
+        }
+      ],
+      "justification": "Equivalente técnico neutro en español. El mismo término conserva su sentido porque el dominio y el sentido son los mismos; no es una traducción universal.",
+      "decided_by": "usuario (tanda de aprobación del piloto, 2026-10-20)",
+      "decided_at": "2026-10-20T18:20:00Z"
+    },
+    {
+      "id": "g-1a13",
+      "source_term": "authentication",
+      "domain": "api",
+      "sense": "proceso de verificar la identidad",
+      "preferred": {
+        "lang": "es",
+        "term": "autenticación"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-ef8f4c49",
+          "segment_id": "seg-82afe0d5",
+          "before": "Authentication",
+          "after": "",
+          "note": "primera aparición en el corpus piloto"
+        }
+      ],
+      "justification": "Equivalente técnico neutro en español. El mismo término conserva su sentido porque el dominio y el sentido son los mismos; no es una traducción universal.",
+      "decided_by": "usuario (tanda de aprobación del piloto, 2026-10-20)",
+      "decided_at": "2026-10-20T18:20:00Z"
+    },
+    {
+      "id": "g-96a7",
+      "source_term": "authorization",
+      "domain": "api",
+      "sense": "proceso de verificar permisos",
+      "preferred": {
+        "lang": "es",
+        "term": "autorización"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-ef8f4c49",
+          "segment_id": "seg-1be98fb8",
+          "before": "If you're calling the OpenRouter API directly, set the `Authorization` header to a Bearer token with your API key.",
+          "after": "",
+          "note": "primera aparición en el corpus piloto"
+        }
+      ],
+      "justification": "Equivalente técnico neutro en español. El mismo término conserva su sentido porque el dominio y el sentido son los mismos; no es una traducción universal.",
+      "decided_by": "usuario (tanda de aprobación del piloto, 2026-10-20)",
+      "decided_at": "2026-10-20T18:20:00Z"
+    },
+    {
+      "id": "g-d30d",
+      "source_term": "streaming",
+      "domain": "api",
+      "sense": "envío incremental de la respuesta",
+      "preferred": {
+        "lang": "es",
+        "term": "streaming"
+      },
+      "allowed_variants": [
+        "transmisión en flujo"
+      ],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-ef8f4c49",
+          "segment_id": "seg-ad06cb8d",
+          "before": "vents#event_stream_format)\nare supported as well, to enable streaming *for all models*. Simply send\n`stream: true` in your reques",
+          "after": "",
+          "note": "primera aparición en el corpus piloto"
+        }
+      ],
+      "justification": "Equivalente técnico neutro en español. El mismo término conserva su sentido porque el dominio y el sentido son los mismos; no es una traducción universal.",
+      "decided_by": "usuario (tanda de aprobación del piloto, 2026-10-20)",
+      "decided_at": "2026-10-20T18:20:00Z"
+    },
+    {
+      "id": "g-c2a9",
+      "source_term": "tool calling",
+      "domain": "ai",
+      "sense": "invocación de herramientas desde el modelo",
+      "preferred": {
+        "lang": "es",
+        "term": "llamada a herramientas"
+      },
+      "allowed_variants": [
+        "tool calling"
+      ],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-1e74cd4b",
+          "segment_id": "seg-2533e707",
+          "before": "04 - Capacidades Avanzadas: Reasoning, Tool Calling y Web Search",
+          "after": "",
+          "note": "primera aparición en el corpus piloto"
+        }
+      ],
+      "justification": "Equivalente técnico neutro en español. El mismo término conserva su sentido porque el dominio y el sentido son los mismos; no es una traducción universal.",
+      "decided_by": "usuario (tanda de aprobación del piloto, 2026-10-20)",
+      "decided_at": "2026-10-20T18:20:00Z"
+    },
+    {
+      "id": "g-7673",
+      "source_term": "reasoning",
+      "domain": "ai",
+      "sense": "proceso de razonamiento del modelo",
+      "preferred": {
+        "lang": "es",
+        "term": "razonamiento"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-1e74cd4b",
+          "segment_id": "seg-2533e707",
+          "before": "04 - Capacidades Avanzadas: Reasoning, Tool Calling y Web Search",
+          "after": "",
+          "note": "primera aparición en el corpus piloto"
+        }
+      ],
+      "justification": "Equivalente técnico neutro en español. El mismo término conserva su sentido porque el dominio y el sentido son los mismos; no es una traducción universal.",
+      "decided_by": "usuario (tanda de aprobación del piloto, 2026-10-20)",
+      "decided_at": "2026-10-20T18:20:00Z"
+    },
+    {
+      "id": "g-b3c8",
+      "source_term": "embedding",
+      "domain": "ai",
+      "sense": "representación vectorial de un texto",
+      "preferred": {
+        "lang": "es",
+        "term": "embedding"
+      },
+      "allowed_variants": [
+        "incrustación"
+      ],
+      "forbidden_forms": [],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-b8cb5af1",
+          "segment_id": "seg-2d1fac5a",
+          "before": "Embedding Images <a id=\"embedding-images\"></a>",
+          "after": "",
+          "note": "primera aparición en el corpus piloto"
+        }
+      ],
+      "justification": "Equivalente técnico neutro en español. El mismo término conserva su sentido porque el dominio y el sentido son los mismos; no es una traducción universal.",
+      "decided_by": "usuario (tanda de aprobación del piloto, 2026-10-20)",
+      "decided_at": "2026-10-20T18:20:00Z"
+    },
+    {
+      "id": "g-6ce7",
+      "source_term": "TypeScript",
+      "domain": "typescriptlang",
+      "sense": "nombre propio del lenguaje",
+      "preferred": {
+        "lang": "es",
+        "term": "TypeScript"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-ef8f4c49",
+          "segment_id": "seg-2316d133",
+          "before": "Here is the request schema as a TypeScript type. This will be the body of your `POST` request to the `",
+          "after": "",
+          "note": "primera aparición en el corpus piloto"
+        }
+      ],
+      "justification": "Nombre propio, sigla o referencia de código: se conserva literal. Traducirlo introduciría un término que el lector no puede comparar con la fuente.",
+      "decided_by": "usuario (tanda de aprobación del piloto, 2026-10-20)",
+      "decided_at": "2026-10-20T18:20:00Z"
+    },
+    {
+      "id": "g-bfd5",
+      "source_term": "JavaScript",
+      "domain": "typescriptlang",
+      "sense": "nombre propio del lenguaje",
+      "preferred": {
+        "lang": "es",
+        "term": "JavaScript"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-6192fc4d",
+          "segment_id": "seg-e0012a2b",
+          "before": "[Valores en JavaScript](#valores_en_javascript) <a id=\"valores_en_javascript\"></a>",
+          "after": "",
+          "note": "primera aparición en el corpus piloto"
+        }
+      ],
+      "justification": "Nombre propio, sigla o referencia de código: se conserva literal. Traducirlo introduciría un término que el lector no puede comparar con la fuente.",
+      "decided_by": "usuario (tanda de aprobación del piloto, 2026-10-20)",
+      "decided_at": "2026-10-20T18:20:00Z"
+    },
+    {
+      "id": "g-6a0e",
+      "source_term": "Oracle",
+      "domain": "oracle",
+      "sense": "nombre propio del producto y de la documentación de origen",
+      "preferred": {
+        "lang": "es",
+        "term": "Oracle"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-86074482",
+          "segment_id": "seg-6a52d88b",
+          "before": "sical Storage Structures\"\nlanguage: \"es\"\nsource:\n  vendor: \"Oracle\"\n  product: \"Oracle AI Database\"\n  document: \"Database Conc",
+          "after": "",
+          "note": "primera aparición en el corpus piloto"
+        }
+      ],
+      "justification": "Nombre propio, sigla o referencia de código: se conserva literal. Traducirlo introduciría un término que el lector no puede comparar con la fuente.",
+      "decided_by": "usuario (tanda de aprobación del piloto, 2026-10-20)",
+      "decided_at": "2026-10-20T18:20:00Z"
+    },
+    {
+      "id": "g-d1ed",
+      "source_term": "API",
+      "domain": "APIs",
+      "sense": "sigla técnica usada como sustantivo",
+      "preferred": {
+        "lang": "es",
+        "term": "API"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-ef8f4c49",
+          "segment_id": "seg-0c810d6e",
+          "before": "API Reference",
+          "after": "",
+          "note": "primera aparición en el corpus piloto"
+        }
+      ],
+      "justification": "Nombre propio, sigla o referencia de código: se conserva literal. Traducirlo introduciría un término que el lector no puede comparar con la fuente.",
+      "decided_by": "usuario (tanda de aprobación del piloto, 2026-10-20)",
+      "decided_at": "2026-10-20T18:20:00Z"
+    },
+    {
+      "id": "g-aec0",
+      "source_term": "CSS",
+      "domain": "developer-mozilla",
+      "sense": "sigla del lenguaje",
+      "preferred": {
+        "lang": "es",
+        "term": "CSS"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-6192fc4d",
+          "segment_id": "seg-0d43026b",
+          "before": "Uso de propiedades personalizadas (variables) en CSS",
+          "after": "",
+          "note": "primera aparición en el corpus piloto"
+        }
+      ],
+      "justification": "Nombre propio, sigla o referencia de código: se conserva literal. Traducirlo introduciría un término que el lector no puede comparar con la fuente.",
+      "decided_by": "usuario (tanda de aprobación del piloto, 2026-10-20)",
+      "decided_at": "2026-10-20T18:20:00Z"
+    },
+    {
+      "id": "g-ecc8",
+      "source_term": "HTML",
+      "domain": "developer-mozilla",
+      "sense": "sigla del lenguaje",
+      "preferred": {
+        "lang": "es",
+        "term": "HTML"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-6192fc4d",
+          "segment_id": "seg-046c8876",
+          "before": "Selectors/:root), y así aplicarlas globalmente al documento HTML:\ncss",
+          "after": "",
+          "note": "primera aparición en el corpus piloto"
+        }
+      ],
+      "justification": "Nombre propio, sigla o referencia de código: se conserva literal. Traducirlo introduciría un término que el lector no puede comparar con la fuente.",
+      "decided_by": "usuario (tanda de aprobación del piloto, 2026-10-20)",
+      "decided_at": "2026-10-20T18:20:00Z"
+    },
+    {
+      "id": "g-23dc",
+      "source_term": "AI",
+      "domain": "oracle",
+      "sense": "sigla usada en el texto",
+      "preferred": {
+        "lang": "es",
+        "term": "AI"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-ef8f4c49",
+          "segment_id": "seg-3b73d710",
+          "before": "'s request and response schemas are very similar to the OpenAI Chat API, with a few small differences. At a high level, **",
+          "after": "",
+          "note": "primera aparición en el corpus piloto"
+        }
+      ],
+      "justification": "Nombre propio, sigla o referencia de código: se conserva literal. Traducirlo introduciría un término que el lector no puede comparar con la fuente.",
+      "decided_by": "usuario (tanda de aprobación del piloto, 2026-10-20)",
+      "decided_at": "2026-10-20T18:20:00Z"
+    },
+    {
+      "id": "g-2f08",
+      "source_term": "Markdown",
+      "domain": "mermaid",
+      "sense": "sigla del formato",
+      "preferred": {
+        "lang": "es",
+        "term": "Markdown"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-b8cb5af1",
+          "segment_id": "seg-7c22c990",
+          "before": "n feature allows you to create and present slideshows using Markdown syntax. You can easily add diagrams, images, and text to yo",
+          "after": "",
+          "note": "primera aparición en el corpus piloto"
+        }
+      ],
+      "justification": "Nombre propio, sigla o referencia de código: se conserva literal. Traducirlo introduciría un término que el lector no puede comparar con la fuente.",
+      "decided_by": "usuario (tanda de aprobación del piloto, 2026-10-20)",
+      "decided_at": "2026-10-20T18:20:00Z"
+    },
+    {
+      "id": "g-c9da",
+      "source_term": "ASM",
+      "domain": "oracle",
+      "sense": "sigla usada en las notas de origen",
+      "preferred": {
+        "lang": "es",
+        "term": "ASM"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-86074482",
+          "segment_id": "seg-a1a2e38f",
+          "before": "§1.5 Oracle Automatic Storage Management (Oracle ASM)",
+          "after": "",
+          "note": "primera aparición en el corpus piloto"
+        }
+      ],
+      "justification": "Nombre propio, sigla o referencia de código: se conserva literal. Traducirlo introduciría un término que el lector no puede comparar con la fuente.",
+      "decided_by": "usuario (tanda de aprobación del piloto, 2026-10-20)",
+      "decided_at": "2026-10-20T18:20:00Z"
+    },
+    {
+      "id": "g-7947",
+      "source_term": "PMEM",
+      "domain": "oracle",
+      "sense": "sigla de almacenamiento",
+      "preferred": {
+        "lang": "es",
+        "term": "PMEM"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-86074482",
+          "segment_id": "seg-7d88b832",
+          "before": "§1.8 Oracle Persistent Memory Filestore (PMEM Filestore)",
+          "after": "",
+          "note": "primera aparición en el corpus piloto"
+        }
+      ],
+      "justification": "Nombre propio, sigla o referencia de código: se conserva literal. Traducirlo introduciría un término que el lector no puede comparar con la fuente.",
+      "decided_by": "usuario (tanda de aprobación del piloto, 2026-10-20)",
+      "decided_at": "2026-10-20T18:20:00Z"
+    },
+    {
+      "id": "g-687c",
+      "source_term": "OpenRouter",
+      "domain": "APIs",
+      "sense": "nombre propio del producto",
+      "preferred": {
+        "lang": "es",
+        "term": "OpenRouter"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-ef8f4c49",
+          "segment_id": "seg-3b73d710",
+          "before": "OpenRouter's request and response schemas are very similar to the Open",
+          "after": "",
+          "note": "primera aparición en el corpus piloto"
+        }
+      ],
+      "justification": "Nombre propio, sigla o referencia de código: se conserva literal. Traducirlo introduciría un término que el lector no puede comparar con la fuente.",
+      "decided_by": "usuario (tanda de aprobación del piloto, 2026-10-20)",
+      "decided_at": "2026-10-20T18:20:00Z"
+    },
+    {
+      "id": "g-ff10",
+      "source_term": "OpenAI",
+      "domain": "APIs",
+      "sense": "nombre propio del producto",
+      "preferred": {
+        "lang": "es",
+        "term": "OpenAI"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-ef8f4c49",
+          "segment_id": "seg-3b73d710",
+          "before": "uter's request and response schemas are very similar to the OpenAI Chat API, with a few small differences. At a high level, **",
+          "after": "",
+          "note": "primera aparición en el corpus piloto"
+        }
+      ],
+      "justification": "Nombre propio, sigla o referencia de código: se conserva literal. Traducirlo introduciría un término que el lector no puede comparar con la fuente.",
+      "decided_by": "usuario (tanda de aprobación del piloto, 2026-10-20)",
+      "decided_at": "2026-10-20T18:20:00Z"
+    },
+    {
+      "id": "g-7ea1",
+      "source_term": "any",
+      "domain": "typescriptlang",
+      "sense": "tipo de TypeScript dentro de código o referencias en línea",
+      "preferred": {
+        "lang": "es",
+        "term": "any"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-ef8f4c49",
+          "segment_id": "seg-271e3ab9",
+          "before": "tools/swagger-ui/), [Postman](https://www.postman.com/), or any OpenAPI-compatible code generator to explore the API or gen",
+          "after": "",
+          "note": "primera aparición en el corpus piloto"
+        }
+      ],
+      "justification": "Nombre propio, sigla o referencia de código: se conserva literal. Traducirlo introduciría un término que el lector no puede comparar con la fuente.",
+      "decided_by": "usuario (tanda de aprobación del piloto, 2026-10-20)",
+      "decided_at": "2026-10-20T18:20:00Z"
+    },
+    {
+      "id": "g-11a2",
+      "source_term": "undefined",
+      "domain": "typescriptlang",
+      "sense": "valor de TypeScript dentro de código",
+      "preferred": {
+        "lang": "es",
+        "term": "undefined"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-5602380c",
+          "segment_id": "seg-aea6469d",
+          "before": "vaScript gives us different behavior and returns the value `undefined`:",
+          "after": "",
+          "note": "primera aparición en el corpus piloto"
+        }
+      ],
+      "justification": "Nombre propio, sigla o referencia de código: se conserva literal. Traducirlo introduciría un término que el lector no puede comparar con la fuente.",
+      "decided_by": "usuario (tanda de aprobación del piloto, 2026-10-20)",
+      "decided_at": "2026-10-20T18:20:00Z"
+    },
+    {
+      "id": "g-1b5e",
+      "source_term": "void",
+      "domain": "typescriptlang",
+      "sense": "tipo de retorno de TypeScript",
+      "preferred": {
+        "lang": "es",
+        "term": "void"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-86074482",
+          "segment_id": "seg-3cc1d832",
+          "before": " on different disks**, la database **achieves redundancy y avoids single point de failure**.",
+          "after": "",
+          "note": "primera aparición en el corpus piloto"
+        }
+      ],
+      "justification": "Nombre propio, sigla o referencia de código: se conserva literal. Traducirlo introduciría un término que el lector no puede comparar con la fuente.",
+      "decided_by": "usuario (tanda de aprobación del piloto, 2026-10-20)",
+      "decided_at": "2026-10-20T18:20:00Z"
+    },
+    {
+      "id": "g-48d1",
+      "source_term": "this",
+      "domain": "typescriptlang",
+      "sense": "palabra clave de JavaScript y TypeScript",
+      "preferred": {
+        "lang": "es",
+        "term": "this"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-ef8f4c49",
+          "segment_id": "seg-2316d133",
+          "before": "Here is the request schema as a TypeScript type. This will be the body of your `POST` request to the `/api/v1/cha",
+          "after": "",
+          "note": "primera aparición en el corpus piloto"
+        }
+      ],
+      "justification": "Nombre propio, sigla o referencia de código: se conserva literal. Traducirlo introduciría un término que el lector no puede comparar con la fuente.",
+      "decided_by": "usuario (tanda de aprobación del piloto, 2026-10-20)",
+      "decided_at": "2026-10-20T18:20:00Z"
+    },
+    {
+      "id": "g-50da",
+      "source_term": "string",
+      "domain": "typescriptlang",
+      "sense": "tipo de TypeScript",
+      "preferred": {
+        "lang": "es",
+        "term": "string"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-ef8f4c49",
+          "segment_id": "seg-b320e33a",
+          "before": " may have additional finish reasons. The raw finish\\_reason string returned by the model is available via the `native_finish_r",
+          "after": "",
+          "note": "primera aparición en el corpus piloto"
+        }
+      ],
+      "justification": "Nombre propio, sigla o referencia de código: se conserva literal. Traducirlo introduciría un término que el lector no puede comparar con la fuente.",
+      "decided_by": "usuario (tanda de aprobación del piloto, 2026-10-20)",
+      "decided_at": "2026-10-20T18:20:00Z"
+    },
+    {
+      "id": "g-6741",
+      "source_term": "tsc",
+      "domain": "typescriptlang",
+      "sense": "nombre del compilador de TypeScript",
+      "preferred": {
+        "lang": "es",
+        "term": "tsc"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-5602380c",
+          "segment_id": "seg-5147c63e",
+          "before": "[](#tsc-the-typescript-compiler)`tsc`, the TypeScript compiler <a i",
+          "after": "",
+          "note": "primera aparición en el corpus piloto"
+        }
+      ],
+      "justification": "Nombre propio, sigla o referencia de código: se conserva literal. Traducirlo introduciría un término que el lector no puede comparar con la fuente.",
+      "decided_by": "usuario (tanda de aprobación del piloto, 2026-10-20)",
+      "decided_at": "2026-10-20T18:20:00Z"
+    },
+    {
+      "id": "g-7c22",
+      "source_term": "date",
+      "domain": "typescriptlang",
+      "sense": "tipo de TypeScript",
+      "preferred": {
+        "lang": "es",
+        "term": "date"
+      },
+      "allowed_variants": [],
+      "forbidden_forms": [],
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-ef8f4c49",
+          "segment_id": "seg-584c7d7e",
+          "before": "Update an API key",
+          "after": "",
+          "note": "primera aparición en el corpus piloto"
+        }
+      ],
+      "justification": "Nombre propio, sigla o referencia de código: se conserva literal. Traducirlo introduciría un término que el lector no puede comparar con la fuente.",
+      "decided_by": "usuario (tanda de aprobación del piloto, 2026-10-20)",
+      "decided_at": "2026-10-20T18:20:00Z"
+    }
+  ],
+  "approved_at": "2026-10-20T18:29:33Z"
+}

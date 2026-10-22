@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "frozen": false,
+  "allowed_languages": ["es"],
+  "entries": [
+    {
+      "id": "g-3001",
+      "source_term": "render",
+      "domain": "frontend",
+      "sense": "Proceso de producir la salida visual de un componente en pantalla",
+      "preferred": {"lang": "es", "term": "renderizar"},
+      "allowed_variants": ["renderizar el componente", "realizar el render"],
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-fe-1",
+          "segment_id": "seg-f001-a",
+          "before": "React will ",
+          "after": " the component on every state update.",
+          "note": "Verbo que describe el acto de pintar la UI"
+        }
+      ],
+      "justification": "'Renderizar' es el verbo aceptado en la documentación oficial de React, Vue y Angular en español. Conserva el matiz técnico.",
+      "decided_by": "example-agent",
+      "decided_at": "2026-10-20T00:00:00Z"
+    },
+    {
+      "id": "g-3002",
+      "source_term": "state",
+      "domain": "frontend",
+      "sense": "Datos mutables que controlan la representación visual de un componente",
+      "preferred": {"lang": "es", "term": "estado"},
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-fe-1",
+          "segment_id": "seg-f002-a",
+          "before": "The component ",
+          "after": " determines which view to show.",
+          "note": "Estado de UI en React o Vue"
+        }
+      ],
+      "justification": "Mismo término que en el glosario de UI ya documentado. Se mantiene consistencia con 'terminology.md'.",
+      "decided_by": "example-agent",
+      "decided_at": "2026-10-20T00:00:00Z"
+    },
+    {
+      "id": "g-3003",
+      "source_term": "binding",
+      "domain": "frontend",
+      "sense": "Enlace bidireccional entre un valor del modelo y un elemento de la interfaz",
+      "preferred": {"lang": "es", "term": "enlace"},
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-fe-1",
+          "segment_id": "seg-f003-a",
+          "before": "Use two-way ",
+          "after": " to sync the input with the model.",
+          "note": "Patrón de data binding en frameworks MVVM"
+        }
+      ],
+      "justification": "'Enlace' es la traducción natural. La forma 'binding' se evita salvo en contexto pedagógico.",
+      "decided_by": "example-agent",
+      "decided_at": "2026-10-20T00:00:00Z"
+    },
+    {
+      "id": "g-3004",
+      "source_term": "component",
+      "domain": "frontend",
+      "sense": "Unidad reutilizable de UI con su propio estado y ciclo de vida",
+      "preferred": {"lang": "es", "term": "componente"},
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-fe-1",
+          "segment_id": "seg-f004-a",
+          "before": "Extract a reusable ",
+          "after": " to share across pages.",
+          "note": "Patrón típico en React o Vue"
+        }
+      ],
+      "justification": "Traducción asentada en la documentación oficial en español.",
+      "decided_by": "example-agent",
+      "decided_at": "2026-10-20T00:00:00Z"
+    },
+    {
+      "id": "g-3005",
+      "source_term": "hook",
+      "domain": "frontend",
+      "sense": "Función especial que engancha al ciclo de vida de un componente",
+      "preferred": {"lang": "es", "term": "hook"},
+      "preservation_policy": "keep-original",
+      "context_examples": [
+        {
+          "document_id": "doc-fe-1",
+          "segment_id": "seg-f005-a",
+          "before": "React ",
+          "after": " like useState manage local state.",
+          "note": "API de React"
+        }
+      ],
+      "justification": "'Hook' es el nombre oficial de la API de React. La traducción 'gancho' se evita por ambigüedad con la acepción de pesca.",
+      "decided_by": "example-agent",
+      "decided_at": "2026-10-20T00:00:00Z"
+    }
+  ]
+}

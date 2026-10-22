@@ -1,0 +1,119 @@
+{
+  "reviewer_id": "agente-revisor-1",
+  "reviewed_at": "2026-10-20T20:15:00Z",
+  "rubric": "evals/rubric.md",
+  "scope": "Los 636 segmentos emitibles del corpus piloto autorizado (9 documentos), contrastados contra la fuente.",
+  "segments_reviewed": 636,
+  "verdicts": {
+    "accept": 635,
+    "corrected": 1,
+    "needs_human": 0
+  },
+  "checks": {
+    "literal_preservation": {
+      "tool": "scripts/validate.py --checks protection",
+      "result": "0 errores; 636 segmentos con 0 pérdidas de literales"
+    },
+    "structure_parity": {
+      "tool": "scripts/validate.py --checks structure + comparación de encabezados, listas, tablas y fences",
+      "result": "0 desajustes entre fuente y destino en los 9 documentos"
+    },
+    "identity_roundtrip": {
+      "tool": "scripts/assemble.py --identity",
+      "result": "los 9 documentos se reconstruyen byte a byte idénticos al original"
+    },
+    "destinations": {
+      "tool": "scripts/validate.py --checks destinations",
+      "result": "0 errores; los fragmentos explícitos <a id> siguen resolviendo"
+    },
+    "figures_and_units": {
+      "tool": "revisión propia: cada cifra de la fuente aparece en el destino",
+      "result": "0 segmentos con cifras ausentes tras la corrección de seg-9bd369e7"
+    },
+    "residual_english": {
+      "tool": "búsqueda de palabras funcionales inglesas fuera de código y anclas",
+      "result": "0 residuos reales; las 2 coincidencias detectadas estaban dentro de bloques mermaid protegidos"
+    },
+    "already_target_review": {
+      "result": "177 segmentos ya en español se devuelven literales y se verifican sin reescribir (12 en los dos documentos de MDN, 153 en las notas de Oracle y 12 más en el resto)"
+    }
+  },
+  "findings": [
+    {
+      "segment_id": "seg-9bd369e7",
+      "document_id": "doc-1e74cd4b",
+      "document": "APIs/OpenRouter/04 - Capacidades Avanzadas Reasoning, Tool Calling.md",
+      "severity": "major",
+      "kind": "figura_y_unidad_alteradas",
+      "evidence": "La traducción convertía «$5 per 1,000 posts» en «5 USD por cada 1000 publicaciones» y «September 21, 2026» en «1 de septiembre de 2026»: cambia el separador de millares, la representación de la moneda y un dígito de la fecha.",
+      "rule": "AGENTS.md §5.3: no convertir cifras ni localizar separadores; no cambiar unidades.",
+      "resolution": "Corregido: se conservan \\$5, \\$10, 1,000 y la fecha 21 de septiembre de 2026. Reensamblado y revalidado.",
+      "status": "resolved"
+    }
+  ],
+  "needs_human": [
+    {
+      "document_id": "doc-86074482",
+      "document": "oracle/notas/Cap_14/Cap_14_Physical_Storage_Structures.md",
+      "reason": "La fuente (un resumen generado aguas arriba) mezcla inglés dentro de frases españolas: «Cuando se issues un `CREATE DATABASE` statement para create un CDB». No es un defecto de traducción: repararlo sería corregir el producto en origen.",
+      "rule": "AGENTS.md §5.3: si la fuente contiene un error, no repararlo con conocimiento propio; registrar la observación fuera del documento exportado.",
+      "action": "Se devuelve el texto literal. Queda registrado aquí y en reports/pilot/summary.md para decisión del usuario.",
+      "affected_segments": 153
+    }
+  ],
+  "pipeline_defects": [
+    {
+      "id": "jsx_in_inline_code",
+      "severity": "major",
+      "found_by": "clasificación del corpus piloto",
+      "detail": "El código inline no se excluía antes de buscar componentes JSX, de modo que `Array<T>` bloqueaba el archivo.",
+      "fix": "scripts/prepare.py: strip_inline_code en detect_findings",
+      "test": "tests/test_pilot_detections.py"
+    },
+    {
+      "id": "wikilink_in_frontmatter",
+      "severity": "major",
+      "found_by": "clasificación del corpus piloto",
+      "detail": "Los alias `[[term:...]]` del frontmatter, que se preserva literal, bloqueaban la nota de Oracle.",
+      "fix": "scripts/prepare.py: strip_frontmatter en detect_findings",
+      "test": "tests/test_pilot_detections.py"
+    },
+    {
+      "id": "mdx_gate_ignored_finding",
+      "severity": "critical",
+      "found_by": "clasificación del corpus piloto",
+      "detail": "El gate MDX exigía `flag_mdx`, que solo significa extensión .mdx, así que nunca levantaba el bloqueo de dos archivos de OpenRouter.",
+      "fix": "scripts/prepare.py: el gate se levanta por el hallazgo, no por la extensión",
+      "test": "tests/test_pilot_detections.py"
+    },
+    {
+      "id": "manifest_schema_missing_written_fields",
+      "severity": "critical",
+      "found_by": "contrato manifiesto ↔ herramientas",
+      "detail": "check_integrity.py escribía `coverage` e `integrity_ok`, approve_pilot.py escribía `pilot_approved`, `approved_by`, `approved_at` y `provenance_baseline`, y ningún archivo llevaba `document_id`: el manifiesto dejaba de validar contra su propio esquema.",
+      "fix": "schemas/manifest.schema.json sube a x-schema-version 1.2.0 con esos campos declarados",
+      "test": "tests/test_pilot_manifest_contract.py"
+    },
+    {
+      "id": "segment_range_exceeds_text",
+      "severity": "critical",
+      "found_by": "revisión del ensamblado del piloto",
+      "detail": "El byte_range de encabezados y párrafos cubría el marcador `## ` y el salto de línea final, que no están en translatable_text; al ensamblar, la traducción los borraba y el documento entregable perdía los encabezados.",
+      "fix": "scripts/prepare.py: narrow_range_to_text deja los marcadores fuera del parche",
+      "test": "tests/test_segment_range_covers_text.py"
+    },
+    {
+      "id": "validate_structure_false_green",
+      "severity": "major",
+      "found_by": "revisión del ensamblado del piloto",
+      "detail": "validate.py declaraba `structure: 0 errores` sobre documentos a los que se les habían borrado los encabezados: la comprobación no cubría los marcadores de bloque.",
+      "fix": "tests/test_segment_range_covers_text.py fija el contrato y el caso se revalidó tras el arreglo del rango",
+      "test": "tests/test_segment_range_covers_text.py",
+      "status": "open: la comprobación determinista de marcadores sigue siendo parcial; el cierre depende de añadirla a check_structure"
+    }
+  ],
+  "not_a_finding": [
+    "Los títulos de sección de los documentos de TypeScript enlazan a su propio ancla con el fragmento inglés (#static-type-checking). Se conserva el fragmento porque el ancla explícita <a id=\"static-type-checking\"> no cambia; reescribirlo sería inventar un destino (INV-09).",
+    "El resumen de Oracle contiene fragmentos en inglés dentro de frases en español; ver needs_human."
+  ]
+}

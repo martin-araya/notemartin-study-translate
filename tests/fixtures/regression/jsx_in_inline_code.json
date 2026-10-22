@@ -1,0 +1,10 @@
+{
+  "case_id": "jsx_in_inline_code",
+  "case": {},
+  "positive": {
+    "document": "El tipo de anotación debe tener la forma `Array<T>` o `T[]`.\n"
+  },
+  "negative": {
+    "document": "El documento usa <Info> como componente de documentación.\n"
+  }
+}

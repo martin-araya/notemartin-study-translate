@@ -1,0 +1,58 @@
+{
+  "generated_at": "2026-10-20T15:28:51Z",
+  "skill": "notemartin-study-translate",
+  "schema_version": "1",
+  "destinations": [
+    {
+      "destination_id": "notion-manual",
+      "name": "Notion (importación manual)",
+      "kind": "canonical",
+      "delivery_profile": null,
+      "import_method": "manual",
+      "activation": "explicit",
+      "evidence_kind": "user_reported",
+      "real_app_evidence": false,
+      "verified": false,
+      "cases": [
+        "tests/test_import_evidence.py::test_template_nace_sin_verificar",
+        "tests/test_import_evidence.py::test_evidencia_con_revisor_humano_se_acepta",
+        "tests/fixtures/delivery/canonical/"
+      ],
+      "limitations": [
+        "La navegación remota, el render de tablas, código e imágenes no los verifica la skill.",
+        "Un Markdown válido no demuestra que Notion conserve la construcción.",
+        "El comportamiento puede cambiar entre versiones de Notion."
+      ],
+      "notes": "Destino canónico del núcleo. El estado remoto vive en import_evidence.json."
+    },
+    {
+      "destination_id": "plain-markdown-local",
+      "name": "Markdown plano local (adaptador interno)",
+      "kind": "local_adapter",
+      "delivery_profile": "references/delivery-profiles/plain-markdown-local.json",
+      "import_method": "filesystem",
+      "activation": "explicit",
+      "evidence_kind": "local_fixture_only",
+      "real_app_evidence": false,
+      "verified": false,
+      "cases": [
+        "tests/test_adapt_delivery.py",
+        "tests/test_compare_delivery.py",
+        "tests/fixtures/delivery/canonical/"
+      ],
+      "limitations": [
+        "No se ha probado en una aplicación de escritorio: la evidencia es de fixtures locales.",
+        "Renombrar recursos rompe los enlaces externos que usen la ruta antigua.",
+        "La adaptación solo cubre rutas y nombres; no resuelve destinos que no acepten Markdown."
+      ],
+      "notes": "Existe porque no hay ningún importador local instalado en el entorno de desarrollo.",
+      "profile_version": "1.0.0",
+      "rules": [
+        "relative-resource-paths",
+        "ascii-resource-names"
+      ]
+    }
+  ],
+  "any_verified": false,
+  "note": "La matriz describe qué se puede preparar, no qué funciona en cada destino. Un destino solo pasa a verified con evidencia aportada por una persona."
+}

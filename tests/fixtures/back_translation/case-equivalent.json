@@ -1,0 +1,8 @@
+{
+  "case_id": "bt-equivalent",
+  "category": "equivalent",
+  "source_text": "Press the red button.",
+  "translated_text": "Pulsa el botón rojo.",
+  "expected_outcome": "agree_match",
+  "expected_should_be_caught": false
+}

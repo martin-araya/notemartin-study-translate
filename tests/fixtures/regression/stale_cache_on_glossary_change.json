@@ -1,0 +1,18 @@
+{
+  "case_id": "stale_cache_on_glossary_change",
+  "case": {
+    "current_glossary_hash": "9999bbbb"
+  },
+  "positive": {
+    "entries": [
+      { "segment_id": "seg-0001", "glossary_hash": "9999bbbb" },
+      { "segment_id": "seg-0002", "glossary_hash": "9999bbbb" }
+    ]
+  },
+  "negative": {
+    "entries": [
+      { "segment_id": "seg-0001", "glossary_hash": "1111aaaa" },
+      { "segment_id": "seg-0002", "glossary_hash": "1111aaaa" }
+    ]
+  }
+}

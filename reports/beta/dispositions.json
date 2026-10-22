@@ -1,0 +1,94 @@
+{
+  "segments_examined": 8012,
+  "segments_resolved": 8012,
+  "transitions": {
+    "mixed_or_code": {
+      "code_skip": 2166,
+      "too_short": 14,
+      "translatable": 90
+    },
+    "too_short": {
+      "code_skip": 2649,
+      "too_short": 164
+    },
+    "unknown": {
+      "translatable": 562,
+      "code_skip": 2260,
+      "too_short": 107
+    }
+  },
+  "reason_kinds": {
+    "mixed_or_code": {
+      "solo literales protegidos": 2150,
+      "identificador o ruta, no prosa": 16,
+      "2 palabras por debajo del mínimo 3": 5,
+      "3 palabras de prosa traducible": 6,
+      "8 palabras de prosa traducible": 9,
+      "6 palabras de prosa traducible": 1,
+      "5 palabras de prosa traducible": 12,
+      "10 palabras de prosa traducible": 3,
+      "4 palabras de prosa traducible": 2,
+      "11 palabras de prosa traducible": 3,
+      "0 palabras por debajo del mínimo 3": 9,
+      "20 palabras de prosa traducible": 6,
+      "18 palabras de prosa traducible": 7,
+      "15 palabras de prosa traducible": 4,
+      "24 palabras de prosa traducible": 3,
+      "14 palabras de prosa traducible": 3,
+      "12 palabras de prosa traducible": 1,
+      "9 palabras de prosa traducible": 1,
+      "7 palabras de prosa traducible": 1,
+      "25 palabras de prosa traducible": 3,
+      "19 palabras de prosa traducible": 5,
+      "23 palabras de prosa traducible": 4,
+      "17 palabras de prosa traducible": 2,
+      "16 palabras de prosa traducible": 8,
+      "13 palabras de prosa traducible": 2,
+      "21 palabras de prosa traducible": 2,
+      "22 palabras de prosa traducible": 2
+    },
+    "too_short": {
+      "solo literales protegidos": 1284,
+      "identificador o ruta, no prosa": 1365,
+      "2 palabras por debajo del mínimo 3": 20,
+      "1 palabras por debajo del mínimo 3": 83,
+      "0 palabras por debajo del mínimo 3": 61
+    },
+    "unknown": {
+      "4 palabras de prosa traducible": 159,
+      "solo literales protegidos": 1555,
+      "5 palabras de prosa traducible": 104,
+      "identificador o ruta, no prosa": 705,
+      "3 palabras de prosa traducible": 189,
+      "2 palabras por debajo del mínimo 3": 97,
+      "8 palabras de prosa traducible": 15,
+      "7 palabras de prosa traducible": 19,
+      "6 palabras de prosa traducible": 31,
+      "16 palabras de prosa traducible": 2,
+      "9 palabras de prosa traducible": 8,
+      "11 palabras de prosa traducible": 5,
+      "10 palabras de prosa traducible": 8,
+      "24 palabras de prosa traducible": 3,
+      "14 palabras de prosa traducible": 6,
+      "1 palabras por debajo del mínimo 3": 10,
+      "33 palabras de prosa traducible": 1,
+      "12 palabras de prosa traducible": 2,
+      "17 palabras de prosa traducible": 1,
+      "19 palabras de prosa traducible": 2,
+      "15 palabras de prosa traducible": 1,
+      "22 palabras de prosa traducible": 1,
+      "13 palabras de prosa traducible": 1,
+      "20 palabras de prosa traducible": 3,
+      "25 palabras de prosa traducible": 1
+    }
+  },
+  "dispositions_after": {
+    "translatable": 44293,
+    "code_skip": 19443,
+    "no_text": 5654,
+    "already_target": 1297,
+    "too_short": 285
+  },
+  "min_words": 3,
+  "written": false
+}

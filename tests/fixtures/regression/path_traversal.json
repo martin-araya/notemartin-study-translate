@@ -1,0 +1,12 @@
+{
+  "case_id": "path_traversal",
+  "case": {
+    "root": "corpus"
+  },
+  "positive": {
+    "paths": ["api/v1/intro.md", "docs/guide/setup.md"]
+  },
+  "negative": {
+    "paths": ["docs/guide/setup.md", "../outside/secrets.md"]
+  }
+}

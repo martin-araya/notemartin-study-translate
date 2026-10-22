@@ -1,0 +1,33 @@
+import { Tabs, TabItem } from '@site/src/components';
+
+export const languages = ['Node.js', 'Python', 'Go'];
+
+<Tabs defaultValue="node">
+  <TabItem value="node" label="Node.js">
+Install the package with `npm install client` and require it in your script.
+
+```js
+const client = require('client');
+client.start();
+```
+  </TabItem>
+  <TabItem value="python" label="Python">
+Install the package with `pip install client` and import it in your module.
+
+```python
+import client
+client.start()
+```
+  </TabItem>
+  <TabItem value="go" label="Go">
+Install the package with `go get example.com/client` and import it.
+
+```go
+import "example.com/client"
+
+func main() { client.Start() }
+```
+  </TabItem>
+</Tabs>
+
+Each snippet uses the same protocol and returns `{ok: true}` on success.

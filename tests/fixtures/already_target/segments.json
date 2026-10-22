@@ -1,0 +1,50 @@
+{
+  "source_root": "/fixtures/already_target",
+  "files": [
+    {
+      "document_id": "doc-1a2b3c4d",
+      "path": "oracle/resúmenes/01.md",
+      "source_hash": "0000000000000000000000000000000000000000000000000000000000000001",
+      "segments": [
+        {
+          "segment_id": "seg-11111111",
+          "structural_type": "paragraph",
+          "disposition": "already_target",
+          "translatable_text": "El tipo VECTOR es la base para almacenar embeddings vectoriales."
+        },
+        {
+          "segment_id": "seg-22222222",
+          "structural_type": "heading",
+          "disposition": "already_target",
+          "translatable_text": "Guidelines for Vector Indexes"
+        }
+      ]
+    },
+    {
+      "document_id": "doc-5e6f7a8b",
+      "path": "angular/api/x.md",
+      "source_hash": "0000000000000000000000000000000000000000000000000000000000000002",
+      "segments": [
+        {
+          "segment_id": "seg-33333333",
+          "structural_type": "paragraph",
+          "disposition": "already_target",
+          "translatable_text": "Type Alias\nstable"
+        }
+      ]
+    },
+    {
+      "document_id": "doc-9c0d1e2f",
+      "path": "nextjs/y.md",
+      "source_hash": "0000000000000000000000000000000000000000000000000000000000000003",
+      "segments": [
+        {
+          "segment_id": "seg-44444444",
+          "structural_type": "paragraph",
+          "disposition": "translatable",
+          "translatable_text": "This paragraph is English and must be translated."
+        }
+      ]
+    }
+  ]
+}

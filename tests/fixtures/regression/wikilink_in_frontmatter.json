@@ -1,0 +1,10 @@
+{
+  "case_id": "wikilink_in_frontmatter",
+  "case": {},
+  "positive": {
+    "document": "---\naliases:\n  - \"[[term:physical-storage-structure]]\"\n  - \"[[term:data-file]]\"\n---\n\nEl cuerpo del documento no usa wikilinks.\n"
+  },
+  "negative": {
+    "document": "El cuerpo del documento enlaza con [[term:physical-storage-structure]].\n"
+  }
+}

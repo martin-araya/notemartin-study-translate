@@ -1,0 +1,92 @@
+{
+  "source_root": "/Users/martin/Desktop/projects/Skills/notemartin-study-translate/tests/fixtures/es-es",
+  "context_budget": 8000,
+  "markers": "§§",
+  "mixed_profile": null,
+  "generated_at": "2026-10-20T14:11:27Z",
+  "total_packets": 4,
+  "validation_errors": [],
+  "packets": [
+    {
+      "packet_id": "pack-33d416f2",
+      "document_id": "doc-a727f998",
+      "path": "web-css.md",
+      "owner": "pack-45c7dd64",
+      "markers": "§§",
+      "segments": [
+        "seg-12c0730a",
+        "seg-a92daf1a"
+      ],
+      "source_language": "mixed",
+      "non_emitible_context": [
+        "seg-208554c7",
+        "seg-8acc9c90",
+        "seg-0c10b5e0"
+      ],
+      "total_chars": 34,
+      "translatable_text": "title: CSS\nslug: Web/CSS\n\nTutoriales",
+      "translatable_text_with_markers": "title: CSS\nslug: Web/CSS\n\nTutoriales",
+      "overflow": false
+    },
+    {
+      "packet_id": "pack-9779fcf2",
+      "document_id": "doc-5b616001",
+      "path": "web-html.md",
+      "owner": "pack-eeb6ab18",
+      "markers": "§§",
+      "segments": [
+        "seg-1dba8ffc"
+      ],
+      "source_language": "mixed",
+      "non_emitible_context": [
+        "seg-801cfa38"
+      ],
+      "total_chars": 134,
+      "translatable_text": "title: Referencia HTML\nshort-title: Referencia\nslug: Web/HTML/Reference\nl10n:\n  sourceCommit: 0754cd805a8e010d2e3a2a065f634a3bcf358252",
+      "translatable_text_with_markers": "title: Referencia HTML\nshort-title: Referencia\nslug: Web/HTML/Reference\nl10n:\n  sourceCommit: 0754cd805a8e010d2e3a2a065f634a3bcf358252",
+      "overflow": false
+    },
+    {
+      "packet_id": "pack-cb990ba6",
+      "document_id": "doc-2e7ef047",
+      "path": "web-index.md",
+      "owner": "pack-74aa8c7d",
+      "markers": "§§",
+      "segments": [
+        "seg-1c52946f"
+      ],
+      "source_language": "mixed",
+      "non_emitible_context": [
+        "seg-55f053c1"
+      ],
+      "total_chars": 132,
+      "translatable_text": "title: Tecnología web para desarrolladores\nshort-title: Web\nslug: Web\nl10n:\n  sourceCommit: f4c0e822eb6a1ea438c7342f43a3e4809adbd56a",
+      "translatable_text_with_markers": "title: Tecnología web para desarrolladores\nshort-title: Web\nslug: Web\nl10n:\n  sourceCommit: f4c0e822eb6a1ea438c7342f43a3e4809adbd56a",
+      "overflow": false
+    },
+    {
+      "packet_id": "pack-9a2b5bb3",
+      "document_id": "doc-20864b93",
+      "path": "web-javascript.md",
+      "owner": "pack-60cd5808",
+      "markers": "§§",
+      "segments": [
+        "seg-05e37037",
+        "seg-975359f6",
+        "seg-a519f6bf"
+      ],
+      "source_language": "mixed",
+      "non_emitible_context": [
+        "seg-5d2c68f2",
+        "seg-75d5171c",
+        "seg-339cb728",
+        "seg-f85518ee",
+        "seg-198173cf"
+      ],
+      "total_chars": 214,
+      "translatable_text": "title: JavaScript\nslug: Web/JavaScript\nl10n:\n  sourceCommit: 04158640487c17d515de8078c9307a2f906377d0\n\nIntermedio\n\nConsulta la documentación completa de la [referencia de JavaScript](/es/docs/Web/JavaScript/Reference).",
+      "translatable_text_with_markers": "title: JavaScript\nslug: Web/JavaScript\nl10n:\n  sourceCommit: 04158640487c17d515de8078c9307a2f906377d0\n\nIntermedio\n\nConsulta la documentación completa de la [referencia de JavaScript](/es/docs/Web/JavaScript/Reference).",
+      "overflow": false
+    }
+  ]
+}

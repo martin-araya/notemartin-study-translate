@@ -1,0 +1,550 @@
+{
+  "generated_at": "2026-10-21T00:41:15Z",
+  "checks_enabled": [
+    "coverage",
+    "destinations",
+    "protection",
+    "source-debt",
+    "structure"
+  ],
+  "results": {
+    "structure": {
+      "errors": [],
+      "warnings": [],
+      "info": []
+    },
+    "protection": {
+      "errors": [],
+      "warnings": [],
+      "info": []
+    },
+    "flag_loss": {
+      "errors": [],
+      "warnings": [],
+      "info": []
+    },
+    "destinations": {
+      "errors": [],
+      "warnings": [],
+      "info": []
+    },
+    "coverage": {
+      "errors": [],
+      "warnings": [],
+      "info": [
+        {
+          "manifest": "manifest.json",
+          "coverage": {
+            "total": 17,
+            "integrated": 17,
+            "blocked": 0,
+            "excluded": 0,
+            "invalid": 0,
+            "pending": 0,
+            "integrated_ratio": 1.0,
+            "blocked_ratio": 0.0,
+            "excluded_ratio": 0.0
+          },
+          "integrity_ok": true,
+          "files_by_state": {
+            "already_target": 17
+          },
+          "unknown_states": []
+        }
+      ]
+    },
+    "source-debt": {
+      "errors": [],
+      "warnings": [],
+      "info": [
+        {
+          "path": "oracle/resúmenes/04_Get_Started_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/04_Get_Started/p025_xI1.jpg"
+        },
+        {
+          "path": "oracle/resúmenes/05_Generate_Vector_Embeddings_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/05_Generate_Vector_Embeddings/p006_fb00.png"
+        },
+        {
+          "path": "oracle/resúmenes/05_Generate_Vector_Embeddings_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/05_Generate_Vector_Embeddings/p116_fb00.png"
+        },
+        {
+          "path": "oracle/resúmenes/05_Generate_Vector_Embeddings_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/05_Generate_Vector_Embeddings/p116_fb01.png"
+        },
+        {
+          "path": "oracle/resúmenes/05_Generate_Vector_Embeddings_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/05_Generate_Vector_Embeddings/p117_fb00.png"
+        },
+        {
+          "path": "oracle/resúmenes/05_Generate_Vector_Embeddings_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/05_Generate_Vector_Embeddings/p118_fb00.png"
+        },
+        {
+          "path": "oracle/resúmenes/05_Generate_Vector_Embeddings_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/05_Generate_Vector_Embeddings/p119_fb00.png"
+        },
+        {
+          "path": "oracle/resúmenes/05_Generate_Vector_Embeddings_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/05_Generate_Vector_Embeddings/p120_fb00.png"
+        },
+        {
+          "path": "oracle/resúmenes/05_Generate_Vector_Embeddings_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/05_Generate_Vector_Embeddings/p121_fb00.png"
+        },
+        {
+          "path": "oracle/resúmenes/05_Generate_Vector_Embeddings_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/05_Generate_Vector_Embeddings/p122_fb00.png"
+        },
+        {
+          "path": "oracle/resúmenes/05_Generate_Vector_Embeddings_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/05_Generate_Vector_Embeddings/p123_fb00.png"
+        },
+        {
+          "path": "oracle/resúmenes/05_Generate_Vector_Embeddings_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/05_Generate_Vector_Embeddings/p124_fb00.png"
+        },
+        {
+          "path": "oracle/resúmenes/05_Generate_Vector_Embeddings_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/05_Generate_Vector_Embeddings/p125_fb00.png"
+        },
+        {
+          "path": "oracle/resúmenes/05_Generate_Vector_Embeddings_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/05_Generate_Vector_Embeddings/p126_fb00.png"
+        },
+        {
+          "path": "oracle/resúmenes/05_Generate_Vector_Embeddings_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/05_Generate_Vector_Embeddings/p127_fb00.png"
+        },
+        {
+          "path": "oracle/resúmenes/05_Generate_Vector_Embeddings_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/05_Generate_Vector_Embeddings/p128_fb00.png"
+        },
+        {
+          "path": "oracle/resúmenes/05_Generate_Vector_Embeddings_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/05_Generate_Vector_Embeddings/p129_fb00.png"
+        },
+        {
+          "path": "oracle/resúmenes/05_Generate_Vector_Embeddings_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/05_Generate_Vector_Embeddings/p130_fb00.png"
+        },
+        {
+          "path": "oracle/resúmenes/05_Generate_Vector_Embeddings_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/05_Generate_Vector_Embeddings/p131_fb00.png"
+        },
+        {
+          "path": "oracle/resúmenes/07_Create_Vector_Indexes_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/07_Create_Vector_Indexes/p007_xI1.png"
+        },
+        {
+          "path": "oracle/resúmenes/07_Create_Vector_Indexes_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/07_Create_Vector_Indexes/p009_xI1.png"
+        },
+        {
+          "path": "oracle/resúmenes/07_Create_Vector_Indexes_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/07_Create_Vector_Indexes/p010_xI1.png"
+        },
+        {
+          "path": "oracle/resúmenes/07_Create_Vector_Indexes_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/07_Create_Vector_Indexes/p014_xI1.png"
+        },
+        {
+          "path": "oracle/resúmenes/07_Create_Vector_Indexes_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/07_Create_Vector_Indexes/p015_xI1.png"
+        },
+        {
+          "path": "oracle/resúmenes/07_Create_Vector_Indexes_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/07_Create_Vector_Indexes/p035_xI1.png"
+        },
+        {
+          "path": "oracle/resúmenes/07_Create_Vector_Indexes_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/07_Create_Vector_Indexes/p035_xI2.png"
+        },
+        {
+          "path": "oracle/resúmenes/07_Create_Vector_Indexes_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/07_Create_Vector_Indexes/p036_xI1.png"
+        },
+        {
+          "path": "oracle/resúmenes/07_Create_Vector_Indexes_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/07_Create_Vector_Indexes/p037_xI1.png"
+        },
+        {
+          "path": "oracle/resúmenes/07_Create_Vector_Indexes_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/07_Create_Vector_Indexes/p037_xI2.png"
+        },
+        {
+          "path": "oracle/resúmenes/07_Create_Vector_Indexes_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/07_Create_Vector_Indexes/p038_xI1.png"
+        },
+        {
+          "path": "oracle/resúmenes/07_Create_Vector_Indexes_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/07_Create_Vector_Indexes/p040_fb00.png"
+        },
+        {
+          "path": "oracle/resúmenes/07_Create_Vector_Indexes_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/07_Create_Vector_Indexes/p041_fb00.png"
+        },
+        {
+          "path": "oracle/resúmenes/07_Create_Vector_Indexes_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/07_Create_Vector_Indexes/p053_xI1.png"
+        },
+        {
+          "path": "oracle/resúmenes/07_Create_Vector_Indexes_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/07_Create_Vector_Indexes/p054_xI1.png"
+        },
+        {
+          "path": "oracle/resúmenes/07_Create_Vector_Indexes_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/07_Create_Vector_Indexes/p054_xI2.png"
+        },
+        {
+          "path": "oracle/resúmenes/07_Create_Vector_Indexes_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/07_Create_Vector_Indexes/p055_xI1.png"
+        },
+        {
+          "path": "oracle/resúmenes/07_Create_Vector_Indexes_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/07_Create_Vector_Indexes/p062_fb00.png"
+        },
+        {
+          "path": "oracle/resúmenes/07_Create_Vector_Indexes_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/07_Create_Vector_Indexes/p080_fb00.png"
+        },
+        {
+          "path": "oracle/resúmenes/07_Create_Vector_Indexes_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/07_Create_Vector_Indexes/p009_xI1.png"
+        },
+        {
+          "path": "oracle/resúmenes/07_Create_Vector_Indexes_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/07_Create_Vector_Indexes/p010_xI1.png"
+        },
+        {
+          "path": "oracle/resúmenes/07_Create_Vector_Indexes_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/07_Create_Vector_Indexes/p014_xI1.png"
+        },
+        {
+          "path": "oracle/resúmenes/07_Create_Vector_Indexes_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/07_Create_Vector_Indexes/p015_xI1.png"
+        },
+        {
+          "path": "oracle/resúmenes/07_Create_Vector_Indexes_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/07_Create_Vector_Indexes/p035_xI1.png"
+        },
+        {
+          "path": "oracle/resúmenes/07_Create_Vector_Indexes_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/07_Create_Vector_Indexes/p035_xI2.png"
+        },
+        {
+          "path": "oracle/resúmenes/07_Create_Vector_Indexes_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/07_Create_Vector_Indexes/p036_xI1.png"
+        },
+        {
+          "path": "oracle/resúmenes/07_Create_Vector_Indexes_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/07_Create_Vector_Indexes/p037_xI1.png"
+        },
+        {
+          "path": "oracle/resúmenes/07_Create_Vector_Indexes_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/07_Create_Vector_Indexes/p037_xI2.png"
+        },
+        {
+          "path": "oracle/resúmenes/07_Create_Vector_Indexes_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/07_Create_Vector_Indexes/p038_xI1.png"
+        },
+        {
+          "path": "oracle/resúmenes/07_Create_Vector_Indexes_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/07_Create_Vector_Indexes/p040_fb00.png"
+        },
+        {
+          "path": "oracle/resúmenes/07_Create_Vector_Indexes_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/07_Create_Vector_Indexes/p041_fb00.png"
+        },
+        {
+          "path": "oracle/resúmenes/07_Create_Vector_Indexes_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/07_Create_Vector_Indexes/p053_xI1.png"
+        },
+        {
+          "path": "oracle/resúmenes/07_Create_Vector_Indexes_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/07_Create_Vector_Indexes/p054_xI1.png"
+        },
+        {
+          "path": "oracle/resúmenes/07_Create_Vector_Indexes_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/07_Create_Vector_Indexes/p054_xI2.png"
+        },
+        {
+          "path": "oracle/resúmenes/07_Create_Vector_Indexes_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/07_Create_Vector_Indexes/p055_xI1.png"
+        },
+        {
+          "path": "oracle/resúmenes/07_Create_Vector_Indexes_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/07_Create_Vector_Indexes/p080_fb00.png"
+        },
+        {
+          "path": "oracle/resúmenes/08_SQL_Functions_Vector_Operations_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/08_SQL_Functions_Vector_Operations/p004_xI1.png"
+        },
+        {
+          "path": "oracle/resúmenes/08_SQL_Functions_Vector_Operations_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/08_SQL_Functions_Vector_Operations/p005_xI1.png"
+        },
+        {
+          "path": "oracle/resúmenes/08_SQL_Functions_Vector_Operations_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/08_SQL_Functions_Vector_Operations/p006_fb00.png"
+        },
+        {
+          "path": "oracle/resúmenes/08_SQL_Functions_Vector_Operations_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/08_SQL_Functions_Vector_Operations/p007_xI1.png"
+        },
+        {
+          "path": "oracle/resúmenes/08_SQL_Functions_Vector_Operations_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/08_SQL_Functions_Vector_Operations/p008_xI1.png"
+        },
+        {
+          "path": "oracle/resúmenes/08_SQL_Functions_Vector_Operations_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/08_SQL_Functions_Vector_Operations/p009_xI1.png"
+        },
+        {
+          "path": "oracle/resúmenes/08_SQL_Functions_Vector_Operations_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/08_SQL_Functions_Vector_Operations/p042_xI1.png"
+        },
+        {
+          "path": "oracle/resúmenes/08_SQL_Functions_Vector_Operations_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/08_SQL_Functions_Vector_Operations/p044_xI1.png"
+        },
+        {
+          "path": "oracle/resúmenes/08_SQL_Functions_Vector_Operations_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/08_SQL_Functions_Vector_Operations/p046_xI1.png"
+        },
+        {
+          "path": "oracle/resúmenes/09_Query_Similarity_Hybrid_Searches_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/09_Query_Similarity_Hybrid_Searches/p001_xI1.png"
+        },
+        {
+          "path": "oracle/resúmenes/09_Query_Similarity_Hybrid_Searches_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/09_Query_Similarity_Hybrid_Searches/p004_xI1.png"
+        },
+        {
+          "path": "oracle/resúmenes/09_Query_Similarity_Hybrid_Searches_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/09_Query_Similarity_Hybrid_Searches/p004_xI2.png"
+        },
+        {
+          "path": "oracle/resúmenes/09_Query_Similarity_Hybrid_Searches_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/09_Query_Similarity_Hybrid_Searches/p005_xI1.png"
+        },
+        {
+          "path": "oracle/resúmenes/09_Query_Similarity_Hybrid_Searches_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/09_Query_Similarity_Hybrid_Searches/p005_xI2.png"
+        },
+        {
+          "path": "oracle/resúmenes/09_Query_Similarity_Hybrid_Searches_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/09_Query_Similarity_Hybrid_Searches/p004_xI1.png"
+        },
+        {
+          "path": "oracle/resúmenes/09_Query_Similarity_Hybrid_Searches_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/09_Query_Similarity_Hybrid_Searches/p004_xI2.png"
+        },
+        {
+          "path": "oracle/resúmenes/09_Query_Similarity_Hybrid_Searches_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/09_Query_Similarity_Hybrid_Searches/p005_xI1.png"
+        },
+        {
+          "path": "oracle/resúmenes/09_Query_Similarity_Hybrid_Searches_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/09_Query_Similarity_Hybrid_Searches/p005_xI2.png"
+        },
+        {
+          "path": "oracle/resúmenes/09_Query_Similarity_Hybrid_Searches_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/09_Query_Similarity_Hybrid_Searches/p036_xI1.png"
+        },
+        {
+          "path": "oracle/resúmenes/09_Query_Similarity_Hybrid_Searches_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/09_Query_Similarity_Hybrid_Searches/p037_xI1.png"
+        },
+        {
+          "path": "oracle/resúmenes/09_Query_Similarity_Hybrid_Searches_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/09_Query_Similarity_Hybrid_Searches/p038_xI1.png"
+        },
+        {
+          "path": "oracle/resúmenes/09_Query_Similarity_Hybrid_Searches_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/09_Query_Similarity_Hybrid_Searches/p040_fb00.png"
+        },
+        {
+          "path": "oracle/resúmenes/09_Query_Similarity_Hybrid_Searches_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/09_Query_Similarity_Hybrid_Searches/p044_fb00.png"
+        },
+        {
+          "path": "oracle/resúmenes/09_Query_Similarity_Hybrid_Searches_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/09_Query_Similarity_Hybrid_Searches/p045_fb00.png"
+        },
+        {
+          "path": "oracle/resúmenes/09_Query_Similarity_Hybrid_Searches_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/09_Query_Similarity_Hybrid_Searches/p047_fb00.png"
+        },
+        {
+          "path": "oracle/resúmenes/09_Query_Similarity_Hybrid_Searches_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/09_Query_Similarity_Hybrid_Searches/p048_xI1.png"
+        },
+        {
+          "path": "oracle/resúmenes/09_Query_Similarity_Hybrid_Searches_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/09_Query_Similarity_Hybrid_Searches/p036_xI1.png"
+        },
+        {
+          "path": "oracle/resúmenes/09_Query_Similarity_Hybrid_Searches_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/09_Query_Similarity_Hybrid_Searches/p037_xI1.png"
+        },
+        {
+          "path": "oracle/resúmenes/09_Query_Similarity_Hybrid_Searches_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/09_Query_Similarity_Hybrid_Searches/p038_xI1.png"
+        },
+        {
+          "path": "oracle/resúmenes/09_Query_Similarity_Hybrid_Searches_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/09_Query_Similarity_Hybrid_Searches/p040_fb00.png"
+        },
+        {
+          "path": "oracle/resúmenes/09_Query_Similarity_Hybrid_Searches_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/09_Query_Similarity_Hybrid_Searches/p044_fb00.png"
+        },
+        {
+          "path": "oracle/resúmenes/09_Query_Similarity_Hybrid_Searches_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/09_Query_Similarity_Hybrid_Searches/p045_fb00.png"
+        },
+        {
+          "path": "oracle/resúmenes/09_Query_Similarity_Hybrid_Searches_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/09_Query_Similarity_Hybrid_Searches/p047_fb00.png"
+        },
+        {
+          "path": "oracle/resúmenes/09_Query_Similarity_Hybrid_Searches_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/09_Query_Similarity_Hybrid_Searches/p048_xI1.png"
+        },
+        {
+          "path": "oracle/resúmenes/10_LLM_APIs_and_RAG_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/10_LLM_APIs_and_RAG/p030_xI1.jpg"
+        },
+        {
+          "path": "oracle/resúmenes/10_LLM_APIs_and_RAG_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/10_LLM_APIs_and_RAG/p036_xI1.jpg"
+        },
+        {
+          "path": "oracle/resúmenes/10_LLM_APIs_and_RAG_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/10_LLM_APIs_and_RAG/p030_xI1.jpg"
+        },
+        {
+          "path": "oracle/resúmenes/10_LLM_APIs_and_RAG_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/10_LLM_APIs_and_RAG/p036_xI1.jpg"
+        },
+        {
+          "path": "oracle/resúmenes/10_LLM_APIs_and_RAG_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/10_LLM_APIs_and_RAG/p030_xI1.jpg"
+        },
+        {
+          "path": "oracle/resúmenes/10_LLM_APIs_and_RAG_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/10_LLM_APIs_and_RAG/p036_xI1.jpg"
+        },
+        {
+          "path": "oracle/resúmenes/10_LLM_APIs_and_RAG_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/10_LLM_APIs_and_RAG/p041_xI1.jpg"
+        },
+        {
+          "path": "oracle/resúmenes/10_LLM_APIs_and_RAG_resumen.md",
+          "kind": "source_debt_missing_target",
+          "message": "el destino no existe en la fuente: resúmenes/assets/10_LLM_APIs_and_RAG/p041_xI1.jpg"
+        }
+      ]
+    }
+  },
+  "errors": [],
+  "ok": true
+}

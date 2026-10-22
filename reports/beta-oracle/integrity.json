@@ -1,0 +1,19 @@
+{
+  "manifest": "manifest.json",
+  "coverage": {
+    "total": 17,
+    "integrated": 17,
+    "blocked": 0,
+    "excluded": 0,
+    "invalid": 0,
+    "pending": 0,
+    "integrated_ratio": 1.0,
+    "blocked_ratio": 0.0,
+    "excluded_ratio": 0.0
+  },
+  "integrity_ok": true,
+  "files_by_state": {
+    "already_target": 17
+  },
+  "unknown_states": []
+}

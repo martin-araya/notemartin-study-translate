@@ -1,0 +1,129 @@
+{
+  "generated_at": "2026-10-22T18:00:10Z",
+  "skill": "notemartin-study-translate",
+  "schema_version": "110",
+  "threshold_human_approved": 3,
+  "stable": false,
+  "human_approved_count": 1,
+  "pairs": [
+    {
+      "pair": "en-es",
+      "locale": "es",
+      "evaluation_kind": "human_approved",
+      "reviewer_status": "human_approved",
+      "human_reviewer": "núcleo-0.1.0",
+      "corpus": "tests/fixtures/pilot/",
+      "limits": [
+        "CommonMark + GFM básico",
+        "Mermaid preservado"
+      ],
+      "policy_path": null,
+      "rtl": false
+    },
+    {
+      "pair": "fr-es",
+      "locale": "es",
+      "evaluation_kind": "assisted",
+      "reviewer_status": "assisted_only_pending_human",
+      "human_reviewer": null,
+      "corpus": "tests/fixtures/pilot-fr/",
+      "limits": [
+        "revisión asistida pendiente de firma humana nativa en fr",
+        "corpus derivado CC0 (sustitución cuando se activen 071-080)"
+      ],
+      "policy_path": "references/source-language-policy-fr.md",
+      "rtl": false
+    },
+    {
+      "pair": "en-es-ES",
+      "locale": "es-ES",
+      "evaluation_kind": "assisted",
+      "reviewer_status": "assisted_only_pending_human",
+      "human_reviewer": null,
+      "corpus": "tests/fixtures/es-es/",
+      "limits": [
+        "voseo desactivado, vosotros activo",
+        "firma humana nativa pendiente"
+      ],
+      "policy_path": "references/locale-policy.md",
+      "rtl": false
+    },
+    {
+      "pair": "en-es-MX",
+      "locale": "es-MX",
+      "evaluation_kind": "assisted",
+      "reviewer_status": "assisted_only_pending_human",
+      "human_reviewer": null,
+      "corpus": "tests/fixtures/es-mx/",
+      "limits": [
+        "usted por defecto, sin vosotros",
+        "firma humana nativa pendiente",
+        "corpus derivado CC0"
+      ],
+      "policy_path": "references/locale-policy.md",
+      "rtl": false
+    },
+    {
+      "pair": "en-es-AR",
+      "locale": "es-AR",
+      "evaluation_kind": "assisted",
+      "reviewer_status": "assisted_only_pending_human",
+      "human_reviewer": null,
+      "corpus": "tests/fixtures/es-ar/",
+      "limits": [
+        "voseo rioplatense",
+        "firma humana nativa pendiente",
+        "corpus derivado CC0"
+      ],
+      "policy_path": "references/locale-policy.md",
+      "rtl": false
+    },
+    {
+      "pair": "ar-es",
+      "locale": "es",
+      "evaluation_kind": "assisted",
+      "reviewer_status": "assisted_only_pending_human",
+      "human_reviewer": null,
+      "corpus": "tests/fixtures/rtl/",
+      "limits": [
+        "RTL preservado byte-a-byte",
+        "render no comprobado por el importador",
+        "firma humana nativa pendiente"
+      ],
+      "policy_path": "references/rtl-policy.md",
+      "rtl": true
+    }
+  ],
+  "planned_pairs": [
+    {
+      "pair": "en-es-CL",
+      "locale": "es-CL",
+      "rationale": "Chile pendiente del lote 110+"
+    },
+    {
+      "pair": "en-es-CO",
+      "locale": "es-CO",
+      "rationale": "Colombia pendiente del lote 110+"
+    },
+    {
+      "pair": "he-es",
+      "locale": "es",
+      "rationale": "Hebreo→Español pendiente"
+    },
+    {
+      "pair": "pt-es",
+      "locale": "es",
+      "rationale": "Portugués→Español pendiente"
+    },
+    {
+      "pair": "en-pt-BR",
+      "locale": "pt-BR",
+      "rationale": "Salida en portugués pendiente"
+    }
+  ],
+  "notes": [
+    "Las entradas con evaluation_kind=human_approved acreditan firma humana real.",
+    "Las entradas con evaluation_kind=assisted cumplen los gates deterministas; no demuestran equivalencia semántica.",
+    "El par he→es y los demás RTL están sujetos a la fase 108 (fixtures bidireccionales)."
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "case_id": "route_collision_case_only",
+  "case": {},
+  "positive": {
+    "paths": ["Guia.md", "resumen.md"]
+  },
+  "negative": {
+    "paths": ["Guia.md", "guia.md"]
+  }
+}

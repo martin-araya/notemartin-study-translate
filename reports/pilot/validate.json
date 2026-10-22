@@ -1,0 +1,63 @@
+{
+  "generated_at": "2026-10-20T18:29:06Z",
+  "checks_enabled": [
+    "coverage",
+    "destinations",
+    "protection",
+    "source-debt",
+    "structure"
+  ],
+  "results": {
+    "structure": {
+      "errors": [],
+      "warnings": [],
+      "info": []
+    },
+    "protection": {
+      "errors": [],
+      "warnings": [],
+      "info": []
+    },
+    "flag_loss": {
+      "errors": [],
+      "warnings": [],
+      "info": []
+    },
+    "destinations": {
+      "errors": [],
+      "warnings": [],
+      "info": []
+    },
+    "coverage": {
+      "errors": [],
+      "warnings": [],
+      "info": [
+        {
+          "manifest": "manifest.json",
+          "coverage": {
+            "total": 9,
+            "integrated": 9,
+            "blocked": 0,
+            "excluded": 0,
+            "invalid": 0,
+            "pending": 0,
+            "integrated_ratio": 1.0,
+            "blocked_ratio": 0.0,
+            "excluded_ratio": 0.0
+          },
+          "integrity_ok": true,
+          "files_by_state": {
+            "translated": 9
+          }
+        }
+      ]
+    },
+    "source-debt": {
+      "errors": [],
+      "warnings": [],
+      "info": []
+    }
+  },
+  "errors": [],
+  "ok": true
+}

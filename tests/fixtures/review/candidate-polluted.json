@@ -1,0 +1,9 @@
+{
+  "kind": "candidate",
+  "worker_id": "W1",
+  "packet_id": "pack-33d416f2",
+  "content": null,
+  "from_state": "translated",
+  "to_state": "deterministic_pass",
+  "author_notes": "Tuve que cambiar 'state' por 'estado' en el encabezado."
+}

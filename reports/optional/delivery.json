@@ -1,0 +1,170 @@
+{
+  "module_id": "delivery",
+  "generated_at": "2026-10-22T17:58:50Z",
+  "gate": "scripts/gate_optional.py",
+  "gate_exit_code": 0,
+  "phases": {
+    "from": 131,
+    "to": 140
+  },
+  "activation": "dormant_by_default",
+  "default_enabled": false,
+  "activation_option": "delivery.enabled",
+  "corpus_ref": "evals/cases/delivery.md",
+  "corpus_real": false,
+  "justification": "El perfil plain-markdown-local declara justificación concreta y se aplica sobre tests/fixtures/delivery/canonical/; sobre el corpus piloto no hay reglas que dispararse.",
+  "criteria": {
+    "1_activacion_con_corpus": {
+      "passed": true,
+      "detail": {
+        "corpus_ref": "evals/cases/delivery.md",
+        "schema_enforced": true
+      }
+    },
+    "2_contrato_y_politica_de_fallo": {
+      "passed": true,
+      "detail": {
+        "contract_paths": 4,
+        "entrypoint": "scripts/gate_delivery.py",
+        "exit_codes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      }
+    },
+    "3_casos_positivos_y_negativos": {
+      "passed": true,
+      "detail": {
+        "declared": 8,
+        "matched_by_prefix": 8,
+        "undeclared": [],
+        "missing": [],
+        "evidence_tests": {
+          "activation_negative_test": {
+            "nodeid": "tests/test_optional_activation.py::test_encender_sin_corpus_se_rechaza[delivery]",
+            "exists": true,
+            "detail": "test_encender_sin_corpus_se_rechaza[delivery]"
+          },
+          "deactivation_test": {
+            "nodeid": "tests/test_optional_deactivation.py::test_desactivacion_deja_el_flujo_del_nucleo_identico[delivery]",
+            "exists": true,
+            "detail": "test_desactivacion_deja_el_flujo_del_nucleo_identico[delivery]"
+          }
+        }
+      },
+      "test_runs": {
+        "exit_code": 0,
+        "files": 8
+      }
+    },
+    "4_regresion_del_nucleo": {
+      "passed": true,
+      "core_suite_exit_code": 0,
+      "core_suite_source": "reports/core/pytest.json",
+      "undeclared_dependencies": []
+    },
+    "desactivacion_sin_efectos": {
+      "passed": true,
+      "detail": {
+        "nodeid": "tests/test_optional_deactivation.py::test_desactivacion_deja_el_flujo_del_nucleo_identico[delivery]",
+        "status": "pass",
+        "exit_code": 0
+      }
+    },
+    "consistencia_con_el_candidato": {
+      "passed": true,
+      "detail": {
+        "status": "checked",
+        "candidate": "reports/maintenance/release_candidate.json",
+        "modules_in_candidate": [
+          "core",
+          "delivery",
+          "html",
+          "language",
+          "maintenance",
+          "markdown-extensions",
+          "mdx",
+          "review",
+          "scale",
+          "terminology"
+        ],
+        "not_required": [
+          "admonitions.enabled",
+          "definition_lists.enabled",
+          "delivery.enabled",
+          "directives.enabled",
+          "frontmatter traducible",
+          "gate_review.py --mode expanded",
+          "html.enabled",
+          "locale",
+          "mdx.enabled",
+          "mermaid labels",
+          "mixed_profile.enabled",
+          "rtl.enabled",
+          "run_concurrent.py",
+          "terminology.enabled",
+          "wikilinks.enabled"
+        ]
+      }
+    }
+  },
+  "contract_paths": [
+    "references/delivery-contract.md",
+    "references/delivery-gate.md",
+    "references/delivery-matrix.md",
+    "references/delivery-notion-checklist.md"
+  ],
+  "test_files": [
+    "tests/test_adapt_delivery.py",
+    "tests/test_compare_delivery.py",
+    "tests/test_delivery_docs.py",
+    "tests/test_delivery_guide.py",
+    "tests/test_delivery_matrix.py",
+    "tests/test_export_zip.py",
+    "tests/test_gate_delivery.py",
+    "tests/test_import_evidence.py"
+  ],
+  "limitations": [
+    "Nadie ha importado en Notion: remote_status sigue en no_verificado.",
+    "El segundo destino es un adaptador interno y declara real_app_evidence false.",
+    "La evidencia de activación es un corpus sintético declarado, no material real."
+  ],
+  "known_external_gaps": [
+    {
+      "id": "notion_import_evidence",
+      "reason": "No existe importación real comprobada en Notion: solo el checklist y el contrato.",
+      "owner": "usuario",
+      "procedure": "Importar una muestra con references/delivery-notion-checklist.md y registrar la evidencia con scripts/record_import_evidence.py.",
+      "blocking_scope": "remote_verification_claim"
+    },
+    {
+      "id": "second_delivery_destination",
+      "reason": "No hay un destino de entrega real distinto del árbol canónico.",
+      "owner": "usuario",
+      "procedure": "Elegir un destino de references/delivery-matrix.md y ejecutar una entrega real.",
+      "blocking_scope": "remote_verification_claim"
+    }
+  ],
+  "core_delegations": [
+    {
+      "from_script": "scripts/regression_detectors.py",
+      "imports": "compare_delivery",
+      "kind": "regression",
+      "why": "El detector de pérdida de contenido delega en la comparación de producción para no reimplementar la clasificación. Solo corre al pasar el gate de release."
+    },
+    {
+      "from_script": "scripts/regression_detectors.py",
+      "imports": "validate_zip_package",
+      "kind": "regression",
+      "why": "El detector de escape de ruta delega en el validador de paquete de producción. Solo corre al pasar el gate de release."
+    }
+  ],
+  "failing_checks": {},
+  "note": "Este archivo lo escribe el gate que comprueba los cuatro criterios. No demuestra equivalencia semántica ni ejecución sobre el corpus real; dice lo que el gate midió."
+}

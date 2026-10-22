@@ -1,0 +1,196 @@
+{
+  "source_root": "/Users/martin/Desktop/projects/Skills/notemartin-study-translate/tests/fixtures/pilot-fr",
+  "context_budget": 8000,
+  "markers": "§§",
+  "mixed_profile": null,
+  "generated_at": "2026-10-20T01:11:33Z",
+  "total_packets": 6,
+  "validation_errors": [],
+  "packets": [
+    {
+      "packet_id": "pack-c3470741",
+      "document_id": "doc-06b2cead",
+      "path": "01-prelude-et-licence.md",
+      "owner": "pack-b1d51c54",
+      "markers": "§§",
+      "segments": [
+        "seg-99beb033",
+        "seg-7024f95b",
+        "seg-2b5a60e8",
+        "seg-7dbefe2e",
+        "seg-d867d347"
+      ],
+      "source_language": "mixed",
+      "non_emitible_context": [
+        "seg-e9553852",
+        "seg-56b0fecd",
+        "seg-dcd47256",
+        "seg-0002390e",
+        "seg-caeb784e"
+      ],
+      "total_chars": 376,
+      "translatable_text": "Préface et licence de la documentation fr→es\n\nÀ propos de ce document\n\nCe corpus pilote sert à mesurer la capacité de la skill\n`notemartin-study-translate` à traiter un corpus en français technique.\nIl n'est **pas** une copie du manuel Nextcloud ; il reproduit la\nvariété de constructions Markdown observée dans un manuel\nd'administration réel.\n\nConventions adoptées\n\nLimites assumées",
+      "translatable_text_with_markers": "Préface et licence de la documentation fr→es\n\nÀ propos de ce document\n\nCe corpus pilote sert à mesurer la capacité de la skill\n`§§notemartin-study-translate§§` à traiter un corpus en français technique.\nIl n'est **pas** une copie du manuel Nextcloud ; il reproduit la\nvariété de constructions Markdown observée dans un manuel\nd'administration réel.\n\nConventions adoptées\n\nLimites assumées",
+      "overflow": false
+    },
+    {
+      "packet_id": "pack-63aa431d",
+      "document_id": "doc-f02b3b3f",
+      "path": "02-fichiers-et-synchronisation.md",
+      "owner": "pack-5a4932e8",
+      "markers": "§§",
+      "segments": [
+        "seg-ce20dedb",
+        "seg-bafffd80",
+        "seg-a8507044",
+        "seg-787159a7",
+        "seg-ad51746f",
+        "seg-dcf55dd1",
+        "seg-b22b25dc",
+        "seg-db12afff",
+        "seg-06115613"
+      ],
+      "source_language": "mixed",
+      "non_emitible_context": [
+        "seg-6833a5c1",
+        "seg-428c6cc5",
+        "seg-4e05afd6",
+        "seg-59feec7a",
+        "seg-5c8c5eac",
+        "seg-a4f154f4",
+        "seg-e0a36859"
+      ],
+      "total_chars": 615,
+      "translatable_text": "Fichiers et synchronisation\n\nLa fonction « Fichiers » de Nextcloud vous permet de gérer vos\ndocuments, images et autres ressources depuis un navigateur ou un\nclient de bureau. Les fichiers peuvent être partagés, versionnés et\nsynchronisés sur plusieurs appareils.\n\nParcours typique\n\nActions disponibles\n\nPartage public\n\nL'option « Lien public » se trouve dans le menu d'action du fichier.\nActivez-la seulement si la ressource ne contient pas de données\nsensibles.\n\nExemple d'URL de ressource\n\nCe chemin est résolu **par rapport à** la racine du serveur. Ne le\ntraduisez pas : il s'agit d'un identifiant technique.\n\nRenvois internes",
+      "translatable_text_with_markers": "Fichiers et synchronisation\n\nLa fonction « Fichiers » de Nextcloud vous permet de gérer vos\ndocuments, images et autres ressources depuis un navigateur ou un\nclient de bureau. Les fichiers peuvent être partagés, versionnés et\nsynchronisés sur plusieurs appareils.\n\nParcours typique\n\nActions disponibles\n\nPartage public\n\nL'option « Lien public » se trouve dans le menu d'action du fichier.\nActivez-la seulement si la ressource ne contient pas de données\nsensibles.\n\nExemple d'URL de ressource\n\nCe chemin est résolu **par rapport à** la racine du serveur. Ne le\ntraduisez pas : il s'agit d'un identifiant technique.\n\nRenvois internes",
+      "overflow": false
+    },
+    {
+      "packet_id": "pack-760c8460",
+      "document_id": "doc-5c64eaaf",
+      "path": "03-authentification.md",
+      "owner": "pack-a2f35ace",
+      "markers": "§§",
+      "segments": [
+        "seg-1dc0397c",
+        "seg-5b3cec75",
+        "seg-101f83aa",
+        "seg-04ecee75",
+        "seg-61c759e7",
+        "seg-00e11507",
+        "seg-8876e96f"
+      ],
+      "source_language": "mixed",
+      "non_emitible_context": [
+        "seg-8b68178f",
+        "seg-83f69a28",
+        "seg-adae95df",
+        "seg-64e4c311",
+        "seg-ae7853c0",
+        "seg-a2d820c6",
+        "seg-a9d22aa1"
+      ],
+      "total_chars": 737,
+      "translatable_text": "Authentification et connexion\n\nL'authentification contrôle l'accès à l'interface d'administration.\nVous ne devez jamais désactiver l'authentification pour un utilisateur\nadministrateur, sinon vous perdez l'accès au serveur.\n\nMéthodes prises en charge\n\nConnexion à l'interface web\n\nVous accédez à l'interface par l'URL fournie par votre administrateur.\nLe formulaire de connexion vous demande votre identifiant et votre mot\nde passe. Après trois échecs consécutifs, un captcha est imposé.\n\nPolitique de mots de passe\n\nChaque tentative de connexion produit une entrée dans le journal\nd'audit. La conservation par défaut est de **trente jours**. Vous\npouvez l'allonger ; notez cependant que cela augmente la quantité de\ndonnées personnelles conservées.",
+      "translatable_text_with_markers": "Authentification et connexion\n\nL'authentification contrôle l'accès à l'interface d'administration.\nVous ne devez jamais désactiver l'authentification pour un utilisateur\nadministrateur, sinon vous perdez l'accès au serveur.\n\nMéthodes prises en charge\n\nConnexion à l'interface web\n\nVous accédez à l'interface par l'URL fournie par votre administrateur.\nLe formulaire de connexion vous demande votre identifiant et votre mot\nde passe. Après trois échecs consécutifs, un captcha est imposé.\n\nPolitique de mots de passe\n\nChaque tentative de connexion produit une entrée dans le journal\nd'audit. La conservation par défaut est de **trente jours**. Vous\npouvez l'allonger ; notez cependant que cela augmente la quantité de\ndonnées personnelles conservées.",
+      "overflow": false
+    },
+    {
+      "packet_id": "pack-73b8d82d",
+      "document_id": "doc-0fcaf443",
+      "path": "04-configuration-2fa.md",
+      "owner": "pack-50941aa0",
+      "markers": "§§",
+      "segments": [
+        "seg-4e54994a",
+        "seg-09c5018f",
+        "seg-870b082c",
+        "seg-440c35ee",
+        "seg-18ec4842",
+        "seg-063a0d5e",
+        "seg-a0ce5f26",
+        "seg-7ec796ed"
+      ],
+      "source_language": "mixed",
+      "non_emitible_context": [
+        "seg-9b9304f5",
+        "seg-356493b0",
+        "seg-70dcfc80",
+        "seg-8a3e964a",
+        "seg-fbd9ef5d",
+        "seg-24dc62f8",
+        "seg-9e0fda13"
+      ],
+      "total_chars": 614,
+      "translatable_text": "Configuration de l'authentification à deux facteurs\n\nL'authentification à deux facteurs (2FA) ajoute une étape de\nvérification supplémentaire. Vous l'activez pour un utilisateur, un\ngroupe ou l'ensemble de l'organisation.\n\nÉtapes d'activation\n\nCodes de secours\n\nVous recevez initialement **dix codes de secours**. Chaque code est à\nusage unique. Distribuez-les par un canal sécurisé ; le courrier\nélectronique n'est pas considéré comme tel.\n\nDésactivation temporaire\n\nVous pouvez suspendre la 2FA pour un événement particulier\n(maintenance, audit). La durée maximale recommandée est de\n**vingt-quatre heures**.\n\nRenvois internes",
+      "translatable_text_with_markers": "Configuration de l'authentification à deux facteurs\n\nL'authentification à deux facteurs (2FA) ajoute une étape de\nvérification supplémentaire. Vous l'activez pour un utilisateur, un\ngroupe ou l'ensemble de l'organisation.\n\nÉtapes d'activation\n\nCodes de secours\n\nVous recevez initialement **dix codes de secours**. Chaque code est à\nusage unique. Distribuez-les par un canal sécurisé ; le courrier\nélectronique n'est pas considéré comme tel.\n\nDésactivation temporaire\n\nVous pouvez suspendre la 2FA pour un événement particulier\n(maintenance, audit). La durée maximale recommandée est de\n**vingt-quatre heures**.\n\nRenvois internes",
+      "overflow": false
+    },
+    {
+      "packet_id": "pack-2e6ed853",
+      "document_id": "doc-dfd90747",
+      "path": "05-client-bureau.md",
+      "owner": "pack-f92feed0",
+      "markers": "§§",
+      "segments": [
+        "seg-685506ea",
+        "seg-976ad75d",
+        "seg-7017c6f9",
+        "seg-3541e7b2",
+        "seg-3b20ddef",
+        "seg-8500366b",
+        "seg-7554cb47",
+        "seg-2a10086e"
+      ],
+      "source_language": "mixed",
+      "non_emitible_context": [
+        "seg-572f5660",
+        "seg-72a5d271",
+        "seg-7ddac04b",
+        "seg-63a255b9",
+        "seg-238c9090",
+        "seg-6f89ee79",
+        "seg-1555a8a2",
+        "seg-cf32def9"
+      ],
+      "total_chars": 305,
+      "translatable_text": "Client de bureau\n\nLe client de bureau synchronise vos dossiers Nextcloud avec votre\nposte de travail. Il prend en charge Windows, macOS et plusieurs\ndistributions Linux.\n\nPlateformes prises en charge\n\nConfiguration initiale\n\nIndicateurs d'état\n\nDésinstallation\n\nPour supprimer complètement le client :\n\nRenvois internes",
+      "translatable_text_with_markers": "Client de bureau\n\nLe client de bureau synchronise vos dossiers Nextcloud avec votre\nposte de travail. Il prend en charge Windows, macOS et plusieurs\ndistributions Linux.\n\nPlateformes prises en charge\n\nConfiguration initiale\n\nIndicateurs d'état\n\nDésinstallation\n\nPour supprimer complètement le client :\n\nRenvois internes",
+      "overflow": false
+    },
+    {
+      "packet_id": "pack-904ed6e1",
+      "document_id": "doc-96c7001e",
+      "path": "06-preferences-utilisateur.md",
+      "owner": "pack-cea3620c",
+      "markers": "§§",
+      "segments": [
+        "seg-9f97f9e1",
+        "seg-45edfc39",
+        "seg-a9f70de8",
+        "seg-13624bb2",
+        "seg-e6b13ee2",
+        "seg-449d5713",
+        "seg-33346972",
+        "seg-0a310bc6",
+        "seg-c09f8022",
+        "seg-f8c0607b"
+      ],
+      "source_language": "mixed",
+      "non_emitible_context": [
+        "seg-b6a81744",
+        "seg-21e1cc8e",
+        "seg-bd5b1b69",
+        "seg-76947792",
+        "seg-9ddb0e6a",
+        "seg-1a6406fa",
+        "seg-0d1a53b3",
+        "seg-3d250bcb"
+      ],
+      "total_chars": 691,
+      "translatable_text": "Préférences utilisateur\n\nVous pouvez ajuster votre langue, votre fuseau horaire, votre quota\nde stockage et votre thème depuis la page « Préférences ». Vos choix\nsont enregistrés automatiquement ; aucune confirmation n'est\ndemandée.\n\nParamètres régionaux\n\nLe quota par défaut est de `5 Go`. Vous pouvez le consulter dans\n**Paramètres → Espace personnel**.\n\nConfidentialité\n\nTrois thèmes sont disponibles : clair, sombre, automatique. L'option\n« Automatique » suit les préférences système.\n\nRenvois internes\n\nMentions contractuelles\n\nFin du document pilote\n\nLe présent corpus n'est pas destiné à remplacer un manuel\nd'administration réel. Il sert uniquement à valider la\nchaîne de traduction fr→es de la skill.",
+      "translatable_text_with_markers": "Préférences utilisateur\n\nVous pouvez ajuster votre langue, votre fuseau horaire, votre quota\nde stockage et votre thème depuis la page « Préférences ». Vos choix\nsont enregistrés automatiquement ; aucune confirmation n'est\ndemandée.\n\nParamètres régionaux\n\nLe quota par défaut est de `§§5 Go§§`. Vous pouvez le consulter dans\n**Paramètres → Espace personnel**.\n\nConfidentialité\n\nTrois thèmes sont disponibles : clair, sombre, automatique. L'option\n« Automatique » suit les préférences système.\n\nRenvois internes\n\nMentions contractuelles\n\nFin du document pilote\n\nLe présent corpus n'est pas destiné à remplacer un manuel\nd'administration réel. Il sert uniquement à valider la\nchaîne de traduction fr→es de la skill.",
+      "overflow": false
+    }
+  ]
+}

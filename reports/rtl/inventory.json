@@ -1,0 +1,35 @@
+{
+  "source_root": "/Users/martin/Desktop/projects/Skills/notemartin-study-translate/tests/fixtures/rtl",
+  "generated_at": "2026-10-20T01:54:45Z",
+  "total_files": 3,
+  "total_bytes": 3174,
+  "files": [
+    {
+      "path": "01-introduction.md",
+      "bytes": 1465,
+      "sha256": "bdcc35841017af0061f1b4a64efa2e2f24363c575302a60e3f9c0966351ceeb2",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "02-login.md",
+      "bytes": 856,
+      "sha256": "29bb724bc54ad90d64827c1c03284bcf6833963afde8541fbc9efd82ef92b3a3",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    },
+    {
+      "path": "03-css.md",
+      "bytes": 853,
+      "sha256": "b57109ceafdc97d956346d70d5b729d9298b5241a6d50f58f74fc1de5ca904b3",
+      "encoding": "utf-8",
+      "line_ending": "lf",
+      "type": "markdown",
+      "flag_mdx": false
+    }
+  ]
+}

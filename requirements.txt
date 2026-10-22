@@ -1,0 +1,4 @@
+markdown-it-py==3.0.0
+jsonschema==4.25.1
+pytest==8.4.2
+langdetect==1.0.9

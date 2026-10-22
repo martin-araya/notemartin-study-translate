@@ -1,0 +1,831 @@
+{
+  "registry_version": "1",
+  "generated_by": "fase 141 del roadmap (scripts/regression_gate.py)",
+  "known_failures": [
+    "list_omission",
+    "command_altered",
+    "negation_inverted",
+    "table_trimmed",
+    "prompt_injection",
+    "dangerous_links",
+    "path_traversal",
+    "script_block",
+    "anchor_collision",
+    "slug_truncation",
+    "ambiguous_link",
+    "foreign_segment_id",
+    "extra_marker",
+    "truncated_response",
+    "cache_incompatible_reuse",
+    "stale_cache_on_glossary_change",
+    "stale_approval",
+    "package_member_not_declared",
+    "package_path_escape",
+    "delivery_content_loss",
+    "export_without_approval",
+    "route_collision_case_only"
+  ],
+  "cases": [
+    {
+      "case_id": "negation_inverted",
+      "known_failure": "negation_inverted",
+      "severity": "major",
+      "detector": {
+        "kind": "builtin",
+        "name": "negation_preserved",
+        "expected_finding": "el candidato pierde un marcador de negación presente en la fuente"
+      },
+      "provenance": {
+        "kind": "synthetic",
+        "source": "escrito para este registro a partir de la rúbrica de evals/rubric.md",
+        "license_note": "CC0 propiedad del proyecto",
+        "anonymized": true,
+        "justification": "la construcción (pérdida de negación) se reproduce con prosa propia"
+      },
+      "positive": {
+        "fixture": "tests/fixtures/regression/negation_inverted.json",
+        "variant_key": "positive",
+        "expectation": "no_finding"
+      },
+      "negative": {
+        "fixture": "tests/fixtures/regression/negation_inverted.json",
+        "variant_key": "negative",
+        "expectation": "finding"
+      },
+      "tests": {
+        "positive": "tests/test_regression_cases.py::test_caso_regresion[negation_inverted-positive]",
+        "negative": "tests/test_regression_cases.py::test_caso_regresion[negation_inverted-negative]"
+      },
+      "phases": [
+        52,
+        141
+      ]
+    },
+    {
+      "case_id": "list_omission",
+      "known_failure": "list_omission",
+      "severity": "critical",
+      "detector": {
+        "kind": "builtin",
+        "name": "structure_preserved",
+        "expected_finding": "el candidato tiene menos elementos de lista que la fuente"
+      },
+      "provenance": {
+        "kind": "synthetic",
+        "source": "escrito para este registro",
+        "license_note": "CC0 propiedad del proyecto",
+        "anonymized": true,
+        "justification": "la omisión de un elemento de lista no necesita prosa de terceros"
+      },
+      "positive": {
+        "fixture": "tests/fixtures/regression/list_omission.json",
+        "variant_key": "positive",
+        "expectation": "no_finding"
+      },
+      "negative": {
+        "fixture": "tests/fixtures/regression/list_omission.json",
+        "variant_key": "negative",
+        "expectation": "finding"
+      },
+      "tests": {
+        "positive": "tests/test_regression_cases.py::test_caso_regresion[list_omission-positive]",
+        "negative": "tests/test_regression_cases.py::test_caso_regresion[list_omission-negative]"
+      },
+      "phases": [
+        52,
+        141
+      ]
+    },
+    {
+      "case_id": "command_altered",
+      "known_failure": "command_altered",
+      "severity": "critical",
+      "detector": {
+        "kind": "builtin",
+        "name": "literals_preserved",
+        "expected_finding": "un literal protegido de la fuente no aparece en el candidato"
+      },
+      "provenance": {
+        "kind": "synthetic",
+        "source": "escrito para este registro",
+        "license_note": "CC0 propiedad del proyecto",
+        "anonymized": true,
+        "justification": "el comando alterado se reproduce con un comando inventado"
+      },
+      "positive": {
+        "fixture": "tests/fixtures/regression/command_altered.json",
+        "variant_key": "positive",
+        "expectation": "no_finding"
+      },
+      "negative": {
+        "fixture": "tests/fixtures/regression/command_altered.json",
+        "variant_key": "negative",
+        "expectation": "finding"
+      },
+      "tests": {
+        "positive": "tests/test_regression_cases.py::test_caso_regresion[command_altered-positive]",
+        "negative": "tests/test_regression_cases.py::test_caso_regresion[command_altered-negative]"
+      },
+      "phases": [
+        17,
+        52,
+        141
+      ]
+    },
+    {
+      "case_id": "table_trimmed",
+      "known_failure": "table_trimmed",
+      "severity": "critical",
+      "detector": {
+        "kind": "builtin",
+        "name": "structure_preserved",
+        "expected_finding": "la tabla del candidato pierde filas o columnas"
+      },
+      "provenance": {
+        "kind": "synthetic",
+        "source": "escrito para este registro",
+        "license_note": "CC0 propiedad del proyecto",
+        "anonymized": true,
+        "justification": "la tabla recortada se reproduce con una tabla propia"
+      },
+      "positive": {
+        "fixture": "tests/fixtures/regression/table_trimmed.json",
+        "variant_key": "positive",
+        "expectation": "no_finding"
+      },
+      "negative": {
+        "fixture": "tests/fixtures/regression/table_trimmed.json",
+        "variant_key": "negative",
+        "expectation": "finding"
+      },
+      "tests": {
+        "positive": "tests/test_regression_cases.py::test_caso_regresion[table_trimmed-positive]",
+        "negative": "tests/test_regression_cases.py::test_caso_regresion[table_trimmed-negative]"
+      },
+      "phases": [
+        36,
+        52,
+        141
+      ]
+    },
+    {
+      "case_id": "prompt_injection",
+      "known_failure": "prompt_injection",
+      "severity": "critical",
+      "detector": {
+        "kind": "builtin",
+        "name": "injected_instructions",
+        "expected_finding": "el documento contiene instrucciones dirigidas al agente fuera de código protegido"
+      },
+      "provenance": {
+        "kind": "synthetic",
+        "source": "escrito para este registro",
+        "license_note": "CC0 propiedad del proyecto",
+        "anonymized": true,
+        "justification": "el contenido adversarial se escribe, no se copia"
+      },
+      "positive": {
+        "fixture": "tests/fixtures/regression/prompt_injection.json",
+        "variant_key": "positive",
+        "expectation": "no_finding"
+      },
+      "negative": {
+        "fixture": "tests/fixtures/regression/prompt_injection.json",
+        "variant_key": "negative",
+        "expectation": "finding"
+      },
+      "tests": {
+        "positive": "tests/test_regression_cases.py::test_caso_regresion[prompt_injection-positive]",
+        "negative": "tests/test_regression_cases.py::test_caso_regresion[prompt_injection-negative]"
+      },
+      "phases": [
+        51,
+        141
+      ]
+    },
+    {
+      "case_id": "dangerous_links",
+      "known_failure": "dangerous_links",
+      "severity": "critical",
+      "detector": {
+        "kind": "builtin",
+        "name": "unsafe_link_target",
+        "expected_finding": "destino de enlace con esquema activo"
+      },
+      "provenance": {
+        "kind": "synthetic",
+        "source": "escrito para este registro",
+        "license_note": "CC0 propiedad del proyecto",
+        "anonymized": true,
+        "justification": "el destino peligroso se construye sin copiar enlaces reales"
+      },
+      "positive": {
+        "fixture": "tests/fixtures/regression/dangerous_links.json",
+        "variant_key": "positive",
+        "expectation": "no_finding"
+      },
+      "negative": {
+        "fixture": "tests/fixtures/regression/dangerous_links.json",
+        "variant_key": "negative",
+        "expectation": "finding"
+      },
+      "tests": {
+        "positive": "tests/test_regression_cases.py::test_caso_regresion[dangerous_links-positive]",
+        "negative": "tests/test_regression_cases.py::test_caso_regresion[dangerous_links-negative]"
+      },
+      "phases": [
+        51,
+        141
+      ]
+    },
+    {
+      "case_id": "path_traversal",
+      "known_failure": "path_traversal",
+      "severity": "critical",
+      "detector": {
+        "kind": "builtin",
+        "name": "path_escapes_root",
+        "expected_finding": "una ruta sale de la raíz declarada"
+      },
+      "provenance": {
+        "kind": "synthetic",
+        "source": "escrito para este registro",
+        "license_note": "CC0 propiedad del proyecto",
+        "anonymized": true,
+        "justification": "las rutas son sintéticas y no contienen rutas reales del sistema"
+      },
+      "positive": {
+        "fixture": "tests/fixtures/regression/path_traversal.json",
+        "variant_key": "positive",
+        "expectation": "no_finding"
+      },
+      "negative": {
+        "fixture": "tests/fixtures/regression/path_traversal.json",
+        "variant_key": "negative",
+        "expectation": "finding"
+      },
+      "tests": {
+        "positive": "tests/test_regression_cases.py::test_caso_regresion[path_traversal-positive]",
+        "negative": "tests/test_regression_cases.py::test_caso_regresion[path_traversal-negative]"
+      },
+      "phases": [
+        12,
+        51,
+        141
+      ]
+    },
+    {
+      "case_id": "script_block",
+      "known_failure": "script_block",
+      "severity": "major",
+      "detector": {
+        "kind": "builtin",
+        "name": "active_html_outside_code",
+        "expected_finding": "HTML activo fuera de un bloque de código protegido"
+      },
+      "provenance": {
+        "kind": "synthetic",
+        "source": "escrito para este registro",
+        "license_note": "CC0 propiedad del proyecto",
+        "anonymized": true,
+        "justification": "el par positivo/negativo necesita el mismo HTML en prosa y en fence; se escribe"
+      },
+      "positive": {
+        "fixture": "tests/fixtures/regression/script_block.json",
+        "variant_key": "positive",
+        "expectation": "no_finding"
+      },
+      "negative": {
+        "fixture": "tests/fixtures/regression/script_block.json",
+        "variant_key": "negative",
+        "expectation": "finding"
+      },
+      "tests": {
+        "positive": "tests/test_regression_cases.py::test_caso_regresion[script_block-positive]",
+        "negative": "tests/test_regression_cases.py::test_caso_regresion[script_block-negative]"
+      },
+      "phases": [
+        51,
+        77,
+        141
+      ]
+    },
+    {
+      "case_id": "anchor_collision",
+      "known_failure": "anchor_collision",
+      "severity": "major",
+      "detector": {
+        "kind": "module",
+        "name": "slug_collision",
+        "delegates_to": [
+          "scripts/build_anchors.py::github_slug"
+        ],
+        "expected_finding": "dos encabezados producen el mismo slug"
+      },
+      "provenance": {
+        "kind": "synthetic",
+        "source": "escrito para este registro",
+        "license_note": "CC0 propiedad del proyecto",
+        "anonymized": true,
+        "justification": "los títulos son propios y no proceden del corpus autorizado"
+      },
+      "positive": {
+        "fixture": "tests/fixtures/regression/anchor_collision.json",
+        "variant_key": "positive",
+        "expectation": "no_finding"
+      },
+      "negative": {
+        "fixture": "tests/fixtures/regression/anchor_collision.json",
+        "variant_key": "negative",
+        "expectation": "finding"
+      },
+      "tests": {
+        "positive": "tests/test_regression_cases.py::test_caso_regresion[anchor_collision-positive]",
+        "negative": "tests/test_regression_cases.py::test_caso_regresion[anchor_collision-negative]"
+      },
+      "phases": [
+        54,
+        141
+      ]
+    },
+    {
+      "case_id": "slug_truncation",
+      "known_failure": "slug_truncation",
+      "severity": "major",
+      "detector": {
+        "kind": "module",
+        "name": "slug_truncated",
+        "delegates_to": [
+          "scripts/build_anchors.py::github_slug"
+        ],
+        "expected_finding": "el slug alcanza el límite y el anclaje queda truncado"
+      },
+      "provenance": {
+        "kind": "synthetic",
+        "source": "escrito para este registro",
+        "license_note": "CC0 propiedad del proyecto",
+        "anonymized": true,
+        "justification": "el encabezado largo se genera, no se copia"
+      },
+      "positive": {
+        "fixture": "tests/fixtures/regression/slug_truncation.json",
+        "variant_key": "positive",
+        "expectation": "no_finding"
+      },
+      "negative": {
+        "fixture": "tests/fixtures/regression/slug_truncation.json",
+        "variant_key": "negative",
+        "expectation": "finding"
+      },
+      "tests": {
+        "positive": "tests/test_regression_cases.py::test_caso_regresion[slug_truncation-positive]",
+        "negative": "tests/test_regression_cases.py::test_caso_regresion[slug_truncation-negative]"
+      },
+      "phases": [
+        54,
+        141
+      ]
+    },
+    {
+      "case_id": "ambiguous_link",
+      "known_failure": "ambiguous_link",
+      "severity": "major",
+      "detector": {
+        "kind": "module",
+        "name": "fragment_resolution",
+        "delegates_to": [
+          "scripts/build_anchors.py::github_slug"
+        ],
+        "expected_finding": "el fragmento resuelve contra cero o varios encabezados"
+      },
+      "provenance": {
+        "kind": "synthetic",
+        "source": "escrito para este registro",
+        "license_note": "CC0 propiedad del proyecto",
+        "anonymized": true,
+        "justification": "los títulos que colisionan al normalizar se escriben para el caso"
+      },
+      "positive": {
+        "fixture": "tests/fixtures/regression/ambiguous_link.json",
+        "variant_key": "positive",
+        "expectation": "no_finding"
+      },
+      "negative": {
+        "fixture": "tests/fixtures/regression/ambiguous_link.json",
+        "variant_key": "negative",
+        "expectation": "finding"
+      },
+      "tests": {
+        "positive": "tests/test_regression_cases.py::test_caso_regresion[ambiguous_link-positive]",
+        "negative": "tests/test_regression_cases.py::test_caso_regresion[ambiguous_link-negative]"
+      },
+      "phases": [
+        39,
+        54,
+        141
+      ]
+    },
+    {
+      "case_id": "foreign_segment_id",
+      "known_failure": "foreign_segment_id",
+      "severity": "critical",
+      "detector": {
+        "kind": "builtin",
+        "name": "segment_ids_known",
+        "expected_finding": "la respuesta contiene un segment_id que no existe en la entrada"
+      },
+      "provenance": {
+        "kind": "synthetic",
+        "source": "escrito para este registro",
+        "license_note": "CC0 propiedad del proyecto",
+        "anonymized": true,
+        "justification": "los identificadores son sintéticos y no dependen del corpus"
+      },
+      "positive": {
+        "fixture": "tests/fixtures/regression/foreign_segment_id.json",
+        "variant_key": "positive",
+        "expectation": "no_finding"
+      },
+      "negative": {
+        "fixture": "tests/fixtures/regression/foreign_segment_id.json",
+        "variant_key": "negative",
+        "expectation": "finding"
+      },
+      "tests": {
+        "positive": "tests/test_regression_cases.py::test_caso_regresion[foreign_segment_id-positive]",
+        "negative": "tests/test_regression_cases.py::test_caso_regresion[foreign_segment_id-negative]"
+      },
+      "phases": [
+        34,
+        141
+      ]
+    },
+    {
+      "case_id": "extra_marker",
+      "known_failure": "extra_marker",
+      "severity": "critical",
+      "detector": {
+        "kind": "builtin",
+        "name": "markers_wellformed",
+        "expected_finding": "los marcadores de protección no coinciden con los declarados"
+      },
+      "provenance": {
+        "kind": "synthetic",
+        "source": "escrito para este registro",
+        "license_note": "CC0 propiedad del proyecto",
+        "anonymized": true,
+        "justification": "los marcadores son sintéticos"
+      },
+      "positive": {
+        "fixture": "tests/fixtures/regression/extra_marker.json",
+        "variant_key": "positive",
+        "expectation": "no_finding"
+      },
+      "negative": {
+        "fixture": "tests/fixtures/regression/extra_marker.json",
+        "variant_key": "negative",
+        "expectation": "finding"
+      },
+      "tests": {
+        "positive": "tests/test_regression_cases.py::test_caso_regresion[extra_marker-positive]",
+        "negative": "tests/test_regression_cases.py::test_caso_regresion[extra_marker-negative]"
+      },
+      "phases": [
+        22,
+        34,
+        141
+      ]
+    },
+    {
+      "case_id": "truncated_response",
+      "known_failure": "truncated_response",
+      "severity": "critical",
+      "detector": {
+        "kind": "builtin",
+        "name": "all_segments_present",
+        "expected_finding": "faltan segmentos declarados en la respuesta"
+      },
+      "provenance": {
+        "kind": "synthetic",
+        "source": "escrito para este registro",
+        "license_note": "CC0 propiedad del proyecto",
+        "anonymized": true,
+        "justification": "los segmentos son sintéticos"
+      },
+      "positive": {
+        "fixture": "tests/fixtures/regression/truncated_response.json",
+        "variant_key": "positive",
+        "expectation": "no_finding"
+      },
+      "negative": {
+        "fixture": "tests/fixtures/regression/truncated_response.json",
+        "variant_key": "negative",
+        "expectation": "finding"
+      },
+      "tests": {
+        "positive": "tests/test_regression_cases.py::test_caso_regresion[truncated_response-positive]",
+        "negative": "tests/test_regression_cases.py::test_caso_regresion[truncated_response-negative]"
+      },
+      "phases": [
+        34,
+        141
+      ]
+    },
+    {
+      "case_id": "cache_incompatible_reuse",
+      "known_failure": "cache_incompatible_reuse",
+      "severity": "critical",
+      "detector": {
+        "kind": "module",
+        "name": "cache_probe_compatible",
+        "delegates_to": [
+          "scripts/translation_cache.py::key_short"
+        ],
+        "expected_finding": "una búsqueda reutiliza una entrada con glosario incompatible"
+      },
+      "provenance": {
+        "kind": "synthetic",
+        "source": "escrito para este registro",
+        "license_note": "CC0 propiedad del proyecto",
+        "anonymized": true,
+        "justification": "las claves y hashes son sintéticos"
+      },
+      "positive": {
+        "fixture": "tests/fixtures/regression/cache_incompatible_reuse.json",
+        "variant_key": "positive",
+        "expectation": "no_finding"
+      },
+      "negative": {
+        "fixture": "tests/fixtures/regression/cache_incompatible_reuse.json",
+        "variant_key": "negative",
+        "expectation": "finding"
+      },
+      "tests": {
+        "positive": "tests/test_regression_cases.py::test_caso_regresion[cache_incompatible_reuse-positive]",
+        "negative": "tests/test_regression_cases.py::test_caso_regresion[cache_incompatible_reuse-negative]"
+      },
+      "phases": [
+        118,
+        141
+      ]
+    },
+    {
+      "case_id": "stale_cache_on_glossary_change",
+      "known_failure": "stale_cache_on_glossary_change",
+      "severity": "critical",
+      "detector": {
+        "kind": "module",
+        "name": "cache_invalidated",
+        "delegates_to": [
+          "scripts/invalidate_cache.py::detect_glossary_changes"
+        ],
+        "expected_finding": "quedan entradas con el hash de glosario anterior"
+      },
+      "provenance": {
+        "kind": "synthetic",
+        "source": "escrito para este registro",
+        "license_note": "CC0 propiedad del proyecto",
+        "anonymized": true,
+        "justification": "los hashes son sintéticos"
+      },
+      "positive": {
+        "fixture": "tests/fixtures/regression/stale_cache_on_glossary_change.json",
+        "variant_key": "positive",
+        "expectation": "no_finding"
+      },
+      "negative": {
+        "fixture": "tests/fixtures/regression/stale_cache_on_glossary_change.json",
+        "variant_key": "negative",
+        "expectation": "finding"
+      },
+      "tests": {
+        "positive": "tests/test_regression_cases.py::test_caso_regresion[stale_cache_on_glossary_change-positive]",
+        "negative": "tests/test_regression_cases.py::test_caso_regresion[stale_cache_on_glossary_change-negative]"
+      },
+      "phases": [
+        119,
+        141
+      ]
+    },
+    {
+      "case_id": "stale_approval",
+      "known_failure": "stale_approval",
+      "severity": "critical",
+      "detector": {
+        "kind": "module",
+        "name": "approval_fresh",
+        "delegates_to": [
+          "scripts/check_approval_freshness.py::evaluate"
+        ],
+        "expected_finding": "una aprobación apunta a un hash que ya no es el vigente"
+      },
+      "provenance": {
+        "kind": "synthetic",
+        "source": "escrito para este registro",
+        "license_note": "CC0 propiedad del proyecto",
+        "anonymized": true,
+        "justification": "los hashes son sintéticos y no corresponden a ningún artefacto"
+      },
+      "positive": {
+        "fixture": "tests/fixtures/regression/stale_approval.json",
+        "variant_key": "positive",
+        "expectation": "no_finding"
+      },
+      "negative": {
+        "fixture": "tests/fixtures/regression/stale_approval.json",
+        "variant_key": "negative",
+        "expectation": "finding"
+      },
+      "tests": {
+        "positive": "tests/test_regression_cases.py::test_caso_regresion[stale_approval-positive]",
+        "negative": "tests/test_regression_cases.py::test_caso_regresion[stale_approval-negative]"
+      },
+      "phases": [
+        124,
+        141
+      ]
+    },
+    {
+      "case_id": "package_member_not_declared",
+      "known_failure": "package_member_not_declared",
+      "severity": "critical",
+      "detector": {
+        "kind": "builtin",
+        "name": "package_members_declared",
+        "expected_finding": "el paquete contiene un miembro fuera del alcance aprobado"
+      },
+      "provenance": {
+        "kind": "synthetic",
+        "source": "escrito para este registro",
+        "license_note": "CC0 propiedad del proyecto",
+        "anonymized": true,
+        "justification": "los nombres de miembro son sintéticos"
+      },
+      "positive": {
+        "fixture": "tests/fixtures/regression/package_member_not_declared.json",
+        "variant_key": "positive",
+        "expectation": "no_finding"
+      },
+      "negative": {
+        "fixture": "tests/fixtures/regression/package_member_not_declared.json",
+        "variant_key": "negative",
+        "expectation": "finding"
+      },
+      "tests": {
+        "positive": "tests/test_regression_cases.py::test_caso_regresion[package_member_not_declared-positive]",
+        "negative": "tests/test_regression_cases.py::test_caso_regresion[package_member_not_declared-negative]"
+      },
+      "phases": [
+        136,
+        141
+      ]
+    },
+    {
+      "case_id": "package_path_escape",
+      "known_failure": "package_path_escape",
+      "severity": "critical",
+      "detector": {
+        "kind": "module",
+        "name": "package_member_safe",
+        "delegates_to": [
+          "scripts/validate_zip_package.py::is_unsafe_path"
+        ],
+        "expected_finding": "un miembro del paquete escapa de la raíz"
+      },
+      "provenance": {
+        "kind": "synthetic",
+        "source": "escrito para este registro",
+        "license_note": "CC0 propiedad del proyecto",
+        "anonymized": true,
+        "justification": "los nombres son sintéticos; no se abre ningún ZIP real"
+      },
+      "positive": {
+        "fixture": "tests/fixtures/regression/package_path_escape.json",
+        "variant_key": "positive",
+        "expectation": "no_finding"
+      },
+      "negative": {
+        "fixture": "tests/fixtures/regression/package_path_escape.json",
+        "variant_key": "negative",
+        "expectation": "finding"
+      },
+      "tests": {
+        "positive": "tests/test_regression_cases.py::test_caso_regresion[package_path_escape-positive]",
+        "negative": "tests/test_regression_cases.py::test_caso_regresion[package_path_escape-negative]"
+      },
+      "phases": [
+        136,
+        141
+      ]
+    },
+    {
+      "case_id": "delivery_content_loss",
+      "known_failure": "delivery_content_loss",
+      "severity": "critical",
+      "detector": {
+        "kind": "module",
+        "name": "delivery_loss",
+        "delegates_to": [
+          "scripts/compare_delivery.py::compare_documents"
+        ],
+        "expected_finding": "la adaptación pierde un bloque de código clasificado como content_loss"
+      },
+      "provenance": {
+        "kind": "synthetic",
+        "source": "escrito para este registro",
+        "license_note": "CC0 propiedad del proyecto",
+        "anonymized": true,
+        "justification": "el par canónico/adaptado se escribe; no procede de un paquete real"
+      },
+      "positive": {
+        "fixture": "tests/fixtures/regression/delivery_content_loss.json",
+        "variant_key": "positive",
+        "expectation": "no_finding"
+      },
+      "negative": {
+        "fixture": "tests/fixtures/regression/delivery_content_loss.json",
+        "variant_key": "negative",
+        "expectation": "finding"
+      },
+      "tests": {
+        "positive": "tests/test_regression_cases.py::test_caso_regresion[delivery_content_loss-positive]",
+        "negative": "tests/test_regression_cases.py::test_caso_regresion[delivery_content_loss-negative]"
+      },
+      "phases": [
+        138,
+        141
+      ]
+    },
+    {
+      "case_id": "export_without_approval",
+      "known_failure": "export_without_approval",
+      "severity": "critical",
+      "detector": {
+        "kind": "builtin",
+        "name": "export_state_allowed",
+        "expected_finding": "se exporta un archivo que no está en estado approved"
+      },
+      "provenance": {
+        "kind": "synthetic",
+        "source": "escrito para este registro",
+        "license_note": "CC0 propiedad del proyecto",
+        "anonymized": true,
+        "justification": "el manifiesto es sintético y no describe ninguna ejecución real"
+      },
+      "positive": {
+        "fixture": "tests/fixtures/regression/export_without_approval.json",
+        "variant_key": "positive",
+        "expectation": "no_finding"
+      },
+      "negative": {
+        "fixture": "tests/fixtures/regression/export_without_approval.json",
+        "variant_key": "negative",
+        "expectation": "finding"
+      },
+      "tests": {
+        "positive": "tests/test_regression_cases.py::test_caso_regresion[export_without_approval-positive]",
+        "negative": "tests/test_regression_cases.py::test_caso_regresion[export_without_approval-negative]"
+      },
+      "phases": [
+        47,
+        56,
+        141
+      ]
+    },
+    {
+      "case_id": "route_collision_case_only",
+      "known_failure": "route_collision_case_only",
+      "severity": "major",
+      "detector": {
+        "kind": "builtin",
+        "name": "case_insensitive_collision",
+        "expected_finding": "dos rutas difieren solo en mayúsculas"
+      },
+      "provenance": {
+        "kind": "synthetic",
+        "source": "escrito para este registro",
+        "license_note": "CC0 propiedad del proyecto",
+        "anonymized": true,
+        "justification": "los nombres son sintéticos"
+      },
+      "positive": {
+        "fixture": "tests/fixtures/regression/route_collision_case_only.json",
+        "variant_key": "positive",
+        "expectation": "no_finding"
+      },
+      "negative": {
+        "fixture": "tests/fixtures/regression/route_collision_case_only.json",
+        "variant_key": "negative",
+        "expectation": "finding"
+      },
+      "tests": {
+        "positive": "tests/test_regression_cases.py::test_caso_regresion[route_collision_case_only-positive]",
+        "negative": "tests/test_regression_cases.py::test_caso_regresion[route_collision_case_only-negative]"
+      },
+      "phases": [
+        12,
+        141
+      ]
+    }
+  ]
+}

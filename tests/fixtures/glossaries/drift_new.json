@@ -1,0 +1,67 @@
+{
+  "version": 2,
+  "frozen": false,
+  "allowed_languages": ["es"],
+  "entries": [
+    {
+      "id": "g-d001",
+      "source_term": "schema",
+      "domain": "database",
+      "sense": "Definición estructural de tablas, columnas y relaciones",
+      "preferred": {"lang": "es", "term": "esquema_v2"},
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-db-1",
+          "segment_id": "seg-d001-a",
+          "before": "CREATE TABLE users (",
+          "after": " );",
+          "note": "Definición DDL"
+        }
+      ],
+      "justification": "Renombre del equivalente para el glosario v2.",
+      "decided_by": "example-agent",
+      "decided_at": "2026-10-20T01:00:00Z"
+    },
+    {
+      "id": "g-d003",
+      "source_term": "transaction",
+      "domain": "database",
+      "sense": "Unidad lógica de trabajo ACID",
+      "preferred": {"lang": "es", "term": "transacción"},
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-db-1",
+          "segment_id": "seg-d003-a",
+          "before": "BEGIN; COMMIT;",
+          "after": "",
+          "note": "Sentencias SQL"
+        }
+      ],
+      "justification": "Sin cambio.",
+      "decided_by": "example-agent",
+      "decided_at": "2026-10-20T00:00:00Z"
+    },
+    {
+      "id": "g-d006",
+      "source_term": "index",
+      "domain": "database",
+      "sense": "Estructura auxiliar para acelerar búsquedas",
+      "preferred": {"lang": "es", "term": "índice"},
+      "preservation_policy": "translate",
+      "context_examples": [
+        {
+          "document_id": "doc-db-1",
+          "segment_id": "seg-d006-a",
+          "before": "CREATE ",
+          "after": " idx_users_email ON users(email);",
+          "note": "Definición de índice"
+        }
+      ],
+      "justification": "Nueva entrada para el glosario v2.",
+      "decided_by": "example-agent",
+      "decided_at": "2026-10-20T01:00:00Z"
+    }
+  ]
+}

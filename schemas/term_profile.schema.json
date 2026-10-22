@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://notemartin-study-translate.local/schemas/term_profile.schema.json",
+  "x-schema-version": "1.0.0",
+  "title": "Perfil terminológico de dominio (fases 091-100)",
+  "description": "Declara qué dominios terminológicos se activan en una ejecución y con qué corpus. Un perfil sin corpus_ref y justification no activa nada: es un perfil de laboratorio. La skill no aprueba perfiles; approver es siempre una persona.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["profile_id", "version", "approver", "approved_at", "enabled_domains", "corpus_ref", "justification"],
+  "properties": {
+    "profile_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$"
+    },
+    "approver": {
+      "description": "Quién aprobó el perfil. La skill no se aprueba a sí misma: `example-agent` no es un aprobador válido para una ejecución real.",
+      "type": "string",
+      "minLength": 2
+    },
+    "approved_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "enabled_domains": {
+      "description": "Dominios que este perfil activa. Los cinco proceden de las fases 091-095; un dominio nuevo exige glossary de por medio.",
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "enum": ["database", "network", "frontend", "systems", "ml_ai"]
+      }
+    },
+    "corpus_ref": {
+      "description": "Caso de `evals/cases/` que declara el corpus que justifica activar estos dominios.",
+      "type": "string",
+      "minLength": 1
+    },
+    "justification": {
+      "description": "Por qué ese corpus activa esos dominios. Una activación sin motivo es un defecto, no una configuración.",
+      "type": "string",
+      "minLength": 20
+    },
+    "corpus_real": {
+      "description": "true solo si el corpus es material real autorizado.",
+      "type": "boolean"
+    },
+    "exceptions": {
+      "description": "Excepciones auditables: términos que este dominio no debe traducir ni reemplazar.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["source_term", "reason"],
+        "properties": {
+          "source_term": { "type": "string", "minLength": 1 },
+          "reason": { "type": "string", "minLength": 10 },
+          "domain": { "type": ["string", "null"] }
+        }
+      }
+    },
+    "precedence": {
+      "description": "Qué gana cuando dos dominios discrepan. `terminology.md` es la autoridad global; este campo solo declara el orden dentro del perfil.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["policy"],
+      "properties": {
+        "policy": { "type": "string", "enum": ["terminology-md-first", "profile-first", "escalate-to-user"] },
+        "note": { "type": "string", "minLength": 10 }
+      }
+    }
+  }
+}

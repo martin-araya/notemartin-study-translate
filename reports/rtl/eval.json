@@ -1,0 +1,44 @@
+{
+  "pair": "ar-es",
+  "source_language": "ar",
+  "target_language": "es",
+  "generated_at": "2026-10-20T01:54:45Z",
+  "evaluation_kind": "assisted",
+  "reviewer_status": "assisted_only_pending_human",
+  "human_reviewer": null,
+  "disclaimer": "Revisión asistida; sin firma nativa del par. La fase 109 exige un firmante humano en el idioma de origen. La política RTL preserva bytes Unicode y aplica marcas de dirección por segmento; no demuestra fidelidad de render.",
+  "policy_paths": {
+    "rtl_policy": "references/rtl-policy.md",
+    "source_language_policy_placeholder": "references/source-language-policy-fr.md sirve de plantilla. El equivalente ar→es debe existir antes de human_approved."
+  },
+  "returncodes": {
+    "inventory": 0,
+    "prepare": 0,
+    "detect_language": 0,
+    "detect_text_direction": 0
+  },
+  "metrics": {
+    "total_segments": 28,
+    "by_language": {
+      "ar": 10,
+      "empty": 9,
+      "code": 6,
+      "unknown": 3
+    },
+    "by_disposition": {
+      "translatable": 10,
+      "no_text": 9,
+      "code_skip": 6,
+      "too_short": 3
+    },
+    "by_text_direction": {
+      "ltr": 15,
+      "rtl": 8,
+      "mixed": 5
+    }
+  },
+  "fixtures": {
+    "corpus": "tests/fixtures/rtl",
+    "bytes_original": {}
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "source_root": "tests/fixtures/scale",
+  "context_budget": 8000,
+  "markers": "§§",
+  "mixed_profile": null,
+  "generated_at": "2026-10-20T00:00:00Z",
+  "total_packets": 4,
+  "validation_errors": [],
+  "packets": [
+    {
+      "packet_id": "pack-aaaa1111",
+      "document_id": "doc-aaaa1111",
+      "path": "typescriptlang/handbook/2/basic-types.md",
+      "source_language": "en",
+      "translatable_text": "Variables in TypeScript use let or const.",
+      "translatable_text_with_markers": "Variables in TypeScript use let or const.",
+      "segments": ["seg-11111111", "seg-22222222"]
+    },
+    {
+      "packet_id": "pack-bbbb2222",
+      "document_id": "doc-bbbb2222",
+      "path": "typescriptlang/handbook/2/functions.md",
+      "source_language": "en",
+      "translatable_text": "Functions accept parameters. See [the basic types guide](basic-types.md).",
+      "translatable_text_with_markers": "Functions accept parameters. See [the basic types guide](basic-types.md).",
+      "segments": ["seg-33333333"]
+    },
+    {
+      "packet_id": "pack-cccc3333",
+      "document_id": "doc-cccc3333",
+      "path": "developer-mozilla/Guides/Cascading_variables/Using_custom_properties.md",
+      "source_language": "en",
+      "translatable_text": "The custom property is a CSS variable.",
+      "translatable_text_with_markers": "The custom property is a CSS variable.",
+      "segments": ["seg-44444444"]
+    },
+    {
+      "packet_id": "pack-dddd4444",
+      "document_id": "doc-dddd4444",
+      "path": "nextjs/app/structure.md",
+      "source_language": "en",
+      "translatable_text": "Static rendering delivers prebuilt HTML pages.",
+      "translatable_text_with_markers": "Static rendering delivers prebuilt HTML pages.",
+      "segments": ["seg-55555555"]
+    }
+  ]
+}

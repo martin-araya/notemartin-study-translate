@@ -1,0 +1,38 @@
+{
+  "generated_at": "2026-10-20T16:26:19Z",
+  "python_version": "3.9.6",
+  "python_implementation": "cpython",
+  "os_name": "posix",
+  "platform": "darwin",
+  "filesystem_encoding": "utf-8",
+  "filesystem_errors": "surrogateescape",
+  "default_newline": "'\\n'",
+  "hash_algorithms": [
+    "blake2b",
+    "sha256"
+  ],
+  "fcntl": {
+    "available": true,
+    "detail": "flock exclusivo y liberación verificados"
+  },
+  "atomic_replace": {
+    "available": true,
+    "detail": "temporal"
+  },
+  "case_insensitive_fs": {
+    "sensitive": false,
+    "detail": "nombres que solo difieren en mayúsculas se solapan"
+  },
+  "unicode_names": {
+    "available": true,
+    "detail": "3 nombres no ASCII creados y leídos"
+  },
+  "long_names": {
+    "available": true,
+    "detail": "componente de 203 bytes"
+  },
+  "zoneinfo": {
+    "available": true,
+    "detail": "ZoneInfo('Europe/Madrid') resuelto"
+  }
+}

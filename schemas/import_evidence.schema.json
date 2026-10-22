@@ -1,0 +1,276 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://notemartin-study-translate.local/schemas/import_evidence.schema.json",
+  "x-schema-version": "1.0.0",
+  "title": "Evidencia de importación de muestra (fases 131-133)",
+  "description": "Registra qué se pudo comprobar de una importación real a un destino y qué sigue sin verificar. Separa la resolución local de enlaces, que es determinista, de la navegación remota, que solo la aporta evidencia humana aportada. Un documento con verified=true exige revisor humano y evidencia para cada comprobación remota superada; el esquema no puede verificar la veracidad de la evidencia, solo su forma y su presencia.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "run_id",
+    "destination",
+    "sample_documents",
+    "checks",
+    "matrix",
+    "reviewer",
+    "remote_status",
+    "verified"
+  ],
+  "properties": {
+    "schema_version": {
+      "description": "Versión del contrato de evidencia.",
+      "type": "string",
+      "const": "1"
+    },
+    "run_id": {
+      "description": "Ejecución a la que pertenece la evidencia.",
+      "type": "string",
+      "minLength": 1
+    },
+    "generated_at": {
+      "description": "Fecha ISO 8601 de generación del registro.",
+      "type": "string",
+      "format": "date-time"
+    },
+    "destination": {
+      "description": "Destino de la importación de muestra.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "kind", "name"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "kind": {
+          "description": "remote_manual exige importación manual por el usuario. local_adapter es un destino local con adaptador propio.",
+          "type": "string",
+          "enum": ["remote_manual", "local_adapter"]
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "sample_documents": {
+      "description": "Documentos del alcance efectivamente importados en la muestra.",
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/sample_document" }
+    },
+    "checks": {
+      "description": "Comprobaciones separadas por construcción. local_resolution es determinista y calculable sin importar; remote_result solo lo rellena evidencia.",
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/check" }
+    },
+    "matrix": {
+      "description": "Matriz de importación construcción por destino (fase 133).",
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/matrix_cell" }
+    },
+    "reviewer": {
+      "description": "Quién aporta la evidencia. null mientras no exista firmante.",
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "required": ["kind"],
+      "properties": {
+        "kind": {
+          "type": ["string", "null"],
+          "enum": ["human", "assisted", null]
+        },
+        "name": {
+          "type": ["string", "null"]
+        },
+        "declared_at": {
+          "type": ["string", "null"],
+          "format": "date-time"
+        }
+      }
+    },
+    "remote_status": {
+      "description": "Estado de la verificación remota. Por defecto no verificado.",
+      "type": "string",
+      "enum": ["no_verificado", "verificado_con_evidencia"]
+    },
+    "verified": {
+      "description": "true solo con evidencia humana por cada comprobación remota superada.",
+      "type": "boolean"
+    },
+    "notes": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": { "verified": { "const": true } },
+        "required": ["verified"]
+      },
+      "then": {
+        "properties": {
+          "remote_status": { "const": "verificado_con_evidencia" },
+          "reviewer": {
+            "type": "object",
+            "required": ["kind", "name"],
+            "properties": {
+              "kind": { "const": "human" },
+              "name": { "type": "string", "minLength": 1 }
+            }
+          },
+          "checks": {
+            "type": "array",
+            "items": {
+              "allOf": [
+                {
+                  "if": {
+                    "properties": { "remote_result": { "const": "pass" } },
+                    "required": ["remote_result"]
+                  },
+                  "then": {
+                    "required": ["evidence"],
+                    "properties": { "evidence": { "minItems": 1 } }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": { "remote_status": { "const": "verificado_con_evidencia" } },
+        "required": ["remote_status"]
+      },
+      "then": {
+        "properties": { "verified": { "const": true } }
+      }
+    }
+  ],
+  "$defs": {
+    "sample_document": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["path", "source_hash"],
+      "properties": {
+        "path": {
+          "description": "Ruta relativa al source_root.",
+          "type": "string",
+          "minLength": 1
+        },
+        "source_hash": {
+          "description": "SHA-256 de los bytes de origen del documento.",
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "imported": {
+          "description": "Si el usuario confirma que lo importó. Ausente o false significa sin confirmar.",
+          "type": "boolean"
+        },
+        "destination_url": {
+          "description": "URL de la página remota creada. Es evidencia solo si el usuario la aporta.",
+          "type": ["string", "null"]
+        }
+      }
+    },
+    "check": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["check_id", "local_resolution", "remote_result"],
+      "properties": {
+        "check_id": {
+          "description": "Construcción comprobada.",
+          "type": "string",
+          "enum": [
+            "table_structure",
+            "code_block_bytes",
+            "code_inline_bytes",
+            "internal_link_local",
+            "internal_link_remote",
+            "image_and_alt",
+            "callout_warning",
+            "task_list",
+            "frontmatter"
+          ]
+        },
+        "local_resolution": {
+          "description": "Resultado comprobable sin importar. not_tested cuando no se calculó.",
+          "type": "string",
+          "enum": ["pass", "fail", "not_tested"]
+        },
+        "remote_result": {
+          "description": "Resultado observado en el destino. unknown mientras nadie lo compruebe.",
+          "type": "string",
+          "enum": ["pass", "fail", "not_tested", "unknown"]
+        },
+        "evidence": {
+          "description": "Evidencia aportada por el usuario. Vacía mientras no exista.",
+          "type": "array",
+          "items": { "$ref": "#/$defs/evidence" }
+        },
+        "detail": {
+          "description": "Detalle determinista de la comprobación local, por ejemplo enlaces rotos.",
+          "type": ["object", "null"]
+        },
+        "notes": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "ref"],
+      "properties": {
+        "kind": {
+          "description": "Origen declarado de la evidencia.",
+          "type": "string",
+          "enum": ["user_report", "screenshot", "url"]
+        },
+        "ref": {
+          "description": "Ruta, URL o referencia de la evidencia. No se valida su contenido.",
+          "type": "string",
+          "minLength": 1
+        },
+        "captured_at": {
+          "type": ["string", "null"],
+          "format": "date-time"
+        }
+      }
+    },
+    "matrix_cell": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["construction", "destination_id", "expected_behavior", "status"],
+      "properties": {
+        "construction": {
+          "type": "string",
+          "minLength": 1
+        },
+        "destination_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "expected_behavior": {
+          "description": "Comportamiento que cabe esperar, declarado como expectativa y no como hecho comprobado.",
+          "type": "string",
+          "minLength": 1
+        },
+        "status": {
+          "description": "unverified por defecto. Un Markdown válido no demuestra que el destino lo conserve.",
+          "type": "string",
+          "enum": ["unverified", "pass", "fail"]
+        },
+        "limitation": {
+          "type": ["string", "null"]
+        }
+      }
+    }
+  }
+}

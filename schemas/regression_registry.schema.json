@@ -1,0 +1,117 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://notemartin-study-translate.local/schemas/regression_registry.schema.json",
+  "x-schema-version": "1.0.0",
+  "x-schema-version": "1.0.0",
+  "title": "Registro permanente de regresión",
+  "description": "Cada fallo conocido del proyecto tiene una entrada con un caso positivo y un caso negativo reproducibles (fase 141). El registro liga el fallo, su detector, la procedencia autorizada de los fixtures y los nodeids de pytest que prueban ambos lados.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["registry_version", "generated_by", "known_failures", "cases"],
+  "properties": {
+    "registry_version": {
+      "type": "string",
+      "pattern": "^\\d+$"
+    },
+    "generated_by": {
+      "type": "string",
+      "minLength": 1
+    },
+    "known_failures": {
+      "description": "Catálogo cerrado de fallos que el registro debe cubrir. Una entrada sin caso es un hueco y el gate falla.",
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "cases": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/case" }
+    }
+  },
+  "$defs": {
+    "case": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "case_id",
+        "known_failure",
+        "severity",
+        "detector",
+        "provenance",
+        "positive",
+        "negative",
+        "tests",
+        "phases"
+      ],
+      "properties": {
+        "case_id": { "type": "string", "minLength": 1 },
+        "known_failure": { "type": "string", "minLength": 1 },
+        "severity": { "enum": ["critical", "major", "minor"] },
+        "detector": {
+          "description": "Detector real que distingue el caso positivo del negativo. `kind` = builtin usa scripts/regression_detectors.py; `kind` = module delega en un script existente.",
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["kind", "name"],
+          "properties": {
+            "kind": { "enum": ["builtin", "module"] },
+            "name": { "type": "string", "minLength": 1 },
+            "delegates_to": { "type": "array", "items": { "type": "string" } },
+            "expected_finding": { "type": "string", "minLength": 1 }
+          }
+        },
+        "provenance": {
+          "description": "Solo `kind` lo exige el esquema. El resto de campos los exige scripts/regression_gate.py (código 6), que es quien decide qué es autorización suficiente.",
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["kind"],
+          "properties": {
+            "kind": { "enum": ["synthetic", "fixture_excerpt"] },
+            "source": { "type": "string", "minLength": 1 },
+            "license_note": { "type": "string", "minLength": 1 },
+            "anonymized": { "const": true },
+            "justification": {
+              "description": "Obligatorio para fixture_excerpt: por qué la construcción no se puede reproducir con un caso sintético.",
+              "type": "string",
+              "minLength": 8
+            }
+          }
+        },
+        "positive": { "$ref": "#/$defs/variant" },
+        "negative": { "$ref": "#/$defs/variant" },
+        "tests": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["positive", "negative"],
+          "properties": {
+            "positive": { "type": "string", "pattern": "^tests/[^:]+::[A-Za-z0-9_\\-\\[\\]\"'. ]+$" },
+            "negative": { "type": "string", "pattern": "^tests/[^:]+::[A-Za-z0-9_\\-\\[\\]\"'. ]+$" }
+          }
+        },
+        "phases": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "integer", "minimum": 1, "maximum": 150 }
+        }
+      }
+    },
+    "variant": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["fixture", "variant_key", "expectation"],
+      "properties": {
+        "fixture": {
+          "description": "Ruta relativa a la raíz del repo del fichero de fixture.",
+          "type": "string",
+          "pattern": "^tests/fixtures/[A-Za-z0-9_./\\-]+\\.json$"
+        },
+        "variant_key": {
+          "description": "Clave dentro del fixture que contiene la variante.",
+          "type": "string",
+          "minLength": 1
+        },
+        "expectation": { "enum": ["no_finding", "finding"] }
+      }
+    }
+  }
+}

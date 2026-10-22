@@ -1,0 +1,12 @@
+{
+  "case_id": "command_altered",
+  "case": {
+    "source": "Run the migration first:\n\n```bash\nnpx migrate run --tag=2026-10\n```\n\nThen set `DATABASE_URL` before starting.\n"
+  },
+  "positive": {
+    "text": "Ejecute primero la migración:\n\n```bash\nnpx migrate run --tag=2026-10\n```\n\nDespués defina `DATABASE_URL` antes de iniciar.\n"
+  },
+  "negative": {
+    "text": "Ejecute primero la migración:\n\n```bash\nnpx migrate run\n```\n\nDespués defina `DATABASE_URL` antes de iniciar.\n"
+  }
+}

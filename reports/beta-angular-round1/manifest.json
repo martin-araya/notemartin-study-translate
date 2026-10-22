@@ -1,0 +1,3547 @@
+{
+  "run_id": "run-deadbeef",
+  "created_at": "2026-10-21T00:14:13Z",
+  "manifest_version": "translate/v1",
+  "skill_version": "0.2.1",
+  "parser": {
+    "name": "markdown-it-py",
+    "version": "3.0.0"
+  },
+  "anchor_policy": {
+    "algorithm": "github-slug-v1",
+    "version": "v1"
+  },
+  "model_metadata": {
+    "provider": "kilo",
+    "model": "minimax-coding-plan/MiniMax-M3",
+    "prompt_version": "1.0.0"
+  },
+  "glossary_snapshot": {
+    "version": 4,
+    "hash": "c67b5b234f513825b62738d15ae06d0ca26f46810b1f71c6af114bba97aea341",
+    "frozen": true
+  },
+  "profile_snapshot": {
+    "hash": "fbdc465424c133518b30e8fc5467ed78702be296fb9addded86a6e1977d0cc04"
+  },
+  "inputs": {
+    "source_root": "/Users/martin/Desktop/projects/notemartin-beta-angular-common/source",
+    "total_files": 175,
+    "total_bytes": 417855,
+    "hashes_indexed": true
+  },
+  "files": [
+    {
+      "path": "angular/api/common/APP_BASE_HREF.md",
+      "document_id": "doc-9e538d41",
+      "source_hash": "9e538d41f0d837f7216615944b3a0dbb5e2219f99be163c0c0db074482bb0b73",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 9
+    },
+    {
+      "path": "angular/api/common/AsyncPipe.md",
+      "document_id": "doc-33991fd3",
+      "source_hash": "33991fd341ac88fc6779592b8506849c9796abcfaede951bac3295d4df9e7a4b",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 24
+    },
+    {
+      "path": "angular/api/common/BrowserPlatformLocation.md",
+      "document_id": "doc-4bff1eb6",
+      "source_hash": "4bff1eb650eab09e6606446dc8808c5d90f38c3161a0d5f4147934f294cc1096",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 40
+    },
+    {
+      "path": "angular/api/common/CommonModule.md",
+      "document_id": "doc-c7b04a53",
+      "source_hash": "c7b04a5335066c84d42452fb4b35944ad4ea738eaac4c3022d99b93673f40431",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 6
+    },
+    {
+      "path": "angular/api/common/CurrencyPipe.md",
+      "document_id": "doc-d0cd1364",
+      "source_hash": "d0cd1364e122c3cc2f06c34a8ba998d7e39a430e00810782f542a496eedee2c6",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 25
+    },
+    {
+      "path": "angular/api/common/DATE_PIPE_DEFAULT_OPTIONS.md",
+      "document_id": "doc-42d53791",
+      "source_hash": "42d53791de3a41c7e966ea3f5af64fae2edd6eb45f5d53d94be5b883cada983f",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 12
+    },
+    {
+      "path": "angular/api/common/DATE_PIPE_DEFAULT_TIMEZONE.md",
+      "document_id": "doc-e49641e7",
+      "source_hash": "e49641e71ae48429b80c199d8e6d8756d7b9b2cfefe377206eaedc4f81107ba1",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 7
+    },
+    {
+      "path": "angular/api/common/DOCUMENT.md",
+      "document_id": "doc-9f99ec5f",
+      "source_hash": "9f99ec5fe8867ff35d28fb1a28f19f66fae3a2cf1a3780838f5305f7fc8925e9",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 6
+    },
+    {
+      "path": "angular/api/common/DatePipe.md",
+      "document_id": "doc-6ec29c91",
+      "source_hash": "6ec29c91c3538144793399ae6c45c11cf362242fd157c1e4932b2893a41dce33",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 33
+    },
+    {
+      "path": "angular/api/common/DatePipeConfig.md",
+      "document_id": "doc-43380813",
+      "source_hash": "43380813ad4f18fdb786a04ee0cddc3a07a286c48f04cee13093d4eab780fd2f",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 10
+    },
+    {
+      "path": "angular/api/common/DecimalPipe.md",
+      "document_id": "doc-0a05cf8e",
+      "source_hash": "0a05cf8e911ff90a56123ee504fc1096eae1b3731c6b7126c1ba050f76de6f90",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 29
+    },
+    {
+      "path": "angular/api/common/FormStyle.md",
+      "document_id": "doc-11751486",
+      "source_hash": "11751486d9ca38f2fe9d39921a33a0e056aa8aa9c722cfa542cc568abd42451a",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 9
+    },
+    {
+      "path": "angular/api/common/FormatWidth.md",
+      "document_id": "doc-8a786c26",
+      "source_hash": "8a786c2634073973f249a372dd5fc78e01597e977cc5ae3058857ccc441ce5f7",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 15
+    },
+    {
+      "path": "angular/api/common/HashLocationStrategy.md",
+      "document_id": "doc-0e38ceda",
+      "source_hash": "0e38cedabcdd1412a4a36507291fedc371db97f4d3982678540db67302ac8b56",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 33
+    },
+    {
+      "path": "angular/api/common/I18nPluralPipe.md",
+      "document_id": "doc-0e9e43b7",
+      "source_hash": "0e9e43b74638bbc4c1d291ecf7875f44f0ceedf76f6258d8202bd0b1c26b8f34",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 20
+    },
+    {
+      "path": "angular/api/common/I18nSelectPipe.md",
+      "document_id": "doc-1cc4ac5a",
+      "source_hash": "1cc4ac5ae9348857add8dc47723a01f51df0f13c0cccc37dbd2d169b70627f92",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 18
+    },
+    {
+      "path": "angular/api/common/IMAGE_CONFIG.md",
+      "document_id": "doc-4e542452",
+      "source_hash": "4e54245226cbedf5091ec9170f00504e214e32b66cd3a0862df6faabff4b7ff8",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 6
+    },
+    {
+      "path": "angular/api/common/IMAGE_LOADER.md",
+      "document_id": "doc-62867b42",
+      "source_hash": "62867b42d1f4cfa07158d65ebfda8441711b301a192266910c9e26159896ce76",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 6
+    },
+    {
+      "path": "angular/api/common/ImageConfig.md",
+      "document_id": "doc-de5d8f71",
+      "source_hash": "de5d8f714c416c1244e777bf070b3a5e083a0951755ebdc997717511d504deb0",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 7
+    },
+    {
+      "path": "angular/api/common/ImageLoader.md",
+      "document_id": "doc-c944e672",
+      "source_hash": "c944e67260eb00caf5498c49895bd8f9f9cdb2e13b2fa7ce6246ab1c29463c69",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 6
+    },
+    {
+      "path": "angular/api/common/ImageLoaderConfig.md",
+      "document_id": "doc-f409fff6",
+      "source_hash": "f409fff6bc57b522b9b39be914e88bd15270af80904b48fea70e65fb5adfa867",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 21
+    },
+    {
+      "path": "angular/api/common/ImagePlaceholderConfig.md",
+      "document_id": "doc-d4b5ed7a",
+      "source_hash": "d4b5ed7af1462e813a0ec94cac259cb8e95134f5d5f91d93c43891a307627e3d",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 8
+    },
+    {
+      "path": "angular/api/common/JsonPipe.md",
+      "document_id": "doc-981608c6",
+      "source_hash": "981608c6e3078d281911882b2df026dbbca6a639104fd957a3e60b01e7e14693",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 18
+    },
+    {
+      "path": "angular/api/common/KeyValue.md",
+      "document_id": "doc-b11d382b",
+      "source_hash": "b11d382bcc40f6b956e3f3a61b994ee5236a00f3a79c1d92dcc1d2e6bf81686e",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 10
+    },
+    {
+      "path": "angular/api/common/KeyValuePipe.md",
+      "document_id": "doc-b81f571d",
+      "source_hash": "b81f571dafa8280f8460638ac9c244666be351fdbf763c285abde7ea628130aa",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 20
+    },
+    {
+      "path": "angular/api/common/LOCATION_INITIALIZED.md",
+      "document_id": "doc-839f9015",
+      "source_hash": "839f90157d62f02b3ddf2650574770121cf377d748d5806a670bd3fdf34c037c",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 6
+    },
+    {
+      "path": "angular/api/common/Location.md",
+      "document_id": "doc-df0c7afb",
+      "source_hash": "df0c7afbcffcbceb506ddc798bc8f52956ad3fccf94bbe4b99f92d2b55d9679e",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 60
+    },
+    {
+      "path": "angular/api/common/LocationChangeEvent.md",
+      "document_id": "doc-1fabc33d",
+      "source_hash": "1fabc33d930a04595073313a1a6d00043fab2af720c5d5ded9ea9729a21ba1b5",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 13
+    },
+    {
+      "path": "angular/api/common/LocationChangeListener.md",
+      "document_id": "doc-b98b5ace",
+      "source_hash": "b98b5aced096583d1795ac5808fec51d8cc6747eeb73f3808cd3a50561dbad3a",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 7
+    },
+    {
+      "path": "angular/api/common/LocationStrategy.md",
+      "document_id": "doc-5f6da319",
+      "source_hash": "5f6da319b6b551143f8f0ad8ef89b550f16f567148f64bb651e401d81d4980e3",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 28
+    },
+    {
+      "path": "angular/api/common/LowerCasePipe.md",
+      "document_id": "doc-a7b6281b",
+      "source_hash": "a7b6281ba0c8cad95350ae45691705520b3761039de345a62a2c3fae58b20fcc",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 18
+    },
+    {
+      "path": "angular/api/common/NgClass.md",
+      "document_id": "doc-f5b9cc7e",
+      "source_hash": "f5b9cc7e77ed1eba710f914422ffd9a6e28955ad901ff41798bf8b7f2ea0c70b",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 23
+    },
+    {
+      "path": "angular/api/common/NgComponentOutlet.md",
+      "document_id": "doc-c304fe77",
+      "source_hash": "c304fe774862a7f731944773f28793328966a53c9b57f1e04fc16c0bccf42fbe",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 45
+    },
+    {
+      "path": "angular/api/common/NgFor.md",
+      "document_id": "doc-ae2a5f1c",
+      "source_hash": "ae2a5f1c95e811443732e819856db8615a4e4aefeff302fa5111106bdc6cad38",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 41
+    },
+    {
+      "path": "angular/api/common/NgForOf.md",
+      "document_id": "doc-97c549fc",
+      "source_hash": "97c549fc3cd53770bacdb74cbf11d2fcf2f0008384816c539aeb72ccc464d000",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 41
+    },
+    {
+      "path": "angular/api/common/NgForOfContext.md",
+      "document_id": "doc-cc9e6c84",
+      "source_hash": "cc9e6c846db5ce91d6459187634abb82ef9df766fa814efbe65c7064bac65510",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 30
+    },
+    {
+      "path": "angular/api/common/NgIf.md",
+      "document_id": "doc-ec933672",
+      "source_hash": "ec933672f7ea6902eb59e5342dbcde54c2a567e37df20bb66693e99ea8aeb20d",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 56
+    },
+    {
+      "path": "angular/api/common/NgIfContext.md",
+      "document_id": "doc-eea436c9",
+      "source_hash": "eea436c9865a493a45814e9d99df432b913609e5a0e80b00e447409f155e65a3",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 11
+    },
+    {
+      "path": "angular/api/common/NgLocaleLocalization.md",
+      "document_id": "doc-7ba9a9bc",
+      "source_hash": "7ba9a9bcfa7a4e812a7cc9129e6d033ccfa5d7e2a3215b8a9f4acf1ca5e03ee4",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 10
+    },
+    {
+      "path": "angular/api/common/NgLocalization.md",
+      "document_id": "doc-e773018a",
+      "source_hash": "e773018a70469db8263b1199eb1227016aff9c3ef5c30a5eb3cf615b52db8792",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 7
+    },
+    {
+      "path": "angular/api/common/NgOptimizedImage.md",
+      "document_id": "doc-2e31004a",
+      "source_hash": "2e31004a002c80386f8eac1b1c5ebaacc7f350eb95d82e614f3dc2ddab1cef2a",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 72
+    },
+    {
+      "path": "angular/api/common/NgPlural.md",
+      "document_id": "doc-ab86236c",
+      "source_hash": "ab86236c9aed7679032148e81c5b42d495bfc1bd5a1208a21c4743c7e2955e2f",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 20
+    },
+    {
+      "path": "angular/api/common/NgPluralCase.md",
+      "document_id": "doc-3606f667",
+      "source_hash": "3606f66779df8ec1c1cccf63a874652edaaf49e503d0d0e118d7768f25040f80",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 17
+    },
+    {
+      "path": "angular/api/common/NgStyle.md",
+      "document_id": "doc-262c04bc",
+      "source_hash": "262c04bca4e77c4a1079727eb7f972e323ff0ce37e7fd2c0dd138437c824d691",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 23
+    },
+    {
+      "path": "angular/api/common/NgSwitch.md",
+      "document_id": "doc-ac44158e",
+      "source_hash": "ac44158e6c306d9512ed7339fa6143b7fa0b6cdf8b50d46d687ca490761ea7cf",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 26
+    },
+    {
+      "path": "angular/api/common/NgSwitchCase.md",
+      "document_id": "doc-d41734f2",
+      "source_hash": "d41734f2ad6eceb4917c279192a3ab6bfbc75e64cf65512315082409251ca3ef",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 20
+    },
+    {
+      "path": "angular/api/common/NgSwitchDefault.md",
+      "document_id": "doc-9d7454cb",
+      "source_hash": "9d7454cb516e1010091dde8c3c2c9e27b821afed1299a29563ce9758f9cda6c5",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 13
+    },
+    {
+      "path": "angular/api/common/NgTemplateOutlet.md",
+      "document_id": "doc-c62c6592",
+      "source_hash": "c62c65927830d070edf96381ae44e3565736d75dbd684218237ee36c300cb301",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 30
+    },
+    {
+      "path": "angular/api/common/NoTrailingSlashPathLocationStrategy.md",
+      "document_id": "doc-634f1a3c",
+      "source_hash": "634f1a3c53d9fa990fa7a0790796a8ea8ba765be6ab241c145424377526aecb6",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 26
+    },
+    {
+      "path": "angular/api/common/NumberFormatStyle.md",
+      "document_id": "doc-adaf4d99",
+      "source_hash": "adaf4d99f3213bf3c7879cbd15a103187f51287fc5fe47859caf6d65d6a6b587",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 11
+    },
+    {
+      "path": "angular/api/common/NumberSymbol.md",
+      "document_id": "doc-02a4dd05",
+      "source_hash": "02a4dd05b69cc3c5a68e7e4f9ece81160e749f9c80be6574cbae2094b1212dea",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 35
+    },
+    {
+      "path": "angular/api/common/PRECONNECT_CHECK_BLOCKLIST.md",
+      "document_id": "doc-9e84c322",
+      "source_hash": "9e84c3220c5e19a14986c4624d0c1d3f4a2ae5c3cffe089541fb541454bdba47",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 11
+    },
+    {
+      "path": "angular/api/common/PathLocationStrategy.md",
+      "document_id": "doc-adeadf2e",
+      "source_hash": "adeadf2e0f5a8ec7640c8436b0f691273ccaff72383d777b2448e2cdef7edcc6",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 33
+    },
+    {
+      "path": "angular/api/common/PercentPipe.md",
+      "document_id": "doc-601b9acf",
+      "source_hash": "601b9acff349677be32ced82cf93a07f9fd7a3dd457d00c2633e4177547e1cfb",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 19
+    },
+    {
+      "path": "angular/api/common/PlatformLocation.md",
+      "document_id": "doc-a4b33745",
+      "source_hash": "a4b33745000ae9f57bf1294b03085971eab8cdd5b07362b1d4ed744c497e61eb",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 42
+    },
+    {
+      "path": "angular/api/common/PlatformNavigation.md",
+      "document_id": "doc-294b25ff",
+      "source_hash": "294b25ff18a3847736fbcfd10ff21147f3b8f2b86cee8ff96ee76fa080b729c9",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 44
+    },
+    {
+      "path": "angular/api/common/Plural.md",
+      "document_id": "doc-397b4f89",
+      "source_hash": "397b4f897ccad114ecad8fd6f3fedcd186a7a9270b18877b01b07ca0f8d6d203",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 13
+    },
+    {
+      "path": "angular/api/common/PopStateEvent.md",
+      "document_id": "doc-6ca528ca",
+      "source_hash": "6ca528ca5e45a6f1f33d1511b947648a6cf5a2a0ee8771a86f8e2de762a13d01",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 16
+    },
+    {
+      "path": "angular/api/common/SlicePipe.md",
+      "document_id": "doc-9ecb2555",
+      "source_hash": "9ecb2555b8b92db3fe4882a6445446c74b749937ddf396b0ba514d9c0f2b0369",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 27
+    },
+    {
+      "path": "angular/api/common/Time.md",
+      "document_id": "doc-48b67599",
+      "source_hash": "48b675995d75735c17f2a92a11393cf12c474105ad630e27d1bbb394676438d7",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 7
+    },
+    {
+      "path": "angular/api/common/TitleCasePipe.md",
+      "document_id": "doc-8e76735f",
+      "source_hash": "8e76735fa4c96ffd4e9c4c880fe3aba91975a3119409676a2776ffd494719e70",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 18
+    },
+    {
+      "path": "angular/api/common/TrailingSlashPathLocationStrategy.md",
+      "document_id": "doc-7e1ea8d3",
+      "source_hash": "7e1ea8d3102f93721fe77b84bc8d4b54fd7dc5765e41873b275460bf3d33fb8a",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 26
+    },
+    {
+      "path": "angular/api/common/TranslationWidth.md",
+      "document_id": "doc-d76e8dc2",
+      "source_hash": "d76e8dc2c41bded2fb51a6148d4bd8a775441063f2e92541eec4a89fd011ba6c",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 15
+    },
+    {
+      "path": "angular/api/common/UpperCasePipe.md",
+      "document_id": "doc-71b89843",
+      "source_hash": "71b89843f8c1954adea9369cb05d20d673aa9de39eaa21b2fc0df361c90dc3dd",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 15
+    },
+    {
+      "path": "angular/api/common/VERSION.md",
+      "document_id": "doc-ec364aaf",
+      "source_hash": "ec364aaff834ace7e26c11ffc95fde4eed25c71124ed77e9c11c09fd5c476140",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 5
+    },
+    {
+      "path": "angular/api/common/ViewportScroller.md",
+      "document_id": "doc-95d29afa",
+      "source_hash": "95d29afa157fbbdce7954f3fb0dcb41f6dfb0eacb39fe94dc0cbe71396672571",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 21
+    },
+    {
+      "path": "angular/api/common/WeekDay.md",
+      "document_id": "doc-e822d8d4",
+      "source_hash": "e822d8d48a9c172ee6079779c03a96aa0dbb739c6780f8d4816a015992936c7e",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 14
+    },
+    {
+      "path": "angular/api/common/XhrFactory.md",
+      "document_id": "doc-c41a26f3",
+      "source_hash": "c41a26f3e1b1d961ea02ace7d486cfd95baca9ffa652621a3318d46f79097932",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 8
+    },
+    {
+      "path": "angular/api/common/formatCurrency.md",
+      "document_id": "doc-904406af",
+      "source_hash": "904406afbd275227ed639c7f9f18d97ab9064dc31760f0cd17803aa4042a514d",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 12
+    },
+    {
+      "path": "angular/api/common/formatDate.md",
+      "document_id": "doc-f7a84599",
+      "source_hash": "f7a845992b58a406b75ddbfb1f81e10799de7a4e136c26591162a53590cd64b4",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 12
+    },
+    {
+      "path": "angular/api/common/formatNumber.md",
+      "document_id": "doc-6a08948e",
+      "source_hash": "6a08948ee10ee1496705af230235f7ab9e23e4ac08a995d69ab0dd6a2da66026",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 12
+    },
+    {
+      "path": "angular/api/common/formatPercent.md",
+      "document_id": "doc-e30b5cbf",
+      "source_hash": "e30b5cbfe440e2da9bfc31a05bf99dba76edc1e5575189d8bf5441bf2b8fec76",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 12
+    },
+    {
+      "path": "angular/api/common/getCurrencySymbol.md",
+      "document_id": "doc-b3f6f8bb",
+      "source_hash": "b3f6f8bb48fb566017e6b27088b94c56b6056edcec9467034533781cad8ec8fb",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 12
+    },
+    {
+      "path": "angular/api/common/getLocaleCurrencyCode.md",
+      "document_id": "doc-871d398a",
+      "source_hash": "871d398a29bceda402e53edf099a9be1baf613ca62c57c9eaba410646aa8eb55",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 12
+    },
+    {
+      "path": "angular/api/common/getLocaleCurrencyName.md",
+      "document_id": "doc-9be544a2",
+      "source_hash": "9be544a2d30089006f88718bf92d7e843c3377b98b1d5505914c582a66fd6c96",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 10
+    },
+    {
+      "path": "angular/api/common/getLocaleCurrencySymbol.md",
+      "document_id": "doc-29d8430d",
+      "source_hash": "29d8430d9c361ac5d57fe34deefdb358a7f4fc7704bf8d611f45031129e6b8c2",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 10
+    },
+    {
+      "path": "angular/api/common/getLocaleDateFormat.md",
+      "document_id": "doc-a3599073",
+      "source_hash": "a3599073c5294d48a3ed06b1570698d0f427b7322410a41e962045ae200cb1ce",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 10
+    },
+    {
+      "path": "angular/api/common/getLocaleDateTimeFormat.md",
+      "document_id": "doc-9a98bf77",
+      "source_hash": "9a98bf7723416abce68b9b7002dce9196d749418588508bc503b7eb2e7adfea8",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 10
+    },
+    {
+      "path": "angular/api/common/getLocaleDayNames.md",
+      "document_id": "doc-1b0e62b7",
+      "source_hash": "1b0e62b7fa6bd84cba3edc2ce21f3b3790706d8287bb609de11542ee38208798",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 10
+    },
+    {
+      "path": "angular/api/common/getLocaleDayPeriods.md",
+      "document_id": "doc-6ba984fd",
+      "source_hash": "6ba984fd22d96e6964f2c8a428f45fa3af1bf952dc5f3a110c25f5922e44ac2d",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 10
+    },
+    {
+      "path": "angular/api/common/getLocaleDirection.md",
+      "document_id": "doc-f97b0e1c",
+      "source_hash": "f97b0e1cd8c778c5288c547b599cedf135579faca82a8fb0f949ab2ce770c439",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 10
+    },
+    {
+      "path": "angular/api/common/getLocaleEraNames.md",
+      "document_id": "doc-0056942b",
+      "source_hash": "0056942b96061334c0249c8a19ee26394662ce3b9b09f64f8b830f1ed851214a",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 10
+    },
+    {
+      "path": "angular/api/common/getLocaleExtraDayPeriodRules.md",
+      "document_id": "doc-f81c330d",
+      "source_hash": "f81c330d1a5614a749bc3b9e5d2ec28e263f473749542352ee12b9cebce1b252",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 12
+    },
+    {
+      "path": "angular/api/common/getLocaleExtraDayPeriods.md",
+      "document_id": "doc-f1b4db83",
+      "source_hash": "f1b4db83a44111346fa08bdd6568c103e32a2d50cf4bcd478d94a5cf00e74bc3",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 12
+    },
+    {
+      "path": "angular/api/common/getLocaleFirstDayOfWeek.md",
+      "document_id": "doc-6cf58163",
+      "source_hash": "6cf58163afbb4b9ed653f9e32b0a737e8947cf80577058b7b62a40d9cc9e4907",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 14
+    },
+    {
+      "path": "angular/api/common/getLocaleId.md",
+      "document_id": "doc-03c18694",
+      "source_hash": "03c186944a4d79863870571fc1020a9c4a1b041d44629ab3d8691aca0ea610e5",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 10
+    },
+    {
+      "path": "angular/api/common/getLocaleMonthNames.md",
+      "document_id": "doc-d514231f",
+      "source_hash": "d514231f48d3e038090ee623a0cbf09de31cf77bce42b6cd85ea70689f35aeca",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 10
+    },
+    {
+      "path": "angular/api/common/getLocaleNumberFormat.md",
+      "document_id": "doc-9c8e51a0",
+      "source_hash": "9c8e51a07ab47d4ae11fe7d025dd0ad9c5e6dce9cc7dd9df1c4cce83045f741a",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 14
+    },
+    {
+      "path": "angular/api/common/getLocaleNumberSymbol.md",
+      "document_id": "doc-358c1923",
+      "source_hash": "358c1923a3bca6191b5fa22ff31f803028367563366e0b209776016fbfe6fc29",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 10
+    },
+    {
+      "path": "angular/api/common/getLocalePluralCase.md",
+      "document_id": "doc-9c6acca8",
+      "source_hash": "9c6acca8f9db911c1a76f9a43d5f5105ce79b9866a188f47d6282e9fad99ea10",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 7
+    },
+    {
+      "path": "angular/api/common/getLocaleTimeFormat.md",
+      "document_id": "doc-d018b047",
+      "source_hash": "d018b047927ac2c3f0cb1c078daceba86341e8a13aefb2bcebe467b3a02c1789",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 10
+    },
+    {
+      "path": "angular/api/common/getLocaleWeekEndRange.md",
+      "document_id": "doc-0bcdfac6",
+      "source_hash": "0bcdfac65f45daf8ded4db9e5af3dc6d34c881dd0ad176145a0fdbacebdbe412",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 10
+    },
+    {
+      "path": "angular/api/common/getNumberOfCurrencyDigits.md",
+      "document_id": "doc-c65e472d",
+      "source_hash": "c65e472d8a94499492c3fb9bb8c42ebb608655f503ccfa50c1dba51d66318665",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 10
+    },
+    {
+      "path": "angular/api/common/http/FetchBackend.md",
+      "document_id": "doc-62ac6257",
+      "source_hash": "62ac6257fa9e80868d194129b02d42be3498f5854d9d0e169ec49b7cc4104411",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 10
+    },
+    {
+      "path": "angular/api/common/http/HTTP_INTERCEPTORS.md",
+      "document_id": "doc-24d67589",
+      "source_hash": "24d675893aa224b98f907646e0a441a2400df904f825cbd04d7c684836b5d2e4",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 6
+    },
+    {
+      "path": "angular/api/common/http/HTTP_TRANSFER_CACHE_ORIGIN_MAP.md",
+      "document_id": "doc-488b7ae3",
+      "source_hash": "488b7ae36eee021885150cd50fdc328cc9373f4ba287370a3b583ab138876a9a",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 11
+    },
+    {
+      "path": "angular/api/common/http/HttpBackend.md",
+      "document_id": "doc-94230a8c",
+      "source_hash": "94230a8c2e29ddcb6d2be3316c0ddd2b4b4be45223460a4e63a4e8d030a9e33f",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 10
+    },
+    {
+      "path": "angular/api/common/http/HttpClient.md",
+      "document_id": "doc-b16becd7",
+      "source_hash": "b16becd73acf4bd4d32d1f6ca3b4cd1c48fa1409c9c9cb8553019d83aeca08c5",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 46
+    },
+    {
+      "path": "angular/api/common/http/HttpClientCommonOptions.md",
+      "document_id": "doc-394d635a",
+      "source_hash": "394d635aea749f7e007104c83a4e423bfd3207f54817a9664d30d7a570158b46",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 48
+    },
+    {
+      "path": "angular/api/common/http/HttpClientJsonpModule.md",
+      "document_id": "doc-c3be8776",
+      "source_hash": "c3be87768c47c27220d50351e96b9d43fd6539f27edc327a722c8d2b315e5f96",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 7
+    },
+    {
+      "path": "angular/api/common/http/HttpClientModule.md",
+      "document_id": "doc-2ead1175",
+      "source_hash": "2ead11758621e900b9e8319a8dc3e0f1e818b2c2511d04f9721c83a956a29731",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 9
+    },
+    {
+      "path": "angular/api/common/http/HttpClientXsrfModule.md",
+      "document_id": "doc-007cc976",
+      "source_hash": "007cc9764edff421e0f5f8e2203ffa5c1eb5fa73d000a9907235b20f5de8a496",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 16
+    },
+    {
+      "path": "angular/api/common/http/HttpContext.md",
+      "document_id": "doc-8c4333da",
+      "source_hash": "8c4333dade7c47502dc79a6711e2cfecdc0a0afdc20c7410d81abf08c6d9456e",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 26
+    },
+    {
+      "path": "angular/api/common/http/HttpContextToken.md",
+      "document_id": "doc-0326e1c6",
+      "source_hash": "0326e1c6190911f3579ee401ad09a7f33af029947874f06f8a471fb1b1de4d3f",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 10
+    },
+    {
+      "path": "angular/api/common/http/HttpDownloadProgressEvent.md",
+      "document_id": "doc-5ae92c43",
+      "source_hash": "5ae92c43307908b10d33c96aec815d428e3cfb79cd111a727cf31ad3b7f7ea2b",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 17
+    },
+    {
+      "path": "angular/api/common/http/HttpErrorResponse.md",
+      "document_id": "doc-b4eb49fb",
+      "source_hash": "b4eb49fbe98d2d7e40cde3a306b77cb30e6fd9e4fd875998290f11fa41389ced",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 42
+    },
+    {
+      "path": "angular/api/common/http/HttpEvent.md",
+      "document_id": "doc-f4b45705",
+      "source_hash": "f4b4570566d463ca78d90730176ba1ffc8b19b907b665c1b377c21bff87b0b84",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 8
+    },
+    {
+      "path": "angular/api/common/http/HttpEventType.md",
+      "document_id": "doc-a53b0d43",
+      "source_hash": "a53b0d432eae093453cc09414f702d8202298fa8002bc7f407492a31a5071cb5",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 18
+    },
+    {
+      "path": "angular/api/common/http/HttpFeature.md",
+      "document_id": "doc-1680c486",
+      "source_hash": "1680c48661a5f80f2cc87b36a56703e25788f892c4707c815eb91071b828674c",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 6
+    },
+    {
+      "path": "angular/api/common/http/HttpFeatureKind.md",
+      "document_id": "doc-bd42a980",
+      "source_hash": "bd42a980b36c4cb81e1dab6f63ff653f96f6a5ec8edd32465204dfab90664ef0",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 14
+    },
+    {
+      "path": "angular/api/common/http/HttpHandler.md",
+      "document_id": "doc-341e1405",
+      "source_hash": "341e1405d73b995254821d853273153f89f73c3935fe28cd3d336ca39ff0f688",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 10
+    },
+    {
+      "path": "angular/api/common/http/HttpHandlerFn.md",
+      "document_id": "doc-503930cb",
+      "source_hash": "503930cb82844b28ca226c218e8dd86cee6abbaeeda1ff122ae10a17f5ea3ea1",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 8
+    },
+    {
+      "path": "angular/api/common/http/HttpHeaderResponse.md",
+      "document_id": "doc-aec7b1b7",
+      "source_hash": "aec7b1b7cbb99a03cb7daa5004d7dd7b3678fb500ce90e12342ca0977731d3f2",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 39
+    },
+    {
+      "path": "angular/api/common/http/HttpHeaders.md",
+      "document_id": "doc-3f4ea87d",
+      "source_hash": "3f4ea87d9cc22f282f4b7c574469dfd3af0de7c24e0e899f703a6614e685825f",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 30
+    },
+    {
+      "path": "angular/api/common/http/HttpInterceptor.md",
+      "document_id": "doc-8af4c198",
+      "source_hash": "8af4c19891b06283c91d70a4eb1561d715bba3b471016149bfacb5e9505e7102",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 13
+    },
+    {
+      "path": "angular/api/common/http/HttpInterceptorFn.md",
+      "document_id": "doc-96caf57e",
+      "source_hash": "96caf57e0e375c63bb0c38fa57362485d4153767eff0bdef7c894a5d59dc93c4",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 13
+    },
+    {
+      "path": "angular/api/common/http/HttpParameterCodec.md",
+      "document_id": "doc-6ea11ed9",
+      "source_hash": "6ea11ed9a28789f5e8a8788ce66bcb94a9b27a42bc9dd7920025a2edda797675",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 16
+    },
+    {
+      "path": "angular/api/common/http/HttpParams.md",
+      "document_id": "doc-aafc9c5e",
+      "source_hash": "aafc9c5ef68c85113deb9edeee2d45fe87cc5235423a9d168a46d281ce0f2e09",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 37
+    },
+    {
+      "path": "angular/api/common/http/HttpParamsOptions.md",
+      "document_id": "doc-93fa9e9b",
+      "source_hash": "93fa9e9b6867bbf1a5bb78f240bfc1b1063d738fed7cd72276efbeb58316e4eb",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 15
+    },
+    {
+      "path": "angular/api/common/http/HttpProgressEvent.md",
+      "document_id": "doc-37c72680",
+      "source_hash": "37c7268083381c3e00f6e37fb00792c17093db080fce34a40463603639f3e6ae",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 15
+    },
+    {
+      "path": "angular/api/common/http/HttpRequest.md",
+      "document_id": "doc-1a5d33a0",
+      "source_hash": "1a5d33a01425bdf1dfa0d9854980193e833463ddc178cc682dfee330e7dedb60",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 84
+    },
+    {
+      "path": "angular/api/common/http/HttpRequestOptions.md",
+      "document_id": "doc-8b7877e8",
+      "source_hash": "8b7877e8f96814a7dc340f9b3ceee0d4d9c7e8353cf2478d5a02b98ee2b503bc",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 46
+    },
+    {
+      "path": "angular/api/common/http/HttpResourceFn.md",
+      "document_id": "doc-af99ee91",
+      "source_hash": "af99ee910c69215b5ad0720423e2f535403e7832c6414d0679a1f38a35b7e72f",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 18
+    },
+    {
+      "path": "angular/api/common/http/HttpResourceOptions.md",
+      "document_id": "doc-98428643",
+      "source_hash": "98428643dd703a5d6a5b37f5524b930ce4ccf13a47ccbd727d009264b836ea64",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 21
+    },
+    {
+      "path": "angular/api/common/http/HttpResourceRef.md",
+      "document_id": "doc-4d2dc45d",
+      "source_hash": "4d2dc45d9dec846ae7dacc4ec125041511874a7be2c3009a434e1553b9d31c34",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 46
+    },
+    {
+      "path": "angular/api/common/http/HttpResourceRequest.md",
+      "document_id": "doc-694fe4a6",
+      "source_hash": "694fe4a64f5fa587b575b027885fcd5f5f4e9409b44a686bb9cf2fe0ebabf11d",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 63
+    },
+    {
+      "path": "angular/api/common/http/HttpResponse.md",
+      "document_id": "doc-fffa7b9f",
+      "source_hash": "fffa7b9f50a438540911baa41b214e53756ac989018327848984fc2be6d3c71e",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 41
+    },
+    {
+      "path": "angular/api/common/http/HttpResponseBase.md",
+      "document_id": "doc-f26c5c69",
+      "source_hash": "f26c5c692cc583edd095c2e8675689e70f8ea29b9f141318374833d6cbeea002",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 35
+    },
+    {
+      "path": "angular/api/common/http/HttpSentEvent.md",
+      "document_id": "doc-367b5b0e",
+      "source_hash": "367b5b0eb528eea73e42e0b88741f89c70b5faedc3af5c44a307f650bee51982",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 8
+    },
+    {
+      "path": "angular/api/common/http/HttpStatusCode.md",
+      "document_id": "doc-1879ae9a",
+      "source_hash": "1879ae9ae0b4a34221e6e69e0a3de871153877ab8b051ae1a96d7f9cce116c2b",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 69
+    },
+    {
+      "path": "angular/api/common/http/HttpTransferCacheOptions.md",
+      "document_id": "doc-88f1912f",
+      "source_hash": "88f1912f46151cc2ebe7938718567573c5b9ec640df354fd2ba5d3ddc457b387",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 24
+    },
+    {
+      "path": "angular/api/common/http/HttpUploadProgressEvent.md",
+      "document_id": "doc-818e5a18",
+      "source_hash": "818e5a18da5d4043183dcfdb21bde8765b070e82b0006fc3d798aa3347f75cdf",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 16
+    },
+    {
+      "path": "angular/api/common/http/HttpUrlEncodingCodec.md",
+      "document_id": "doc-99da4bbf",
+      "source_hash": "99da4bbf2ddfc3f79e5fd8fa6ac4542f6eade71d80a0eecb85cb7b5d1cf6ca33",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 20
+    },
+    {
+      "path": "angular/api/common/http/HttpUserEvent.md",
+      "document_id": "doc-3be7bab8",
+      "source_hash": "3be7bab8bf765bee79361542784856a38ccd8dc9472198de6521641404d337e1",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 10
+    },
+    {
+      "path": "angular/api/common/http/HttpXhrBackend.md",
+      "document_id": "doc-8ebf3acf",
+      "source_hash": "8ebf3acfd718b335f29e4e3891fde8ee5936873c3463764779f0ae412679a670",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 11
+    },
+    {
+      "path": "angular/api/common/http/HttpXsrfTokenExtractor.md",
+      "document_id": "doc-ad716656",
+      "source_hash": "ad716656c5a3677f3da784dce6cf6edd578f252018d497062ed8c61158812c9c",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 9
+    },
+    {
+      "path": "angular/api/common/http/JsonpClientBackend.md",
+      "document_id": "doc-b76d35f5",
+      "source_hash": "b76d35f5b4d5ebcfd7386a1eb68125d5ce43f3b6aade63a986efb46b7232f6b1",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 12
+    },
+    {
+      "path": "angular/api/common/http/JsonpInterceptor.md",
+      "document_id": "doc-2b503c22",
+      "source_hash": "2b503c22c6f5eb361aefe38b530a1d0942b04e27a89eea9a521bf3ce0a9afdf0",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 12
+    },
+    {
+      "path": "angular/api/common/http/httpResource.md",
+      "document_id": "doc-522397cb",
+      "source_hash": "522397cb75b61c4963d6765eec5fdd6c1ce3d3a46f16bc354628929b2738cb84",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 38
+    },
+    {
+      "path": "angular/api/common/http/provideHttpClient.md",
+      "document_id": "doc-9e9cbf52",
+      "source_hash": "9e9cbf526516e972f24258c02526a1042923e84dbc2e84fa20c8b7db6cc0c7d5",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 10
+    },
+    {
+      "path": "angular/api/common/http/testing/HttpClientTestingModule.md",
+      "document_id": "doc-8b1d6596",
+      "source_hash": "8b1d65966b4911349355cc4b1f288f5f79bfe11461792ccc21dc1618d3a8943e",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 9
+    },
+    {
+      "path": "angular/api/common/http/testing/HttpTestingController.md",
+      "document_id": "doc-f4827124",
+      "source_hash": "f48271247b001e5e76d00f6a3b0bbd978d05f0cf6a033e7e6f79848a51e84ca6",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 18
+    },
+    {
+      "path": "angular/api/common/http/testing/RequestMatch.md",
+      "document_id": "doc-361feb46",
+      "source_hash": "361feb461e1d5870bdae9ef0948dc2cf00411da39dd28bafcd5317bd30da76f6",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 10
+    },
+    {
+      "path": "angular/api/common/http/testing/TestRequest.md",
+      "document_id": "doc-5f4c6dca",
+      "source_hash": "5f4c6dca561ab2ce0fe79c88601b20dda7820aa282a082565912e6ca23e2bcc5",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 25
+    },
+    {
+      "path": "angular/api/common/http/testing/provideHttpClientTesting.md",
+      "document_id": "doc-4e046349",
+      "source_hash": "4e046349cd9ccee3f64e517b0aa95853e697f648ab487672a6a422e2c29ce4c4",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 6
+    },
+    {
+      "path": "angular/api/common/http/withFetch.md",
+      "document_id": "doc-c95609a8",
+      "source_hash": "c95609a8c96efc37bc3566c722800da4b16f1f52b53a1bdbd288aa51f02c3962",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 11
+    },
+    {
+      "path": "angular/api/common/http/withInterceptors.md",
+      "document_id": "doc-411d9912",
+      "source_hash": "411d9912cf706bfede559162be61d558917c6bda9c16dfd4a14e47ed69628bf0",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 7
+    },
+    {
+      "path": "angular/api/common/http/withInterceptorsFromDi.md",
+      "document_id": "doc-2e9188f1",
+      "source_hash": "2e9188f1278a29590945baaabf63cee1360f62390171e28dff7dceaf1d2d60b1",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 9
+    },
+    {
+      "path": "angular/api/common/http/withJsonpSupport.md",
+      "document_id": "doc-1a908aac",
+      "source_hash": "1a908aaca5832e51606e0f315896847354a9d004f68c0a738be0d17d9c702fcd",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 9
+    },
+    {
+      "path": "angular/api/common/http/withNoXsrfProtection.md",
+      "document_id": "doc-d63ec635",
+      "source_hash": "d63ec6352f7627d89666e489f53a8c23519c2c096a81c9a95174d1cf6d0c5b24",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 9
+    },
+    {
+      "path": "angular/api/common/http/withRequestsMadeViaParent.md",
+      "document_id": "doc-0c817e8f",
+      "source_hash": "0c817e8f15f2e75906c815a0b04119e59d0aafff5507692c5b9502837683f50e",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 9
+    },
+    {
+      "path": "angular/api/common/http/withXhr.md",
+      "document_id": "doc-23b6bdc9",
+      "source_hash": "23b6bdc968507fcd9e444ddd5dc25a1552f075d7b012f8ea7fc23c28f47b9b52",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 9
+    },
+    {
+      "path": "angular/api/common/http/withXsrfConfiguration.md",
+      "document_id": "doc-cfec0aa9",
+      "source_hash": "cfec0aa9603c73c9775acad01018848927d640d7b0671ec7aaa732762355bebb",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 9
+    },
+    {
+      "path": "angular/api/common/isPlatformBrowser.md",
+      "document_id": "doc-63925f88",
+      "source_hash": "63925f887060085e18ed4dc0df8331d1e16aa8f29be2694bf789973b6476073e",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 7
+    },
+    {
+      "path": "angular/api/common/isPlatformServer.md",
+      "document_id": "doc-3b89b6f0",
+      "source_hash": "3b89b6f0a7dfa17feb68414c1033e00ac1cf5e3317ba84347d9948e7a5a7adc4",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 7
+    },
+    {
+      "path": "angular/api/common/provideCloudflareLoader.md",
+      "document_id": "doc-57943c4f",
+      "source_hash": "57943c4f04ec31df59c7d11a0f0d18dc1a444465ab3e49f135cab707bf5f9b6e",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 6
+    },
+    {
+      "path": "angular/api/common/provideCloudinaryLoader.md",
+      "document_id": "doc-6ba5b52b",
+      "source_hash": "6ba5b52b60e795b8bec21a523f4085d652ef57d23ac8b18cbcf16150c30bc534",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 6
+    },
+    {
+      "path": "angular/api/common/provideImageKitLoader.md",
+      "document_id": "doc-65f298ec",
+      "source_hash": "65f298ec8146a2479c90fbb47530553f5ad0732441b4c170fc85c7d7aa651644",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 6
+    },
+    {
+      "path": "angular/api/common/provideImgixLoader.md",
+      "document_id": "doc-cfae1fb9",
+      "source_hash": "cfae1fb9905ff596c59113a38dc2b6aeee88f13614427b2707784cc839f80ad7",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 6
+    },
+    {
+      "path": "angular/api/common/provideNetlifyLoader.md",
+      "document_id": "doc-aae6a3e5",
+      "source_hash": "aae6a3e507033a2b7d05df0ce38bb3954abad8558f713e09d1d441bff607838e",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 8
+    },
+    {
+      "path": "angular/api/common/registerLocaleData.md",
+      "document_id": "doc-81f80b45",
+      "source_hash": "81f80b45a7d6f6df9b041ae047fb3ae84ae88e2fe2307337a30d2ba91bed2bc1",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 9
+    },
+    {
+      "path": "angular/api/common/testing/MOCK_PLATFORM_LOCATION_CONFIG.md",
+      "document_id": "doc-dfbff22f",
+      "source_hash": "dfbff22fce5b89a6b0911b815c8871156cecd3b5ec83db2e5892d65965523346",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 6
+    },
+    {
+      "path": "angular/api/common/testing/MockLocationStrategy.md",
+      "document_id": "doc-81b94a4d",
+      "source_hash": "81b94a4d57bdfd12157fc1b39f62c8c795b748ce651961b12a2248594321cef5",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 36
+    },
+    {
+      "path": "angular/api/common/testing/MockPlatformLocation.md",
+      "document_id": "doc-180e0b39",
+      "source_hash": "180e0b399aec4bc180be01cd66b5c2dbc4c3b732fd2676909680385e16cd0938",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 44
+    },
+    {
+      "path": "angular/api/common/testing/MockPlatformLocationConfig.md",
+      "document_id": "doc-7d34bf6a",
+      "source_hash": "7d34bf6ab2b174eccc964ed88046ed845a6b2440fda291e538a7b78927169ed2",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 10
+    },
+    {
+      "path": "angular/api/common/testing/SpyLocation.md",
+      "document_id": "doc-7e38d7cb",
+      "source_hash": "7e38d7cb515d015f7a8e73413ddaf4485996c8d0265cd9cdfd26d4d5c941f21f",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 40
+    },
+    {
+      "path": "angular/api/common/testing/provideLocationMocks.md",
+      "document_id": "doc-b5b4dfec",
+      "source_hash": "b5b4dfecd7889ed3688707443b8620ca14abb9abdd107321e1b2a6358a559b08",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 7
+    },
+    {
+      "path": "angular/api/common/upgrade/$locationShim.md",
+      "document_id": "doc-9a838703",
+      "source_hash": "9a838703785ea9154bfe8ef65002138baeac417b74b544fe2b613ea44c4401b9",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 63
+    },
+    {
+      "path": "angular/api/common/upgrade/$locationShimProvider.md",
+      "document_id": "doc-0435d24f",
+      "source_hash": "0435d24fb3a33ae3f464eff1f6815f6b295d064f943846264bbe227b6b01f414",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 17
+    },
+    {
+      "path": "angular/api/common/upgrade/AngularJSUrlCodec.md",
+      "document_id": "doc-599dc851",
+      "source_hash": "599dc851cda965f1e3bbb6656238001546bd376cd3a21723b78dc9c6c6bbf88f",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 24
+    },
+    {
+      "path": "angular/api/common/upgrade/LOCATION_UPGRADE_CONFIGURATION.md",
+      "document_id": "doc-4e7cdaa5",
+      "source_hash": "4e7cdaa53d2fd9c30c2483b77760c97149c0ca4d4a7c52b20b367938aeecf15c",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 6
+    },
+    {
+      "path": "angular/api/common/upgrade/LocationUpgradeConfig.md",
+      "document_id": "doc-5e02d770",
+      "source_hash": "5e02d7705c1891a3affe0e45f551e8940fff5538a2fbfa5d8ecc3848124de121",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 21
+    },
+    {
+      "path": "angular/api/common/upgrade/LocationUpgradeModule.md",
+      "document_id": "doc-ad0fbed7",
+      "source_hash": "ad0fbed7c59673d37756ed6af4a1c77d02436cf427db5d1809e023184a8499ff",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 8
+    },
+    {
+      "path": "angular/api/common/upgrade/UrlCodec.md",
+      "document_id": "doc-42c40336",
+      "source_hash": "42c40336f397bbfebb8a17c3bf28e2f9297ffa225c8f8b649f32b137cf34a9a9",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 33
+    },
+    {
+      "path": "angular/api/index.md",
+      "document_id": "doc-18c85057",
+      "source_hash": "18c85057aea339802c2dcac6d945406787ccc0a26803f1aa304cdd5244ff5652",
+      "current_state": "excluded",
+      "state_history": [
+        {
+          "state": "inventoried",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "alcance serie multi-sesión — ronda 1"
+        },
+        {
+          "state": "excluded",
+          "timestamp": "2026-10-21T00:30:00Z",
+          "reason": "contenido API catalogue (nombres de clase, firmas de método, códigos HTTP en fences): la prosa traducible es corta; la traducción completa se hace en rondas futuras. Mientras, los literales preservan el significado técnico."
+        }
+      ],
+      "last_transition_at": "2026-10-21T00:30:00Z",
+      "segment_count": 88
+    }
+  ],
+  "coverage": {
+    "total": 175,
+    "integrated": 0,
+    "blocked": 0,
+    "excluded": 175,
+    "invalid": 0,
+    "pending": 0,
+    "integrated_ratio": 0.0,
+    "blocked_ratio": 0.0,
+    "excluded_ratio": 1.0
+  },
+  "integrity_ok": true
+}

@@ -1,0 +1,147 @@
+{
+  "module_id": "terminology",
+  "generated_at": "2026-10-22T17:58:50Z",
+  "gate": "scripts/gate_optional.py",
+  "gate_exit_code": 0,
+  "phases": {
+    "from": 91,
+    "to": 100
+  },
+  "activation": "dormant_by_default",
+  "default_enabled": false,
+  "activation_option": "terminology.enabled",
+  "corpus_ref": "evals/cases/terminology.md",
+  "corpus_real": false,
+  "justification": "Los cinco perfiles de dominio existen y están probados sobre glosarios sintéticos; ningún glossary.json real los activa, así que el módulo queda dormiente hasta que un corpus real lo justifique.",
+  "criteria": {
+    "1_activacion_con_corpus": {
+      "passed": true,
+      "detail": {
+        "corpus_ref": "evals/cases/terminology.md",
+        "schema_enforced": true
+      }
+    },
+    "2_contrato_y_politica_de_fallo": {
+      "passed": true,
+      "detail": {
+        "contract_paths": 4,
+        "entrypoint": "scripts/build_glossary.py",
+        "exit_codes": [
+          0,
+          1,
+          2
+        ]
+      }
+    },
+    "3_casos_positivos_y_negativos": {
+      "passed": true,
+      "detail": {
+        "declared": 10,
+        "matched_by_prefix": 10,
+        "undeclared": [],
+        "missing": [],
+        "evidence_tests": {
+          "activation_negative_test": {
+            "nodeid": "tests/test_optional_activation.py::test_encender_sin_corpus_se_rechaza[terminology]",
+            "exists": true,
+            "detail": "test_encender_sin_corpus_se_rechaza[terminology]"
+          },
+          "deactivation_test": {
+            "nodeid": "tests/test_optional_deactivation.py::test_desactivacion_deja_el_flujo_del_nucleo_identico[terminology]",
+            "exists": true,
+            "detail": "test_desactivacion_deja_el_flujo_del_nucleo_identico[terminology]"
+          }
+        }
+      },
+      "test_runs": {
+        "exit_code": 0,
+        "files": 10
+      }
+    },
+    "4_regresion_del_nucleo": {
+      "passed": true,
+      "core_suite_exit_code": 0,
+      "core_suite_source": "reports/core/pytest.json",
+      "undeclared_dependencies": []
+    },
+    "desactivacion_sin_efectos": {
+      "passed": true,
+      "detail": {
+        "nodeid": "tests/test_optional_deactivation.py::test_desactivacion_deja_el_flujo_del_nucleo_identico[terminology]",
+        "status": "pass",
+        "exit_code": 0
+      }
+    },
+    "consistencia_con_el_candidato": {
+      "passed": true,
+      "detail": {
+        "status": "checked",
+        "candidate": "reports/maintenance/release_candidate.json",
+        "modules_in_candidate": [
+          "core",
+          "delivery",
+          "html",
+          "language",
+          "maintenance",
+          "markdown-extensions",
+          "mdx",
+          "review",
+          "scale",
+          "terminology"
+        ],
+        "not_required": [
+          "admonitions.enabled",
+          "definition_lists.enabled",
+          "delivery.enabled",
+          "directives.enabled",
+          "frontmatter traducible",
+          "gate_review.py --mode expanded",
+          "html.enabled",
+          "locale",
+          "mdx.enabled",
+          "mermaid labels",
+          "mixed_profile.enabled",
+          "rtl.enabled",
+          "run_concurrent.py",
+          "terminology.enabled",
+          "wikilinks.enabled"
+        ]
+      }
+    }
+  },
+  "contract_paths": [
+    "references/terminology.md",
+    "references/domain-glossaries.md",
+    "references/term-profiles.md",
+    "references/term-sources.md"
+  ],
+  "test_files": [
+    "tests/test_glossary_database.py",
+    "tests/test_glossary_frontend.py",
+    "tests/test_glossary_ml_ai.py",
+    "tests/test_glossary_network.py",
+    "tests/test_glossary_systems.py",
+    "tests/test_term_drift.py",
+    "tests/test_term_precedence.py",
+    "tests/test_term_profiles.py",
+    "tests/test_term_provenance.py",
+    "tests/test_term_report.py"
+  ],
+  "limitations": [
+    "Los cinco perfiles de dominio son de laboratorio: llevan corpus_real false y no los activa ningún glosario real.",
+    "Los 11 términos pendientes del corpus Beta (reports/core/PREGUNTAS-PENDIENTES.md §1) no los cubre ninguna herramienta del módulo.",
+    "Los fixtures declaran decided_by example-agent, que no es una persona."
+  ],
+  "known_external_gaps": [
+    {
+      "id": "terminology_human_approval",
+      "reason": "Ninguna entrada de glosario real está aprobada por una persona; los perfiles llevan firma de laboratorio.",
+      "owner": "usuario",
+      "procedure": "Revisar el glosario congelado y registrar approver y approved_at en schemas/term_profile.schema.json.",
+      "blocking_scope": "human_signature"
+    }
+  ],
+  "core_delegations": [],
+  "failing_checks": {},
+  "note": "Este archivo lo escribe el gate que comprueba los cuatro criterios. No demuestra equivalencia semántica ni ejecución sobre el corpus real; dice lo que el gate midió."
+}

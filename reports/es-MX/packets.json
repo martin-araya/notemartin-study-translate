@@ -1,0 +1,71 @@
+{
+  "source_root": "/Users/martin/Desktop/projects/Skills/notemartin-study-translate/tests/fixtures/es-mx",
+  "context_budget": 8000,
+  "markers": "§§",
+  "mixed_profile": null,
+  "generated_at": "2026-10-20T01:54:45Z",
+  "total_packets": 3,
+  "validation_errors": [],
+  "packets": [
+    {
+      "packet_id": "pack-2ab5aa3a",
+      "document_id": "doc-3e669e02",
+      "path": "web-css.md",
+      "owner": "pack-b6232267",
+      "markers": "§§",
+      "segments": [
+        "seg-9b64d533"
+      ],
+      "source_language": "mixed",
+      "non_emitible_context": [
+        "seg-e54c6ebd",
+        "seg-828278b1"
+      ],
+      "total_chars": 22,
+      "translatable_text": "Comentarios regionales",
+      "translatable_text_with_markers": "Comentarios regionales",
+      "overflow": false
+    },
+    {
+      "packet_id": "pack-25fe1e74",
+      "document_id": "doc-eb18368b",
+      "path": "web-html.md",
+      "owner": "pack-7f5fac1e",
+      "markers": "§§",
+      "segments": [
+        "seg-aa4f2d9f",
+        "seg-fb91abde"
+      ],
+      "source_language": "mixed",
+      "non_emitible_context": [
+        "seg-4d12430b",
+        "seg-b3ab5e6f",
+        "seg-f9e532f8",
+        "seg-985e2f3d"
+      ],
+      "total_chars": 30,
+      "translatable_text": "Formularios\n\nComentario regional",
+      "translatable_text_with_markers": "Formularios\n\nComentario regional",
+      "overflow": false
+    },
+    {
+      "packet_id": "pack-4dc1c583",
+      "document_id": "doc-4fe28e80",
+      "path": "web-javascript.md",
+      "owner": "pack-0a2f0e90",
+      "markers": "§§",
+      "segments": [
+        "seg-9f75bd70"
+      ],
+      "source_language": "mixed",
+      "non_emitible_context": [
+        "seg-b05427c6",
+        "seg-401b0a25"
+      ],
+      "total_chars": 19,
+      "translatable_text": "Comentario regional",
+      "translatable_text_with_markers": "Comentario regional",
+      "overflow": false
+    }
+  ]
+}

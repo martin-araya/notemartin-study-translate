@@ -1,0 +1,49 @@
+{
+  "generated_at": "2026-10-22T13:42:53Z",
+  "root": "/Users/martin/Desktop/projects/Skills/notemartin-study-translate",
+  "ok": true,
+  "checks": [
+    {
+      "check": "skill_frontmatter_name",
+      "ok": true,
+      "value": "notemartin-study-translate"
+    },
+    {
+      "check": "skill_frontmatter_description",
+      "ok": true,
+      "length": 465
+    },
+    {
+      "check": "skill_md_table_paths",
+      "ok": true
+    },
+    {
+      "check": "references_internal_links",
+      "ok": true
+    },
+    {
+      "check": "references_scripts",
+      "ok": true
+    },
+    {
+      "check": "requirements_pinned",
+      "ok": true,
+      "pinned": [
+        "markdown-it-py==3.0.0",
+        "jsonschema==4.25.1",
+        "pytest==8.4.2",
+        "langdetect==1.0.9"
+      ]
+    },
+    {
+      "check": "forbidden_artifacts",
+      "ok": true
+    }
+  ],
+  "install_profile": {
+    "system": "Hermes",
+    "path_expected": "~/.config/kilo/skills/notemartin-study-translate/",
+    "user_action_required": "Solicitar instalación manual al usuario siguiendo la documentación oficial de Hermes."
+  },
+  "user_action": "Distribución lista. La instalación real del paquete en un perfil de Hermes la realiza el usuario; la skill no se autoinstala."
+}

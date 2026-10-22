@@ -1,0 +1,38 @@
+{
+  "source_root": "tests/fixtures/scale",
+  "context_budget": 8000,
+  "markers": "§§",
+  "mixed_profile": null,
+  "generated_at": "2026-10-20T00:00:00Z",
+  "total_packets": 3,
+  "validation_errors": [],
+  "packets": [
+    {
+      "packet_id": "pack-eeee5555",
+      "document_id": "doc-eeee5555",
+      "path": "typescriptlang/handbook/2/intro.md",
+      "source_language": "en",
+      "translatable_text": "Introduction chapter. See [functions guide](functions.md).",
+      "translatable_text_with_markers": "Introduction chapter. See [functions guide](functions.md).",
+      "segments": ["seg-66666666"]
+    },
+    {
+      "packet_id": "pack-ffff6666",
+      "document_id": "doc-ffff6666",
+      "path": "typescriptlang/handbook/2/functions.md",
+      "source_language": "en",
+      "translatable_text": "Functions overview. See [intro chapter](intro.md).",
+      "translatable_text_with_markers": "Functions overview. See [intro chapter](intro.md).",
+      "segments": ["seg-77777777"]
+    },
+    {
+      "packet_id": "pack-gggg7777",
+      "document_id": "doc-gggg7777",
+      "path": "typescriptlang/handbook/2/types.md",
+      "source_language": "en",
+      "translatable_text": "Types declared with `let`. Unrelated.",
+      "translatable_text_with_markers": "Types declared with `let`. Unrelated.",
+      "segments": ["seg-88888888"]
+    }
+  ]
+}

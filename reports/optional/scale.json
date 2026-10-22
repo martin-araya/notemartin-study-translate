@@ -1,0 +1,154 @@
+{
+  "module_id": "scale",
+  "generated_at": "2026-10-22T17:58:50Z",
+  "gate": "scripts/gate_optional.py",
+  "gate_exit_code": 0,
+  "phases": {
+    "from": 111,
+    "to": 120
+  },
+  "activation": "dormant_by_default",
+  "default_enabled": false,
+  "activation_option": "run_concurrent.py, translation_cache.py",
+  "corpus_ref": "evals/cases/scale.md",
+  "corpus_real": true,
+  "justification": "El corpus real autorizado de 4832 archivos está declarado e inventariado; el módulo se activa por invocación explícita de run_concurrent.py o translation_cache.py, nunca por perfil.",
+  "criteria": {
+    "1_activacion_con_corpus": {
+      "passed": true,
+      "detail": {
+        "corpus_ref": "evals/cases/scale.md"
+      }
+    },
+    "2_contrato_y_politica_de_fallo": {
+      "passed": true,
+      "detail": {
+        "contract_paths": 6,
+        "entrypoint": "scripts/gate_scale.py",
+        "exit_codes": [
+          0,
+          1
+        ]
+      }
+    },
+    "3_casos_positivos_y_negativos": {
+      "passed": true,
+      "detail": {
+        "declared": 10,
+        "matched_by_prefix": 10,
+        "undeclared": [],
+        "missing": [],
+        "evidence_tests": {
+          "activation_negative_test": {
+            "nodeid": "tests/test_gate_optional.py::test_scale_no_acepta_activacion_sin_corpus",
+            "exists": true,
+            "detail": "test_scale_no_acepta_activacion_sin_corpus"
+          },
+          "deactivation_test": {
+            "nodeid": "tests/test_optional_deactivation.py::test_desactivacion_de_modulos_fuera_del_flujo[scale-entrypoints0]",
+            "exists": true,
+            "detail": "test_desactivacion_de_modulos_fuera_del_flujo[scale-entrypoints0]"
+          }
+        }
+      },
+      "test_runs": {
+        "exit_code": 0,
+        "files": 10
+      }
+    },
+    "4_regresion_del_nucleo": {
+      "passed": true,
+      "core_suite_exit_code": 0,
+      "core_suite_source": "reports/core/pytest.json",
+      "undeclared_dependencies": []
+    },
+    "desactivacion_sin_efectos": {
+      "passed": true,
+      "detail": {
+        "nodeid": "tests/test_optional_deactivation.py::test_desactivacion_de_modulos_fuera_del_flujo[scale-entrypoints0]",
+        "status": "pass",
+        "exit_code": 0
+      }
+    },
+    "consistencia_con_el_candidato": {
+      "passed": true,
+      "detail": {
+        "status": "checked",
+        "candidate": "reports/maintenance/release_candidate.json",
+        "modules_in_candidate": [
+          "core",
+          "delivery",
+          "html",
+          "language",
+          "maintenance",
+          "markdown-extensions",
+          "mdx",
+          "review",
+          "scale",
+          "terminology"
+        ],
+        "not_required": [
+          "admonitions.enabled",
+          "definition_lists.enabled",
+          "delivery.enabled",
+          "directives.enabled",
+          "frontmatter traducible",
+          "gate_review.py --mode expanded",
+          "html.enabled",
+          "locale",
+          "mdx.enabled",
+          "mermaid labels",
+          "mixed_profile.enabled",
+          "rtl.enabled",
+          "run_concurrent.py",
+          "terminology.enabled",
+          "wikilinks.enabled"
+        ]
+      }
+    }
+  },
+  "contract_paths": [
+    "references/scheduler-policy.md",
+    "references/worker-protocol.md",
+    "references/reviewer-protocol.md",
+    "references/concurrency-policy.md",
+    "references/serial-fallback.md",
+    "references/translation-cache.md"
+  ],
+  "test_files": [
+    "tests/test_concurrency_policy.py",
+    "tests/test_coordinator.py",
+    "tests/test_gate_scale.py",
+    "tests/test_invalidate_cache.py",
+    "tests/test_measure_execution.py",
+    "tests/test_reviewer_protocol.py",
+    "tests/test_schedule_packets.py",
+    "tests/test_serial_fallback.py",
+    "tests/test_translation_cache.py",
+    "tests/test_worker_protocol.py"
+  ],
+  "limitations": [
+    "El corpus completo no se ha ejecutado: reports/execution_profile_full.json no existe.",
+    "gate_scale.py solo se ha probado con manifiestos sintéticos, no sobre ejecuciones reales.",
+    "El backoff exponencial y la cola FIFO que describe concurrency-policy.md no están implementados; el módulo solo pausa por señal y conserva candidatos ya escritos."
+  ],
+  "known_external_gaps": [
+    {
+      "id": "scale_real_corpus_run",
+      "reason": "El modo concurrente no se ha ejecutado sobre los 4832 archivos del corpus real.",
+      "owner": "usuario",
+      "procedure": "Ejecutar run_serial.py y run_concurrent.py sobre el corpus autorizado y pasar gate_scale.py.",
+      "blocking_scope": "corpus_execution"
+    }
+  ],
+  "core_delegations": [
+    {
+      "from_script": "scripts/regression_detectors.py",
+      "imports": "translation_cache",
+      "kind": "regression",
+      "why": "El detector de caché incompatible delega en la clave de producción para no reimplementarla. Solo corre al pasar el gate de release."
+    }
+  ],
+  "failing_checks": {},
+  "note": "Este archivo lo escribe el gate que comprueba los cuatro criterios. No demuestra equivalencia semántica ni ejecución sobre el corpus real; dice lo que el gate midió."
+}

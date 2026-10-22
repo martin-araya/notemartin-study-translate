@@ -1,0 +1,736 @@
+{
+  "declaration_version": "1.0.0",
+  "generated_by": "manualmente; cada entrada declara un módulo, su contrato y su evidencia",
+  "core_suite_command": "python3 -m pytest tests -q",
+  "modules": [
+    {
+      "module_id": "mdx",
+      "title": "MDX",
+      "phases": {
+        "from": 61,
+        "to": 70
+      },
+      "activation": "dormant_by_default",
+      "default_enabled": false,
+      "activation_option": "mdx.enabled",
+      "enforcement": "schema",
+      "profile_keys": [
+        "mdx"
+      ],
+      "corpus_ref": "evals/cases/mdx.md",
+      "justification": "El corpus piloto autorizado contiene componentes MDX dentro de .md (Info y CodeGroup), de modo que prepare.py necesita distinguirlos del HTML genérico en lugar de bloquear todo lo que parezca una etiqueta.",
+      "corpus_real": true,
+      "contract_paths": [
+        "references/mdx-contract.md",
+        "references/mdx-attributes.md",
+        "references/mdx-review.md"
+      ],
+      "test_files": [
+        "tests/test_mdx_assemble.py",
+        "tests/test_mdx_attributes.py",
+        "tests/test_mdx_contract.py",
+        "tests/test_mdx_gate.py",
+        "tests/test_mdx_parser.py",
+        "tests/test_mdx_props.py",
+        "tests/test_mdx_protect.py",
+        "tests/test_mdx_review.py",
+        "tests/test_mdx_selector.py",
+        "tests/test_mdx_tabs.py"
+      ],
+      "test_prefixes": [
+        "test_mdx_"
+      ],
+      "activation_negative_test": "tests/test_optional_activation.py::test_encender_sin_corpus_se_rechaza[mdx]",
+      "deactivation_test": "tests/test_optional_deactivation.py::test_desactivacion_deja_el_flujo_del_nucleo_identico[mdx]",
+      "failure_policy": {
+        "entrypoint": "scripts/prepare.py",
+        "exit_codes": [
+          0,
+          2
+        ],
+        "documented_in": "references/mdx-contract.md"
+      },
+      "limitations": [
+        "No existe ningún archivo .mdx real en el repositorio: el corpus usa componentes MDX dentro de .md.",
+        "La evidencia es de clasificación y contrato, no de traducción completa con el módulo activo.",
+        "Los fixtures de tests/fixtures/mdx/ son sintéticos; el corpus que justifica la activación es el piloto."
+      ],
+      "known_external_gaps": [],
+      "core_delegations": [
+        {
+          "from_script": "scripts/prepare.py",
+          "imports": "mdx_selector",
+          "kind": "detector",
+          "why": "prepare.py necesita reconocer un componente MDX para bloquearlo cuando el módulo está apagado. Importa la librería pura del selector, no su CLI ni ningún estado del módulo."
+        }
+      ]
+    },
+    {
+      "module_id": "html",
+      "title": "HTML embebido",
+      "phases": {
+        "from": 71,
+        "to": 80
+      },
+      "activation": "dormant_by_default",
+      "default_enabled": false,
+      "activation_option": "html.enabled",
+      "enforcement": "schema",
+      "profile_keys": [
+        "html"
+      ],
+      "corpus_ref": "evals/cases/html.md",
+      "justification": "El módulo existe y está probado sobre fixtures declarados; la medición de evals/cases/html.md §1 concluye que los corpus autorizados no contienen HTML del contrato, así que no se activa sobre ellos.",
+      "corpus_real": false,
+      "contract_paths": [
+        "references/html-contract.md",
+        "references/html-attributes.md",
+        "references/html-compatibility.md"
+      ],
+      "test_files": [
+        "tests/test_html_assemble.py",
+        "tests/test_html_attributes.py",
+        "tests/test_html_classify.py",
+        "tests/test_html_contract.py",
+        "tests/test_html_gate.py",
+        "tests/test_html_malformed.py",
+        "tests/test_html_matrix.py",
+        "tests/test_html_parser.py",
+        "tests/test_html_release_gate.py",
+        "tests/test_html_selector.py",
+        "tests/test_html_tables.py"
+      ],
+      "test_prefixes": [
+        "test_html_"
+      ],
+      "activation_negative_test": "tests/test_optional_activation.py::test_encender_sin_corpus_se_rechaza[html]",
+      "deactivation_test": "tests/test_optional_deactivation.py::test_desactivacion_deja_el_flujo_del_nucleo_identico[html]",
+      "failure_policy": {
+        "entrypoint": "scripts/prepare.py",
+        "exit_codes": [
+          0,
+          2
+        ],
+        "documented_in": "references/html-contract.md"
+      },
+      "limitations": [
+        "El corpus que lo activa es sintético: los corpus autorizados contienen 0 etiquetas del contrato.",
+        "reports/pilot/profile.json y reports/beta/profile.json activaron html.enabled sin corpus que lo justificara; se declara como activación inmotivada y no se corrigen porque su hash está anclado en el manifiesto del piloto.",
+        "Conservar HTML no demuestra que el importador de destino lo soporte."
+      ],
+      "known_external_gaps": [
+        {
+          "id": "html_destination_parity",
+          "reason": "No hay evidencia de que un destino real conserve el HTML embebido como el contrato lo describe.",
+          "owner": "usuario",
+          "procedure": "Importar una muestra con el contrato y registrar el resultado con scripts/record_import_evidence.py.",
+          "blocking_scope": "remote_verification_claim"
+        }
+      ],
+      "core_delegations": [
+        {
+          "from_script": "scripts/prepare.py",
+          "imports": "html_parser",
+          "kind": "detector",
+          "why": "prepare.py necesita reconocer HTML embebido y sus violaciones de contrato para bloquearlas cuando el módulo está apagado. Importa el parser puro, no su CLI."
+        }
+      ]
+    },
+    {
+      "module_id": "markdown-extensions",
+      "title": "Extensiones opcionales de Markdown",
+      "phases": {
+        "from": 81,
+        "to": 90
+      },
+      "activation": "dormant_by_default",
+      "default_enabled": false,
+      "activation_option": "admonitions.enabled, definition_lists.enabled, directives.enabled, mermaid.labels, wikilinks.enabled, frontmatter_policy",
+      "enforcement": "schema",
+      "profile_keys": [
+        "admonitions",
+        "definition_lists",
+        "directives",
+        "mermaid",
+        "wikilinks",
+        "frontmatter_policy"
+      ],
+      "corpus_ref": "evals/cases/markdown-extensions.md",
+      "justification": "Cada sub-módulo se activa contra su fixture declarado; la medición de evals/cases/markdown-extensions.md §1 concluye que ninguno aparece en los corpus autorizados, así que ninguno se activa sobre ellos.",
+      "corpus_real": false,
+      "contract_paths": [
+        "references/markdown-contract.md",
+        "references/footnotes.md",
+        "references/admonitions.md",
+        "references/definition-lists.md",
+        "references/directives.md",
+        "references/mermaid-labels.md",
+        "references/math.md",
+        "references/wikilinks.md",
+        "references/frontmatter.md"
+      ],
+      "test_files": [
+        "tests/test_admonitions.py",
+        "tests/test_content_gates.py",
+        "tests/test_definition_lists.py",
+        "tests/test_dialect_matrix.py",
+        "tests/test_directives.py",
+        "tests/test_extension_combinations.py",
+        "tests/test_footnotes.py",
+        "tests/test_frontmatter_translate.py",
+        "tests/test_math.py",
+        "tests/test_mermaid_labels.py",
+        "tests/test_wikilinks.py"
+      ],
+      "test_prefixes": [
+        "test_admonitions",
+        "test_content_gates",
+        "test_definition_lists",
+        "test_dialect_matrix",
+        "test_directives",
+        "test_extension_combinations",
+        "test_footnotes",
+        "test_frontmatter_translate",
+        "test_math",
+        "test_mermaid_labels",
+        "test_wikilinks"
+      ],
+      "activation_negative_test": "tests/test_optional_activation.py::test_encender_sin_corpus_se_rechaza[admonitions]",
+      "deactivation_test": "tests/test_optional_deactivation.py::test_desactivacion_deja_el_flujo_del_nucleo_identico[admonitions]",
+      "failure_policy": {
+        "entrypoint": "scripts/prepare.py",
+        "exit_codes": [
+          0,
+          2
+        ],
+        "documented_in": "references/markdown-contract.md"
+      },
+      "limitations": [
+        "Footnotes y matemáticas no tienen interruptor: el núcleo los trata siempre, y su contract dice que están siempre activos.",
+        "Todos los fixtures del lote son sintéticos.",
+        "El corpus piloto declara una admonition que en realidad es un atributo de Pandoc dentro de un fence: la medición de evals/cases/markdown-extensions.md §1 lo corrige."
+      ],
+      "known_external_gaps": [],
+      "core_delegations": [
+        {
+          "from_script": "scripts/prepare.py",
+          "imports": "admonitions",
+          "kind": "detector",
+          "why": "prepare.py necesita la lista de tipos de admonition admitidos para distinguir una construcción conocida de una no soportada. Importa la constante del módulo, no su CLI."
+        },
+        {
+          "from_script": "scripts/prepare.py",
+          "imports": "directives",
+          "kind": "detector",
+          "why": "prepare.py necesita la lista de directivas conocidas para emitir unsupported_directive en lugar de descartar el hallazgo. Importa el extractor puro."
+        },
+        {
+          "from_script": "scripts/prepare.py",
+          "imports": "mermaid_adapter",
+          "kind": "detector",
+          "why": "prepare.py necesita el detector de Mermaid malformado para poder bloquearlo cuando se traduce etiquetas. Importa el detector puro."
+        }
+      ]
+    },
+    {
+      "module_id": "terminology",
+      "title": "Terminología por dominio",
+      "phases": {
+        "from": 91,
+        "to": 100
+      },
+      "activation": "dormant_by_default",
+      "default_enabled": false,
+      "activation_option": "terminology.enabled",
+      "enforcement": "schema",
+      "profile_keys": [
+        "terminology"
+      ],
+      "corpus_ref": "evals/cases/terminology.md",
+      "justification": "Los cinco perfiles de dominio existen y están probados sobre glosarios sintéticos; ningún glossary.json real los activa, así que el módulo queda dormiente hasta que un corpus real lo justifique.",
+      "corpus_real": false,
+      "contract_paths": [
+        "references/terminology.md",
+        "references/domain-glossaries.md",
+        "references/term-profiles.md",
+        "references/term-sources.md"
+      ],
+      "test_files": [
+        "tests/test_glossary_database.py",
+        "tests/test_glossary_frontend.py",
+        "tests/test_glossary_ml_ai.py",
+        "tests/test_glossary_network.py",
+        "tests/test_glossary_systems.py",
+        "tests/test_term_drift.py",
+        "tests/test_term_precedence.py",
+        "tests/test_term_profiles.py",
+        "tests/test_term_provenance.py",
+        "tests/test_term_report.py"
+      ],
+      "test_prefixes": [
+        "test_glossary_",
+        "test_term_"
+      ],
+      "activation_negative_test": "tests/test_optional_activation.py::test_encender_sin_corpus_se_rechaza[terminology]",
+      "deactivation_test": "tests/test_optional_deactivation.py::test_desactivacion_deja_el_flujo_del_nucleo_identico[terminology]",
+      "failure_policy": {
+        "entrypoint": "scripts/build_glossary.py",
+        "exit_codes": [
+          0,
+          1,
+          2
+        ],
+        "documented_in": "references/terminology.md"
+      },
+      "limitations": [
+        "Los cinco perfiles de dominio son de laboratorio: llevan corpus_real false y no los activa ningún glosario real.",
+        "Los 11 términos pendientes del corpus Beta (reports/core/PREGUNTAS-PENDIENTES.md §1) no los cubre ninguna herramienta del módulo.",
+        "Los fixtures declaran decided_by example-agent, que no es una persona."
+      ],
+      "known_external_gaps": [
+        {
+          "id": "terminology_human_approval",
+          "reason": "Ninguna entrada de glosario real está aprobada por una persona; los perfiles llevan firma de laboratorio.",
+          "owner": "usuario",
+          "procedure": "Revisar el glosario congelado y registrar approver y approved_at en schemas/term_profile.schema.json.",
+          "blocking_scope": "human_signature"
+        }
+      ],
+      "core_delegations": []
+    },
+    {
+      "module_id": "language",
+      "title": "Idioma y variantes regionales",
+      "phases": {
+        "from": 101,
+        "to": 110
+      },
+      "activation": "dormant_by_default",
+      "default_enabled": false,
+      "activation_option": "mixed_profile.enabled, locale",
+      "enforcement": "schema",
+      "profile_keys": [
+        "mixed_profile",
+        "locale",
+        "rtl"
+      ],
+      "corpus_ref": "evals/cases/pilot-fr.md",
+      "justification": "El par fr -> es tiene corpus CC0 declarado, una política de idioma de origen y una política de citas; el perfil fr-es-experimental-v1 lo exige para activarse.",
+      "corpus_real": false,
+      "contract_paths": [
+        "references/source-language-policy-fr.md",
+        "references/citations-policy.md",
+        "references/locale-policy.md",
+        "references/rtl-policy.md",
+        "references/reviewer-policy.md",
+        "references/dialect-profiles.md"
+      ],
+      "test_files": [
+        "tests/test_citations_policy.py",
+        "tests/test_detect_language.py",
+        "tests/test_eval_fr.py",
+        "tests/test_language_matrix.py",
+        "tests/test_locale_policy.py",
+        "tests/test_mixed_profile.py",
+        "tests/test_pilot_fr.py",
+        "tests/test_regional_eval.py",
+        "tests/test_reviewer_policy.py",
+        "tests/test_rtl_policy.py",
+        "tests/test_source_language_policy_fr.py"
+      ],
+      "test_prefixes": [
+        "test_citations_policy",
+        "test_detect_language",
+        "test_eval_fr",
+        "test_language_matrix",
+        "test_locale_policy",
+        "test_mixed_profile",
+        "test_pilot_fr",
+        "test_regional_eval",
+        "test_reviewer_policy",
+        "test_rtl_policy",
+        "test_source_language_policy_fr"
+      ],
+      "activation_negative_test": "tests/test_optional_activation.py::test_declarar_una_variante_regional_exige_corpus",
+      "deactivation_test": "tests/test_optional_deactivation.py::test_desactivacion_mixed_profile",
+      "failure_policy": {
+        "entrypoint": "scripts/detect_language.py",
+        "exit_codes": [
+          0,
+          2
+        ],
+        "documented_in": "references/source-language-policy-fr.md"
+      },
+      "limitations": [
+        "La revisión del par fr -> es es asistida: la fase 103 lleva el aviso hasta que un nativo en francés firme.",
+        "El corpus del par es CC0 derivado, no un volcado de Nextcloud real.",
+        "El render RTL no está comprobado: solo se preservan los bytes Unicode."
+      ],
+      "known_external_gaps": [
+        {
+          "id": "native_reviewer_signature",
+          "reason": "Fases 103, 109 y 110 sin firma nativa: 1 par humano de 3 exigidos.",
+          "owner": "revisor humano",
+          "procedure": "Revisar la muestra bilingüe y registrar la decisión en manifest.reviewers[] con reviewer_status human_approved.",
+          "blocking_scope": "human_signature"
+        }
+      ],
+      "core_delegations": []
+    },
+    {
+      "module_id": "scale",
+      "title": "Escala, concurrencia y caché",
+      "phases": {
+        "from": 111,
+        "to": 120
+      },
+      "activation": "dormant_by_default",
+      "default_enabled": false,
+      "activation_option": "run_concurrent.py, translation_cache.py",
+      "enforcement": "cli",
+      "profile_keys": [
+        "scale"
+      ],
+      "corpus_ref": "evals/cases/scale.md",
+      "justification": "El corpus real autorizado de 4832 archivos está declarado e inventariado; el módulo se activa por invocación explícita de run_concurrent.py o translation_cache.py, nunca por perfil.",
+      "corpus_real": true,
+      "contract_paths": [
+        "references/scheduler-policy.md",
+        "references/worker-protocol.md",
+        "references/reviewer-protocol.md",
+        "references/concurrency-policy.md",
+        "references/serial-fallback.md",
+        "references/translation-cache.md"
+      ],
+      "test_files": [
+        "tests/test_concurrency_policy.py",
+        "tests/test_coordinator.py",
+        "tests/test_gate_scale.py",
+        "tests/test_invalidate_cache.py",
+        "tests/test_measure_execution.py",
+        "tests/test_reviewer_protocol.py",
+        "tests/test_schedule_packets.py",
+        "tests/test_serial_fallback.py",
+        "tests/test_translation_cache.py",
+        "tests/test_worker_protocol.py"
+      ],
+      "test_prefixes": [
+        "test_concurrency_policy",
+        "test_coordinator",
+        "test_gate_scale",
+        "test_invalidate_cache",
+        "test_measure_execution",
+        "test_reviewer_protocol",
+        "test_schedule_packets",
+        "test_serial_fallback",
+        "test_translation_cache",
+        "test_worker_protocol"
+      ],
+      "activation_negative_test": "tests/test_gate_optional.py::test_scale_no_acepta_activacion_sin_corpus",
+      "deactivation_test": "tests/test_optional_deactivation.py::test_desactivacion_de_modulos_fuera_del_flujo[scale-entrypoints0]",
+      "failure_policy": {
+        "entrypoint": "scripts/gate_scale.py",
+        "exit_codes": [
+          0,
+          1
+        ],
+        "documented_in": "references/serial-fallback.md"
+      },
+      "limitations": [
+        "El corpus completo no se ha ejecutado: reports/execution_profile_full.json no existe.",
+        "gate_scale.py solo se ha probado con manifiestos sintéticos, no sobre ejecuciones reales.",
+        "El backoff exponencial y la cola FIFO que describe concurrency-policy.md no están implementados; el módulo solo pausa por señal y conserva candidatos ya escritos."
+      ],
+      "known_external_gaps": [
+        {
+          "id": "scale_real_corpus_run",
+          "reason": "El modo concurrente no se ha ejecutado sobre los 4832 archivos del corpus real.",
+          "owner": "usuario",
+          "procedure": "Ejecutar run_serial.py y run_concurrent.py sobre el corpus autorizado y pasar gate_scale.py.",
+          "blocking_scope": "corpus_execution"
+        }
+      ],
+      "core_delegations": [
+        {
+          "from_script": "scripts/regression_detectors.py",
+          "imports": "translation_cache",
+          "kind": "regression",
+          "why": "El detector de caché incompatible delega en la clave de producción para no reimplementarla. Solo corre al pasar el gate de release."
+        }
+      ]
+    },
+    {
+      "module_id": "review",
+      "title": "Revisión ampliada",
+      "phases": {
+        "from": 121,
+        "to": 130
+      },
+      "activation": "dormant_by_default",
+      "default_enabled": false,
+      "activation_option": "gate_review.py --mode expanded",
+      "enforcement": "cli",
+      "profile_keys": [
+        "review"
+      ],
+      "corpus_ref": "evals/cases/review.md",
+      "justification": "Las ocho herramientas del módulo están probadas sobre fixtures declarados, pero ninguna se ha ejecutado sobre el corpus piloto ni el Beta; el módulo exige --justification para encenderse.",
+      "corpus_real": false,
+      "contract_paths": [
+        "references/bilingual-report.md",
+        "references/findings-priority.md",
+        "references/decision-protocol.md",
+        "references/approval-freshness.md",
+        "references/inconsistency-report.md",
+        "references/residual-language.md",
+        "references/back-translation-eval.md",
+        "references/report-accessibility.md",
+        "references/log-redaction.md",
+        "references/review-gate.md"
+      ],
+      "test_files": [
+        "tests/test_approval_freshness.py",
+        "tests/test_decision_schema.py",
+        "tests/test_detect_residual_language.py",
+        "tests/test_eval_back_translation.py",
+        "tests/test_gate_review.py",
+        "tests/test_group_inconsistencies.py",
+        "tests/test_log_redaction.py",
+        "tests/test_prioritize_findings.py",
+        "tests/test_render_bilingual.py",
+        "tests/test_report_accessibility.py"
+      ],
+      "test_prefixes": [
+        "test_approval_freshness",
+        "test_decision_schema",
+        "test_detect_residual_language",
+        "test_eval_back_translation",
+        "test_gate_review",
+        "test_group_inconsistencies",
+        "test_log_redaction",
+        "test_prioritize_findings",
+        "test_render_bilingual",
+        "test_report_accessibility"
+      ],
+      "activation_negative_test": "tests/test_gate_optional.py::test_review_no_acepta_activacion_sin_corpus",
+      "deactivation_test": "tests/test_optional_deactivation.py::test_desactivacion_de_modulos_fuera_del_flujo[review-entrypoints1]",
+      "failure_policy": {
+        "entrypoint": "scripts/gate_review.py",
+        "exit_codes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "documented_in": "references/review-gate.md"
+      },
+      "limitations": [
+        "Ningún artefacto de este módulo existe en reports/: solo se ejecutó el detector de idioma residual, y su resultado fue negativo (273 falsos positivos).",
+        "Ningún manifiesto real tiene decisions[] ni approvals[], así que el modo expanded no se ha corrido sobre material real.",
+        "El módulo 129 (redacción de logs) no tiene check propio en el gate: el código 6 cubre accesibilidad de informes."
+      ],
+      "known_external_gaps": [
+        {
+          "id": "live_back_translation",
+          "reason": "La retrotraducción solo se ha ejecutado en modo seco.",
+          "owner": "usuario",
+          "procedure": "Ejecutar eval_back_translation.py en modo live con el proveedor autorizado.",
+          "blocking_scope": "human_signature"
+        }
+      ],
+      "core_delegations": []
+    },
+    {
+      "module_id": "delivery",
+      "title": "Entrega local y paquete",
+      "phases": {
+        "from": 131,
+        "to": 140
+      },
+      "activation": "dormant_by_default",
+      "default_enabled": false,
+      "activation_option": "delivery.enabled",
+      "enforcement": "schema",
+      "profile_keys": [
+        "delivery"
+      ],
+      "corpus_ref": "evals/cases/delivery.md",
+      "justification": "El perfil plain-markdown-local declara justificación concreta y se aplica sobre tests/fixtures/delivery/canonical/; sobre el corpus piloto no hay reglas que dispararse.",
+      "corpus_real": false,
+      "contract_paths": [
+        "references/delivery-contract.md",
+        "references/delivery-gate.md",
+        "references/delivery-matrix.md",
+        "references/delivery-notion-checklist.md"
+      ],
+      "test_files": [
+        "tests/test_adapt_delivery.py",
+        "tests/test_compare_delivery.py",
+        "tests/test_delivery_docs.py",
+        "tests/test_delivery_guide.py",
+        "tests/test_delivery_matrix.py",
+        "tests/test_export_zip.py",
+        "tests/test_gate_delivery.py",
+        "tests/test_import_evidence.py"
+      ],
+      "test_prefixes": [
+        "test_adapt_delivery",
+        "test_compare_delivery",
+        "test_delivery_",
+        "test_export_zip",
+        "test_gate_delivery",
+        "test_import_evidence"
+      ],
+      "activation_negative_test": "tests/test_optional_activation.py::test_encender_sin_corpus_se_rechaza[delivery]",
+      "deactivation_test": "tests/test_optional_deactivation.py::test_desactivacion_deja_el_flujo_del_nucleo_identico[delivery]",
+      "failure_policy": {
+        "entrypoint": "scripts/gate_delivery.py",
+        "exit_codes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "documented_in": "references/delivery-gate.md"
+      },
+      "limitations": [
+        "Nadie ha importado en Notion: remote_status sigue en no_verificado.",
+        "El segundo destino es un adaptador interno y declara real_app_evidence false.",
+        "La evidencia de activación es un corpus sintético declarado, no material real."
+      ],
+      "known_external_gaps": [
+        {
+          "id": "notion_import_evidence",
+          "reason": "No existe importación real comprobada en Notion: solo el checklist y el contrato.",
+          "owner": "usuario",
+          "procedure": "Importar una muestra con references/delivery-notion-checklist.md y registrar la evidencia con scripts/record_import_evidence.py.",
+          "blocking_scope": "remote_verification_claim"
+        },
+        {
+          "id": "second_delivery_destination",
+          "reason": "No hay un destino de entrega real distinto del árbol canónico.",
+          "owner": "usuario",
+          "procedure": "Elegir un destino de references/delivery-matrix.md y ejecutar una entrega real.",
+          "blocking_scope": "remote_verification_claim"
+        }
+      ],
+      "core_delegations": [
+        {
+          "from_script": "scripts/regression_detectors.py",
+          "imports": "compare_delivery",
+          "kind": "regression",
+          "why": "El detector de pérdida de contenido delega en la comparación de producción para no reimplementar la clasificación. Solo corre al pasar el gate de release."
+        },
+        {
+          "from_script": "scripts/regression_detectors.py",
+          "imports": "validate_zip_package",
+          "kind": "regression",
+          "why": "El detector de escape de ruta delega en el validador de paquete de producción. Solo corre al pasar el gate de release."
+        }
+      ]
+    },
+    {
+      "module_id": "maintenance",
+      "title": "Mantenimiento y release",
+      "phases": {
+        "from": 141,
+        "to": 150
+      },
+      "activation": "opt_in",
+      "default_enabled": false,
+      "activation_option": "scripts/gate_extended.py, scripts/regression_gate.py",
+      "enforcement": "cli",
+      "profile_keys": [
+        "maintenance"
+      ],
+      "corpus_ref": "evals/cases/maintenance.md",
+      "justification": "El corpus permanente de regresión está declarado y se ejecuta con --reproduce; el gate extendido comprueba afirmaciones, no calidad de traducción.",
+      "corpus_real": false,
+      "contract_paths": [
+        "references/regression-corpus.md",
+        "references/versioning-policy.md",
+        "references/manifest-migration.md",
+        "references/parser-upgrade.md",
+        "references/model-variation.md",
+        "references/content-audit.md",
+        "references/portability.md",
+        "references/workdir-retention.md",
+        "references/release-gate.md"
+      ],
+      "test_files": [
+        "tests/test_audit_docs.py",
+        "tests/test_compare_parser.py",
+        "tests/test_manifest_migration.py",
+        "tests/test_model_variation.py",
+        "tests/test_portability.py",
+        "tests/test_purge_workdir.py",
+        "tests/test_regression_cases.py",
+        "tests/test_regression_registry.py",
+        "tests/test_release_candidate.py",
+        "tests/test_release_docs_0_4_0.py",
+        "tests/test_versioning_policy.py"
+      ],
+      "test_prefixes": [
+        "test_audit_docs",
+        "test_compare_parser",
+        "test_manifest_migration",
+        "test_model_variation",
+        "test_portability",
+        "test_purge_workdir",
+        "test_regression_cases",
+        "test_regression_registry",
+        "test_release_candidate",
+        "test_versioning_policy",
+        "test_release_docs_0_4_0"
+      ],
+      "activation_negative_test": "tests/test_gate_optional.py::test_maintenance_no_acepta_activacion_sin_corpus",
+      "deactivation_test": "tests/test_optional_deactivation.py::test_desactivacion_de_modulos_fuera_del_flujo[maintenance-entrypoints2]",
+      "failure_policy": {
+        "entrypoint": "scripts/gate_extended.py",
+        "exit_codes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "documented_in": "references/release-gate.md"
+      },
+      "limitations": [
+        "Los 22 casos de regresión son sintéticos: sus hashes no corresponden a ningún artefacto real.",
+        "Windows queda en design_only y la variación entre modelos tiene una sola ejecución registrada.",
+        "Este módulo no es opcional en la práctica: sus herramientas comprueban el release y no se pueden apagar."
+      ],
+      "known_external_gaps": [
+        {
+          "id": "windows_execution",
+          "reason": "Windows queda en design_only: no hay máquina ni imagen para ejecutarlo.",
+          "owner": "equipo de mantenimiento",
+          "procedure": "Ejecutar la suite en Windows y adjuntar el informe de sonda.",
+          "blocking_scope": "platform_execution"
+        },
+        {
+          "id": "second_model_run",
+          "reason": "Solo hay una ejecución real registrada; la comparación entre modelos necesita dos.",
+          "owner": "usuario",
+          "procedure": "Traducir el piloto con otro modelo y registrarlo con scripts/record_model_run.py.",
+          "blocking_scope": "human_signature"
+        }
+      ],
+      "core_delegations": []
+    }
+  ]
+}
