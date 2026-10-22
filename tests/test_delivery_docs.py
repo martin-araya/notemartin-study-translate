@@ -10,6 +10,10 @@ Comprueba que el cierre documental del lote existe y es coherente:
 - `roadmap.md` marca las diez fases de la sección N y documenta el
   lote en N1 con el gate G-EXT-N.
 - Ningún documento afirma verificación remota que no exista.
+
+`roadmap.md` es un documento de trabajo del mantenedor y no forma parte
+del paquete publicado: las pruebas que lo leen se saltan, con motivo
+explícito, cuando no está en el árbol.
 """
 
 from __future__ import annotations
@@ -17,12 +21,19 @@ from __future__ import annotations
 import re
 from pathlib import Path
 
+import pytest
+
 ROOT = Path(__file__).resolve().parent.parent
 SKILL = ROOT / "SKILL.md"
 CHANGELOG = ROOT / "CHANGELOG.md"
 RELEASE = ROOT / "RELEASE.md"
 ROADMAP = ROOT / "roadmap.md"
 HANDOFF = ROOT / "references" / "notion-handoff.md"
+
+REQUIERE_ROADMAP = pytest.mark.skipif(
+    not ROADMAP.is_file(),
+    reason="roadmap.md no se publica: documento de trabajo local del mantenedor",
+)
 
 NEW_REFERENCES = (
     "references/delivery-notion-checklist.md",
@@ -90,6 +101,7 @@ def test_release_documenta_lo_que_no_afirma() -> None:
     assert "real_app_evidence: false" in text
 
 
+@REQUIERE_ROADMAP
 def test_roadmap_marca_las_diez_fases_de_la_seccion_n() -> None:
     text = ROADMAP.read_text(encoding="utf-8")
     for phase in range(131, 141):
@@ -97,6 +109,7 @@ def test_roadmap_marca_las_diez_fases_de_la_seccion_n() -> None:
         assert re.search(pattern, text), f"la fase {phase} no tiene glifo en la sección N"
 
 
+@REQUIERE_ROADMAP
 def test_roadmap_documenta_la_ejecucion_n1_y_su_gate() -> None:
     text = ROADMAP.read_text(encoding="utf-8")
     assert "### N1. Implementación 131–140" in text
@@ -110,7 +123,10 @@ def test_ningun_documento_afirma_importacion_verificada() -> None:
     assert "Estado actual de la verificación remota" in handoff
 
     forbidden = ("importación verificada en Notion", "soportado en Notion")
-    for rel in NEW_REFERENCES + ("RELEASE.md", "CHANGELOG.md", "roadmap.md"):
+    publicados = list(NEW_REFERENCES) + ["RELEASE.md", "CHANGELOG.md"]
+    if ROADMAP.is_file():
+        publicados.append("roadmap.md")
+    for rel in publicados:
         text = (ROOT / rel).read_text(encoding="utf-8")
         for phrase in forbidden:
             assert phrase not in text, f"{rel} afirma {phrase!r}"

@@ -2,6 +2,10 @@
 
 Comprueban que el acta, el changelog, el roadmap y la skill digan lo mismo
 que la evidencia, y que ninguno afirme nada que la evidencia no sostenga.
+
+`roadmap.md` es un documento de trabajo del mantenedor y no forma parte
+del paquete publicado: las pruebas que lo leen se saltan, con motivo
+explícito, cuando no está en el árbol.
 """
 
 from __future__ import annotations
@@ -12,11 +16,20 @@ import subprocess
 import sys
 from pathlib import Path
 
+import pytest
+
 ROOT = Path(__file__).resolve().parent.parent
 
 ACTA = ROOT / "evals" / "release" / "RELEASE_NOTES_0.2.0.md"
 CANDIDATE = ROOT / "reports" / "maintenance" / "release_candidate.json"
 GATE = ROOT / "reports" / "maintenance" / "gate_extended.json"
+
+ROADMAP = ROOT / "roadmap.md"
+
+REQUIERE_ROADMAP = pytest.mark.skipif(
+    not ROADMAP.is_file(),
+    reason="roadmap.md no se publica: documento de trabajo local del mantenedor",
+)
 
 SECTION_O = ["141", "142", "143", "144", "145", "146", "147", "148", "149", "150"]
 
@@ -26,7 +39,7 @@ def _text(path: Path) -> str:
 
 
 def _roadmap_section() -> str:
-    text = _text(ROOT / "roadmap.md")
+    text = _text(ROADMAP)
     start = text.index("### O. Extensiones opcionales")
     end = text.index("### O1.", start)
     return text[start:end]
@@ -160,6 +173,7 @@ def test_el_candidato_no_afirma_lo_que_no_puede_sostener() -> None:
 # roadmap, changelog y skill
 # --------------------------------------------------------------------------
 
+@REQUIERE_ROADMAP
 def test_el_roadmap_marca_las_diez_fases_de_la_seccion_o() -> None:
     section = _roadmap_section()
     rows = [line for line in section.splitlines() if line.startswith("| 14") or line.startswith("| 15")]
@@ -169,12 +183,14 @@ def test_el_roadmap_marca_las_diez_fases_de_la_seccion_o() -> None:
         assert "✅" in row, f"la fase {number} no tiene glifo de completada"
 
 
+@REQUIERE_ROADMAP
 def test_el_roadmap_tiene_la_subseccion_o1() -> None:
-    assert "### O1." in _text(ROOT / "roadmap.md")
+    assert "### O1." in _text(ROADMAP)
 
 
+@REQUIERE_ROADMAP
 def test_el_roadmap_tiene_el_gate_ext_o() -> None:
-    text = _text(ROOT / "roadmap.md")
+    text = _text(ROADMAP)
     assert "### G-EXT-O" in text
     assert "[x] Corpus permanente de regresión" in text
 

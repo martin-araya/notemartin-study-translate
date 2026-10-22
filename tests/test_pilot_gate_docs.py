@@ -3,6 +3,11 @@
 Cada casilla de `### G-PILOT` del roadmap debe tener su artefacto de
 evidencia. Si alguien borra un reporte, cambia el manifiesto aprobado o
 revierte el estado del caso piloto, estas pruebas fallan.
+
+`roadmap.md` es un documento de trabajo del mantenedor y no forma parte
+del paquete publicado. Las pruebas que lo leen se saltan, con motivo
+explícito, cuando el archivo no está en el árbol; las que comprueban la
+evidencia en `reports/pilot/` siguen ejecutándose siempre.
 """
 
 from __future__ import annotations
@@ -10,9 +15,16 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
+import pytest
+
 ROOT = Path(__file__).resolve().parent.parent
 
 ROADMAP = ROOT / "roadmap.md"
+
+REQUIERE_ROADMAP = pytest.mark.skipif(
+    not ROADMAP.is_file(),
+    reason="roadmap.md no se publica: documento de trabajo local del mantenedor",
+)
 PILOT_CASE = ROOT / "evals" / "cases" / "pilot.md"
 SUMMARY = ROOT / "reports" / "pilot" / "summary.md"
 EVIDENCE = (
@@ -34,10 +46,12 @@ def _gate_section() -> str:
     return text[start:end]
 
 
+@REQUIERE_ROADMAP
 def test_el_roadmap_tiene_la_seccion_de_g_pilot() -> None:
     assert "### G-PILOT, fase 030" in ROADMAP.read_text(encoding="utf-8")
 
 
+@REQUIERE_ROADMAP
 def test_las_cuatro_casillas_de_g_pilot_estan_marcadas() -> None:
     section = _gate_section()
     boxes = [line for line in section.splitlines() if line.startswith("- [")]
@@ -46,6 +60,7 @@ def test_las_cuatro_casillas_de_g_pilot_estan_marcadas() -> None:
     assert pendientes == [], pendientes
 
 
+@REQUIERE_ROADMAP
 def test_cada_casilla_cita_su_evidencia() -> None:
     for line in _gate_section().splitlines():
         if line.startswith("- [x]"):
@@ -132,12 +147,14 @@ def test_el_resumen_no_declara_lo_que_no_se_comprobo() -> None:
         assert frase in text
 
 
+@REQUIERE_ROADMAP
 def test_la_cabecera_del_roadmap_no_dice_que_nada_esta_implementado() -> None:
     text = ROADMAP.read_text(encoding="utf-8")
     assert "implementación pendiente" not in text.split("## 1.")[0]
     assert "Ninguna fase está implementada" not in text.split("## 1.")[0]
 
 
+@REQUIERE_ROADMAP
 def test_el_roadmap_aclara_que_significa_un_glifo_de_fase() -> None:
     text = ROADMAP.read_text(encoding="utf-8")
     assert "Un ✅ en la tabla de fases significa" in text

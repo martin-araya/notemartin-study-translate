@@ -4,6 +4,37 @@ Todas las entradas siguen el formato "qué cambió, por qué y cómo se
 verifica". Los números de fase corresponden al roadmap de este
 proyecto.
 
+## Publicación
+
+### Sin versión — el paquete queda publicable en un directorio de skills
+
+El árbol se distribuyó durante meses con un `README.md` de una línea, sin
+licencia y con doce pruebas en rojo en cualquier clon. Para un directorio
+público eso son tres afirmaciones falsas sobre el propio paquete: que no
+tiene guía de uso, que nadie puede reutilizarlo legalmente y que su suite
+pasa.
+
+- `README.md`: guía de instalación (`npx skills add`), requisitos,
+  qué hace y qué no hace, estructura, verificación, estado y límites, con
+  un resumen en inglés para la ficha del directorio.
+- `LICENSE`: MIT. Sin archivo, GitHub mostraba "all rights reserved" y
+  nadie podía reutilizar la skill legalmente.
+- `.gitignore`: cachés de Python, artefactos prohibidos por
+  `check_distribution.py` y salidas locales de corrida.
+- `references/semantic-review.md` aparecía en el árbol sin que ningún
+  documento lo mencionara, y la regla 6 de `audit_docs.py` lo señalaba.
+  Ahora está en la tabla §6 de `SKILL.md` y citado en el paso 8 del
+  procedimiento.
+- `roadmap.md` es un documento de trabajo del mantenedor y nunca se
+  publicó. Doce pruebas lo leían y fallaban en cada clon. Ahora se saltan
+  con motivo explícito cuando el archivo no está; las que comprueban la
+  evidencia en `reports/pilot/` siguen ejecutándose.
+
+Verificación: `python3 -m pytest tests -q` deja 1286 en verde y 12
+saltadas con motivo; `check_distribution.py`, `audit_docs.py` (83
+documentos, 61 referencias, 5 reglas) y `check_versioning.py` (skill
+0.4.0, 15 esquemas) devuelven 0.
+
 ## Núcleo estable (no publicado)
 
 ### 0.4.0 — G-EXT verificado en los nueve módulos opcionales

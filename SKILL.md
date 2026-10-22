@@ -44,7 +44,7 @@ Resumen del flujo definido en `references/workflow.md`. Cada paso produce un art
 5. **Traducción por unidades.** Procesar cada paquete con su contexto de lectura. Cada respuesta se identifica por `segment_id`. No se reconstruye el documento completo a partir de recuerdos. `receive_translations.py` valida la respuesta y la persiste: rechaza IDs ajenos, segmentos ausentes, marcadores desequilibrados y literales perdidos, y retira los marcadores `§§…§§` antes de escribir. La traducción se persiste en `translations/<clave>.json`, donde la clave es `document_id` salvo que ese identificador colisione entre rutas, en cuyo caso es `translation_id` (`scripts/translation_key.py`). Verificar con `scripts/inject_translation_ids.py` que no queda ninguna colisión antes de traducir: dos archivos byte a byte idénticos comparten `document_id` y `segment_id`, y sin desambiguar una traducción pisaría a la otra sin aviso.
 6. **Ensamblado.** Aplicar parches sobre rangos autorizados. Copiar recursos preservando rutas y bytes.
 7. **Estado del manifiesto.** `advance_state.py --translations <dir>` solo avanza a un estado de trabajo los documentos que tienen traducción persistida. Sin ese flag no se comprueba evidencia y la herramienta puede fabricar progreso.
-8. **Revisión semántica separada.** Contrastar cada segmento contra el original con la rúbrica de `evals/rubric.md`. No autocertificar la propia traducción.
+8. **Revisión semántica separada.** Contrastar cada segmento contra el original siguiendo `references/semantic-review.md`, que aplica la rúbrica de `evals/rubric.md` sobre cada unidad traducible. No autocertificar la propia traducción.
 9. **Gate y entrega.** Verificar el gate global con `schemas/manifest.schema.json`. `export.py` revalida antes de promover: si el corpus está incompleto, no escribe `output_root`. Solo entonces se promociona.
 
 ## §5 · Invariantes clave
@@ -66,6 +66,7 @@ Rutas que existen en este árbol, ordenadas por rol:
 |---|---|
 | `references/workflow.md` | Flujo operativo completo, paso a paso. |
 | `references/markdown-contract.md` | Dialecto soportado, construcciones bloqueantes y matriz de presencia. |
+| `references/semantic-review.md` | Revisión semántica por unidad: qué se revisa, en qué orden y con qué rúbrica. |
 | `references/operation.md` | Confianza de entrada, privacidad, permisos y comportamiento adversarial. |
 | `references/notion-handoff.md` | Qué se entrega y qué se excluye del árbol importable a Notion. |
 | `references/delivery-notion-checklist.md` | Checklist de importación de muestra y evidencia que debe aportar el usuario (131). |

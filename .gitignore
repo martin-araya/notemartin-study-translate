@@ -1,0 +1,29 @@
+# Bytecode y cachés de Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Artefactos de empaque prohibidos por scripts/check_distribution.py
+*.tmp
+*.partial
+*.zip
+
+# Salidas locales de corridas (el workdir nunca se versiona)
+work/
+workdir/
+output/
+dist/
+*.dist_report.json
+dist_report.json
+
+# Sistema operativo y editores
+.DS_Store
+.idea/
+.vscode/
+
+# Entorno local
+.env
+.venv/
+venv/
